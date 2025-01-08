@@ -1,0 +1,36 @@
+on init
+#add for TrustedCore driver
+    chmod 0400 /dev/honor_his_teelog
+
+#for tui thread in tee_auth_daemon
+    chown system system /sys/kernel/tui/c_state
+
+service teecd /vendor/bin/teecd
+    class early_hal
+    user root
+    group root system readproc
+    seclabel u:r:tee:s0
+
+service libteec-3-0 /vendor/bin/hw/vendor.honor.hardware.libteec@3.0-service
+    class early_hal
+    user system
+    group system readproc
+
+#secure os tee agent
+service teeauth /system_ext/bin/tee_auth_daemon
+    socket tui_daemon stream 660 system system
+    socket tee-multi-user stream 660 system system
+    class early_hal
+    user system
+    group system readproc
+    seclabel u:r:system_teecd:s0
+
+service teelogcat /vendor/bin/tlogcat -f
+    class late_start
+    user root
+    group system
+    disable
+    seclabel u:r:tlogcat:s0
+on post-fs-data
+    restorecon /mnt/vendor/persist
+    restorecon_recursive /mnt/vendor/persist

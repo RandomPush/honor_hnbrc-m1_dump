@@ -1,0 +1,8 @@
+
+# Enable passthrough feature of FUSE
+on property:persist.sys.fuse=true
+    setprop persist.sys.fuse.passthrough.enable 1
+
+on init
+    wait /dev/block/platform/soc/112b0000.ufshci
+    symlink /dev/block/platform/soc/112b0000.ufshci /dev/block/bootdevice

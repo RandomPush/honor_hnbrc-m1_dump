@@ -1,0 +1,44 @@
+<comrilconfig>
+    <config switch="1" timer="3">
+        <failcause>
+            <item cause="503"/>
+            <item cause="3001"/>
+        </failcause>
+        <plmnlist>
+            <item plmn="46000"/>
+            <item plmn="46001"/>
+            <item plmn="46002"/>
+            <item plmn="46006"/>
+            <item plmn="46007"/>
+            <item plmn="46008"/>
+            <item plmn="46009"/>
+        </plmnlist>
+    </config>
+    <smartCureconfig nrSmartCureSwitch="1">
+        <nrSmartCureCloseNr>
+            <item nrSmartCureEndcRelSwitch="1"/>
+            <item relNrB1LimitTime="300"/>
+            <item relInterTime="60"/>
+            <item relLowerRsrpThresh="-110"/>
+            <item relLowerSnrThresh="10"/>
+            <item relLteRsrpThresh="-110"/>
+            <item relLteSnrThresh="10"/>
+            <item relNrRsrpThresh="-105"/>
+            <item relNrSinrThresh="0"/>
+        </nrSmartCureCloseNr>
+        <discardTimerCfg>
+            <item discardTimer="900"/>
+        </discardTimerCfg>
+        <nrDataOutOnly>
+            <item dataOutOnlyMrLimitLen="300"/>
+            <item dataOutOnlyUeCapLimitLen="300"/>
+            <item dataOutOnlyNumLow="1"/>
+            <item dataOutOnlyNumHigh="0"/>
+            <item dataOutOnlyLteCureSwitch="1"/>
+            <item dataOutOnlyBadCellLimitTimeLen="300"/>
+            <item dataOutOnlyLowerRsrpThresh="-105"/>
+            <item dataOutOnlySaLimitSwitch="300"/>
+        </nrDataOutOnly>
+    </smartCureconfig>
+</comrilconfig>
+

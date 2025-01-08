@@ -1,0 +1,14 @@
+import /vendor/etc/init/hw/init.mtkgki.rc
+import /vendor/etc/init/bms_nvm.rc
+
+on load_system_cfg
+    mkdir /mnt/vendor/nvcfg
+    mount ext4 /dev/block/by-name/nvcfg /mnt/vendor/nvcfg rw wait
+    chown system system /mnt/vendor/nvcfg
+    chmod 0771 /mnt/vendor/nvcfg
+    restorecon_recursive /mnt/vendor/nvcfg
+    write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
+    write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
+    write /sys/power/pm_async 0
+    start fuelgauged
+    start fuelgauged_nvram

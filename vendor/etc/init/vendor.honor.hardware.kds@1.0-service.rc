@@ -1,0 +1,7 @@
+service kds-hal-1-0 /vendor/bin/hw/vendor.honor.hardware.kds@1.0-service
+    interface vendor.honor.hardware.kds@1.1::IKds kds
+    interface vendor.honor.hardware.kds@1.0::IKds kds
+    class hal
+    user system
+    group system readproc
+    disabled

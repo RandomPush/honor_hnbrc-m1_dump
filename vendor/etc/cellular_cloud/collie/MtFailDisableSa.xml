@@ -1,0 +1,17 @@
+<MtFailDisableSa>
+    <PLMN group="46000,46002,46004,46007,46008">
+        <switch>1</switch>
+        <screenOnTimeLen>180000</screenOnTimeLen>
+        <screenOffTimeLen>3600000</screenOffTimeLen>
+    </PLMN>
+    <PLMN group="46001,46006,46009">
+        <switch>1</switch>
+        <screenOnTimeLen>180000</screenOnTimeLen>
+        <screenOffTimeLen>3600000</screenOffTimeLen>
+    </PLMN>
+    <PLMN group="46003,46011">
+        <switch>1</switch>
+        <screenOnTimeLen>180000</screenOnTimeLen>
+        <screenOffTimeLen>3600000</screenOffTimeLen>
+    </PLMN>
+</MtFailDisableSa>

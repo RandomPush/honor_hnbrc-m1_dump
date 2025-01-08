@@ -1,0 +1,9 @@
+on early-boot
+     start sop-hal-1-0
+
+service sop-hal-1-0 /vendor/bin/hw/vendor.honor.hardware.sop@1.0-service
+    class core
+    user system
+    group system log
+    oneshot
+

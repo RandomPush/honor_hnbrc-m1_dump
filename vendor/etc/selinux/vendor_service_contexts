@@ -1,0 +1,25 @@
+#line 1 "device/mediatek/sepolicy/bsp/non_plat/service_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+android.hardware.neuralnetworks.IDevice/mtk-gpu_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-dsp_shim    u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-mdla_shim   u:object_r:hal_neuralnetworks_service:s0
+android.hardware.neuralnetworks.IDevice/mtk-neuron_shim u:object_r:hal_neuralnetworks_service:s0
+#line 1 "vendor/honor/chipset/base/sepolicy/service_contexts"
+vendor.honor.hardware.securecamera.ISecureCamera/default           u:object_r:hal_seccamera_service:s0
+
+vendor.honor.hardware.hnchipsrvlog.IHnChipSrvLog/hnchipsrv_log           u:object_r:honor_hnchipsrv_log_service:s0
+vendor.honor.hardware.hnchipsrvhertz.IHnChipSrvHertz/hnchipsrv_hertz     u:object_r:honor_hnchipsrv_hertz_service:s0
+vendor.honor.hardware.hnchipsrvsat.IHnChipSrvSat/hnchipsrv_sat     u:object_r:honor_hnchipsrv_sat_service:s0
+#line 1 "vendor/honor/chipset/mtk/base/sepolicy/common/service_contexts"
+vendor.honor.hardware.keyboardservice.IKeyboardService/default u:object_r:hal_keyboard_service:s0
+
+vendor.honor.hardware.camlight.ILuxService/default u:object_r:hal_camlight_service:s0
+
+# DTS2022081560966 p00012723 CHR_RIL_ARCHITECTURE:send raw data to CHR from RIL begin
+vendor.honor.hardware.radio_radar.IRadioRadar/slot1           u:object_r:honor_radio_radar_service:s0
+vendor.honor.hardware.radio_radar.IRadioRadar/slot2           u:object_r:honor_radio_radar_service:s0
+# DTS2022081560966 p00012723 CHR_RIL_ARCHITECTURE:send raw data to CHR from RIL end
+

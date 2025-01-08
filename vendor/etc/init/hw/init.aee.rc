@@ -1,0 +1,48 @@
+on post-fs-data
+
+    mkdir /data/vendor/aee_exp 0775 root root
+    mkdir /data/vendor/log 0775 root root
+    mkdir /data/vendor/log/mtklog 0775 root root
+    mkdir /data/vendor/log/mtklog/aee_exp 0775 root root
+    mkdir /data/vendor/dumpsys 0775 system system
+    mkdir /data/vendor/core 0775 system system
+    mkdir /data/vendor/tombstones 0775 system system
+    mkdir /data/vendor/log/mtklog/aee_exp/misc_file 0775 root root
+
+on post-fs-data && property:ro.vendor.aee.convert64=*
+    start backup_logbuf
+    trigger aee_start
+
+on property:init.svc.backup_logbuf=stopped
+    start hn_aee
+
+on property:init.svc.hn_aee=stopped && property:ro.vendor.aee.convert64=0
+    start aee_aedv
+
+on aee_start && property:ro.logsystem.usertype=3
+    start aee_aedv64
+
+on aee_start && property:ro.logsystem.usertype=5
+    start aee_aedv64
+
+on property:init.svc.hn_aee=stopped && property:ro.vendor.aee.convert64=1
+    start aee_aedv64_v2
+
+on init
+    setprop ro.vendor.aee.build.info customer
+
+on property:ro.vendor.aeev.dynamic.switch=disable && property:ro.vendor.aee.convert64=0
+    stop aee_aedv
+    stop aee_aedv64
+
+on property:ro.vendor.aeev.dynamic.switch=disable && property:ro.vendor.aee.convert64=1
+    stop aee_aedv64_v2
+
+on property:sys.boot_completed=1
+    setprop persist.vendor.aeev.log.status 1
+
+on property:persist.vendor.aeev.boot.reason.status=done && property:ro.vendor.aee.convert64=0
+    start aeev_set_last_shutdown
+
+on property:persist.vendor.aeev.boot.reason.status=done && property:ro.vendor.aee.convert64=1
+    start aeev_set_last_shutdown_v2

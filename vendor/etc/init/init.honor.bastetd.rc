@@ -1,0 +1,14 @@
+#for data service
+service bastetd /system/bin/bastetd
+    class main
+    user root
+    group system root
+    disabled
+
+on property:odm.bastet.service.enable=true
+    start bastetd
+
+on init
+    setprop odm.bastet.service.enable true
+
+

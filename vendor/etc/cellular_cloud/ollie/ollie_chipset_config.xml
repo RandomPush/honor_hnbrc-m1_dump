@@ -1,0 +1,35 @@
+<datacChipsetConfig>
+    <networkQoe
+        advancedQoeAlgorithmSwitch="0">
+    </networkQoe>
+    <dataAcceleration
+        interfaceVersion="1">
+    </dataAcceleration>
+    <dsdaManagerConfig
+        dsdaFirstFeatureSwitch="1">
+        <bandconfig
+            MainSimNetState="6"
+            MainSimBand="41"
+            SlaveSimNetState="6"
+            SlaveSimBand="*"/>
+        <bandconfig
+            MainSimNetState="6"
+            MainSimBand="78"
+            SlaveSimNetState="6"
+            SlaveSimBand="*"/>
+        <fullScreenApk packageName="com.tencent.tmgp.pubgmhd"/>
+        <fullScreenApk packageName="com.tencent.tmgp.speedmobile"/>
+        <fullScreenApk packageName="com.tencent.tmgp.sgame"/>
+        <fullScreenApk packageName="com.tencent.tmgp.cf"/>
+        <fullScreenApk packageName="com.netease.hyxd"/>
+        <fullScreenApk packageName="com.tencent.tmgp.jxqy"/>
+        <fullScreenApk packageName="com.tencent.tmgp.cod"/>
+        <fullScreenApk packageName="com.tencent.tmgp.dnf"/>
+        <fullScreenApk packageName="com.netease.lztg"/>
+        <fullScreenApk packageName="com.tencent.af"/>
+        <fullScreenApk packageName="com.tencent.KiHan"/>
+        <fullScreenApk packageName="com.tencent.lolm"/>
+        <fullScreenApk packageName="com.tencent.jkchess"/>
+        <fullScreenApk packageName="com.tencent.tmgp.WePop"/>
+    </dsdaManagerConfig>
+</datacChipsetConfig>

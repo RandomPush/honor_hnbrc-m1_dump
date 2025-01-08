@@ -1,0 +1,22 @@
+service hn_ocp /vendor/bin/hn_ocp
+    class late_start
+    user root
+    group system root debuggerd
+    disabled
+    oneshot
+    seclabel u:r:hn_ocp:s0
+
+service hn_ocp_post /vendor/bin/hn_ocp -post
+    class late_start
+    user root
+    group system root log debuggerd
+    disabled
+    oneshot
+    seclabel u:r:hn_ocp:s0
+
+
+on property:init.svc.aee_aedv=running
+    start hn_ocp_post
+
+on post-fs-data && property:init.svc.aee_aedv64_v2=running
+    start hn_ocp_post

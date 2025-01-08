@@ -1,0 +1,28 @@
+service isf-hal-1-0 /vendor/bin/hw/vendor.honor.hardware.isf@1.0-service
+    interface vendor.honor.hardware.isf@1.0::IISF default
+    class hal
+    user system
+    group system input uhid shell log wakelock usb
+    oneshot
+    disabled
+    writepid /dev/cpuset/system-background/tasks
+
+on property:ro.odm.config.isf_service_enable=true
+    start isf-hal-1-0
+
+on property:odm.isf.service_enable=1
+    start isf-hal-1-0
+
+on property:odm.isf.service_enable=0
+    stop isf-hal-1-0
+
+on boot && property:ro.config.beta_sec_ctrl=true
+    setprop ro.odm.config.isf_service_enable true
+
+on boot
+    mkdir /data/vendor/log/isflog
+    chown root system /data/vendor/log/isflog
+    chmod 0775 /data/vendor/log/isflog
+    mkdir /data/vendor/log/arlog
+    chown root system /data/vendor/log/arlog
+    chmod 0775 /data/vendor/log/arlog

@@ -1,0 +1,4 @@
+service vendor.honor.vibrator /vendor/bin/hw/vendor.honor.hardware.vibrator.service
+    class hal
+    user system
+    group system input

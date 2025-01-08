@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <!-- call qoe 特性开关 -->
+    <!-- CHR上报qoe处理 -->
+    <switch feature="CHR_CALL_REPORT_ERROR_HANDLE" control="1"/>
+    <!-- modem/ril上报qoe处理 -->
+    <switch feature="RIL_UNSOL_ERROR_HANDLE"       control="1"/>
+
+    <!-- call qoe 异常配置 -->
+    <!-- 通话类型 + 通话错误码 唯一匹配 -->
+    <!--    通话类型         通话错误码         历史信息查询最少生效门限 历史信息查询类型    历史信息判断异常生效占比 特殊处理原因值           上报异常场景    上报异常类型          -->
+    <!--    CallType,        ErrorCode,         0代表不需要查询历史信息, 0~5位(10进制):      单位 %,                  0代表不需要特殊处理,     需要和exception_recover_config.xml    -->
+    <!--                                        0则之后两个参数不生效,   0:MO_CALL_VoLTE     例如20%,配置值为20,      非0则后面两个参数不生效, 中的配置匹配                          -->
+    <!--                                                                 1:MO_CALL_EPSFB                                                                                             -->
+    <!--                                                                 2:MO_CALL_VONR                                                                                              -->
+    <!--                                                                 3:MT_CALL_VoLTE                                                                                             -->
+    <!--                                                                 4:MT_CALL_EPSFB                                                                                             -->
+    <!--                                                                 5:MT_CALL_VONR                                                                                              -->
+    <!-- 503/580 抑制SA -->
+    <!--  errorCode为CHR上报原因值                             -->
+    <!--  callType 224: EXCEPTION_SCENE_CALL_MT_FAIL_EPSFB     -->
+    <!--  callType 227: EXCEPTION_SCENE_CALL_MT_FAIL_VONR      -->
+    <!--  callType 223: EXCEPTION_SCENE_CALL_MO_FAIL_EPSFB     -->
+    <!--  callType 226: EXCEPTION_SCENE_CALL_MO_FAIL_VONR      -->
+    <config callType="224"   errorCode="580"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="224"   errorCode="600580" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="224"   errorCode="800580" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="224"   errorCode="503"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="224"   errorCode="600503" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="224"   errorCode="800503" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="227"   errorCode="580"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="227"   errorCode="600580" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="227"   errorCode="800580" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="227"   errorCode="503"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="227"   errorCode="600503" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="227"   errorCode="800503" historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="223"   errorCode="580"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="223"   errorCode="503"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="226"   errorCode="580"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+    <config callType="226"   errorCode="503"    historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="101"   reportScene="0"   reportExceptionType="0"/>
+
+    <!--  RTP/PDCP 黑小区 -->
+    <!--  errorCode见modem中的CallQoeResultEnum枚举定义              -->
+    <!--  CALL_QOE_RESULT_RTP_ERROR = 1                              -->
+    <!--  CALL_QOE_RESULT_PDCP_ERROR = 2                             -->
+    <!--  CALL_QOE_RESULT_RTP_ERROR & CALL_QOE_RESULT_PDCP_ERROR = 3 -->
+    <!--  callType 229: EXCEPTION_SCENE_CALL_ERROR_RIL_UNSOL_LTE     -->
+    <!--  callType 230: EXCEPTION_SCENE_CALL_ERROR_RIL_UNSOL_NR      -->
+    <config callType="229"   errorCode="1"      historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="0"     reportScene="229" reportExceptionType="205"/>
+    <config callType="229"   errorCode="2"      historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="0"     reportScene="229" reportExceptionType="205"/>
+    <config callType="229"   errorCode="3"      historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="0"     reportScene="229" reportExceptionType="205"/>
+    <config callType="230"   errorCode="1"      historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="0"     reportScene="230" reportExceptionType="205"/>
+    <config callType="230"   errorCode="2"      historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="0"     reportScene="230" reportExceptionType="205"/>
+    <config callType="230"   errorCode="3"      historyInfoMinCount="0"  historyInfoType="0" historyInfoThreshold="0" specalHandleCode="0"     reportScene="230" reportExceptionType="205"/>
+
+</xml>

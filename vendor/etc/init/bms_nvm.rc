@@ -1,0 +1,64 @@
+on charger
+    chmod 0660 /sys/class/hw_power/power_nvm/index
+    chown system system /sys/class/hw_power/power_nvm/index
+    chmod 0660 /sys/class/hw_power/power_nvm/value
+    chown system system /sys/class/hw_power/power_nvm/value
+
+    mkdir /log
+    mount ext4 /dev/block/by-name/log /log rw wait
+    restorecon /log
+    chmod 775 /log
+    chown root system /log
+
+    mkdir /log/battery
+    chown system system /log/battery
+    chmod 0775 /log/battery
+    chown system system /log/battery/bms_nvm
+    chmod 0664 /log/battery/bms_nvm
+
+    start bms_nvm_charger
+
+on boot
+    chmod 0660 /sys/class/hw_power/power_nvm/index
+    chown system system /sys/class/hw_power/power_nvm/index
+    chmod 0660 /sys/class/hw_power/power_nvm/value
+    chown system system /sys/class/hw_power/power_nvm/value
+
+    mkdir /log/battery
+    chown system system /log/battery
+    chmod 0775 /log/battery
+    chown system system /log/battery/bms_nvm
+    chmod 0664 /log/battery/bms_nvm
+
+    start bms_nvm_boot
+
+on property:vendor.bms_nvm=start
+    start bms_nvm
+
+on shutdown
+    start bms_nvm_shutdown
+
+service bms_nvm /vendor/bin/bms_nvm
+    user system
+    group system
+    disabled
+    oneshot
+
+service bms_nvm_boot /vendor/bin/bms_nvm -b
+    user system
+    group system
+    disabled
+    oneshot
+
+service bms_nvm_shutdown /vendor/bin/bms_nvm -s
+    user system
+    group system
+    disabled
+    oneshot
+    shutdown critical
+
+service bms_nvm_charger /vendor/bin/bms_nvm -c
+    user system
+    group system
+    disabled
+    oneshot

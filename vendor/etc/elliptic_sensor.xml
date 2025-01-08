@@ -1,0 +1,30 @@
+<ellipticSensorSetup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="elliptic_sensor.xsd">
+  <sensors>
+    <sensor name="Elliptic Proximity" reader="hexagon" sensor_type="8" type="4" subtype="401" audio_notify="ultrasound-proximity" debug="true">
+      <ranges>
+        <near value="0.0" limit="3.0"></near>
+        <far value="5.000030" limit="4.0"></far>
+      </ranges>
+    </sensor>
+    <sensor name="Elliptic CoverDetection ALWAYS-ON" reader="hexagon" sensor_type="65582" debug="true" customSensorSetting1="3">
+      <ranges>
+        <near value="0.0" limit="3.0"></near>
+        <far value="5.000030" limit="4.0"></far>
+      </ranges>
+    </sensor>
+    <sensor name="Elliptic CoverDetection" reader="hexagon" sensor_type="65556" audio_notify="ultrasound-cover1" debug="true" oneShotSensorTimeoutMs="3000" publish="false">
+      <ranges>
+        <near value="0.0" limit="3.0"></near>
+        <far value="5.000030" limit="4.0"></far>
+      </ranges>
+    </sensor>
+  </sensors>
+  <priority_policy>
+    <policy name="proximity_first"></policy>
+    <!--<policy name="single_sensor_lifo"></policy>-->
+  </priority_policy>
+  <readers>
+    <reader name="hexagon"></reader>
+  </readers>
+</ellipticSensorSetup>

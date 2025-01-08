@@ -1,0 +1,67 @@
+# MTK platform .rc configure
+
+on early-init
+    write /proc/sys/vm/stack_page_init_number 1
+
+on init
+# sets up initial protectLru memcg
+    mkdir /dev/memcg/protect_lru_1
+    mkdir /dev/memcg/protect_lru_2
+    mkdir /dev/memcg/protect_lru_3
+    chmod 0400 /dev/memcg/protect_lru_1
+    chmod 0400 /dev/memcg/protect_lru_2
+    chmod 0400 /dev/memcg/protect_lru_3
+
+on late-init
+
+on charger
+
+on early-fs
+
+on fs
+
+on late-fs
+
+on post-fs
+
+on zygote-start
+
+on early-boot
+
+on boot
+# top n memory process
+    chown system system /proc/driver/process_mem
+
+    #for zram
+    write /sys/block/zram0/comp_algorithm lz4
+    write /sys/block/zram0/writeback_disable 0
+    write /sys/block/zram0/writeback_fast_enable 1
+    write /sys/block/zram0/noncompress_enable 1
+
+# rcc module
+    chown system system /sys/kernel/rcc/enable
+    chown system system /sys/kernel/rcc/event
+    chown system system /sys/kernel/rcc/idle_threshold
+    chown system system /sys/kernel/rcc/swap_percent_low
+    chown system system /sys/kernel/rcc/free_size_min
+    chown system system /sys/kernel/rcc/full_clean_size
+    chown system system /sys/kernel/rcc/stat
+    chown system system /sys/kernel/rcc/can_compress
+    chown system system /sys/kernel/rcc/avail_target
+    chown system system /sys/kernel/rcc/anon_target
+    chown system system /sys/kernel/rcc/force_once
+    chown system system /sys/kernel/rcc/max_anon_clean_size
+
+    write /sys/kernel/rcc/event PASSIVE_MODE
+    write /sys/kernel/rcc/max_anon_clean_size 512M
+    write /sys/kernel/rcc/enable 1
+
+on property:sys.boot_completed=1
+    write /sys/kernel/rcc/event BOOT_COMPLETE
+
+on property:persist.sys.hyperhold.swapout.enable=1 && property:sys.hyperhold.firstboot=1
+    write /dev/memcg/memory.zswapd_max_reclaim_size 30
+
+# add for dmabuf reserved
+on property:odm.reserved_pool_size_kb=*
+    write /proc/dma_heap/reserved_pool_size_kb ${odm.reserved_pool_size_kb}

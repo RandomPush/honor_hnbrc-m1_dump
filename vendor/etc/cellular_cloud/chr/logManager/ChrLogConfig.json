@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "modules": [
+	{
+        "moduleId": "MODEM_CRASH",
+	"ModuleLimit": 3,
+        "configParams": [
+				{"SrcFilePath": "/data/vendor/log/modem/", "Suffix": "diag_qdss_log_.*(.bin|.qdss)", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "applogcat-log.+\.gz", "MaxFileCount": 3}
+			]
+    },
+	{
+        "moduleId": "TEST_SIM",
+	"ModuleLimit": 4,
+        "configParams": [
+				{"SrcFilePath": "/data/vendor/log/modem/", "Suffix": "diag_qdss_log_.*(.bin|.qdss)", "MaxFileCount": 4},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "applogcat-log.+\.gz", "MaxFileCount": 3}
+			]
+    },
+	{
+        "moduleId": "MAGIC_HOME",
+	"ModuleLimit": 5,
+        "configParams": [
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "applogcat-log.+\.gz", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "kmsgcat-log.+\.gz", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "eventslogcat-log.+\.gz", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/tcpdump/", "Suffix": ".*tcpdump\.log.*", "MaxFileCount": 5},
+				{"SrcFilePath": "/data/log/mtklog/connsysFW/", "Suffix": "WIFI_FW_.*", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/vendor/log/wifi/", "Suffix": "cnss_fw_logs_current.txt", "MaxFileCount": 1},
+				{"SrcFilePath": "/data/vendor/log/wifi/", "Suffix": "host_driver_logs_current.txt", "MaxFileCount": 1},
+				{"SrcFilePath": "/data/vendor/log/wifi/", "Suffix": "(cnss_fw_logs_)(0){2,}(0|1|2|3|4).txt|(host_driver_logs_)(0){2,}(0|1|2|3|4).txt", "MaxFileCount": 10},
+				{"SrcFilePath": "/data/log/hilogs/", "Suffix": "hiapplogcat-log.+\.gz", "MaxFileCount": 3}
+			]
+    },
+	{
+        "moduleId": "HN_HEALTH",
+	"ModuleLimit": 5,
+        "configParams": [
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "applogcat-log.+\.gz", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "kmsgcat-log.+\.gz", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "eventslogcat-log.+\.gz", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/log/hilogs/", "Suffix": "hiapplogcat-log.+\.gz", "MaxFileCount": 1},
+				{"SrcFilePath": "/data/log/bt/", "Suffix": "btsnoop_hci_(.+).log", "MaxFileCount": 1},
+                                {"SrcFilePath": "/data/log/mtklog/connsysFW/", "Suffix": "BT_FW_.*", "MaxFileCount": 3}
+			]
+    },
+	{
+        "moduleId": "DEVICE_BOOT",
+	"ModuleLimit": 1,
+        "configParams": [
+				{"SrcFilePath": "/data/vendor/log/modem/", "Suffix": "diag_qdss_log_.*(.bin|.qdss)", "MaxFileCount": 5},
+				{"SrcFilePath": "/data/vendor/log/modem/", "Suffix": "diag_log_.*(.qmdl2)", "MaxFileCount": 5},
+				{"SrcFilePath": "/data/log/android_logs/", "Suffix": "applogcat-log.+\.gz", "MaxFileCount": 7},
+				{"SrcFilePath": "/data/vendor/log/qcrillog/", "Suffix": "ril_log_.*slot0.txt", "MaxFileCount": 3},
+				{"SrcFilePath": "/data/vendor/log/qcrillog/", "Suffix": "ril_log_.*slot1.txt", "MaxFileCount": 3}
+			]
+    }]
+}

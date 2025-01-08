@@ -1,0 +1,3 @@
+on property:sys.boot_completed=1 && property:ro.boot.verifiedbootstate=orange
+    write dev/hw_bfm boot_succ
+

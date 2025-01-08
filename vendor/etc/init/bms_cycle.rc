@@ -1,0 +1,34 @@
+on charger
+    chmod 0660 /sys/class/hw_power/soc_control/control
+    chown system system /sys/class/hw_power/soc_control/control
+    chmod 0660 /sys/class/hw_power/soc_control/strategy
+    chown system system /sys/class/hw_power/soc_control/strategy
+    chmod 0640 /sys/class/hw_power/interface/cycle_info
+    chown system system /sys/class/hw_power/interface/cycle_info
+
+    start bms_cycle
+
+on property:sys.boot_completed=1
+    chmod 0660 /sys/class/hw_power/soc_control/control
+    chown system system /sys/class/hw_power/soc_control/control
+    chmod 0660 /sys/class/hw_power/soc_control/strategy
+    chown system system /sys/class/hw_power/soc_control/strategy
+    chmod 0640 /sys/class/hw_power/interface/cycle_info
+    chown system system /sys/class/hw_power/interface/cycle_info
+
+    start bms_cycle
+
+on boot
+    start bms_cycle_boot
+
+service bms_cycle /vendor/bin/bms_cycle
+    user system
+    group system
+    disabled
+    oneshot
+
+service bms_cycle_boot /vendor/bin/bms_cycle -b
+    user system
+    group system
+    disabled
+    oneshot

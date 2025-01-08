@@ -1,0 +1,34 @@
+
+on init
+#fingerprint
+    chmod 0660 /dev/fingerprint
+    chown system system /dev/fingerprint
+    chmod 0660 /sys/devices/platform/fingerprint/irq
+    chown system system /sys/devices/platform/fingerprint/irq
+    chmod 0660 /sys/devices/platform/fingerprint/result
+    chown system system /sys/devices/platform/fingerprint/result
+    chown system system /sys/devices/platform/fingerprint/fingerprint_chip_info
+    chmod 0660 /sys/devices/platform/fingerprint/read_image_flag
+    chown system system /sys/devices/platform/fingerprint/read_image_flag
+    chmod 0660 /sys/devices/platform/fingerprint/nav
+    chown system system /sys/devices/platform/fingerprint/nav
+    chmod 0660 /sys/devices/platform/fingerprint/snr
+    chown system system /sys/devices/platform/fingerprint/snr
+    chmod 0660 /sys/devices/platform/fingerprint/module_id
+    chown system system /sys/devices/platform/fingerprint/module_id
+    chmod 0660 /sys/devices/platform/fingerprint/module_id_ud
+    chown system system /sys/devices/platform/fingerprint/module_id_ud
+    chmod 0660 /sys/devices/platform/fingerprint/low_temperature
+    chown system system /sys/devices/platform/fingerprint/low_temperature
+    chmod 0660 /sys/devices/platform/fingerprint/ud_fingerprint_chip_info
+    chown system system /sys/devices/platform/fingerprint/ud_fingerprint_chip_info
+on boot
+    mkdir /data/vendor/log/fingerprint
+    chown system system /data/vendor/log/fingerprint
+#restorecon_recursive /hw_product/bin/fingerprint
+    restorecon_recursive /product_h/bin/fingerprint
+    mkdir /data/vendor/fingerprint_dump
+    chmod 0770 /data/vendor/fingerprint_dump
+    chown system system /data/vendor/fingerprint_dump
+    restorecon_recursive /data/vendor/fingerprint_dump
+

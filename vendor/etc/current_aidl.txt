@@ -1,0 +1,9 @@
+d60bb76cf08295c90494e9fb0a11a02d6c67e069 vendor.honor.hardware.hncamera@1
+a84e0d0d656db7b20a7117d7e6c76364cddbb417 vendor.honor.hardware.keyboardservice@1
+1af33d840add9f3de58addb36c45c79ad50c258b vendor.honor.hardware.securecamera@1
+2cabbad1f7b4fa96f9fd701a9135d328e2c9dab2 vendor.honor.hardware.securecamera@1
+ea2f9c53593ed2d2e110413b1714c7e2ce407012 vendor.honor.hardware.vibrator@1
+048b99a95155d3b815c534e17205611b90168d75 vendor.honor.hardware.vibrator@2
+df3b3daf3cd0aba065acc3a25f417c240bde8294 vendor.honor.hardware.hnchipsrvhertz@1
+a6f68d3cff4cb711041426412437105b2a5b9048 vendor.honor.hardware.hnchipsrvlog@1
+fbc5cc3e64c7aa42bac145eac2aab0937ab01173 vendor.honor.hardware.hnchipsrvlog@2

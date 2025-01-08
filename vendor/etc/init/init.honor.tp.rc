@@ -1,0 +1,55 @@
+on boot
+#Touchscreen sysfs
+    chown system system /sys/touchscreen/ic_ver
+    chown system system /sys/touchscreen/hw_reset
+    chown system system /sys/touchscreen/hw_irq_stat
+    chown system system /sys/touchscreen/drv_debug
+    chown system system /sys/touchscreen/sleep_status
+    chown system system /sys/touchscreen/wakeup_gesture_enable
+    chown system system /sys/touchscreen/easy_wakeup_gesture
+    chown system system /sys/touchscreen/easy_wakeup_control
+    chown system system /sys/touchscreen/easy_wakeup_position
+    chown system system /sys/touchscreen/easy_wakeup_supported_gestures
+    chown system system /sys/touchscreen/touch_glove
+    chown system system /sys/touchscreen/touch_orientation
+    chown system system /sys/touchscreen/touch_window
+    chown system system /dev/rmi0
+    chown system system /sys/touchscreen/touch_sensitivity
+    chown system system /sys/touchscreen/fw_update_sd
+    chown system system /sys/touchscreen/reset
+    chown system system /sys/touchscreen/touch_chip_info
+    chown system system /sys/touchscreen/touch_oem_info
+    chown system system /sys/touchscreen/roi_enable
+    chown system system /sys/touchscreen/roi_data
+    chown system system /sys/touchscreen/roi_data_debug
+    chown system system /sys/touchscreen/hw_mmi_index
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/rawdata_check
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/command
+    chown system system /sys/touchscreen/cyttsp5_device_access.main_ttsp_core/response
+    chown system system /proc/touchscreen/data
+    chown system system /proc/touchscreen/dumpdata
+    chown system system /proc/touchscreen/rawdata
+    chown system system /proc/touchscreen/tp_capacitance_data
+    chown system system /sys/devices/platform/honor_tp_color/tp_color_info
+    chown root root /sys/touchscreen/tp_capacitance_test_type
+    chown system system /sys/touchscreen/supported_func_indicater
+    chown system system /sys/touchscreen/tp_capacitance_test_config
+    chown system system /sys/touchscreen/calibrate
+    chown system system /sys/touchscreen/calibrate_wakeup_gesture
+    chown system system /sys/touchscreen/touch_rawdata_debug
+    chown system system /sys/touchscreen/touch_special_hardware_test
+    chown system system /sys/touchscreen/touch_register_operation
+    chown system system /sys/touchscreen/touch_wideth
+    chown system system /sys/touchscreen/touch_switch
+    chown system system /sys/touchscreen/udfp_enable
+    chown system system /sys/touchscreen/stylus_wakeup_ctrl
+    chown system system /sys/touchscreen/aod_touch_switch_ctrl
+    chown system system /sys/touchscreen/fingerprint_switch_ctrl
+    chown system system /sys/touchscreen/power_switch_ctrl
+    chown system system /sys/touchscreen/aod_event_report_ctrl
+    chown system system /sys/touchscreen/tp_ud_lowpower_ctrl
+    chown system system /sys/touchscreen/aod_notify_tp_power_ctrl
+#tp_data
+     mkdir /data/vendor/log/tp_data
+     chmod 0775 /data/vendor/log/tp_data
+     chown root system /data/vendor/log/tp_data

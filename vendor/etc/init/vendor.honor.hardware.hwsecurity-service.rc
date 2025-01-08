@@ -1,0 +1,7 @@
+on early-boot
+     start hwsecurity-hal
+
+service hwsecurity-hal /vendor/bin/hw/vendor.honor.hardware.hwsecurity-service
+    class core
+    user system
+    group system

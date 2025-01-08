@@ -1,0 +1,4 @@
+version=1.10.18.137
+type=CELLULAR_CLOUD
+subtype=MTK
+compatibleVersion=1

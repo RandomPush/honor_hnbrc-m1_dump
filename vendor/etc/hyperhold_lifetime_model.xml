@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swap>
+	<swapEnable>True</swapEnable>
+	<pnm name="unknown">
+		<mu0>0.03634161228598987</mu0> <!-- parameter of a priori distribution -->
+		<sigma0>0.009045293326237916</sigma0> <!-- parameter of a priori distribution -->
+		<c>2.35</c> <!-- how much we overstate estimation of VE, fraction of sigma for user's distribution -->
+		<d>0.00040908665678842087</d> <!-- dispersion of measurements V_ce_dyn for each concrete user. determine how fast we come to user&#8217;s measurements from initial value of V_ce -->
+		<ceMax>3000</ceMax> <!-- Maximum CE value -->
+		<ceMax_reserve>5</ceMax_reserve> <!-- % of reserve for ceMAX in calculations -->
+		<alpha>0</alpha> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<beta>1</beta> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<initial_period>8</initial_period> <!-- Initial period in days to predict user IO -->
+		<default_io>35</default_io> <!-- User's daily io for initial period and for period min_days_for_average after initial period -->
+		<min_days_for_average>7</min_days_for_average> <!-- Minimum number of days for EMA of daily io to predict daily io -->
+		<max_days_for_average>120</max_days_for_average> <!-- Maximum number of days for EMA of daily io to predict daily io -->
+		<max_additional_io>40</max_additional_io> <!-- Maximum amount of swap on nand device -->
+		<min_delta_ce>2</min_delta_ce> <!-- minimum CE diff between to records for calculation -->
+		<min_delta_hostw>1</min_delta_hostw> <!-- minimum HOSTW diff between to records for calculation -->
+	</pnm>
+	<pnm name="unknown64">
+		<mu0>0.03634161228598987</mu0> <!-- parameter of a priori distribution -->
+		<sigma0>0.009045293326237916</sigma0> <!-- parameter of a priori distribution -->
+		<c>2.35</c> <!-- how much we overstate estimation of VE, fraction of sigma for user's distribution -->
+		<d>0.00040908665678842087</d> <!-- dispersion of measurements V_ce_dyn for each concrete user. determine how fast we come to user&#8217;s measurements from initial value of V_ce -->
+		<ceMax>3000</ceMax> <!-- Maximum CE value -->
+		<ceMax_reserve>5</ceMax_reserve> <!-- % of reserve for ceMAX in calculations -->
+		<alpha>0</alpha> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<beta>1</beta> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<initial_period>8</initial_period> <!-- Initial period in days to predict user IO -->
+		<default_io>35</default_io> <!-- User's daily io for initial period and for period min_days_for_average after initial period -->
+		<min_days_for_average>7</min_days_for_average> <!-- Minimum number of days for EMA of daily io to predict daily io -->
+		<max_days_for_average>120</max_days_for_average> <!-- Maximum number of days for EMA of daily io to predict daily io -->
+		<max_additional_io>10</max_additional_io> <!-- Maximum amount of swap on nand device -->
+		<min_delta_ce>2</min_delta_ce> <!-- minimum CE diff between to records for calculation -->
+		<min_delta_hostw>1</min_delta_hostw> <!-- minimum HOSTW diff between to records for calculation -->
+	</pnm>
+	<pnm name="unknown128">
+		<mu0>0.03634161228598987</mu0> <!-- parameter of a priori distribution -->
+		<sigma0>0.009045293326237916</sigma0> <!-- parameter of a priori distribution -->
+		<c>2.35</c> <!-- how much we overstate estimation of VE, fraction of sigma for user's distribution -->
+		<d>0.00040908665678842087</d> <!-- dispersion of measurements V_ce_dyn for each concrete user. determine how fast we come to user&#8217;s measurements from initial value of V_ce -->
+		<ceMax>3000</ceMax> <!-- Maximum CE value -->
+		<ceMax_reserve>5</ceMax_reserve> <!-- % of reserve for ceMAX in calculations -->
+		<alpha>0</alpha> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<beta>1</beta> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<initial_period>8</initial_period> <!-- Initial period in days to predict user IO -->
+		<default_io>35</default_io> <!-- User's daily io for initial period and for period min_days_for_average after initial period -->
+		<min_days_for_average>7</min_days_for_average> <!-- Minimum number of days for EMA of daily io to predict daily io -->
+		<max_days_for_average>120</max_days_for_average> <!-- Maximum number of days for EMA of daily io to predict daily io -->
+		<max_additional_io>40</max_additional_io> <!-- Maximum amount of swap on nand device -->
+		<min_delta_ce>2</min_delta_ce> <!-- minimum CE diff between to records for calculation -->
+		<min_delta_hostw>1</min_delta_hostw> <!-- minimum HOSTW diff between to records for calculation -->
+	</pnm>
+	<pnm name="unknown256">
+		<mu0>0.014134609797856454</mu0> <!-- parameter of a priori distribution -->
+		<sigma0>0.0023924944708114365</sigma0> <!-- parameter of a priori distribution -->
+		<c>2.35</c> <!-- how much we overstate estimation of VE, fraction of sigma for user's distribution -->
+		<d>2.8620148964316482e-05</d> <!-- dispersion of measurements V_ce_dyn for each concrete user. determine how fast we come to user&#8217;s measurements from initial value of V_ce -->
+		<ceMax>3000</ceMax> <!-- Maximum CE value -->
+		<ceMax_reserve>5</ceMax_reserve> <!-- % of reserve for ceMAX in calculations -->
+		<alpha>0</alpha> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<beta>1</beta> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<initial_period>8</initial_period> <!-- Initial period in days to predict user IO -->
+		<default_io>35</default_io> <!-- User's daily io for initial period and for period min_days_for_average after initial period -->
+		<min_days_for_average>7</min_days_for_average> <!-- Minimum number of days for EMA of daily io to predict daily io -->
+		<max_days_for_average>120</max_days_for_average> <!-- Maximum number of days for EMA of daily io to predict daily io -->
+		<max_additional_io>40</max_additional_io> <!-- Maximum amount of swap on nand device -->
+		<min_delta_ce>2</min_delta_ce> <!-- minimum CE diff between to records for calculation -->
+		<min_delta_hostw>1</min_delta_hostw> <!-- minimum HOSTW diff between to records for calculation -->
+	</pnm>
+	<pnm name="unknown512">
+		<mu0>0.006620833452769975</mu0> <!-- parameter of a priori distribution -->
+		<sigma0>0.000884230456371767</sigma0> <!-- parameter of a priori distribution -->
+		<c>2.35</c> <!-- how much we overstate estimation of VE, fraction of sigma for user's distribution -->
+		<d>3.909317499877117e-06</d> <!-- dispersion of measurements V_ce_dyn for each concrete user. determine how fast we come to user&#8217;s measurements from initial value of V_ce -->
+		<ceMax>3000</ceMax> <!-- Maximum CE value -->
+		<ceMax_reserve>5</ceMax_reserve> <!-- % of reserve for ceMAX in calculations -->
+		<alpha>0</alpha> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<beta>1</beta> <!-- Fraction of AVE_CE_A to generalize calculation of CE as alpha * AVE_CE_A + beta * AVE_CE_B -->
+		<initial_period>8</initial_period> <!-- Initial period in days to predict user IO -->
+		<default_io>35</default_io> <!-- User's daily io for initial period and for period min_days_for_average after initial period -->
+		<min_days_for_average>7</min_days_for_average> <!-- Minimum number of days for EMA of daily io to predict daily io -->
+		<max_days_for_average>120</max_days_for_average> <!-- Maximum number of days for EMA of daily io to predict daily io -->
+		<max_additional_io>40</max_additional_io> <!-- Maximum amount of swap on nand device -->
+		<min_delta_ce>2</min_delta_ce> <!-- minimum CE diff between to records for calculation -->
+		<min_delta_hostw>1</min_delta_hostw> <!-- minimum HOSTW diff between to records for calculation -->
+	</pnm>
+</swap>
+

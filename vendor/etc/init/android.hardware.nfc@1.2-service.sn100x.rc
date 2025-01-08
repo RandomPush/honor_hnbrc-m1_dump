@@ -1,0 +1,4 @@
+service vendor.nfc_hal_service.sn100x /vendor/bin/hw/android.hardware.nfc@1.2-service.sn100x
+	class hal
+	user nfc
+	group nfc system

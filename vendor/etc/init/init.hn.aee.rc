@@ -1,0 +1,31 @@
+service hn_aee /vendor/bin/hn_aee
+    class late_start
+    user root
+    group system root debuggerd
+    disabled
+    oneshot
+    seclabel u:r:hn_aee:s0
+
+service hn_aee_post /vendor/bin/hn_aee -post
+    class late_start
+    user root
+    group system root log debuggerd
+    disabled
+    oneshot
+    seclabel u:r:hn_aee:s0
+
+service backup_logbuf /vendor/bin/hn_aee -kmsg
+    user root
+    group system root log debuggerd
+    disabled
+    oneshot
+    seclabel u:r:hn_aee:s0
+
+on property:init.svc.aee_aedv=running
+    start hn_aee_post
+
+on property:init.svc.aee_aedv64_v2=running
+    start hn_aee_post
+
+on property:sys.boot_completed=1 && property:persist.fb.bypass.need=true
+    write /sys/class/fb_vadj/bypass 2

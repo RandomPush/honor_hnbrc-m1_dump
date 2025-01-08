@@ -1,0 +1,6 @@
+<AppConfig>
+  <ScgQuickAddAppWhiteList>
+    <ScgQuickAddEnable>1</ScgQuickAddEnable>
+    <TimeInterval>120000</TimeInterval>
+  </ScgQuickAddAppWhiteList>
+</AppConfig>

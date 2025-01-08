@@ -1,0 +1,37 @@
+on boot
+    chown system system /sys/class/hn_thermal/temp/ambient
+    chown system system /sys/class/hn_thermal/temp/fold_state
+
+    chown system system /sys/class/hn_thermal/temp/shell_back/temp
+    chmod 0664 /sys/class/hn_thermal/temp/shell_back/temp
+    chown system system /sys/class/hn_thermal/temp/shell_frame/temp
+    chmod 0664 /sys/class/hn_thermal/temp/shell_frame/temp
+    chown system system /sys/class/hn_thermal/temp/shell_front/temp
+    chmod 0664 /sys/class/hn_thermal/temp/shell_front/temp
+
+    on property:ro.board.platform=mt6885
+    write /proc/ppm/policy/hard_userlimit_cpu_freq "-1 1500000 -1 1526000"
+    write /dev/kmsg "system boot, limit cpufreq."
+
+    on property:sys.boot_completed=1 && property:ro.board.platform=mt6885
+    write /dev/kmsg "boot completed, free cpufreq limit."
+    write /proc/ppm/policy/hard_userlimit_cpu_freq "-1 -1 -1 -1"
+
+    on property:ro.board.platform=mt6877
+    write /proc/ppm/policy/hard_userlimit_cpu_freq "-1 1800000 -1 2240000"
+    write /dev/kmsg "system boot, limit cpufreq."
+
+    on property:sys.boot_completed=1 && property:ro.board.platform=mt6877
+    write /dev/kmsg "boot completed, free cpufreq limit."
+    write /proc/ppm/policy/hard_userlimit_cpu_freq "-1 -1 -1 -1"
+
+    on property:ro.board.platform=mt6893
+    write /proc/ppm/policy/hard_userlimit_cpu_freq "-1 1625000 -1 1855000 -1 1938000"
+    write /dev/kmsg "system boot, limit cpufreq."
+
+    on property:sys.boot_completed=1 && property:ro.board.platform=mt6893
+    write /dev/kmsg "boot completed, free cpufreq limit."
+    write /proc/ppm/policy/hard_userlimit_cpu_freq "-1 -1 -1 -1 -1 -1"
+
+on property:vendor.all.modules.ready=1
+    setprop sys.bms_limit_mode normal

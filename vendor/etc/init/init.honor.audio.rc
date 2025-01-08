@@ -1,0 +1,3 @@
+on post-fs-data
+	chmod 0660 /sys/bus/platform/drivers/audio_cust_info/audio_cust_info/simplepa_type
+	chown audioserver audio /sys/bus/platform/drivers/audio_cust_info/audio_cust_info/simplepa_type

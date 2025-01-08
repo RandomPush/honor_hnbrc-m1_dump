@@ -1,0 +1,47 @@
+on late-fs
+    chmod 0660 /sys/class/hw_power/interface/iin_thermal
+    chown system system /sys/class/hw_power/interface/iin_thermal
+    chmod 0660 /sys/class/hw_power/interface/iin_limit
+    chown system system /sys/class/hw_power/interface/iin_limit
+    chmod 0660 /sys/class/hw_power/interface/iin_thermal_all
+    chown system system /sys/class/hw_power/interface/iin_thermal_all
+    chown system system /sys/class/hw_power/adsp_dts/thermal_config
+    chown system system /sys/class/hw_power/adsp_dts/thermal_basic
+    chown system system /sys/class/hw_power/adsp_dts/thermal_stc_config
+    start bms_thermal
+
+on property:sys.bms_limit_mode=hota
+    start bms_thermal_h
+
+on property:sys.bms_limit_mode=normal
+    start bms_thermal_n
+
+on charger
+    chmod 0660 /sys/class/hw_power/interface/iin_thermal
+    chown system system /sys/class/hw_power/interface/iin_thermal
+    chmod 0660 /sys/class/hw_power/interface/iin_limit
+    chown system system /sys/class/hw_power/interface/iin_limit
+    chmod 0660 /sys/class/hw_power/interface/iin_thermal_all
+    chown system system /sys/class/hw_power/interface/iin_thermal_all
+    chown system system /sys/class/hw_power/adsp_dts/thermal_config
+    chown system system /sys/class/hw_power/adsp_dts/thermal_basic
+    chown system system /sys/class/hw_power/adsp_dts/thermal_stc_config
+    start bms_thermal
+
+service bms_thermal /vendor/bin/bms_thermal
+    user system
+    group system
+    disabled
+    oneshot
+
+service bms_thermal_h /vendor/bin/bms_thermal -m 0
+    user system
+    group system
+    disabled
+    oneshot
+
+service bms_thermal_n /vendor/bin/bms_thermal -m 1
+    user system
+    group system
+    disabled
+    oneshot

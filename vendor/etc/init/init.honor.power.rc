@@ -1,0 +1,353 @@
+on boot
+    chown system system /sys/class/hw_power/charger/charge_data/enable_charger
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_charger
+    chown system system /sys/class/hw_power/charger/charge_data/iin_runningtest
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_runningtest
+    chown system system /sys/class/hw_power/charger/charge_data/factory_diag
+    chmod 0664 /sys/class/hw_power/charger/charge_data/factory_diag
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/running_test_status
+    chmod 0660 /sys/class/hw_power/charger/charge_data/running_test_status
+    chown system system /sys/class/hw_power/charger/charge_data/voltage_sys
+    chmod 0440 /sys/class/hw_power/charger/charge_data/voltage_sys
+    chown system system /sys/class/hw_power/charger/charge_data/update_volt_now
+    chmod 0660 /sys/class/hw_power/charger/charge_data/update_volt_now
+    chown system system /sys/class/hw_power/charger/charge_data/enable_hiz
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_hiz
+    chown system system /sys/class/hw_power/charger/charge_data/iin_rt_current
+    chmod 0664 /sys/class/hw_power/charger/charge_data/iin_rt_current
+    chown system system /sys/class/hw_power/charger/charge_data/adaptor_voltage
+    chmod 0664 /sys/class/hw_power/charger/charge_data/adaptor_voltage
+    chown system system /sys/class/hw_power/charger/charge_data/shutdown_watchdog
+    chmod 0664 /sys/class/hw_power/charger/charge_data/shutdown_watchdog
+    chmod 0440 /sys/devices/platform/honor_ptst/wlc_mmi/result
+    chown system system /sys/devices/platform/honor_ptst/wlc_mmi/result
+    chmod 0440 /sys/devices/platform/honor_ptst/wlc_mmi/timeout
+    chown system system /sys/class/hw_power/charger/charge_data/adaptor_test
+    chmod 0664 /sys/class/hw_power/charger/charge_data/adaptor_test
+    chown system system /sys/class/hw_power/adapter/test_result
+    chmod 0664 /sys/class/hw_power/adapter/test_result
+    chmod 0660 /sys/class/hw_power/charger/charge_data/ichg_ratio
+    chown system system /sys/class/hw_power/charger/charge_data/ichg_ratio
+    chmod 0660 /sys/class/hw_power/charger/charge_data/vterm_dec
+    chown system system /sys/class/hw_power/charger/charge_data/vterm_dec
+    chmod 0660 /sys/class/hw_power/charger/charge_data/thermal_reason
+    chown system system /sys/class/hw_power/charger/charge_data/thermal_reason
+    chmod 0660 /sys/class/hw_power/interface/enable_hv_charge
+    chown system system /sys/class/hw_power/interface/enable_hv_charge
+    chmod 0664 /sys/class/hw_power/charger/charge_data/enable_hv_charge
+    chown system system /sys/class/hw_power/charger/charge_data/enable_hv_charge
+    chown system system /sys/class/hw_power/charger/charge_data/bigdata
+    chmod 0660 /sys/class/hw_power/interface/enable_charger
+    chown system system /sys/class/hw_power/interface/enable_charger
+    chmod 0660 /sys/class/hw_power/interface/ichg_limit
+    chown system system /sys/class/hw_power/interface/ichg_limit
+    chmod 0660 /sys/class/hw_power/interface/ichg_ratio
+    chown system system /sys/class/hw_power/interface/ichg_ratio
+    chmod 0660 /sys/class/hw_power/interface/vterm_dec
+    chown system system /sys/class/hw_power/interface/vterm_dec
+    chmod 0660 /sys/class/hw_power/interface/enable_debug
+    chown system system /sys/class/hw_power/interface/enable_debug
+    chmod 0660 /sys/class/hw_power/interface/adap_volt
+    chown system system /sys/class/hw_power/interface/adap_volt
+    chmod 0660 /sys/class/hw_power/interface/wl_thermal_ctrl
+    chown system system /sys/class/hw_power/interface/wl_thermal_ctrl
+    chmod 0220 /sys/class/hw_power/interface/iin_thermal
+    chown system system /sys/class/hw_power/interface/iin_thermal
+    chmod 0220 /sys/class/hw_power/interface/iin_thermal_all
+    chown system system /sys/class/hw_power/interface/iin_thermal_all
+    chmod 0660 /sys/class/hw_power/interface/ichg_thermal
+    chown system system /sys/class/hw_power/interface/ichg_thermal
+    chmod 0440 /sys/class/hw_power/interface/ibus
+    chown system system /sys/class/hw_power/interface/ibus
+    chmod 0440 /sys/class/hw_power/interface/fg_term
+    chown system system /sys/class/hw_power/interface/fg_term
+    chmod 0664 /sys/class/hw_power/interface/eeprom_rt
+    chown system system /sys/class/hw_power/interface/eeprom_rt
+    chmod 0664 /sys/class/hw_power/interface/ldo_enable_charger
+    chown system system /sys/class/hw_power/interface/ldo_enable_charger
+    chmod 0664 /sys/class/hw_power/interface/ldo_enable_hiz
+    chown system system /sys/class/hw_power/interface/ldo_enable_hiz
+    chmod 0440 /sys/class/hw_power/interface/capacity_fcc
+    chown system system /sys/class/hw_power/interface/capacity_fcc
+    chmod 0440 /sys/class/hw_power/interface/capacity_rm
+    chown system system /sys/class/hw_power/interface/capacity_rm
+    chmod 0440 /sys/class/hw_power/interface/brand
+    chown system system /sys/class/hw_power/interface/brand
+    chmod 0640 /sys/class/hw_power/interface/cycle_info
+    chown system system /sys/class/hw_power/interface/cycle_info
+    chmod 0440 /sys/class/hw_power/interface/vbus
+    chown system system /sys/class/hw_power/interface/vbus
+    chmod 0660 /sys/class/hw_power/interface/rt_test_time
+    chown system system /sys/class/hw_power/interface/rt_test_time
+    chmod 0660 /sys/class/hw_power/interface/rt_test_result
+    chown system system /sys/class/hw_power/interface/rt_test_result
+    chmod 0220 /sys/class/hw_power/interface/rtb_success
+    chown system system /sys/class/hw_power/interface/rtb_success
+    chown system system /sys/devices/platform/honor_ptst/wlc_mmi/timeout
+    chmod 0660 /sys/devices/platform/honor_ptst/wlc_mmi/start
+    chown system system /sys/devices/platform/honor_ptst/wlc_mmi/start
+    chmod 0660 /sys/devices/platform/honor_ptst/dc_mmi/test_status
+    chown system system /sys/devices/platform/honor_ptst/dc_mmi/test_status
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/thermal_reason
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/thermal_reason
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal_ichg_control
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal_ichg_control
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/ichg_control_enable
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/ichg_control_enable
+    chmod 0440 /sys/class/hw_power/charger/direct_charger_sc/sc_state
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/sc_state
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/sc_freq
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/sc_freq
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/thermal_reason
+    chown system system /sys/class/hw_power/charger/direct_charger/thermal_reason
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal_ichg_control
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal_ichg_control
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/ichg_control_enable
+    chown system system /sys/class/hw_power/charger/direct_charger/ichg_control_enable
+    chmod 0222 /sys/class/hw_power/soc_decimal/start
+    chown system system /sys/class/hw_power/soc_decimal/start
+    chmod 0444 /sys/class/hw_power/soc_decimal/soc
+    chown system system /sys/class/hw_power/soc_decimal/soc
+    chmod 0444 /sys/class/hw_power/power_ui/cable_type
+    chown system system /sys/class/hw_power/power_ui/cable_type
+    chmod 0444 /sys/class/hw_power/power_ui/icon_type
+    chown system system /sys/class/hw_power/power_ui/icon_type
+    chmod 0444 /sys/class/hw_power/power_ui/max_power
+    chown system system /sys/class/hw_power/power_ui/max_power
+    chmod 0444 /sys/class/hw_power/power_ui/wl_off_pos
+    chown system system /sys/class/hw_power/power_ui/wl_off_pos
+    chmod 0444 /sys/class/hw_power/power_ui/wl_fan_status
+    chown system system /sys/class/hw_power/power_ui/wl_fan_status
+    chmod 0444 /sys/class/hw_power/power_ui/wl_cover_status
+    chown system system /sys/class/hw_power/power_ui/wl_cover_status
+    chmod 0444 /sys/class/hw_power/power_ui/water_status
+    chown system system /sys/class/hw_power/power_ui/water_status
+    chmod 0444 /sys/class/hw_power/power_ui/heating_status
+    chown system system /sys/class/hw_power/power_ui/heating_status
+    chmod 0444 /sys/class/hw_power/lga_ck/status
+    chown system system /sys/class/hw_power/lga_ck/status
+    chmod 0440 /sys/devices/platform/honor_ptst/wlc_mmi/result
+    chown system system /sys/devices/platform/honor_ptst/wlc_mmi/result
+    chmod 0440 /sys/devices/platform/honor_ptst/wlc_mmi/timeout
+    chown system system /sys/devices/platform/honor_ptst/wlc_mmi/timeout
+    chmod 0660 /sys/devices/platform/honor_ptst/wlc_mmi/start
+    chown system system /sys/devices/platform/honor_ptst/wlc_mmi/start
+    chmod 0660 /sys/devices/platform/honor_ptst/dc_mmi/test_status
+    chown system system /sys/devices/platform/honor_ptst/dc_mmi/test_status
+    chmod 0444 sys/kernel/debug/power_debug/total_ibus
+    chown system system sys/kernel/debug/power_debug/total_ibus
+    chmod 0444 sys/kernel/debug/power_debug/main_ibus
+    chown system system sys/kernel/debug/power_debug/main_ibus
+    chmod 0444 sys/kernel/debug/power_debug/main_vbus
+    chown system system sys/kernel/debug/power_debug/main_vbus
+    chmod 0444 sys/kernel/debug/power_debug/main_vout
+    chown system system sys/kernel/debug/power_debug/main_vout
+    chmod 0444 sys/kernel/debug/power_debug/main_ibat
+    chown system system sys/kernel/debug/power_debug/main_ibat
+    chmod 0444 sys/kernel/debug/power_debug/main_vbat
+    chown system system sys/kernel/debug/power_debug/main_vbat
+    chmod 0444 sys/kernel/debug/power_debug/main_ic_temp
+    chown system system sys/kernel/debug/power_debug/main_ic_temp
+    chmod 0444 sys/kernel/debug/power_debug/main_ic_id
+    chown system system sys/kernel/debug/power_debug/main_ic_id
+    chmod 0444 sys/kernel/debug/power_debug/main_ic_name
+    chown system system sys/kernel/debug/power_debug/main_ic_name
+    chmod 0444 sys/kernel/debug/power_debug/aux_ibus
+    chown system system sys/kernel/debug/power_debug/aux_ibus
+    chmod 0444 sys/kernel/debug/power_debug/aux_vbus
+    chown system system sys/kernel/debug/power_debug/aux_vbus
+    chmod 0444 sys/kernel/debug/power_debug/aux_vout
+    chown system system sys/kernel/debug/power_debug/aux_vout
+    chmod 0444 sys/kernel/debug/power_debug/aux_ibat
+    chown system system sys/kernel/debug/power_debug/aux_ibat
+    chmod 0444 sys/kernel/debug/power_debug/aux_vbat
+    chown system system sys/kernel/debug/power_debug/aux_vbat
+    chmod 0444 sys/kernel/debug/power_debug/aux_ic_temp
+    chown system system sys/kernel/debug/power_debug/aux_ic_temp
+    chmod 0444 sys/kernel/debug/power_debug/aux_ic_id
+    chown system system sys/kernel/debug/power_debug/aux_ic_id
+    chmod 0444 sys/kernel/debug/power_debug/aux_ic_name
+    chown system system sys/kernel/debug/power_debug/aux_ic_name
+    chmod 0444 sys/kernel/debug/power_debug/tadapt
+    chown system system sys/kernel/debug/power_debug/tadapt
+    chmod 0444 sys/kernel/debug/power_debug/vadapt
+    chown system system sys/kernel/debug/power_debug/vadapt
+    chmod 0444 sys/kernel/debug/power_debug/tusb
+    chown system system sys/kernel/debug/power_debug/tusb
+    chmod 0444 sys/kernel/debug/power_debug/lvc_ibus
+    chown system system sys/kernel/debug/power_debug/lvc_ibus
+    chmod 0444 sys/kernel/debug/power_debug/lvc_vbus
+    chown system system sys/kernel/debug/power_debug/lvc_vbus
+    chmod 0444 sys/kernel/debug/power_debug/lvc_ibat
+    chown system system sys/kernel/debug/power_debug/lvc_ibat
+    chmod 0444 sys/kernel/debug/power_debug/lvc_vbat
+    chown system system sys/kernel/debug/power_debug/lvc_vbat
+    chmod 0444 sys/kernel/debug/power_debug/lvc_ic_id
+    chown system system sys/kernel/debug/power_debug/lvc_ic_id
+    chmod 0444 sys/kernel/debug/power_debug/lvc_ic_name
+    chown system system sys/kernel/debug/power_debug/lvc_ic_name
+    chmod 0444 sys/kernel/debug/power_debug/lvc_vadapt
+    chown system system sys/kernel/debug/power_debug/lvc_vadapt
+    chmod 0660 /sys/class/hw_power/charger/wireless_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/wireless_sc/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/vrect
+    chown system system /sys/class/hw_power/charger/wireless_charger/vrect
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/vout
+    chown system system /sys/class/hw_power/charger/wireless_charger/vout
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/iout
+    chown system system /sys/class/hw_power/charger/wireless_charger/iout
+    chmod 0440 /sys/class/hw_power/charger/wireless_charger/tx_adaptor_type
+    chown system system /sys/class/hw_power/charger/wireless_charger/tx_adaptor_type
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/program_otp
+    chown system system /sys/class/hw_power/charger/wireless_charger/program_otp
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/en_enable
+    chown system system /sys/class/hw_power/charger/wireless_charger/en_enable
+    chmod 0440 /sys/class/hw_power/charger/wireless_charger/wireless_succ
+    chown system system /sys/class/hw_power/charger/wireless_charger/wireless_succ
+    chmod 0440 /sys/class/hw_power/charger/wireless_charger/normal_chrg_succ
+    chown system system /sys/class/hw_power/charger/wireless_charger/normal_chrg_succ
+    chmod 0440 /sys/class/hw_power/charger/wireless_charger/fast_chrg_succ
+    chown system system /sys/class/hw_power/charger/wireless_charger/fast_chrg_succ
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/fod_coef
+    chown system system /sys/class/hw_power/charger/wireless_charger/fod_coef
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/interference_setting
+    chown system system /sys/class/hw_power/charger/wireless_charger/interference_setting
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/rx_support_mode
+    chown system system /sys/class/hw_power/charger/wireless_charger/rx_support_mode
+    chmod 0660 /sys/class/hw_power/charger/wireless_charger/thermal_ctrl
+    chown system system /sys/class/hw_power/charger/wireless_charger/thermal_ctrl
+    chmod 0660 /sys/class/hw_power/charger/wireless_tx/tx_open
+    chown system system /sys/class/hw_power/charger/wireless_tx/tx_open
+    chmod 0660 /sys/class/hw_power/charger/wireless_tx/kp_power
+    chown system system /sys/class/hw_power/charger/wireless_tx/kp_power
+    chmod 0660 /sys/class/hw_power/charger/wireless_aux_tx/tx_open
+    chown system system /sys/class/hw_power/charger/wireless_aux_tx/tx_open
+    chmod 0440 /sys/class/hw_power/charger/wireless_tx/tx_status
+    chown system system /sys/class/hw_power/charger/wireless_tx/tx_status
+    chmod 0440 /sys/class/hw_power/charger/wireless_tx/tx_iin_avg
+    chown system system /sys/class/hw_power/charger/wireless_tx/tx_iin_avg
+    chmod 0444 /sys/class/hw_power/wireless/tx_bd_info
+    chown system system /sys/class/hw_power/wireless/tx_bd_info
+
+    chmod 0660 /sys/class/power_supply/battery/cycle_count
+    chown system system /sys/class/power_supply/battery/cycle_count
+    chmod 0660 sys/class/power_supply/hwbatt/reset_learned_cc
+    chown system system sys/class/power_supply/hwbatt/reset_learned_cc
+    chmod 0660 /sys/class/power_supply/hwbatt/voltage_max
+    chown system system /sys/class/power_supply/hwbatt/voltage_max
+    chmod 0660 /sys/class/power_supply/hwbatt/voltage_max_design
+    chown system system /sys/class/power_supply/hwbatt/voltage_max_design
+    chmod 0660 /sys/class/power_supply/hwbatt/constant_charge_current_max
+    chown system system /sys/class/power_supply/hwbatt/constant_charge_current_max
+
+    chmod 0440 /sys/class/hw_power/adapter/adapter_type
+    chown system system /sys/class/hw_power/adapter/adapter_type
+    chmod 0440 /sys/class/hw_power/adapter/chip_id
+    chown system system /sys/class/hw_power/adapter/chip_id
+    chmod 0440 /sys/class/hw_power/adapter/fwver
+    chown system system /sys/class/hw_power/adapter/fwver
+    chmod 0440 /sys/class/hw_power/adapter/hwver
+    chown system system /sys/class/hw_power/adapter/hwver
+    chmod 0440 /sys/class/hw_power/adapter/max_cur
+    chown system system /sys/class/hw_power/adapter/max_cur
+    chmod 0440 /sys/class/hw_power/adapter/max_volt
+    chown system system /sys/class/hw_power/adapter/max_volt
+    chmod 0440 /sys/class/hw_power/adapter/min_cur
+    chown system system /sys/class/hw_power/adapter/min_cur
+    chmod 0440 /sys/class/hw_power/adapter/min_volt
+    chown system system /sys/class/hw_power/adapter/min_volt
+    chmod 0440 /sys/class/hw_power/adapter/module_id
+    chown system system /sys/class/hw_power/adapter/module_id
+    chmod 0440 /sys/class/hw_power/adapter/support_mode
+    chown system system /sys/class/hw_power/adapter/support_mode
+    chmod 0440 /sys/class/hw_power/adapter/vendor_id
+    chown system system /sys/class/hw_power/adapter/vendor_id
+    chmod 0440 /sys/class/hw_power/adapter/serial_no
+    chown system system /sys/class/hw_power/adapter/serial_no
+    chmod 0222 /sys/class/hw_power/power_cali/reset
+    chown system system /sys/class/hw_power/power_cali/reset
+    chmod 0440 /proc/battery_leakage/micro_short_circuit
+    chown system system /proc/battery_leakage/micro_short_circuit
+    chmod 0440 /proc/battery_leakage/linearity
+    chown system system /proc/battery_leakage/linearity
+    chmod 0660 /proc/battery_leakage/micro_short_circuit_clear
+    chown system system /proc/battery_leakage/micro_short_circuit_clear
+    chmod 0660 /sys/class/hw_typec/typec/otg_disable
+    chown system system /sys/class/hw_typec/typec/otg_disable
+
+on property:ro.runmode=normal
+    chmod 0660 /sys/class/hw_power/interface/iin_thermal
+    write /sys/class/hw_power/interface/iin_thermal "thermal dcp 0#900"
+    write /sys/class/hw_power/interface/iin_thermal "thermal dcp 1#900"
+    write /sys/class/hw_power/interface/iin_thermal "thermal lvc 0#1500"
+    write /sys/class/hw_power/interface/iin_thermal "thermal sc 0#2000"
+    write /sys/class/hw_power/interface/iin_thermal "thermal sc 1#2000"
+
+#on property:persist.sys.hlcharging=1
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_temp_limit 1
+#on property:persist.sys.hlcharging=0
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_temp_limit 0
+
+# add for power engine
+service hwpged /system/bin/hwpged
+    class main
+    socket MsgHubSock stream 0660 root system
+    socket iawared seqpacket 0660 system system
+    user root
+    group system readproc
+    seclabel u:r:hwpged:s0
+# add for power engine
+service powerlogd /system/bin/powerlogd
+    class core
+    socket powerlogd stream 0600 system system
+    socket powerlogdr seqpacket 0600 system system
+    socket powerlogdw dgram 0220 system system
+    seclabel u:r:powerlogd:s0
+
+on init
+# add for power engine
+# Create cgroup mount point for freezer
+    mkdir /dev/frz
+    mount cgroup none /dev/frz freezer
+    chmod 0775 /dev/frz
+
+    mkdir /dev/frz/aware_frozen
+    chmod 0770 /dev/frz/aware_frozen
+    chown root root /dev/frz/aware_frozen
+
+#on property:persist.sys.honor.usb.900ma=1
+#    write /sys/module/qpnp_smbcharger/parameters/chg_usb_current 900
+#on property:persist.sys.honor.usb.900ma=0
+#    write /sys/module/qpnp_smbcharger/parameters/chg_usb_current 0
+
+#on property:persist.sys.ntcharging=1
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_timer 1
+#on property:persist.sys.ntcharging=0
+#    write /sys/module/qpnp_smbcharger/parameters/chg_no_timer 0
+
+#on property:persist.sys.smb1360_ntcharging=1
+#    write /sys/module/smb1360_charger_fg/parameters/chg_no_timer 1
+#on property:persist.sys.smb1360_ntcharging=0
+#    write /sys/module/smb1360_charger_fg/parameters/chg_no_timer 0
+
+on charger
+    #setprop sys.usb.configfs 0
+    #write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
+    #write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 652800
+    #write /sys/devices/system/cpu/cpu1/online 0
+    #write /sys/devices/system/cpu/cpu2/online 0
+    #write /sys/devices/system/cpu/cpu3/online 0
+    #write /sys/devices/system/cpu/cpu4/online 0
+    #write /sys/devices/system/cpu/cpu5/online 0
+    #write /sys/devices/system/cpu/cpu6/online 0
+    #write /sys/devices/system/cpu/cpu7/online 0

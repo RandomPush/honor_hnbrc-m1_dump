@@ -1,0 +1,7 @@
+service cameraassistant /vendor/bin/hw/vendor.honor.hardware.camera.cameraassistant@1.0-service
+    interface vendor.honor.hardware.camera.cameraassistant@1.0::ICameraAssistant default
+    class hal
+    user system
+    group system
+    oneshot
+    disabled

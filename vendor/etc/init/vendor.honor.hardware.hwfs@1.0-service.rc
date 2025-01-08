@@ -1,0 +1,5 @@
+service hwfs-hal-1-0 /vendor/bin/hw/vendor.honor.hardware.hwfs@1.0-service
+    interface vendor.honor.hardware.hwfs@1.0::IHwfs default
+    class hal
+    user root
+    group root

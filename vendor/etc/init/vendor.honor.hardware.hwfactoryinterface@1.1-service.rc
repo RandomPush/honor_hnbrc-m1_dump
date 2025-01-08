@@ -1,0 +1,6 @@
+service hwfactoryinterface-hal-1-1 /vendor/bin/hw/vendor.honor.hardware.hwfactoryinterface@1.1-service
+    class hal
+    capabilities SYS_MODULE WAKE_ALARM NET_ADMIN
+    user root
+    group shell system wifi dhcp inet net_raw net_admin media_rw radio root bluetooth camera
+    seclabel u:r:hal_hwfactoryinterface_default:s0

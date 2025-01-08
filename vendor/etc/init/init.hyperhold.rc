@@ -1,0 +1,162 @@
+# hyperhold
+
+on post-fs
+    # Modify dev/memcg hyperhold node group
+    chown root system /dev/memcg/memory.active_app_info_list
+    chown root system /dev/memcg/memory.anon_refault_snapshot_min_interval
+    chown root system /dev/memcg/memory.app_score
+    chown root system /dev/memcg/memory.area_anon_refault_threshold
+    chown root system /dev/memcg/memory.avail_buffers
+    chown root system /dev/memcg/memory.buffer_ratio_params
+    chown root system /dev/memcg/memory.compress_ratio
+    chown root system /dev/memcg/memory.cold_writeback
+    chown root system /dev/memcg/memory.ec_app_start
+    chown root system /dev/memcg/memory.empty_round_check_threshold
+    chown root system /dev/memcg/memory.empty_round_skip_interval
+    chown root system /dev/memcg/memory.eswap_avail_buffers
+    chown root system /dev/memcg/memory.eswap_stat
+    chown root system /dev/memcg/memory.force_shrink_anon
+    chown root system /dev/memcg/memory.kshrink_pause
+    chown root system /dev/memcg/memory.force_swapin
+    chown root system /dev/memcg/memory.force_swapout
+    chown root system /dev/memcg/memory.leak_count
+    chown root system /dev/memcg/memory.max_skip_interval
+    chown root system /dev/memcg/memory.name
+    chown root system /dev/memcg/memory.pause_zswapd_interval
+    chown root system /dev/memcg/memory.psi_health_info
+    chown root system /dev/memcg/memory.score_list
+    chown root system /dev/memcg/memory.soft_limit_in_bytes
+    chown root system /dev/memcg/memory.stat
+    chown root system /dev/memcg/memory.swappiness
+    chown root system /dev/memcg/memory.total_info_per_app
+    chown root system /dev/memcg/memory.ub_ufs2zram_ratio
+    chown root system /dev/memcg/memory.zram_critical_threshold
+    chown root system /dev/memcg/memory.zram_wm_ratio
+    chown root system /dev/memcg/memory.zswapd_max_reclaim_size
+    chown root system /dev/memcg/memory.zswapd_memcgs_param
+    chown root system /dev/memcg/memory.zswapd_min_anon_size
+    chown root system /dev/memcg/memory.zswapd_pid
+    chown root system /dev/memcg/memory.zswapd_pressure
+    chown root system /dev/memcg/memory.zswapd_presure_show
+    chown root system /dev/memcg/memory.zswapd_single_memcg_param
+    chown root system /sys/block/zram0/hyperhold_enable
+    chown root system /sys/block/zram0/hyperhold_report
+    chown root system /sys/block/zram0/hyperhold_space
+    chown root system /sys/block/zram0/hyperhold_appscore
+    chown root system /sys/block/zram0/hyperhold_force_swapin
+    chown root system /sys/block/zram0/hyperhold_force_swapout
+    chown root system /sys/block/zram0/hyperhold_zswapd_single_memcg_param
+    chown root system /sys/block/zram0/hyperhold_avail_buffers
+    chown root system /sys/block/zram0/hyperhold_pause_zswapd_interval
+    chown root system /sys/block/zram0/hyperhold_eswap_stat
+    chown root system /sys/block/zram0/hyperhold_zram_critical_threshold
+    chown root system /sys/block/zram0/hyperhold_zswapd_min_anon_size
+    chown root system /sys/block/zram0/hyperhold_eswap_avail_buffers
+    chown root system /sys/block/zram0/hyperhold_zswapd_pressure
+    chown root system /sys/block/zram0/hyperhold_force_shrink
+    chown root system /sys/block/zram0/hyperhold_cold_writeback
+    chown root system /sys/block/zram0/hyperhold_zram_wm_ratio
+    chown root system /sys/block/zram0/hyperhold_cache
+    chmod 0440 /dev/memcg/memory.active_app_info_list
+    chmod 0660 /dev/memcg/memory.anon_refault_snapshot_min_interval
+    chmod 0660 /dev/memcg/memory.app_score
+    chmod 0660 /dev/memcg/memory.area_anon_refault_threshold
+    chmod 0660 /dev/memcg/memory.avail_buffers
+    chmod 0660 /dev/memcg/memory.buffer_ratio_params
+    chmod 0660 /dev/memcg/memory.compress_ratio
+    chmod 0660 /dev/memcg/memory.cold_writeback
+    chmod 0660 /dev/memcg/memory.ec_app_start
+    chmod 0660 /dev/memcg/memory.empty_round_check_threshold
+    chmod 0660 /dev/memcg/memory.empty_round_skip_interval
+    chmod 0660 /dev/memcg/memory.eswap_avail_buffers
+    chmod 0440 /dev/memcg/memory.eswap_stat
+    chmod 0220 /dev/memcg/memory.force_shrink_anon
+    chmod 0220 /dev/memcg/memory.kshrink_pause
+    chmod 0220 /dev/memcg/memory.force_swapin
+    chmod 0220 /dev/memcg/memory.force_swapout
+    chmod 0660 /dev/memcg/memory.leak_count
+    chmod 0660 /dev/memcg/memory.max_skip_interval
+    chmod 0660 /dev/memcg/memory.name
+    chmod 0660 /dev/memcg/memory.pause_zswapd_interval
+    chmod 0440 /dev/memcg/memory.psi_health_info
+    chmod 0440 /dev/memcg/memory.score_list
+    chmod 0660 /dev/memcg/memory.soft_limit_in_bytes
+    chmod 0440 /dev/memcg/memory.stat
+    chmod 0660 /dev/memcg/memory.swappiness
+    chmod 0440 /dev/memcg/memory.total_info_per_app
+    chmod 0660 /dev/memcg/memory.ub_ufs2zram_ratio
+    chmod 0660 /dev/memcg/memory.zram_wm_ratio
+    chmod 0660 /dev/memcg/memory.zswapd_max_reclaim_size
+    chmod 0660 /dev/memcg/memory.zswapd_memcgs_param
+    chmod 0660 /dev/memcg/memory.zswapd_min_anon_size
+    chmod 0440 /dev/memcg/memory.zswapd_pid
+    chmod 0220 /dev/memcg/memory.zswapd_pressure
+    chmod 0440 /dev/memcg/memory.zswapd_presure_show
+    chmod 0660 /dev/memcg/memory.zswapd_single_memcg_param
+    chmod 0660 /sys/block/zram0/hyperhold_enable
+    chmod 0660 /sys/block/zram0/hyperhold_space
+    chmod 0660 /sys/block/zram0/hyperhold_appscore
+    chmod 0660 /sys/block/zram0/hyperhold_force_swapin
+    chmod 0660 /sys/block/zram0/hyperhold_force_swapout
+    chmod 0660 /sys/block/zram0/hyperhold_zswapd_single_memcg_param
+    chmod 0660 /sys/block/zram0/hyperhold_avail_buffers
+    chmod 0660 /sys/block/zram0/hyperhold_pause_zswapd_interval
+    chmod 0660 /sys/block/zram0/hyperhold_eswap_stat
+    chmod 0660 /sys/block/zram0/hyperhold_zram_critical_threshold
+    chmod 0660 /sys/block/zram0/hyperhold_zswapd_min_anon_size
+    chmod 0660 /sys/block/zram0/hyperhold_eswap_avail_buffers
+    chmod 0440 /sys/block/zram0/hyperhold_report
+    chmod 0220 /sys/block/zram0/hyperhold_zswapd_pressure
+    chmod 0660 /sys/block/zram0/hyperhold_force_shrink
+    chmod 0660 /sys/block/zram0/hyperhold_cold_writeback
+    chmod 0660 /sys/block/zram0/hyperhold_zram_wm_ratio
+    chmod 0660 /sys/block/zram0/hyperhold_cache
+    # set before late-fs
+    setprop persist.sys.hyperhold.swapout.enable 0
+    setprop sys.hyperhold.firstboot 2
+
+# enable before load persist props, the value of hyperhold.enable may be overridden by persistent_properties
+on late-fs && property:persist.sys.hyperhold.swapout.enable.cfg=true
+    setprop persist.sys.hyperhold.swapout.enable 1
+
+# disable after load persist props
+on boot && property:persist.sys.hyperhold.swapout.enable.cfg=false
+    setprop persist.sys.hyperhold.swapout.enable 0
+    setprop persist.sys.hyperhold.permanently.closed 1
+
+# disable if not SetHyperholdSwitch
+on boot && property:persist.sys.hyperhold.open=0
+    setprop persist.sys.hyperhold.swapout.enable 0
+
+on property:persist.sys.hyperhold.swapout.enable=0 && property:sys.hyperhold.firstboot=1
+    swapon_all /vendor/etc/fstab.enableswap
+    write /sys/block/zram0/hyperhold_enable 0
+    setprop sys.hyperhold.firstboot 0
+    setprop persist.sys.hyperhold.permanently.closed 1
+
+on property:persist.sys.hyperhold.swapout.enable=0 && property:sys.hyperhold.firstboot=3
+    swapon_all /vendor/etc/fstab.enableswap
+    write /sys/block/zram0/hyperhold_enable 0
+    setprop sys.hyperhold.firstboot 0
+    setprop persist.sys.hyperhold.permanently.closed 1
+
+# sys.hyperhold.firstboot  1: use dm block device for encrypto 3: do not use dm block device for encrypto
+on property:persist.sys.hyperhold.swapout.enable=1 && property:sys.hyperhold.firstboot=1
+    wait /dev/block/mapper/hyperhold
+    write /sys/block/zram0/hyperhold_mapper "/dev/block/mapper/hyperhold"
+    swapon_all /vendor/etc/fstab.hyperhold
+    write /sys/block/zram0/hyperhold_enable 1
+    setprop sys.hyperhold.firstboot 0
+    setprop persist.sys.hyperhold.permanently.closed 0
+
+on property:persist.sys.hyperhold.swapout.enable=1 && property:sys.hyperhold.firstboot=3
+    swapon_all /vendor/etc/fstab.hyperhold
+    write /sys/block/zram0/hyperhold_enable 1
+    setprop sys.hyperhold.firstboot 0
+    setprop persist.sys.hyperhold.permanently.closed 0
+
+on property:persist.sys.hyperhold.swapout.enable.cfg=true
+    write /sys/block/zram0/dedup_enable 0
+
+on property:persist.sys.hyperhold.swapout.enable.cfg=false
+    write /sys/block/zram0/dedup_enable 1

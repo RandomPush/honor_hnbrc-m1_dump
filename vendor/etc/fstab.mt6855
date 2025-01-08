@@ -1,0 +1,171 @@
+# 1 "vendor/mediatek/proprietary/hardware/fstab/mt6855/fstab.in.mt6855"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 341 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "vendor/mediatek/proprietary/hardware/fstab/mt6855/fstab.in.mt6855" 2
+# 157 "vendor/mediatek/proprietary/hardware/fstab/mt6855/fstab.in.mt6855"
+system /system ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,avb
+system /system erofs ro wait,slotselect,logical,first_stage_mount,avb
+system_ext /system_ext ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+system_ext /system_ext erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+vendor /vendor ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,avb
+vendor /vendor erofs ro wait,slotselect,logical,first_stage_mount,avb
+vendor_dlkm /vendor_dlkm ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,avb
+vendor_dlkm /vendor_dlkm erofs ro wait,slotselect,logical,first_stage_mount,avb
+odm /odm ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+odm /odm erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+cust /cust ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+cust /cust erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+product /product ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+product /product erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+product_h /product_h ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+product_h /product_h erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+preas /preas ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+preas /preas erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+preavs /preavs ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+preavs /preavs erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+version /version ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+version /version erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+preload /preload ext4 ro,barrier=1,discard wait,slotselect,logical,first_stage_mount,nofail,avb
+preload /preload erofs ro wait,slotselect,logical,first_stage_mount,nofail,avb
+/dev/block/by-name/patch /patch_hn ext4 ro,barrier=1,discard wait,slotselect,nofail,first_stage_mount,avb_keys=/patch_avb_key
+/dev/block/by-name/patch /patch_hn erofs ro wait,slotselect,nofail,first_stage_mount,avb_keys=/patch_avb_key
+# 202 "vendor/mediatek/proprietary/hardware/fstab/mt6855/fstab.in.mt6855"
+/dev/block/by-name/metadata /metadata ext4 noatime,nosuid,nodev,discard wait,check,formattable,first_stage_mount
+
+/dev/block/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge,fsync_mode=nobarrier,reserve_root=134217,resgid=1065,inlinecrypt wait,check,quota,latemount,resize,reservedsize=128m,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,keydirectory=/metadata/vold/metadata_encryption,fsverity,sysfs_path=/sys/devices/platform/soc/112b0000.ufshci
+/dev/block/by-name/log /log ext4 noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,nofail
+/dev/block/by-name/cache /cache ext4 noatime,nosuid,nodev,noauto_da_alloc,discard wait,check,formattable
+/dev/block/by-name/protect1 /mnt/vendor/protect_f ext4 noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
+/dev/block/by-name/protect2 /mnt/vendor/protect_s ext4 noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
+/dev/block/by-name/nvdata /mnt/vendor/nvdata ext4 noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
+/dev/block/by-name/nvcfg /mnt/vendor/nvcfg ext4 noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
+
+
+/dev/block/by-name/persist /mnt/vendor/persist ext4 noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
+
+
+
+
+
+/devices/platform/soc/11240000.mmc* auto auto defaults voldmanaged=sdcard1:auto
+
+/devices/platform/soc/mt_usb* auto vfat defaults voldmanaged=usbotg:auto
+
+/dev/block/by-name/frp /persistent emmc defaults defaults
+
+/dev/block/by-name/nvram /nvram emmc defaults defaults
+/dev/block/by-name/proinfo /proinfo emmc defaults defaults
+/dev/block/by-name/lk1 /lk1 emmc defaults defaults
+/dev/block/by-name/bootloader2 /bootloader2 emmc defaults defaults
+/dev/block/by-name/para /para emmc defaults defaults
+/dev/block/by-name/misc /misc emmc defaults defaults
+
+
+
+
+/dev/block/by-name/boot /boot emmc defaults first_stage_mount,nofail,slotselect
+
+
+
+
+
+/dev/block/by-name/vbmeta_vendor /vbmeta_vendor emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_system /vbmeta_system emmc defaults first_stage_mount,nofail,slotselect,avb=vbmeta
+
+/dev/block/by-name/eng_system /eng_system emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/eng_vendor /eng_vendor emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/ramdisk /ramdisk emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_odm /vbmeta_odm emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_product /vbmeta_product emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_system_ext /vbmeta_system_ext emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_product_h /vbmeta_product_h emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_cust /vbmeta_cust emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_preas /vbmeta_preas emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_preavs /vbmeta_preavs emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_version /vbmeta_version emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_preload /vbmeta_preload emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vendor_boot /vendor_boot emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_vendor_dlkm /vbmeta_vendor_dlkm emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/vbmeta_odm_dlkm /vbmeta_odm_dlkm emmc defaults first_stage_mount,nofail,slotselect
+/dev/block/by-name/logo /logo emmc defaults defaults
+/dev/block/by-name/expdb /expdb emmc defaults defaults
+/dev/block/by-name/seccfg /seccfg emmc defaults defaults
+
+/dev/block/by-name/tee1 /tee1 emmc defaults defaults
+/dev/block/by-name/tee2 /tee2 emmc defaults defaults
+
+
+/dev/block/by-name/scp1 /scp1 emmc defaults defaults
+/dev/block/by-name/scp2 /scp2 emmc defaults defaults
+
+
+/dev/block/by-name/sspm1 /sspm1 emmc defaults defaults
+/dev/block/by-name/sspm2 /sspm2 emmc defaults defaults
+
+
+/dev/block/by-name/dpm1 /dpm1 emmc defaults defaults
+/dev/block/by-name/dpm2 /dpm2 emmc defaults defaults
+
+/dev/block/by-name/mcupm1 /mcupm1 emmc defaults defaults
+/dev/block/by-name/mcupm2 /mcupm2 emmc defaults defaults
+
+
+
+/dev/block/by-name/md1img /md1img emmc defaults defaults
+/dev/block/by-name/md1dsp /md1dsp emmc defaults defaults
+/dev/block/by-name/md1arm7 /md1arm7 emmc defaults defaults
+/dev/block/by-name/md3img /md3img emmc defaults defaults
+
+
+
+
+
+/dev/block/by-name/gz1 /gz1 emmc defaults defaults
+/dev/block/by-name/gz2 /gz2 emmc defaults defaults
+/dev/block/by-name/ccu /ccu emmc defaults defaults
+/dev/block/by-name/vcp /vcp emmc defaults defaults
+/dev/block/by-name/gpueb /gpueb emmc defaults defaults
+/dev/block/by-name/mcf_ota /mcf_ota emmc defaults defaults
+/dev/block/by-name/vendor_boot /vendor_boot emmc defaults defaults
+/dev/block/by-name/mvpu_algo1 /mvpu_algo1 emmc defaults defaults
+/dev/block/by-name/mvpu_algo2 /mvpu_algo2 emmc defaults defaults
+/dev/block/by-name/apusys1 /apusys1 emmc defaults defaults
+/dev/block/by-name/apusys2 /apusys2 emmc defaults defaults
+
+/dev/block/by-name/spmfw /spmfw emmc defaults defaults
+
+
+
+
+
+
+
+/dev/block/by-name/pi_img /pi_img emmc defaults defaults
+/dev/block/by-name/boot_para /boot_para emmc defaults defaults
+/dev/block/by-name/odmdtbo /odmdtbo emmc defaults defaults
+/dev/block/by-name/dtbo /dtbo emmc defaults defaults
+
+/dev/block/by-name/otp /otp emmc defaults defaults
+
+
+/dev/block/by-name/vbmeta /vbmeta emmc defaults defaults
+
+
+
+overlay /system/product/priv-app overlay ro,lowerdir=/preas/priv-app:/system/product/priv-app check,nofail
+overlay /system/product/app overlay ro,lowerdir=/preas/app:/system/product/app check,nofail
+overlay /system/product/etc/default-permissions overlay ro,lowerdir=/preas/oversea/default-permissions:/system/product/etc/default-permissions check,nofail
+overlay /system/product/etc/permissions overlay ro,lowerdir=/preas/oversea/permissions:/system/product/etc/permissions check,nofail
+overlay /system/product/etc/preferred-apps overlay ro,lowerdir=/preas/oversea/preferred-apps:/system/product/etc/preferred-apps check,nofail
+overlay /system/product/etc/default-permissions overlay ro,lowerdir=/preas/china/default-permissions:/system/product/etc/default-permissions check,nofail
+overlay /system/product/etc/permissions overlay ro,lowerdir=/preas/china/permissions:/system/product/etc/permissions check,nofail
+overlay /system/product/etc/preferred-apps overlay ro,lowerdir=/preas/china/preferred-apps:/system/product/etc/preferred-apps check,nofail
+overlay /system/product/overlay overlay ro,lowerdir=/preas/oversea/overlay:/system/product/overlay check,nofail
+overlay /system/product/etc/security overlay ro,lowerdir=/preas/oversea/security:/system/product/etc/security check,nofail
+overlay /system/product/etc/sysconfig overlay ro,lowerdir=/preas/oversea/sysconfig:/system/product/etc/sysconfig check,nofail
+overlay /system/product/usr overlay ro,lowerdir=/preas/usr:/system/product/usr check,nofail
+overlay /system/product/etc/security overlay ro,lowerdir=/preas/china/security:/system/product/etc/security check,nofail
+overlay /system/product/etc/sysconfig overlay ro,lowerdir=/preas/china/sysconfig:/system/product/etc/sysconfig check,nofail

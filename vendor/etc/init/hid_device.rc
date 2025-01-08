@@ -1,0 +1,201 @@
+on boot
+    chown root root /vendor/etc/hid/digital_pen
+    chown root root /vendor/etc/hid/digital_key
+    chown root root /odm/etc/hid/digital_pen
+    chown root root /odm/etc/hid/digital_key
+    chmod 664 /vendor/etc/hid/digital_pen
+    chmod 664 /vendor/etc/hid/digital_key
+    chmod 664 /odm/etc/hid/digital_pen
+    chmod 664 /odm/etc/hid/digital_key
+
+on post-fs
+    mkdir /config/usb_gadget/g1/functions/hid.gs0
+    mkdir /config/usb_gadget/g1/functions/hid.gs1
+    chown root root /config/usb_gadget/g1/functions/hid.gs0/report_desc
+    chmod 0660 /config/usb_gadget/g1/functions/hid.gs0/report_desc
+    chown root root /config/usb_gadget/g1/functions/hid.gs0/report_length
+    chmod 0660 /config/usb_gadget/g1/functions/hid.gs0/report_length
+    chown root root /config/usb_gadget/g1/functions/hid.gs1/report_desc
+    chmod 0660 /config/usb_gadget/g1/functions/hid.gs1/report_desc
+    chown root root /config/usb_gadget/g1/functions/hid.gs1/report_length
+    chmod 0660 /config/usb_gadget/g1/functions/hid.gs1/report_length
+
+on property:vendor.hidg.created=1
+    chmod 0664 /dev/hidg0
+    chown system system /dev/hidg0
+    chmod 0664 /dev/hidg1
+    chown system system /dev/hidg1
+
+on property:sys.usb.config=hid && property:sys.usb.configfs=1
+    setprop vendor.hidg.created 0
+    start hid_device
+
+on property:sys.usb.config=hid && property:sys.usb.configfs=1 && property:vendor.hid.ready=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "hid"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    rm /config/usb_gadget/g1/configs/b.1/f9
+    write /config/usb_gadget/g1/idProduct 0x107F
+    write /config/usb_gadget/g1/idVendor 0x339B
+    write /config/usb_gadget/g1/functions/hid.gs0/protocol 0
+    write /config/usb_gadget/g1/functions/hid.gs0/subclass 0
+    write /config/usb_gadget/g1/functions/hid.gs1/protocol 0
+    write /config/usb_gadget/g1/functions/hid.gs1/subclass 0
+    symlink /config/usb_gadget/g1/functions/hid.gs0 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/hid.gs1 /config/usb_gadget/g1/configs/b.1/f2
+    write /config/usb_gadget/g1/UDC ${vendor.usb.controller}
+    setprop vendor.hidg.created 1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=hid,adb && property:sys.usb.configfs=1
+    stop adbd
+    write /config/usb_gadget/g1/idProduct 0x107F
+    write /config/usb_gadget/g1/idVendor 0x339B
+    setprop vendor.hidg.created 0
+    start hid_device
+    start adbd
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=hid,adb && property:sys.usb.configfs=1 && \
+property:vendor.hid.ready=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "hid_adb"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    rm /config/usb_gadget/g1/configs/b.1/f9
+    write /config/usb_gadget/g1/functions/hid.gs0/protocol 0
+    write /config/usb_gadget/g1/functions/hid.gs0/subclass 0
+    write /config/usb_gadget/g1/functions/hid.gs1/protocol 0
+    write /config/usb_gadget/g1/functions/hid.gs1/subclass 0
+    symlink /config/usb_gadget/g1/functions/hid.gs0 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/hid.gs1 /config/usb_gadget/g1/configs/b.1/f2
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f3
+    symlink /config/usb_gadget/g1/functions/vtl_port.0 /config/usb_gadget/g1/configs/b.1/f4
+    write /config/usb_gadget/g1/UDC ${vendor.usb.controller}
+    setprop vendor.hidg.created 1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=mtp,hid && property:sys.usb.configfs=1
+    setprop vendor.hidg.created 0
+    start hid_device
+
+on property:sys.usb.config=mtp,hid && property:sys.usb.configfs=1 && property:vendor.hid.ready=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "mtp"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    rm /config/usb_gadget/g1/configs/b.1/f9
+    write /config/usb_gadget/g1/os_desc/use 1
+    symlink /config/usb_gadget/g1/functions/hid.gs0 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/hid.gs1 /config/usb_gadget/g1/configs/b.1/f2
+    symlink /config/usb_gadget/g1/functions/mtp.gs0 /config/usb_gadget/g1/configs/b.1/f3
+    symlink /config/usb_gadget/g1/functions/ffs.mtp /config/usb_gadget/g1/configs/b.1/f4
+    symlink /config/usb_gadget/g1/functions/vtl_port.0 /config/usb_gadget/g1/configs/b.1/f5
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop vendor.hidg.created 1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=mtp,hid,adb && property:sys.usb.configfs=1
+    stop adbd
+    setprop vendor.hidg.created 0
+    start adbd
+    start hid_device
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=mtp,hid,adb && property:sys.usb.configfs=1 && \
+property:vendor.hid.ready=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "mtp_adb"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    rm /config/usb_gadget/g1/configs/b.1/f9
+    write /config/usb_gadget/g1/os_desc/use 1
+    symlink /config/usb_gadget/g1/functions/hid.gs0 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/hid.gs1 /config/usb_gadget/g1/configs/b.1/f2
+    symlink /config/usb_gadget/g1/functions/mtp.gs0 /config/usb_gadget/g1/configs/b.1/f3
+    symlink /config/usb_gadget/g1/functions/ffs.mtp /config/usb_gadget/g1/configs/b.1/f4
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f5
+    symlink /config/usb_gadget/g1/functions/vtl_port.0 /config/usb_gadget/g1/configs/b.1/f6
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop vendor.hidg.created 1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=ptp,hid && property:sys.usb.configfs=1
+    setprop vendor.hidg.created 0
+    start hid_device
+
+on property:sys.usb.config=ptp,hid && property:sys.usb.configfs=1 && property:vendor.hid.ready=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "ptp"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    rm /config/usb_gadget/g1/configs/b.1/f9
+    write /config/usb_gadget/g1/os_desc/use 1
+    symlink /config/usb_gadget/g1/functions/hid.gs0 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/hid.gs1 /config/usb_gadget/g1/configs/b.1/f2
+    symlink /config/usb_gadget/g1/functions/ptp.gs0 /config/usb_gadget/g1/configs/b.1/f3
+    symlink /config/usb_gadget/g1/functions/ffs.ptp /config/usb_gadget/g1/configs/b.1/f4
+    symlink /config/usb_gadget/g1/functions/vtl_port.0 /config/usb_gadget/g1/configs/b.1/f5
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop vendor.hidg.created 1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=ptp,hid,adb && property:sys.usb.configfs=1
+    stop adbd
+    setprop vendor.hidg.created 0
+    start adbd
+    start hid_device
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=ptp,hid,adb && property:sys.usb.configfs=1 && \
+property:vendor.hid.ready=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "ptp_adb"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    rm /config/usb_gadget/g1/configs/b.1/f9
+    write /config/usb_gadget/g1/os_desc/use 1
+    symlink /config/usb_gadget/g1/functions/hid.gs0 /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/hid.gs1 /config/usb_gadget/g1/configs/b.1/f2
+    symlink /config/usb_gadget/g1/functions/ptp.gs0 /config/usb_gadget/g1/configs/b.1/f3
+    symlink /config/usb_gadget/g1/functions/ffs.ptp /config/usb_gadget/g1/configs/b.1/f4
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f5
+    symlink /config/usb_gadget/g1/functions/vtl_port.0 /config/usb_gadget/g1/configs/b.1/f6
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop vendor.hidg.created 1
+    setprop sys.usb.state ${sys.usb.config}
+
+service hid_device /vendor/bin/hid_device
+    user root
+    group root shell
+    seclabel u:r:hid_device:s0
+    disabled
+    oneshot

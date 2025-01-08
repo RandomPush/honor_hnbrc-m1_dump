@@ -1,0 +1,71 @@
+<AppConfig>
+  <CloseNR_APPList>
+    <UidCloseNREnable>1</UidCloseNREnable>
+    <ProductList>
+      <product group="KKG-AN70">option1,option2,option3,option4,option6</product>
+      <product group="NZA-AN00">option1,option2,option3,option4,option6</product>
+      <product group="NZA-TN00">option1,option2,option3,option4,option6</product>
+      <product group="HJC-AN00">option1,option2,option3,option4,option6</product>
+      <product group="HJC-TN00">option1,option2,option3,option4,option6</product>
+      <product group="HJC-AN90">option1,option2,option3,option4,option6</product>
+      <product group="YOR-AN00">option1,option2,option3,option4,option6</product>
+      <product group="YOR-TN10">option1,option2,option3,option4,option6</product>
+      <product group="YOR-AN10">option1,option2,option3,option4,option6</product>
+      <product group="CHL-AN00">option1,option2,option3,option4,option6</product>
+      <product group="CHL-TN00">option1,option2,option3,option4,option6</product>
+      <product group="ALA-AN70">option1,option2,option3,option4,option6</product>
+      <product group="JLH-AN00">option1,option2,option3,option4,option6</product>
+      <product group="JLH-TN00">option1,option2,option3,option4,option6</product>
+      <product group="NTX-AN00">option1,option2,option3,option4,option6</product>
+      <product group="NTX-AN10">option1,option2,option3,option4,option6</product>
+      <product group="NTX-AN90">option1,option2,option3,option4,option6</product>
+      <product group="NTX-TN00">option1,option2,option3,option4,option6</product>
+      <product group="CMA-AN00">option1,option2,option3,option4,option6</product>
+      <product group="CMA-AN40">option1,option2,option3,option4,option6</product>
+      <product group="CMA-TN00">option1,option2,option3,option4,option6</product>
+      <product group="BRT-AN09">option1,option2,option3,option4,option6</product>
+      <product group="KRJ2-AN00">option1,option2,option3,option4,option6</product>
+      <product group="TFY-AN00">option1,option2,option3,option4,option6</product>
+      <product group="TFY-AN40">option1,option2,option3,option4,option6</product>
+      <product group="TFY-TN00">option1,option2,option3,option4,option6</product>
+      <product group="GIA-AN00">option1,option2,option3,option4,option6</product>
+      <product group="GIA-TN00">option1,option2,option3,option4,option6</product>
+      <product group="SDY-AN00">option1,option2,option3,option4,option6</product>
+      <product group="HPB-AN00">option1,option2,option3,option4,option6</product>
+      <product group="RKY-AN00">option1,option2,option3,option4,option6</product>
+      <product group="RKY-AN10">option1,option2,option3,option4,option6</product>
+      <product group="DIO-AN00">option1,option2,option3,option4,option6</product>
+      <product group="DIO-AN10">option1,option2,option3,option4,option6</product>
+      <product group="GIA-AN80">option1,option2,option3,option4,option6</product>
+      <product group="GIA-TN80">option1,option2,option3,option4,option6</product>
+      <product group="CRT-AN00">option1,option2,option3,option4,option6</product>
+      <product group="CLK-AN00">option1,option2,option3,option4,option6</product>
+      <product group="LLY-AN00">option1,option2,option3,option4,option6</product>
+    </ProductList>
+    <ParamList>
+      <option group="option1">5,3,15000,35000,30,30,7,10,4,4</option>
+      <option group="option2">5,3,15000,35000,30,30,7,10,4,4</option>
+      <option group="option3">30,1,0,0,30,604800,86400,604800,4,4</option>
+      <option group="option4">5,3,15000,35000,30,30,7,30,4,4</option>
+      <option group="option5">5,3,15000,35000,30,30,7,10,4,4</option>
+      <option group="option6">2,3,200000,500000,30,30,2,10,4,4</option>
+      <option group="option7">5,3,15000,35000,30,30,7,10,4,4</option>
+    </ParamList>
+    <APKInfo packageName="AllSceneDisableEndc" param="option1"></APKInfo>
+    <APKInfo packageName="SavePowerDisableEndc" param="option2"></APKInfo>
+    <APKInfo packageName="com.autonavi.minimap" param="option6"></APKInfo>
+    <APKInfo packageName="com.baidu.BaiduMap" param="option6"></APKInfo>
+    <APKInfo packageName="com.sdu.didi.psnger" param="option6"></APKInfo>
+    <APKInfo packageName="com.tencent.map" param="option6"></APKInfo>
+    <APKInfo packageName="com.didapinche.booking" param="option6"></APKInfo>
+    <APKInfo packageName="com.jingyao.easybike" param="option6"></APKInfo>
+    <APKInfo packageName="com.ovital.ovitalMap" param="option6"></APKInfo>
+    <APKInfo packageName="com.ygkj.chelaile.standard" param="option6"></APKInfo>
+    <APKInfo packageName="com.mygolbs.mybus" param="option6"></APKInfo>
+    <APKInfo packageName="com.google.android.apps.maps" param="option6"></APKInfo>
+    <APKInfo packageName="com.sina.weibo" param="option7"></APKInfo>
+    <APKInfo packageName="com.ss.android.article.news" param="option7"></APKInfo>
+    <APKInfo packageName="com.tencent.mm" param="option7"></APKInfo>
+    <APKInfo packageName="com.tencent.mobileqq" param="option7"></APKInfo>
+  </CloseNR_APPList>
+</AppConfig>

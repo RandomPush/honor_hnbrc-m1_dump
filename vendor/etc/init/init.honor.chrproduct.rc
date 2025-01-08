@@ -1,0 +1,44 @@
+on boot
+# assign chipset platform type, 0:unknown platform, 1:qcom, 2:mtk, 3:sprd
+    setprop persist.sys.chr.chipsettype 2
+
+# support user feedback catch modem log
+on property:ro.product.device=HNLLY-M1
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNSDY
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNHPB
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNCLK-M1
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNJDY-M1
+    setprop persist.sys.config.userfeedback 1
+
+# support user feedback catch modem log
+on property:ro.product.device=HNCRT-M2
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNCRT-M1
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNCRT-M
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNWDY-M
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNLYN-M
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNBRC-M
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNBRC-M1
+    setprop persist.sys.config.userfeedback 1
+
+on property:ro.product.device=HNGFY-M
+    setprop persist.sys.config.userfeedback 1

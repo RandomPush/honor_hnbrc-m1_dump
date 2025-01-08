@@ -1,0 +1,22 @@
+on init
+
+# sets up initial workingset cgroup
+    mkdir /dev/workingset
+    mount cgroup none /dev/workingset nodev noexec nosuid workingset
+    mkdir /dev/workingset/monitor0
+    mkdir /dev/workingset/monitor1
+
+    chmod 0600 /dev/workingset/tasks
+    chmod 0600 /dev/workingset/monitor0/tasks
+    chmod 0600 /dev/workingset/monitor1/tasks
+    chmod 0600 /dev/workingset/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/cgroup.procs
+    chmod 0600 /dev/workingset/monitor1/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/workingset.state
+    chmod 0600 /dev/workingset/monitor1/workingset.state
+    chmod 0600 /dev/workingset/monitor0/workingset.data
+    chmod 0600 /dev/workingset/monitor1/workingset.data
+
+#Added permission for QosSched
+    chown system system /dev/iaware_qos_ctrl
+    chmod 660 /dev/iaware_qos_ctrl

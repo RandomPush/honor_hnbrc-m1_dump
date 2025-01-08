@@ -1,0 +1,6 @@
+on property:vendor.fb_vadj_bypass=true
+    write /sys/class/fb_vadj/bypass 1
+on property:vendor.fb_vadj_bypass=false
+    write /sys/class/fb_vadj/bypass 0
+on property:ro.runmode=factory && property:sys.boot_completed=1
+    write /sys/class/fb_vadj/mode 1

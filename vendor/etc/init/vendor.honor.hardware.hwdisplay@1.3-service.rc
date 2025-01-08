@@ -1,0 +1,4 @@
+service display-hal-1-3 /vendor/bin/hw/vendor.honor.hardware.hwdisplay@1.3-service
+    class hal
+    user system
+    group system log media_rw graphics

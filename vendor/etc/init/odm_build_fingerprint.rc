@@ -1,0 +1,31 @@
+service odm_build_fingerprint /vendor/bin/odm_build_fingerprint
+    class main
+    user root
+    group shell system
+    disabled
+    oneshot
+
+on late-fs && property:ro.build.version.incremental=*
+    start odm_build_fingerprint
+
+on post-fs-data && property:ro.product.brand=HONOR
+    setprop ro.product.odm.name ${ro.odm.magic.product.name}
+    setprop ro.product.odm.device ${ro.odm.magic.product.device}
+    setprop ro.odm.build.version.incremental ${ro.odm.magic.version.incremental}
+
+on post-fs-data && property:ro.product.brand=Android
+    wait_for_prop init.svc.odm_build_fingerprint stopped
+    setprop ro.product.odm.name ${ro.odm.magic.product.name}
+    setprop ro.product.odm.device ${ro.odm.magic.product.device}
+    setprop ro.odm.build.version.incremental ${ro.odm.magic.version.incremental}
+
+
+# those is to set ro.product.xx_for_attestation in gsi image, and need to be set earlier
+# but should after service odm_build_fingerprint have set ${ro.odm.magic.product.name}
+on zygote-start && property:ro.product.brand=Android
+    setprop ro.product.name_for_attestation ${ro.odm.magic.product.name}
+    setprop ro.product.model_for_attestation ${ro.odm.magic.product.model}
+    setprop ro.product.device_for_attestation ${ro.odm.magic.product.device}
+    setprop ro.product.brand_for_attestation ${ro.product.odm.brand}
+    setprop ro.product.manufacturer_for_attestation ${ro.product.odm.brand}
+

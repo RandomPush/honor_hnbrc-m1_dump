@@ -1,0 +1,65 @@
+on post-fs-data
+    chown system system /sys/class/flashlight_core/flashlight/flash_lightness
+    chmod 0660 /sys/class/flashlight_core/flashlight/flash_lightness
+    mkdir /data/vendor/camera
+    chown system camera /data/vendor/camera
+    chmod 770 /data/vendor/camera
+    chmod 664 /data/vendor/camera/mtk_sensor0
+    chmod 664 /data/vendor/camera/mtk_sensor1
+    chmod 664 /data/vendor/camera/mtk_sensor2
+    chmod 664 /data/vendor/camera/mtk_sensor4
+    chmod 664 /data/vendor/camera/backcamerasn
+    chmod 664 /data/vendor/camera/frontcamerasn
+    chmod 660 /sys/class/leds/torch/flash_thermal_protect
+    chmod 664 /sys/bus/platform/drivers/camcfgdev/guard_thermal
+    chmod 664 /sys/bus/platform/drivers/camcfgdev/torch_thermal_protect
+    chown system system /sys/bus/platform/drivers/camcfgdev/guard_thermal
+    chown system system /sys/bus/platform/drivers/camcfgdev/torch_thermal_protect
+    chown system system /sys/class/leds/torch/flash_thermal_protect
+    restorecon –R –F /data/vendor/camera
+    restorecon –R –F /data/vendor/camera/backcameramain2sn
+    restorecon –R –F /data/vendor/camera/backcamerasn
+    restorecon –R –F /data/vendor/camera/frontcamerasn
+    restorecon –R –F /data/vendor/camera/main2_sensor_eeprom
+    restorecon –R –F /data/vendor/camera/main_sensor_eeprom
+    restorecon –R –F /data/vendor/camera/mtk_sensor0
+    restorecon –R –F /data/vendor/camera/mtk_sensor1
+    restorecon –R –F /data/vendor/camera/mtk_sensor2
+    restorecon –R –F /data/vendor/camera/mtk_sensor3
+    restorecon –R –F /data/vendor/camera/mtk_sensor4
+    restorecon –R –F /data/vendor/camera/sub_sensor_eeprom
+    restorecon –R –F /data/vendor/camera/xtalk
+    restorecon –R –F /data/vendor/camera/gainmap
+    restorecon –R –F /data/vendor/camera/main3_sensor_eeprom
+    restorecon –R –F /data/vendor/camera/backcameramain4sn
+
+#for OIS
+#MT6895
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-main/ois/gyro_gain
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-main/ois/gyro_offset
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-main/ois/mag_check
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-main/ois/ois_fac_mode
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-main/ois/calib_ctrl_flag
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-main/ois/ois_vendor
+
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-tele/ois/gyro_gain
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-tele/ois/gyro_offset
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-tele/ois/mag_check
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-tele/ois/ois_fac_mode
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-tele/ois/calib_ctrl_flag
+    chown cameraserver cameraserver /sys/devices/platform/soc/ois-tele/ois/ois_vendor
+
+#MT6983
+    chown cameraserver cameraserver /sys/devices/platform/ois-main/ois/gyro_gain
+    chown cameraserver cameraserver /sys/devices/platform/ois-main/ois/gyro_offset
+    chown cameraserver cameraserver /sys/devices/platform/ois-main/ois/mag_check
+    chown cameraserver cameraserver /sys/devices/platform/ois-main/ois/ois_fac_mode
+    chown cameraserver cameraserver /sys/devices/platform/ois-main/ois/calib_ctrl_flag
+    chown cameraserver cameraserver /sys/devices/platform/ois-main/ois/ois_vendor
+
+    chown cameraserver cameraserver /sys/devices/platform/ois-tele/ois/gyro_gain
+    chown cameraserver cameraserver /sys/devices/platform/ois-tele/ois/gyro_offset
+    chown cameraserver cameraserver /sys/devices/platform/ois-tele/ois/mag_check
+    chown cameraserver cameraserver /sys/devices/platform/ois-tele/ois/ois_fac_mode
+    chown cameraserver cameraserver /sys/devices/platform/ois-tele/ois/calib_ctrl_flag
+    chown cameraserver cameraserver /sys/devices/platform/ois-tele/ois/ois_vendor

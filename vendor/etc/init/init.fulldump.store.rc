@@ -1,0 +1,23 @@
+service fulldump_store /vendor/bin/fulldump_store
+    class late_start
+    user root
+    group system root
+    disabled
+    oneshot
+    seclabel u:r:fulldump_store:s0
+
+on post-fs-data && property:ro.logsystem.usertype=3
+    mkdir /data/vendor/log/reliability
+    mkdir /data/vendor/log/reliability/fulldumplog
+    chmod 0775 /data/vendor/log/reliability/fulldumplog
+    chown root system /data/vendor/log/reliability/fulldumplog
+    restorecon_recursive /data/vendor/log/reliability/fulldumplog
+
+on post-fs-data && property:ro.logsystem.usertype=1
+    rmdir /data/vendor/log/reliability/fulldumplog
+
+on property:ro.runmode=normal && property:vendor.mtk.md1.status=ready
+    start fulldump_store
+
+on property:ro.runmode=normal && property:ro.carrier=wifi-only
+    start fulldump_store

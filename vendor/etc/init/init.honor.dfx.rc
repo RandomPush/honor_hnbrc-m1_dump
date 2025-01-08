@@ -1,0 +1,30 @@
+on property:persist.sys.msc.debug.on=*
+    write /proc/sys/kernel/sysrq ${persist.sys.msc.debug.on}
+
+on fs
+    restorecon /log
+    chmod 775 /log
+    chown root system /log
+
+## add for zrhung honor_hung_task
+on property:sys.boot_completed=1
+    write /proc/sys/kernel/hung_task_panic 1
+    write /proc/sys/kernel/hung_task_timeout_secs 30
+    write /sys/kernel/hungtask/monitorlist "whitelist,system_server,surfaceflinger,init"
+    write /sys/kernel/hungtask/enable "on"
+    write /sys/kernel/hungtask/ctl_hung_task_panic "on"
+    chown system system /sys/kernel/hungtask/vm_heart
+
+#xcollie
+    mkdir /data/vendor/log/reliability
+    chmod 0775 /data/vendor/log/reliability
+    chown root system /data/vendor/log/reliability
+
+    mkdir /data/vendor/log/reliability/xcollie
+    chown system log /data/vendor/log/reliability/xcollie
+    chmod 2775 /data/vendor/log/reliability/xcollie
+    restorecon_recursive /data/vendor/log/reliability/xcollie
+
+on property:ro.boot.bootreason=normalboot
+    setprop vendor.bootreason "normalboot"
+

@@ -1,0 +1,4 @@
+service vendor.keymint-hn /vendor/bin/hw/android.hardware.security.keymint-service-hn
+    class early_hal
+    user nobody
+    group drmrpc

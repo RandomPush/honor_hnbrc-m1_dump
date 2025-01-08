@@ -1,0 +1,485 @@
+import /vendor/etc/init/bms_alarm.rc
+import /vendor/etc/init/bms_soc.rc
+import /vendor/etc/init/usb_port.rc
+import /vendor/etc/init/bms_thermal.rc
+import /vendor/etc/init/bms_auth.rc
+import /vendor/etc/init/init.honor.charger.rc
+import /system/etc/init/servicemanager.rc
+import /system/etc/init/hwservicemanager.rc
+import /system/etc/init/vold.rc
+import /vendor/etc/init/hw/init.${ro.board.platform}.usb.rc
+
+
+on early-fs
+    # Once metadata has been mounted, we'll need vold to deal with userdata checkpointing
+    start vold
+
+on early-init
+    # Set the security context of /postinstall if present.
+    restorecon /postinstall
+    # Set init and its forked children's oom_adj.
+    write /proc/1/oom_score_adj -1000
+    write /proc/sys/kernel/sysrq 0
+    restorecon /adb_keys
+    mkdir /mnt 0775 root system
+    start ueventd
+
+    # Run apexd-bootstrap so that APEXes that provide critical libraries
+    # become available. Note that this is executed as exec_start to ensure that
+    # the libraries are available to the processes started after this statement.
+    exec_start apexd-bootstrap
+
+    # Set up linker config subdirectories based on mount namespaces
+    mkdir /linkerconfig/bootstrap 0755
+    mkdir /linkerconfig/default 0755
+
+    # Generate ld.config.txt for early executed processes
+    exec -- /system/bin/linkerconfig --target /linkerconfig/bootstrap
+    chmod 644 /linkerconfig/bootstrap/ld.config.txt
+    copy /linkerconfig/bootstrap/ld.config.txt /linkerconfig/default/ld.config.txt
+    chmod 644 /linkerconfig/default/ld.config.txt
+
+    # Mount bootstrap linker configuration as current
+    mount none /linkerconfig/bootstrap /linkerconfig bind rec
+
+    # Generate linker config based on apex mounted in bootstrap namespace
+    update_linker_config
+
+on init
+    #export PATH /sbin:/system/bin
+    export ANDROID_ROOT /system
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+    sysclktz 0
+
+    copy /proc/cmdline /dev/urandom
+    copy /default.prop /dev/urandom
+    symlink /system/etc /etc
+    symlink /sys/kernel/debug /d
+    mkdir /config 0500 root root
+
+    # we should use /dev/graphic/fb0 to display
+    rm /dev/dri
+    write /proc/sys/kernel/printk_level 6
+    write /proc/sys/kernel/panic_on_oops 1
+    write /proc/sys/vm/max_map_count 1000000
+    symlink /system/vendor /vendor
+    chown system system /dev/cpuctl
+    chown system system /dev/cpuctl/tasks
+
+    mount configfs none /config
+    mkdir /dev/usb-ffs 0770 shell shell
+    mkdir /dev/usb-ffs/adb 0770 shell shell
+    mkdir /config/usb_gadget/g1 0770 shell shell
+    write /config/usb_gadget/g1/idVendor 0x339B
+    write /config/usb_gadget/g1/idProduct 0x107f
+    write /config/usb_gadget/g1/bcdDevice 0x0223
+    write /config/usb_gadget/g1/bcdUSB 0x0200
+    mkdir /config/usb_gadget/g1/strings/0x409 0770
+    mkdir /config/usb_gadget/g1/functions/hid.gs0
+    chmod 0640 /config/usb_gadget/g1/strings/0x409/serialnumber
+    write /config/usb_gadget/g1/strings/0x409/serialnumber ${ro.serialno}
+    write /config/usb_gadget/g1/strings/0x409/manufacturer ${ro.product.manufacturer}
+    write /config/usb_gadget/g1/strings/0x409/product ${ro.product.model}
+    mkdir /config/usb_gadget/g1/configs/b.1 0777 shell shell
+    mkdir /config/usb_gadget/g1/configs/b.1/strings/0x409 0770 shell shell
+    mkdir /config/usb_gadget/g1/functions/ffs.adb
+    mkdir /config/usb_gadget/g1/functions/acm.gs0
+    mkdir /config/usb_gadget/g1/functions/mass_storage.usb0
+    mkdir /config/usb_gadget/g1/configs/b.1 0770 shell shell
+    write /config/usb_gadget/g1/configs/b.1/MaxPower 500
+    setprop sys.usb.ffs.aio_compat 0
+    mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
+    setprop sys.usb.pre.config "mass_storage"
+
+    # Mount binderfs
+    mkdir /dev/binderfs
+    mount binder binder /dev/binderfs stats=global
+    chmod 0755 /dev/binderfs
+
+    # Mount fusectl
+    mount fusectl none /sys/fs/fuse/connections
+
+    symlink /dev/binderfs/binder /dev/binder
+    symlink /dev/binderfs/hwbinder /dev/hwbinder
+    symlink /dev/binderfs/vndbinder /dev/vndbinder
+
+    chmod 0666 /dev/binderfs/hwbinder
+    chmod 0666 /dev/binderfs/binder
+    chmod 0666 /dev/binderfs/vndbinder
+
+    start servicemanager
+    start hwservicemanager
+
+#init.rc
+on charger
+    mkdir /splash2
+    mount ext4 /dev/block/bootdevice/by-name/splash2 /splash2 wait rw nosuid nodev context=u:object_r:splash2_data_file:s0
+    restorecon /splash2
+    chmod 775 /splash2
+    chown root system /splash2
+    symlink /splash2 /log
+    start apexd
+
+    chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0440 /sys/class/hw_power/charger/charge_data/voltage_sys
+    chown system system /sys/class/hw_power/charger/charge_data/voltage_sys
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chmod 0664 /sys/class/power_supply/bms/chg_cycle_count
+    chown system system /sys/class/power_supply/bms/chg_cycle_count
+    chmod 0660 /sys/class/power_supply/bms/reset_learned_cc
+    chown system system /sys/class/power_supply/bms/reset_learned_cc
+    chmod 0660 /sys/class/power_supply/bms/voltage_max
+    chown system system /sys/class/power_supply/bms/voltage_max
+    chmod 0660 /sys/class/power_supply/battery/constant_charge_current_max
+    chown system system /sys/class/power_supply/battery/constant_charge_current_max
+    chmod 0660 /sys/class/hw_power/charger/charge_data/adaptor_test
+    chown system system /sys/class/hw_power/charger/charge_data/adaptor_test
+    chmod 0660 /sys/class/hw_power/charger/charge_data/ichg_ratio
+    chown system system /sys/class/hw_power/charger/charge_data/ichg_ratio
+    chmod 0660 /sys/class/hw_power/charger/charge_data/vterm_dec
+    chown system system /sys/class/hw_power/charger/charge_data/vterm_dec
+    chmod 0660 /sys/class/hw_power/interface/enable_charger
+    chown system system /sys/class/hw_power/interface/enable_charger
+    chmod 0660 /sys/class/hw_power/interface/ichg_limit
+    chown system system /sys/class/hw_power/interface/ichg_limit
+    chmod 0660 /sys/class/hw_power/interface/ichg_ratio
+    chown system system /sys/class/hw_power/interface/ichg_ratio
+    chmod 0660 /sys/class/hw_power/interface/vterm_dec
+    chown system system /sys/class/hw_power/interface/vterm_dec
+    chmod 0660 /sys/class/hw_power/interface/enable_debug
+    chown system system /sys/class/hw_power/interface/enable_debug
+    chmod 0222 /sys/class/hw_power/soc_decimal/start
+    chown system system /sys/class/hw_power/soc_decimal/start
+    chmod 0444 /sys/class/hw_power/soc_decimal/soc
+    chown system system /sys/class/hw_power/soc_decimal/soc
+    chmod 0444 /sys/class/hw_power/power_ui/cable_type
+    chown system system /sys/class/hw_power/power_ui/cable_type
+    chmod 0444 /sys/class/hw_power/power_ui/icon_type
+    chown system system /sys/class/hw_power/power_ui/icon_type
+    chmod 0444 /sys/class/hw_power/power_ui/max_power
+    chown system system /sys/class/hw_power/power_ui/max_power
+    chmod 0444 /sys/class/hw_power/power_ui/wl_off_pos
+    chown system system /sys/class/hw_power/power_ui/wl_off_pos
+    chmod 0444 /sys/class/hw_power/power_ui/wl_fan_status
+    chown system system /sys/class/hw_power/power_ui/wl_fan_status
+    chmod 0444 /sys/class/hw_power/power_ui/wl_cover_status
+    chown system system /sys/class/hw_power/power_ui/wl_cover_status
+    chmod 0444 /sys/class/hw_power/power_ui/water_status
+    chown system system /sys/class/hw_power/power_ui/water_status
+    chmod 0444 /sys/class/hw_power/power_ui/heating_status
+    chown system system /sys/class/hw_power/power_ui/heating_status
+    chmod 0660 /sys/class/hw_power/interface/adap_volt
+    chown system system /sys/class/hw_power/interface/adap_volt
+    chmod 0660 /sys/class/hw_power/interface/wl_thermal_ctrl
+    chown system system /sys/class/hw_power/interface/wl_thermal_ctrl
+    chmod 0220 /sys/class/hw_power/interface/iin_thermal
+    chown system system /sys/class/hw_power/interface/iin_thermal
+    chmod 0660 /sys/class/hw_power/interface/ichg_thermal
+    chown system system /sys/class/hw_power/interface/ichg_thermal
+    chmod 0440 /sys/class/hw_power/interface/vbus
+    chown system system /sys/class/hw_power/interface/vbus
+
+    chmod 0660 /sys/class/hw_power/charger/charge_data/iin_thermal
+    chown system system /sys/class/hw_power/charger/charge_data/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger/adaptor_voltage
+    chown system system /sys/class/hw_power/charger/direct_charger/adaptor_voltage
+
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/iin_thermal
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_resistance_threshold
+    chmod 0660 /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
+    chown system system /sys/class/hw_power/charger/direct_charger_sc/set_chargetype_priority
+
+    chmod 0660 /sys/class/hw_power/charger/wireless_sc/iin_thermal
+    chown system system /sys/class/hw_power/charger/wireless_sc/iin_thermal
+    chmod 0444 /sys/class/hw_power/wireless/tx_bd_info
+    chown system system /sys/class/hw_power/wireless/tx_bd_info
+    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/powerct
+    chown system system /sys/devices/virtual/hw_power/power_mesg/powerct
+    chmod 0660 /sys/devices/virtual/hw_power/power_mesg/runtime
+    chown system system /sys/devices/virtual/hw_power/power_mesg/runtime
+    chmod 0440 /sys/devices/platform/honor_batt_info/ic_id
+    chown system system /sys/devices/platform/honor_batt_info/ic_id
+    chmod 0440 /sys/devices/platform/honor_batt_info/batt_id
+    chown system system /sys/devices/platform/honor_batt_info/batt_id
+    chmod 0440 /sys/devices/platform/honor_batt_info/ic_status
+    chown system system /sys/devices/platform/honor_batt_info/ic_status
+    chmod 0440 /sys/devices/platform/honor_batt_info/sn_status
+    chown system system /sys/devices/platform/honor_batt_info/sn_status
+    chmod 0440 /sys/devices/platform/honor_batt_info/key_status
+    chown system system /sys/devices/platform/honor_batt_info/key_status
+    chmod 0440 /sys/devices/platform/honor_batt_info/official
+    chown system system /sys/devices/platform/honor_batt_info/official
+
+    chmod 0440 /sys/devices/platform/honor_batt_soh/basp/basp_ichg_max
+    chown system system /sys/devices/platform/honor_batt_soh/basp/basp_ichg_max
+    chmod 0440 /sys/devices/platform/honor_batt_soh/iscd/iscd_data
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_data
+    chmod 0440 /sys/devices/platform/honor_batt_soh/iscd/iscd_process_event
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_process_event
+    chmod 0440 /sys/devices/platform/honor_batt_soh/iscd/iscd_imonitor_data
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_imonitor_data
+    chmod 0440 /sys/devices/platform/honor_batt_soh/iscd/iscd_battery_current_avg
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_battery_current_avg
+    chmod 0660 /sys/devices/platform/honor_batt_soh/iscd/iscd_uevent_notify
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_uevent_notify
+    chmod 0660 /sys/devices/platform/honor_batt_soh/iscd/iscd_dmd
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_dmd
+    chmod 0660 /sys/devices/platform/honor_batt_soh/iscd/iscd_status
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_status
+    chmod 0660 /sys/devices/platform/honor_batt_soh/iscd/iscd_limit_support
+    chown system system /sys/devices/platform/honor_batt_soh/iscd/iscd_limit_support
+    chmod 0660 /sys/devices/platform/honor_batt_soh/bsoh_imonitor_report_interval
+    chown system system /sys/devices/platform/honor_batt_soh/bsoh_imonitor_report_interval
+    chmod 0660 /sys/devices/platform/honor_batt_soh/bsoh_sysfs_notify
+    chown system system /sys/devices/platform/honor_batt_soh/bsoh_sysfs_notify
+    chmod 0660 /sys/devices/platform/honor_batt_soh/bsoh_dmd_report
+    chown system system /sys/devices/platform/honor_batt_soh/bsoh_dmd_report
+    chmod 0440 /sys/devices/platform/honor_batt_soh/bsoh_battery_removed
+    chown system system /sys/devices/platform/honor_batt_soh/bsoh_battery_removed
+    chmod 0440 /sys/devices/platform/honor_batt_soh/bsoh_subsys
+    chown system system /sys/devices/platform/honor_batt_soh/bsoh_subsys
+    chmod 0660 /dev/ttyGS3
+
+    trigger early-fs
+    trigger cust_parse_action
+    trigger load_system_props_action
+
+    wait /dev/block/bootdevice/by-name/oeminfo
+    start oeminfo_nvm
+    start teecd
+    trigger load_system_cfg
+
+    load_usb_mode_cfg
+    class_start charger
+
+    start powerct
+    start bsoh
+
+service ueventd /system/bin/ueventd
+    critical
+    seclabel u:r:ueventd:s0
+
+service charger /system/bin/bms_animation
+    class charger
+    user root
+    group root system
+    critical
+    seclabel u:r:charger:s0
+
+service fuelgauged /vendor/bin/fuelgauged
+    class core
+    user system
+    group system
+
+service fuelgauged_nvram /vendor/bin/fuelgauged_nvram
+    class main
+    user system
+    group system
+    oneshot
+
+service apexd /system/bin/apexd
+    interface aidl apexservice
+    class core
+    user root
+    group system
+    oneshot
+    disabled # does not start with the core class
+    reboot_on_failure reboot,apexd-failed
+
+service apexd-bootstrap /system/bin/apexd --bootstrap
+    user root
+    group system
+    oneshot
+    disabled
+    reboot_on_failure reboot,bootloader,bootstrap-apexd-failed
+
+# /* mount decrypt data */
+on property:vold.decrypt=trigger_default_encryption
+    start defaultcrypto
+
+on nonencrypted
+    trigger data_ready
+
+on data_ready
+    setprop sys.userdata_is_ready 1
+    load_persist_props
+    start xlogctl_service
+
+on post-fs-data
+    setprop vold.post_fs_data_done 1
+    start apexd
+
+on property:vold.decrypt=trigger_restart_framework
+    trigger data_ready
+
+on property:vold.decrypt=trigger_post_fs_data
+    trigger post-fs-data
+
+on cust_parse_action
+    cust_parse
+
+on load_system_props_action
+    load_system_props
+
+#service vold /system/bin/vold \
+#        --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 \
+#        --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+#    class core
+#    socket vold stream 0660 root mount
+#    socket cryptd stream 0660 root mount
+#    ioprio be 2
+
+service defaultcrypto /system/bin/vdc --wait cryptfs mountdefaultencrypted
+    disabled
+    oneshot
+
+service teecd /sbin/teecd
+    disabled
+    user root
+    group root
+    seclabel u:r:tee:s0
+
+# /*The service, trigger, persist  associated with the log */
+service xlogctl_service /sbin/hilogcat-early -t 0
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service xlogview_service /sbin/hilogcat-early -t 2
+    class late_start
+    user root
+    group system
+    disabled
+    oneshot
+    seclabel u:r:xlogcat:s0
+
+service shlogd /system/vendor/bin/shs
+    class late_start
+    user root
+    group system
+    disabled
+
+service chargelogcat /sbin/hilogcat-early -b chargelogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+
+service kmsglogcat /sbin/hilogcat-early -b kmsglogcat
+    class late_start
+    user root
+    group system
+    disabled
+    seclabel u:r:xlogcat:s0
+
+service oeminfo_nvm /vendor/bin/oeminfo_nvm_server
+    group system readproc root
+    critical
+    ioprio rt 4
+    seclabel u:r:oeminfo_nvm:s0
+
+service powerct /vendor/bin/powerct
+    user system
+    group system
+    disabled
+
+service bsoh /vendor/bin/bsoh
+    user system
+    group system
+    disabled
+
+on property:sys.usb.controller=* && property:sys.usb.configfs=1
+    setprop vendor.usb.controller ${sys.usb.controller}
+
+# Used to disable USB when switching states
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    stop adbd
+    setprop sys.usb.ffs.ready 0
+    write /config/usb_gadget/g1/bDeviceClass 0
+    write /config/usb_gadget/g1/bDeviceSubClass 0
+    write /config/usb_gadget/g1/bDeviceProtocol 0
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rmdir /config/usb_gadget/g1/functions/rndis.gs4
+    setprop sys.usb.state ${sys.usb.config}
+
+service adbd /apex/com.android.adbd/bin/adbd --root_seclabel=u:r:su:s0
+    class core
+    socket adbd seqpacket 660 system system
+    disabled
+    override
+    seclabel u:r:adbd:s0
+
+
+service hdbd /system/bin/hdbd --root_seclabel=u:r:su:s0
+    class core
+    socket hdbd stream 660 system system
+    disabled
+    seclabel u:r:adbd:s0
+
+# Preseting 'mass_storage' before 'manufacture,adbd' to set_usb_rdy for CDP block on debuggable version
+on property:sys.usb.pre.config=mass_storage
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "ums"
+    write /sys/devices/platform/mt_usb/saving 1
+    write /config/usb_gadget/g1/idProduct 0x107F
+    write /config/usb_gadget/g1/idVendor 0x339B
+    write /sys/devices/platform/mt_usb/saving 1
+    symlink /config/usb_gadget/g1/functions/mass_storage.usb0 /config/usb_gadget/g1/configs/b.1/f1
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.pre.ready 1
+
+on property:sys.usb.config=manufacture,adb && property:sys.usb.configfs=1 && \
+property:sys.usb.pre.ready=1
+    start adbd
+    update_linker_config
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=manufacture,adb && \
+property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "adb_acm"
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    write /config/usb_gadget/g1/idProduct 0x107F
+    write /config/usb_gadget/g1/idVendor 0x339B
+    write /sys/devices/platform/mt_usb/saving 1
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f1
+    symlink /config/usb_gadget/g1/functions/acm.gs0 /config/usb_gadget/g1/configs/b.1/f2
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=mass_storage && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "ums"
+    write /sys/devices/platform/mt_usb/saving 1
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rm /config/usb_gadget/g1/configs/b.1/f4
+    rm /config/usb_gadget/g1/configs/b.1/f5
+    rm /config/usb_gadget/g1/configs/b.1/f6
+    rm /config/usb_gadget/g1/configs/b.1/f7
+    rm /config/usb_gadget/g1/configs/b.1/f8
+    write /config/usb_gadget/g1/idProduct 0x107F
+    write /config/usb_gadget/g1/idVendor 0x339B
+    write /sys/devices/platform/mt_usb/saving 1
+    symlink /config/usb_gadget/g1/functions/mass_storage.usb0 /config/usb_gadget/g1/configs/b.1/f1
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}

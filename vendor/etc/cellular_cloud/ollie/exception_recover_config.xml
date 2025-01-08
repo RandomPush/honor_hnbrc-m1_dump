@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <!--业务场景+故障类型 唯一确认一条记录-->
+    <!--  业务场景,       故障类型,            自愈方案,          抑制时间,         是否参考历史信息,       自愈拦截成功率上限,      自愈拦截次数下限,          围栏生成成功率下限，     正常状态围栏生成次数下限，   地铁状态围栏生成次数下限， 围栏类型       -->
+    <config mScene="101" mExceptionType="101" recoverAction="1" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="0.7" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="102" recoverAction="5" inhibitionTime="5" referHistoryRecord="0"/>
+    <config mScene="101" mExceptionType="103" recoverAction="1" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="0.7" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="104" recoverAction="3" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.3" interceptNumThreshold="10" fenceRecoverThreshold="255" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="105" recoverAction="1" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="0.7" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="106" recoverAction="5" inhibitionTime="5" referHistoryRecord="0"/>
+    <config mScene="101" mExceptionType="107" recoverAction="1" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="0.7" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="108" recoverAction="3" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.3" interceptNumThreshold="10" fenceRecoverThreshold="255" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="109" recoverAction="5" inhibitionTime="5" referHistoryRecord="0"/>
+    <config mScene="101" mExceptionType="110" recoverAction="1" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="0.7" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="101" mExceptionType="111" recoverAction="3" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.3" interceptNumThreshold="10" fenceRecoverThreshold="255" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="102" mExceptionType="112" recoverAction="3" inhibitionTime="12" referHistoryRecord="0"/>
+    <config mScene="101" mExceptionType="113" recoverAction="4" inhibitionTime="0" referHistoryRecord="0"/>
+    <config mScene="102" mExceptionType="114" recoverAction="2" inhibitionTime="0" referHistoryRecord="0"/>
+    <config mScene="103" mExceptionType="114" recoverAction="2" inhibitionTime="0" referHistoryRecord="0"/>
+    <config mScene="103" mExceptionType="115" recoverAction="3" inhibitionTime="60" referHistoryRecord="0"/>
+    <config mScene="101" mExceptionType="116" recoverAction="1" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="0.7" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="224" mExceptionType="202" recoverAction="3" inhibitionTime="3" referHistoryRecord="0" activeRecoverThreshold="0.5" fenceRecoverThreshold="0.7" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="224" mExceptionType="203" recoverAction="3" inhibitionTime="60" referHistoryRecord="0" activeRecoverThreshold="0.5" fenceRecoverThreshold="0.7" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="224" mExceptionType="204" recoverAction="2" inhibitionTime="0" referHistoryRecord="0" activeRecoverThreshold="0.5" fenceRecoverThreshold="0.7" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="229" mExceptionType="205" recoverAction="1" inhibitionTime="5" referHistoryRecord="0" activeRecoverThreshold="0.5" fenceRecoverThreshold="0.7" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="230" mExceptionType="205" recoverAction="1" inhibitionTime="5" referHistoryRecord="0" activeRecoverThreshold="0.5" fenceRecoverThreshold="0.7" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="2" mExceptionType="1" recoverAction="3" inhibitionTime="3" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="255" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="2" mExceptionType="2" recoverAction="3" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.5" interceptNumThreshold="3" fenceRecoverThreshold="255" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="2" mExceptionType="3" recoverAction="2" inhibitionTime="0" referHistoryRecord="0" activeRecoverThreshold="0.0" fenceRecoverThreshold="0.0" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="2" mExceptionType="10" recoverAction="3" inhibitionTime="60" referHistoryRecord="0"/>
+    <config mScene="3" mExceptionType="7" recoverAction="6" inhibitionTime="0" referHistoryRecord="0"/>
+    <config mScene="3" mExceptionType="8" recoverAction="7" inhibitionTime="0" referHistoryRecord="0"/>
+    <config mScene="4" mExceptionType="9" recoverAction="3" inhibitionTime="5" referHistoryRecord="1" activeRecoverThreshold="0.3" interceptNumThreshold="10" fenceRecoverThreshold="255" normalNumberThreshold="10" vehicleNumberThreshold="4" fenceType="0"/>
+    <config mScene="1" mExceptionType="4" recoverAction="3" inhibitionTime="5" referHistoryRecord="0" activeRecoverThreshold="0.0" fenceRecoverThreshold="0.0" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="1" mExceptionType="5" recoverAction="3" inhibitionTime="60" referHistoryRecord="0" activeRecoverThreshold="0.0" fenceRecoverThreshold="0.0" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+    <config mScene="1" mExceptionType="6" recoverAction="2" inhibitionTime="0" referHistoryRecord="0" activeRecoverThreshold="0.0" fenceRecoverThreshold="0.0" normalNumberThreshold="0" vehicleNumberThreshold="0"/>
+</xml>

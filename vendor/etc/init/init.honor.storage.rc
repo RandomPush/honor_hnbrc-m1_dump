@@ -1,0 +1,51 @@
+#bootdevice
+on init
+on property:ro.board.platform=mt6983
+    wait /dev/block/platform/112b0000.ufshci
+    symlink /dev/block/platform/112b0000.ufshci /dev/block/bootdevice
+on property:ro.board.platform=mt6895
+    wait /dev/block/platform/soc/112b0000.ufshci
+    symlink /dev/block/platform/soc/112b0000.ufshci /dev/block/bootdevice
+
+    # sets up initial workingset cgroup
+    mkdir /dev/workingset
+    mount cgroup none /dev/workingset nodev noexec nosuid workingset
+    mkdir /dev/workingset/monitor0
+    mkdir /dev/workingset/monitor1
+
+    chmod 0600 /dev/workingset/tasks
+    chmod 0600 /dev/workingset/monitor0/tasks
+    chmod 0600 /dev/workingset/monitor1/tasks
+    chmod 0600 /dev/workingset/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/cgroup.procs
+    chmod 0600 /dev/workingset/monitor1/cgroup.procs
+    chmod 0600 /dev/workingset/monitor0/workingset.state
+    chmod 0600 /dev/workingset/monitor1/workingset.state
+    chmod 0600 /dev/workingset/monitor0/workingset.data
+    chmod 0600 /dev/workingset/monitor1/workingset.data
+    setprop odm.bastet.service.enable true
+
+on init && property:ro.board.platform=mt6983
+    write /proc/sys/vm/stack_page_init_number 1
+
+on init && property:ro.board.platform=mt6895
+    write /proc/sys/vm/stack_page_init_number 2
+
+on nonencrypted
+    trigger data_ready
+
+on data_ready
+    exec u:r:blkcginit:s0 root root -- /vendor/bin/sh /vendor/etc/blkcg_init.sh 0 0
+
+on data_ready && property:ro.board.platform=mt6983
+    copy_per_line /dev/blkio/tasks /dev/blkio/system-background/tasks
+
+on data_ready && property:ro.board.platform=mt6895
+    copy_per_line /dev/blkio/tasks /dev/blkio/system-background/tasks
+on boot
+# Default Enable filesystem anti-aging feature
+    setprop persist.sys.fsantiaging.enable 1
+# Disable filesystem anti-aging feature if set override
+on property:persist.sys.fsantiaging.disable_override=1
+    setprop persist.sys.fsantiaging.enable 0
+
