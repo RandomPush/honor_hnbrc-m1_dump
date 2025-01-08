@@ -1,0 +1,6 @@
+version=1.10.24.126
+type=ContentTransfer
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=CT.GENC.1.10.24.126

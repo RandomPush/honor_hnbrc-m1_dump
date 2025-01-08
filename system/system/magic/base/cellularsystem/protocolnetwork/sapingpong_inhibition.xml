@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AppConfig>
+    <ParaList>
+        <!-- 灭屏时pingpong次数-->
+        <mNumScreenOff>5</mNumScreenOff>
+        <!-- 灭屏时pingpong时间 5min 5*60*1000-->
+        <mDurationTimeScreenOff>300000</mDurationTimeScreenOff>
+        <!-- 亮屏时pingpong次数-->
+        <mNumScreenOn>5</mNumScreenOn>
+        <!-- 亮屏时pingpong时间 2min 2*60*1000-->
+        <mDurationTimeScreenOn>120000</mDurationTimeScreenOn>
+        <!-- 睡眠模式时pingpong次数-->
+        <mNumSleepModeOn>2</mNumSleepModeOn>
+        <!-- 睡眠模式时pingpong时间 20min 20*60*1000-->
+        <mDurationTimeSleepModeOn>1200000</mDurationTimeSleepModeOn>
+     </ParaList>
+</AppConfig>

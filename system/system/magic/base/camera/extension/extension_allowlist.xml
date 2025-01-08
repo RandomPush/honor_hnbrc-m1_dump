@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CameraExtensionAllowList>
+    <app pkg="com.example.android.cameraxextensions"/>
+    <app pkg="com.android.example.camera2.extensions"/>
+    <app pkg="com.android.cameraextensions"/>
+    <app pkg="androidx.camera.integration.extensions"/>
+    <app pkg="com.xhey.xcamera"/>
+</CameraExtensionAllowList>

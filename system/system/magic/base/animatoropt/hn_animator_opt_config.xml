@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hn_animator_config>
+    <hn_rt_animator_config>
+         <featureSwitch status="true"/>
+         <enableApp name="launcher" package_name="com.hihonor.android.launcher"/>
+         <enableApp name="demo" package_name="com.hnanimation.uianimationseparation"/>
+    </hn_rt_animator_config>
+</hn_animator_config>

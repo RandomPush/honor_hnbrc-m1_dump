@@ -1,0 +1,150 @@
+{
+    "MemoryLeak": {
+        "enable" : true,
+        "max_slope" : 500,
+        "upload_interval" : 21600,
+        "exclude_time_out" :365,
+        "exclude_list": {
+        },
+        "memory_type": {
+            "slub": {
+                "monitor_threshold": 819200
+            },
+            "vmalloc": {
+                "monitor_threshold": 819200
+            },
+            "user": {
+                "min_slope" : 60,
+                "leak_threshold" : 614400,
+                "monitor_threshold": 307200,
+                "peakleak_threshold": 3145728,
+                "minleak_threshold": 1048576
+            },
+            "java": {
+                "min_slope" : 30,
+                "leak_threshold" : 307200,
+                "peakleak_threshold": 512000,
+                "minleak_threshold": 358400
+            },
+            "native": {
+                "min_slope" : 60,
+                "leak_threshold" : 409600,
+                "peakleak_threshold": 3145728,
+                "minleak_threshold": 1048576
+            },
+            "mmap": {
+                "min_slope" : 60,
+                "leak_threshold" : 409600,
+                "peakleak_threshold": 3145728,
+                "minleak_threshold": 1048576
+            },
+            "dma_buf": {
+                "min_slope" : 60,
+                "leak_threshold" : 614400,
+                "monitor_threshold": 307200,
+                "peakleak_threshold": 3145728,
+                "minleak_threshold": 1048576
+            },
+            "kernel": {
+                "min_slope" : 60,
+                "leak_threshold" : 409600,
+                "peakleak_threshold": 2097152,
+                "minleak_threshold": 1048576
+            },
+            "gpu": {
+                "min_slope" : 60,
+                "leak_threshold" : 614400,
+                "monitor_threshold": 307200,
+                "peakleak_threshold": 3145728,
+                "minleak_threshold": 1048576
+            }
+        },
+        "health_process": {
+            "test": {
+                "monitor_threshold": 15,
+                "detect_delay":0,
+                "max_delay": 8
+            },
+            "beta": {
+                "monitor_threshold": 15,
+                "detect_delay":3600,
+                "max_delay": 8
+            },
+            "commercial": {
+                "monitor_threshold": 3,
+                "detect_delay":7200,
+                "max_delay": 48
+            }
+        },
+        "memory_tag": {
+            "mmap": ["partition", "v8", "blink_gc"]
+        },
+        "stack_track_param": {
+            "hook_lib": {
+                "mmap": ["libpdfium.so"],
+                "dmabuf": ["libdmabufheap.so"],
+                "kgsl": ["libgsl.so"]
+            },
+            "hook_func": {
+                "mmap": ["mmap", "mmap64", "__mmap2", "mremap", "munmap"],
+                "dmabuf": ["ioctl"],
+                "kgsl": ["ioctl"]
+            },
+            "sample": {
+                "java": {
+                    "full_threshold": 10240,
+                    "rate": 1000
+                },
+                "native": {
+                    "full_threshold": 1,
+                    "rate": 0
+                }
+            }
+        },
+        "cust_leak": {
+            "com.ss.android.ugc.aweme": {
+                "java": {
+                    "leak_threshold" : 409600,
+                    "peakleak_threshold": 737280
+                }
+            },
+            "com.ss.android.ugc.aweme.lite": {
+                "java": {
+                    "leak_threshold" : 409600,
+                    "peakleak_threshold": 737280
+                }
+            },
+            "com.ss.android.article.news": {
+                "java": {
+                    "leak_threshold" : 409600,
+                    "peakleak_threshold": 737280
+                }
+            },
+            "com.hihonor.android.launcher": {
+                "java": {
+                    "peakleak_threshold": 358400
+                }
+            },
+            "com.hihonor.systemserver": {
+                "java": {
+                    "peakleak_threshold": 358400
+                }
+            },
+            "com.android.systemui": {
+                "java": {
+                    "peakleak_threshold": 358400
+                }
+            },
+            "com.hihonor.notepad": {
+                "java": {
+                    "peakleak_threshold": 358400
+                }
+            },
+            "com.hihonor.aipluginengine:llmservice": {
+                "dma_buf": {
+                    "peakleak_threshold": 3670016
+                }
+            }
+        }
+    }
+}

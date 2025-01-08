@@ -1,0 +1,152 @@
+{
+  "multiRecConfList": [
+    {
+      "business": "transferGate",
+      "callingPkg": "com.hihonor.hndockbar",
+      "nlpLimit": {
+        "length": "500",
+        "timeout": "1500"
+      },
+      "sceneIntent": {
+        "0": [
+          "com.hihonor.intent.utilities.search.SEARCH_WEB_PAGES",
+          "com.hihonor.intent.utilities.note.TAKE",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.utilities.search.MULTI_SEARCH"
+        ],
+        "1": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.note.TAKE",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.e-commerce_shopping.e-commerce.RECOG_SHOPPING",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space",
+          "com.hihonor.intent.utilities.search.MULTI_SEARCH"
+        ],
+        "2": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "3": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "4": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.note.TAKE",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "5": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "6": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "7": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "8": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "9": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "10": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "13": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ],
+        "14": [
+          "com.hihonor.intent.utilities.email.SEND",
+          "com.hihonor.intent.utilities.favorites.ADD",
+          "com.hihonor.intent.social_networking.social.SHARE",
+          "com.hihonor.intent.system_builtin.system_tools.Parallel_Space"
+        ]
+      },
+      "defaultIntents": [
+        "com.hihonor.intent.traffic.navigation.ADDRESS_SEARCH",
+        "com.hihonor.intent.social_networking.social.SHARE",
+        "com.hihonor.intent.utilities.email.SEND",
+        "com.hihonor.intent.utilities.note.TAKE",
+        "com.hihonor.intent.utilities.search.SEARCH_WEB_PAGES",
+        "com.hihonor.intent.traffic.navigation.CHECK_ROUTES",
+        "com.hihonor.intent.e-commerce_shopping.e-commerce.RECOG_SHOPPING",
+        "com.hihonor.intent.utilities.favorites.ADD",
+        "com.hihonor.intent.system_builtin.system_tools.Parallel_Space",
+        "com.hihonor.intent.cate.take-out.ORDER",
+        "com.hihonor.intent.utilities.search.MULTI_SEARCH"
+      ],
+      "isTokenEnable": false,
+      "textRecogMethods": [
+        "nlu"
+      ],
+      "contentTags": [
+        "location"
+      ],
+      "contentTagIntent": {
+        "location": [
+          "com.hihonor.intent.traffic.navigation.ADDRESS_SEARCH",
+          "com.hihonor.intent.traffic.navigation.CHECK_ROUTES"
+        ]
+      },
+      "srcPkgSceneList": [
+        {
+          "masterScene": 1,
+          "subScenes": [
+            {
+              "scene": 11,
+              "srcPkgs": [],
+              "pkgType": "video"
+            }
+          ]
+        }
+      ],
+      "isCvEnable": false,
+      "minCvConfidence": 0.5,
+      "maxCvWaitTime": 600,
+      "reserveScenes": [
+        {
+          "scene": 0,
+          "tag": "location",
+          "slotKey": "location",
+          "intent": "com.hihonor.intent.traffic.navigation.ADDRESS_SEARCH"
+        },
+        {
+          "scene": 0,
+          "tag": "location",
+          "slotKey": "location",
+          "intent": "com.hihonor.intent.traffic.navigation.CHECK_ROUTES"
+        }
+      ]
+    }
+  ]
+}

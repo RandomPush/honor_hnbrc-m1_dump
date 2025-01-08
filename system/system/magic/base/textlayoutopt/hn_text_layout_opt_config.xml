@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hn_text_layout_config>
+    <featureSwitch status="true"/>
+    <disableApp name="demo" package_name="com.example.textlayoutdemo"/>
+</hn_text_layout_config>

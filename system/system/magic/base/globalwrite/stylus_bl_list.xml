@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appNodeInfoList>
+    <!--负一屏-->
+    <package isTrustApp="false" name="com.***.intelligent" />
+    <!--智慧搜索-->
+    <package  isTrustApp="true" name="com.***.search">
+        <!--综合页标题文本-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.***.search:id/default_title_tv" />
+    </package>
+    <!--备忘录-->
+    <package isTrustApp="true" name="com.hihonor.notepad">
+        <!--本文编辑框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.notepad:id/notetext_textview" />
+        <!--默认笔记文本框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.notepad:id/attachment_left_text" />
+        <!--默认笔记文本框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.notepad:id/attachment_right_text" />
+        <!--顶部工具栏左侧小框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.notepad:id/view_focus" />
+        <!--  备忘录笔记编辑页面内容输入框  -->
+        <nodeInfo isTrustNode="false" viewIdResourceName="_hinote-stage" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.notepad:id/asr_content_edit" />
+        <!--  视频摘录标题-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="_hinote-video-extract" />
+    </package>
+    <!--印象笔记-->
+    <package isTrustApp="false" name="com.yinxiang" />
+    <!--有道笔记-->
+    <package isTrustApp="false" name="com.youdao.note" />
+    <!--钉钉-->
+    <package isTrustApp="true" name="com.alibaba.android.rimet">
+        <!--钉钉登录验证码-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.alibaba.android.rimet:id/et_verify_code" />
+        <!--邮箱正文-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="editor" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.alibaba.android.rimet:id/body_rich_text" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.alibaba.android.rimet:id/messageView" />
+    </package>
+    <!--携程-->
+    <package  isTrustApp="true" name="ctrip.android.view">
+        <!--携程登录验证码-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="ctrip.android.login:id/et_code" />
+    </package>
+    <!--WeLink-->
+    <package  isTrustApp="true" name="com.***.welink">
+        <!--对话框的假框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.***.welink:id/dialog_content" />
+    </package>
+    <!--QQ浏览器-->
+    <package  isTrustApp="true" name="com.tencent.mtt">
+        <!--评论框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.tencent.mtt:id/edit_text" />
+    </package>
+    <!--网易云音乐-->
+    <package  isTrustApp="true" name="com.netease.cloudmusic">
+        <!--登录验证码-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.netease.cloudmusic:id/captcha" />
+    </package>
+    <!--锁屏密码页面-->
+    <package  isTrustApp="true" name="com.android.systemui">
+        <!--锁屏密码框-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.android.systemui:id/fixedPinEntry" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.android.systemui:id/keyguard_message_area" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.android.systemui:id/pinEntry" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.android.systemui:id/passwordEntry" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.android.systemui:id/passwordEntry_bg" />
+    </package>
+    <!--搜狗输入法-->
+    <package  isTrustApp="true" name="com.sohu.inputmethod.sogou">
+        <!--启动页面-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.sohu.inputmethod.sogou:id/cfd" />
+    </package>
+    <!-- FlipaClip：卡通动画 -->
+    <package isTrustApp="false" name="com.vblast.flipaclip" />
+    <!-- WPS Office -->
+    <package isTrustApp="false" name="cn.wps.moffice_eng" />
+    <!--WPS Office Lite-->
+    <package isTrustApp="false" name="cn.wps.moffice_i18n" />
+    <!--系统引用计算器-->
+    <package isTrustApp="false" name="com.hihonor.calculator" />
+    <!--夸克浏览器-->
+    <package isTrustApp="false" name="com.quark.browser" />
+    <!--洪恩识字-->
+    <package isTrustApp="false" name="com.hongen.app.word" />
+    <!--iHuman Books-->
+    <package isTrustApp="false" name="com.ihuman.book" />
+    <!--iHuman Pinyin-->
+    <package isTrustApp="false" name="com.ihuman.pinyin" />
+    <!--iHuman ABC-->
+    <package isTrustApp="false" name="com.ihuman.english" />
+    <!--洪恩思维-->
+    <package isTrustApp="false" name="com.ihuman.imath" />
+    <!--网易新闻-->
+    <package isTrustApp="false" name="com.netease.newsappf" />
+    <!--系统应用日历-->
+    <package isTrustApp="true" name="com.hihonor.calendar">
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.calendar:id/day_view" />
+    </package>
+    <!--抖音极速版-->
+    <package isTrustApp="true" name="com.ss.android.ugc.aweme.lite">
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.ss.android.ugc.aweme.lite:id/vl" />
+    </package>
+    <!--抖音-->
+    <package isTrustApp="true" name="com.ss.android.ugc.aweme">
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.ss.android.ugc.aweme:id/b3w" />
+    </package>
+    <!--Noteshelf - 做笔记-->
+    <package isTrustApp="false" name="com.fluidtouch.noteshelf2" />
+    <!--Wacom-->
+    <package isTrustApp="false" name="com.wacom.bamboopapertab" />
+    <!--Canva 可画: 海报、Logo作图和视频编辑工具-->
+    <package isTrustApp="false" name="cn.canva.editor" />
+    <!--福昕PDF阅读器-->
+    <package isTrustApp="false" name="com.foxit.mobile.pdf.lite" />
+    <!--幕布App-->
+    <package isTrustApp="false" name="com.mubu.app" />
+    <!--PDF Reader-->
+    <package isTrustApp="false" name="com.kdanmobile.android.pdfreader.google.pad" />
+    <!--ArtFlow: Paint Draw Sketchbook-->
+    <package isTrustApp="false" name="com.bytestorm.artflow" />
+    <!--Paint Free -->
+    <package isTrustApp="false" name="com.ternopil.fingerpaintfree" />
+    <!--讯飞语记-->
+    <package isTrustApp="false" name="com.iflytek.vflynote" />
+    <!--Tayasui Sketches-->
+    <package isTrustApp="false" name="com.tayasui.sketches.hihonor" />
+    <!--爱笔思画X-->
+    <package isTrustApp="false" name="jp.ne.ibis.ibispaintx.app.hms" />
+    <!--MediBang Paint Tablet -->
+    <package isTrustApp="false" name="com.medibang.android.paint.tablet" />
+    <!--Drawing Desk-->
+    <package isTrustApp="false" name="com.axis.drawingdesk.cn.hihonor" />
+    <!--Drawing Desk-->
+    <package isTrustApp="false" name="com.axis.drawingdesk.v3" />
+    <!--PaperColor-->
+    <package isTrustApp="false" name="com.eyewind.paperone" />
+    <!--微软office-->
+    <package isTrustApp="false" name="com.microsoft.office.officehub" />
+    <!--微软excel-->
+    <package isTrustApp="false" name="com.microsoft.office.excel" />
+    <!--微软onenote-->
+    <package isTrustApp="false" name="com.microsoft.office.onenote" />
+    <!--calculator_***_cameron-->
+    <package isTrustApp="false" name="com.visionobjects.calculator_***_cameron" />
+    <!--Nebo for Honor-->
+    <package isTrustApp="false" name="com.myscript.nebo.honor" />
+    <!--稿定设计-->
+    <package isTrustApp="false" name="com.hlg.daydaytobusiness" />
+    <!--MyScript Calculator Honor-->
+    <package isTrustApp="false" name="com.myscript.calculator.honor" />
+    <!--画世界-->
+    <package isTrustApp="false" name="net.huanci.hsj" />
+    <!--粉笔教育-->
+    <package isTrustApp="false" name="com.fenbi.android.servant" />
+    <!--Note Taking App -->
+    <package isTrustApp="false" name="com.zoho.notebook" />
+    <!--爱笔思画X-->
+    <package isTrustApp="false" name="jp.ne.ibis.ibispaintx.app" />
+    <!--Concepts: Sketch, Note, Draw-->
+    <package isTrustApp="false" name="com.tophatch.concepts" />
+    <!--随手写-->
+    <package isTrustApp="false" name="com.fiistudio.fiinote" />
+    <!--快手极速版-->
+    <package isTrustApp="false" name="com.kuaishou.nebula" />
+    <!--快手-->
+    <package isTrustApp="false" name="com.smile.gifmaker" />
+    <!--WPS Office Pro-->
+    <package isTrustApp="false" name="com.kingsoft.moffice_pro" />
+    <package isTrustApp="false" name="com.kingsoft.moffice_pro_hw" />
+    <!--画吧-->
+    <package isTrustApp="false" name="com.haowan.huabar" />
+    <!--PicsArt美易绘画-->
+    <package isTrustApp="false" name="com.picsart.draw" />
+    <!--微软word-->
+    <package isTrustApp="false" name="com.microsoft.office.word" />
+    <!--微软ppt-->
+    <package isTrustApp="false" name="com.microsoft.office.powerpoint" />
+    <!--WPS+云办-->
+    <package isTrustApp="false" name="cn.wps.yun" />
+    <!--概念画板-->
+    <package isTrustApp="false" name="com.tophatch.concepts.china" />
+    <!--Autodesk SketchBook-->
+    <package isTrustApp="false" name="com.adsk.sketchbook" />
+    <!--绘画大师-->
+    <package isTrustApp="false" name="com.color365.sketch" />
+    <!--智绘画板-->
+    <package isTrustApp="false" name="com.step.smart.palette" />
+    <!--腾讯文档-->
+    <package isTrustApp="false" name="com.tencent.docs" />
+    <!--搜穗-PPT办公-->
+    <package isTrustApp="false" name="cn.sousui" />
+    <!--XMind-->
+    <package isTrustApp="false" name="net.xmind.doughnut" />
+    <!--Notepad for Android-->
+    <package isTrustApp="false" name="com.example.android.notepad" />
+    <!--JUMP PAINT by MediBang-->
+    <package isTrustApp="false" name="com.medibang.android.jumppaint" />
+    <!--永中Office-->
+    <package isTrustApp="false" name="com.yozo.office" />
+    <!--极速Office-->
+    <package isTrustApp="false" name="com.jisu.office" />
+    <!--石墨文档-->
+    <package isTrustApp="false" name="chuxin.shimo.shimowendang" />
+    <!--万国觉醒-->
+    <package isTrustApp="false" name="com.lilithgames.rok.offical.cn" />
+    <!--小伴龙动画屋-->
+    <package isTrustApp="false" name="com.youban.xbldhw" />
+    <package isTrustApp="false" name="com.youban.xblertongpbhw" />
+    <!--原神-->
+    <package isTrustApp="false" name="com.miHoYo.Yuanshen" />
+    <!--摩尔庄园-->
+    <package isTrustApp="false" name="com.taomee.molenew.***" />
+    <package isTrustApp="false" name="com.taomee.moleleiting" />
+    <!--使命召唤手游-->
+    <package isTrustApp="false" name="com.tencent.tmgp.cod" />
+    <!--王者荣耀-->
+    <package isTrustApp="false" name="com.tencent.tmgp.sgame" />
+    <!--迷你世界-->
+    <package isTrustApp="false" name="de.mini.connected.mobile20.cn" />
+    <!--斗罗大陆-->
+    <package isTrustApp="false" name="com.m37.dldl.###" />
+    <package isTrustApp="false" name="com.dldl.bdss200" />
+    <!--大话西游-->
+    <package isTrustApp="false" name="com.netease.dhxy.***" />
+    <package isTrustApp="false" name="com.netease.dhxy" />
+    <!--指尖四川麻将-->
+    <package isTrustApp="false" name="com.zengame.hlmjhdj.###" />
+    <package isTrustApp="false" name="com.zengame.zjscmj.p365you" />
+    <!--原始传奇-->
+    <package isTrustApp="false" name="com.tanwan.yscqlyzf.***" />
+    <package isTrustApp="false" name="com.yypcd.mobile.yscq" />
+    <!--哔哩哔哩漫画-->
+    <package isTrustApp="false" name="com.bilibili.comic" />
+    <!--菜鸟-->
+    <package  isTrustApp="true" name="com.cainiao.wireless">
+        <!--首次登录全屏动画-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.cainiao.wireless:id/guide_videoview" />
+    </package>
+    <!--手机PPT-->
+    <package isTrustApp="false" name="com.huan.activity" />
+    <!--交管12123-->
+    <package  isTrustApp="true" name="com.tmri.app.main">
+        <!--登录页面-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.tmri.app.main:id/et_account" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.tmri.app.main:id/tv_title" />
+    </package>
+    <!--猿辅导-->
+    <package  isTrustApp="true" name="com.yuantiku.tutor">
+        <!--输入验证码-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.yuantiku.tutor:id/input" />
+    </package>
+    <!--支付宝-->
+    <package  isTrustApp="true" name="com.eg.android.AlipayGphone">
+        <!--输入验证码-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.ali.user.mobile.security.ui:id/box_input_real_input" />
+    </package>
+    <!--美团买药-->
+    <package  isTrustApp="true" name="com.sankuai.meituan">
+        <!--搜索-->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.sankuai.meituan:id/txt_search_keyword" />
+    </package>
+    <!--蜻蜓点金-->
+    <package  isTrustApp="true" name="zhongxinjiantou.szkingdom.android.newphone">
+        <nodeInfo isTrustNode="false" viewIdResourceName="zhongxinjiantou.szkingdom.android.newphone:id/edt_search" />
+    </package>
+    <!--岳阳办公-->
+    <package  isTrustApp="false" name="com.chinacreator.c2.mobile.yyzfoa"/>
+    <!--Painter-->
+    <package  isTrustApp="false" name="com.brakefield.painter"/>
+    <!--宝宝恐龙家园-->
+    <package  isTrustApp="false" name="com.sinyee.babybus.dinosaur"/>
+    <!--古筝-->
+    <package  isTrustApp="false" name="com.meetstudio.app.Zither"/>
+    <!--妙笔汉子书法-->
+    <package  isTrustApp="true" name="com.zxy.writing">
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.zxy.writing:id/padView" />
+    </package>
+    <!--今日头条-->
+    <package  isTrustApp="true" name="com.ss.android.article.news">
+        <!--  今日头条8.9+版本首页搜索框   -->
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.ss.android.article.news:id/d0" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.ss.android.article.news:id/cz" />
+    </package>
+    <!--宾果消消乐-->
+    <package  isTrustApp="false" name="com.mfp.jelly.***"/>
+    <!--金铲铲之战-->
+    <package isTrustApp="false" name="com.tencent.jkchess"/>
+    <!--像素牧场物语-->
+    <package isTrustApp="false" name="com.kairogame.android.Bokujou.yyh"/>
+    <!--萌龙进化论-->
+    <package isTrustApp="false" name="com.gramgames.mergedragons.cn.huawei"/>
+    <!--小伴龙-->
+    <package isTrustApp="false" name="com.xiaobanlong.main"/>
+    <!--无尽的拉格朗日-->
+    <package isTrustApp="false" name="com.netease.lglr"/>
+    <!--三国志2017-->
+    <package isTrustApp="false" name="com.game.sgz.a360"/>
+    <!--荣耀office-->
+    <package  isTrustApp="true" name="com.hihonor.hnoffice">
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.hnoffice:id/a0000_wp_eword_id" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.hnoffice:id/a0000_pg_slide_view_id" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.hnoffice:id/a0000_ss_ssword_id" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.hnoffice:id/a0000_ss_ftext_area_id" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.hnoffice:id/a0000_txt_scrollview_id" />
+        <nodeInfo isTrustNode="false" viewIdResourceName="com.hihonor.hnoffice:id/a0000_ss_etable_id" />
+    </package>
+</appNodeInfoList>

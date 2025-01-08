@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaptureLog>
+    <DumpsysCmdDefine>
+        <dumpsys id="1" path="dumpsys.txt" name="dumpsysPara">
+            <Cmd value="dumpsys activity broadcasts" />
+            <Cmd value="dumpsys meminfo" />
+            <Cmd value="dumpsys cpuinfo" />
+            <Cmd value="dumpsys powerprofile" />
+        </dumpsys>
+        <dumpsys id="2" path="dumpsys_wlan.txt" name="dumpsysParaForWIFI">
+            <Cmd value="dumpsys wifi" />
+            <Cmd value="dumpsys wificond" />
+            <Cmd value="dumpsys wifip2p" />
+            <Cmd value="dumpsys wifiscanner" />
+            <Cmd value="dumpsys activity" />
+        </dumpsys>
+        <dumpsys id="3" path="log_jankExec" name="dumpsysParamJank">
+            <Cmd value="dumpsys jank -sys" />
+        </dumpsys>
+        <dumpsys id="4" path="log_jank" name="logcatParamJank">
+            <Cmd value="logcat -b jank -v threadtime -t 4096" protectTime ="5000" />
+        </dumpsys>
+        <dumpsys id="5" path="bugreport_mini.txt" name="dumpsysMini">
+            <Cmd value="dumpstate -m" protectTime ="60000" />
+        </dumpsys>
+        <dumpsys id="6" path="bugreport.txt" name="bugreport">
+            <Cmd value="bugreport -l" protectTime ="300000" />
+        </dumpsys>
+        <dumpsys id="7" path="dumpsys.txt" name="dumpsysBluetooth">
+            <Cmd value="dumpsys bluetooth_manager" />
+            <Cmd value="dumpsys activity" />
+        </dumpsys>
+        <dumpsys id="8" path="dumpsys.txt" name="dumpsysaudio">
+            <Cmd value="dumpsys media.audio_flinger" />
+        </dumpsys>
+        <dumpsys id="9" path="dumpsys.txt" name="dumpsytwsaudio">
+        </dumpsys>
+        <dumpsys id="10" path="dumpsys.txt" name="dubai.db">
+            <Cmd value="dumpsys DubaiService --logbackup"  waitTime ="10000" />
+        </dumpsys>
+        <dumpsys id="11" path="dumpsys.txt" name="dumpsyscar">
+            <Cmd value="dumpsys activity service CarService hiview_request"  waitTime ="10000" />
+        </dumpsys>
+        <dumpsys id="12" path="dumpsys_audio.txt" name="dumpsys_audio">
+            <Cmd value="dumpsys audio -t 5000" />
+        </dumpsys>
+        <dumpsys id="13" path="dumpsys_media_metrics.txt" name="dumpsys_audio">
+            <Cmd value="dumpsys media.metrics  -t 5000" />
+        </dumpsys>
+        <dumpsys id="14" path="dumpsys_media_audio_policy.txt" name="dumpsys_audio">
+            <Cmd value="dumpsys media.audio_policy  -t 5000" />
+        </dumpsys>
+        <dumpsys id="15" path="dumpsys_media_session.txt" name="dumpsys_audio">
+            <Cmd value="dumpsys media_session  -t 5000" />
+        </dumpsys>
+        <dumpsys id="16" path="dumpsys_usb.txt" name="dumpsys_audio">
+            <Cmd value="dumpsys usb  -t 5000" />
+        </dumpsys>
+        <dumpsys id="17" path="dumpsys_media.extractor.txt" name="dumpsys_extractor">
+            <Cmd value="dumpsys media.extractor  -t 5000" />
+        </dumpsys>
+        <dumpsys id="18" path="dumpsys_media_hncodec.txt" name="dumpsys_hncodec">
+            <Cmd value="dumpsys media.hncodec -t 5000" />
+        </dumpsys>
+        <dumpsys id="19" path="dumpsys_network.txt" name="dumpsys_network">
+            <Cmd value="dumpsys deviceidle" />
+            <Cmd value="dumpsys network_management" />
+            <Cmd value="dumpsys netpolicy" />
+        </dumpsys>
+        <dumpsys id="20" path="dumpsys_dexopt_status.txt" name="dumpsys_dexopt_status">
+            <Cmd value="dumpsys package dexopt -pkg ${module}" type="withparam" />
+        </dumpsys>
+        <dumpsys id="21" path="dumpsys_trafficcontroller.txt" name="dumpsys_trafficcontroller">
+            <Cmd value="dumpsys connectivity trafficcontroller" />
+        </dumpsys>
+        <dumpsys id="22" path="dumpsys_usagestats.txt" name="dumpsys_usagestats">
+            <Cmd value="dumpsys -t 5000 usagestats" />
+        </dumpsys>
+        <dumpsys id="23" path="dumpsys_location.txt" name="dumpsys_location">
+            <Cmd value="dumpsys -t 5000 location" />
+        </dumpsys>
+        <dumpsys id="24" path="dumpsys_touch_interaction_service.txt" name="dumpsys_touch_interaction_service">
+            <Cmd value="dumpsys activity service TouchInteractionService" />
+        </dumpsys>
+    </DumpsysCmdDefine>
+
+    <GenerateMetricLog VersionType="3" >
+        <Metric metricId="106" name="wifi">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="19" />
+            <Cmd dumpsysId="21" />
+        </Metric>
+        <Metric metricId="129" name="linkturbo">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="19" />
+            <Cmd dumpsysId="21" />
+        </Metric>
+        <Metric metricId="206" name="wifi">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="19" />
+            <Cmd dumpsysId="21" />
+        </Metric>
+        <Metric metricId="104" name="camara">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="107" name="bluetooth">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="108" name="gps">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="23" />
+        </Metric>
+        <Metric metricId="109" name="screen">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="112" name="perf">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="20" />
+        </Metric>
+        <Metric metricId="105" name="power">
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="10" />
+        </Metric>
+        <Metric metricId="205" name="power">
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="10" />
+        </Metric>
+        <Metric metricId="303" name="power">
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="10" />
+        </Metric>
+        <Metric metricId="103" name="app">
+            <Cmd dumpsysId="1" />
+            <Cmd dumpsysId="4" />
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="8" />
+            <Cmd dumpsysId="12" />
+            <Cmd dumpsysId="13" />
+            <Cmd dumpsysId="14" />
+            <Cmd dumpsysId="15" />
+            <Cmd dumpsysId="16" />
+            <Cmd dumpsysId="17" />
+            <Cmd dumpsysId="18" />
+            <Cmd dumpsysId="22" />
+            <Cmd dumpsysId="24" />
+        </Metric>
+        <Metric metricId="110" name="sdcard">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="300" name="basic">
+            <Cmd dumpsysId="3" />
+            <Cmd dumpsysId="4" />
+            <Cmd dumpsysId="5" />
+            <Cmd dumpsysId="17" />
+            <Cmd dumpsysId="18" />
+        </Metric>
+        <Metric metricId="98" name="except">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="99" name="modemExcept">
+            <Cmd dumpsysId="1" />
+        </Metric>
+        <Metric metricId="114" name="audio">
+            <Cmd dumpsysId="8" />
+        </Metric>
+        <Metric metricId="214" name="audio">
+            <Cmd dumpsysId="8" />
+        </Metric>
+        <Metric metricId="126" name="bluetoothaudio">
+            <Cmd dumpsysId="9" />
+        </Metric>
+        <Metric metricId="128" name="car">
+            <Cmd dumpsysId="11" />
+        </Metric>
+        <Metric metricId="228" name="car">
+            <Cmd dumpsysId="11" />
+        </Metric>
+       <Metric metricId="102" name="radio">
+            <Cmd dumpsysId="8" />
+            <Cmd dumpsysId="12" />
+            <Cmd dumpsysId="13" />
+            <Cmd dumpsysId="14" />
+            <Cmd dumpsysId="15" />
+            <Cmd dumpsysId="16" />
+            <Cmd dumpsysId="19" />
+            <Cmd dumpsysId="21" />
+        </Metric>
+        <Metric metricId="202" name="radio">
+            <Cmd dumpsysId="8" />
+            <Cmd dumpsysId="12" />
+            <Cmd dumpsysId="13" />
+            <Cmd dumpsysId="14" />
+            <Cmd dumpsysId="15" />
+            <Cmd dumpsysId="16" />
+            <Cmd dumpsysId="19" />
+            <Cmd dumpsysId="21" />
+        </Metric>
+        <Metric metricId="113" name="audioFwk">
+            <Cmd dumpsysId="8" />
+            <Cmd dumpsysId="12" />
+            <Cmd dumpsysId="13" />
+            <Cmd dumpsysId="14" />
+            <Cmd dumpsysId="15" />
+            <Cmd dumpsysId="16" />
+        </Metric>
+        <Metric metricId="120" name="audioFwk">
+            <Cmd dumpsysId="8" />
+            <Cmd dumpsysId="12" />
+            <Cmd dumpsysId="13" />
+            <Cmd dumpsysId="14" />
+            <Cmd dumpsysId="15" />
+            <Cmd dumpsysId="16" />
+        </Metric>
+        <Metric metricId="1001" name="communication">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="1002" name="communication">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="1021" name="superperiphery">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="1081" name="pccoordination">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="1101" name="padcoordination">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="1141" name="sidecar">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+        <Metric metricId="1181" name="share">
+            <Cmd dumpsysId="2" />
+            <Cmd dumpsysId="7" />
+        </Metric>
+    </GenerateMetricLog>
+</CaptureLog>

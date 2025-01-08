@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<advancedQoeConfig>
+    <appTypeMap>
+        <apkList typeName = "liveStream">
+            <apkconfig packageName="air.tv.douyu.android"/>
+        </apkList>
+        <apkList typeName = "blacklist">
+            <apkconfig packageName="com.union.wxpt_android"/>
+            <apkconfig packageName="uni.UNI1A570C0"/>
+        </apkList>
+    </appTypeMap>
+    <defaultQoeConfig>
+        <qoeRule ruleId = "100"> <!-- 带宽时延评估 -->
+            <isSwitchOn>1</isSwitchOn>
+            <ulRateEstPdcpBufferTime>100</ulRateEstPdcpBufferTime>
+            <dlOtaBandwidth>8,10,12,15,20,40,200,400,700,1000</dlOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+            <ulOtaBandwidth>0,0,0,0,0,0,0,0,0,0</ulOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+            <ulOtaDelay>10,40,70,100,200,500,1000,1200,1500,2000</ulOtaDelay> <!-- ms，分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+            <singleScore>700</singleScore> <!-- 单指标的卡顿分数阈值 -->
+            <ratio>8,2,0</ratio> <!-- 三个参数的权重 -->
+            <dlMinRate>10000</dlMinRate> <!-- bps,判决卡顿的最小下行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务下行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+            <ulMinRate>5000</ulMinRate> <!-- bps,判决卡顿的最小上行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务上行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+        </qoeRule>
+        <qoeRule ruleId = "101"> <!-- 上行PDCP高丢包 -->
+            <isSwitchOn>1</isSwitchOn>
+            <upPktLossRateThreshold>20</upPktLossRateThreshold> <!-- 上行PDCP丢包率 -->
+            <largeUpRateThreshold>10240</largeUpRateThreshold> <!-- kbps,上行空口速率 -->
+        </qoeRule>
+        <qoeRule ruleId = "102"> <!-- 上行buffertime高 -->
+            <isSwitchOn>1</isSwitchOn>
+            <bufferTimeThreshold>1000</bufferTimeThreshold> <!-- 上行pdcp buffertime -->
+            <uprateSlowThreshold>256</uprateSlowThreshold> <!-- kbps,上行pdcp空口速率 -->
+        </qoeRule>
+        <qoeRule ruleId = "103"> <!-- 上行高误码 -->
+            <isSwitchOn>1</isSwitchOn>
+            <puschBlerThreshold>30</puschBlerThreshold> <!-- 上行误码率门限 -->
+            <puschScheduleNumTh>100</puschScheduleNumTh> <!-- 上行调度数门限 -->
+            <puschScheduleWinSize>10</puschScheduleWinSize> <!-- 上行高误码窗口大小 -->
+            <puschHighBlerHappenTime>10</puschHighBlerHappenTime> <!-- 观测窗口内高误码发生次数 -->
+        </qoeRule>
+        <qoeRule ruleId = "104"> <!-- 链路异常检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <errorTypeNum>10</errorTypeNum> <!-- 异常场景数 -->
+            <errorCode>1000,1001,1002,1003,2000,2001,2002,2003,3001,3002,0,0,0,0,0,0</errorCode> <!-- 异常代码号 -->
+            <errorLevelThreshold>2,2,2,2,2,2,2,2,3,3,0,0,0,0,0,0</errorLevelThreshold> <!-- 异常等级 -->
+        </qoeRule>
+        <qoeRule ruleId = "112"> <!-- 下行高误码 -->
+            <isSwitchOn>1</isSwitchOn>
+            <pdschBlerThreshold>30</pdschBlerThreshold> <!-- 下行误码率门限 -->
+            <pdschScheduleNumTh>100</pdschScheduleNumTh> <!-- 下行调度数门限 -->
+            <pdschScheduleWinSize>10</pdschScheduleWinSize> <!-- 下行高误码窗口大小 -->
+            <pdschHighBlerHappenTime>10</pdschHighBlerHappenTime> <!-- 观测窗口内高误码发生次数 -->
+        </qoeRule>
+        <qoeRule ruleId = "160"> <!-- wlanAI算法 -->
+            <isSwitchOn>1</isSwitchOn>
+            <inPktRateThreshold>8192</inPktRateThreshold> <!-- kbps, 下行总速率门限 -->
+            <outPktRateThreshold>2048</outPktRateThreshold> <!-- kbps, 上行总速率门限 -->
+        </qoeRule>
+        <qoeRule ruleId = "161"> <!-- 弱信号检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <appQoeMinStateSec>2</appQoeMinStateSec> <!-- 秒,wlan连续rssi时间 -->
+            <wlan5GThreshold>-86</wlan5GThreshold> <!-- dbm,wlan 5G频段信号强度 -->
+            <wlan24GThreshold>-89</wlan24GThreshold> <!-- dbm,wlan 2.4G频段信号强度 -->
+        </qoeRule>
+        <qoeRule ruleId = "162"> <!-- WIFI上行协商速率检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <wlan5GTxRateLowThreshold>86</wlan5GTxRateLowThreshold> <!-- 100kbps,5G热点上行协商速率限值 -->
+            <wlan5GTxFailRateThreshold>10</wlan5GTxFailRateThreshold> <!-- 百分比,5G热点上行发送失败率限值 -->
+            <wlan24GTxRateLowThreshold>86</wlan24GTxRateLowThreshold> <!-- 100kbps,24G热点上行协商速率限值 -->
+            <wlan24GTxFailRateThreshold>10</wlan24GTxFailRateThreshold> <!-- 百分比,24G热点上行发送失败率限值 -->
+            <wlanTxRateLowCountThreshold>3</wlanTxRateLowCountThreshold> <!-- 秒,速率低累计时间限制 -->
+        </qoeRule>
+        <qoeRule ruleId = "163"> <!-- WIFI下行协商速率检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <wlan5GTxRateHighThreshold>344</wlan5GTxRateHighThreshold> <!-- 100kbps,5G热点上行协商速率限值 -->
+            <wlan5GRxRateLowThreshold>86</wlan5GRxRateLowThreshold> <!-- 100kbps,5G热点下行协商速率限值 -->
+            <wlan5GTxFailRateThreshold>10</wlan5GTxFailRateThreshold> <!-- 百分比,5G热点上行发送失败率限值 -->
+            <wlan24GTxRateHighThreshold>344</wlan24GTxRateHighThreshold> <!-- 100kbps,24G热点上行协商速率限值 -->
+            <wlan24GRxRateLowThreshold>86</wlan24GRxRateLowThreshold> <!-- 100kbps,24G热点下行协商速率限值 -->
+            <wlan24GTxFailRateThreshold>10</wlan24GTxFailRateThreshold> <!-- 百分比,24G热点上行发送失败率限值 -->
+            <wlanRxRateLowCountThreshold>3</wlanRxRateLowCountThreshold> <!-- 秒,速率低累计时间限制 -->
+        </qoeRule>
+        <qoeRule ruleId = "164"> <!-- WIFI带宽预估检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <wlanMinDownBandWidthThreshold>20</wlanMinDownBandWidthThreshold> <!-- 100kbps,下行最小带宽/传输速率限值 -->
+            <wlanMinUpBandWidthThreshold>10</wlanMinUpBandWidthThreshold> <!-- 100kbps,上行最小带宽/传输速率限值 -->
+            <wlanBandWidthLowCountThreshold>3</wlanBandWidthLowCountThreshold> <!-- 秒,带宽不足累计时间限制 -->
+        </qoeRule>
+        <qoeRule ruleId = "201"> <!-- sync重传检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <exceptionWindowSize>5</exceptionWindowSize> <!-- 滑动窗口大小 -->
+            <exceptSocketNumThreshold>12</exceptSocketNumThreshold> <!-- 滑动窗口内socket数量 -->
+            <exceptSynPktRatioThreshold>80</exceptSynPktRatioThreshold> <!-- sync包总数占tcp socket总数的比例 -->
+            <exceptionRtsRateThreshold>75</exceptionRtsRateThreshold> <!-- sync重传包总数占sync包总数的比例 -->
+        </qoeRule>
+        <qoeRule ruleId = "202"> <!-- 单秒重传异常检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+            <happenTimeThreshold>3</happenTimeThreshold> <!-- 异常发生时长 -->
+            <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+            <uplinkPktRadioHighThreshold>20</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+            <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+            <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+            <downlinkPktNumHighThreshold>20</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+            <downlinkPktRadioHighThreshold>20</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+            <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+            <downlinkPktRadioLowThreshold>50</downlinkPktRadioLowThreshold><!-- 下行重传率 -->
+            <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+            <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+        </qoeRule>
+        <qoeRule ruleId = "203"> <!-- 整体重传异常检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+            <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+            <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+            <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+            <uplinkPktRadioHighThreshold>20</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+            <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+            <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+            <downlinkPktNumHighThreshold>20</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+            <downlinkPktRadioHighThreshold>20</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+            <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+            <downlinkPktRadioLowThreshold>50</downlinkPktRadioLowThreshold> <!-- 下行重传率 -->
+        </qoeRule>
+        <qoeRule ruleId = "204"> <!-- 无下行检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <exceptionWindowSize>6</exceptionWindowSize> <!-- 秒,滑动窗口时长 -->
+            <timeThreshold>3</timeThreshold> <!-- 秒,有上无下异常发生时长 -->
+            <pktNumThreshold>6</pktNumThreshold> <!-- 有上无下上行包累计个数 -->
+        </qoeRule>
+        <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <tcpRateThreshold>200,800,2000,8000</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+            <rttThreshold>10000,1000,1000,1000,10000</rttThreshold> <!-- ms, RTT -->
+        </qoeRule>
+        <qoeRule ruleId = "206"> <!-- CHANNEL有上无下检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <exceptionWindowSize>8</exceptionWindowSize> <!-- 秒,滑动窗口时长 -->
+            <txCntThreshold>4</txCntThreshold> <!-- 秒,有上无下次数 -->
+            <txPktNumThreshold>10</txPktNumThreshold> <!-- 窗口内上行包累计个数 -->
+        </qoeRule>
+        <qoeRule ruleId = "207"> <!-- DNS有上无下检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <timeThreshold>3</timeThreshold> <!-- 秒,异常发生时长 -->
+        </qoeRule>
+        <qoeRule ruleId = "208"> <!-- DNS失败检测 -->
+            <isSwitchOn>1</isSwitchOn>
+            <timeThreshold>3</timeThreshold> <!-- 秒,异常发生时长 -->
+        </qoeRule>
+        <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+            <isSwitchOn>0</isSwitchOn>
+            <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+            <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+            <activityType>0,0,0,0</activityType> <!-- 应用内场景类型，0-默认场景不做检测，特殊场景在appQoeConfig中各应用单独配置-->
+            <dlRateThreshold>0,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+            <ulRateThreshold>0,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+        </qoeRule>
+        <qoeRule ruleId = "301"> <!-- Kit QoE卡顿检测 -->
+            <isSwitchOn>0</isSwitchOn>
+        </qoeRule>
+        <qoeRule ruleId = "302"> <!-- GameKit 卡顿检测 -->
+            <isSwitchOn>0</isSwitchOn>
+            <sceneTypeNum>0</sceneTypeNum>
+            <exceptionCnt>0</exceptionCnt>
+            <beginSceneId>0,0,0,0</beginSceneId>
+            <endSceneId>0,0,0,0</endSceneId>
+            <rttThreshold>0,0,0,0</rttThreshold>
+        </qoeRule>
+    </defaultQoeConfig>
+    <typeQoeConfig>
+        <appType typeName = "blacklist">
+            <qoeRule ruleId = "100"> <!-- 带宽时延评估 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "101"> <!-- 上行PDCP高丢包 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "102"> <!-- 上行buffertime高 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "103"> <!-- 上行高误码 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "104"> <!-- 链路异常检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "112"> <!-- 下行高误码 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "201"> <!-- sync重传检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "202"> <!-- 单秒重传异常检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "203"> <!-- 整体重传异常检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "204"> <!-- 无下行检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "206"> <!-- 通道有上无下检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "207"> <!-- DNS有上无下检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "208"> <!-- DNS失败检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+            <qoeRule ruleId = "301"> <!-- Kit QoE卡顿检测 -->
+                <isSwitchOn>0</isSwitchOn>
+            </qoeRule>
+        </appType>
+    </typeQoeConfig>
+    <appQoeConfig>
+        <app packageName = "air.tv.douyu.android">
+            <qoeRule ruleId = "100"> <!-- 带宽时延评估 -->
+                <isSwitchOn>1</isSwitchOn>
+                <ulRateEstPdcpBufferTime>50</ulRateEstPdcpBufferTime>
+                <dlOtaBandwidth>1000,1200,1400,1600,1800,2000,2200,2400,2700,3300</dlOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaBandwidth>0,0,0,0,0,0,0,0,0,0</ulOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaDelay>10,30,50,80,100,300,500,700,1000,1300</ulOtaDelay> <!-- ms，分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <singleScore>700</singleScore> <!-- 单指标的卡顿分数阈值 -->
+                <ratio>4,2,2</ratio> <!-- 三个参数的权重 -->
+                <dlMinRate>10000</dlMinRate> <!-- bps,判决卡顿的最小下行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务下行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+                <ulMinRate>5000</ulMinRate> <!-- bps,判决卡顿的最小上行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务上行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+            </qoeRule>
+            <qoeRule ruleId = "160"> <!-- wifi AI算法 -->
+                <isSwitchOn>1</isSwitchOn>
+                <inPktRateThreshold>3000</inPktRateThreshold> <!-- kbps, TCP下行速率 -->
+                <outPktRateThreshold>800</outPktRateThreshold> <!-- kbps, TCP上行速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "202"> <!-- 单秒重传异常检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+                <happenTimeThreshold>3</happenTimeThreshold> <!-- 异常发生时长 -->
+                <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioHighThreshold>20</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+                <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+                <downlinkPktNumHighThreshold>150</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioHighThreshold>30</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+                <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioLowThreshold>20</downlinkPktRadioLowThreshold><!-- 下行重传率 -->
+                <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+                <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+            </qoeRule>
+            <qoeRule ruleId = "203"> <!-- 整体重传异常检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+                <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+                <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+                <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioHighThreshold>20</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+                <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+                <downlinkPktNumHighThreshold>150</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioHighThreshold>30</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+                <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioLowThreshold>20</downlinkPktRadioLowThreshold> <!-- 下行重传率 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>10,120,1900,3000</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3000,500,1500,2100,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- 斗鱼内场景：0-默认场景不做检测，5-直播间全屏播放 -->
+                <dlRateThreshold>800,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>20,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.ss.android.ugc.aweme">
+            <qoeRule ruleId = "160"> <!-- wifi AI算法 -->
+                <isSwitchOn>1</isSwitchOn>
+                <inPktRateThreshold>3500</inPktRateThreshold> <!-- kbps, TCP下行速率 -->
+                <outPktRateThreshold>800</outPktRateThreshold> <!-- kbps, TCP上行速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "161"> <!-- 弱信号检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <appQoeMinStateSec>2</appQoeMinStateSec> <!-- 秒,wlan连续rssi时间 -->
+                <wlan5GThreshold>-83</wlan5GThreshold> <!-- dbm,wlan 5G频段信号强度 -->
+                <wlan24GThreshold>-86</wlan24GThreshold> <!-- dbm,wlan 2.4G频段信号强度 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>40,400,1800,3000</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3000,500,800,2200,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>5</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- 抖音内场景类型，0-默认场景，5-特定手法打开的直播场景-->
+                <dlRateThreshold>240,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>6,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+            <qoeRule ruleId = "301"> <!-- Kit QoE卡顿检测 -->
+                <isSwitchOn>1</isSwitchOn>
+            </qoeRule>
+        </app>
+        <app packageName = "com.ss.android.article.news">
+            <qoeRule ruleId = "100"> <!-- 带宽时延评估 -->
+                <isSwitchOn>1</isSwitchOn>
+                <ulRateEstPdcpBufferTime>100</ulRateEstPdcpBufferTime>
+                <dlOtaBandwidth>10,50,80,100,150,400,600,800,1000,1500</dlOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaBandwidth>0,0,0,0,0,0,0,0,0,0</ulOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaDelay>10,15,300,500,1000,1200,1500,1600,1700,1800</ulOtaDelay> <!-- ms，分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <singleScore>700</singleScore> <!-- 单指标的卡顿分数阈值 -->
+                <ratio>6,3,1</ratio> <!-- 三个参数的权重 -->
+                <dlMinRate>10000</dlMinRate> <!-- bps,判决卡顿的最小下行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务下行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+                <ulMinRate>5000</ulMinRate> <!-- bps,判决卡顿的最小上行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务上行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+            </qoeRule>
+            <qoeRule ruleId = "102"> <!-- 上行buffertime高 -->
+                <isSwitchOn>1</isSwitchOn>
+                <bufferTimeThreshold>1200</bufferTimeThreshold> <!-- 上行pdcp buffertime -->
+                <uprateSlowThreshold>256</uprateSlowThreshold> <!-- kbps,上行pdcp空口速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "160"> <!-- wifi AI算法 -->
+                <isSwitchOn>1</isSwitchOn>
+                <inPktRateThreshold>2800</inPktRateThreshold> <!-- kbps, TCP下行速率 -->
+                <outPktRateThreshold>800</outPktRateThreshold> <!-- kbps, TCP上行速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>20,150,320,2800</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3000,800,1000,1300,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>5</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- 头条内场景类型，0-默认场景，5-直播场景-->
+                <dlRateThreshold>240,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>6,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.tencent.mm">
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>1,2,3,4</activityType> <!-- 微信内场景：0-默认场景不做检测，1-语音通话，2-视频通话，3-多人语音/会议，4-多人视频/会议-->
+                <dlRateThreshold>30,300,30,300</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>40,40,10,40</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.duowan.kiwi">
+            <qoeRule ruleId = "100"> <!-- 带宽时延评估 -->
+                <isSwitchOn>1</isSwitchOn>
+                <ulRateEstPdcpBufferTime>100</ulRateEstPdcpBufferTime>
+                <dlOtaBandwidth>8,10,12,15,20,40,200,400,700,1000</dlOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaBandwidth>0,0,0,0,0,0,0,0,0,0</ulOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaDelay>10,100,250,550,1000,1500,2000,2300,2500,2800</ulOtaDelay> <!-- ms，分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <singleScore>700</singleScore> <!-- 单指标的卡顿分数阈值 -->
+                <ratio>8,2,0</ratio> <!-- 三个参数的权重 -->
+                <dlMinRate>10000</dlMinRate> <!-- bps,判决卡顿的最小下行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务下行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+                <ulMinRate>5000</ulMinRate> <!-- bps,判决卡顿的最小上行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务上行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+            </qoeRule>
+            <qoeRule ruleId = "102"> <!-- 上行拥塞 -->
+                <isSwitchOn>1</isSwitchOn>
+                <bufferTimeThreshold>1500</bufferTimeThreshold> <!-- 上行pdcp buffertime -->
+                <uprateSlowThreshold>80</uprateSlowThreshold> <!-- kbps,上行pdcp空口速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "160"> <!-- wifi AI算法纠正 -->
+                <isSwitchOn>1</isSwitchOn>
+                <inPktRateThreshold>3000</inPktRateThreshold> <!-- kbps, TCP下行速率 -->
+                <outPktRateThreshold>800</outPktRateThreshold> <!-- kbps, TCP上行速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "202"> <!-- 单秒重传异常检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+                <happenTimeThreshold>3</happenTimeThreshold> <!-- 异常发生时长 -->
+                <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioHighThreshold>35</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+                <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+                <downlinkPktNumHighThreshold>20</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioHighThreshold>35</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+                <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioLowThreshold>50</downlinkPktRadioLowThreshold><!-- 下行重传率 -->
+                <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+                <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+            </qoeRule>
+            <qoeRule ruleId = "203"> <!-- 整体重传异常检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+                <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+                <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+                <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioHighThreshold>35</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+                <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+                <downlinkPktNumHighThreshold>20</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioHighThreshold>35</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+                <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioLowThreshold>50</downlinkPktRadioLowThreshold> <!-- 下行重传率 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>80,350,1800,3200</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3500,1000,1400,2200,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- 应用内场景类型 -->
+                <dlRateThreshold>300,0,0,0</dlRateThreshold> <!-- 各场景下行速率门限 -->
+                <ulRateThreshold>10,0,0,0</ulRateThreshold> <!-- 各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.tencent.tmgp.sgame">
+            <qoeRule ruleId = "100"> <!-- 带宽时延评估 -->
+                <isSwitchOn>0</isSwitchOn>
+                <ulRateEstPdcpBufferTime>100</ulRateEstPdcpBufferTime>
+                <dlOtaBandwidth>8,10,12,15,20,40,200,400,700,1000</dlOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaBandwidth>4,5,6,8,10,20,40,70,90,200</ulOtaBandwidth> <!-- kbps,10个值分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <ulOtaDelay>10,40,70,100,200,500,1000,1200,1500,2000</ulOtaDelay> <!-- ms，分别对应10-100%概率分布,中值建议取均值-1个标准差或对应90%覆盖数值 -->
+                <singleScore>700</singleScore> <!-- 单指标的卡顿分数阈值 -->
+                <ratio>8,2,0</ratio> <!-- 三个参数的权重 -->
+                <dlMinRate>10000</dlMinRate> <!-- bps,判决卡顿的最小下行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务下行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+                <ulMinRate>5000</ulMinRate> <!-- bps,判决卡顿的最小上行速率,APP前台运行时，可能当前并无数据交互，为避免误判，增加业务上行最低速率门限。低于该速率，则暂不执行QoE判断，默认返回good，依赖其他规则进行检测 -->
+            </qoeRule>
+            <qoeRule ruleId = "302"> <!-- GameKit 卡顿检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <sceneTypeNum>1</sceneTypeNum>
+                <exceptionCnt>1</exceptionCnt>
+                <beginSceneId>7,0,0,0</beginSceneId>
+                <endSceneId>8,0,0,0</endSceneId>
+                <rttThreshold>160,0,0,0</rttThreshold>
+            </qoeRule>
+        </app>
+        <app packageName = "com.tencent.tmgp.pubgmhd">
+            <qoeRule ruleId = "302"> <!-- GameKit 卡顿检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <sceneTypeNum>2</sceneTypeNum>
+                <exceptionCnt>1</exceptionCnt>
+                <beginSceneId>7,201,0,0</beginSceneId>
+                <endSceneId>109,906,0,0</endSceneId>
+                <rttThreshold>350,350,0,0</rttThreshold>
+            </qoeRule>
+        </app>
+        <app packageName = "com.smile.gifmaker">
+            <qoeRule ruleId = "201"> <!-- sync重传检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <exceptionWindowSize>5</exceptionWindowSize> <!-- 滑动窗口大小 -->
+                <exceptSocketNumThreshold>20</exceptSocketNumThreshold> <!-- 滑动窗口内socket数量 -->
+                <exceptSynPktRatioThreshold>50</exceptSynPktRatioThreshold> <!-- sync包总数占tcp socket总数的比例 -->
+                <exceptionRtsRateThreshold>50</exceptionRtsRateThreshold> <!-- sync重传包总数占sync包总数的比例 -->
+            </qoeRule>
+            <qoeRule ruleId = "202"> <!-- 单秒重传异常检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+                <happenTimeThreshold>3</happenTimeThreshold> <!-- 异常发生时长 -->
+                <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioHighThreshold>30</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+                <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+                <downlinkPktNumHighThreshold>20</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioHighThreshold>35</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+                <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioLowThreshold>30</downlinkPktRadioLowThreshold><!-- 下行重传率 -->
+                <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+                <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+            </qoeRule>
+            <qoeRule ruleId = "203"> <!-- 整体重传异常检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <downlinkRateThreshold>524288</downlinkRateThreshold> <!-- 下行tcp包累积长度 -->
+                <uplinkRateThreshold>65536</uplinkRateThreshold> <!-- 上行tcp包累积长度 -->
+                <exceptTimeThreshold>5</exceptTimeThreshold> <!-- 滑动窗口时长 -->
+                <uplinkPktNumHighThreshold>20</uplinkPktNumHighThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioHighThreshold>30</uplinkPktRadioHighThreshold> <!-- 上行重传率 -->
+                <uplinkPktNumLowThreshold>10</uplinkPktNumLowThreshold> <!-- 上行tcp包累积个数 -->
+                <uplinkPktRadioLowThreshold>50</uplinkPktRadioLowThreshold> <!-- 上行重传率 -->
+                <downlinkPktNumHighThreshold>20</downlinkPktNumHighThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioHighThreshold>35</downlinkPktRadioHighThreshold> <!-- 下行重传率 -->
+                <downlinkPktNumLowThreshold>10</downlinkPktNumLowThreshold> <!-- 下行tcp包累积个数 -->
+                <downlinkPktRadioLowThreshold>30</downlinkPktRadioLowThreshold> <!-- 下行重传率 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>40,500,1400,2600</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3000,700,1000,1500,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>5</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- 快手内场景类型，0-默认场景，5-特定手法打开的直播场景-->
+                <dlRateThreshold>240,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>6,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.taobao.taobao">
+            <qoeRule ruleId = "161"> <!-- 弱信号检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <appQoeMinStateSec>2</appQoeMinStateSec> <!-- 秒,wlan连续rssi时间 -->
+                <wlan5GThreshold>-83</wlan5GThreshold> <!-- dbm,wlan 5G频段信号强度 -->
+                <wlan24GThreshold>-86</wlan24GThreshold> <!-- dbm,wlan 2.4G频段信号强度 -->
+            </qoeRule>
+            <qoeRule ruleId = "201"> <!-- sync重传检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <exceptionWindowSize>5</exceptionWindowSize> <!-- 滑动窗口大小 -->
+                <exceptSocketNumThreshold>12</exceptSocketNumThreshold> <!-- 滑动窗口内socket数量 -->
+                <exceptSynPktRatioThreshold>60</exceptSynPktRatioThreshold> <!-- sync包总数占tcp socket总数的比例 -->
+                <exceptionRtsRateThreshold>50</exceptionRtsRateThreshold> <!-- sync重传包总数占sync包总数的比例 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>40,340,1800,3000</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3000,400,800,1400,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- 淘宝内场景类型，0-默认场景，5-直播场景-->
+                <dlRateThreshold>300,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>10,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.alibaba.android.rimet">
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>1,3,4,0</activityType> <!-- 钉钉内场景类型，0-默认场景，1-语音通话，3-语音会议，4-视频通话/会议-->
+                <dlRateThreshold>30,30,300,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>10,10,10,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.netease.cloudmusic">
+            <qoeRule ruleId = "301"> <!-- Kit QoE卡顿检测 -->
+                <isSwitchOn>1</isSwitchOn>
+            </qoeRule>
+        </app>
+        <app packageName = "tv.danmaku.bili">
+            <qoeRule ruleId = "209"> <!-- 绝对低速率检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <rateAvgWindowSize>3</rateAvgWindowSize> <!-- 速率平均窗口大小，最大为10 -->
+                <timeThreshold>3</timeThreshold> <!-- 连续多秒低速率判断为卡顿 -->
+                <activityType>5,0,0,0</activityType> <!-- B站内场景类型，0-默认场景，5—直播场景 -->
+                <dlRateThreshold>300,0,0,0</dlRateThreshold> <!-- kbps，各场景下行速率门限 -->
+                <ulRateThreshold>10,0,0,0</ulRateThreshold> <!-- kbps，各场景上行速率门限 -->
+            </qoeRule>
+        </app>
+        <app packageName = "com.tencent.lolm">
+            <qoeRule ruleId = "302"> <!-- GameKit 卡顿检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <sceneTypeNum>2</sceneTypeNum>
+                <exceptionCnt>1</exceptionCnt>
+                <beginSceneId>7,100,0,0</beginSceneId>
+                <endSceneId>7,100,0,0</endSceneId>
+                <rttThreshold>250,200,0,0</rttThreshold>
+            </qoeRule>
+        </app>
+        <app packageName = "com.ss.android.ugc.aweme.lite">
+            <qoeRule ruleId = "160"> <!-- wifi AI算法 -->
+                <isSwitchOn>1</isSwitchOn>
+                <inPktRateThreshold>3500</inPktRateThreshold> <!-- kbps, TCP下行速率 -->
+                <outPktRateThreshold>800</outPktRateThreshold> <!-- kbps, TCP上行速率 -->
+            </qoeRule>
+            <qoeRule ruleId = "161"> <!-- 弱信号检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <appQoeMinStateSec>2</appQoeMinStateSec> <!-- 秒,wlan连续rssi时间 -->
+                <wlan5GThreshold>-83</wlan5GThreshold> <!-- dbm,wlan 5G频段信号强度 -->
+                <wlan24GThreshold>-86</wlan24GThreshold> <!-- dbm,wlan 2.4G频段信号强度 -->
+            </qoeRule>
+            <qoeRule ruleId = "205"> <!-- 大时延检测 -->
+                <isSwitchOn>1</isSwitchOn>
+                <tcpRateThreshold>40,400,1800,3000</tcpRateThreshold> <!-- kbps, TCP总速率门限，上行速率+下行速率 -->
+                <rttThreshold>3000,500,800,2200,5000</rttThreshold> <!-- ms, RTT -->
+            </qoeRule>
+        </app>
+    </appQoeConfig>
+</advancedQoeConfig>

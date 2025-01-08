@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 元素名称区分大小写 -->
+<SaToLteParam>
+  <threshold>
+    <!-- 默认-115dBm以下为弱信号 -->
+    <mCloseSaRsrpThd>-115</mCloseSaRsrpThd>
+    <!-- 默认睡眠模式-110dBm以下为弱信号 -->
+    <mSleepModeCloseSaRsrpThd>-110</mSleepModeCloseSaRsrpThd>
+    <!-- 默认sinr -3 以下为弱信号 -->
+    <mCloseSaSinrThd>-3</mCloseSaSinrThd>
+    <!-- 默认 rsrq -43以下为弱信号, 最小值即相当于不会满足rsrq弱信号条件-->
+    <mCloseSaRsrqThd>-43</mCloseSaRsrqThd>
+    <!-- 默认 rsrq 和SNR满足门限后,同时rsrp -100以下为弱信号 -->
+    <mCloseSaSnrRsrqThenRsrpThd>-100</mCloseSaSnrRsrqThenRsrpThd>
+    <!-- 切4G状态下检测LTE信号小于-115dB返回SA -->
+    <mLteWeakBackToSaRsrpThd>-115</mLteWeakBackToSaRsrpThd>
+    <!-- 吞吐80M,单位pbs -->
+    <mThroughputThr>80000</mThroughputThr>
+  </threshold>
+  <timer>
+    <!-- 默认关SA 15S未切至LTE则认为本次抑制失败 单位毫秒 -->
+    <mSwitchLteTimer>15000</mSwitchLteTimer>
+    <!-- 默认10s弱信号关SA 单位毫秒 -->
+    <mCloseSaTimer>10000</mCloseSaTimer>
+    <!-- 切4G状态下检测LTE弱信号5s后返回SA 单位毫秒 -->
+    <mLteWeakBackToSaTimer>5000</mLteWeakBackToSaTimer>
+  </timer>
+</SaToLteParam>

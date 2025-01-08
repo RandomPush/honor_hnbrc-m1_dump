@@ -1,0 +1,6 @@
+version=1.10.24.108
+type=WindowCommon
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=WC.GENC.1.10.24.108

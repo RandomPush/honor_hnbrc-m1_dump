@@ -1,0 +1,330 @@
+{
+    "APKInfo": [
+        {
+            "PackageName": "com.supercell.clashofclans.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.supercell.clashofclans.kunlun"
+        },
+        {
+            "PackageName": "com.{companyNameLower}.appmarket"
+        },
+        {
+            "PackageName": "com.xunlei.downloadprovider"
+        },
+        {
+            "PackageName": "com.flash.download"
+        },
+        {
+            "PackageName": "com.cn21.ecloud"
+        },
+        {
+            "PackageName": "com.baidu.netdisk"
+        },
+        {
+            "PackageName": "org.zwanoo.android.speedtest"
+        },
+        {
+            "PackageName": "com.wandoujia.phoenix2"
+        },
+        {
+            "PackageName": "com.cs.smartlabor"
+        },
+        {
+            "PackageName": "com.tencent.android.qqdownloader"
+        },
+        {
+            "PackageName": "com.{companyNameLower}.betaclub"
+        },
+        {
+            "PackageName": "com.blizzard.wtcg.hearthstone.cn.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.blizzard.wtcg.hearthstone"
+        }
+    ],
+    "APKInfoExtern": [
+        {
+            "PackageName": "com.{companyNameLower}.himovie"
+        },
+        {
+            "PackageName": "com.hihonor.himovie"
+        },
+        {
+            "PackageName": "com.{companyNameLower}.hwvplayer.youku"
+        },
+        {
+            "PackageName": "tv.danmaku.bili"
+        },
+        {
+            "PackageName": "com.tencent.qqsports"
+        },
+        {
+            "PackageName": "com.babycloud.hanju"
+        },
+        {
+            "PackageName": "com.renren.meiju"
+        },
+        {
+            "PackageName": "com.taptap"
+        },
+        {
+            "PackageName": "cn.cntv"
+        },
+        {
+            "PackageName": "com.sohu.sohuvideo"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.sgame"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.pubgmhd"
+        },
+        {
+            "PackageName": "com.{companyNameLower}.gamebox"
+        },
+        {
+            "PackageName": "com.hihonor.gamebox"
+        },
+        {
+            "PackageName": "com.happyelements.AndroidAnimal"
+        },
+        {
+            "PackageName": "com.qqgame.hlddz"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.speedmobile"
+        },
+        {
+            "PackageName": "com.tencent.gamehelper.smoba"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.cf"
+        },
+        {
+            "PackageName": "com.qqgame.happymj"
+        },
+        {
+            "PackageName": "cn.jj"
+        },
+        {
+            "PackageName": "com.tencent.peng"
+        },
+        {
+            "PackageName": "com.mfp.jelly.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.minitech.miniworld.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.netease.mc.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.qileyx.ddz.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.tencent.qqgame.xq"
+        },
+        {
+            "PackageName": "org.xinkb.blackboard.android"
+        },
+        {
+            "PackageName": "com.wepie.snake.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.ks.kaishustory"
+        },
+        {
+            "PackageName": "yuanqiqishi.game.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.tencent.KiHan"
+        },
+        {
+            "PackageName": "com.outfit7.talkingtomgoldrun.{companyNameUpper}"
+        },
+        {
+            "PackageName": "com.netease.dwrg.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.zengame.zrttddz.{companyNameUpper}"
+        },
+        {
+            "PackageName": "com.m4399.gamecenter"
+        },
+        {
+            "PackageName": "com.popcap.pvz2cthdhwct"
+        },
+        {
+            "PackageName": "com.tencent.tgp"
+        },
+        {
+            "PackageName": "com.babeltime.legendstd.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.jedigames.p20.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.ss.android.article.video"
+        }
+    ],
+    "ActivityInfo": [
+        {
+            "PackageName": "com.tencent.mm.plugin.backup.backupmoveui.BackupUI"
+        },
+        {
+            "PackageName": "com.tencent.mm.plugin.backup.backupmoveui.BackupMoveChooseUI"
+        },
+        {
+            "PackageName": "com.tencent.mm.plugin.backup.backupmoveui.BackupMoveUI"
+        },
+        {
+            "PackageName": "com.tencent.mm.plugin.backup.backupmoveui.BackupMoveQRCodeUI"
+        },
+        {
+            "PackageName": "com.tencent.mm.plugin.backup.backupmoveui.BackupMoveRecoverUI"
+        }
+    ],
+    "WeakSignalAllowList": [
+        {
+            "PackageName": "com.tencent.mm"
+        },
+        {
+            "PackageName": "com.sdu.didi.psnger"
+        },
+        {
+            "PackageName": "com.autonavi.minimap"
+        },
+        {
+            "PackageName": "com.{companyNameLower}.welink"
+        },
+        {
+            "PackageName": "com.eg.android.AlipayGphone"
+        },
+        {
+            "PackageName": "com.didi.es.psngr"
+        }
+    ],
+    "CloneList": [
+        {
+            "PackageName": "com.hihonor.android.clone"
+        },
+        {
+            "PackageName": "com.hihonor.koBackup"
+        }
+    ],
+    "HybridApAllowList": [
+        {
+            "PackageName": "WS5281-10"
+        },
+        {
+            "PackageName": "WS5106-10"
+        },
+        {
+            "PackageName": "WS7200-10"
+        },
+        {
+            "PackageName": "XD10-10"
+        },
+        {
+            "PackageName": "XD20-10"
+        },
+        {
+            "PackageName": "XD28-10"
+        },
+        {
+            "PackageName": "XD30-11"
+        },
+        {
+            "PackageName": "CD13-10"
+        },
+        {
+            "PackageName": "CD35-12"
+        }
+    ],
+    "highPriorityTransmitAllowGameList": [
+        {
+            "PackageName": "com.tencent.tmgp.sgame"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.pubgmhd"
+        }
+    ],
+    "setPmModeAllowGameList": [
+        {
+            "PackageName": "com.tencent.tmgp.sgame"
+        },
+        {
+            "PackageName": "com.tencent.lolm"
+        }
+    ],
+    "limitedSpeedAllowGameList": [
+        {
+            "PackageName": "com.tencent.tmgp.sgame"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.pubgmhd"
+        }
+    ],
+    "TopGameList": [
+        {
+            "PackageName": "com.tencent.tmgp.sgame"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.pubgmhd"
+        },
+        {
+            "PackageName": "com.happyelements.AndroidAnimal"
+        },
+        {
+            "PackageName": "com.miHoYo.Yuanshen"
+        },
+        {
+            "PackageName": "com.tencent.jkchess"
+        },
+        {
+            "PackageName": "com.tencent.lolm"
+        },
+        {
+            "PackageName": "cn.jj"
+        },
+        {
+            "PackageName": "com.tencent.mf.uam"
+        },
+        {
+            "PackageName": "com.qqgame.hlddz"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.cf"
+        },
+        {
+            "PackageName": "com.minitech.miniworld.{companyNameLower}"
+        },
+        {
+            "PackageName": "com.tencent.KiHan"
+        },
+        {
+            "PackageName": "com.tencent.qqgame.xq"
+        },
+        {
+            "PackageName": "com.hypergryph.arknights"
+        },
+        {
+            "PackageName": "com.kiloo.subwaysurf"
+        },
+        {
+            "PackageName": "com.tencent.peng"
+        },
+        {
+            "PackageName": "com.tencent.tmgp.speedmobile"
+        },
+        {
+            "PackageName": "com.miHoYo.ys.bilibili"
+        },
+        {
+            "PackageName": "com.netease.mc.{companyNameLower}"
+        }
+    ],
+    "MpLinkSwitch": 1,
+    "WifiProSwitch": 1
+}

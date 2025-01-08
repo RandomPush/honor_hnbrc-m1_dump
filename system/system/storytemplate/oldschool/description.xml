@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HnTheme>
+    <title>Classical</title>
+    <title-cn>古风</title-cn>
+    <author>荣耀</author>
+    <designer>荣耀</designer>
+    <version>11.0.0</version>
+    <briefinfo>故事描述</briefinfo>
+    <screen>FHD</screen>
+    <templateType>1</templateType>
+    <layout>1</layout>
+    <shots>4</shots>
+    <duration>13</duration>
+</HnTheme>

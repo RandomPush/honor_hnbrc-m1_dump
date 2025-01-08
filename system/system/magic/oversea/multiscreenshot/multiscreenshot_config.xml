@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="abdecedb4afd5f071161583306a8e43b">
+  <dict>
+  
+     <array key="CompareWhiteList">
+	  <dict>
+		<string key="packageNameOrClassName">com.google.android.apps.viewer.PdfViewerActivity</string>
+	  </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.bilibili.comic.home.view.FlutterMainActivity</string>
+	  </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.zhihu.android.app.training.detail.EduDetailActivity</string>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.alipay.mobile.nebulacore.ui.H5Activity</string>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.baidu.browser</string>
+      </dict>
+     </array>
+	 
+	 <array key="EmulateSwipeList">
+	  <dict>
+		<string key="packageNameOrClassName">com.google.android.apps.viewer.PdfViewerActivity</string>
+	  </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.bilibili.comic.home.view.FlutterMainActivity</string>
+	  </dict>
+     </array>
+	 
+	 <array key="DefaultRightScrollRectList">
+	   <dict>
+		<string key="packageNameOrClassName">com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity</string>
+	  </dict>
+	 </array>
+	 
+	<array key="MoveUpDefaultRectBottomSide">
+	  <dict>
+		<string key="packageNameOrClassName">com.hihonor.phoneservice.question.ui.OnlineActivity</string>
+	  </dict>
+	</array>
+	
+	<array key="DefaultScrollRectList">
+	  <dict>
+        <string key="packageNameOrClassName">com.meituan.mmp.lib.mp.MPActivity0</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.betaclub.task.ui.activity.ChildTaskListActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.android.settings.Settings$WifiSettingsActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.baidu.searchbox.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.phoneservice.question.ui.OnlineActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ruanmei.ithome.ui.WebActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.gamehelper.ui.main.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.meituan.android.pt.homepage.activity.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.newmedia.activity.browser.BrowserActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.MobileTicket</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.bilibili.comic.home.view.FlutterMainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.android.jsbcmasterapp.activity.common.CommonDetailActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.homed.pm_app_base.MainTabActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.jia.zixun.ui.home.HomeActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">cool.dingstock.mobile.activity.index.HomeIndexActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ct.client.activity.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.wondersgroup.eshimin.home.activity.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.kmxs.reader.home.ui.HomeActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.wm.dmall.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.nantian.iBank.ui.activity.container.ProgramSingleWindowActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.quickengine.activity.LauncherActivity$Launcher1</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.kuaikan.comic.infinitecomic.view.ComicInfiniteActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$XRiverLite1</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.xingin.xhs.index.v2.IndexActivityV2</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.google.android.apps.viewer.PdfViewerActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ucpro.BrowserActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.achievo.vipshop.homepage.activity.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mm.plugin.appbrand.ui.AppBrandUI00</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.android.mms.ui.ComposeMessageActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.sankuai.waimai.foundation.core.base.activity.transfer.TransferActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.article.news.activity.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.vmall.client.base.fragment.VmallWapActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.zhihu.android.app.training.detail.EduDetailActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">cmb.pb.app.h5container.webviewcontainer.PBWebContainerActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.manmanbuy.bijia.MainActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.grab.pax.food.home.Food</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.auto.activity.BrowserActivityWithBottomBar</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.kwai.videoeditor</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.yozo.pdf.multiprocess.PDFPhoneActivity0</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.taobao.trip.flutter.TripFlutterActivity</string>
+        <bool key="isSpecialPage">false</bool>
+      </dict>
+	</array>
+	
+	<array key="MoveTopDownCmpRectMap">
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.article.news.activity.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.betaclub.task.ui.activity.ChildTaskListActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.appmarket.module.mine.appupdate.UpdateManagerActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.android.settings.Settings$WifiSettingsActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.baidu.searchbox.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.vmall.client.base.fragment.SinglePageActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ruanmei.ithome.ui.WebActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.gamehelper.ui.main.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">me.ele.foodchannel.page.WMChannelNativeActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">me.ele.muise.page.WeexPageActivity</string>
+        <int key="distance">500</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.dianping.nova.picasso.DPPicassoBoxActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.meituan.android.pt.homepage.activity.MainActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.newmedia.activity.browser.BrowserActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.phoneservice.common.views.CommonWebShareMenuActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.alipay.mobile.nebulacore.ui.H5Activity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.bytedance.ugc.innerfeed.impl.PostInnerFeedActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.sankuai.titans.adapter.mtapp.KNBWebViewActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mobileqq.activity.SplashActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mtt.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.homed.pm_app_base.MainTabActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.showstartfans.activity.activitys.products.DetailsOfThePerformanceActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.jia.zixun.ui.home.HomeActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.wm.dmall.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.quickengine.activity.LauncherActivity$Launcher1</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$XRiverLite1</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ucpro.BrowserActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.android.settings.Settings$HighPowerApplicationsActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.parentcontrol.ui.activity.AppManageActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.android.thememanager.wallpaper.WallPaperManagerActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.android.thememanager.theme.AodManagerActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.android.thememanager.font.FontManagerActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.taobao.browser.BrowserActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity</string>
+        <int key="distance">600</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.express.presentation.ui.activity.ExpressListActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.auto.activity.BrowserActivityWithBottomBar</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.taobao.android.tbabilitykit.pop.StdPopActivityGroup</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.trafficcard.activity.TrafficCardTradeRecordActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.hnouc.mvp.activity.FirmwareNewVersionActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.hnouc.mvp.activity.CurrentVersionActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	</array>
+	
+	<array key="MoveBottomUpCmpRectMap">
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.android.launcher.unihome.UniHomeLauncher</string>
+        <int key="distance">500</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.android.launcher.newsimpleui.NewSimpleLauncher</string>
+        <int key="distance">500</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.meituan.mmp.lib.mp.MPActivity0</string>
+        <int key="distance">500</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.alipay.mobile.nebulax.xriver.activity.XRiverActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.detail.feature.detail2.view.NewDetailActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.betaclub.task.ui.activity.ChildTaskListActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.appmarket.module.mine.appupdate.UpdateManagerActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.baidu.searchbox.MainActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.vmall.client.base.fragment.SinglePageActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ruanmei.ithome.ui.WebActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.tencent.gamehelper.ui.main.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">me.ele.application.ui.Launcher.LauncherActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ss.android.newmedia.activity.browser.BrowserActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.alipay.mobile.nebulacore.ui.H5Activity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.bytedance.ugc.innerfeed.impl.PostInnerFeedActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.baidu.newapp.home.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ss.android.homed.pm_app_base.MainTabActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.jia.zixun.ui.home.HomeActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.moji.mjweather.MainActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">cool.dingstock.mobile.activity.index.HomeIndexActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ct.client.activity.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.baidu.netdisk.ui.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.wondersgroup.eshimin.home.activity.MainActivity</string>
+        <int key="distance">400</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.wm.dmall.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.nantian.iBank.ui.activity.container.ProgramSingleWindowActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">ctrip.android.reactnative.CRNBaseActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.hoge.android.factory.NewsDetailStyle3Activity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.hihonor.quickengine.activity.LauncherActivity$Launcher1</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.kuaikan.comic.infinitecomic.view.ComicInfiniteActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$XRiverLite1</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.xingin.xhs.index.v2.IndexActivityV2</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ucpro.BrowserActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.meituan.android.mrn.container.MRNBaseActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ss.android.article.news.activity.MainActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ss.android.ugc.aweme.bullet.SearchSynthesisBulletActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.sf.activity.MainActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.tencent.mm.plugin.appbrand.ui.AppBrandUI00</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.hihonor.magicvoice.startup.MagicFloatActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.sankuai.waimai.foundation.core.base.activity.transfer.TransferActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.hihonor.contacts</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.manmanbuy.bijia.MainActivity</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ss.android.auto.activity.BrowserActivityWithBottomBar</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.xtc.watchappmanager.activity.timelimit.AppManagerNetworkManagerActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.taobao.android.tbabilitykit.pop.StdPopActivityGroup</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.hihonor.baidu.browser</string>
+        <int key="distance">300</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.android.deskclock.AlarmsMainActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.vmall.client.framework.FlutterAppActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.hihonor.trafficcard.activity.TrafficCardTradeRecordActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.ruguoapp.jike.bu.comment.ui.MessageActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.jd.lib.settlement.fillorder.activity.NewFillOrderActivity</string>
+        <int key="distance">200</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.douban.frodo.subject.structure.activity.MovieActivity</string>
+        <int key="distance">100</int>
+      </dict>
+	  <dict>
+		<string key="packageNameOrClassName">com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI</string>
+        <int key="distance">200</int>
+      </dict>
+	</array>
+	
+	<array key="NotUseAnalysisList">
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.hereto.ui.main.MainActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.ss.android.newmedia.activity.browser.BrowserActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.google.android.apps.viewer.PdfViewerActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.bilibili.comic.home.view.FlutterMainActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.baidu.browser</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.zhihu.android.app.training.detail.EduDetailActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.taobao.tripcom.taobao.trip.flutter.TripFlutterActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity</string>
+        <bool key="isFoldable">false</bool>
+      </dict>
+	</array>
+	
+	<array key="NotUseSwipeList">
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.hnvplayer.service.player.FullscreenActivity</string>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.hihonor.hnvplayer.ui.FullscreenActivity</string>
+      </dict>
+	</array>
+	
+	<array key="SwipeStepSlowList">
+	</array>
+	
+	<array key="ExpendRightPaddingList">
+	</array>
+	
+	<array key="BrowserBottomMidMarginList">
+
+	</array>
+	
+	<array key="BrowserBottomLarMarginList">
+	</array>
+	
+	<array key="SpecialFirstSwipList">
+	  <dict>
+        <string key="packageNameOrClassName">com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity</string>
+      </dict>
+	  <dict>
+        <string key="packageNameOrClassName">com.didi.es.orderflow.OrderFlowActivity</string>
+      </dict>
+	</array>
+
+  </dict>
+</config>

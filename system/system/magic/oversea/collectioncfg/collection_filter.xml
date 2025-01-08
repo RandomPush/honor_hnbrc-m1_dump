@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<black_list>
+    <video_list>
+        <video link="v.douyin.com/"/>
+        <video link="www.douyin.com/video"/>
+        <video link="www.iesdouyin.com/share/video"/>
+        <video link="v.kuaishou.com/"/>
+        <video link="v.m.chenzhongtech.com/fw/photo/"/>
+        <video link="m.toutiao.com/video"/>
+        <video link="video.h5.weibo.cn/"/>
+        <video link="video.weibo.com/"/>
+        <video link="m.v.qq.com/"/>
+        <video link="m.iqiyi.com/"/>
+        <video link="iqiyi.cn/"/>
+        <video link="v.youku.com/v_show/"/>
+        <video link="m.youku.com/mid_video/"/>
+        <video link="m.bilibili.com/video/"/>
+        <video link="www.bilibili.com/video/"/>
+        <video link="m.ixigua.com/video/"/>
+        <video link="m.ximalaya.com/selfshare/sound/"/>
+        <video link="share.huoshan.com/"/>
+        <video link="webcast.huoshan.com/"/>
+        <video link="kg.qq.com/"/>
+        <video link="m.huya.com/"/>
+        <video link="www.huya.com/"/>
+        <video link="m.v.huya.com/play/fans/"/>
+        <video link="kphm5nf3.m.chenzhongtech.com/"/>
+        <video link="kph8gvfz.m.chenzhongtech.com/"/>
+        <video link="m.tv.sohu.com/"/>
+        <video link="vmobile.douyu.com/show/"/>
+        <video link="m.miguvideo.com/"/>
+        <video link="mbd.baidu.com/newspage/data/videoshare"/>
+        <video link="adshare.toutiao.com/"/>
+        <video link="m.toutiao.com/video/"/>
+        <video link="kandianshare.html5.qq.com/v3/video/"/>
+        <video link="m.toutiao.com/video/"/>
+        <video link="video.sina.cn/"/>
+        <video link="share.v.uc.cn/video/"/>
+        <video link="m.ke.qq.com/"/>
+        <video link="haokan.hao123.com/"/>
+        <video link="www.youtube.com/"/>
+        <video link="vimeo.com/"/>
+        <video link="www.netflix.com/"/>
+        <video link="www.tiktok.com/"/>
+        <video link="www.ustream.tv/"/>
+        <video link="www.hulu.com/"/>
+        <video link="www.dailymotion.com/"/>
+        <video link="video.ibm.com/"/>
+        <video link="www.metacafe.com/"/>
+        <video link="www.veoh.com/"/>
+        <video link="myspace.com/"/>
+        <video link="www.dropshots.com/"/>
+        <video link="www.mefeedia.com/"/>
+        <video link="www.godtube.com/"/>
+        <video link="www.4shared.com/"/>
+        <video link="www.aol.com/video/"/>
+        <video link="www.crunchyroll.com/"/>
+        <video link="www.prosieben.de/video/"/>
+        <video link="www.sharevideosonline.net/"/>
+        <video link="videosift.com/"/>
+        <video link="www.veoh.com/"/>
+        <video link="www.ebaumsworld.com/"/>
+        <video link="www.flickr.com/"/>
+        <video link="www.disclose.tv/"/>
+        <video link="www.stupidvideos.com/"/>
+        <video link="vidmax.com/"/>
+        <video link="www.clipmoon.com/"/>
+        <video link="my.mail.ru/video/"/>
+        <video link="www.vidipedia.org/"/>
+        <video link="tinypic.com/"/>
+        <video link="www.vidivodo.com/"/>
+        <video link="www.tv.com/"/>
+        <video link="www.ted.com/"/>
+        <video link="www.primevideo.com/"/>
+        <video link="www.facebook.com/watch/"/>
+        <video link="curiositystream.com/"/>
+        <video link="d.tube/"/>
+        <video link="www.latimes.com/video"/>
+        <video link="abcnews.go.com/Video"/>
+        <video link="english.alarabiya.net/webtv"/>
+        <video link="video.gazzetta.it"/>
+        <video link="www.gazzetta.it/podcast"/>
+    </video_list>
+    <netdisk_list>
+        <netdisk link="pan.baidu.com/"/>
+        <netdisk link="www.aliyundrive.com/"/>
+        <netdisk link="pan.quark.cn/"/>
+        <netdisk link="share.weiyun.com/"/>
+        <netdisk link="yunpan.360.cn/"/>
+        <netdisk link="caiyun.139.com/"/>
+        <netdisk link="h5.cloud.189.cn/"/>
+    </netdisk_list>
+    <unparseable_list>
+        <unparseable link="m.cyol.com/gb/"/>
+        <unparseable link="m.zjurl.cn/question/"/>
+        <unparseable link="novel.html5.qq.com/qbread/"/>
+        <unparseable link="m.ctrip.com/webapp/you/"/>
+        <unparseable link="m.ctrip.com/webapp/hotel/"/>
+        <unparseable link="recorder.nineton.cn/"/>
+        <unparseable link="www.linkedin.cn/"/>
+        <unparseable link="qd.bendibao.com/"/>
+        <unparseable link="bbs.mihoyo.com/"/>
+        <unparseable link="m.bbs.mihoyo.com/"/>
+        <unparseable link="m.okjike.com/"/>
+    </unparseable_list>
+    <shopping_list>
+        <shopping link="lives.jd.com"/>
+        <shopping link="item.m.jd.com"/>
+        <shopping link="m.tb.cn"/>
+        <shopping link="m.taobao.com"/>
+        <shopping link="mobile.yangkeduo.com"/>
+        <shopping link="mst.vip.com"/>
+        <shopping link="dpurl.cn"/>
+        <shopping link="c.m.suning.com"/>
+        <shopping link="qr.1688.com"/>
+        <shopping link="product.m.dangdang.com"/>
+        <shopping link="m.xiaomiyoupin.com"/>
+        <shopping link="dw4.co"/>
+        <shopping link="u.163.com"/>
+        <shopping link="m.you.163.com"/>
+    </shopping_list>
+    <map_list>
+        <map link="surl.amap.com"/>
+        <map link="j.map.baidu.com"/>
+    </map_list>
+    <novel_list>
+        <novel link="m.zhangyue.com"/>
+        <novel link="t.shuqi.com"/>
+        <novel link="yuedu.reader.qq.com"/>
+        <novel link="m.qm989.com"/>
+        <novel link="ah2.zhangyue.com"/>
+        <novel link="h5.if.qidian.com"/>
+        <novel link="ysfmall.huajifen.com"/>
+        <novel link="content.95516.com"/>
+    </novel_list>
+    <music_list>
+        <music link="xima.tv"/>
+    </music_list>
+    <charge_list>
+        <music link="www.theglobeandmail.com"/>
+    </charge_list>
+</black_list>

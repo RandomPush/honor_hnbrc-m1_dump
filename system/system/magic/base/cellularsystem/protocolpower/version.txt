@@ -1,0 +1,6 @@
+version=1.10.23.102
+type=ProtocolPower
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=PP.GENC.1.10.23.102

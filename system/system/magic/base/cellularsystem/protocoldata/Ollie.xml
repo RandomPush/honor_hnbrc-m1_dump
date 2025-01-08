@@ -1,0 +1,583 @@
+<dataSystemConfig>
+        <!--domesticServerName1, domesticServerName2, domesticServerName3:
+            ping these servers to check if the network is OK, only used in china-->
+    <networkQoe
+        parameterCollectInterval="1000"
+        slowPrabaThresholdNormalState="530"
+        slowPrabaThresholdSlowState="500"
+        slowPrabaThresholdInitState="510"
+        appQoeCycle="3"
+        noRxTimeThreshold="3"
+        noTxPktNumThreshold="3"
+        noRxCheckMaxTimeThreshold="9"
+        slowCorrectBuffertimeThreshold="1000"
+        slowCorrectUpRateThreshold="256"
+        slowCorrectUpLossRateThreshold="20"
+        normalCorrectBufftimeThreshold="1000"
+        normalCorrectUpRateThreshold="1024"
+        uplinkReasonPdcpBufftimeThreshold="800"
+        uplinkReasonDiscardThreshold="10"
+        downlinkReasonNrRsrpThreshold="-120"
+        downlinkReasonLteRsrpThreshold="-115"
+        downlinkReasonLteRsrqThreshold="-15"
+        downlinkReasonAmbrThreshold="1024"
+        downlinkCongetionRttThreshold="700"
+        downlinkCongetionRsrqThreshold="-7"
+        downlinkCongetionRateThreshold="2048"
+        ipStackReasonDropThreshold="90"
+        uplinkRtsPktRatioThreshold="10"
+        noModemRttThreshold="700"
+        tcpDnsNoRxTimeThreshold="8"
+        noRxPingStartTime="5"
+        screenOffNetworkQoeSwitch="1"
+        domesticServerName1="connectivitycheck.platform.hihonorcloud.com"
+        domesticServerName2="www.baidu.com"
+        domesticServerName3="connectivitycheck-backup.platform.hihonorcloud.com"
+        overseasServerName1="www.google.com"
+        overseasServerName2="www.amazon.com"
+        wechatDectectionSwitch="1"
+        streamDetectionSwitch="1">
+    </networkQoe>
+    <dataCureConfig
+        dataCureEnableControlSwitch = "1"
+        nativeDoRecoverySwitch = "0"
+        foregroundDataAccBufferTimeThreshold = "400"
+        foregroundDataAccThreshold = "3,3"
+        lowLatencyDiscardPkgBufferTimeThreshold = "800"
+        lowLatencyDiscardPkgThreshold = "3,3"
+        dataRecoveryActsSwitch = "1,1,1"
+        smartDualCardSwitch = "1"
+        foregroundDataAccSwitch = "1"
+        backgroundDataLimitSwitch = "1"
+        lowLatencyDiscardPkgSwitch = "1"
+        downlinkLowLatencyModeSwitch  = "1"
+        qoeCacheWindowSize = "10"
+        recoveryActsExpireTime = "1000,10000,120000"
+        recoveryActsPublishTime = "180000,180000,0"
+        smartDualCardPublishTime = "300000"
+        recoveryActEvaluateTime = "10000"
+        evaluateBadStallTimeThreshold = "8"
+        ltePoorSignalThreshold = "-118"
+        nrPoorSignalThreshold = "-115"
+        executeActLowestSuccessRate = "30">
+        <item sceneName = "linkException">
+            <qoeReason>
+                <majorReason>1</majorReason>
+                <subReason>1,2,4,8,16,32,64,128,256,512</subReason>
+            </qoeReason>
+            <qoeReason>
+                <majorReason>2</majorReason>
+                <subReason>1,2,4,8,16,32,128,256,512</subReason>
+            </qoeReason>
+            <threshold>3,5</threshold>
+        </item>
+        <item sceneName = "accessException">
+        <!--access exception reason is change for no rx-->
+            <qoeReason>
+                <majorReason>1</majorReason>
+                <subReason>1,2,4,8,16,32,64,128,256,512</subReason>
+            </qoeReason>
+            <qoeReason>
+                <majorReason>2</majorReason>
+                <subReason>1,2,4,8,16,32,128,256,512</subReason>
+            </qoeReason>
+            <threshold>1,3</threshold>
+        </item>
+        <item sceneName = "noRxSlow">
+            <qoeReason>
+                <majorReason>2</majorReason>
+                <subReason>64</subReason>
+            </qoeReason>
+            <threshold>1,1</threshold>
+            <actEvaluateThreshold>3,3</actEvaluateThreshold>
+            <recoveryActsSwitch>1,1,1</recoveryActsSwitch>
+        </item>
+        <item sceneName = "bufferTimeSlow">
+            <qoeReason>
+                <majorReason>1</majorReason>
+                <subReason>8</subReason>
+            </qoeReason>
+            <threshold>4,5</threshold>
+            <recoveryActsSwitch>1,1,1</recoveryActsSwitch>
+        </item>
+        <item sceneName = "rttSlow">
+            <qoeReason>
+                <majorReason>16</majorReason>
+                <subReason>16</subReason>
+            </qoeReason>
+            <threshold>4,5</threshold>
+            <recoveryActsSwitch>0,1,1</recoveryActsSwitch>
+        </item>
+        <item sceneName = "appKitSlow">
+            <qoeReason>
+                <majorReason>64</majorReason>
+                <subReason>1,2,4</subReason>
+            </qoeReason>
+            <commonThreshold>3,3</commonThreshold>
+                <commonRecoveryActsSwitch>0,0,1</commonRecoveryActsSwitch>
+            <apkconfig packageName = "com.tencent.tmgp.sgame">
+                <threshold>3,3</threshold>
+                <recoveryActsSwitch>0,0,1</recoveryActsSwitch>
+            </apkconfig>
+            <apkconfig packageName = "com.tencent.tmgp.pubgmhd">
+                <threshold>6,6</threshold>
+                <recoveryActsSwitch>0,0,1</recoveryActsSwitch>
+            </apkconfig>
+        </item>
+        <item sceneName = "otherQoeSlow">
+            <qoeReason>
+                <majorReason>1</majorReason>
+            </qoeReason>
+            <qoeReason>
+                <majorReason>2</majorReason>
+                <subReason>1,16,32,64,128,256,512</subReason>
+            </qoeReason>
+            <qoeReason>
+                <majorReason>16</majorReason>
+                <subReason>1,2,4,8,16,32,64,128</subReason>
+            </qoeReason>
+            <qoeReason>
+                <majorReason>64</majorReason>
+                <subReason>1,4</subReason>
+            </qoeReason>
+            <threshold>6,8</threshold>
+            <recoveryActsSwitch>0,1,1</recoveryActsSwitch>
+        </item>
+    </dataCureConfig>
+    <lowLatencyMode
+        pdcpDiscardTimerForTcp="2000"
+        pdcpDiscardTimerForCongestion="500"
+        congestionSceneDuration="1000">
+    </lowLatencyMode>
+    <speedLimitNotifier
+        sendAmbrDelayChangeValue="600000"
+        downlinkLimit="3174"
+        maxNotifyNumber="3"
+        qoeSlowCountThreshold="3">
+    </speedLimitNotifier>
+    <pingOnTopApp
+        isPingOpen="open">
+        <gameconfig
+            gamePackageName="com.tencent.tmgp.pubgmhd"
+            sceneKey="1"
+            inProgressingSceneId="7"/>
+        <gameconfig
+            gamePackageName="com.tencent.tmgp.sgame"
+            sceneKey="4"
+            inProgressingSceneId="7"/>
+        <gameconfig
+            gamePackageName="com.tencent.lolm"
+            sceneKey="4"
+            inProgressingSceneId="7"/>
+        <apkconfig topApkName="com.ss.android.ugc.aweme"/>
+        <apkconfig topApkName="com.ss.android.ugc.aweme.lite"/>
+        <apkconfig topApkName="com.tencent.mm"/>
+        <apkconfig topApkName="com.tencent.mobileqq"/>
+        <apkconfig topApkName="com.ss.android.article.news"/>
+        <apkconfig topApkName="com.smile.gifmaker"/>
+        <apkconfig topApkName="com.taobao.taobao"/>
+        <apkconfig topApkName="com.jingdong.app.mall"/>
+        <apkconfig topApkName="com.ss.android.lark.honorelink"/>
+        <apkconfig topApkName="com.autonavi.minimap"/>
+        <apkconfig topApkName="tv.danmaku.bili"/>
+        <apkconfig topApkName="com.eg.android.AlipayGphone"/>
+        <apkconfig topApkName="com.netease.cloudmusic"/>
+        <apkconfig topApkName="com.tencent.qqmusic"/>
+        <apkconfig topApkName="com.hihonor.appmarket"/>
+        <apkconfig topApkName="com.sina.weibo"/>
+        <apkconfig topApkName="com.sdu.didi.psnger"/>
+        <apkconfig topApkName="com.sankuai.meituan"/>
+        <apkconfig topApkName="ctrip.android.view"/>
+        <apkconfig topApkName="com.zhihu.android"/>
+        <apkconfig topApkName="com.xingin.xhs"/>
+        <apkconfig topApkName="com.hihonor.baidu.browser"/>
+    </pingOnTopApp>
+    <liveStreamApk>
+        <apkconfig packageName="air.tv.douyu.android"/>
+        <apkconfig packageName="com.duowan.kiwi"/>
+        <apkconfig packageName="tv.danmaku.bili"/>
+        <apkconfig packageName="com.ss.android.ugc.aweme"/>
+        <apkconfig packageName="com.smile.gifmaker"/>
+        <apkconfig packageName="com.tencent.mm"/>
+        <apkconfig packageName="com.kuaishou.nebula"/>
+        <apkconfig packageName="com.ss.android.ugc.aweme.lite"/>
+        <apkconfig packageName="com.baidu.searchbox"/>
+        <apkconfig packageName="com.ss.android.article.news"/>
+        <apkconfig packageName="com.taobao.taobao"/>
+        <apkconfig packageName="com.tencent.qqlive"/>
+        <apkconfig packageName="com.tencent.mobileqq"/>
+        <apkconfig packageName="com.xunmeng.pinduoduo"/>
+        <apkconfig packageName="com.eg.android.AlipayGphone"/>
+        <apkconfig packageName="com.UCMobile"/>
+        <apkconfig packageName="com.xingin.xhs"/>
+        <apkconfig packageName="com.ss.android.article.lite"/>
+        <apkconfig packageName="com.qiyi.video"/>
+        <apkconfig packageName="com.youku.phone"/>
+        <apkconfig packageName="com.kugou.android"/>
+        <apkconfig packageName="com.sankuai.meituan"/>
+        <apkconfig packageName="com.ss.android.article.video"/>
+        <apkconfig packageName="com.sina.weibo"/>
+        <apkconfig packageName="com.tencent.news"/>
+        <apkconfig packageName="com.alibaba.android.rimet"/>
+        <apkconfig packageName="com.tencent.mtt"/>
+    </liveStreamApk>
+    <smartDualCard
+        hardSwitchPunishTimer1="600000"
+        hardSwitchPunishTimer2="1200000"
+        hardSwitchPunishTimer3="86400000"
+        masterGameRttCalcTimer="10000"
+        slaveGameRttCalcTimer="10000"
+        slaveTrafficProtectTimer="300000"
+        filterFactorSmall="1"
+        filterFactorBig="2"
+        filterAlgChangeThreshold="10"
+        residueTrafficThreshold="50"
+        trafficRichThreshold="1024"
+        signalLevelImproveThreshold="2"
+        networkStatusBannedMillis="3600000"
+        nrSignalLevelPoorThreshold="2">
+        <apkconfig packageName="com.tencent.mm"/>
+        <apkconfig packageName="com.ss.android.ugc.aweme"/>
+        <apkconfig packageName="com.taobao.taobao"/>
+        <apkconfig packageName="com.baidu.searchbox"/>
+        <apkconfig packageName="com.tencent.mobileqq"/>
+        <apkconfig packageName="com.ss.android.article.news"/>
+        <apkconfig packageName="com.android.browser"/>
+        <apkconfig packageName="com.tencent.tmgp.sgame"/>
+        <apkconfig packageName="com.tencent.tmgp.pubgmhd"/>
+        <apkconfig packageName="com.autonavi.minimap"/>
+        <apkconfig packageName="com.sina.weibo"/>
+        <apkconfig packageName="com.baidu.BaiduMap"/>
+        <apkconfig packageName="com.UCMobile"/>
+        <apkconfig packageName="com.tencent.mtt"/>
+        <apkconfig packageName="com.smile.gifmaker"/>
+        <apkconfig packageName="com.jingdong.app.mall"/>
+        <apkconfig packageName="com.tencent.news"/>
+        <apkconfig packageName="com.happyelements.AndroidAnimal"/>
+        <apkconfig packageName="com.sankuai.meituan"/>
+        <apkconfig packageName="com.achievo.vipshop"/>
+        <apkconfig packageName="com.zhihu.android"/>
+        <apkconfig packageName="com.xingin.xhs"/>
+        <apkconfig packageName="com.tmall.wireless"/>
+        <apkconfig packageName="com.qqgame.hlddz"/>
+        <apkconfig packageName="ctrip.android.view"/>
+        <apkconfig packageName="com.xunmeng.pinduoduo"/>
+        <apkconfig packageName="com.qq.reader"/>
+        <apkconfig packageName="com.immomo.momo"/>
+        <apkconfig packageName="com.sdu.didi.psnger"/>
+        <apkconfig packageName="com.tencent.weread"/>
+        <apkconfig packageName="me.ele"/>
+        <apkconfig packageName="com.dianping.v1"/>
+        <apkconfig packageName="com.mt.mtxx.mtxx"/>
+        <apkconfig packageName="com.tencent.peng"/>
+        <apkconfig packageName="com.shuqi.controller"/>
+        <apkconfig packageName="com.cubic.autohome"/>
+        <apkconfig packageName="com.qidian.QDReader"/>
+        <apkconfig packageName="com.baidu.tieba"/>
+        <apkconfig packageName="com.sina.news"/>
+        <apkconfig packageName="com.ushaqi.zhuishushenqi"/>
+        <apkconfig packageName="com.qqgame.happymj"/>
+        <apkconfig packageName="com.jjwxc.reader"/>
+        <apkconfig packageName="com.alibaba.android.rimet"/>
+        <apkconfig packageName="com.jifen.qukan"/>
+        <apkconfig packageName="com.wuba"/>
+        <apkconfig packageName="com.sankuai.meituan.takeoutnew"/>
+        <apkconfig packageName="com.netease.newsreader.activity"/>
+        <apkconfig packageName="com.tencent.qt.qtl"/>
+        <apkconfig packageName="com.chaoxing.mobile"/>
+        <apkconfig packageName="com.nd.android.pandareader"/>
+        <apkconfig packageName="com.able.wisdomtree"/>
+        <apkconfig packageName="com.blizzard.wtcg.hearthstone"/>
+        <apkconfig packageName="com.chaozh.iReaderFree"/>
+        <apkconfig packageName="cn.jj"/>
+        <apkconfig packageName="com.youdao.dict"/>
+        <apkconfig packageName="com.tencent.map"/>
+        <apkconfig packageName="com.Qunar"/>
+        <apkconfig packageName="com.p1.mobile.putong"/>
+        <apkconfig packageName="com.suning.mobile.ebuy"/>
+        <apkconfig packageName="com.handsgo.jiakao.android"/>
+        <apkconfig packageName="com.MobileTicket"/>
+        <apkconfig packageName="com.ifeng.news2"/>
+        <apkconfig packageName="cn.xiaochuankeji.tieba"/>
+        <apkconfig packageName="com.ophone.reader.ui"/>
+        <apkconfig packageName="com.android.chrome"/>
+        <apkconfig packageName="com.kaola"/>
+        <apkconfig packageName="com.vmall.client"/>
+        <apkconfig packageName="com.hihonor.vmall"/>
+        <apkconfig packageName="com.tencent.reading"/>
+        <apkconfig packageName="com.tencent.androidqqmail"/>
+        <apkconfig packageName="com.baidu.yuedu"/>
+        <apkconfig packageName="com.meitu.meiyancamera"/>
+        <apkconfig packageName="com.taobao.trip"/>
+        <apkconfig packageName="com.tencent.weishi"/>
+        <apkconfig packageName="com.hihonor.health"/>
+        <apkconfig packageName="com.alibaba.wireless"/>
+        <apkconfig packageName="com.tencent.tmgp.cf"/>
+        <apkconfig packageName="com.gotokeep.keep"/>
+        <apkconfig packageName="com.sogou.activity.src"/>
+        <apkconfig packageName="com.baidu.homework"/>
+        <apkconfig packageName="com.cainiao.wireless"/>
+        <apkconfig packageName="com.jiongji.andriod.card"/>
+        <apkconfig packageName="com.sdu.didi.gsui"/>
+        <apkconfig packageName="com.qq.ac.android"/>
+        <apkconfig packageName="com.tmri.app.main"/>
+        <apkconfig packageName="com.dangdang.buy2"/>
+        <apkconfig packageName="com.lofter.android"/>
+        <apkconfig packageName="com.liulishuo.engzo"/>
+        <apkconfig packageName="com.lingan.seeyou"/>
+        <apkconfig packageName="com.mfw.roadbook"/>
+        <apkconfig packageName="com.meitu.meipaimv"/>
+        <apkconfig packageName="com.qzone"/>
+        <apkconfig packageName="com.anjuke.android.app"/>
+        <apkconfig packageName="com.hupu.games"/>
+        <apkconfig packageName="com.douban.frodo"/>
+        <apkconfig packageName="com.tencent.wework"/>
+        <apkconfig packageName="com.popcap.pvz2cthdhwct"/>
+        <apkconfig packageName="com.A17zuoye.mobile.homework"/>
+        <apkconfig packageName="com.taobao.qianniu"/>
+        <apkconfig packageName="com.didapinche.booking"/>
+        <apkconfig packageName="com.fenbi.android.solar"/>
+        <apkconfig packageName="com.android.email"/>
+        <apkconfig packageName="com.qihoo.browser"/>
+        <apkconfig packageName="com.facebook.katana"/>
+        <apkconfig packageName="com.koudai.weidian.buyer"/>
+        <apkconfig packageName="com.tencent.gamehelper.smoba"/>
+        <apkconfig packageName="com.intsig.camscanner"/>
+        <apkconfig packageName="com.amazon.kindlefc"/>
+        <apkconfig packageName="com.dongqiudi.news"/>
+        <apkconfig packageName="tv.xiaoka.live"/>
+        <apkconfig packageName="com.baidu.wenku"/>
+        <apkconfig packageName="sogou.mobile.explorer"/>
+        <apkconfig packageName="com.xtuone.android.syllabus"/>
+        <apkconfig packageName="com.wuba.zhuanzhuan"/>
+        <apkconfig packageName="com.sohu.newsclient"/>
+        <apkconfig packageName="com.homelink.android"/>
+        <apkconfig packageName="com.youdao.translator"/>
+        <apkconfig packageName="com.imaginer.yunji"/>
+        <apkconfig packageName="com.taobao.etao"/>
+        <apkconfig packageName="com.hihonor.phoneservice"/>
+        <apkconfig packageName="com.eg.android.AlipayGphone"/>
+        <apkconfig packageName="cn.amazon.mShop.android"/>
+        <apkconfig packageName="com.baidu.baidutranslate"/>
+        <apkconfig packageName="com.smzdm.client.android"/>
+        <apkconfig packageName="com.yek.android.kfc.activitys"/>
+        <apkconfig packageName="com.shanbay.words"/>
+        <apkconfig packageName="com.hpbr.bosszhipin"/>
+        <apkconfig packageName="com.mogujie"/>
+        <apkconfig packageName="com.umetrip.android.msky.app"/>
+        <apkconfig packageName="com.yipiao"/>
+        <apkconfig packageName="com.gtgj.view"/>
+        <apkconfig packageName="com.taobao.movie.android"/>
+        <apkconfig packageName="com.wm.dmall"/>
+        <apkconfig packageName="com.android.icredit"/>
+        <apkconfig packageName="com.mobike.mobikeapp"/>
+        <apkconfig packageName="com.kingsoft"/>
+        <apkconfig packageName="com.yiche.autoeasy"/>
+        <apkconfig packageName="com.iflytek.elpmobile.smartlearning"/>
+        <apkconfig packageName="com.seebaby"/>
+        <apkconfig packageName="com.job.android"/>
+        <apkconfig packageName="com.netease.mail"/>
+        <apkconfig packageName="com.zhaopin.social"/>
+        <apkconfig packageName="com.codoon.gps"/>
+        <apkconfig packageName="com.hihonor.lives"/>
+        <apkconfig packageName="com.duitang.main"/>
+        <apkconfig packageName="com.yiche.price"/>
+        <apkconfig packageName="com.ygkj.chelaile.standard"/>
+        <apkconfig packageName="com.ovital.ovitalMap"/>
+        <apkconfig packageName="com.evernote"/>
+        <apkconfig packageName="com.jm.android.jumei"/>
+        <apkconfig packageName="com.jinxin.namibox"/>
+        <apkconfig packageName="com.lietou.mishu"/>
+        <apkconfig packageName="cn.damai"/>
+        <apkconfig packageName="vz.com"/>
+        <apkconfig packageName="com.soufun.app"/>
+        <apkconfig packageName="com.dw.btime"/>
+        <apkconfig packageName="com.youdao.note"/>
+        <apkconfig packageName="com.luojilab.player"/>
+        <apkconfig packageName="com.ganji.android.haoche_c"/>
+        <apkconfig packageName="com.pingan.carowner"/>
+        <apkconfig packageName="so.ofo.labofo"/>
+        <apkconfig packageName="bubei.tingshu"/>
+        <apkconfig packageName="com.ganji.android"/>
+        <apkconfig packageName="com.yoloho.dayima"/>
+        <apkconfig packageName="com.jingdong.pdj"/>
+        <apkconfig packageName="com.starbucks.cn"/>
+        <apkconfig packageName="com.wuba.bangjob"/>
+        <apkconfig packageName="com.pingan.papd"/>
+        <apkconfig packageName="com.tuniu.app.ui"/>
+        <apkconfig packageName="com.dp.android.elong"/>
+        <apkconfig packageName="cn.TuHu.android"/>
+        <apkconfig packageName="com.tongcheng.android"/>
+        <apkconfig packageName="com.baidu.lbs.waimai"/>
+        <apkconfig packageName="com.boohee.one"/>
+        <apkconfig packageName="com.fenqile.fenqile"/>
+        <apkconfig packageName="com.alibaba.mobileim"/>
+        <apkconfig packageName="com.csair.mbp"/>
+        <apkconfig packageName="com.flightmanager.view"/>
+        <apkconfig packageName="com.mygolbs.mybus"/>
+        <apkconfig packageName="com.alimama.moon"/>
+        <apkconfig packageName="com.zcbl.bjjj_driving"/>
+        <apkconfig packageName="com.htinns"/>
+        <apkconfig packageName="com.sankuai.movie"/>
+        <apkconfig packageName="com.sf.activity"/>
+        <apkconfig packageName="com.fanli.android.apps"/>
+        <apkconfig packageName="com.szzc"/>
+        <apkconfig packageName="com.szzc.ucar.pilot"/>
+        <apkconfig packageName="com.wandafilm.app"/>
+        <apkconfig packageName="com.nuomi"/>
+        <apkconfig packageName="cn.eclicks.wzsearch"/>
+        <apkconfig packageName="com.ss.android.article.lite"/>
+        <apkconfig packageName="com.sdu.didi.gui"/>
+        <apkconfig packageName="com.netease.hyxd"/>
+        <apkconfig packageName="com.tencent.tmgp.speedmobile"/>
+        <apkconfig packageName="com.tencent.tmgp.pubgm"/>
+        <apkconfig packageName="com.app.shanghai.metro"/>
+        <apkconfig packageName="com.sankuai.meituan.meituanwaimaibusiness"/>
+        <apkconfig packageName="com.hihonor.works"/>
+        <apkconfig packageName="com.tencent.transfer"/>
+        <apkconfig packageName="com.hexin.plat.android"/>
+        <apkconfig packageName="cn.etouch.ecalendar"/>
+        <apkconfig packageName="com.example.businesshall"/>
+        <apkconfig packageName="com.tencent.zebra"/>
+        <apkconfig packageName="com.greenpoint.android.mc10086.activity"/>
+        <apkconfig packageName="android.zhibo8"/>
+        <apkconfig packageName="com.kwai.videoeditor"/>
+        <apkconfig packageName="com.fenbi.android.leo"/>
+        <apkconfig packageName="org.xinkb.blackboard.android"/>
+        <apkconfig packageName="com.m4399.gamecenter"/>
+        <apkconfig packageName="com.hipu.yidian"/>
+        <apkconfig packageName="cn.missfresh.application"/>
+        <apkconfig packageName="com.netease.edu.ucmooc"/>
+        <apkconfig packageName="com.kuaishou.nebula"/>
+        <apkconfig packageName="cn.gov.tax.its"/>
+        <apkconfig packageName="com.meta.xyx"/>
+        <apkconfig packageName="com.ss.android.ugc.livelite"/>
+        <apkconfig packageName="com.taobao.litetao"/>
+        <apkconfig packageName="com.baidu.searchbox.lite"/>
+        <apkconfig packageName="com.bokecc.dance"/>
+        <apkconfig packageName="com.changba"/>
+        <apkconfig packageName="com.kuaikan.comic"/>
+        <apkconfig packageName="com.jsmcc"/>
+        <apkconfig packageName="com.tencent.qqpim"/>
+        <apkconfig packageName="com.jxedt"/>
+        <apkconfig packageName="com.tencent.wemeet.app"/>
+        <apkconfig packageName="com.tencent.tgp"/>
+        <apkconfig packageName="com.kuaiduizuoye.scan"/>
+        <apkconfig packageName="com.ztgame.bob"/>
+        <apkconfig packageName="com.baidu.minivideo"/>
+        <apkconfig packageName="com.lucky.luckyclient"/>
+        <apkconfig packageName="enfc.metro"/>
+        <apkconfig packageName="com.shizhuang.duapp"/>
+        <apkconfig packageName="com.tencent.gallerymanager"/>
+        <apkconfig packageName="com.duowan.kiwi"/>
+        <apkconfig packageName="com.babytree.apps.pregnancy"/>
+        <apkconfig packageName="com.sofunny.Sausage"/>
+        <apkconfig packageName="com.kmxs.reader"/>
+        <apkconfig packageName="net.evecom.android.mztapp"/>
+        <apkconfig packageName="com.duowan.mobile"/>
+        <apkconfig packageName="com.lemon.lv"/>
+        <apkconfig packageName="com.tencent.qqsports"/>
+        <apkconfig packageName="com.ppdai.loan"/>
+        <apkconfig packageName="com.lalamove.huolala.client"/>
+        <apkconfig packageName="com.xinhang.mobileclient"/>
+        <apkconfig packageName="com.iflytek.inputmethod"/>
+        <apkconfig packageName="tv.danmaku.bili"/>
+        <apkconfig packageName="com.tencent.KiHan"/>
+        <apkconfig packageName="com.sup.android.superb"/>
+        <apkconfig packageName="com.jf.lkrj"/>
+        <apkconfig packageName="com.eastmoney.android.berlin"/>
+        <apkconfig packageName="com.sohu.inputmethod.sogou"/>
+        <apkconfig packageName="com.baidu.haokan"/>
+        <apkconfig packageName="com.shyz.toutiao"/>
+        <apkconfig packageName="com.qihoo.loan"/>
+        <apkconfig packageName="com.youloft.calendar"/>
+        <apkconfig packageName="com.mymoney"/>
+        <apkconfig packageName="com.gstarmc.android"/>
+        <apkconfig packageName="com.ushaqi.zhuishushenqi.adfree"/>
+        <apkconfig packageName="com.alibaba.ailabs.tg"/>
+        <apkconfig packageName="me.yidui"/>
+        <apkconfig packageName="my.maya.android"/>
+        <apkconfig packageName="com.taptap"/>
+        <apkconfig packageName="com.black.unique"/>
+        <apkconfig packageName="com.ss.android.ugc.aweme.lite"/>
+        <apkconfig packageName="com.tencent.wifimanager"/>
+        <apkconfig packageName="com.quark.browser"/>
+        <apkconfig packageName="cn.wps.moffice_eng"/>
+        <apkconfig packageName="com.lemon.faceu"/>
+        <apkconfig packageName="com.pingan.lifeinsurance"/>
+        <apkconfig packageName="com.taobao.idlefish"/>
+        <apkconfig packageName="com.tencent.karaoke"/>
+        <apkconfig packageName="com.duoduo.child.story"/>
+        <apkconfig packageName="cn.soulapp.android"/>
+        <apkconfig packageName="com.lianjia.beike"/>
+        <apkconfig packageName="com.cleanmaster.mguard_cn"/>
+        <apkconfig packageName="com.jzzs.ParentsHelper"/>
+        <apkconfig packageName="com.shoujiduoduo.ringtone"/>
+        <apkconfig packageName="com.tencent.qqmusic"/>
+        <apkconfig packageName="com.moji.mjweather"/>
+        <apkconfig packageName="io.dushu.fandengreader"/>
+        <apkconfig packageName="com.ss.android.ugc.live"/>
+        <apkconfig packageName="com.wudaokou.hippo"/>
+        <apkconfig packageName="cn.kuwo.player"/>
+        <apkconfig packageName="com.sinovatech.unicom.ui"/>
+        <apkconfig packageName="com.campmobile.snowcamera"/>
+        <apkconfig packageName="com.immomo.young"/>
+        <apkconfig packageName="com.yaya.zone"/>
+        <apkconfig packageName="com.snda.wifilocating"/>
+        <apkconfig packageName="com.jingyao.easybike"/>
+        <apkconfig packageName="com.jm.video"/>
+        <apkconfig packageName="com.cmbchina.ccd.pluto.cmbActivity"/>
+        <apkconfig packageName="com.kugou.android.ringtone"/>
+        <apkconfig packageName="fm.qingting.qtradio"/>
+        <apkconfig packageName="com.picsart.studio"/>
+        <apkconfig packageName="com.hunting.matrix_callershow"/>
+        <apkconfig packageName="com.lanjingren.ivwen"/>
+        <apkconfig packageName="com.jd.jrapp"/>
+        <apkconfig packageName="com.tencent.qqpimsecure"/>
+        <apkconfig packageName="cn.xuexi.android"/>
+        <apkconfig packageName="com.netease.cloudmusic"/>
+        <apkconfig packageName="com.glodon.drawingexplorer"/>
+        <apkconfig packageName="com.taobao.mobile.dipei"/>
+        <apkconfig packageName="com.gorgeous.lite"/>
+        <apkconfig packageName="com.tencent.ttpic"/>
+        <apkconfig packageName="com.lechuan.midunovel"/>
+        <apkconfig packageName="com.ximalaya.ting.android"/>
+        <apkconfig packageName="com.baidu.input"/>
+        <apkconfig packageName="com.ct.client"/>
+        <apkconfig packageName="com.xiachufang"/>
+        <apkconfig packageName="com.kingpoint.gmcchh"/>
+        <apkconfig packageName="com.kugou.android"/>
+        <apkconfig packageName="com.ss.android.auto"/>
+        <apkconfig packageName="com.snda.lantern.wifilocating"/>
+        <apkconfig packageName="com.mengtuiapp.mall"/>
+        <apkconfig packageName="com.hupu.shihuo"/>
+        <apkconfig packageName="com.kwai.m2u"/>
+        <apkconfig packageName="com.xtc.watch"/>
+        <apkconfig packageName="air.tv.douyu.android"/>
+        <apkconfig packageName="cmccwm.mobilemusic"/>
+        <apkconfig packageName="com.benqu.wuta"/>
+        <apkconfig packageName="com.hihonor.dz.reader"/>
+        <apkconfig packageName="com.hihonor.baidu.browser"/>
+        <apkconfig packageName="com.ss.android.article.video"/>
+        <apkconfig packageName="com.youku.phone"/>
+        <apkconfig packageName="org.zwanoo.android.speedtest"/>
+        <apkconfig packageName="com.tencent.qqlive"/>
+        <apkconfig packageName="com.yy.huyaassist4game"/>
+        <apkconfig packageName="com.duowan.live"/>
+        <apkconfig packageName="com.qiyi.video"/>
+        <apkconfig packageName="com.didi.es.psngr"/>
+        <apkconfig packageName="com.hihonor.health"/>
+    </smartDualCard>
+    <steadySpeedChr>
+        <apkconfig packageName="com.ss.android.ugc.aweme"/>
+        <apkconfig packageName="com.qiyi.video"/>
+        <apkconfig packageName="com.hihonor.appmarket"/>
+    </steadySpeedChr>
+    <appRmnetConfig>
+        <apkconfig
+            enable="1"
+            packageName="org.zwanoo.android.speedtest"
+            groAggregationValue="64">
+        </apkconfig>
+    </appRmnetConfig>
+</dataSystemConfig>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notification_whitelist>
+  <package_name type="string">com.tencent.mm</package_name>
+  <package_name type="string">com.tencent.mobileqq</package_name>
+  <package_name type="string">com.hihonor.works</package_name>
+  <package_name type="string">com.hihonor.hwvoipservice</package_name>
+  <package_name type="string">com.whatsapp</package_name>
+  <package_name type="string">com.viber.voip</package_name>
+  <package_name type="string">com.azarlive.android</package_name>
+  <package_name type="string">com.skype.raider</package_name>
+  <package_name type="string">jp.naver.line.android</package_name>
+  <package_name type="string">com.hihonor.mms</package_name>
+  <package_name type="string">com.hihonor.incallui</package_name>
+  <package_name type="string">com.android.incallui</package_name>
+  <package_name type="string">com.hihonor.meetime</package_name>
+  <package_name type="string">com.hihonor.contacts</package_name>
+  <package_name type="string">com.android.contacts</package_name>
+</notification_whitelist>

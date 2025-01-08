@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<del_app_list>
+  <del_app packageName="com.hihonor.associateassistant"/>
+  <del_app packageName="com.hihonor.ouc"/>
+  <del_app packageName="com.hihonor.vdrive"/>
+  <del_app packageName="com.hihonor.health"/>
+  <del_app packageName="com.besttone.hall"/>
+  <del_app packageName="com.ct.client"/>
+  <del_app packageName="com.unioncast.oleducation"/>
+  <del_app packageName="com.telecom.video.ikan4g"/>
+  <del_app packageName="com.UCMobile"/>
+  <del_app packageName="com.corp21cn.flowpay"/>
+  <del_app packageName="fm.xiami.main"/>
+  <del_app packageName="com.lectek.android.sfreader"/>
+  <del_app packageName="com.hihonor.mmitest"/>
+  <del_app packageName="com.hihonor.hiview"/>
+  <del_app packageName="com.hihonor.bd"/>
+  <del_app packageName="com.hihonor.iaware"/>
+  <del_app packageName="com.hihonor.betaclub"/>
+  <del_app packageName="com.hihonor.parentcontrol"/>
+  <del_app packageName="com.hihonor.android.chr"/>
+  <del_app packageName="com.hihonor.gameassistant"/>
+  <del_app packageName="com.hihonor.scenepack"/>
+  <del_app packageName="com.hihonor.hwapplet"/>
+  <del_app packageName="com.hihonor.smartlocation"/>
+  <del_app packageName="com.hihonor.spaceservice"/>
+  <del_app packageName="com.hihonor.hwpolicyservice"/>
+  <del_app packageName="com.hihonor.hbs.framework"/>
+  <del_app packageName="com.hihonor.android.airsharing"/>
+  <del_app packageName="com.hihonor.kidsmode"/>
+  <del_app packageName="com.hihonor.turbokey"/>
+  <del_app packageName="com.hihonor.hishow"/>
+  <del_app packageName="com.hihonor.hiassistantoversea"/>
+  <del_app packageName="com.hihonor.meetime"/>
+  <del_app packageName="com.hihonor.hieduservice"/>
+</del_app_list>

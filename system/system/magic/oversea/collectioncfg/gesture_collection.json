@@ -1,0 +1,1257 @@
+{
+  "appinfo": {
+    "version": "001.001",
+    "web_applist": [
+      {
+        "packageName": "com.huawei.browser",
+        "activityList": ["com.huawei.browser.BrowserMainActivity"]
+      },
+      {
+        "packageName": "com.ss.android.article.lite",
+        "activityList": ["com.ss.android.article.base.feature.detail2.view.NewDetailActivity","com.ss.android.newugc.detail.UgcDetailActivity","com.bytedance.mira.stub.p0.StubTranslucentActivity"]
+      },
+      {
+        "packageName": "com.doc360.client",
+        "activityList": ["com.doc360.client.activity.Article"]
+      },
+      {
+        "packageName": "com.baidu.news",
+        "activityList": ["com.baidu.news.ui.NewsDetailActivity","com.baidu.news.ui.BrowserActivity"]
+      },
+      {
+        "packageName": "com.baidu.tieba",
+        "activityList": ["com.baidu.tieba.pb.pb.main.PbActivity"]
+      },
+      {
+        "packageName": "com.tencent.qqsports",
+        "activityList": ["com.tencent.qqsports.bbs.BbsTopicDetailActivity","com.tencent.qqsports.news.NewsContainerActivity"]
+      },
+      {
+        "packageName": "com.qihoo.browser",
+        "activityList": ["com.qihoo.browser.BrowserActivity"]
+      },
+      {
+        "packageName": "com.zhihu.android",
+        "activityList": ["com.zhihu.android.mix.activity.ContentMixProfileActivity",
+        "com.zhihu.android.app.ui.activity.HostActivity",
+        "com.zhihu.android.mixshortcontainer.MixShortContainerActivity",
+        "com.zhihu.android.ContentActivity",
+        "com.zhihu.android.app.base.ui.activity.KmHostActivity"]
+      },
+      {
+        "packageName": "com.ss.android.article.news",
+        "activityList": [
+          "com.bytedance.ugc.UgcDetailInfoActivity",
+          "com.ss.android.detail.feature.detail2.view.NewDetailActivity",
+          "com.bytedance.ugc.wenda.detail.slide.SlideAnswerDetailActivity",
+          "com.ss.android.newmedia.activity.browser.BrowserActivity",
+          "com.ss.android.livechat.chat.app.LiveChatActivity",
+          "com.tt.miniapphost.placeholder.MiniAppChildProcessMultiInsActivity0",
+          "com.bytedance.ugc.forum.innerfeed.ArticleInflowActivity",
+          "com.bytedance.ugc.ugcfeed.innerfeed.PostInnerFeedActivity",
+          "com.bytedance.ugc.profile.user.profile.TouTiaoUserProfileActivity"
+        ]
+      },
+      {
+        "packageName": "com.ifeng.news2",
+        "activityList": ["com.ifeng.news2.activity.DocDetailActivity","com.ifeng.news2.advertise.AdDetailActivity"]
+      },
+      {
+        "packageName": "com.netease.newsreader.activity",
+        "activityList": ["com.netease.newsreader.article.framework.view.NewsPageActivity",
+          "com.netease.newsreader.common.base.activity.SingleFragmentActivity"]
+      },
+      {
+        "packageName": "com.browser2345",
+        "activityList": [
+          "com.starnews2345.pluginsdk.plugin.delegate.SingleTopProxyActivity1",
+          "com.browser2345.BrowserActivity",
+          "com.bytedance.novel.view.NovelReaderActivity"
+        ]
+      },
+      {
+        "packageName": "com.zhejiangdaily",
+        "activityList": ["com.zjrb.zjxw.detail.ui.normal.NewsDetailActivity",
+          "com.zjrb.zjxw.detail.ui.link.WebLinkActivity"]
+      },
+      {
+        "packageName": "com.sina.news",
+        "activityList": ["com.sina.news.modules.article.normal.activity.NewsContentActivity2"]
+      },
+      {
+        "packageName": "cn.com.sina.finance",
+        "activityList": ["cn.com.sina.finance.article.ui.NewsTextActivity"]
+      },
+      {
+        "packageName": "com.UCMobile",
+        "activityList": ["com.uc.browser.InnerUCMobile"]
+      },
+      {
+        "packageName": "com.tencent.news",
+        "activityList": [
+          "com.tencent.news.ui.NewsDetailActivity",
+          "com.tencent.news.webview.CustomWebBrowserForItemActivity"
+        ]
+      },
+      {
+        "packageName": "com.sohu.newsclient",
+        "activityList": ["com.sohu.newsclient.newsviewer.activity.NewWebViewActivity",
+          "com.sohu.newsclient.common.activity.SohuWebViewActivity",
+          "com.sohu.newsclient.sohuevent.activity.SohuEventReadingActivity",
+          "com.sohu.newsclient.snsfeed.activity.FeedDetailsActivity",
+          "com.sohu.newsclient.sohuevent.activity.SohuEventActivity"]
+      },
+      {
+        "packageName": "cn.cntvnews",
+        "activityList": ["com.torch.open.news.detail.FeedsDetailActivity"]
+      },
+      {
+        "packageName": "flipboard.cn",
+        "activityList": ["flipboard.activities.DetailActivityStayOnRotation",
+          "flipboard.activities.comment.BigVCommentariesDetailActivity"]
+      },
+      {
+        "packageName": "com.myzaker.ZAKER_Phone",
+        "activityList": ["com.myzaker.ZAKER_Phone.view.article.ArticleContentActivity",
+          "com.myzaker.ZAKER_Phone.view.article.content.sns.SnsArticleContentActivity",
+          "com.myzaker.ZAKER_Phone.view.channelintegration.ChannelIntegrationArticleContentActivity",
+          "com.myzaker.ZAKER_Phone.view.feature.FeatureContentActivity",
+          "com.myzaker.ZAKER_Phone.view.article.content.relative.RelativeArticleContentActivity"]
+      },
+      {
+        "packageName": "com.xingin.xhs",
+        "activityList": ["com.xingin.matrix.notedetail.NoteDetailActivity", "com.xingin.matrix.v2.notedetail.NoteDetailActivity"]
+      },
+      {
+        "packageName": "com.theotino.chinadaily",
+        "activityList": ["com.theotino.chinadaily.CdAt"]
+      },
+      {
+        "packageName": "com.peopledailychina.activity",
+        "activityList": ["com.peopledailychina.activity.activity.detail.ArticleDetialAct"]
+      },
+      {
+        "packageName": "net.xinhuamm.mainclient",
+        "activityList": ["net.xinhuamm.mainclient.mvp.ui.news.activity.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.hipu.yidian",
+        "activityList": ["com.yidian.news.ui.newsmain.NewsActivity"]
+      },
+      {
+        "packageName": "com.cubic.autohome",
+        "activityList": ["com.autohome.main.article.activitys.ArticlePagerActivity",
+          "com.autohome.plugin.uchuang.activity.CheJiaHaoH5Activity",
+          "com.autohome.main.article.articlefinalpage.ArticlePagerActivity",
+          "com.autohome.mainlib.business.reactnative.base.AHCommRNActivity"]
+      },
+      {
+        "packageName": "android.zhibo8",
+        "activityList": ["android.zhibo8.ui.contollers.detail.DetailActivity",
+          "android.zhibo8.ui.contollers.bbs.FPostActivity"]
+      },
+      {
+        "packageName": "cn.com.pcauto.android.browser",
+        "activityList": ["cn.com.pcgroup.android.browser.module.library.expert.ArticleActivity",
+          "cn.com.pcgroup.android.browser.module.information.InformationArticleActivity",
+          "cn.com.pcgroup.android.bbs.browser.module.bbs.activitys.PostsActivity"]
+      },
+      {
+        "packageName": "com.hexun.news",
+        "activityList": ["com.hexun.news.ui.NewsDetailActivity",
+          "com.hexun.training.textlive.ui.TrainingWebActivity",
+          "com.hexun.news.ui.HotFastBrowseActivity"]
+      },
+      {
+        "packageName": "com.jiemian.news",
+        "activityList": ["com.jiemian.news.base.NormalActivity"]
+      },
+      {
+        "packageName": "com.lingan.seeyou",
+        "activityList": ["com.lingan.seeyou.ui.activity.mother.activity.LifeThousandDayActivity",
+          "com.meiyou.pregnancy.plugin.ui.tools.caneatordo_new.CanEatDetailActivity",
+          "com.meiyou.framework.ui.webview.WebViewActivity",
+          "com.meiyou.tools.earlyedu.edudetail.EduCourseDetailActivity",
+          "com.lingan.seeyou.ui.activity.community.topicdetail.TopicDetailActivity",
+          "com.meiyou.interlocution.problemdetail.ProblemDetailActivity",
+          "com.meetyou.news.ui.NewsDetailH5Activity",
+          "com.meetyou.news.ui.knowleage.activity.KnowleageDetailH5Activity"]
+      },
+      {
+        "packageName": "com.jsbc.lznews",
+        "activityList": ["com.jsbc.lznews.activity.news.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.huxiu",
+        "activityList": ["com.huxiu.ui.activity.ArticleDetailActivity",
+          "com.huxiu.ui.activity.MomentDetailActivity",
+          "com.huxiu.module.brief.detail.BriefDetailActivity"]
+      },
+      {
+        "packageName": "com.xcar.activity",
+        "activityList": ["com.xcar.comp.articles.detail.ArticleDetailNewActivity",
+          "com.xcar.activity.ui.discovery.PostDetailActivity",
+          "com.xcar.comp.self.media.detail.SelfMediaDetailActivity"]
+      },
+      {
+        "packageName": "cn.com.modernmedia.businessweek",
+        "activityList": ["cn.com.modernmedia.views.ArticleActivity","cn.com.modernmedia.views.PushArticleActivity"]
+      },
+      {
+        "packageName": "com.zol.android",
+        "activityList": ["com.zol.android.renew.news.ui.detail.news.NewsDetailActivity",
+          "com.zol.android.publictry.ui.PublicTryDetailActivity"]
+      },
+      {
+        "packageName": "com.ruanmei.ithome",
+        "activityList": ["com.ruanmei.ithome.ui.NewsInfoV8Activity",
+          "com.ruanmei.ithome.ui.QuanDetailV8Activity"]
+      },
+      {
+        "packageName": "com.huanqiu.news",
+        "activityList": ["com.huanqiu.news.MainActivity"]
+      },
+      {
+        "packageName": "com.caing.news",
+        "activityList": ["com.caixin.android.component_content.ContentContainerActivity",
+          "com.caixin.android.component_content.outline.OutLineActivity"]
+      },
+      {
+        "packageName": "com.eastmoney.android.fund",
+        "activityList": ["com.eastmoney.android.fund.centralis.activity.FundRootActivity",
+          "com.eastmoney.android.libwxcomp.FundWeexActivity",
+          "com.eastmoney.android.fund.fundbar.article.view.FundNewsArticleActivity"]
+      },
+      {
+        "packageName": "com.baidu.hao123",
+        "activityList": ["com.baidu.searchbox.home.feed.FeedDetailActivity"]
+      },
+      {
+        "packageName": "cn.futu.trader",
+        "activityList": ["cn.futu.nnframework.app.standalonehost.StandaloneHostActivity",
+          "cn.futu.trader.main.activity.MainActivity"]
+      },
+      {
+        "packageName": "com.dongqiudi.news",
+        "activityList": ["com.dongqiudi.news.NewsDetailActivity",
+          "com.dongqiudi.news.SubscriptionDetailActivity",
+          "com.dongqiudi.group.ThreadInfoActivity"]
+      },
+      {
+        "packageName": "com.wallstreetcn.news",
+        "activityList": ["com.wallstreetcn.newsdetail.Main.NewsDetailActivityNew",
+          "com.wallstreetcn.newsdetail.Main.NewsLiveDetailActivityNew"]
+      },
+      {
+        "packageName": "com.quark.browser",
+        "activityList": ["com.ucpro.BrowserActivity"]
+      },
+      {
+        "packageName": "com.qq.reader",
+        "activityList": ["com.qq.reader.module.bookstore.qnative.activity.NativeBookStoreConfigDetailActivity"]
+      },
+      {
+        "packageName": "com.douban.frodo",
+        "activityList": ["com.douban.frodo.group.activity.GroupTopicActivity",
+          "com.douban.frodo.fangorns.note.NoteActivity",
+          "com.douban.frodo.subject.activity.ReviewActivity",
+          "com.douban.frodo.baseproject.activity.WebActivity",
+          "com.douban.frodo.subject.activity.BookAnnotationActivity",
+          "com.douban.frodo.subject.activity.ForumTopicActivity",
+          "com.douban.frodo.subject.structure.activity.EventActivity",
+          "com.douban.frodo.subject.structure.activity.MovieActivity",
+          "com.douban.frodo.subject.structure.activity.BookActivity"]
+      },
+      {
+        "packageName": "com.tencent.mm",
+        "activityList": ["com.tencent.mm.plugin.webview.ui.tools.WebViewUI",
+          "com.tencent.mm.plugin.webview.ui.tools.fts.SosWebViewUI",
+          "com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewToolUI",
+          "com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI",
+          "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI",
+          "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
+          "com.tencent.mm.plugin.webview.ui.tools.fts.MMSosWebViewUI"]
+      },
+      {
+        "packageName": "com.wondertek.paper",
+        "activityList": ["cn.thepaper.paper.ui.post.news.norm.NewsNormActivity",
+          "cn.thepaper.paper.ui.pyq.detailpage.PengyouquanDetailPageActivity",
+          "cn.thepaper.paper.ui.post.news.pengpaihao.PengpaihaoNormActivity",
+          "cn.thepaper.paper.ui.web.WebActivity"]
+      },
+      {
+        "packageName": "net.csdn.csdnplus",
+        "activityList": ["net.csdn.csdnplus.mvvm.ui.activity.BlinkDetailMvvmActivity",
+          "net.csdn.csdnplus.mvvm.ui.activity.BlogDetailActivity"]
+      },
+      {
+        "packageName": "com.nowcoder.app.florida",
+        "activityList": ["com.nowcoder.app.florida.activity.home.MainV2Activity"]
+      },
+      {
+        "packageName": "com.neusoft.app.beijingdaily.phone",
+        "activityList": ["com.neusoft.app.beijingdaily.phone.activity.NewsDetailActivity",
+          "com.neusoft.app.beijingdaily.phone.bjh.Activity.BjhWebViewActivity",
+          "com.neusoft.app.beijingdaily.phone.activity.TabActivity"]
+      },
+      {
+        "packageName": "com.jifen.qukan",
+        "activityList": ["com.jifen.qukan.content.newsdetail.news.NewsDetailNewActivity","com.jifen.qkbase.web.WebActivity"]
+      },
+      {
+        "packageName": "cn.guancha.app",
+        "activityList": ["cn.guancha.app.ui.activity.content.NewsContentActivity","cn.guancha.app.ui.activity.content.HearsayContentActivity"]
+      },
+      {
+        "packageName": "com.hzpd.zqzx",
+        "activityList": ["com.cyol.news.activity.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.jianshu.haruki",
+        "activityList": ["com.jianshu.wireless.articleV2.X5ArticleDetailActivity",
+          "com.baiji.jianshu.novel.activity.NovelMainActivity",
+          "com.jianshu.wireless.post.activity.PostRelativeMiddlePageActivity"]
+      },
+      {
+        "packageName": "com.zhihu.daily.android",
+        "activityList": ["com.zhihu.daily.android.epic.activity.ContentActivity"]
+      },
+      {
+        "packageName": "viva.reader",
+        "activityList": ["viva.reader.activity.ArticleActivity","viva.reader.recordset.activity.RecordSetActivity"]
+      },
+      {
+        "packageName": "com.dili360",
+        "activityList": ["com.dili360.activity.MagazineArticleActivity"]
+      },
+      {
+        "packageName": "com.lenovo.browser",
+        "activityList": ["com.lenovo.browser.LeMainActivity","com.lenovo.browser.titlebar.hotSearch.LeHotSearchActivity"]
+      },
+      {
+        "packageName": "com.fumei.yiling.activity",
+        "activityList": ["com.fumei.template.boutique.NewFyReadActivity","com.fumei.template.bookstore.TwReadActivity"]
+      },
+      {
+        "packageName": "com.hexin.plat.android",
+        "activityList": ["com.hexin.plat.android.Hexin"]
+      },
+      {
+        "packageName": "com.tencent.gamehelper.smoba",
+        "activityList": ["com.tencent.gamehelper.ui.information.InformationDetailActivity","com.tencent.gamehelper.biz.community.BbsThreadActivity","com.tencent.gamehelper.biz.community.moment.GMWebActivity"]
+      },
+      {
+        "packageName": "com.hupu.games",
+        "activityList": ["com.hupu.android.bbs.detail.PostDetailActivity"]
+      },
+      {
+        "packageName": "com.songheng.eastnews",
+        "activityList": ["com.songheng.eastfirst.business.newsdetail.view.activity.NewsDetailHardwareActivity"]
+      },
+      {
+        "packageName": "cn.youth.news",
+        "activityList": ["cn.youth.news.ui.homearticle.articledetail.ContentCommonActivity"]
+      },
+      {
+        "packageName": "com.leisu.sports",
+        "activityList": ["com.leisu.sports.base.BaseActivity"]
+      },
+      {
+        "packageName": "com.nfdaily.nfplus",
+        "activityList": ["com.nfdaily.nfplus.ui.activity.NewsContentViewActivityV3"]
+      },
+      {
+        "packageName": "com.xbiao",
+        "activityList": ["com.xbiao.ModularNews.activity.NewsContentActivity","com.xbiao.ModularBBS.activity.BBSContentActivity"]
+      },
+      {
+        "packageName": "com.news.shangyounews",
+        "activityList": ["com.news.shangyounews.mvp.home.detail.ui.WebViewActivity", "com.news.shangyounews.mvp.home.detail.ui.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.hcj.gznews",
+        "activityList": ["com.tenma.ventures.tm_qing_news.web.H5Activity"]
+      },
+      {
+        "packageName": "com.eastmoney.android.berlin",
+        "activityList": ["com.eastmoney.android.news.activity.NewsDetailActivity",
+          "com.eastmoney.android.berlin.h5.WebH5Activity",
+          "com.eastmoney.android.news.activity.NewsCFHDetailActivity"]
+      },
+      {
+        "packageName": "com.tencent.qt.qtl",
+        "activityList": ["com.tencent.zone.main.MainZoneHomeActivity",
+          "com.tencent.mudule_web.PureWebActivity",
+          "com.tencent.mudule_web.info.NewsDetailXmlActivity"]
+      },
+      {
+        "packageName": "com.android36kr.app",
+        "activityList": ["com.android36kr.app.ui.MainActivity",
+          "com.android36kr.app.module.detail.article.ArticleDetailActivity",
+          "com.android36kr.app.module.detail.news.WebDetailActivity",
+          "com.android36kr.app.module.shortContent.detail.ShortContentDetailActivity",
+          "com.android36kr.app.module.tabHome.newsLatest.detail.NewsFlashDetailActivity"]
+      },
+      {
+        "packageName": "com.sina.weibo",
+        "activityList": ["com.sina.weibo.feed.DetailWeiboActivity",
+        "com.sina.weibo.webview.RDBrowserActivity"]
+      },
+      {
+        "packageName": "com.sina.weibolite",
+        "activityList": ["com.weico.international.activity.SeaStatusDetailActivity"]
+      },
+      {
+        "packageName": "com.ss.android.auto",
+        "activityList": ["com.ss.android.auto.activity.SplashActivity",
+          "com.ss.android.article.base.feature.detail2.view.NewDetailActivity",
+          "com.ss.android.auto.ugc.video.activity.UgcLongPostActivity"]
+      },
+      {
+        "packageName": "com.ycwb.android.ycpai",
+        "activityList": ["com.founder.product.newsdetail.NewsDetailService$NewsDetailActivity","com.founder.product.activefaction.ui.ActiveDetailActivity"]
+      },
+      {
+        "packageName": "com.ifext.news",
+        "activityList": ["com.ifeng.news2.activity.DocDetailActivity"]
+      },
+      {
+        "packageName": "com.lanjinger.choiassociatedpress",
+        "activityList": ["com.lanjinger.choiassociatedpress.consult.ConsultDeepnessActivity","com.lanjinger.choiassociatedpress.comment.CommentDetailActivity","com.lanjinger.choiassociatedpress.common.widget.BrowserActivity"]
+      },
+      {
+        "packageName": "cn.gzmovement",
+        "activityList": ["cn.gzmovement.business.article.Activity_StandardArticleDetailedContent"]
+      },
+      {
+        "packageName": "com.cctv.caijing",
+        "activityList": ["com.ctvit.module_article.ArticleActivity"]
+      },
+      {
+        "packageName": "com.szgov.entrance",
+        "activityList": ["com.csztv.general.main.activity.MainActivity"]
+      },
+      {
+        "packageName": "com.hbrb.jiyun",
+        "activityList": ["com.hbrb.jiyun.mvp.ui.news.activity.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.dzwww.sd.android",
+        "activityList": ["com.dzwww.news.android.ui.NewsContentActivity2","com.dzwww.news.android.ui.BbsDetailActivity"]
+      },
+      {
+        "packageName": "com.touchtv.touchtv",
+        "activityList": ["com.touchtv.module_news.view.activity.NVideoDetailActivity_v2",
+          "com.touchtv.module_news.view.activity.AskPoliticsDetailActivity_v1"]
+      },
+      {
+        "packageName": "com.chengdudaily.activity",
+        "activityList": ["com.peopletech.detail.mvp.ui.activity.newdetail.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.cns.mc.activity",
+        "activityList": ["com.trs.bj.zxs.activity.news.NewsZwDetailsActivity"]
+      },
+      {
+        "packageName": "com.yicai.news",
+        "activityList": ["com.yicai.news.view.activity.newsdetails.CBNNewsDetailsActivity",
+          "com.yicai.news.view.activity.newsdetails.CBNNewsDetailsVipActivity","com.yicai.news.view.activity.newsdetails.CBNNewsDetailsLinkedActivity"]
+      },
+      {
+        "packageName": "com.wenhui.ebook",
+        "activityList": ["cn.com.cherish.whb.ui.ContentActivity","cn.com.cherish.whb.ui.OpenEPagerActivity"]
+      },
+      {
+        "packageName": "com.app.vipc",
+        "activityList": ["cn.vipc.www.activities.ArticleWebviewActivity",
+          "cn.vipc.www.activities.BrowserWebviewActivity"]
+      },
+      {
+        "packageName": "cn.com.enorth.jinyun",
+        "activityList": ["cn.com.enorth.easymakeapp.ui.newsdetail.NormalNewsDetailActivity",
+          "cn.com.enorth.easymakeapp.ui.politics.QuestionDetailActivity",
+          "cn.com.enorth.easymakeapp.ui.newsdetail.VideoNewsDetailActivity",
+          "cn.com.enorth.easymakeapp.ui.main.MainActivity"]
+      },
+      {
+        "packageName": "com.baidu.searchbox.tomas",
+        "activityList": ["com.baidu.searchbox.home.feed.FeedDetailActivity",
+          "com.baidu.browser.search.LightSearchActivity"]
+      },
+      {
+        "packageName": "com.infothinker.gzmetro",
+        "activityList": ["com.infothinker.gzmetro.activity.BrowserActivity"]
+      },
+      {
+        "packageName": "com.sohu.infonews",
+        "activityList": ["com.sohu.businesslibrary.articleDetailModel.ArticleDetailActivity"]
+      },
+      {
+        "packageName": "com.yuedong.sport",
+        "activityList": ["com.yuedong.sport.main.articledetail.ActivityArticleDetail"]
+      },
+      {
+        "packageName": "com.tencent.gamehelper.dnf",
+        "activityList": ["com.tencent.gamehelper.ui.information.InformationDetailActivity"]
+      },
+      {
+        "packageName": "com.banciyuan.bcywebview",
+        "activityList": ["com.bcy.biz.item.detail.view.NoteDetailActivity","com.bcy.biz.item.detail.view.AnswerDetailActivity","com.bcy.biz.item.groupask.view.GroupAskDetailActivity"]
+      },
+      {
+        "packageName": "com.baidu.iknow",
+        "activityList": ["com.baidu.iknow.question.activity.SingleAnswerQuestionActivity"]
+      },
+      {
+        "packageName": "com.paic.yl.health",
+        "activityList": ["com.paic.yl.health.webview.ctrlview.DSWebViewActivity","com.pajk.sdk.webview.PajkWebViewActivity"]
+      },
+      {
+        "packageName": "com.seblong.idream",
+        "activityList": ["com.seblong.idream.ui.newcommunity.activity.PostDetailViewPagerActivity"]
+      },
+      {
+        "packageName": "com.yaya.mmbang",
+        "activityList": ["com.yaya.mmbang.activity.WebViewLinkActivity"]
+      },
+      {
+        "packageName": "com.linkedin.android.injobs",
+        "activityList": ["com.linkedin.android.infra.navigation.MainActivity"]
+      },
+      {
+        "packageName": "me.chunyu.ChunyuDoctor",
+        "activityList": ["me.chunyu.media.news.NewsDetailActivity","me.chunyu.askdoc.DoctorService.Topic.TopicRepliesActivity"]
+      },
+      {
+        "packageName": "com.tal.kaoyan",
+        "activityList": ["com.example.qzplatformhome.activity.PlatFormArticleDetailsActivity"]
+      },
+      {
+        "packageName": "com.moji.mjweather.light",
+        "activityList": ["com.moji.mjweather.feed.ZakerDetailsActivity"]
+      },
+      {
+        "packageName": "com.digitalchina.mobile.dfhfz1",
+        "activityList": ["com.systoon.toon.apps.view.AppDisplayActivity"]
+      },
+      {
+        "packageName": "com.bwton.szfreego",
+        "activityList": ["com.bwton.metro.base.webview.BwtWebviewActivity","com.bwton.jsbridge.view.BwtWebViewActivity"]
+      },
+      {
+        "packageName": "com.tencent.portfolio",
+        "activityList": ["com.tencent.portfolio.hybrid.SHYActivity"]
+      },
+      {
+        "packageName": "com.fosung.lighthouse",
+        "activityList": ["com.fosung.lighthouse.master.amodule.main.activity.NewsDetailActivity"]
+      },
+      {
+        "packageName": "com.yoloho.dayima",
+        "activityList": ["com.yoloho.dayima.v2.activity.forum.topic.TopicDetailInfoActivity",
+          "com.yoloho.dayima.activity.core.WebViewActivity"]
+      },
+      {
+        "packageName": "com.cashtoutiao",
+        "activityList": ["com.cashtoutiao.news.ui.NewsDetailActivity"]
+      },
+      {
+        "packageName": "cn.xuexi.android",
+        "activityList": ["com.alibaba.android.uc.base.navi.window2.Window2Activity"]
+      },
+      {
+        "packageName": "com.pingan.lifeinsurance",
+        "activityList": ["com.pingan.lifeinsurance.business.open_platform.activity.V8ArticleDetailActivity"]
+      },
+      {
+        "packageName": "com.tianyancha.skyeye",
+        "activityList": ["com.tianyancha.skyeye.MainActivity", "com.tianyancha.ugc.activity.UGCWebContainerActivity"]
+      },
+      {
+        "packageName": "com.ygkj.chelaile.standard",
+        "activityList": ["dev.xesam.chelaile.app.module.web.SimpleWebActivity"]
+      },
+      {
+        "packageName": "com.baidu.searchbox.lite",
+        "activityList": ["com.baidu.searchbox.home.feed.FeedDetailActivity", "com.baidu.searchbox.newreader.discovery.novel.DiscoveryNovelDetailActivity"]
+      },
+      {
+        "packageName": "com.mymoney",
+        "activityList": ["com.mymoney.finance.biz.market.ui.FinanceMarketActivity"]
+      },
+      {
+        "packageName": "com.app.shanghai.metro",
+        "activityList": ["com.app.shanghai.metro.ui.activities.H5ActivitiesActivity"]
+      },
+      {
+        "packageName": "com.taobao.movie.android",
+        "activityList": ["com.taomai.android.h5container.ui.TaoMaiH5Activity"]
+      },
+      {
+        "packageName": "com.smzdm.client.android",
+        "activityList": ["com.smzdm.client.android.module.community.module.bask.BaskDetailActivity", "com.smzdm.client.android.module.community.module.articledetail.ArticleDetailLongActivity"]
+      },
+      {
+        "packageName": "com.tongcheng.android",
+        "activityList": ["com.tongcheng.android.module.webapp.WebViewActivity"]
+      },
+      {
+        "packageName": "com.cmbchina.ccd.pluto.cmbActivity",
+        "activityList": ["com.project.foundation.cmbView.cmbwebviewv2.cmbBF5Y2W3",
+          "com.cmbchina.ccd.pluto.cmbactivity.discovery.feed.activity.cmbBOZZQBD"]
+      },
+      {
+        "packageName": "com.ucmobile.lite",
+        "activityList": ["com.UCMobile.main.UCMobile"]
+      },
+      {
+        "packageName": "com.gov.cn",
+        "activityList": ["com.gov.cn.GovNewsAt"]
+      },
+      {
+        "packageName": "de.bmw.connected.mobile20.cn",
+        "activityList": ["com.mobileconnected.MainActivity"]
+      },
+      {
+        "packageName": "com.cloudbae.lovenanning",
+        "activityList": ["com.cloudbae.lovenanning.comm.commModels.CommHybridapiWebViewActivity"]
+      },
+      {
+        "packageName": "com.powersi.zhsw",
+        "activityList": ["com.powersi.powerapp.activity.WindowActivity"]
+      },
+      {
+        "packageName": "com.tencent.gamehelper",
+        "activityList": ["com.tencent.gamehelper.ui.information.InformationDetailActivity"]
+      },
+      {
+        "packageName": "com.netease.xyqcbg",
+        "activityList": ["com.netease.cbgbase.web.CustomWebActivity"]
+      },
+      {
+        "packageName": "com.iflytek.oshall.ahzwfw",
+        "activityList": ["com.iflytek.oshall.bsdt.plugins.CrossActivity"]
+      },
+      {
+        "packageName": "net.evecom.android.mztapp",
+        "activityList": ["net.evecom.android.mztapp.activity.cordova.CordovaWebViewActivity"]
+      },
+      {
+        "packageName": "com.pplive.androidphone.sport",
+        "activityList": ["com.suning.infoa.info_detail.activity.InfoWithPictureActivity",
+          "com.suning.community.logic.activity.PostsDetailActivity"]
+      },
+      {
+        "packageName": "com.winbaoxian.wybx",
+        "activityList": ["com.winbaoxian.web.CommonWebActivity"]
+      },
+      {
+        "packageName": "com.cmschina.stock",
+        "activityList": ["com.cmschina.framework.navigation.BaseActivity"]
+      },
+      {
+        "packageName": "com.guosen.android",
+        "activityList": ["com.guosen.commonui.act.NewsDetailAct"]
+      },
+      {
+        "packageName": "com.bwton.tjmetro",
+        "activityList": ["com.bwton.jsbridge.view.BwtWebViewActivity"]
+      },
+      {
+        "packageName": "com.wuba.town.client",
+        "activityList": ["com.wuba.hybird.TownHybirdWebActivity"]
+      },
+      {
+        "packageName": "com.alibaba.aliyun",
+        "activityList": ["com.alibaba.aliyun.windvane.activity.WindvaneActivity"]
+      },
+      {
+        "packageName": "com.weface.kksocialsecurity",
+        "activityList": ["com.weface.kksocialsecurity.allowance.MyWebView"]
+      },
+      {
+        "packageName": "mobi.w3studio.apps.android.shsmy.phone",
+        "activityList": ["com.wondersgroup.eshimin.activity.WebAppActivity"]
+      },
+      {
+        "packageName": "com.kingdon.mycz",
+        "activityList": ["com.kingdon.mycz.frameLib.webView.jsbridge.BridgeWxWebViewActivity"]
+      },
+      {
+        "packageName": "com.showstartfans.activity",
+        "activityList": ["com.showstartfans.activity.activitys.products.DetailsOfThePerformanceActivity"]
+      },
+      {
+        "packageName": "com.xueqiu.android",
+        "activityList": ["com.xueqiu.android.community.StatusDetailActivity"]
+      },
+      {
+        "packageName": "com.tianlutech.ebus",
+        "activityList": ["com.tianlutech.ebus.core.main.ok.NewsDetailActivity",
+          "com.alipay.mobile.nebulacore.ui.H5Activity"]
+      },
+      {
+        "packageName": "com.uh.rdsp",
+        "activityList": ["com.uh.rdsp.weex.WeexPageActivity"]
+      },
+      {
+        "packageName": "com.gift.android",
+        "activityList": ["com.lvmama.android.hybrid.activity.WebViewActivity"]
+      },
+      {
+        "packageName": "com.truckhome.bbs",
+        "activityList": ["com.truckhome.bbs.information.activity.InfoDetailActivity"]
+      },
+      {
+        "packageName": "com.cdel.medmobile",
+        "activityList": ["com.cdel.accmobile.home.activities.InfoH5DetailNewAcitivty"]
+      },
+      {
+        "packageName": "com.xzgdjt.smartmetro",
+        "activityList": ["com.xzgdjt.smartmetro.activity.WebViewActivity"]
+      },
+      {
+        "packageName": "com.xingfei.ui",
+        "activityList": ["com.example.xjiayou_app.MainActivity"]
+      },
+      {
+        "packageName": "com.changsha.apps.android.mycs",
+        "activityList": ["com.wondersgroup.eshimin.activity.WebBrowserActivity"]
+      },
+      {
+        "packageName": "com.hanweb.izhengzhou.android",
+        "activityList": ["com.alipay.mobile.nebulacore.ui.H5Activity"]
+      },
+      {
+        "packageName": "com.baidu.searchbox",
+        "activityList": ["com.baidu.searchbox.home.feed.FeedDetailActivity",
+          "com.baidu.searchbox.feed.news.FeedDetailActivity",
+          "com.baidu.searchbox.lightbrowser.LightBrowserActivity",
+          "com.baidu.searchbox.lightbrowser.LightBrowserActivityExt1",
+          "com.baidu.swan.apps.SwanAppActivity",
+          "com.baidu.swan.apps.SwanAppActivity1",
+          "com.baidu.searchbox.discovery.novel.DiscoveryNovelDetailActivity",
+          "com.baidu.searchbox.feed.floatlayer.PushFloatPullBackActivity",
+          "com.baidu.browser.search.LightSearchActivity"]
+      },
+      {
+        "packageName": "com.neusoft.hrssapp",
+        "activityList": ["com.neusoft.hrssapp.activity.commonquery.PublicWebActivity"]
+      },
+      {
+        "packageName": "com.ctdcn.ishebao",
+        "activityList": ["com.ctdcn.ishebao.activity.MainXxgkActivity"]
+      },
+      {
+        "packageName": "com.gamersky",
+        "activityList": ["com.gamersky.common.activity.LibDetailContentDetailActivity"]
+      },
+      {
+        "packageName": "com.haoyisheng.mobile.app",
+        "activityList": ["com.haoyisheng.mobile.app.views.activity.KmWebBrowseActivity"]
+      },
+      {
+        "packageName": "com.xinfang.louxun",
+        "activityList": ["com.xinfang.louxun.ui.headline.NewsDesActivity"]
+      },
+      {
+        "packageName": "com.iflytek.smartsq",
+        "activityList": ["com.iflytek.cip.activity.CrossActivity"]
+      },
+      {
+        "packageName": "cn.cty.hbzw",
+        "activityList": ["cn.cty.hbzw.activity.WebContainerActivity"]
+      },
+      {
+        "packageName": "com.inspur.icity.tianjin",
+        "activityList": ["com.hanweb.android.jssdklib.intent.WebviewActivity",
+          "com.hanweb.android.product.tianjin.socialcard.NewWebviewCountActivity",
+          "com.hanweb.android.product.component.article.ArticleWebviewActivity",
+          "com.hanweb.android.product.component.article.ArticleActivity"]
+      },
+      {
+        "packageName": "com.unicde.smartcity_lyg",
+        "activityList": ["com.unicde.smartcity.features.main.HomeActivity",
+          "com.unicde.smartcity.bridge.H5ContainerActivity"]
+      },
+      {
+        "packageName": "com.smxxy.sc",
+        "activityList": ["com.smxxy.module_web.CommonWebActivity"]
+      },
+      {
+        "packageName":"cn.TuHu.android",
+        "activityList":["cn.TuHu.Activity.forum.BBSTopicDetailAct"]
+      },
+      {
+        "packageName": "com.microsoft.emmx",
+        "activityList": ["com.microsoft.ruby.Main","org.chromium.chrome.browser.ChromeTabbedActivity"]
+      },
+      {
+        "packageName": "com.android.chrome",
+        "activityList": ["com.google.android.apps.chrome.Main","org.chromium.chrome.browser.ChromeTabbedActivity",
+          "org.chromium.chrome.browser.customtabs.CustomTabActivity"]
+      },
+      {
+        "packageName": "org.mozilla.firefox",
+        "activityList": ["org.mozilla.firefox.App"]
+      },
+      {
+        "packageName": "com.weico.international",
+        "activityList": ["com.weico.international.activity.SeaStatusDetailActivity"]
+      },
+      {
+        "packageName": "com.dianping.v1",
+        "activityList": ["com.dianping.social.activity.NewFeedDetailActivity"]
+      },
+      {
+        "packageName": "com.hanweb.android.sdzwfw.activity",
+        "activityList": ["com.hanweb.android.product.component.article.ArticleActivity"]
+      },
+      {
+        "packageName": "com.luojilab.player",
+        "activityList": ["com.luojilab.component.web.ddfe.proxy.ArticleProxyActivity"]
+      },
+      {
+        "packageName": "com.liuzhou.apps.android.lcsmy",
+        "activityList": ["com.wondersgroup.eshimin.activity.WebBrowserActivity",
+          "com.wondersgroup.eshimin.home.activity.MainActivity"]
+      },
+      {
+        "packageName": "com.pingan.lifecircle",
+        "activityList": ["com.pingan.carowner.browser.nesteddetail.activity.FastWebviewActivity"]
+      },
+      {
+        "packageName": "com.wondersgroup.hksmy",
+        "activityList": ["com.wonders.libs.android.webcontainer.webbrowser.WebBrowserActivity",
+          "com.wondersgroup.hksmy.MainNewActivity"]
+      },
+      {
+        "packageName": "com.tencent.mtt",
+        "activityList": ["com.tencent.mtt.MainActivity"]
+      },
+      {
+        "packageName": "com.baidu.browser.apps",
+        "activityList": ["com.baidu.searchbox.home.feed.FeedDetailActivity",
+          "com.baidu.browser.search.LightSearchActivity",
+          "com.baidu.swan.apps.SwanAppActivity",
+          "com.baidu.swan.apps.SwanAppActivity1"]
+      },
+      {
+        "packageName": "sogou.mobile.explorer",
+        "activityList": ["com.tencent.mtt.MainActivity"]
+      },
+      {
+        "packageName": "com.taobao.trip",
+        "activityList": ["com.taobao.trip.weex.WeexActivity"]
+      },
+      {
+        "packageName": "com.ss.android.article.search",
+        "activityList": ["com.bytedance.howy.webview.WebViewActivity","com.bytedance.howy.main.homepage.MainActivity"]
+      },
+      {
+        "packageName": "com.mysteel.android.steelphone",
+        "activityList": ["com.mysteel.android.steelphone.ui.activity.NativeWebActivity"]
+      },
+      {
+        "packageName": "com.lanjingren.ivwen",
+        "activityList": ["com.lanjingren.ivwen.editor.BrowseOtherActivity","com.lanjingren.ivwen.home.discussion.DiscussionActivity"]
+      },
+      {
+        "packageName": "com.hd.smartVillage",
+        "activityList": ["com.hd.smartVillage.modules.h5service.H5WebActivity"]
+      },
+      {
+        "packageName": "cn.dxy.idxyer",
+        "activityList": ["cn.dxy.idxyer.biz.post.PostDetailActivity"]
+      },
+      {
+        "packageName": "com.topmty.app",
+        "activityList": ["com.topmty.view.news.activity.DetailsActivity",
+          "com.bytedance.sdk.dp.host.act.DPNewsDetailActivity"]
+      },
+      {
+        "packageName": "com.miercnnew.app",
+        "activityList": ["com.miercnnew.view.news.activity.DetailsActivity",
+          "com.bytedance.sdk.dp.host.act.DPNewsDetailActivity"]
+      },
+      {
+        "packageName": "com.sankuai.movie",
+        "activityList": ["com.sankuai.movie.movie.topic.TopicActivity",
+          "com.sankuai.movie.community.news.NewsDetailActivity",
+          "com.sankuai.movie.movie.MovieDetailActivity"]
+      },
+      {
+        "packageName": "com.jzzs.ParentsHelper",
+        "activityList": ["com.jzzs.ParentsHelper.ui.webView.BaseWebViewActivity"]
+      },
+      {
+        "packageName":"com.honor.club",
+        "activityList":["com.honor.club.module.forum.activity.BlogDetailsActivity",
+          "com.honor.club.HwFansActivity"]
+      },
+      {
+        "packageName": "com.ume.browser",
+        "activityList": ["com.bose.metabrowser.news.NewsDetailActivity",
+          "com.ume.sumebrowser.BrowserActivity"]
+      },
+      {
+        "packageName":"com.huayi.cme",
+        "activityList":["com.huayi.cme.ui.web.WebActivity","com.huayi.cme.ui.play.MediaPlayZYPXActivity",
+          "com.huayi.cme.ui.play.MediaPlayJXKCActivity"]
+      },
+      {
+        "packageName":"com.plagh.heartstudy",
+        "activityList":["com.plagh.heartstudy.view.activity.ArticleDetailActivity",
+          "com.study.heart.ui.activity.MedicalReservationActivity"]
+      },
+      {
+        "packageName": "zwzt.fangqiu.edu.com.zwzt",
+        "activityList": ["com.zwzt.feature_detail.LongPaperDetailActivity"]
+      },
+      {
+        "packageName": "ctrip.android.view",
+        "activityList": ["ctrip.android.reactnative.CRNBaseActivity"]
+      },
+      {
+        "packageName": "com.Qunar",
+        "activityList": ["com.mqunar.react.base.stack.container.QReactNativeActivity1"]
+      },
+      {
+        "packageName": "com.tencent.gamehelper.speed",
+        "activityList": ["com.tencent.gamehelper.ui.information.InformationDetailActivity"]
+      },
+      {
+        "packageName": "com.tencent.gamehelper.nz",
+        "activityList": ["com.tencent.gamehelper.ui.information.InformationDetailActivity"]
+      },
+      {
+        "packageName": "com.ccbhome.lanhai",
+        "activityList": ["com.ccb.function_hotpoint.ui.detail.HotpointDetailActivity"]
+      },
+      {
+        "packageName": "com.foundao.xinhua_android",
+        "activityList": ["com.broken.molaware.xinhua_android.ui.home.ManuscriptDetailsActivity"]
+      },
+      {
+        "packageName": "com.stcn.newmedia.activity",
+        "activityList": ["com.stcn.newmedia.activity.activitymodule.InfoDetailArticleActivity"]
+      },
+      {
+        "packageName": "cn.gmw.cloud",
+        "activityList": ["cn.gmw.cloud.business.module.browser.imgtxt.BrowserImgTxtActivity","cn.gmw.cloud.business.module.main.MainActivity"]
+      },
+      {
+        "packageName": "com.baidu.baijia",
+        "activityList": ["com.baidu.baijia.business.article.preview.ArticleDetailActivity","com.baidu.settings.AccountDetailActivity","com.baidu.commons.base.CWebViewActivity"]
+      },
+      {
+        "packageName": "org.geekbang.geekTime",
+        "activityList": ["org.geekbang.geekTime.project.tribe.channel.HordePostDetailActivity",
+          "org.geekbang.geekTime.project.article.ArticleDetailsActivity",
+          "org.geekbang.geekTime.project.infoq.article.InfoQArticleDetailActivity"]
+      },
+      {
+        "packageName": "tv.danmaku.bili",
+        "activityList": ["com.bilibili.column.ui.detail.ColumnDetailActivity"]
+      },
+      {
+        "packageName": "com.tuniu.app.ui",
+        "activityList": ["com.tuniu.plugin.dl.DLProxyFragmentActivity"]
+      },
+      {
+        "packageName": "com.systoon.beijingtoon",
+        "activityList": ["com.systoon.toon.apps.view.AppDisplayActivity"]
+      },
+      {
+        "packageName": "com.chinasofti.shanghaihuateng.metroapp",
+        "activityList": ["com.chinasofti.shanghaihuateng.metroapp.info.WebviewTransparentActivity"]
+      },
+      {
+        "packageName": "com.tencent.qt.sns",
+        "activityList": ["com.tencent.gamehelper.ui.information.InformationDetailActivity"]
+      },
+      {
+        "packageName": "com.hihonor.hiboard",
+        "activityList": ["com.huawei.intelligent.component.contentservice.inner.modules.detail.NewsDetailV2Activity","com.huawei.intelligent.component.contentservice.inner.modules.ui.WebviewActivity"]
+      },
+      {
+        "packageName": "net.anquanneican.aqnc",
+        "activityList": ["net.anquanneican.aqnc.articledetail.ArticleDetailActivity"]
+      },
+      {
+        "packageName": "com.daimajia.gold",
+        "activityList": ["im.juejin.android.modules.home.impl.ui.detail.DetailActivity","im.juejin.android.modules.home.impl.ui.TTDetailActokivity"]
+      },
+      {
+        "packageName": "com.knew.webbrowser",
+        "activityList": ["com.knew.webbrowser.ui.activity.SearchResultActivity"]
+      },
+      {
+        "packageName": "com.webbrowser.wnllq",
+        "activityList": ["com.knew.webbrowser.ui.activity.SearchResultActivity"]
+      },
+      {
+        "packageName": "com.cat.readall",
+        "activityList": ["com.ss.android.detail.feature.detail2.view.NewDetailActivity"]
+      },
+      {
+        "packageName": "com.nineton.weatherforecast",
+        "activityList": ["com.nineton.weatherforecast.activity.ACWeb"]
+      },
+      {
+        "packageName": "llbt.ccb.ynga",
+        "activityList": ["com.ccb.fintech.app.productions.ynga.ui.base.YnBaseWebViewActivity",
+          "com.ccb.fintech.app.productions.ynga.ui.MainActivity",
+          "com.ccb.fintech.app.productions.ynga.ui.home.activity.NewsDetailWebViewActivity"]
+      },
+      {
+        "packageName": "com.tima.android.afmpn",
+        "activityList": ["com.tima.android.afmpn.ActivityWVEncrypt"]
+      },
+      {
+        "packageName": "llbt.ccb.lnga",
+        "activityList": ["llbt.ccb.lnga.ccbs.home.activity.HomeWebviewActivity"]
+      },
+      {
+        "packageName": "com.inspur.icity.neimenggu",
+        "activityList": ["com.inspur.icity.busiweb.WebviewActivity"]
+      },
+      {
+        "packageName": "com.asput.youtushop",
+        "activityList": ["com.asput.youtushop.activity.web.CommWebView"]
+      },
+      {
+        "packageName": "com.finace.market",
+        "activityList": ["com.finance.market.moudule_hybird.WebContainerAc"]
+      },
+      {
+        "packageName": "com.jdd.motorfans",
+        "activityList": ["com.jdd.motorfans.modules.detail.DetailActivity2"]
+      },
+      {
+        "packageName": "com.jx.fastbrowser",
+        "activityList": ["com.cy.browser.BrowserActivity"]
+      },
+      {
+        "packageName": "cn.com.nbd.nbdmobile",
+        "activityList": ["cn.com.nbd.webview.WebviewArticleActivity","cn.com.nbd.webview.WebviewLinkActivity"]
+      },
+      {
+        "packageName": "com.ss.android.homed",
+        "activityList": ["com.ss.android.homed.pm_essay.essaylist.EssayListActivity","com.ss.android.homed.pm_article.ArticleDetailActivity","com.ss.android.homed.pm_app_base.web.ui.WebActivity"]
+      },
+      {
+        "packageName": "com.lingan.yunqi",
+        "activityList": ["com.meetyou.news.ui.NewsDetailH5Activity","com.lingan.seeyou.ui.activity.community.topicdetail.TopicDetailActivity"]
+      },
+      {
+        "packageName": "com.facebook.katana",
+        "activityList": ["com.facebook.browser.lite.BrowserLiteInMainProcess2Activity"]
+      },
+      {
+        "packageName": "com.twitter.android",
+        "activityList": ["com.twitter.tweetdetail.TweetDetailActivity"]
+      },
+      {
+        "packageName": "bbc.mobile.sport.ww",
+        "activityList": ["uk.co.bbc.android.sport.MainActivity"]
+      },
+      {
+        "packageName": "com.UCMobile.intl",
+        "activityList": ["com.uc.browser.InnerUCMobile"]
+      },
+      {
+        "packageName": "com.bskyb.skynews.android",
+        "activityList": ["com.bskyb.skynews.android.activity.WebViewActivity"]
+      },
+      {
+        "packageName": "com.kreactive.leparisienrssplayer",
+        "activityList": ["com.kreactive.leparisienrssplayer.article.pager.ArticlePagerActivity"]
+      },
+      {
+        "packageName": "com.opera.browser",
+        "activityList": ["com.opera.Opera","com.opera.android.BrowserActivity"]
+      },
+      {
+        "packageName": "ru.mail.mailnews",
+        "activityList": ["ru.mail.mailnews.ui.MainActivity"]
+      },
+      {
+        "packageName": "ru.fourpda.client",
+        "activityList": ["ru.fourpda.client.MainActivity"]
+      },
+      {
+        "packageName": "de.lineas.lit.ntv.android",
+        "activityList": ["de.lineas.ntv.main.article.ArticleActivity"]
+      },
+      {
+        "packageName": "de.spiegel.android.app.spon",
+        "activityList": ["de.spiegel.android.app.spon.activities.EditorialIssueArticlePageActivity","de.spiegel.android.app.spon.activities.EditorialArticlePageActivity"]
+      },
+      {
+        "packageName": "com.opera.app.news.us",
+        "activityList": ["com.opera.android.NewsMainActivity"]
+      },
+      {
+        "packageName": "com.opera.app.news",
+        "activityList": ["com.opera.android.NewsMainActivity"]
+      },
+      {
+        "packageName": "com.quora.android",
+        "activityList": ["com.quora.android.components.activities.QuoraActivity"]
+      },
+      {
+        "packageName": "fr.playsoft.lefigarov3",
+        "activityList": ["fr.playsoft.lefigarov3.ui.activities.ArticleActivity"]
+      },
+      {
+        "packageName": "com.intramuros.Intramuros.production",
+        "activityList": ["com.intramuros.MainActivity"]
+      },
+      {
+        "packageName": "com.backelite.vingtminutes",
+        "activityList": ["com.vingtminutes.ui.article.details.ArticleDetailActivity"]
+      },
+      {
+        "packageName": "com.elpais.elpais",
+        "activityList": ["com.elpais.elpais.ui.view.activity.NewsDetailsActivity"]
+      },
+      {
+        "packageName": "com.newswav.android",
+        "activityList": ["com.example.base.MainActivity"]
+      },
+      {
+        "packageName": "com.usatoday.android.news",
+        "activityList": ["com.gannett.android.news.features.article.ActivityArticle","com.gannett.android.news.features.standalone.ActivityStandaloneNews"]
+      },
+      {
+        "packageName": "com.zumobi.msnbc",
+        "activityList": ["com.nbc.activities.MainActivity"]
+      },
+      {
+        "packageName": "com.google.android.apps.magazines",
+        "activityList": ["com.google.apps.dots.android.newsstand.reading.ArticleReadingActivity"]
+      },
+      {
+        "packageName": "bbc.mobile.news.ww",
+        "activityList": ["bbc.mobile.news.v3.articleui.MultiItemArticleActivity", "bbc.mobile.news.v3.articleui.SingleItemArticleActivity"]
+      },
+      {
+        "packageName": "de.cellular.focus",
+        "activityList": ["de.cellular.focus.article.ArticleActivity"]
+      },
+      {
+        "packageName": "global.lumi.lumi",
+        "activityList": [
+          "global.lumi.lumi.MainActivity"
+        ]
+      },
+      {
+        "packageName": "singtao.android.hkheadline",
+        "activityList": [
+          "com.kaisa.news.activity.NewsInfoActivity","com.kaisa.webview.activity.SponsorContentActivity"
+        ]
+      },
+      {
+        "packageName": "com.yahoo.infohub",
+        "activityList": [
+          "com.yahoo.mobile.client.android.newsabu.activity.MainControlActivity"
+        ]
+      },
+      {
+        "packageName": "com.ifeng.news2gp2",
+        "activityList": [
+          "com.ifeng.news2.activity.DocDetailActivity","com.ifeng.news2.advertise.AdDetailActivity"
+        ]
+      },
+      {
+        "packageName": "ma.safe.bnes",
+        "activityList": [
+          "com.example.hmo.bns.ReadNewsActivity"
+        ]
+      },
+      {
+        "packageName": "ma.safe.bnfr",
+        "activityList": [
+          "com.example.hmo.bns.ReadNewsActivity"
+        ]
+      },
+      {
+        "packageName": "com.lemonde.androidapp",
+        "activityList": [
+          "com.lemonde.androidapp.MainActivity"
+        ]
+      },
+      {
+        "packageName": "flipboard.app",
+        "activityList": [
+          "flipboard.activities.DetailActivity"
+        ]
+      },
+      {
+        "packageName": "it.rcs.gazzettaflash",
+        "activityList": ["it.rcs.gazzettaflash.activities.MainActivity"]
+      },
+      {
+        "packageName": "com.local.news.plus",
+        "activityList": ["com.best.local.news.MainActivity"]
+      },
+      {
+        "packageName": "com.karangkraf.SinarLife",
+        "activityList": ["com.karangkraf.SinarLife.ui.MobileArticleActivity"]
+      },
+      {
+        "packageName": "ma.safe.bnde",
+        "activityList": ["com.example.hmo.bns.ReadNewsActivity"]
+      },
+      {
+        "packageName": "com.newscientist.mobile",
+        "activityList": ["com.kaldorgroup.pugpigbolt.ui.ContentActivity"]
+      },
+      {
+        "packageName": "com.ideashower.readitlater.pro",
+        "activityList": ["com.pocket.app.reader.InternalReaderActivity"]
+      },
+      {
+        "packageName": "com.zb.sph.zaobaochina",
+        "activityList": ["sg.com.sph.appbt.views.details.ArticleDetailsActivity"]
+      },
+      {
+        "packageName": "com.itmyti.bbcchinese",
+        "activityList": ["com.itmyti.bbcchinese.MainActivity"]
+      },
+      {
+        "packageName": "ca.cbc.mobile.android.cbcnewsandroidwebview",
+        "activityList": ["ca.cbc.android.ui.StoryActivity"]
+      },
+      {
+        "packageName": "com.medium.reader",
+        "activityList": ["com.medium.android.donkey.main.MainActivity"]
+      },
+      {
+        "packageName": "com.msi.eluniversal",
+        "activityList": ["com.msi.eluniversal.ui.activity.DetailsActivity","com.msi.eluniversal.ui.activity.PushNotificationDetailsActivity"]
+      },
+      {
+        "packageName": "com.waveline.nabd",
+        "activityList": ["com.waveline.nabd.client.activities.ArticleDetailsActivity"]
+      },
+      {
+        "packageName": "com.lemonde.morning",
+        "activityList": ["com.lemonde.morning.editorial.ui.EditorialArticleActivity"]
+      },
+      {
+        "packageName": "com.ldf.europe1.view",
+        "activityList": ["com.ldf.europe1.view.activities.MainActivity"]
+      },
+      {
+        "packageName": "com.guangming.gmapp",
+        "activityList": ["com.guangming.gmapp.MainActivity"]
+      },
+      {
+        "packageName": "com.appasia.ilifepost",
+        "activityList": ["com.appasia.ilifepost.NewsWebViewActivity"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fenceConfig>
+    <!--             围栏生成成功率下限       正常状态围栏生成次数下限  地铁状态围栏生成次数下限  围栏生成后的有效天数 -->
+	<defaultValue fenceRecoverThreshold="0.7" normalNumberThreshold="10" metroNumberThreshold="4" fenceEffectDays="14"/>
+	<!--    故障类型：PS_SLOW,      故障子类型，     自愈动作：黑小区,  围栏类型：小区围栏 -->
+	<config exceptionType="201" exceptionSubType="20101" recoveryAction="1" fenceType="1"/>
+	<config exceptionType="201" exceptionSubType="20102" recoveryAction="1" fenceType="1"/>
+</fenceConfig>

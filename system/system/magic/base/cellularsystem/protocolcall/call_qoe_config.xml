@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <!-- call qoe 特性开关 -->
+    <!-- CHR上报qoe处理 -->
+    <switch feature="CHR_CALL_REPORT_ERROR_HANDLE" control="1"/>
+    <!-- modem/ril上报qoe处理 -->
+    <switch feature="RIL_UNSOL_ERROR_HANDLE"       control="1"/>
+
+    <!-- call qoe 异常配置 -->
+
+    <!--    CallType前缀         CallType后缀             ErrorCode          特殊处理原因值           上报异常类型             -->
+    <!--    callType=前缀*100000+后缀; callType+ErrorCode 唯一匹配                                                             -->
+    <!--    前缀不累加           后缀可累加，会生成多条配置                  0代表不需要特殊处理,     与SelfCureConsts.java    -->
+    <!--                         CHR上报的后缀不可为0！                      非0则后面参数不生效      中的配置匹配             -->
+    <!--    200:IMS_MO_CALL      1:Volte/空 -->
+    <!--    201:IMS_MT_CALL      2:VoNR     -->
+    <!--    202:CS_MO_CALL       4:EPSFB    -->
+    <!--    203:CS_MT_CALL       8:VoWiFi   -->
+    <!--    220:IMS_MO_FAIL      16:HoN2L   -->
+    <!--    221:IMS_MT_FAIL      32:HoL2N   -->
+    <!--    222:IMS_CALLDROP     64:HoN2W   -->
+    <!--    223:CS_MO_FAIL       128:HoW2N  -->
+    <!--    224:CS_MT_FAIL       256:HoL2W  -->
+    <!--    225:CS_CALLDROP      512:HoW2L  -->
+    <!--    226:CANCEL_BEFORE_RING          -->
+    <!--    227:IMS_INNER_ERR               -->
+    <!--    228:DIAL_ERROR                  -->
+    <!--    229:DIAL_REJECT                 -->
+    <!--    230:SHORT_CALL                  -->
+    <!--    231:ANSWER_ERROR                -->
+    <!--    232:HANGUP_ERROR                -->
+    <!--    233:CALL_ELSEWHERE              -->
+    <!--    234:CRS_ERROR                   -->
+
+    <!-- 503/580 抑制SA -->
+    <!--  errorCode为CHR上报原因值                             -->
+    <configV2 callTypePrefix="220"   callTypeSuffix="6"   errorCode="580"    specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="220"   callTypeSuffix="6"   errorCode="503"    specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="221"   callTypeSuffix="6"   errorCode="580"    specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="221"   callTypeSuffix="6"   errorCode="503"    specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="221"   callTypeSuffix="6"   errorCode="600580" specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="221"   callTypeSuffix="6"   errorCode="600503" specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="221"   callTypeSuffix="6"   errorCode="800580" specialHandleCode="0"   reportExceptionType="30102"/>
+    <configV2 callTypePrefix="221"   callTypeSuffix="6"   errorCode="800503" specialHandleCode="0"   reportExceptionType="30102"/>
+    <!--  RTP/PDCP 黑小区 -->
+    <!--  errorCode见modem中的CallQoeResultEnum枚举定义              -->
+    <!--  CALL_QOE_RESULT_RTP_ERROR = 1                              -->
+    <!--  CALL_QOE_RESULT_PDCP_ERROR = 2                             -->
+    <!--  CALL_QOE_RESULT_RTP_ERROR & CALL_QOE_RESULT_PDCP_ERROR = 3 -->
+    <!--  callTypePrefix 270: CALL_TYPE_PREFIX_RIL_UNSOL_LTE     -->
+    <!--  callTypePrefix 271: CALL_TYPE_PREFIX_RIL_UNSOL_NR      -->
+    <configV2 callTypePrefix="270"   callTypeSuffix="0"   errorCode="1"      specialHandleCode="0"   reportExceptionType="302"/>
+    <configV2 callTypePrefix="270"   callTypeSuffix="0"   errorCode="2"      specialHandleCode="0"   reportExceptionType="302"/>
+    <configV2 callTypePrefix="270"   callTypeSuffix="0"   errorCode="3"      specialHandleCode="0"   reportExceptionType="302"/>
+    <configV2 callTypePrefix="271"   callTypeSuffix="0"   errorCode="1"      specialHandleCode="0"   reportExceptionType="302"/>
+    <configV2 callTypePrefix="271"   callTypeSuffix="0"   errorCode="2"      specialHandleCode="0"   reportExceptionType="302"/>
+    <configV2 callTypePrefix="271"   callTypeSuffix="0"   errorCode="3"      specialHandleCode="0"   reportExceptionType="302"/>
+    <!--  paging解析失败 黑小区 -->
+    <!--  CALL_QOE_RESULT_PAGING_FAIL_BAD_CELL = 4 -->
+    <!--  callTypePrefix 271: CALL_TYPE_PREFIX_RIL_UNSOL_NR      -->
+    <configV2 callTypePrefix="271"   callTypeSuffix="0"   errorCode="4"      specialHandleCode="0"   reportExceptionType="305"/>
+    <!--  paging解析失败 抑制SA -->
+    <!--  CALL_QOE_RESULT_PAGING_FAIL_SA_WEAK = 8 -->
+    <!--  callTypePrefix 271: CALL_TYPE_PREFIX_RIL_UNSOL_NR      -->
+    <configV2 callTypePrefix="271"   callTypeSuffix="0"   errorCode="8"      specialHandleCode="0"   reportExceptionType="306"/>
+    <!--   IMS socket error 重启IMS     -->
+    <!--   callTypePrefix 227: CALL_TYPE_PREFIX_IMS_INNER_ERR     -->
+    <!--   errorCode 630000: 630000-640000之间的code会转换为630000, 前处理函数preSpecalHandleChrImsInnerErrorSocketCause      -->
+    <configV2 callTypePrefix="227"   callTypeSuffix="1"   errorCode="630000" specialHandleCode="102" reportExceptionType="0"/>
+</xml>

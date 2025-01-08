@@ -1,0 +1,64 @@
+{
+    "id": "journey",
+    "title_id": "story_template_title_ancient_style",
+    "music": "Resource/music/out.aac",
+    "resolution": [2520, 1080],
+    "segments": [
+        {
+            "camera_id": 0,
+            "duration": 3.0,
+            "shot_mode": "normal_video",
+            "demo_offset": [0, 3.0],
+            "audio_offset": 0,
+            "algo_scripts": {
+                "operation_mode": "panning",
+                "operation_param": "50,50,50,50"
+            },
+            "camera_effects": {
+                "beauty": "5"
+            }
+        },
+        {
+            "camera_id": 0,
+            "duration": 4.0,
+            "shot_mode": "normal_video",
+            "demo_offset": [2.5, 6.5],
+            "audio_offset": 2.5,
+            "algo_scripts": {
+                "operation_mode": "panning",
+                "operation_param": "50,50,50,50"
+            },
+            "camera_effects": {
+                "beauty": "5"
+            }
+        },
+        {
+            "camera_id": 0,
+            "duration": 3.0,
+            "shot_mode": "normal_video",
+            "demo_offset": [6, 9],
+            "audio_offset": 6,
+            "algo_scripts": {
+                "operation_mode": "panning",
+                "operation_param": "50,50,50,50"
+            },
+            "camera_effects": {
+                "beauty": "5"
+            }
+        },
+        {
+            "camera_id": 0,
+            "duration": 5.2,
+            "shot_mode": "normal_video",
+            "demo_offset": [8.5, 13.7],
+            "audio_offset": 8.5,
+            "algo_scripts": {
+                "operation_mode": "panning",
+                "operation_param": "50,50,50,50"
+            },
+            "camera_effects": {
+                "beauty": "5"
+            }
+        }
+    ]
+}

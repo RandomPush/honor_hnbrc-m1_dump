@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <packageCert>
+    <sign name="com.payjoy.access" cert="C68B0573942CF9D3CD42025823EC1CD6368C4AB375678CBE53812F81D17FBCF5"/>
+    <sign name="com.payjoy.status" cert="C68B0573942CF9D3CD42025823EC1CD6368C4AB375678CBE53812F81D17FBCF5"/>
+    <sign name="android" cert="483013CE65E1B0E10AD76A2EB80409A2A2B8B35EBE81A33B1F6EDD7FACBD64DC"/>
+  </packageCert>
+  <functionMap>
+    <function name="HnAccessDeviceLockManagerService.enableAccessAbility">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.getVersion">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.setPayJoyControlState">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.getPayJoyControlState">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+    <function name="PayJoyAccessService.getPersistedImei">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.getPersistedCountryCode">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.setPayJoyAppAsDeviceOwner">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.getAppOpPermissionPackages">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.enableDebuggingFeature">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.dumpPayJoyDataBlock">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PayJoyAccessService.erasePayJoyDataBlock">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+    </function>
+    <function name="PersistentDataBlockService.writePayJoyPersistentData">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+    <function name="PersistentDataBlockService.readPayJoyPersistentData">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+    <function name="DevicePolicyManagerService.enforceCanPayJoySetDeviceOwnerLocked">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+    <function name="HwDPMS.setMultiWindowDisabled">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+    <function name="PayJoyAccessService.getPayJoyDataVersion">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+    <function name="PayJoyAccessService.getPayJoyDataLocation">
+      <package>com.payjoy.access</package>
+      <package>com.payjoy.status</package>
+      <package>android</package>
+    </function>
+  </functionMap>
+</config>

@@ -1,0 +1,14 @@
+# 2023-02-06 09:54:04.0
+msc.config.vassistant_honor=true
+# 2023-02-06 09:54:04.0
+msc.mdm.cert_file_support=false
+# 2023-02-06 09:54:04.0
+persist.radio.defdualsimltemenu=false
+# 2023-02-06 09:54:04.0
+ro.cofig.onlinemusic.enabled=false
+# 2023-02-06 09:54:04.0
+ro.config.cota_live_update=true
+# 2023-02-06 09:54:04.0
+ro.config.support_doubletap_pay=true
+# 2023-02-06 09:54:04.0
+ro.setupwizard.wifi_on_exit=false

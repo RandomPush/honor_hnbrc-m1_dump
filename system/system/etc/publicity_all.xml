@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="荣耀终端有限公司" feature="Android手机和电脑链接后，向你的手机助手应用提供跨设备复制和粘贴、拖拽互传文件、输入操作等功能" package="com.hihonor.linktowindowsservice" label="com.hihonor.linktowindowsservice">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="SIM管理是对SIM卡的状态、5G/4G、数据业务和卡信息进行管理。" package="com.hihonor.dsdscardmanager" label="com.hihonor.dsdscardmanager">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="一键快速分享文件、图片、apk等任意文件给周边开启该功能的设备。" package="com.hihonor.android.instantshare" label="com.hihonor.android.instantshare">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="为多设备提供图片、视频、音频、文档等数据的中台应用" package="com.hihonor.mediadatacenter" label="com.hihonor.mediadatacenter">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="为登陆荣耀帐号的用户提供跨设备的认证支持，并为数据在设备间的同步提供有效保护方案。" label="信任环" package="com.hihonor.trustcircle" use-permission=" ">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="基于Magic的底层基础能力，管理设备间的可信关系，提供不同业务建立或修改设备间可信关系的统一接口。" package="com.hihonor.devicegroupmanage" label="com.hihonor. devicegroupmanage ">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="媒体后处理框架" package="com.hihonor.hnmediagraph" label="com.hihonor.hnmediagraph">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="媒体处理中台服务" package="com.hihonor.mediaprocessor" label="com.hihonor.mediaprocessor">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="存储图片和视频数据的数据库。" package="com.hihonor.medialibrary" label="com.hihonor.medialibrary">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="密码保险箱属于安全组件，是一款在登录界面为用户提供自动键入用户名/密码服务的插件应用。" package="com.hihonor.keychain" label="com.hihonor.keychain">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="提供空间清理、病毒查杀、流量管理、骚扰拦截、权限管理、启动管理、电池管理、通知管理服务。" package="com.hihonor.systemmanager" label="com.hihonor.systemmanager">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="提供计算器功能。" label="com.hihonor.calculator" package="com.hihonor.calculator">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="显示流程中GPU及LCD等相关器件功耗优化管控应用。" package="com.hihonor.android.hnaps" label="com.hihonor.android.hnaps">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="游戏性能优化" package="com.hihonor.game.kitserver" label="GameKit">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="用户通过手势使用功能、比如手势截屏。" package="com.hihonor.motionservice" label="com.hihonor.motionservice">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="电话是通话应用中通话界面部分的流程及显示控制部分。" package="com.android.incallui" label="com.android.incallui">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="相机开放服务中台" package="com.hihonor.cameraextension" label="com.hihonor.cameraextension">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="省电精灵是系统功耗优化管控模块，管理第三方应用的唤醒、告警、提示等耗电行为，支撑系统管家省电模式的实现，保障手机续航能力。" package="com.hihonor.powergenie" label="com.hihonor.powergenie">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="美化系统、可管理本地已下载的主题。在连网时可下载在线主题、壁纸、铃声、字体等。" label="主题" package="com.hihonor.android.thememanager" use-permission=" ">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="联系人号码识别应用，提供号码标记、号码归属地、黄页功能。" package="com.hihonor.numberidentity" label="com.hihonor.numberidentity">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="联系人、通话记录相关数据的数据库。" package="com.android.providers.contacts" label="com.android.providers.contacts">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="荣耀媒体素材中心" package="com.hihonor.mediamaterial" label="com.hihonor.mediamaterial">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="计算引擎，提供统一架构的多种计算机制能力，并通过感知数据进行用户画像计算学习，提供对各种场景的业务编排智慧计算推荐以及预测决策能力。" package="com.hihonor.brain" label="com.hihonor.brain">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="运用智慧化推荐能力，为每个用户提供贴心、精准的场景化服务，让生活更便捷。" package="com.hihonor.assistant" label="com.hihonor.assistant">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="运用智慧感知能力，为每个用户提供个性化感知围栏、感知快照查询、数据采集服务。" package="com.hihonor.awareness" label="com.hihonor.awareness">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="近场通信融合软件。" package="com.hihonor.airlink" label="com.hihonor.airlink">
+	</packageInfo>
+	<packageInfo author="荣耀终端有限公司" feature="隐私空间APK是一款在隐私空间平台特性下，实现主空间与隐私空间的数据共享功能以及提供隐私空间密码重置能力的系统应用。" package="com.hihonor.privatespace" label="com.hihonor.privatespace">
+	</packageInfo>
+	<packageInfo label="com.hihonor.compass" package="com.hihonor.compass" feature="提供指南针功能。" author="荣耀终端有限公司">
+	</packageInfo>
+	<packageInfo label="com.hihonor.HnMultiScreenShot" package="com.hihonor.HnMultiScreenShot" feature="滚动截屏，用于对较长的页面进行多段式截屏，并完整拼接成一张图片的功能。" author="荣耀终端有限公司">
+	</packageInfo>
+	<packageInfo label="com.hihonor.screenrecorder" package="com.hihonor.screenrecorder" feature="提供录屏功能。" author="荣耀终端有限公司">
+	</packageInfo>
+	<packageInfo package="com.android.emergency" feature="此应用是提供了一个查看个人紧急信息的入口，当用户遇到紧急事件时，用户或者其他人，可以通过紧急拨号的入口查看你的个人紧急信息。 可添加紧急个人信息内容如下： 1、可添加个人信息到紧急信息里面，包括姓名、地址、血型、过敏反应等个人信息。 2、可添加多名紧急联系人到紧急信息里面，包括联系人名称和号码。" author="荣耀终端有限公司" label="com.android.emergency">
+	</packageInfo>
+	<packageInfo package="com.android.internal.systemui.navbar.gestural" feature="导航提示条的显示功能。" author="荣耀终端有限公司" label="com.android.internal.systemui.navbar.gestural">
+	</packageInfo>
+	<packageInfo package="com.android.internal.systemui.navbar.hide" feature="导航窗口隐藏功能。" author="荣耀终端有限公司" label="com.android.internal.systemui.navbar.hide">
+	</packageInfo>
+	<packageInfo package="com.android.providers.calendar" feature="保存日历数据。" author="荣耀终端有限公司" label="com.android.providers.calendar">
+	</packageInfo>
+	<packageInfo package="com.google.android.ext.shared" feature="提供 Android 框架扩展机制" author="谷歌" label="com.google.android.ext.shared">
+	</packageInfo>
+	<packageInfo package="com.google.android.gsf" feature="提供谷歌远程服务框架" author="谷歌" label="com.google.android.gsf">
+	</packageInfo>
+	<packageInfo package="com.google.android.printservice.recommendation" feature="提供 Google 打印服务" author="谷歌" label="com.google.android.printservice.recommendation">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.chr" feature="通信协议可维可测apk，用于检测异常，收集异常关键信息等。" author="荣耀终端有限公司" label="com.hihonor.android.chr">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.clone" feature="一键将旧设备中的联系人、照片、视频、应用等数据迁移至荣耀新设备，轻松换机。" author="荣耀终端有限公司" label="com.hihonor.android.clone">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.FloatTasks" feature="为用户提供快捷操作、能快速进入主屏幕、回退、最近任务。" author="荣耀终端有限公司" label="com.hihonor.android.FloatTasks">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.magicx.media.audioengine" feature="提供荣耀音频特性开放功能" author="荣耀终端有限公司" label="com.hihonor.android.magicx.media.audioengine">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.mirrorshare" feature="无线投屏支持屏幕镜像无线投射功能。" author="荣耀终端有限公司" label="com.hihonor.android.mirrorshare">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.totemweather" feature="天气预报" author="荣耀终端有限公司" label="com.hihonor.android.totemweather">
+	</packageInfo>
+	<packageInfo package="com.hihonor.android.wfdft" feature="WLAN 直连可支持荣耀设备之间数据传输。" author="荣耀终端有限公司" label="com.hihonor.android.wfdft">
+	</packageInfo>
+	<packageInfo package="com.hihonor.assetsync" feature="负责同账号下在完全可信设备间安全同步高敏感加密数据。" author="荣耀终端有限公司" label="com.hihonor.assetsync">
+	</packageInfo>
+	<packageInfo package="com.hihonor.assetsyncservice" feature="负责监控高敏感加密数据的变化，通知关键资产同步应用监控数据变化，触发对应的数据同步。" author="荣耀终端有限公司" label="com.hihonor.assetsyncservice">
+	</packageInfo>
+	<packageInfo package="com.hihonor.audioaccessorymanager" feature="手机蓝牙设置项显示耳机等音频配件设置" author="荣耀终端有限公司" label="com.hihonor.audioaccessorymanager">
+	</packageInfo>
+	<packageInfo package="com.hihonor.autoinstallapkfrommcc" feature="随卡安装服务" author="荣耀终端有限公司" label="com.hihonor.autoinstallapkfrommcc">
+	</packageInfo>
+	<packageInfo package="com.hihonor.behaviorauth" feature="由bot虚假用户检测数据采集服务调用，传入触屏等数据后对数据进行融合、比对，计算分支从而判断当前用户是否为bot虚假用户。" author="荣耀终端有限公司" label="com.hihonor.behaviorauth">
+	</packageInfo>
+	<packageInfo package="com.hihonor.bluetooth" feature="蓝牙导入基于蓝牙的一种 pbapclient 端的实现，可以实现手机通过蓝牙导入联系人的操作。" author="荣耀终端有限公司" label="com.hihonor.bluetooth">
+	</packageInfo>
+	<packageInfo package="com.hihonor.browserhomepage" feature="提供浏览器主页定制信息" author="荣耀终端有限公司" label="com.hihonor.browserhomepage">
+	</packageInfo>
+	<packageInfo package="com.hihonor.calendar" feature="查看日期，日程信息，显示地理位置、天气信息。" author="荣耀终端有限公司" label="com.hihonor.calendar">
+	</packageInfo>
+	<packageInfo package="com.hihonor.carrierlocation" feature="控制运营商发起NI业务获取用户位置的权限。" author="荣耀终端有限公司" label="com.hihonor.carrierlocation">
+	</packageInfo>
+	<packageInfo package="com.hihonor.coauthservice" feature="将分布式系统内的认证资源整合后进行协同调度，提供对用户的分布式协同认证框架功能。" author="荣耀终端有限公司" label="com.hihonor.coauthservice">
+	</packageInfo>
+	<packageInfo package="com.hihonor.collectcenter" feature="提供全局收藏功能，提供一套可实现跨设备、跨应用，多类型（图片、文本、音频、视频、网页、文档），多实例的信息收集、暂存、调用、整理和归档输出解决方案。" author="荣耀终端有限公司" label="com.hihonor.collectcenter">
+	</packageInfo>
+	<packageInfo package="com.hihonor.contactscamcard" feature="联系人扫名片入口，在联系人界面可打开扫名片通过扫名片添加联系人。" author="荣耀终端有限公司" label="com.hihonor.contactscamcard">
+	</packageInfo>
+	<packageInfo package="com.hihonor.contacts" feature="联系人信息查看与编辑入口，可切换到电话页面进行拨号和查看通话记录。" author="荣耀终端有限公司" label="com.hihonor.contacts">
+	</packageInfo>
+	<packageInfo package="com.hihonor.contacts.sync" feature="联系人云同步。此应用用于支持设备与云服务之间的联系人同步业务。" author="荣耀终端有限公司" label="com.hihonor.contacts.sync">
+	</packageInfo>
+	<packageInfo package="com.hihonor.controlcenter" feature="多设备控制中心，更方便快速的管理、连接已信任的多种设备。" author="荣耀终端有限公司" label="com.hihonor.controlcenter">
+	</packageInfo>
+	<packageInfo package="com.hihonor.cooperatedconfig" feature="协同配置管理，使用手机靠近发现功能，可以快速进行设备之间的协同：如使用手机扫码协同设备的二维码、以便设备快速登录荣耀账号。" author="荣耀终端有限公司" label="com.hihonor.cooperatedconfig">
+	</packageInfo>
+	<packageInfo package="com.hihonor.crossdeviceserviceshare" feature="基于MagicRing 信任环，为用户提供跨设备硬件资源共享和软件服务共享能力" author="荣耀终端有限公司" label="com.hihonor.crossdeviceserviceshare">
+	</packageInfo>
+	<packageInfo package="com.hihonor.ddmp" feature="数据协同服务应用，提供跨设备访问文件和数据库的能力。" author="荣耀终端有限公司" label="com.hihonor.ddmp">
+	</packageInfo>
+	<packageInfo package="com.hihonor.deskclock" feature="提供闹钟功能。" author="荣耀终端有限公司" label="com.hihonor.deskclock">
+	</packageInfo>
+	<packageInfo package="com.hihonor.desktop.explorer" feature="文件管理应用，在手机或平板的电脑模式下用于管理大屏文件，支持浏览、打开、删除、复制、粘贴文件" author="荣耀终端有限公司" label="com.hihonor.desktop.explorer">
+	</packageInfo>
+	<packageInfo package="com.hihonor.detectrepair" feature="手机软硬件功能检测软件" author="荣耀终端有限公司" label="com.hihonor.detectrepair">
+	</packageInfo>
+	<packageInfo package="com.hihonor.dmsdp" feature="分布式综合感知平台，构建跨形态的全面能力互通，打造以手机为中心的设备自动匹配发现接入、分布式虚拟化服务、全方位自然感知交互、综合管理控制的基础能力，作为统一平台化能力供给上层业务使用，同时提供分布式综合感知端侧API供三方应用及设备快速接入。" author="荣耀终端有限公司" label="com.hihonor.dmsdp">
+	</packageInfo>
+	<packageInfo package="com.hihonor.email" feature="协助实现手机上简洁高效地管理各类邮箱，支持收发邮件，同步联系人、日历。" author="荣耀终端有限公司" label="com.hihonor.email">
+	</packageInfo>
+	<packageInfo package="com.hihonor.featurelayer.sharedfeature.stylus" feature="手写笔服务，为应用提供手写笔相关的基础能力，如手写笔迹识别、多种笔刷效果、书写轨迹预测等。" author="荣耀终端有限公司" label="com.hihonor.featurelayer.sharedfeature.stylus">
+	</packageInfo>
+	<packageInfo package="com.hihonor.filemanager" feature="文件管理器是为用户精心打造的一款功能强大，使用便捷的文件管理工具。能够帮助查找和管理手机中图片、音频、视频、文档、压缩包、安装包等文件，以及支持查找和管理手机内部存储、SD卡、外接U盘等外接存储设备的数据。" author="荣耀终端有限公司" label="com.hihonor.filemanager">
+	</packageInfo>
+	<packageInfo package="com.hihonor.handoff" feature="荣耀近场数据传输能力和荣耀AI调度能力，为用户提供便捷的相同系统账号下的不同设备的应用进行应用状态和应用数据的同步和流转。" author="荣耀终端有限公司" label="com.hihonor.handoff">
+	</packageInfo>
+	<packageInfo package="com.hihonor.hiview" feature="日志引擎，采集和统计您手机端的故障信息用于问题诊断和分析，以便为您提供更好的手机产品。" author="荣耀终端有限公司" label="com.hihonor.hiview">
+	</packageInfo>
+	<packageInfo package="com.hihonor.hiviewtunnel" feature="日志引擎上传模块，将日志引擎采集和统计的故障数据上传分析，以便清晰明了地了解和解决手机故障。" author="荣耀终端有限公司" label="com.hihonor.hiviewtunnel">
+	</packageInfo>
+	<packageInfo package="com.hihonor.hnmusicplayer" feature="本地音频播放器，提供音频文件播放能力" author="荣耀终端有限公司" label="com.hihonor.hnmusicplayer">
+	</packageInfo>
+	<packageInfo package="com.hihonor.hnvideoplayer" feature="本地视频播放器，提供视频文件播放能力" author="荣耀终端有限公司" label="com.hihonor.hnvideoplayer">
+	</packageInfo>
+	<packageInfo package="com.hihonor.iaware" feature="协助管理手机系统资源，提升手机性能" author="荣耀终端有限公司" label="com.hihonor.iaware">
+	</packageInfo>
+	<packageInfo package="com.hihonor.iconnect" feature="支持穿戴设备互联，提供如下功能：扫描发现穿戴设备后进行连接提醒、下载或打开对应应用、穿戴设备间因为距离太远断开连接后快速重新连接。" author="荣耀终端有限公司" label="com.hihonor.iconnect">
+	</packageInfo>
+	<packageInfo package="com.hihonor.id" feature="HONOR ID provides account services for Honor terminal users, and users can access all Honor cloud services with the Honor ID." author="Honor Device Co. Ltd" label="com.hihonor.id">
+	</packageInfo>
+	<packageInfo package="com.hihonor.koBackup" feature="您可以通过备份应用备份设备上的个人数据 (如联系人、信息、通话记录)、应用数据或多媒体数据，避免系统升级、刷机后数据丢失。" author="荣耀终端有限公司" label="com.hihonor.koBackup">
+	</packageInfo>
+	<packageInfo package="com.hihonor.lbs" feature="提供智能定位服务。" author="荣耀终端有限公司" label="com.hihonor.lbs">
+	</packageInfo>
+	<packageInfo package="com.hihonor.lens" feature="提供智能抠图、识物、购物、文字提取 (Magic 文本) 、扫码、智能识别、翻译、文档扫描、表格提取、试卷还原、卡证扫描、隐私打码、双指按压识屏功能" author="荣耀终端有限公司" label="com.hihonor.lens">
+	</packageInfo>
+	<packageInfo package="com.hihonor.mcs.media.avfoundation" feature="音视频播放引擎，提供媒体基础服务能力" author="荣耀终端有限公司" label="com.hihonor.mcs.media.avfoundation">
+	</packageInfo>
+	<packageInfo package="com.hihonor.mirror" feature="荣耀原生镜子应用。" author="荣耀终端有限公司" use-permission="荣耀原生镜子应用。" label="com.hihonor.mirror">
+	</packageInfo>
+	<packageInfo package="com.hihonor.nearby" feature="为HonorShare、iConnect等多个应用提供设备发现连接组网传输等功能" author="荣耀终端有限公司" label="com.hihonor.nearby">
+	</packageInfo>
+	<packageInfo package="com.hihonor.notepad" feature="协助进行事物分类和管理" author="荣耀终端有限公司" label="com.hihonor.notepad">
+	</packageInfo>
+	<packageInfo package="com.hihonor.ouc" feature="提供系统升级服务。" author="荣耀终端有限公司" label="com.hihonor.ouc">
+	</packageInfo>
+	<packageInfo package="com.hihonor.pcassistant" feature="支持荣耀手机与荣耀设备的各种碰一碰业务：     1.手机与笔记本、平板、大屏、音箱、手表通过无线连接绑定；     2.支持手机与笔记本或平板之间进行多屏协同、照片、音乐和视频同步；     3.支持与大屏的一碰投屏、照片和视频同步；     4.支持与音箱一碰传音；     5.支持与手表的一碰传表盘" author="荣耀终端有限公司" label="com.hihonor.pcassistant">
+	</packageInfo>
+	<packageInfo package="com.hihonor.phoneservice" feature="我的荣耀是荣耀为消费者提供的售后服务的软件，包括产品使用指导、智能检测、寄修服务、预约服务、服务网点查询、热线电话查询等多项服务，旨在为亿万荣耀终端用户提供优质、省心、快捷的服务。" author="荣耀终端有限公司" label="com.hihonor.phoneservice">
+	</packageInfo>
+	<packageInfo package="com.hihonor.printservice" feature="打印服务提供发现连接MOPRIA、EPSON和蓝牙打印机，实现文档和图片的打印功能" author="荣耀终端有限公司" label="com.hihonor.printservice">
+	</packageInfo>
+	<packageInfo package="com.hihonor.remotepassword" feature="提供跨设备认证用户设置的锁屏密码的功能。" author="荣耀终端有限公司" label="com.hihonor.remotepassword">
+	</packageInfo>
+	<packageInfo package="com.hihonor.searchservice" feature="融合搜索服务，统一管理应用、文件数据索引，提供端侧全文搜索能力。" author="荣耀终端有限公司" label="com.hihonor.searchservice">
+	</packageInfo>
+	<packageInfo package="com.hihonor.securitypluginbase" feature="安全插件管理服务，用于管理安全特性相关的插件，主要负责AI病毒查杀、普通病毒查杀等三方安全插件的下载、更新、加载、卸载及控制。" author="荣耀终端有限公司" label="com.hihonor.securitypluginbase">
+	</packageInfo>
+	<packageInfo package="com.hihonor.soundrecorder" author="荣耀终端有限公司" feature="提供录音功能。" label="com.hihonor.soundrecorder">
+	</packageInfo>
+	<packageInfo package="com.hihonor.synergy" label="com.hihonor.synergy" author="荣耀终端有限公司" feature="荣耀消息同步应用，可以帮您将手机端的通知、短信、来电、闹钟、情景智能等消息同步到您的穿戴设备上，让您无须解锁手机，即可知道消息内容。除此之外，您还可以通过穿戴设备对手机进行电话、闹钟、拍照或找手机等操作，帮助您更加便捷的使用和控制手机。">
+	</packageInfo>
+	<packageInfo package="com.hihonor.tips" feature="玩机技巧为您提供手机亮点功能介绍以及用户手册，让您快速了解手机精彩功能，并获取操作技巧和使用指导。" author="荣耀终端有限公司" label="com.hihonor.tips">
+	</packageInfo>
+	<packageInfo package="com.hihonor.videoeditor" label="视频编辑" feature="提供视频的裁剪、转换分辨率保存等功能，主要为图库、视频两个模块提供视频处理。" author="荣耀终端有限公司" use-permission="存储内容,网络通信">
+	</packageInfo>
+	<packageInfo package="com.hihonor.virtualinput" feature="键鼠共享，平板、笔记本电脑的键盘、鼠标、触控板可在多设备间共享使用，内容可跨系统传输" author="荣耀终端有限公司" label="com.hihonor.virtualinput">
+	</packageInfo>
+	<packageInfo package="com.microsoft.appmanager" feature="链接Android手机和电脑，以查看和回复信息，拨打和接听电话以及执行更多操作。" author="微软（中国）有限公司" label="com.microsoft.appmanager">
+	</packageInfo>
+	<packageInfo use-permission=" " author="荣耀终端有限公司" label="开机向导" feature="首次开机时、引导用户设置语言、应用使用权限、数据迁移、云服务、密码或指纹等信息。" package="com.hihonor.hnstartupguide">
+	</packageInfo>
+	<packageInfo use-permission=" " author="荣耀终端有限公司" label="荣耀杂志锁屏" feature="管理系统预置的杂志锁屏内容、提供锁屏壁纸、并提供更新和订阅功能。" package="com.hihonor.magazine">
+	</packageInfo>
+	<packageInfo use-permission=" " author="荣耀终端有限公司" label="荣耀桌面" feature="在桌面显示各个应用的图标、并启动登录应用。" package="com.hihonor.android.launcher">
+	</packageInfo>
+</packageList>

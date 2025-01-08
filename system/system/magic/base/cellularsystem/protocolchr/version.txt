@@ -1,0 +1,6 @@
+version=1.10.23.101
+type=ProtocolCHR
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=PH.GENC.1.10.23.101

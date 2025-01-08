@@ -1,0 +1,17 @@
+on boot
+    chown system system /dev/sw_sync
+    chown system system /sys/devices/virtual/misc/sw_sync/sw_sync_info
+    chmod 700 /dev/sw_sync
+    chmod 700 /sys/devices/virtual/misc/sw_sync/sw_sync_info
+service surfaceflinger /system/bin/surfaceflinger
+    class core animation
+    user system
+    group graphics drmrpc readproc
+    capabilities SYS_NICE
+    onrestart restart rendercomposer
+    onrestart restart --only-if-running zygote
+    onrestart restart AGPService
+    socket pdx/system/vr/display/client     stream 0666 system graphics u:object_r:pdx_display_client_endpoint_socket:s0
+    socket pdx/system/vr/display/manager    stream 0666 system graphics u:object_r:pdx_display_manager_endpoint_socket:s0
+    socket pdx/system/vr/display/vsync      stream 0666 system graphics u:object_r:pdx_display_vsync_endpoint_socket:s0
+    critical

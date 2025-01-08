@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<switches>
+  <!--开关属性配置说明：id：开关的唯一id，default：开关默认状态，两位表示，个位表示beta版本的状态，十位表示商用版本的状态，0为关闭，1位开启，如：11表示，beta和商用版本都默认开启，01表示商用版本		默认关闭，beta默认开启magicui字段支持两种格式的选择，表示如：单个版本"6.0.0|7.0.0|8.0.0" 和“7.1.0及以后版本”-》">=7.1.0"-->
+  <!--broadcast广播类控制开关-->
+  <switchItem id="comm_modem" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="通信日志开关" description="通信日志开关"/>
+    <namePara language="en" title="Communication log" description="communication log"/>
+    <switchOnPara intentName="com.hihonor.lcagent.MODEM_SWITCH_ON" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.mdlog.MdlogReceiver" intentFlag="10000000">
+      <extraPara key="logswitch_timeout" value="1" type="int"/>
+      <extraPara key="opentype" value="1" type="int"/>
+      <extraPara key="num" value="6" type="int"/>
+      <extraPara key="size" value="50" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.lcagent.MODEM_SWITCH_OFF" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.mdlog.MdlogReceiver" intentFlag="">
+      <extraPara key="opentype" value="1" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="app_smslog" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="短信应用日志开关" description="短信应用日志"/>
+    <namePara language="en" title="sms application logs" description="sms logs"/>
+    <switchOnPara intentName="com.hihonor.application.logCollect" intentPermission="com.hihonor.application.permission.logCollect" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="switch" value="1" type="int"/>
+      <extraPara key="logswitch_timeout" value="1" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.application.logCollect" intentPermission="com.hihonor.application.permission.logCollect" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="switch" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="reliablity_ssrdump" type="broadcast" permission="system" platform="QCOM" magicui=">=7.1.0" default="00">
+    <namePara language="cn" title="可靠性ssrdump日志开关" description="可靠性ssrdump转fulldump日志"/>
+    <namePara language="en" title="stability ssrdump" description="stability ssrdump convert to fulldump log"/>
+    <switchOnPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="" intentFlag="">
+      <extraPara key="module_id" value="30006" type="int"/>
+      <extraPara key="ssr_reason" value="err_inject_crash.c:411,test.c:411" type="string-list"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="" intentFlag="">
+      <extraPara key="module_id" value="30006" type="int"/>
+      <extraPara key="ssr_reason" value="" type="string-list"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="systemui_heaptrack" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="00">
+    <namePara language="cn" title="SystemUI内存监控开关" description="SystemUI内存监控开关"/>
+    <namePara language="en" title="systemUI heap tracking" description="systemUI heap tracking"/>
+    <switchOnPara intentName="com.android.systemui.action.HEAP_TRACKING" intentPermission="com.android.systemui.permission.HEAP_TRACKING" intentPkgName="com.android.systemui" intentClassName="" intentFlag="">
+      <extraPara key="switch" value="1" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.android.systemui.action.HEAP_TRACKING" intentPermission="com.android.systemui.permission.HEAP_TRACKING" intentPkgName="com.android.systemui" intentClassName="" intentFlag="">
+      <extraPara key="switch" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="msdp_dmd_offscreen_report" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="00">
+    <namePara language="cn" title="MSDP DMD灭屏打印开关" description="打开/关闭灭屏时DMD log打印功能"/>
+    <namePara language="en" title="MSDP_DMD_offscreen_report_switch" description="turn on/off DMD log printing in screen-off state"/>
+    <switchOnPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="5" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="6" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="msdp_ar_refill" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="00">
+    <namePara language="cn" title="MSDP AR 数据回灌开关" description="打开/关闭AR的数据回灌功能"/>
+    <namePara language="en" title="MSDP_AR_data_refill_switch" description="turn on/off AR data refill feature"/>
+    <switchOnPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="7" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="8" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="msdp_motion_refill" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="00">
+    <namePara language="cn" title="MSDP motion 数据回灌开关" description="打开/关闭motion数据回灌功能"/>
+    <namePara language="en" title="MSDP_motion_data_refill_switch" description="turn on/off motion data refill feature"/>
+    <switchOnPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="9" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="10" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="satellite_voice_switch" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="00">
+    <namePara language="cn" title="卫星通信语音日志开关" description="授权抓取语音日志"/>
+    <namePara language="en" title="the voice log switch of satellite communication " description="authorize to capture voice logs"/>
+    <switchOnPara intentName="com.hihonor.lcagent.SATELLITE_VOICE_SWITCH" intentPermission="com.hihonor.android.permission.SATELLITE_VOICE_SWITCH" intentPkgName="com.hihonor.systemserver" intentClassName="" intentFlag="">
+      <extraPara key="VOICE_SWITCH_KEY" value="1" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.lcagent.SATELLITE_VOICE_SWITCH" intentPermission="com.hihonor.android.permission.SATELLITE_VOICE_SWITCH" intentPkgName="com.hihonor.systemserver" intentClassName="" intentFlag="">
+      <extraPara key="VOICE_SWITCH_KEY" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="tcpdump" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="Tcpdump日志开关" description="tcpdump日志开关"/>
+    <namePara language="en" title="Tcpdump log" description="Tcpdump log switch"/>
+    <switchOnPara intentName="com.hihonor.lcagent.TCPDUMP" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="" intentClassName="com.hihonor.lcagent.service.receiver.LogCollectReceiver" intentFlag="">
+      <extraPara key="status" value="1" type="int"/>
+      <extraPara key="cmd" value="tcpdump -s 92 -i any -C 15 -W 5 -w data/log/tcpdump/commercial_tcpdump.pcap  ether proto 0x86dd or 0x0800" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.lcagent.TCPDUMP" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="" intentClassName="com.hihonor.lcagent.service.receiver.LogCollectReceiver" intentFlag="">
+      <extraPara key="status" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="feedback_modem" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01" associateId="">
+    <namePara language="cn" title="自反馈通讯信息开关" description="打开/关闭自反馈通讯信息开关"/>
+    <namePara language="en" title="User Feedback Communication log" description="user communication log switch"/>
+    <switchOnPara intentName="com.hihonor.lcagent.MODEM_SWITCH_ON" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.mdlog.MdlogReceiver" intentFlag="10000000">
+      <extraPara key="opentype" value="7" type="int"/>
+      <extraPara key="num" value="20" type="int"/>
+      <extraPara key="size" value="50" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.lcagent.MODEM_SWITCH_OFF" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.mdlog.MdlogReceiver" intentFlag="">
+      <extraPara key="opentype" value="7" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="no_network_transfer_save_log_notify" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="商用日志自动转储" description="信号问题"/>
+    <namePara language="en" title="commercial transfer save log" description="signal problem"/>
+    <switchOnPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="1" type="int"/>
+      <extraPara key="json_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_no_network/ChrLogConfig.json" type="string"/>
+      <extraPara key="db_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_no_network/chr_log_manager.db"  type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="call_fail_transfer_save_log_notify" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="商用日志自动转储" description="主被叫失败/掉话"/>
+    <namePara language="en" title="commercial transfer save log" description="caller failed/call dropped"/>
+    <switchOnPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="1" type="int"/>
+      <extraPara key="json_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_call_fail/ChrLogConfig.json" type="string"/>
+      <extraPara key="db_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_call_fail/chr_log_manager.db" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="voice_quality_transfer_save_log_notify" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="商用日志自动转储" description="语音质量问题"/>
+    <namePara language="en" title="commercial transfer save log" description="voice quality issues"/>
+    <switchOnPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="1" type="int"/>
+      <extraPara key="json_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_voice_quality/ChrLogConfig.json" type="string"/>
+      <extraPara key="db_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_voice_quality/chr_log_manager.db" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="network_fail_transfer_save_log_notify" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="商用日志自动转储" description="无法上网/上网慢"/>
+    <namePara language="en" title="commercial transfer save log" description="unable to access the Internet/slow Internet access"/>
+    <switchOnPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="1" type="int"/>
+      <extraPara key="json_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_network_fail/ChrLogConfig.json" type="string"/>
+      <extraPara key="db_cfg_path" value="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_network_fail/chr_log_manager.db" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.android.chr.action.ACTION_REPORT_CHR" intentPermission="com.hihonor.android.permission.GET_CHR_DATA" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.android.chr.ChrReportReceiver" intentFlag="">
+      <extraPara key="module_id" value="30007" type="int"/>
+      <extraPara key="switch_type" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <!--file文件类控制开关-->
+  <switchItem id="subsys_script_download" type="file" permission="system" platform="QCOM" magicui=">=7.2.0" default="00" associateId="subsys_script_en">
+    <namePara language="cn" title="可靠性dsl dcc ssr2fulldump  ftrace 脚本下载" description="可靠性dcc ssr转fulldump ftrace 脚本下载"/>
+    <namePara language="en" title="push stability dcc ssr2fulldump ftrace shell to phone" description="push stability dcc ssr2fulldump ftrace shell to phone"/>
+    <switchOnPara accessId="com.hihonor.hiview_dsl_dcc" fileName="dsl_sh_main_phone_signer.zip" dir="/data/log/dslscript/dsl_agent" filterPara="&quot;&quot;" verifyId="com.hihonor.hiview_dsl_verify" verifyName="dsl_phone_public_key.zip"/>
+    <switchOffPara operation="delete" dir="/data/log/dslscript/dsl_agent"/>
+  </switchItem>
+  <switchItem id="resources_cfg_log" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=8.0.0" default="00" associateId="">
+    <namePara language="cn" title="资源日志开关" description="资源类问题日志开关。 打开该开关后，日志打印很多，可能会造成卡顿等问题。 请勿私自打开！！！ 如不慎打开，请先关闭该页面的开关后重启手机！！！"/>
+    <namePara language="en" title="enable resources log" description="Capture resource logs"/>
+    <switchOnPara intentName="hihonor.android.betaclub.intent.action.CFG_UPDATED" intentPermission="hihonor.permission.RECEIVE_BETACLUB_UPDATERES" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="logswitch_enable" value="1" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="hihonor.android.betaclub.intent.action.CFG_UPDATED" intentPermission="hihonor.permission.RECEIVE_BETACLUB_UPDATERES" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="logswitch_enable" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="msdp_motion_trigger_dump" type="broadcast" permission="system" platform="QCOM" magicui=">=7.2.0" default="00" associateId="" domain="" defaultTimeout="4320">
+    <namePara language="cn" title="MSDP motion 触发dump功能" description="该开关用以触发dump定位问题，请勿随意开启。开关打开后，灭屏静置2分钟，强光照射手机屏幕上部触发dump。"/>
+    <namePara language="en" title="MSDP motion trigger dump" description="This switch is used to trigger dump to position issues, please do not turn it on casually. After the switch is turned on, turn off the screen and let it stand for 2 minutes, and use strong light to illuminate the upper part of the phone screen to trigger the dump."/>
+    <switchOnPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="17" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.msdp.intent.action.DFX_SWITCH" intentPermission="com.hihonor.android.permission.WRITE_DFX_SWITCH" intentPkgName="com.hihonor.msdp" intentClassName="" intentFlag="">
+      <extraPara key="DFX_SWITCH_KEY" value="18" type="int"/>
+    </switchOffPara>
+  </switchItem>  
+  <switchItem id="basic_display_engine_logcat" type="broadcast" permission="system" platform="QCOM" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="显示引擎日志开关" description="查看护眼类、视频画质增强类、校准类相关日志"/>
+    <namePara language="en" title="display engine log switch" description="check out eye protection、Video quality enhancement、Calibration related log"/>
+    <switchOnPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="1" type="string"/>
+      <extraPara key="debugtype" value="engine" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="0" type="string"/>
+      <extraPara key="debugtype" value="engine" type="string"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="basic_display_effect_switch" type="broadcast" permission="system" platform="QCOM" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="显示效果开关" description="开关后处理显示效果"/>
+    <namePara language="en" title="display effect switch" description="switch post-processing display effect"/>
+    <switchOnPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="1" type="string"/>
+      <extraPara key="debugtype" value="effect" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="0" type="string"/>
+      <extraPara key="debugtype" value="effect" type="string"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="basic_display_dpps_logcat" type="broadcast" permission="system" platform="QCOM" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="显示领域后处理效果日志" description="查看后处理效果、LTM类相关日志"/>
+    <namePara language="en" title="display post-processing effect log" description="check out post-processing effects and LTM related logs"/>
+    <switchOnPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="1" type="string"/>
+      <extraPara key="debugtype" value="dpps" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="0" type="string"/>
+      <extraPara key="debugtype" value="dpps" type="string"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="basic_display_sspp_logcat" type="broadcast" permission="system" platform="QCOM" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="显示领域前处理效果日志" description="查看hdr类、画质增强类、色域转换类等前处理效果相关日志"/>
+    <namePara language="en" title="display pre-processing effect log" description="check out logs related to pre-processing effects such as HDR, image quality enhancement, and color gamut conversion"/>
+    <switchOnPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="1" type="string"/>
+      <extraPara key="debugtype" value="sspp" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="0" type="string"/>
+      <extraPara key="debugtype" value="sspp" type="string"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="basic_display_platform_logcat" type="broadcast" permission="system" platform="QCOM" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="显示领域所有日志" description="查看平台所有显示日志"/>
+    <namePara language="en" title="display all logs" description="check out all display logs on the platform"/>
+    <switchOnPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="1" type="string"/>
+      <extraPara key="debugtype" value="platform" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.android.server.display.switch" intentPermission="com.android.server.display.DISPLAY_DEBUG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="command" value="0" type="string"/>
+      <extraPara key="debugtype" value="platform" type="string"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="persist_inputlog_enable" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="nolog版本input日志开关" description="nolog版本input日志开关"/>
+    <namePara language="en" title="nolog version inputlog switch" description="nolog version inputlog switch"/>
+    <switchOnPara intentName="com.hihonor.action.inputlog.INPUTLOG_SWITCH_KEY" intentPermission="com.hihonor.permission.INPUTLOG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="INPUTLOG_SWITCH_KEY" value="1" type="int"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.action.inputlog.INPUTLOG_SWITCH_KEY" intentPermission="com.hihonor.permission.INPUTLOG_SWITCH" intentPkgName="" intentClassName="" intentFlag="">
+      <extraPara key="INPUTLOG_SWITCH_KEY" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="test_modem" type="broadcast" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="准入模式通信日志开关" description="准入模式通信日志开关"/>
+    <namePara language="en" title="ApproveMode Communication log" description="approvemode communication log"/>
+    <switchOnPara intentName="com.hihonor.lcagent.MODEM_SWITCH_ON" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.mdlog.MdlogReceiver" intentFlag="10000000">
+      <extraPara key="logswitch_timeout" value="1" type="int"/>
+      <extraPara key="opentype" value="0" type="int"/>
+      <extraPara key="num" value="60" type="int"/>
+      <extraPara key="size" value="50" type="int"/>
+      <extraPara key="maskPath" value="DIAG_APPROVE_MODE.cfg" type="string"/>
+    </switchOnPara>
+    <switchOffPara intentName="com.hihonor.lcagent.MODEM_SWITCH_OFF" intentPermission="android.permission.USES_HW_LOG_SERVICE" intentPkgName="com.hihonor.android.chr" intentClassName="com.hihonor.mdlog.MdlogReceiver" intentFlag="">
+      <extraPara key="opentype" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="conn_autosave_no_network" type="file" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="no_network_transfer_save_log_notify">
+    <namePara language="cn" title="信号问题" description="无信号、无4G或5G问题自动转储日志"/>
+    <namePara language="en" title="no network log auto save" description="no signal, no 4G or 5G problem"/>
+    <switchOnPara dir="/data/log/dslscript/commercial_transfer_save_log" verifyName="dsl_phone_public_key.zip" verifyId="com.hihonor.hiview_dsl_verify" filterPara="" fileName="conn_autosave_no_network_phone_signer.zip" accessId="com.hihonor.hiview_dsl_noNetworkAutosave"/>
+    <switchOffPara dir="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_no_network" operation="delete"/>
+  </switchItem>
+  <switchItem id="conn_autosave_call_fail" type="file" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="call_fail_transfer_save_log_notify">
+    <namePara language="cn" title="主被叫失败/掉话" description="无法拨打、接通电话，或通话掉话等问题自动转储日志"/>
+    <namePara language="en" title="call fail log auto save" description="unable to make or receive calls, or calls dropped"/>
+    <switchOnPara dir="/data/log/dslscript/commercial_transfer_save_log" verifyName="dsl_phone_public_key.zip" verifyId="com.hihonor.hiview_dsl_verify" filterPara="" fileName="conn_autosave_call_fail_phone_signer.zip" accessId="com.hihonor.hiview_dsl_callFailAutosave"/>
+    <switchOffPara dir="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_call_fail" operation="delete"/>
+  </switchItem>
+  <switchItem id="conn_autosave_voice_quality" type="file" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="voice_quality_transfer_save_log_notify">
+    <namePara language="cn" title="语音质量问题" description="语音无声或断续问题自动转储日志"/>
+    <namePara language="en" title="voice quality log auto save" description="silent or intermittent voice"/>
+    <switchOnPara dir="/data/log/dslscript/commercial_transfer_save_log" verifyName="dsl_phone_public_key.zip" verifyId="com.hihonor.hiview_dsl_verify" filterPara="" fileName="conn_autosave_voice_quality_phone_signer.zip" accessId="com.hihonor.hiview_dsl_voiceQualityAutosave"/>
+    <switchOffPara dir="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_voice_quality" operation="delete"/>
+  </switchItem>
+  <switchItem id="conn_autosave_network_fail" type="file" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="network_fail_transfer_save_log_notify">
+    <namePara language="cn" title="无法上网/上网慢" description="移动网络下无法上网、上网慢等问题自动转储日志"/>
+    <namePara language="en" title="network fail log auto save" description="unable to access the Internet and slow Internet access"/>
+    <switchOnPara dir="/data/log/dslscript/commercial_transfer_save_log" verifyName="dsl_phone_public_key.zip" verifyId="com.hihonor.hiview_dsl_verify" filterPara="" fileName="conn_autosave_network_fail_phone_signer.zip" accessId="com.hihonor.hiview_dsl_networkFailAutosave"/>
+    <switchOffPara dir="/data/log/dslscript/commercial_transfer_save_log/conn_autosave_network_fail" operation="delete"/>
+  </switchItem>
+  <!--service服务类控制开关-->
+  <switchItem id="power_dubai" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="功耗故障" description="功耗日志"/>
+    <namePara language="en" title="power logs" description="power logs"/>
+    <switchOnPara name="DubaiService" code="1011" token="com.hihonor.dubai.IDubaiService" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="day=4" type="string"/>
+    </switchOnPara>
+    <switchOffPara name="DubaiService" code="1013" token="com.hihonor.dubai.IDubaiService" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="" type=""/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="dmd_thplog" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="功耗故障" description="功耗日志"/>
+    <namePara language="en" title="power logs" description="power logs"/>
+    <switchOnPara name="hiview" code="3002" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="1" type="int"/>
+    </switchOnPara>
+    <switchOffPara name="hiview" code="3002" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="0" type="int"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="reliablity_faultdetect" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="可靠性故障检测" description="可靠性故障检测日志"/>
+    <namePara language="en" title="Reliablity fault detect" description="catch reliability fault detect"/>
+    <switchOnPara name="faultdetectservice" code="1" token="hiview.faultdetect.service" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="" type=""/>
+    </switchOnPara>
+    <switchOffPara name="faultdetectservice" code="2" token="hiview.faultdetect.service" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="" type=""/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="jank_systrace" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="性能" description="开启性能日志开关将抓取systrace日志"/>
+    <namePara language="en" title="Performance" description="catch systrace logs for performance issue"/>
+    <switchOnPara name="jank" code="4" token="android.os.IJankManager" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="" type=""/>
+    </switchOnPara>
+    <switchOffPara name="jank" code="5" token="android.os.IJankManager" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="" value="" type=""/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="notepad_export" type="service" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="00">
+    <namePara language="cn" title="异常笔记导出" description="用户手动操作导出异常笔记"/>
+    <namePara language="en" title="abnormal notepad export" description="abnormal notepad export"/>
+    <switchOnPara name="" code="" token="" intentName="ACTION_DIAGNOSIS" intentPkgName="com.hihonor.notepad" intentClassName="com.hihonor.notes.diagnosis.DiagnosisService">
+      <extraPara key="status" value="on" type="string"/>
+    </switchOnPara>
+    <switchOffPara name="" code="" token="" intentName="ACTION_DIAGNOSIS" intentPkgName="com.hihonor.notepad" intentClassName="com.hihonor.notes.diagnosis.DiagnosisService">
+      <extraPara key="status" value="off" type="string"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="memleak_system_server" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="system_server 内存泄漏检测" description="system_server 内存泄漏检测"/>
+    <namePara language="en" title="system_server memory leak" description="system_server memory leak"/>
+    <switchOnPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;dma_buf&quot;:{&quot;log&quot;:&quot;fd_track&quot;,&quot;stop&quot;:500000}},&quot;name&quot;:&quot;system_server&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:259200}}" type="string"/>
+      <extraPara key="stop" value="false" type="boolean"/>
+    </switchOnPara>
+    <switchOffPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;dma_buf&quot;:{&quot;log&quot;:&quot;fd_track&quot;,&quot;stop&quot;:500000}},&quot;name&quot;:&quot;system_server&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:259200}}" type="string"/>
+      <extraPara key="stop" value="true" type="boolean"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="memleak_surfaceflinger" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="surfaceflinger 内存泄漏" description="surfaceflinger 内存泄漏"/>
+    <namePara language="en" title="surfaceflinger memory leak" description="surfaceflinger memory leak"/>
+    <switchOnPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;dma_buf&quot;:{&quot;log&quot;:&quot;fd_track&quot;,&quot;stop&quot;:600000}},&quot;name&quot;:&quot;surfaceflinger&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:259200}}" type="string"/>
+      <extraPara key="stop" value="false" type="boolean"/>
+    </switchOnPara>
+    <switchOffPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;dma_buf&quot;:{&quot;log&quot;:&quot;fd_track&quot;,&quot;stop&quot;:600000}},&quot;name&quot;:&quot;surfaceflinger&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:259200}}" type="string"/>
+      <extraPara key="stop" value="true" type="boolean"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="memleak_systemui" type="service" permission="root" platform="MTK,QCOM" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="systemui memory leak" description="systemui memory leak"/>
+    <namePara language="en" title="systemui memory leak" description="systemui memory leak"/>
+    <switchOnPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;java&quot;:{&quot;log&quot;:&quot;art_method_stack&quot;,&quot;stop&quot;:0},&quot;dma_buf&quot;:{&quot;log&quot;:&quot;fd_track&quot;,&quot;stop&quot;:600000}},&quot;name&quot;:&quot;com.android.systemui&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:259200}}" type="string"/>
+      <extraPara key="stop" value="false" type="boolean"/>
+    </switchOnPara>
+    <switchOffPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;java&quot;:{&quot;log&quot;:&quot;art_method_stack&quot;,&quot;stop&quot;:0},&quot;dma_buf&quot;:{&quot;log&quot;:&quot;fd_track&quot;,&quot;stop&quot;:600000}},&quot;name&quot;:&quot;com.android.systemui&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:259200}}" type="string"/>
+      <extraPara key="stop" value="true" type="boolean"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="nas_back_restore_oom" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="00" associateId="">
+    <namePara language="cn" title="NAS恢复数据场景systemserver内存泄漏" description="NAS恢复数据场景systemserver内存泄漏"/>
+    <namePara language="en" title="memleak_systemserver_logcat" description="memleak_systemserver_logcat"/>
+    <switchOnPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;java&quot;:{&quot;log&quot;:&quot;hprof&quot;,&quot;stop&quot;:327680}},&quot;name&quot;:&quot;com.hihonor.systemserver&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:172800}}" type="string"/>
+      <extraPara key="stop" value="false" type="boolean"/>
+    </switchOnPara>
+    <switchOffPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;java&quot;:{&quot;log&quot;:&quot;hprof&quot;,&quot;stop&quot;:327680}},&quot;name&quot;:&quot;com.hihonor.systemserver&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:172800}}" type="string"/>
+      <extraPara key="stop" value="true" type="boolean"/>
+    </switchOffPara>
+  </switchItem>
+  <switchItem id="photo_memleak_logcat" type="service" permission="root" platform="QCOM,MTK" magicui=">=7.1.0" default="" associateId="">
+    <namePara language="cn" title="图库内存泄漏抓栈配置" description="图库内存泄漏抓栈配置"/>
+    <namePara language="en" title="photo_memleak_logcat" description="photo_memleak_logcat"/>
+    <switchOnPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;native&quot;:{&quot;log&quot;:&quot;malloc_stack&quot;,&quot;stop&quot;:1572864},&quot;java&quot;:{&quot;log&quot;:&quot;hprof&quot;,&quot;stop&quot;:0}},&quot;name&quot;:&quot;com.hihonor.photos&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:604800}}" type="string"/>
+      <extraPara key="stop" value="false" type="boolean"/>
+    </switchOnPara>
+    <switchOffPara name="hiview" code="8" token="android.os.IHiview" intentName="" intentPkgName="" intentClassName="">
+      <extraPara key="resourcetype" value="2" type="int"/>
+      <extraPara key="memoryconfig" value="{&quot;target&quot;:{&quot;log_collect_param&quot;:{&quot;native&quot;:{&quot;log&quot;:&quot;malloc_stack&quot;,&quot;stop&quot;:1572864},&quot;java&quot;:{&quot;log&quot;:&quot;hprof&quot;,&quot;stop&quot;:0}},&quot;name&quot;:&quot;com.hihonor.photos&quot;,&quot;retry_times&quot;:3,&quot;timeout&quot;:604800}}" type="string"/>
+      <extraPara key="stop" value="true" type="boolean"/>
+    </switchOffPara>
+  </switchItem>
+  <!--property属性类控制开关-->
+  <switchItem id="video_tracelog" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="00" associateId="" domain="" defaultTimeout="">
+    <namePara language="cn" title="打开video 维测" description="视频类问题(比如卡顿，黑屏等)增加的维测日志开关。打开开关后，在视频播放，录制等场景下会频繁打印，可能会造成卡顿问题。请勿私自打开！！！ 如不慎打开，请先关闭该页面的开关后再操作视频类业务！！！"/>
+    <namePara language="en" title="open video tracelog" description="open video tracelog"/>
+    <switchOnPara key="debug.tracelog.enable" value="true"/>
+    <switchOffPara key="debug.tracelog.enable" value="false"/>
+  </switchItem>
+  <switchItem id="basic_applogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01" associateId="">
+    <namePara language="cn" title="applogcat" description="android基础日志"/>
+    <namePara language="en" title="applogcat" description="applogcat basic logs"/>
+    <switchOnPara key="ctl.start" value="applogcat"/>
+    <switchOffPara key="ctl.stop" value="applogcat"/>
+  </switchItem>
+  <switchItem id="basic_kmsglogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="kmsglogcat" description="android基础日志"/>
+    <namePara language="en" title="kmsglogcat" description="kmsglogcat basic logs"/>
+    <switchOnPara key="ctl.start" value="kmsglogcat"/>
+    <switchOffPara key="ctl.stop" value="kmsglogcat"/>
+  </switchItem>
+  <switchItem id="basic_rillogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="rillogcat" description="android基础日志"/>
+    <namePara language="en" title="rillogcat" description="rillogcat basic logs"/>
+    <switchOnPara key="ctl.start" value="rillogcat"/>
+    <switchOffPara key="ctl.stop" value="rillogcat"/>
+  </switchItem>
+  <switchItem id="basic_sleeplogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="sleeplogcat" description="android基础日志"/>
+    <namePara language="en" title="sleeplogcat" description="sleeplogcat basic logs"/>
+    <switchOnPara key="ctl.start" value="sleeplogcat"/>
+    <switchOffPara key="ctl.stop" value="sleeplogcat"/>
+  </switchItem>
+  <switchItem id="basic_chargelogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="chargelogcat" description="android基础日志"/>
+    <namePara language="en" title="chargelogcat" description="chargelogcat basic logs"/>
+    <switchOnPara key="ctl.start" value="chargelogcat"/>
+    <switchOffPara key="ctl.stop" value="chargelogcat"/>
+  </switchItem>
+  <switchItem id="basic_eventslogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="eventslogcat" description="android基础日志"/>
+    <namePara language="en" title="eventslogcat" description="eventslogcat basic logs"/>
+    <switchOnPara key="ctl.start" value="eventslogcat"/>
+    <switchOffPara key="ctl.stop" value="eventslogcat"/>
+  </switchItem>
+  <switchItem id="basic_sensorhub" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="shlogd" description="sensor hub logs"/>
+    <namePara language="en" title="shlogd" description="sensor hub logs"/>
+    <switchOnPara key="ctl.start" value="shlogd"/>
+    <switchOffPara key="ctl.stop" value="shlogd"/>
+  </switchItem>
+  <switchItem id="basic_teeos" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="teelogcat" description="teelogcat logs"/>
+    <namePara language="en" title="teelogcat" description="teelogcat logs"/>
+    <switchOnPara key="ctl.start" value="teelogcat"/>
+    <switchOffPara key="ctl.stop" value="teelogcat"/>
+  </switchItem>
+  <switchItem id="basic_isplogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="isplogcat" description="isplogcat logs"/>
+    <namePara language="en" title="isplogcat" description="isplogcat logs"/>
+    <switchOnPara key="ctl.start" value="isplogcat"/>
+    <switchOffPara key="ctl.stop" value="isplogcat"/>
+  </switchItem>
+  <switchItem id="basic_hilog" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="hilog" description="hilog basic logs"/>
+    <namePara language="en" title="hilog" description="hilog basic logs"/>
+    <switchOnPara key="ctl.start" value="hilog"/>
+    <switchOffPara key="ctl.stop" value="hilog"/>
+  </switchItem>
+  <switchItem id="basic_hiapplogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="基础日志hiapplogcat" description="基础日志"/>
+    <namePara language="en" title="basic hiapplogcat" description="hiapplogcat"/>
+    <switchOnPara key="ctl.start" value="hiapplogcat"/>
+    <switchOffPara key="ctl.stop" value="hiapplogcat"/>
+  </switchItem>
+  <switchItem id="persist_tag" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="设置applogcat打印级别为info" description="设置applogcat打印级别为info"/>
+    <namePara language="en" title="set applogcat tag level to info" description="set applogcat level to info"/>
+    <switchOnPara key="persist.log.tag" value="I"/>
+    <switchOffPara key="persist.log.tag" value="S"/>
+  </switchItem>
+  <switchItem id="wifi_minidump" type="property" permission="system" platform="MTK,QCOM" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="wifi日志" description="抓取wifi dump日志"/>
+    <namePara language="en" title="wifi minidump" description="catch wifi dump logs"/>
+    <switchOnPara key="persist.sys.msc.wifiminidump.on" value="true"/>
+    <switchOffPara key="persist.sys.msc.wifiminidump.on" value="false"/>
+  </switchItem>
+  <switchItem id="ncdft_gps_cnss_diag" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="GPS日志" description="GPS日志"/>
+    <namePara language="en" title="GPS log" description="GPS log"/>
+    <switchOnPara key="ctl.start" value="vendor.cnss_diag"/>
+    <switchOffPara key="ctl.stop" value="vendor.cnss_diag"/>
+  </switchItem>
+  <switchItem id="ncdft_connsyslog" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="GPS日志" description="GPS日志"/>
+    <namePara language="en" title="GPS log" description="GPS log"/>
+    <switchOnPara key="ctl.start" value="connsyslogger"/>
+    <switchOffPara key="ctl.stop" value="connsyslogger"/>
+  </switchItem>
+  <switchItem id="power_bmslog" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="功耗日志" description="功耗日志"/>
+    <namePara language="en" title="power log" description="power log"/>
+    <switchOnPara key="bms.logcat.enabled" value="1"/>
+    <switchOffPara key="bms.logcat.enabled" value="0"/>
+  </switchItem>
+  <switchItem id="bt_hci" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="01">
+    <namePara language="cn" title="hci日志" description="hci日志"/>
+    <namePara language="en" title="hci log" description="hci log"/>
+    <switchOnPara key="persist.bluetooth.btsnoopenable" value="true"/>
+    <switchOffPara key="persist.bluetooth.btsnoopenable" value="false"/>
+  </switchItem>
+  <switchItem id="limit_applogcat" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="00">
+    <namePara language="cn" title="关闭applogcat日志限流" description="关闭applogcat日志限流"/>
+    <namePara language="en" title="applogcat unlimited" description="applogcat unlimited"/>
+    <switchOnPara key="persist.log.tag" value="M"/>
+    <switchOffPara key="persist.log.tag" value="I"/>
+  </switchItem>
+  <switchItem id="limit_hilog" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="00">
+    <namePara language="cn" title="关闭hilog日志限流" description="关闭hilog日志限流"/>
+    <namePara language="en" title="hilog unlimited" description="hilog unlimited"/>
+    <switchOnPara key="persist.sys.hilog.debug.on" value="true"/>
+    <switchOffPara key="persist.sys.hilog.debug.on" value="false"/>
+  </switchItem>
+  <switchItem id="subsys_script_en" type="property" permission="system" platform="QCOM" magicui=">=7.2.0" default="00" associateId="&quot;&quot;">
+    <namePara language="cn" title="运行云推子系统dcc ssr2fulldump ftrace 脚本" description="运行云推子系统dcc ssr2fulldump ftrace 脚本"/>
+    <namePara language="en" title="execute cloud push dcc ssr2fulldump ftrace shell" description="execute cloud push dcc ssr2fulldump ftrace shell"/>
+    <switchOnPara key="ctl.start" value="dsl_sh"/>
+    <switchOffPara key="ctl.stop" value="dsl_sh"/>
+  </switchItem>
+  <switchItem id="jank_trace_service" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.1.0" default="00" associateId="jank_systrace">
+    <namePara language="cn" title="设置trace服务为perfetto" description="设置trace服务为perfetto"/>
+    <namePara language="en" title="set trace service to perfetto" description="set trace service to perfetto"/>
+    <switchOnPara key="persist.hiview.performance.traceservice" value="1"/>
+    <switchOffPara key="persist.hiview.performance.traceservice" value="0"/>
+  </switchItem>
+  <switchItem id="persist_buffer_size" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="01" associateId="basic_logd_reinit">
+    <namePara language="cn" title="applogcat日志缓冲区设置为16M" description="applogcat日志缓冲区设置为16M"/>
+    <namePara language="en" title="set applogcat buffer size to 16M" description="set applogcat buffer size to 16M"/>
+    <switchOnPara key="persist.logd.size" value="16M"/>
+    <switchOffPara key="persist.logd.size" value="256K"/>
+  </switchItem>
+  <switchItem id="persist_debug_on" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="日志落盘功能关闭开关" description="日志落盘功能关闭开关"/>
+    <namePara language="en" title="switch of log placement" description="switch of log placement"/>
+    <switchOnPara key="persist.sys.msc.debug.on" value="0"/>
+    <switchOffPara key="persist.sys.msc.debug.on" value="1"/>
+  </switchItem>
+  <switchItem id="hnchipsrv_debugswitch" type="property" permission="system" platform="QCOM" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="自研芯片hnchipsrv领域，远程诊断日志开关" description="芯片组件远程诊断开关，包含tt和hertz的日志及dump文件"/>
+    <namePara language="en" title="Self-developed chip in hnchipsrv field, remote diagnosis log switch" description="Chip component remote diagnosis switch, including logs and dump files of tt and hertz"/>
+    <switchOnPara key="persist.sys.hnchipsrv.debug.on" value="1"/>
+    <switchOffPara key="persist.sys.hnchipsrv.debug.on" value="0"/>
+  </switchItem>
+  <switchItem id="basic_logd_reinit" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="01" associateId="">
+    <namePara language="cn" title="logd重新初始化" description="logd重新初始化"/>
+    <namePara language="en" title="logd reinit" description="logd reinit"/>
+    <switchOnPara key="ctl.start" value="logd-reinit"/>
+    <switchOffPara key="ctl.start" value="logd-reinit"/>
+  </switchItem>
+  <switchItem id="nolog_beta_on" type="property" permission="system" platform="QCOM,MTK" magicui=">=7.2.0" default="00" associateId="">
+    <namePara language="cn" title="nolog版本提单开关" description="nolog版本提单开关"/>
+    <namePara language="en" title="nolog version questionnaire switch" description="nolog version questionnaire switch"/>
+    <switchOnPara key="persist.sys.nolog.beta.on" value="1"/>
+    <switchOffPara key="persist.sys.nolog.beta.on" value="0"/>
+  </switchItem>
+</switches>

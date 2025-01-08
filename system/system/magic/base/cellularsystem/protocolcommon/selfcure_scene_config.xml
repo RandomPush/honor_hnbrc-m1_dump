@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selfCureConfig>
+    <scene elevator="0" highspeed="0" gameScene="0" punishment="-40"/> <!-- 用户场景配置值 -->
+    <config exceptionType="101" default="10" precise="1"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_PINGPONG -->
+        <recoveryAction>3</recoveryAction> <!-- 默认自愈策略 3,RECOVER_ACTION_DISABLE_SA -->
+    </config>
+    <config exceptionType="102" default="30" precise="0"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_SA_WEAK_TO_LTE -->
+        <scene gameScene="-40"/>
+        <recoveryAction>3</recoveryAction> <!-- 默认自愈策略 3,RECOVER_ACTION_DISABLE_SA -->
+    </config>
+    <config exceptionType="103" default="30" precise="0"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_SR_FAILURE_ESCAPE -->
+        <recoveryAction>3</recoveryAction> <!-- 默认自愈策略 3,RECOVER_ACTION_DISABLE_SA -->
+    </config>
+    <config exceptionType="104" default="90" precise="1"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_LOW_TECH_OR_NO_SERVICE -->
+        <recoveryAction>12</recoveryAction> <!-- 默认自愈策略 12,RECOVER_ACTION_CLEAR_ALL -->
+    </config>
+    <config exceptionType="105" default="50" precise="1"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_EXIT_ELEVATOR -->
+        <recoveryAction>2</recoveryAction> <!-- 默认自愈策略 2,RECOVER_ACTION_ENABLE_SA -->
+    </config>
+    <config exceptionType="106" default="20" precise="1"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_LTE_WEAK_TO_SA -->
+        <recoveryAction>2</recoveryAction> <!-- 默认自愈策略 2,RECOVER_ACTION_ENABLE_SA -->
+    </config>
+    <config exceptionType="201" default="30" precise="0"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+        <SubExceptionType subException="20101"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_PS_SLOW_SEVERE -->
+            <recoveryAction>2,5,1,3,8,9</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 2,RECOVER_ACTION_ENABLE_SA
+        5, RECOVER_ACTION_DISABLE_ENDC 1, RECOVER_ACTION_SET_BLACK_CELL 3, RECOVER_ACTION_DISABLE_SA
+        8, RECOVER_ACTION_REREGISTER 9,RECOVER_ACTION_RESTART_RADIO -->
+        </SubExceptionType>
+        <SubExceptionType subException="20102"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_PS_SLOW_MILD -->
+            <recoveryAction>2,5,1,3</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="202" default="70" precise="1"> <!-- 故障类型 EXCEPTION_TYPE_DATA_ACTIVATE_FAIL -->
+        <SubExceptionType subException="20201"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_SA_ABNORMAL_ENTER -->
+            <recoveryAction>3</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="20202"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_SA_ABNORMAL_EXIT -->
+            <recoveryAction>2</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="20203"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_REGISTER_ABNORMAL -->
+            <recoveryAction>8</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="20204"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_RADIO_ABNORMAL -->
+            <recoveryAction>9</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="203" default="50" precise="1"> <!-- 故障类型 EXCEPTION_TYPE_DATA_KEEP_DSDA_MODE -->
+        <SubExceptionType subException="20301"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_KEEP_DSDA_MODE_ENTER -->
+            <recoveryAction>3</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="20302"> <!-- 故障子类型 EXCEPTION_TYPE_DATA_KEEP_DSDA_MODE_EXIT -->
+            <recoveryAction>2</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="301" default="80" precise="1"> <!-- 故障类型 EXCEPTION_TYPE_CALL_ABNORMAL -->
+        <SubExceptionType subException="30101"> <!-- 故障子类型 EXCEPTION_TYPE_CALL_CELL_ABNORMAL -->
+            <recoveryAction>1</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="30102"> <!-- 故障子类型 EXCEPTION_TYPE_CALL_RAT_ABNORMAL -->
+            <recoveryAction>3</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="302" default="80" precise="0"> <!-- 故障类型 EXCEPTION_TYPE_CALL_VOICE_QUALITY -->
+        <recoveryAction>1</recoveryAction> <!-- 默认自愈策略 1,RECOVER_ACTION_SET_BLACK_CELL -->
+    </config>
+    <config exceptionType="303" default="50" precise="1"> <!-- 故障类型 EXCEPTION_TYPE_CALL_PROTECTION -->
+        <SubExceptionType subException="30301"> <!-- 故障子类型 EXCEPTION_TYPE_CALL_PROTECTION_START -->
+            <recoveryAction>5</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="30302"> <!-- 故障子类型 EXCEPTION_TYPE_CALL_PROTECTION_END -->
+            <recoveryAction>4</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="30303"> <!-- 故障子类型 EXCEPTION_TYPE_CALL_VOWIFI_DISABLE_SA_START -->
+            <recoveryAction>3</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="30304"> <!-- 故障子类型 EXCEPTION_TYPE_CALL_VOWIFI_DISABLE_SA_END -->
+            <recoveryAction>2</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="305" default="30" precise="0"> <!-- 故障类型 EXCEPTION_TYPE_PAGING_FAIL_BAR_CELL -->
+        <recoveryAction>1</recoveryAction> <!-- 默认自愈策略 1,RECOVER_ACTION_SET_BLACK_CELL -->
+    </config>
+    <config exceptionType="306" default="30" precise="0"> <!-- 故障类型 EXCEPTION_TYPE_PAGING_FAIL_DISABLE_SA -->
+        <recoveryAction>3</recoveryAction> <!-- 默认自愈策略 3,RECOVER_ACTION_DISABLE_SA -->
+    </config>
+    <config exceptionType="401" default="60" precise="1"> <!-- 故障类型 CELL_FENCE_ENTER -->
+        <SubExceptionType subException="40101"> <!-- 故障子类型 CELL_CALL_FENCE_ENTER -->
+            <recoveryAction>1</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+        <SubExceptionType subException="40102"> <!-- 故障子类型 CELL_DATA_FENCE_ENTER -->
+            <recoveryAction>1</recoveryAction> <!-- 根据子原因值进行自愈覆盖配置 -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="402" default="60" precise="1"> <!-- 故障类型 CELL_FENCE_EXIT -->
+        <SubExceptionType subException="40201"> <!-- 故障子类型 CELL_CALL_FENCE_EXIT -->
+            <recoveryAction>11</recoveryAction> <!-- 11,RECOVER_ACTION_CLEAR_BAD_CELL -->
+        </SubExceptionType>
+        <SubExceptionType subException="40202"> <!-- 故障子类型 CELL_DATA_FENCE_EXIT -->
+            <recoveryAction>11</recoveryAction> <!-- 11,RECOVER_ACTION_CLEAR_BAD_CELL -->
+        </SubExceptionType>
+    </config>
+    <config exceptionType="403" default="60" precise="1"> <!-- 故障类型 HIGH_SPEED_FENCE_ENTER_4G_BETTER -->
+        <recoveryAction>3</recoveryAction> <!-- 默认自愈策略 3,RECOVER_ACTION_DISABLE_SA -->
+    </config>
+    <config exceptionType="404" default="60" precise="1"> <!-- 故障类型 HIGH_SPEED_FENCE_ENTER_5G_BETTER -->
+        <recoveryAction>2</recoveryAction> <!-- 默认自愈策略 2,RECOVER_ACTION_ENABLE_SA -->
+    </config>
+    <config exceptionType="405" default="60" precise="1"> <!-- 故障类型 HIGH_SPEED_FENCE_EXIT -->
+        <recoveryAction>2</recoveryAction> <!-- 默认自愈策略 2,RECOVER_ACTION_ENABLE_SA  -->
+    </config>
+</selfCureConfig>

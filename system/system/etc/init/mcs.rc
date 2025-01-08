@@ -1,0 +1,12 @@
+service mcs /system/bin/mcs
+    class main
+    group root system radio wakelock
+    oneshot
+    disabled
+    seclabel u:r:mcs:s0
+
+on property:ro.mmi2autorun=true && property:ro.runmode=normal
+    start mcs
+
+on property:ro.start.mcs.flag=true
+    start mcs

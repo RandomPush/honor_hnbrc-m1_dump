@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wifi_enhance_config>
+  <wifi_apinfo_caller_apk_list>
+    <apk name="com.android.nfc"/>
+    <apk name="com.android.settings"/>
+  </wifi_apinfo_caller_apk_list>
+  <wifi_scan_allow_apk_list>
+    <apk name="com.sankuai.meituan.dispatch.homebrew"/>
+    <apk name="com.sankuai.meituan.dispatch.crowdsource"/>
+    <apk name="com.sankuai.meituan"/>
+    <apk name="com.hihonor.android.clone"/>
+  </wifi_scan_allow_apk_list>
+  <wifi_connect_allow_apk_list>
+    <apk name="com.hihonor.android.instantonline"/>
+    <apk name="com.hihonor.android.clone"/>
+  </wifi_connect_allow_apk_list>
+  <probe_address_list>
+    <probeaddress type="http" address="http://connectivitycheck.gstatic.com/generate_204"/>
+    <probeaddress type="https" address="https://www.google.com/generate_204"/>
+    <probeaddress type="httpfallback" address="http://developers.google.cn/generate_204"/>
+    <probeaddress type="httpsfallback" address="https://developers.google.cn/generate_204"/>
+    <probeaddress type="httpfallback2" address="http://connectivitycheck.platform.hihonorcloud.com/generate_204"/>
+    <probeaddress type="httpsfallback2" address="https://connectivitycheck.platform.hihonorcloud.com/generate_204"/>
+  </probe_address_list>
+</wifi_enhance_config>

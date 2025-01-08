@@ -1,0 +1,17 @@
+{
+	"type":"AppClipManagerService",
+	"subType":"generic",
+	"params":[
+		{
+			"name":"prop_time_list",
+			"type":"list",
+			"value":"{\"prop_time_list\":[{\"type\":\"sync_cycle\",\"value\":\"1440\"},{\"type\":\"sync_retry\",\"value\":\"240\"},{\"type\":\"aging_cycle\",\"value\":\"43200\"}]}"
+		},
+		{
+			"name":"black_product_list",
+			"type":"list",
+			"value":"{\"black_product_list\":[\"\"]}"
+		}
+	],
+	"compatibleversion":"1"
+}

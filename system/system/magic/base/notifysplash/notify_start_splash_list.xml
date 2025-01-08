@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notify_start_splash_list>
+  <notifysplash name="东方财富" package="com.eastmoney.android.berlin"/>
+  <notifysplash name="网易新闻" package="com.netease.newsreader.activity"/>
+  <notifysplash name="今日头条" package="com.ss.android.article.news"/>
+  <notifysplash name="懂车帝" package="com.ss.android.auto"/>
+  <notifysplash name="百度" package="com.baidu.searchbox"/>
+  <notifysplash name="一点咨询" package="com.hipu.yidian"/>
+  <notifysplash name="哔哩哔哩" package="tv.danmaku.bili"/>
+  <notifysplash name="知乎" package="com.zhihu.android"/>
+  <notifysplash name="高德地图" package="com.autonavi.minimap"/>
+  <notifysplash name="腾讯新闻" package="com.tencent.news"/>
+</notify_start_splash_list>

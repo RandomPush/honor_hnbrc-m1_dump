@@ -1,0 +1,7 @@
+service hnvisionalgoserver /system/bin/hnvisionalgoserver
+    interface aidl honor.vision.algo
+    class main
+    user system
+    group system
+    oneshot
+    disabled

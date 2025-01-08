@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataAccelerate>
+	<!-- 进入条件:-->
+	<!-- 场景进入:0x1-->
+	<!-- 应用在前台:0x2-->
+	<!-- 网络连接中:0x10-->
+	<!-- 亮屏:0x20-->
+	<!-- 恢复条件:-->
+	<!-- 网络连接:0x10-->
+	<!-- 亮屏:0x20-->
+	<!-- 退出条件:-->
+	<!-- 场景退出:0x1-->
+	<!-- 后台退出:0x2-->
+	<!-- 定时退出:0x4-->
+	<!-- 网络断开:0x10-->
+	<!-- 灭屏:0x20-->
+	<!-- 进程被杀死:0x100-->
+	<!-- 音视频流结束:0x200-->
+	<!-- 加速动作:-->
+	<!-- 加速:0x1-->
+	<!-- 9级后台限速:0x2-->
+	<!-- 7级后台限速:0x4-->
+	<!-- UDP低时延模式:0x8-->
+	<!-- TCP低时延模式:0x10-->
+	<Scene>
+		<sceneId>1</sceneId> <!-- 场景1: 游戏场景 -->
+		<accEnter>51</accEnter> <!-- 加速/限速进入条件：0x1+0x2+0x10+0x20 -->
+		<accRecover>48</accRecover> <!-- 加速/限速恢复条件: 0x10+0x20 -->
+		<accExit>51</accExit> <!-- 加速/限速退出条件：0x1+0x2+0x10+0x20 -->
+		<accAction>11</accAction> <!-- 加速/限速执行动作：0x1+0x2+0x8 -->
+		<accSupportNetwork>1</accSupportNetwork> <!-- 加速支持网络：1：蜂窝 -->
+		<accSupportProtocolType>2</accSupportProtocolType> <!-- 加速支持的协议：1:TCP, 2:UDP, 3:TCP+UDP -->
+		<accPri>4</accPri> <!-- 场景优先级 -->
+		<accPriFgShift>0</accPriFgShift> <!-- 场景在前台的优先级偏移 -->
+		<accPriBgShift>0</accPriBgShift> <!-- 场景在后台的优先级偏移 -->
+	</Scene>
+	<Scene>
+		<sceneId>2</sceneId> <!-- 场景2: kit音视频场景 -->
+		<accEnter>17</accEnter> <!-- 加速/限速进入条件：0x1+0x10 -->
+		<accRecover>16</accRecover> <!-- 加速/限速恢复条件：0x10 -->
+		<accExit>529</accExit> <!-- 加速/限速退出条件：0x1+0x10+0x200 -->
+		<accAction>3</accAction> <!-- 加速/限速执行动作：0x1+0x2 -->
+		<accSupportNetwork>3</accSupportNetwork> <!-- 加速支持网络：1：蜂窝, 2：wifi -->
+		<accSupportProtocolType>3</accSupportProtocolType> <!-- 加速支持的协议：1:TCP, 2:UDP, 3:TCP+UDP -->
+		<accPri>2</accPri> <!-- 场景优先级 -->
+		<accPriFgShift>1</accPriFgShift> <!-- 场景在前台的优先级偏移 -->
+		<accPriBgShift>-1</accPriBgShift> <!-- 场景在后台的优先级偏移 -->
+		<kitScene>4096</kitScene> <!-- 支持kit接入的场景：4096是音频通话场景 -->
+	    <kitScene>8192</kitScene> <!-- 支持kit接入的场景：8192是视频通话场景 -->
+	</Scene>
+	<Scene>
+		<sceneId>3</sceneId> <!-- 场景3：kit普通加速 -->
+		<accEnter>19</accEnter> <!-- 加速/限速进入条件：0x1+0x2+0x10 -->
+		<accRecover>16</accRecover> <!-- 加速/限速恢复条件：0x10 -->
+		<accExit>19</accExit> <!-- 加速/限速退出条件：0x1+0x2+0x10 -->
+		<accAction>1</accAction> <!-- 加速/限速执行动作：0x01 -->
+		<accSupportNetwork>3</accSupportNetwork> <!-- 加速支持网络：1：蜂窝, 2：wifi -->
+		<accSupportProtocolType>3</accSupportProtocolType> <!-- 加速支持的协议：1:TCP, 2:UDP, 3:TCP+UDP -->
+		<accPri>2</accPri> <!-- 场景优先级 -->
+		<accPriFgShift>1</accPriFgShift> <!-- 场景在前台的优先级偏移 -->
+		<accPriBgShift>-1</accPriBgShift> <!-- 场景在后台的优先级偏移 -->
+	</Scene>
+	<Scene>
+		<sceneId>4</sceneId> <!-- 场景4：短期加速-->
+		<accEnter>17</accEnter> <!-- 加速/限速进入条件：0x1+0x10 -->
+		<accRecover>0</accRecover> <!-- 加速/限速恢复条件: 0 -->
+		<accExit>5</accExit> <!-- 加速/限速退出条件：0x1+0x4 -->
+		<accAction>1</accAction> <!-- 加速/限速执行动作：0x1 -->
+		<accSupportNetwork>3</accSupportNetwork> <!-- 加速支持网络：1：蜂窝, 2：wifi -->
+		<accSupportProtocolType>3</accSupportProtocolType> <!-- 加速支持的协议：1:TCP, 2:UDP, 3:TCP+UDP -->
+		<accDuration>5000</accDuration> <!-- ms,加速/限速持续时间 -->
+		<kitScene>65536</kitScene> <!-- 支持kit接入的场景：65536是服务推荐场景 -->
+	    <kitScene>131072</kitScene> <!-- 支持kit接入的场景：131072是智慧扫码场景 -->
+		<kitSubScene>1</kitSubScene> <!-- 支持kit接入的子场景：1是httpDNS场景 -->
+	</Scene>
+	<Scene>
+		<sceneId>5</sceneId> <!-- 场景5：扫码 -->
+		<accEnter>17</accEnter> <!-- 加速/限速进入条件：0x1+0x10 -->
+		<accRecover>0</accRecover> <!-- 加速/限速恢复条件: 0 -->
+		<accExit>4</accExit> <!-- 加速/限速退出条件：0x4 -->
+		<accAction>19</accAction> <!-- 加速/限速执行动作：0x1+0x2+0x10 -->
+		<accSupportNetwork>1</accSupportNetwork> <!-- 加速支持网络：1：蜂窝, 2：wifi -->
+		<accSupportProtocolType>3</accSupportProtocolType> <!-- 加速支持的协议：1:TCP, 2:UDP, 3:TCP+UDP -->
+		<accDuration>5000</accDuration> <!-- ms,加速/限速持续时间 -->
+		<pdcpDiscardTimer>2000</pdcpDiscardTimer> <!-- ms, 定制上行pdcp层丢包时长 -->
+	</Scene>
+	<Scene>
+		<sceneId>6</sceneId> <!-- 场景6：初级拥塞 -->
+		<accEnter>19</accEnter> <!-- 加速/限速进入条件：0x1+0x2+0x10 -->
+		<accRecover>0</accRecover> <!-- 加速/限速恢复条件: 0 -->
+		<accExit>18</accExit> <!-- 加速/限速退出条件：0x2+0x10 -->
+		<accAction>1</accAction> <!-- 加速/限速执行动作：0x1 -->
+		<accSupportNetwork>1</accSupportNetwork> <!-- 加速支持网络：1：蜂窝, 2：wifi -->
+		<accSupportProtocolType>3</accSupportProtocolType> <!-- 加速支持的协议：1:TCP, 2:UDP, 3:TCP+UDP -->
+		<accPri>1</accPri> <!-- 场景优先级 -->
+		<accPriFgShift>1</accPriFgShift> <!-- 场景在前台的优先级偏移 -->
+		<accPriBgShift>-1</accPriBgShift> <!-- 场景在后台的优先级偏移 -->
+	</Scene>
+	<Scene>
+		<sceneId>7</sceneId> <!-- 场景7：后台限速 -->
+		<accEnter>51</accEnter> <!-- 加速/限速进入条件：0x1+0x2+0x10+0x20 -->
+		<accRecover>0</accRecover> <!-- 加速/限速恢复条件: 0 -->
+		<accExit>50</accExit> <!-- 加速/限速退出条件：0x2+0x10+0x20 -->
+		<accAction>2</accAction> <!-- 加速/限速执行动作：0x2 -->
+		<accSupportNetwork>1</accSupportNetwork> <!-- 加速支持网络：1：蜂窝, 2：wifi -->
+	</Scene>
+
+	<bgUplinkRateThreshold>50</bgUplinkRateThreshold> <!-- kbps,后台速率门限值 -->
+	<congestPeroidThreshold>3</congestPeroidThreshold> <!-- kbps,后台速率超过门限值次数 -->
+</DataAccelerate>

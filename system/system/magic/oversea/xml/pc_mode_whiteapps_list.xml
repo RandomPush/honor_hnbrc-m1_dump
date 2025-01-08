@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pc_mode_whiteapps_list>
+    <!--phone-->
+    <phone_default_desktop_app packageName="com.android.browser" />
+    <phone_default_desktop_app packageName="com.android.gallery3d" />
+    <phone_default_desktop_app packageName="com.hihonor.photos" />
+    <phone_default_desktop_app packageName ="com.hihonor.filemanager" />
+
+    <!--pad-->
+    <pad_default_desktop_app packageName ="com.android.browser" />
+    <pad_default_desktop_app packageName ="com.hihonor.filemanager" />
+
+    <!--for UpdateAppsStrategy-->
+    <update_app packageNameKey ="com.android.gallery3d" packageNameValue ="com.hihonor.photos"/>
+    <update_app packageNameKey ="com.android.deskclock" packageNameValue ="com.hihonor.deskclock"/>
+    <update_app packageNameKey ="com.android.calculator2" packageNameValue ="com.hihonor.calculator"/>
+    <update_app packageNameKey ="com.hihonor.desktop.explorer" packageNameValue ="com.hihonor.filemanager"/>
+    <package_shield_app packageName="com.android.server.telecom" />
+    <package_shield_app packageName="com.hihonor.associateassistant" />
+    <package_shield_app packageName="com.google.android.googlequicksearchbox" />
+    <package_special_call_app packageName="com.android.incallui" />
+</pc_mode_whiteapps_list>

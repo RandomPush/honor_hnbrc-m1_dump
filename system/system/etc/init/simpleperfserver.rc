@@ -1,0 +1,8 @@
+## Service definition
+service simpleperfserver /system/bin/simpleperfserver
+    user root
+    disabled
+    seclabel u:r:logserver:s0
+    group system log readproc sdcard_r sdcard_rw media_rw
+    writepid /dev/cpuset/system-background/tasks
+    oneshot

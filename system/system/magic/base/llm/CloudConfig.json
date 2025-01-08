@@ -1,0 +1,18 @@
+{
+	"type":"LLM",
+	"subType":"generic",
+	"params":[
+		{
+			"name":"llm_commercial",
+			"type":"bool",
+			"value":"true"
+		},
+		{
+			"name":"llm_beta",
+			"type":"bool",
+			"value":"true"
+		}
+	],
+	"version":"1.10.24.101",
+	"compatibleversion":"1"
+}

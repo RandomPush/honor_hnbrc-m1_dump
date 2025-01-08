@@ -1,0 +1,33 @@
+{
+    "header": {
+        "magicui": "7",
+        "version": "2"
+    },
+    "configration": [
+        {
+            "type": "param",
+            "name": "iaware_switch",
+            "value": "true"
+        },
+        {
+            "type": "param",
+            "name": "supl_server_cn",
+            "value": "supl.bd-caict.com"
+        },
+        {
+            "type": "param",
+            "name": "supl_port_cn",
+            "value": "7275"
+        },
+        {
+            "type": "param",
+            "name": "supl_server_global",
+            "value": "supl.google.com"
+        },
+        {
+            "type": "param",
+            "name": "supl_port_global",
+            "value": "7275"
+        }
+    ]
+}

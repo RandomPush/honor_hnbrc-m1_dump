@@ -1,0 +1,6 @@
+version=1.10.24.101
+type=CollectCenter
+subtype=oversea
+compatibleVersion=1
+classify=1
+displayVersion=CC.OVS.1.10.24.101

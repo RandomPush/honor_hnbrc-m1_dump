@@ -1,0 +1,4 @@
+version=1.134.19.225
+type=ThirdPartyAppProperty
+subtype=generic
+compatibleVersion=1

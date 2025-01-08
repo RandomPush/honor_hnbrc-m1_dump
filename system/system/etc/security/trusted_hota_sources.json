@@ -1,0 +1,13 @@
+{
+    "version":"1.0.0",
+    "release-time":"2020-6-8 16:39:52",
+    "trusted-HOTA-source":[
+        {
+            "name":"Hihonor HOTA",
+            "certificate-subject":"C=CN, O=Hihonor, OU=Hihonor Software Dept, CN=hotakey_v2",
+            "certificate-issuer":"C=CN, O=Hihonor, OU=Hihonor Software Dept, CN=hotakey_v2",
+            "critialcal-cert-extension":["keyusage"],
+            "max-certs-path":1
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dir_policy>
+<dir extension="doc,docx,xls,xlsx,pdf,ppt,pptx,zip,rar,7z" enable="true"/>
+<dir packageName="com.yandex.browser" observerPath="/storage/emulated/0/Download" hasChild="false" forbidden="false"/>
+<dir packageName="com.android.chrome" observerPath="/storage/emulated/0/Android/data/com.android.chrome/files/Download" hasChild="false" forbidden="false"/>
+<dir packageName="com.android.chrome" observerPath="/storage/emulated/0/Download" hasChild="false" forbidden="false"/>
+<dir packageName="com.vkontakte.android" observerPath="/storage/emulated/0/Download/VK" hasChild="false" forbidden="false"/>
+<dir packageName="org.telegram.messenger" observerPath="/storage/emulated/0/Android/data/org.telegram.messenger/files/Telegram/Telegram Files" hasChild="false" forbidden="false"/>
+<dir packageName="org.telegram.messenger" observerPath="/storage/emulated/0/Download/Telegram" hasChild="false" forbidden="false"/>
+<dir packageName="com.whatsapp" observerPath="/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Documents" hasChild="false" forbidden="false"/>
+<dir packageName="com.viber.voip" observerPath="/storage/emulated/0/Download" hasChild="false" forbidden="false"/>
+</dir_policy>

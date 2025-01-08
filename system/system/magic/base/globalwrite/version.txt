@@ -1,0 +1,4 @@
+version=1.10.21.110
+type=GLOBALWRITE
+subtype=CHINA
+compatibleVersion=1

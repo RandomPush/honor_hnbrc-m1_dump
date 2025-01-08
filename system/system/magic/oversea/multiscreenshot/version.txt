@@ -1,0 +1,6 @@
+version=1.10.24.103
+type=MultiScreenShot
+subtype=oversea
+compatibleVersion=1
+classify=1
+displayVersion=MS.OVS.1.10.24.103

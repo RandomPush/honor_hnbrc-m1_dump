@@ -1,0 +1,122 @@
+# 2023-02-06 09:54:04.0
+msc.config.agps_adpt_sim=true
+# 2023-02-06 09:54:04.0
+msc.config.allow_rs_mms=true
+# 2023-02-06 09:54:04.0
+msc.config.always_allow_mms=0
+# 2023-02-06 09:54:04.0
+msc.config.custverdisplay=true
+# 2023-02-06 09:54:04.0
+msc.config.ecc_with_sim_card=true
+# 2023-02-06 09:54:04.0
+msc.config.hicure.apn=true
+# 2023-02-06 09:54:04.0
+msc.config.hideSimIcon=false
+# 2023-02-06 09:54:04.0
+msc.config.icon_supprot_cut=false
+# 2023-02-06 09:54:04.0
+msc.config.imei_sv_enable=true
+# 2023-02-06 09:54:04.0
+msc.config.imei_sv_show_two=true
+# 2023-02-06 09:54:04.0
+msc.config.nfc_on=true
+# 2023-02-06 09:54:04.0
+msc.config.omacp=1
+# 2023-02-06 09:54:04.0
+msc.config.optb=999
+# 2023-02-06 09:54:04.0
+msc.config.power_voice_key=true
+# 2023-02-06 09:54:04.0
+msc.config.showSimName=true
+# 2023-02-06 09:54:04.0
+msc.config.show_mmiError=true
+# 2023-02-06 09:54:04.0
+msc.config.support_vm_ecc=true
+# 2023-02-06 09:54:04.0
+msc.config.updateCotaPara=true
+# 2023-02-06 09:54:04.0
+msc.config.use_browser_ua=http://uaprof.hihonor.com/uaprof/HONOR_%s_UAProfile.xml
+# 2023-02-06 09:54:04.0
+msc.config.voicemail_sim=true
+# 2023-02-06 09:54:04.0
+msc.config.volte_icon_rule=2
+# 2023-02-06 09:54:04.0
+msc.mdm.cert_file_support=false
+# 2023-02-06 09:54:04.0
+msc.meetime.message.mode=0
+# 2023-02-06 09:54:04.0
+msc.multiscreen=false
+# 2023-02-06 09:54:04.0
+msc.power.USB_on_enable_FD=true
+# 2023-10-17 15:24:23.0
+msc.sys.defaultcotaversion=cota8.0.0
+# 2023-02-06 09:54:04.0
+msc.sys.ipv6opt=true
+# 2023-02-06 09:54:04.0
+msc.sys.ipv6timeout=1900
+# 2023-02-06 09:54:04.0
+persist.sys.hn.forcedark_policy=0
+# 2023-11-07 14:35:27.0
+remote_provisioning.enable_rkpd=true
+# 2023-11-07 14:35:27.0
+remote_provisioning.hostname=remoteprovisioning.googleapis.com
+# 2023-02-06 09:54:04.0
+ro.cofig.onlinemusic.enabled=false
+# 2023-02-06 09:54:04.0
+ro.com.google.acsa=true
+# 2023-02-06 09:54:04.0
+ro.com.google.clientidbase=android-honor
+# 2023-02-06 09:54:04.0
+ro.config.attach_apn_enabled=true
+# 2023-09-13 15:48:25.0
+ro.config.auto_record_calling=false
+# 2023-02-06 09:54:04.0
+ro.config.cota_live_update=true
+# 2023-02-06 09:54:04.0
+ro.config.dataoff_timeout=5
+# 2023-02-06 09:54:04.0
+ro.config.default_sms_app=com.google.android.apps.messaging
+# 2023-02-06 09:54:04.0
+ro.config.delay_setapn=true
+# 2023-02-06 09:54:04.0
+ro.config.dnscure_ipcfg=10.8.2.1;10.8.2.2|8.8.8.8;208.67.222.222
+# 2023-02-06 09:54:04.0
+ro.config.music_region=normal
+# 2023-02-06 09:54:04.0
+ro.config.plmn_to_settings=true
+# 2023-02-06 09:54:04.0
+ro.config.ringtone=Go_Beyond_Female.ogg
+# 2023-02-06 09:54:04.0
+ro.config.ringtone2=Go_Beyond_Strings.ogg
+# 2023-02-06 09:54:04.0
+ro.config.show_always_mms_ui=true
+# 2023-02-06 09:54:04.0
+ro.config.show_epg_menu=false
+# 2023-02-06 09:54:04.0
+ro.config.show_full_month=true
+# 2023-02-06 09:54:04.0
+ro.config.show_vmail_number=true
+# 2023-02-06 09:54:04.0
+ro.config.spare_ntp_server=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org
+# 2023-02-06 09:54:04.0
+ro.config.support_doubletap_pay=true
+# 2023-02-06 09:54:04.0
+ro.config.support_etcis=true
+# 2023-02-06 09:54:04.0
+ro.config.support_iseapp=true
+# 2023-02-06 09:54:04.0
+ro.config.support_privacyspace=true
+# 2023-02-06 09:54:04.0
+ro.config.vm_prioritymode=2
+# 2023-02-06 09:54:04.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2023-02-06 09:54:04.0
+ro.odm.config.imeisv=true
+# 2023-02-06 09:54:04.0
+ro.product.locale.language=en
+# 2023-02-06 09:54:04.0
+ro.product.locale.region=US
+# 2023-02-06 09:54:04.0
+ro.setupwizard.mode=OPTIONAL
+# 2023-02-06 09:54:04.0
+ro.setupwizard.wifi_on_exit=false

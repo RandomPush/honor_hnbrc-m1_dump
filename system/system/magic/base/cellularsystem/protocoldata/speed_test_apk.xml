@@ -1,0 +1,30 @@
+<dataconfig>
+	<speedTestApk>
+		<apkconfig packageName="com.syezon.lab.networkspeed"/>
+		<apkconfig packageName="com.speed.networkwork"/>
+		<apkconfig packageName="com.speed.master"/>
+		<apkconfig packageName="com.speedometer.networkwork"/>
+		<apkconfig packageName="com.mxm.networkspeed"/>
+		<apkconfig packageName="com.shere.easynetworkspeedmeter"/>
+		<apkconfig packageName="com.quickbird.speedtestmaster"/>
+		<apkconfig packageName="org.zwanoo.android.speedtest"/>
+		<apkconfig packageName="com.network.test"/>
+		<apkconfig packageName="com.uusense.speed"/>
+		<apkconfig packageName="make.more.r2d2.cellular_z"/>
+		<apkconfig packageName="com.drivergenius.screenrecorder"/>
+		<apkconfig packageName="com.example.zx.ftime"/>
+		<apkconfig packageName="com.ztstech.android.znet"/>
+		<apkconfig packageName="com.ludashi.benchmark"/>
+		<apkconfig packageName="com.antutu.ABenchMark MD5"/>
+		<apkconfig packageName="cn.nokia.speedtest5g"/>
+		<apkconfig packageName="cn.chinabda.netmaster"/>
+		<apkconfig packageName="com.everydaytools.autospeedometerspeedtrack"/>
+		<apkconfig packageName="cn.lezhi.speedtest"/>
+		<apkconfig packageName="com.hihonor.appmarket"/>
+		<apkconfig packageName="com.hihonor.hncloud"/>
+	</speedTestApk>
+	<speedThreshold
+		highSpeedLimit="51200"
+		lowSpeedLimit="10240">
+	</speedThreshold>
+</dataconfig>

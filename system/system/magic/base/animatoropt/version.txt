@@ -1,0 +1,6 @@
+version=1.10.23.100
+type=AnimatorOpt
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=AO.GENC.1.10.23.100

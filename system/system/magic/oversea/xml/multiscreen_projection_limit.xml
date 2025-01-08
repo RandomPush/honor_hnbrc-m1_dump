@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projection_limit>
+  <package_name type="string">com.hihonor.camera</package_name>
+  <package_name type="string">com.hihonor.meetime</package_name>
+  <package_name type="string">com.hihonor.calendar</package_name>
+</projection_limit>

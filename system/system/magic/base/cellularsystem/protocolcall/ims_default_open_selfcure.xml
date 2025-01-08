@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <ImsRegTimer t1="600" t2="400" />
+    <ImsRegPermanentCode code="403,201000,202000,208027,208028,208032" />
+    <ImsCallTimer t3="180" />
+    <ImsCallNormalCode code="4,27,487,17,127,47,18,1021, 21,610001,600127,1,601021,400032" />
+    <ImsCallTempFailCode code="503,500,400383,400021,580,400225,400334,20001,400330,400404,800580,600503,800488,800504,601003,800481,800500,1002" />
+    <LteSignalStrength rsrp="-120" rsrq="-15" />
+    <NoNeedSelfCurePlmn plmn="" />
+</xml>

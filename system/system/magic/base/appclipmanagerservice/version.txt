@@ -1,0 +1,6 @@
+version=1.10.24.123
+type=AppClipManagerService
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=AC.GENC.1.10.24.123

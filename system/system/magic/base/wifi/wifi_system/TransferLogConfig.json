@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "configReason": [
+    {
+        "eventId": 909002021,
+        "reasonCode": "TIMEOUT",
+        "subReasonCode": "",
+        "logAction": 0x01
+    },
+    {
+        "eventId": 909002130,
+        "reasonCode": "0",
+        "subReasonCode": "0",
+        "logAction": 0x01
+    },
+    {
+        "eventId": 909002130,
+        "reasonCode": "1",
+        "subReasonCode": "1",
+        "logAction": 0x01
+    },
+    {
+        "eventId": 909002130,
+        "reasonCode": "2",
+        "subReasonCode": "22",
+        "logAction": 0x01
+    },
+    {
+        "eventId": 909002130,
+        "reasonCode": "2",
+        "subReasonCode": "95",
+        "logAction": 0x01
+    },
+    {
+        "eventId": 909002130,
+        "reasonCode": "2",
+        "subReasonCode": "100",
+        "logAction": 0x01
+    }
+    ]
+}

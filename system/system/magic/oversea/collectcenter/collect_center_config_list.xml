@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<appConfigInfoList>
+    <!--收集素材方式-->
+    <collect_method>
+        <!--全局批注-->
+        <method isSupport="true" type="1">
+
+        </method>
+        <!--网页收藏-->
+        <method isSupport="true" type="2">
+
+        </method>
+        <!--视频摘录-->
+        <method isSupport="false" type="3">
+
+        </method>
+    </collect_method>
+    <!--素材使用方式-->
+    <material_usage>
+        <material type="1">
+            <!--支持拖拽到应用-->
+            <usage isSupport="true" type="1">
+
+            </usage>
+            <!--支持导出到应用-->
+            <usage isSupport="true" type="2">
+
+            </usage>
+        </material>
+    </material_usage>
+    <!--应用名单-->
+    <app_range>
+
+    </app_range>
+</appConfigInfoList>

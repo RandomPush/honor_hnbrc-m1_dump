@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <feature name="com.hihonor.system.feature" />
+    <feature name="com.hihonor.software.features.full" />
+    <feature name="com.hihonor.software.features.honor" />
+    <feature name="com.hihonor.software.features.handset" />
+    <feature name="com.hihonor.magic.api.23" />
+    <hnfeature name="com.hihonor.magic.api.24" />
+    <hnfeature name="com.hihonor.magic.api.25" />
+    <hnfeature name="com.hihonor.magic.api.26" />
+</permissions>

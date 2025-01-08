@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+ <package name="com.hihonor.remoteassistant">
+  <versions>
+   <item hash="755daac28d841eb2cb61fd307b10d2dfb73491459f4f854b4e38891f95ec7643" />
+   <item hash="eb8cadfae4d24e950383d233295f9f012dc15b21a1a5273b1bc07e0775f5827a" />
+   <item hash="95d41da5647ab83a460a5a137b12168c7ccb7cafeadb16faaad5918b21438fac" />
+   <item hash="75f4e3b1dfda46aa0ca05dbc57bf88f7dffb3ac4f64af68b30555b6b321cfb5b" />
+   <item hash="055fbe287c81425db89375b7e38265b29f825b6f1234d8887c1de49be50a5744" />
+   <item hash="a46aead194cb79ec5a237a0575feed9c2a528f356844eb7e7219c4d516c074c9" />
+   <item hash="7a60a80cd8afb8394c2aa7df3f54ee08924ddbe4a09b53cd7b1c71321554faa2" />
+   <item hash="93ecc45cadf1dd1cc4326589578a11358661494b88e6b1705c68b16eb1ca9ef4" />
+   <item hash="2bb960cf5e8d030a9daeaa94bab7ba75af41f527681ccb4ac2781768ecc92aa8" />
+   <item hash="9b1ed57fae5633bf45ecf592c4fedd7721e34d7f3f6ca3019011c1fa5e56e023" />
+  </versions>
+ </package>
+</packages>

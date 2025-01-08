@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SarConfig>
+    <sarVideoLiveApk>
+        <apkconfig packageName="air.tv.douyu.android"/>
+        <apkconfig packageName="com.ss.android.ugc.aweme"/>
+        <apkconfig packageName="com.duowan.kiwi"/>
+        <apkconfig packageName="tv.danmaku.bili"/>
+    </sarVideoLiveApk>
+</SarConfig>

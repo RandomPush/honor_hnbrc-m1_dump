@@ -1,0 +1,6 @@
+version=1.10.24.103
+type=AudioEarphoneList
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=AE.GENC.1.10.24.103

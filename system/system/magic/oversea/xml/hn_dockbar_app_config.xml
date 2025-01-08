@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <app package="com.hihonor.email"/>
+  <app package="com.hihonor.notepad"/>
+  <app package="com.hihonor.photos"/>
+  <app package="com.hihonor.filemanager"/>
+  <app package="com.hihonor.browser"/>
+  <app package="com.hihonor.calculator"/>
+</resources>

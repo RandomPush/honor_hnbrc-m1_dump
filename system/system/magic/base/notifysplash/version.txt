@@ -1,0 +1,4 @@
+version=1.10.22.101
+type=NotifySplash
+subtype=generic
+compatibleVersion=1

@@ -1,0 +1,12 @@
+{
+	"peakDownload": {
+		"peakDownloadTimeArray": "1,6,17",
+		"peakDownloadProportionArray": "100,85,65"
+	},
+	"paraCheck": {
+		"lowPowerSwitch": true,
+		"chargeAndWifi": 50,
+		"chargeAndNoWifi": 70,
+		"unconditional": 100
+	}
+}

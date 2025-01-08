@@ -1,0 +1,104 @@
+{
+  "blackList": "com.honor.testkits,com.hihonor.apetest",
+  "whiteList": "10102771260850176:50|110127687460192256:49|112301085388963840:48|134645158271516672:47|134647406766587904:46|134646028472156160:45|149631417242877952:44|149632118392094720:43|149642236353576960:42|124524892442853376:38|143025412539154432:37|143024122295746560:36|143024753425252352:35|101117798477987840:28|121352656236052480:27|101050385677942784:26|143023237855444992:25|101111965153230848:24|101112438220390400:23|80316A39-70B7-7CA5-493E-286A73790195:22|101117373464969216:21|101117018442301440:20|134648511722422272:19|101031071591694336:18|101049298065555456:17|101111127622025216:16|101115891831275520:15|101114155372642304:14|101112903817494528:13|101115098143129600:12|101115564872695808:11|101114675793494016:10",
+  "serviceActivity": "",
+  "aiScoreMap": {
+    "101117373464969216": {
+      "minCon": 0.5,
+      "maxCon": 1,
+      "scene": 1,
+      "score": 100,
+      "intentCode": "com.hihonor.intent.e-commerce_shopping.e-commerce.RECOG_SHOPPING"
+    },
+    "101117018442301440": {
+      "minCon": 0.5,
+      "maxCon": 1,
+      "scene": 1,
+      "score": 99,
+      "intentCode": "com.hihonor.intent.e-commerce_shopping.e-commerce.RECOG_SHOPPING"
+    },
+    "134648511722422272": {
+      "minCon": 0.5,
+      "maxCon": 1,
+      "scene": 1,
+      "score": 98,
+      "intentCode": "com.hihonor.intent.utilities.scan_qr_code.SCAN_QR_CODE"
+    },
+    "10102771260850176": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -50,
+      "intentCode": "com.hihonor.intent.traffic.navigation.CHECK_ROUTES"
+    },
+    "110127687460192256": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -51,
+      "intentCode": "com.hihonor.intent.traffic.navigation.ADDRESS_SEARCH"
+    },
+    "149631417242877952": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -52,
+      "intentCode": "com.hihonor.intent.e-commerce_shopping.e-commerce.PURCHASE"
+    },
+    "149632118392094720": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -53,
+      "intentCode": "com.hihonor.intent.e-commerce_shopping.e-commerce.PURCHASE"
+    },
+    "149642236353576960": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -54,
+      "intentCode": "com.hihonor.intent.e-commerce_shopping.e-commerce.PURCHASE"
+    },
+    "124524892442853376": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -58,
+      "intentCode": "com.hihonor.intent.entertainment.video.WATCH"
+    },
+    "143025412539154432": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -59,
+      "intentCode": "com.hihonor.intent.entertainment.video.WATCH"
+    },
+    "143024122295746560": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -60,
+      "intentCode": "com.hihonor.intent.entertainment.video.WATCH"
+    },
+    "143024753425252352": {
+      "minCon": 0.0,
+      "maxCon": 0.4,
+      "scene": 0,
+      "score": -61,
+      "intentCode": "com.hihonor.intent.entertainment.video.WATCH"
+    }
+  },
+  "weights": "0.5,1,2,10,2,3,2,4",
+  "weightMap": {
+    "DIFrequencyRule": 0.5,
+    "DIDefaultRule": 2,
+    "DIBlackListRule": 100,
+    "DIServiceFrequencyRule": 2,
+    "DIRecentServiceRule": 3,
+    "DISceneRule": 2,
+    "DIElementRule": 4,
+    "DIAIRule": 3
+  },
+  "reservedService": ["101112438220390400", "101050385677942784", "101117798477987840", "80316A39-70B7-7CA5-493E-286A73790195", "117419941761646592", "121352656236052480", "165576461602783232"],
+  "maxAppSize": 100
+}

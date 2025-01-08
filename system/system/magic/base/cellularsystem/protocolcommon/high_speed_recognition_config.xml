@@ -1,0 +1,8 @@
+<Config>
+    <!-- 高速模式小区平均驻留时长，单位秒，默认10s -->
+    <cellDurationAverage>9</cellDurationAverage>
+    <!-- 高速模式小区最大驻留时长，单位秒，默认20s -->
+    <cellDurationMax>25</cellDurationMax>
+    <!-- 同一地点小区重复出现时间间隔，单位秒，默认1min -->
+    <cellIntervalMax>60</cellIntervalMax>
+</Config>

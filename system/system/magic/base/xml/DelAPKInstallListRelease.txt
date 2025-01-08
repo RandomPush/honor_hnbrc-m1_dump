@@ -1,0 +1,15 @@
+/system/priv-app/ContactsCamcard/ContactsCamcard.apk
+/system/priv-app/Email/Email.apk
+/system/priv-app/ExactCalculator/ExactCalculator.apk
+/system/priv-app/GameCenter/GameCenter.apk
+/system/priv-app/HnCloud_oversea/HnCloud_oversea.apk
+/system/priv-app/HnMirror/HnMirror.apk
+/system/priv-app/HnMusicPlayer/HnMusicPlayer.apk
+/system/priv-app/HnNotePad/HnNotePad.apk
+/system/priv-app/HnVideoPlayer/HnVideoPlayer.apk
+/system/priv-app/HnWeatherClock/HnWeatherClock.apk
+/system/priv-app/LocalTransport/LocalTransport.apk
+/system/app/MicrosoftYourPhoneCompanion/MicrosoftYourPhoneCompanion.apk
+/system/priv-app/PopularApps/PopularApps.apk
+/system/app/SimAppDialog/SimAppDialog.apk
+/system/app/SoundRecorder/SoundRecorder.apk

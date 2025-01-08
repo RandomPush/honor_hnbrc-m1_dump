@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<multi_window>
+  <global suppport_unresizable_apps="0" resizable_aspect_ratio="1:0" unresizable_aspect_ratio="0:0" suppport_stepless_freeform="0" />
+  
+  <pkgSuffix>.honor</pkgSuffix>
+  <pkgSuffix>.baidu</pkgSuffix>
+  <pkgSuffix>.wdj</pkgSuffix>
+  <pkgSuffix>.mi</pkgSuffix>
+  <pkgSuffix>.qihoo</pkgSuffix>
+  <pkgSuffix>.qihoo360</pkgSuffix>
+  <pkgSuffix>.qh360</pkgSuffix>
+  <pkgSuffix>.uc</pkgSuffix>
+  <pkgSuffix>.vivo</pkgSuffix>
+  <pkgSuffix>.jinli</pkgSuffix>
+  <pkgSuffix>.mz</pkgSuffix>
+  <pkgSuffix>.anzhi</pkgSuffix>
+  <pkgSuffix>.nearme.gamecenter</pkgSuffix>
+  <pkgSuffix>.oppo.nearme.gamecenter</pkgSuffix>
+  <pkgSuffix>.oppo</pkgSuffix>
+  <pkgSuffix>.m4399</pkgSuffix>
+  <pkgSuffix>.kunlun</pkgSuffix>
+  <pkgSuffix>.aligames</pkgSuffix>
+  <pkgSuffix>.bilibili</pkgSuffix>
+  <pkgSuffix>.bytedance.gamecenter</pkgSuffix>
+  <pkgSuffix>.kuaishou</pkgSuffix>
+  <pkgSuffix>.yyb</pkgSuffix>  
+  <pkgSuffix>.bd</pkgSuffix>
+  
+  <package name="com.RoamingStar.BlueArchive" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.daimler.ris.mercedesme.cn.android" freeform="1" splitscreen="1" />
+  <package name="cn.gov.pbc.dcep" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xt.retouch" freeform="1" splitscreen="1" />
+  <package name="com.yahoo.mobile.client.android.mail" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.imo.android.imoimbeta" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.cmcm.whatscall" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.truecaller" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" />
+  <package name="com.azarlive.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.bbm" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.adobe.flashplayer" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_video="1" />
+  <package name="com.netflix.mediaclient" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_video="1" />
+  <package name="org.videolan.vlc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_video="1" />
+  <package name="com.hihonor.hwvplayer.youku" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_video="1" />
+  <package name="com.hihonor.himovie" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_video="1" />
+  
+  <package name="com.tencent.mm" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" freeform_instant="1" />
+  <package name="com.tencent.mobileqq" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" freeform_instant="1" />
+  <package name="com.hihonor.mms" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.taobao.taobao" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.sina.weibo" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.ss.android.article.news" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.ss.android.article.news.activity.MainActivity" freeform_corner_mode="2" />
+  </package>
+  <package name="com.android.gallery3d" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.android.settings" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.eg.android.AlipayGphone" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.baidu.searchbox" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.smile.gifmaker" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" disable_freeform_landscape="1" />
+  <package name="com.immomo.momo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" />
+  <package name="com.tencent.news" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.codoon.gps" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.UCMobile" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.sankuai.meituan" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.baidu.tieba" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.qiyi.video" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" freeform_corner_mode="1" />
+  <package name="com.netease.newsreader.activity" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.netease.newsreader.newarch.capture.CaptureActivity" splitscreen_camera_rotation="1" />
+  </package> 
+  <package name="com.jingdong.app.mall" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.jd.lib.scan.lib.zxing.client.android.NewCaptureActivity" freeform_corner_mode="2" />
+    <activity name="com.jd.lib.matrixar.ArMarketingActivity" freeform_corner_mode="2" />
+  </package>
+  <package name="com.kugou.android" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.mtt" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.tencent.mtt.MainActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.android.mediacenter" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.qqmusic" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.karaoke" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.qqlive" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" />
+  <package name="com.sdu.didi.psnger" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.cloudmusic" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" unresizable_aspect_ratio="1:0" />
+  <package name="com.achievo.vipshop" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.youku.phone" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" />
+  <package name="com.taobao.qianniu" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.qianniu.lite.commponent.scan.business.QNScanActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.tmall.wireless" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="ctrip.android.view" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" unresizable_aspect_ratio="1:0" />
+  <package name="com.qzone" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.autonavi.minimap" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.baidu.netdisk" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" />
+  <package name="tv.danmaku.bili" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" freeform_corner_mode="1">
+    <activity name="com.bilibili.lib.ui.ComposeActivity" freeform_padding="1" />
+  </package>
+  <package name="com.tencent.android.qqdownloader" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.dianping.v1" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.sdu.didi.gsui" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ifeng.news2" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.mt.mtxx.mtxx" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.eastmoney.android.berlin" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.eastmoney.android.berlin.activity.MainActivity" freeform_corner_mode="2" />
+  </package>
+  <package name="com.cubic.autohome" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.tencent.qt.qtl" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hexin.plat.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.snda.wifilocating" landscape_freeform="0" leave_blank_of_top="1" freeform="0" splitscreen="1" />
+  <package name="com.android.calculator2" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.calculator" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.Qunar" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" disable_freeform_landscape="1" />
+  <package name="com.happyelements.AndroidAnimal" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" />
+  <package name="com.whatsapp" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" freeform_instant="1" />
+  <package name="com.sina.weibog3" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.baidu.BaiduMap" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.tencent.tmgp.sgame" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.android.dazhihui" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.meitu.meiyancamera" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1">
+    <activity name="com.meitu.myxj.selfie.merge.activity.SelfieCameraActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.applecamera.activity.AppleCameraActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.aicamera.activity.AICameraActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.fullbodycamera.activity.FullBodyCameraActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.hdvideo.activity.HdVideoActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.ccdcamera.activity.CCDCameraActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.mirrorless.activity.MirrorlessCameraActivity" splitscreen_camera_rotation="1" />
+    <activity name="com.meitu.myxj.mulphotoscamera.activity.MulPhotosCameraActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.alibaba.android.rimet" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hihonor.hidisk" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.wps.moffice_eng" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.example.android.notepad" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.notepad" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.hihonor.docscan.activity.DetectActivity" freeform="0" splitscreen="0" />
+    <activity name="com.hihonor.lens.home.MultiLensHomeActivity" freeform="0" splitscreen="0" />
+  </package>  
+  <package name="com.android.calendar" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.calendar" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.p1.mobile.putong" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wuba" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="air.tv.douyu.android" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1">
+    <activity name="air.tv.douyu.android.loader.a.ActivityN1STPNTS1" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.tencent.androidqqmail" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" />
+  <package name="cn.kuwo.player" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="cn.kuwo.sing.ui.activity.KsingScannerCodeActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.yuedong.sport" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.xunlei.downloadprovider" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_video="1" />
+  <package name="me.ele" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="me.ele.scan.ui.ScanMainActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.sohu.newsclient" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.tencent.qqpimsecure" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.android.email" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.email" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.changba" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.meelive.ingkee" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" mw_app_video="1" disable_freeform_landscape="1" />
+  <package name="com.qihoo.browser" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.baidu.appsearch" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.letv.android.client" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_video="1" />
+  <package name="com.tencent.peng" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.duowan.mobile" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" freeform_corner_mode="1" />
+  <package name="com.facebook.katana" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" freeform_instant="1" />
+  <package name="com.hupu.games" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.chaozh.iReaderFree" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.qq.reader" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.sankuai.meituan.takeoutnew" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.qqgame.hlddz" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.tencent.estv.shadow.runtime.PluginSingleTopProxyActivity" freeform_padding="1" />
+    <activity name="com.tencent.estv.shadow.runtime.PluginDefaultProxyActivity" freeform_padding="1" />
+  </package>
+  <package name="voice.processor.qfour">
+    <activity name="com.projection.thai.ksix.activity.SimplePlayer" freeform_padding="1" />
+    <activity name="com.projection.thai.ksix.activity.ArticleDetailActivity" freeform_padding="1" />
+    <activity name="com.projection.thai.ksix.activity.PrivacyActivity" freeform_padding="1" />
+  </package>
+  <package name="com.guotai.dazhihui" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qidian.QDReader" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.iodkols.onekeylockscreen" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ximalaya.ting.android" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.cmbchina.ccd.pluto.cmbActivity" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.alibaba.wireless" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.storm.smart" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_video="1" />
+  <package name="com.moji.mjweather" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.icbc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.sina.news" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.chinamworld.main" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.cmschina.stock" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.pingan.papd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.gf.client" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.douban.frodo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.qqpim" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.duowan.kiwi" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.duowan.kiwi.scan.impl.CaptureActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.pingan.lifeinsurance" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cmb.pb" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.dongqiudi.news" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" disable_freeform_landscape="1" />
+  <package name="cn.xiaochuankeji.tieba" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="cn.xiaochuankeji.tieba.media.browse.MediaActivity" freeform_padding="1" />
+  </package>
+  <package name="com.kuaikan.comic" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="co.runner.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.mail" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_instant_msg="1" />
+  <package name="bubei.tingshu" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hunantv.imgo.activity" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" />
+  <package name="com.gotokeep.keep" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" unresizable_aspect_ratio="1:0" />
+  <package name="tv.pps.mobile" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1">
+      <activity name="com.iqiyi.android.ar.activity.CameraAdvertiseActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.suning.mobile.ebuy" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.youdao.dict" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.icbc.im" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.mogujie" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.shuqi.controller" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.chinamworld.bocmbci" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.le123.ysdq" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" unresizable_aspect_ratio="1:0" />
+  <package name="com.yipiao" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.videogo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.MobileTicket" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" disable_freeform_landscape="1" />
+  <package name="com.babytree.apps.pregnancy" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="android.zhibo8" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jiongji.andriod.card" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.ttpic" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.huajiao" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.homelink.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.handsgo.jiakao.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xiachufang" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.lingan.seeyou" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.cntv" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.sohu.sohuvideo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_video="1" allside_splitscreen="1">
+    <activity name="com.sohu.sohuvideo.ui.homepage.MainActivity" freeform_padding="1" />
+  </package>
+  <package name="com.lphtsccft" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qihoo.video" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.com.cmbc.newmbank" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.anjuke.android.app" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.zhihu.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.baidu.homework" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.gamehelper.smoba" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.soufun.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.taobao.trip" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.cleanmaster.mguard_cn" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.lanjingren.ivwen" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xiaomi.hm.health" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xunmeng.pinduoduo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="fm.xiami.main" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.umetrip.android.msky.app" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ganji.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.xingin.xhs" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tudou.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" mw_app_video="1" />
+  <package name="com.didapinche.booking" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wuba.zhuanzhuan" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.sinovatech.unicom.ui" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.sitech.ac" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ct.client" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.android.chrome" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.pao" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="jp.naver.line.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.tencent.tmgp.cf" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" freeform_corner_mode="1" />
+  <package name="com.example.businesshall" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.greenpoint.android.mc10086.activity" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" disable_freeform_landscape="1" />
+  <package name="com.ygkj.chelaile.standard" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jsmcc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tuniu.app.ui" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.qq.qcloud" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.jjwxc.reader" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.example.jinjiangshucheng.ui.GuessLike_Act" freeform_padding="1" />
+    <activity name="com.example.jinjiangshucheng.ui.search.SearchResultActivity" freeform_padding="1" />
+    <activity name="com.example.jinjiangshucheng.ui.Novel_Detail_Act" freeform_padding="1" />
+    <activity name="com.example.jinjiangshucheng.ui.search.AccurateSearchActivity" freeform_padding="1" />
+  </package>
+  <package name="com.flightmanager.view" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tmri.app.main" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.gallerymanager" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ztgame.bob" landscape_freeform="1" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kingpoint.gmcchh" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.twitter.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="cn.etouch.ecalendar" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.wandoujia.phoenix2" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.zhangdan.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yiche.autoeasy" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="">
+    <activity name="com.bitauto.carmodel.view.activity.IdentifyCarActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.nice.main" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="fm.qingting.qtradio" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.sankuai.movie" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.dangdang.buy2" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.dw.btime" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.dw.btime.qrcode.activity.QRCodeScanActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.tencent.map" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.qqgame.happymj" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" resizable_aspect_ratio="0:0" />
+  <package name="com.mygolbs.mybus" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jd.jrapp" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.mfw.roadbook" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.huluxia.gametools" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.qqsports" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.supercell.clashofclans.baidu" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kiloo.subwaysurf" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.youloft.calendar" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.iflytek.inputmethod" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.shoujiduoduo.ringtone" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xtc.watch" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.intsig.camscanner" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.intsig.camscanner.capture.CaptureActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.tencent.KiHan" landscape_freeform="1" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" resizable_aspect_ratio="0:0" />
+  <package name="com.tencent.tgp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.pb" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.android.vending" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.lemon.faceu" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.wacai365" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.bankcomm.maidanba" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.jj" landscape_freeform="1" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.pp.assistant" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sankuai.meituan.meituanwaimaibusiness" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" disable_freeform_landscape="1" />
+  <package name="com.chinatelecom.bestpayclient" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.fenbi.android.solar" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.instagram.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.pingan.carowner" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.now" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="sogou.mobile.explorer" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.supercell.clashofclans.wdj" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="cn.colorv" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.facebook.orca" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" />
+  <package name="com.m4399.gamecenter" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.android.bankabc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jiuyan.infashion" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.mobimail" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.netease.mobimail.module.qrcode.ScanQRCodeActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.android.haitong" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hpbr.bosszhipin" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.android.icredit" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.winbaoxian.wybx" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.imangi.templerun2" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sunrise.scmbhc" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.radio" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.brianbaek.popstar" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.weread" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.imo.android.imoim" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" />
+  <package name="com.youdao.note" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" disable_freeform_landscape="1" />
+  <package name="com.supercell.clashofclans.uc" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tieyou.train.ark" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kascend.chushou" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.qqgame.xq" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qihoo.camera" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.djcity" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.game.rhythmmaster" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ifreetalk.ftalk" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.duoduo.child.story" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="tv.xiaoka.live" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.cainiao.wireless" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.wifimanager" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ganji.android.haoche_c" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.supercell.clashofclans.qihoo" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="dopool.player" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.htinns" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.boohee.one" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.minihd.qq" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.wework" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.jifen.qukan" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" unresizable_aspect_ratio="1:0" />
+  <package name="com.traffic.handtrafficbible" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.viber.voip" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="cn.mama.pregnant" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wlqq" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.mybank.android.phone" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.yoho" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.damai" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.bertadata.qxb" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0">
+    <activity name="com.bertadata.qxb.scan.ScanActivity" freeform_skip_camera_rotation="1" />
+  </package>
+  <package name="com.ziipin.homeinn" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.luojilab.player" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.luojilab.me.ui.activity.CaptureActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.kdweibo.client" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.eclicks.drivingtest" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.bankcomm.Bankcomm" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.sgcc.cs" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.paem" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.google.android.youtube" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_video="1" />
+  <package name="cn.com.sina.finance" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.zhongduomei.rrmj.society" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.by.butter.camera" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.taou.maimai" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.cqmc.client" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.google.android.googlequicksearchbox" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.google.android.apps.search.omnient.host.activity.OmnientActivity" freeform="0" splitscreen="0" />
+  </package>
+  <package name="com.lltskb.lltskb" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wepie.snake" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.tadu.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xiaobanlong.main" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.pingan.paces.ccms" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.youdao.translator" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.csair.mbp" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.kugou.fanxing" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.vsco.cam" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.rytong.airchina" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.carrot.iceworld" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.linkedin.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.paic.zhifu.wallet.activity" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.dewmobile.kuaiya" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yek.android.kfc.activitys" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jinxin.namibox" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qihoo360.antilostwatch" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.quvideo.xiaoying" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_video="1" />
+  <package name="com.ovital.ovitalMap" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.babycloud.hanju" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.popcap.pvz2cthdhwct" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.calendar.UI" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.happyteam.dubbingshow" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.booking" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.seebaby" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.glodon.drawingexplorer" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.A17zuoye.mobile.homework" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ruanmei.ithome" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.szzc" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.zebra" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.jingdong.pdj" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.bokecc.dance" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tianqi2345" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.TuHu.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" />
+  <package name="com.Kingdee.Express" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sinovatech.gxmobile.ui" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.my" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.mobike.mobikeapp" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.snapchat.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.mm.android.lc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ppdai.loan" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.google.android.apps.maps" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.ichinait.gbpassenger" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.rytong.ceair" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.dingYZ.dingyzwater" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ziroom.ziroomcustomer" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.fenqile.fenqile" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.supercell.clashofclans.kunlun" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.spdbccc.app" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.microsoft.office.outlook" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.eusoft.ting.en" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.biyao.fu" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.eusoft.eudic" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.google.android.apps.translate" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.pocket" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.unionpay" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.google.android.gm" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.truecaller" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.qgame" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.citiccard.mobilebank" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+      <activity name="com.citiccard.mobilebank.scan.twodimensionPay.QRCodePayIndexActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.xueersi.parentsmeeting" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.dailyyoga.cn" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.wanmei.zhuxian.laohu" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.mxtech.videoplayer.ad" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_video="1" />
+  <package name="com.skype.raider" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.adobe.reader" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.eduu.bang" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.cmcc.cmvideo" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.songheng.eastnews" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ebank.creditcard" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.qiyi.video.child" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.mhxyhtb" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" freeform_corner_mode="1" />
+  <package name="com.evideo.MobileKTV" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.l10" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.yiqizuoye.jzt" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.gstarmc.android" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.transfer" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.chinalife.ebz" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+      <activity name="com.clicbase.mpassscan.MPassScanActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.ss.android.article.video" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="flipboard.cn" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.cgbchina.xpt" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wanmei.zhuxian.uc" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.tmgp.zhuxian" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tiqiaa.icontrol" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.zxscnew" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" />
+  <package name="cn.jsb.china" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.baidu.haokan" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.sinyee.babybus.talk2kiki" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tianyancha.skyeye" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.kiloo.subwaysurf.bd" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.newcapec.mobile.ncp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.lalamove.huolala.client" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.clov4r.android.nil" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.duolingo" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.shuhekeji" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="ru.zdevs.zarchiver" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wondertek.ahPalm10000" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.missfresh.application" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="org.mozilla.firefox" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.niwodai.universityloan" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="net.xinhuamm.mainclient" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.qqpinyin" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.microsoft.office.word" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wanmei.zhuxian.one360" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.magicpoint.mobile.bank" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.gamestar.perfectpiano" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.gamestar.perfectpiano.keyboard.MainWindow" freeform_padding="1" />
+    <activity name="com.gamestar.perfectpiano.learn.LearnModeActivity" freeform_padding="1" />
+  </package>
+  <package name="com.google.android.apps.photos" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.subwaysurfers" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.ninexiu.sixninexiu" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kugou.android.ringtone" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="org.ajmd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.zl.fqbao" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.bf.sgs.hdexp" landscape_freeform="1" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.google.android.apps.docs" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.microsoft.office.excel" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="us.pinguo.idcamera" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.duokan.phone.remotecontroller" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.lenovo.anyshare.gps" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.carrot.carrotfantasy" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.pinterest" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.bf.sgs.hdexp.duoku" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.cs_credit_bank" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.knowbox.rc.student.pk" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.komoxo.octopusime" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.infothinker.gzmetro" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.himovie" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.google.android.music" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.rytong.bankbj" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hcc.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sankuai.meituan.dispatch.crowdsource" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.taobao.idlefish" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.campmobile.snowcamera" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.onmyoji" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wepie.snake.qihoo" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.chaoxing.mobile" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.v.zy" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.wsds.gamemaster" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.able.wisdomtree" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.lj.ljshell" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.mampod.ergedd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yunjibuyer.yunji" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.google.android.videos" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.bilibili.fatego" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.shoujiduoduo.dj" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.com.bmac.nfc" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qiyi.video.pad" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="org.qiyi.pluginlibrary.component.InstrActivityProxy1" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.ubestkid.beilehu.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ss.android.ugc.live" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.onmyoji.qihoo" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="tuoyan.com.xinghuo_daying" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.onmyoji.uc" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ss.android.article.lite" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" freeform_corner_mode="1">
+    <activity name="com.ss.android.article.lite.activity.SplashActivity" freeform_corner_mode="2" />
+  </package>
+  <package name="com.bozhong.crazy" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.laifenqi.android.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.dhxy" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.shootgame" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.chinamobile.cmccwifi" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.king.candycrushsaga" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.onmyoji.baidu" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.aibang.bjtraffic" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.vcinema.cinema" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="cn.vcinema.cinema.zxing.app.CaptureActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.julanling.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="org.xinkb.blackboard.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wepie.snake.new.mi" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.greate.myapplication" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wepie.snake.tencent" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.byd.aeri.caranywhere" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" />
+  <package name="com.tencent.weishi" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1">
+    <activity name="com.tencent.weishi.module.multi.PublisherMultiPageActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="org.telegram.messenger" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" mw_app_instant_msg="1" freeform_instant="1" />
+  <package name="com.tencent.tmgp.supercell.clashofclans" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.happyelements.AndroidClover.mob" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kiloo.subwaysurf.full" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.supercell.clashofclans" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kunekt.healthy" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.tim" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.alibaba.aliexpresshd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.bh3" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.dxy.android.aspirin" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wudaokou.hippo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wanmei.zhuxian.baidu" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.spotify.music" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.waze" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="2" />
+  <package name="com.contextlogic.wish" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="org.videolan.vlc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.amazon.mShop.android.shopping" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.amazon.mShop.navigation.MainActivity" freeform_skip_camera_rotation="1" />
+  </package>
+  <package name="com.robtopx.geometryjumplite" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="sg.bigo.live" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="" mw_app_instant_msg="1" />
+  <package name="com.ebay.mobile" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.google.android.calendar" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.google.android.apps.youtube.music" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.amazon.mp3" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="wp.wattpad" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.mercadolibre" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.naver.linewebtoon" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.amazon.dee.app" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.bf.TTShuangKou.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.vkontakte.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.flipkart.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="net.one97.paytm" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.znxh.hyhuo" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.qqmusicpad" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="cn.danatech.xingseapp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.jingyao.easybike" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.quark.browser" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.miHoYo.bh3.bilibili" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ss.android.ugc.aweme" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1">
+	<activity name="com.bytedance.android.xr.fusion.XrAvCallActivity" splitscreen="0" />
+  </package>  
+  <package name="com.stupeflix.replay" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yitong.mbank.psbc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.taobao.mobile.dipei" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.tgclub" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.weico.international" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="de.hafas.android.db" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.garena.game.kgth" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.joom" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="pl.allegro" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.moonactive.coinmaster" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="ktbcs.netbank" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="gogolook.callgogolook2" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="it.rainet" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.autoscout24" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.phonepe.app" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.amazon.avod.thirdpartyclient" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.microsoft.translator" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.benqu.wuta" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.benqu.wuta.activities.preview.PreviewActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.scores365" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.noon.buyerapp" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.jarirbookstore.JBMarketingApp" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="de.tagesschau" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.playmini.miniworld" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.adobe.lrmobile" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.adobe.capturemodule.CaptureActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.resultadosfutbol.mobile" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="jp.konami.pesam" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.omesti.myumobile" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hungerstation.android.web" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.ig" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" resizable_aspect_ratio="0:0" freeform_corner_mode="1" />
+  <package name="com.miniworld.wordchef" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="sinet.startup.inDriver" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.paymaya" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.linecorp.linemanth" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.canva.editor" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.microsoft.emmx" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="asuk.com.android.app" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="se.postnord.private" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="th.co.crie.tron2.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.dts.freefireth" landscape_freeform="1" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.miniclip.plagueinc" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.lidl.eci.lidlplus" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.pubgmhd" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.tencent.tmgp.speedmobile" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.netease.dwrg.qihoo" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hihonor.browser" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.baidu.searchbox.lite" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.ss.android.auto" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.jzzs.ParentsHelper" landscape_freeform="0" leave_blank_of_top="1" freeform="1" splitscreen="1" />
+  <package name="com.qihoo.loan" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.gorgeous.lite" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.cebbank.mobile.cemb" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.soulapp.android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.husor.beidian" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sup.android.superb" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.lianjia.beike" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.app.shanghai.metro" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.shizhuang.duapp" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1">
+    <activity name="com.shizhuang.duapp.modules.home.ui.HomeActivity" freeform_padding="1" />
+  </package>
+  <package name="cn.youth.news" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.icbc.elife" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tongzhuo.tongzhuogame" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.xiaochuankeji.zuiyouLite" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sinyee.babybus.chants" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.talkweb.angrybirds.hw" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kuaiduizuoye.scan" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.zybang.camera.activity.SearchCameraSDKActivity" freeform_skip_camera_rotation="1" />
+  </package>
+  <package name="com.alibaba.ailabs.tg" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.gamehelper.pg" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.helplove.shbf" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sohu.infonews" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.yonghui.hyd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.max.xiaoheihe" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="org.xianliao" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.huodao.hdphone" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.moji.mjweather.light" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.msxf.ayh" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.shineyie.aijianji" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="c.l.a" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yumc.phsuperapp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.melon.clean" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="us.pinguo.april_collage" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.seetong.app.seetong" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wifi.reader.free" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kugou.android.ktvapp" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jingcai.apps.qualitydev" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.shineyue.sjgjj" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.cib.xyk" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.fenbi.android.leo" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1">
+    <activity name="com.fenbi.android.leo.imgsearch.sdk.activity.NewCheckCameraActivity" freeform_skip_camera_rotation="1" />
+  </package>
+  <package name="com.qingshu520.chat" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.cliff" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.zybang.parent" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.taobao.litetao" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.cntvhd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.pa.health" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.picsart.draw" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yaya.zone" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.neoclub.uki" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.midea.vm.washer" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.dankegongyu.customer" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.duxiaoman.umoney" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.n_add.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.huanshou.taojj" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.shangfang.gylm" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.xiaodu.smartspeaker" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.xianyuapp.tbk" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qutui360.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.pingan.easyloan" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.uu" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="tv.yixia.bobo" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.hyxd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.hyxd.aligames" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.dwrg" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.join.android.app.mgsim.wufun" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.miHoYo.bh3.uc" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.supercell.clashofclans.nearme.gamecenter" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.netease.my.uc" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.xmcy.hykb" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.my.qihoo" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.onmyoji.mz" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.onmyoji.nearme.gamecenter" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.onmyoji.mi" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.wepie.snake.baidu" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.netease.my.baidu" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.onmyoji.vivo" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.bf.sgs.hdexp.qh360" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.tencent.tmgp.minitech.miniworld" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.wdsj666" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.netease.dhxy.qihoo" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.bf.sgs.hdexp.uc" landscape_freeform="1" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.onmyoji.wdj" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hongxiu.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.dhxy.uc" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.netease.l10.nearme.gamecenter" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.dhxy.sy37" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.minitech.miniworld.TMobile.baidu" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.google.android.apps.messaging" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.FileManager" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.kmxs.reader" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="org.geometerplus.android.fbreader.FBReader" freeform_padding="1" />
+  </package>
+  <package name="com.tencent.tmgp.qqx5" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.my.wdj" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.meta.xyx" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.yinxiang" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kwai.videoeditor" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.mengtuiapp.mall" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.gomejr.icash" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="my.maya.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.wuba.town.client" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.pengda.mobile.hhjz" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.baidu.BaiduMap.auto" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="cn.xuexi.android" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1">
+    <activity name="cn.xuexi.android.flutter.activity.FlutterActivity" freeform_padding="1" />
+  </package>
+  <package name="com.tencent.firevideo" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.bilibili.comic" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.qihoo.qeditor" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.jixiang.rili" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.huatu.handheld_huatu" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.huatu.handheld_huatu.business.essay.camera.TakePhotoActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.baidao.silver" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.google.android.apps.wallpaper" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.telcel.contenedor" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="pl.mbank" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="de.wetteronline.regenradar" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="de.dwd.warnapp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.mg.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="fi.fmi.mobileweather" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="cz.mafra.idnes" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="fi.iltasanomat" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="fi.starsoft.wilma" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="fi.hs.android" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="fi.supersaa" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.schibsted.iberica.tori" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.wanmei.zhuxian" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.minitech.miniworld" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.zqgame.dhxy" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.jx3m" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.ss.android.ugc.aweme.lite" landscape_freeform="1" leave_blank_of_top="1" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.youban.xblertongpbhw" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.photos" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1">
+    <activity name="com.hihonor.gallery.wallpaper.MagazineWallpaperTahitiActivity" freeform="0" splitscreen="0" />
+    <activity name="com.hihonor.gallery.wallpaper.ui.BottomWallpaperPicker" freeform="0" splitscreen="0" />
+  </package>
+  <package name="com.hihonor.music" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.fastapp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.sky" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.netease.sky.vivo" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.netease.sky.nearme.gamecenter" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.netease.sky.mi" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.miHoYo.enterprise.HK4E" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.slanissue.apps.pad.bevafamily" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.huya.android.pad" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hunting.matrix_showcaller" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qujianpan.client" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.xmiles.vipgift.all" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.airuniversa.control" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.color.by.number.paint.ly.pixel.art.cn" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.black.unique" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.xmiles.jdd" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.banma" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.qeeyou.app.accelerator" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hengshuokeji.kuaidishunfengche" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hp.marykay" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kanlixiang.android" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.lj.amj" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.scb.poc.bmw" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.znsb.lendmoneyso" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.julun.lingmeng" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.balance.gjjloan" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.szlanyou.nissaniov" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.android.tips" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.honor.qinxuan" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kuaishou.nebula" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.dragon.read" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.lemon.lv" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.chaozh.iReader.dj" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hypergryph.arknights" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="2" />
+  <package name="com.bilibili.blhx.baidu" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.papegames.nn4.mi" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="qrcodereader.barcodereader.codescanner" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.sunwayvelocity.app" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.infoshell.recradio.black" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.biglion" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="de.quoka.kleinanzeigen" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="jp.co.nttdocomo.dtv" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="pl.k2.droidoaudioteka" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.softspb.tv.mts" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.rt.mobile.english" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.filemanager" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hihonor.hnoffice" freeform="" splitscreen="">
+    <activity name="com.hihonor.docscan.activity.DetectActivity" freeform="0" splitscreen="0" />
+    <activity name="com.hihonor.lens.home.MultiLensHomeActivity" freeform="0" splitscreen="0" />
+  </package>    
+  <package name="com.novem.firstfinancial" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.shoujiduoduo.duoshow" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.eusoft.frhelper" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.eusoft.recite.en" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.eusoft.recite.de" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.eusoft.recite.es" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.eusoft.recite.fr" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.sogou.xiaop_android" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ss.android.lark" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.wemeet.app" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.cctv.yangshipin.app.androidp" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" unresizable_aspect_ratio="1:0" />
+  <package name="com.joyoung.smartfa" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.android.mms" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" mw_app_instant_msg="1" />
+  <package name="com.hihonor.tips" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.miHoYo.Yuanshen" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.sofunny.Sausage" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.tencent.tmgp.WePop" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.miHoYo.ys.bilibili" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kurogame.haru.hero" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.tmgp.tmsk.qj3" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.lemon.lvoverseas" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="co.brainly" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.riotgames.league.wildrift" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.riotgames.league.wildrifttw" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.miHoYo.GenshinImpact" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.jkchess" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.wanmei.zhuxian.mz" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.pwrd.hotta.laohu" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="air.net.pixvi.myrzx" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.funny.spot" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.kwai.m2u" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="hu.lidl.freshheads" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="be.lidl.freshheads" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.miHoYo.yuanshencb" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.screenrecorder" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.bilibili.snake" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.tmgp.bilibili.blhx" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.lolm" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hottagames.hotta.bilibili" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.android.remotecontroller" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.media.xinhua" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.sky.bilibili" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="tv.danmaku.bilibilihd" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.mgtv.tv" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.baidu.video.pad" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="cn.eeo.classin" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.associateassistant" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.gaotu100.superclass" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.fenbi.android.zhaojiao" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.olimsoft.android.oplayer" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.newskyer.draw" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.igce" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.netease.sky.aligames" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.dedao.juvenile" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.tmgp.eyou.eygy" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.mf.uam" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.servicecenter" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.mihoyo.cloudgames.ys" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.controlcenter" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.meizu.myrzx.aligames" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.miHoYo.ys.mi" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.netease.party" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hypergryph.arknights.bilibili" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="uk.nhs.covid19.production" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.coppel.coppelapp" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.tencent.tmgp.cod" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" resizable_aspect_ratio="0:0" />
+  <package name="com.tencent.tmgp.codev" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.tencent.msgame" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.shusheng.JoJoRead" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.lens" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.netease.harrypotter" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.netease.allstar" landscape_freeform="0" leave_blank_of_top="1" freeform="" splitscreen="" />
+  <package name="com.tencent.letsgo" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.fdgentertainment.bananakong" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.jjzd.gf" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.cmtd.jjzd.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.ledou.jjzd.aligames" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.qileyx.ddz" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.qileyx.ddz.hxddz" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.forest" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.appmarket" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hihonor.baidu.browser" landscape_freeform="0" leave_blank_of_top="1" freeform="" splitscreen="" />
+  <package name="com.hihonor.devicemanager" landscape_freeform="0" leave_blank_of_top="0" freeform="0" splitscreen="0" />
+  <package name="com.hihonor.assistant" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+   <package name="com.yiche.autofast" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.hihonor.hnvideoplayer" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="0" />
+  <package name="com.hihonor.hnmusicplayer" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="0" />
+  <package name="com.miHoYo.hkrpg" landscape_freeform="1" leave_blank_of_top="0" freeform="" splitscreen="" />
+  <package name="com.popcap.pvz2cthd.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" freeform_corner_mode="1" />
+  <package name="com.wepie.snake.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.bilibili.blhx.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.ztgame.bob.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.yk.sgs.hdexp.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.wanmei.zhuxian.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.qileyx.ddz.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.taomee.molenew.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.subwaysurf.honor" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.hicorenational.antifraud" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" />
+  <package name="com.round.control" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.kkys.video" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.tftplay.jcc" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.toaa" landscape_freeform="1" leave_blank_of_top="" freeform="1" splitscreen="1" allside_splitscreen="1" freeform_corner_mode="1" />
+  <package name="com.tuyoo.doudizhu.android3d" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tuyoo.doudizhu.android3d.honor" landscape_freeform="1" leave_blank_of_top="" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.mihoyo.hyperion" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.zengame.scmjxzdd.honor" landscape_freeform="1" leave_blank_of_top="" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.zengame.scmjxzdd" landscape_freeform="1" leave_blank_of_top="" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="free.tube.premium.advanced.tuber" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="fi.ruokakesko.k_ruoka" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.dts.freefiremax" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.einnovation.temu" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="it.pagopa.io.app" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.maybank2u.life" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.baidu.duer.superapp" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" />
+  <package name="com.kiloo.subwaysurf.gw" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kiloo.subwaysurf.bytedance.gamecenter" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kiloo.subwaysurf.bz" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.kiloo.subwaysurf.g.baidu" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.subwaysurf" landscape_freeform="0" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.dwrg" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.g67" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.zengame.zjscmj.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.zengame.zjscmj" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.zengame.zjscmj.bytedance.gamecenter" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.minitech.miniworld.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.qiyi.video.lite" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="0" />
+  <package name="com.tencent.tmgp.s3.sgzzlb" landscape_freeform="1" leave_blank_of_top="0" freeform="1" />
+  <package name="com.hihonor.magicvoicedesktop" splitscreen="0" />
+  <package name="com.aligames.sgzzlb" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.qookkagame.sgzzlb.gp.sea" landscape_freeform="" leave_blank_of_top="" freeform="" splitscreen="1" allside_splitscreen="1" />
+  <package name="com.tencent.tmgp.harrypotter" landscape_freeform="1" leave_blank_of_top="0" freeform="1" freeform_corner_mode="2" />
+  <package name="com.orange.update" freeform_padding="1" />
+  <package name="cnki.net.psmc" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="cnki.net.psmc.activity.scan.ScanActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.buyanchuantong.buyanshufa" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="">
+    <activity name="com.buyanchuantong.buyanshufa.CameraActivity" splitscreen_camera_rotation="1" />
+  </package>
+  <package name="com.k7k7.goujihd.honor" landscape_freeform="1" leave_blank_of_top="" freeform="1" splitscreen="" />
+  <package name="com.tencent.tmgp.gnyx" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" freeform_corner_mode="1" />
+  <package name="com.tuyoo.fish3d.official" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.tencent.tmgp.tuyoo.fishqm" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.tuyoo.fish3d.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.ledou.mhhy.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.tencent.tmgp.mhmnz" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.seasun.jxsj3.honor" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.tencent.tmgp.nshm" landscape_freeform="1" leave_blank_of_top="0" freeform="1" splitscreen="" />
+  <package name="com.baidu.carlife.honor" landscape_freeform="0" leave_blank_of_top="0" freeform="" splitscreen="1" />
+  <package name="com.phoenix.read" freeform="1" freeform_padding="1" splitscreen="1" />
+  <package name="cn.hsa.app" splitscreen="1" /> 
+  <package name="com.hihonor.search" landscape_freeform="0" leave_blank_of_top="0" splitscreen="0"/>
+</multi_window>

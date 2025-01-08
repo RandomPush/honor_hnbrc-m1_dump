@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <whiteapp name="王者荣耀" package="com.tencent.tmgp.sgame"/>
+  <whiteapp name="腾讯视频" package="com.tencent.qqlive"/>
+  <whiteapp name="火影忍者" package="com.tencent.KiHan"/>
+  <whiteapp name="腾讯欢乐麻将" package="com.qqgame.happymj"/>
+  <whiteapp name="神庙逃亡2" package="com.imangi.templerun2"/>
+  <whiteapp name="地铁跑酷" package="com.kiloo.subwaysurf"/>
+  <whiteapp name="今日头条" package="com.ss.android.article.news"/>
+  <whiteapp name="系统图库" package="com.hihonor.photos"/>
+  <whiteapp name="滴滴出行" package="com.sdu.didi.psnger"/>
+  <whiteapp name="高德地图" package="com.autonavi.minimap"/>
+  <whiteapp name="嘀嗒出行" package="com.didapinche.booking"/>
+  <whiteapp name="斗鱼直播" package="air.tv.douyu.android"/>
+  <whiteapp name="王牌战士" package="com.tencent.af"/>
+  <whiteapp name="天天爱消除" package="com.tencent.peng"/>
+  <whiteapp name="魂斗罗：归来" package="com.tencent.shootgame"/>
+  <whiteapp name="原神" package="com.miHoYo.Yuanshen"/>
+  <whiteapp name="真三国无双" package="com.tencent.sgwsba"/>
+  <whiteapp name="和平精英" package="com.tencent.tmgp.pubgmhd"/>
+  <whiteapp name="Roblox" package="com.roblox.client"/>
+</config>

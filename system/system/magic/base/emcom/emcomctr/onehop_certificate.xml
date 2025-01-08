@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 后续新增白名单需要修改版本号 -->
+<certificate_config version="001.006">
+    <finger_printer_list>
+        <!-- cn.wps.moffice_eng -->
+        <SHA256>64:39:90:87:8D:3C:A8:39:52:A5:BE:5F:3E:58:D9:F8:BB:6C:DC:57:BF:0F:22:87:00:21:20:71:C6:8D:B3:D7</SHA256>
+        <!-- com.android.gallery3d -->
+        <SHA256>50:78:7D:FF:85:7C:CC:74:23:35:2C:52:73:27:5A:D1:4B:21:F2:B9:77:CA:3C:12:4C:F4:68:4C:1A:9B:C0:5C</SHA256>
+        <!-- com.hihonor.photos -->
+        <SHA256>13:7C:22:07:16:6B:EA:A9:E8:63:66:CE:64:AE:B1:48:D1:12:8F:A0:CF:C5:0D:35:1F:CB:20:2D:82:CA:A6:36</SHA256>
+        <!-- com.android.mediacenter (Hihonor music old), com.hihonor.himovie, com.hihonor.health -->
+        <SHA256>B9:28:25:C2:BD:5D:6D:6D:1E:7F:39:EE:CD:17:84:3B:7D:90:16:F6:11:13:6B:75:44:1B:C6:F4:D3:F0:0F:05</SHA256>
+        <!-- com.hihonor.himovie -->
+        <SHA256>7C:D1:58:81:CE:1D:D2:F8:46:3A:3E:F7:2B:0D:F4:6F:00:5D:B6:7B:68:1A:1E:9B:27:3A:7B:55:80:9A:D0:BB</SHA256>
+        <!-- com.hihonor.music (honor music) -->
+        <SHA256>63:D3:D0:CF:72:FC:F1:B9:3E:9C:C2:91:3F:00:A9:9D:91:D1:E3:56:55:F8:37:E6:04:4F:A7:DF:71:2A:DA:7B</SHA256>
+        <!-- com.tencent.qqlivehihonor -->
+        <SHA256>22:8A:16:2A:0D:3B:F2:7F:D0:07:2B:2A:91:47:B9:32:F0:57:19:09:10:D2:23:C0:9F:9B:7F:4D:28:58:8C:D2</SHA256>
+        <!-- com.youku.phone -->
+        <SHA256>C7:DF:D1:9F:81:99:B8:06:15:EA:6E:70:AB:46:F8:5D:87:F3:6A:F2:65:01:F4:E0:2D:5C:2C:BA:85:E8:02:FB</SHA256>
+        <!-- com.hihonor.health -->
+        <SHA256>85:5B:C1:2A:61:DD:CB:A1:05:12:46:F5:39:53:01:D3:03:8F:14:75:E0:2D:61:92:76:03:44:62:57:31:0F:6D</SHA256>
+        <!-- hihonor system cert, 5v_platform, FrameworkTestAddonCommunication-->
+        <SHA256>22:DC:B0:4C:FA:A2:8F:38:2B:61:37:94:EB:A4:44:1A:8B:CB:1D:BC:85:76:77:6F:1B:1E:6A:45:7B:00:D4:49</SHA256>
+        <!-- hihonor system cert, 10v_platform, FrameworkTestAddonCommunication-->
+        <SHA256>93:06:27:9D:E9:C0:80:2F:89:BA:0B:97:E2:AE:A6:38:63:A6:39:67:92:46:22:50:96:6E:7A:0D:B9:A6:BD:2D</SHA256>
+        <!-- hihonor system cert, 11v_platform, FrameworkTestAddonCommunication-->
+        <SHA256>EA:23:F5:B8:C7:57:7C:DC:74:4A:BD:1C:6D:7E:14:3D:51:23:F8:F2:82:BF:4E:78:53:C1:EC:86:BD:2E:DD:22</SHA256>
+        <!-- com.hihonor.hdpartner (smart home) cert -->
+        <SHA256>E5:59:77:EA:94:EF:F5:38:74:4F:93:30:1A:1F:8B:50:15:C8:C5:75:FE:36:B7:6B:9C:B4:90:27:91:AD:CC:A4</SHA256>
+        <!-- com.hihonor.himovie v2 cert -->
+        <SHA256>59:51:03:FD:70:B6:79:3C:64:D8:53:43:D1:54:9C:C7:AD:4F:50:8F:0D:31:0F:19:D0:7A:50:A1:C2:CE:7B:A4</SHA256>
+        <!-- com.hihonor.photos oversea-->
+        <SHA256>09:35:5A:E0:E6:F4:14:1A:8D:9C:75:30:D8:A2:99:C8:AC:59:00:01:76:6A:EA:54:FC:67:3D:C0:C7:C2:30:A2</SHA256>
+        <!-- com.hihonor.health v2 cert -->
+        <SHA256>E5:8C:E0:27:E5:4E:72:D6:B0:65:0B:71:82:9D:E0:48:95:C2:DC:4E:C6:9A:6A:4E:A6:F1:58:E2:B4:C5:9C:32</SHA256>
+        <!-- com.hihonor.mediacenter v2 cert-->
+        <SHA256>48:30:13:CE:65:E1:B0:E1:0A:D7:6A:2E:B8:04:09:A2:A2:B8:B3:5E:BE:81:A3:3B:1F:6E:DD:7F:AC:BD:64:DC</SHA256>
+    </finger_printer_list>
+</certificate_config>

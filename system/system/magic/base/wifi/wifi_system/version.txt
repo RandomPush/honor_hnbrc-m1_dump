@@ -1,0 +1,7 @@
+version=1.10.22.102
+type=WIFI_SYSTEM
+subtype=SubTypeA
+compatibleVersion=1
+displayVersion=WIFI_SYSTEM_1.10.22.100
+classify=1
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefaultPermissionPolicy>
+  <Package name="com.hihonor.medialibrary">
+    <PermissionGroup name="android.permission.READ_MEDIA_IMAGES" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.READ_MEDIA_VIDEO" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.android.thememanager">
+    <PermissionGroup name="android.permission.READ_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.WRITE_EXTERNAL_STORAGE" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.facebook.appmanager">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.bluetooth">
+    <PermissionGroup name="android.permission.BLUETOOTH_CONNECT" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.deskclock">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.hnbluetoothpencilmanager">
+    <PermissionGroup name="android.permission.BLUETOOTH_CONNECT" grant="true" systemFixed="false"/>
+    <PermissionGroup name="android.permission.BLUETOOTH_SCAN" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.crossdeviceserviceshare">
+    <PermissionGroup name="android.permission.POST_NOTIFICATIONS" grant="true" systemFixed="false"/>
+  </Package>
+  <Package name="com.hihonor.cameraextension">
+    <PermissionGroup name="android.permission.CAMERA" grant="true" systemFixed="false"/>
+  </Package>
+</DefaultPermissionPolicy>

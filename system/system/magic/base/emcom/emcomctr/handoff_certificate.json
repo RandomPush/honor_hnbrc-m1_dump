@@ -1,0 +1,54 @@
+[
+  {
+    "PACKAGENAME": "com.hihonor.notepad",
+    "SHA256": "B4:7D:36:08:20:7A:39:ED:05:7F:34:B5:BF:75:B4:BB:F3:86:85:91:08:DC:DC:5B:CD:14:CA:2F:B6:72:D4:28"
+  },
+  {
+    "PACKAGENAME": "com.hihonor.email",
+    "SHA256": "C5:43:4A:BD:74:CB:D5:BD:23:B8:1E:54:DB:16:85:DB:F9:6F:D4:0B:8B:78:27:2B:1A:DA:64:8B:74:15:8D:09"
+  },
+  {
+    "PACKAGENAME": "com.android.systemui",
+    "SHA256": "48:30:13:CE:65:E1:B0:E1:0A:D7:6A:2E:B8:04:09:A2:A2:B8:B3:5E:BE:81:A3:3B:1F:6E:DD:7F:AC:BD:64:DC"
+  },
+  {
+    "PACKAGENAME": "com.example.handoffdemo",
+    "SHA256": "30:2F:C2:98:B6:9C:7A:E3:42:3E:6A:26:BE:E7:C0:11:08:08:44:CA:D4:F2:A3:59:11:20:32:2C:3F:19:6D:78"
+  },
+  {
+    "PACKAGENAME": "com.example.handoffdemomirror",
+    "SHA256": "30:2F:C2:98:B6:9C:7A:E3:42:3E:6A:26:BE:E7:C0:11:08:08:44:CA:D4:F2:A3:59:11:20:32:2C:3F:19:6D:78"
+  },
+  {
+    "PACKAGENAME": "com.cibn.tv",
+    "SHA256": "C7:DF:D1:9F:81:99:B8:06:15:EA:6E:70:AB:46:F8:5D:87:F3:6A:F2:65:01:F4:E0:2D:5C:2C:BA:85:E8:02:FB"
+  },
+  {
+    "PACKAGENAME": "com.youku.phone",
+    "SHA256": "C7:DF:D1:9F:81:99:B8:06:15:EA:6E:70:AB:46:F8:5D:87:F3:6A:F2:65:01:F4:E0:2D:5C:2C:BA:85:E8:02:FB"
+  },
+  {
+    "PACKAGENAME": "com.youku.multiscreentv",
+    "SHA256": "B4:0D:62:4E:78:74:84:98:63:03:F5:77:BD:90:E2:88:A4:DC:52:0B:30:08:87:82:F8:B2:57:9A:FB:E3:5D:ED"
+  },
+  {
+    "PACKAGENAME": "cn.wps.moffice_eng",
+    "SHA256": "64:39:90:87:8D:3C:A8:39:52:A5:BE:5F:3E:58:D9:F8:BB:6C:DC:57:BF:0F:22:87:00:21:20:71:C6:8D:B3:D7"
+  },
+  {
+    "PACKAGENAME": "video.editor.videoeditor.musicvideoeditor",
+    "SHA256": "51:2E:C5:5C:71:10:54:2B:4E:CA:35:DB:F0:E0:74:45:9A:81:D5:8A:4C:AC:74:87:F2:37:3D:88:4F:96:B5:72"
+  },
+  {
+    "PACKAGENAME": "video.editor.ovicut.cn",
+    "SHA256": "51:2E:C5:5C:71:10:54:2B:4E:CA:35:DB:F0:E0:74:45:9A:81:D5:8A:4C:AC:74:87:F2:37:3D:88:4F:96:B5:72"
+  },
+  {
+    "PACKAGENAME": "air.tv.douyu.android",
+    "SHA256": "98:01:68:AE:31:D6:89:C4:8F:48:34:0F:A5:50:C8:F3:F5:96:A1:C4:D9:17:F1:05:D2:FA:28:78:2A:7A:21:B3"
+  },
+  {
+    "PACKAGENAME": "com.kugou.android",
+    "SHA256": "F8:2F:CB:AD:13:46:85:BF:D4:59:F9:37:06:69:95:04:3C:D1:1F:C0:F9:65:88:E2:4B:A3:D0:4A:75:63:BC:F1"
+  }
+]

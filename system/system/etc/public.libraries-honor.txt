@@ -1,0 +1,6 @@
+libautotune.honor.so
+libteec.honor.so
+libiGraphicsCore.honor.so
+libautotune.honor.so
+libmediaalgoclient.honor.so
+libIsfClient.honor.so

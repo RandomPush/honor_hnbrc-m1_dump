@@ -1,0 +1,14 @@
+{
+    "FileDescriptorLeak": {
+        "enable": true,
+        "threshold": 5000,
+        "upload_interval": 36000,
+        "dump_time" : 60,
+        "specific_detect" : {
+            "pipe" : {
+                "threshold": 1000,
+                "target" : "system"
+            }
+        }
+    }
+}

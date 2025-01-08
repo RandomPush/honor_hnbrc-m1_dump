@@ -1,0 +1,21 @@
+<Config>
+    <ParaList>
+	    <!--配置说明：magic、product和vendor三个层级均可不配置default值-->
+		<!--配置说明：magic、product和vendor三个层级支持配置多个值，以“/”分隔-->
+		<!--推荐配置方式demo3：更新某产品通用参数，不区分VC-->
+        <param group="persist.radio.selfcure_game_scene_check_enable">
+            <magic group="MagicOS_8.0.0">
+                <product group="BRP-AN00/BRP-TN00/BRP-AN80/BRC-AN00/BRC-TN00">
+                    <vendor group="default">true</vendor>
+                </product>
+            </magic>
+        </param>
+		<param group="persist.radio.disable_sa_new_thread">
+            <magic group="MagicOS_8.0.0">
+                <product group="BRC-AN00/BRC-TN00/LYN-AN00/LYN-AN90/LYN-TN00">
+                    <vendor group="default">true</vendor>
+                </product>
+            </magic>
+        </param>
+    </ParaList>
+</Config>

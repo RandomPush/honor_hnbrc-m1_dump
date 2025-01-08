@@ -1,0 +1,171 @@
+# 2023-02-06 09:54:04.0
+bt.dpbap.enable=1
+# 2023-02-06 09:54:04.0
+bt.max.hfpclient.connections=2
+# 2023-02-06 09:54:04.0
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+# 2023-02-06 09:54:04.0
+fw.max_users=4
+# 2023-02-06 09:54:04.0
+fw.show_multiuserui=1
+# 2023-02-10 09:42:09.0
+msc.build.pif=2
+# 2023-02-06 09:54:04.0
+msc.config.OptiDBConfig=true
+# 2023-02-06 09:54:04.0
+msc.config.allow_rs_mms=true
+# 2023-02-06 09:54:04.0
+msc.config.eapsim=true
+# 2023-02-06 09:54:04.0
+msc.config.easywakeup=false
+# 2023-02-06 09:54:04.0
+msc.config.eccNumUseRplmn=true
+# 2023-02-06 09:54:04.0
+msc.config.emcom=true
+# 2023-02-06 09:54:04.0
+msc.config.freeform_enable=true
+# 2023-07-21 16:52:07.0
+msc.config.globalEcc=true
+# 2023-02-06 09:54:04.0
+msc.config.hntheme=1
+# 2023-02-06 09:54:04.0
+msc.config.lte_release=true
+# 2023-02-06 09:54:04.0
+msc.config.power_saving=true
+# 2023-02-06 09:54:04.0
+msc.config.power_voice_key=true
+# 2023-02-06 09:54:04.0
+msc.config.security_volume=10
+# 2023-02-06 09:54:04.0
+msc.config.singlehand=1
+# 2023-02-06 09:54:04.0
+msc.config.smallwindow=0,0,1080,1346
+# 2023-02-06 09:54:04.0
+msc.config.support_clone_app=true
+# 2023-02-06 09:54:04.0
+msc.config.sync_enabled=true
+# 2023-02-06 09:54:04.0
+msc.config.tint=true
+# 2023-02-06 09:54:04.0
+msc.config.useCtrlSocket=true
+# 2023-02-06 09:54:04.0
+msc.config.use_security_patch=false
+# 2023-02-06 09:54:04.0
+msc.config.vcardBase64=true
+# 2023-02-06 09:54:04.0
+msc.config.voicemail_sim=true
+# 2023-02-06 09:54:04.0
+msc.config.volte_dyn=true
+# 2023-02-06 09:54:04.0
+msc.config.watermark=false
+# 2023-02-06 09:54:04.0
+msc.cust.oma_drm=false
+# 2023-02-06 09:54:04.0
+msc.hicall.screensharing=true
+# 2023-02-06 09:54:04.0
+msc.keychain_switch=true
+# 2023-02-06 09:54:04.0
+msc.launcher.enable_preload_layout_vc=def_*;porsche_*;channel_*;all_cn
+# 2023-02-06 09:54:04.0
+msc.launcher.quick_switch_force_enable=true
+# 2023-02-06 09:54:04.0
+msc.launcher_gesture_snapshot_enable=false
+# 2023-02-06 09:54:04.0
+msc.multidevice.fams_enable=true
+# 2023-02-06 09:54:04.0
+msc.multiscreen=true
+# 2023-02-06 09:54:04.0
+msc.notification.block_rule.enabled=1
+# 2023-02-06 09:54:04.0
+msc.pms.reserve_profile=true
+# 2023-02-06 09:54:04.0
+msc.servicehost.needstartprocess=true
+# 2023-02-06 09:54:04.0
+msc.sys.ipv6timeout=1900
+# 2023-10-11 16:13:37.0
+msc.systemserver.atom_service_interaction_support=true
+# 2023-02-06 09:54:04.0
+msc.telephony.hicure.esmflag=true
+# 2023-02-06 09:54:04.0
+msc.wifi.support_dualwifi=false
+# 2023-02-06 09:54:04.0
+msc.window_corner_config=2,2,2.0,1.1
+# 2023-02-06 09:54:04.0
+mscw.media.multidrm_certificate=false
+# 2023-02-06 09:54:04.0
+mscw.system.folderPrefix=Honor
+# 2023-02-06 09:54:04.0
+persist.bt.max.a2dp.connections=2
+# 2023-02-06 09:54:04.0
+persist.jank.gameskip=true
+# 2023-02-06 09:54:04.0
+persist.radio.apm_sim_not_pwdn=1
+# 2023-02-06 09:54:04.0
+persist.sys.hn.forcedark_policy=1
+# 2023-07-24 14:22:53.0
+ro.build.magic_api_level=38
+# 2023-02-06 09:54:04.0
+ro.build.tags=release-keys
+# 2023-02-06 09:54:04.0
+ro.build.user=test
+# 2023-07-17 14:49:25.0
+ro.build.version.magic=MagicOS_8.0.0
+# 2023-02-06 09:54:04.0
+ro.config.alarm_alert=Morning_Star.ogg
+# 2023-02-06 09:54:04.0
+ro.config.app_big_icon_size=192
+# 2023-02-06 09:54:04.0
+ro.config.attach_ip_type=IPV4V6
+# 2023-02-06 09:54:04.0
+ro.config.auto_display_mode=true
+# 2023-02-06 09:54:04.0
+ro.config.demo_allow_pwd=false
+# 2023-02-06 09:54:04.0
+ro.config.disable_reset_by_mdm=true
+# 2023-02-06 09:54:04.0
+ro.config.disable_triple=true
+# 2023-02-06 09:54:04.0
+ro.config.distributed_app_fwk=true
+# 2023-02-06 09:54:04.0
+ro.config.dns.two_threads=true
+# 2023-02-06 09:54:04.0
+ro.config.enable_iaware=true
+# 2023-02-06 09:54:04.0
+ro.config.enable_perfhub_fling=true
+# 2023-02-06 09:54:04.0
+ro.config.enterprise_support=true
+# 2023-02-06 09:54:04.0
+ro.config.fp_navigation=true
+# 2023-02-06 09:54:04.0
+ro.config.gameassist.full-finger=1
+# 2023-02-06 09:54:04.0
+ro.config.hiaibase_push_mode=1
+# 2023-02-06 09:54:04.0
+ro.config.ipv4.mtu=1400
+# 2023-02-06 09:54:04.0
+ro.config.notification_sound=Pixies.ogg
+# 2023-02-06 09:54:04.0
+ro.config.para_updateCapacityVersion=1.0
+# 2023-02-06 09:54:04.0
+ro.config.ringtone=Go_Beyond_Female.ogg
+# 2023-02-06 09:54:04.0
+ro.config.ringtone2=Go_Beyond_Strings.ogg
+# 2023-02-06 09:54:04.0
+ro.config.support_sdcard_crypt=false
+# 2023-02-06 09:54:04.0
+ro.config.switchPrimaryVolume=true
+# 2023-02-06 09:54:04.0
+ro.config.updatelocation=true
+# 2023-02-06 09:54:04.0
+ro.config.widevine_level3=true
+# 2023-02-06 09:54:04.0
+ro.control.sleeplog=true
+# 2023-02-06 09:54:04.0
+ro.patch.baseline.version=2.0
+# 2023-02-06 09:54:04.0
+ro.ril.ecclist=112,911,#911,*911
+# 2023-02-06 09:54:04.0
+ro.syssvccallrecord.enable=true
+ro.config.hn_em_solution_ver=B001
+ro.comp.system_version=System 8.0.0(385J)
+ro.magic.systemversion=System 8.0.0(385J)

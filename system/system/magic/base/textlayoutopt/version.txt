@@ -1,0 +1,6 @@
+version=1.10.23.100
+type=TextLayoutOpt
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=TL.GENC.1.10.23.100

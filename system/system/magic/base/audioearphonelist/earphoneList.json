@@ -1,0 +1,88 @@
+{
+  "earphoneBaseInfoList": [
+    {
+      "modelId": "00003C",
+      "productName": "FreeBuds Pro",
+      "productId": "ZA07",
+      "supportJsonName": "ZA07"
+    },
+    {
+      "modelId": "00003B",
+      "productName": "FreeBuds Studio",
+      "productId": "ZA06",
+      "supportJsonName": "ZA06"
+    },
+    {
+      "modelId": "000125",
+      "productName": "HONOR Earbuds 2 Lite",
+      "productId": "ZA08",
+      "supportJsonName": "ZA08"
+    },
+    {
+      "modelId": "00012E",
+      "productName": "Earbuds 3 pro",
+      "productId": "L001",
+      "supportJsonName": "L001"
+    },
+    {
+      "modelId": "00QNLV",
+      "productName": "HONOR Earbuds X7",
+      "productId": "QNLV",
+      "supportJsonName": "QNLV"
+    },
+    {
+      "modelId": "000136",
+      "productName": "HONOR Earbuds 3i",
+      "productId": "L012",
+      "supportJsonName": "L012"
+    },
+    {
+      "modelId": "000144",
+      "productName": "HONOR Earbuds 3i",
+      "productId": "L012",
+      "supportJsonName": "L012"
+    },
+    {
+      "modelId": "00013A",
+      "productName": "HONOR Earbuds X5",
+      "productId": "L013",
+      "supportJsonName": "L013"
+    },
+    {
+      "modelId": "00Y3DR",
+      "productName": "HONOR Earbuds X6",
+      "productId": "Y3DR",
+      "supportJsonName": "Y3DR"
+    },
+    {
+      "modelId": "00FUFX",
+      "productName": "HONOR Earbuds A",
+      "productId": "FUFX",
+      "supportJsonName": "FUFX"
+    },
+    {
+      "modelId": "00VVD9",
+      "productName": "Third",
+      "productId": "Third",
+      "supportJsonName": "Third"
+    },
+    {
+      "modelId": "00ASHA",
+      "productName": "ASHA",
+      "productId": "ASHA",
+      "supportJsonName": "ASHA"
+    },
+    {
+      "modelId": "00GJ3T",
+      "productName": "Loki",
+      "productId": "GJ3T",
+      "supportJsonName": "BASE_SHARE_EAR"
+    },
+    {
+      "modelId": "00PTL8",
+      "productName": "HONOR Earbuds X8",
+      "productId": "PTL8",
+      "supportJsonName": "BASE"
+    }
+  ]
+}

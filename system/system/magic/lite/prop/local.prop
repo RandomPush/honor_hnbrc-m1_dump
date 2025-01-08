@@ -1,0 +1,60 @@
+# 2023-02-06 09:54:04.0
+fw.max_users=1
+# 2023-02-06 09:54:04.0
+fw.show_multiuserui=0
+# 2023-02-06 09:54:04.0
+msc.config.dbsearch_lite=true
+# 2023-02-06 09:54:04.0
+msc.config.globalSearch=false
+# 2023-02-06 09:54:04.0
+msc.config.linkedin_enable=false
+# 2023-02-06 09:54:04.0
+msc.config.support_clone_app=false
+# 2023-02-06 09:54:04.0
+msc.keychain_switch=false
+# 2023-02-06 09:54:04.0
+msc.launcher.quick_switch_force_enable=false
+# 2023-02-06 09:54:04.0
+msc.launcher_gesture_snapshot_enable=false
+# 2023-02-06 09:54:04.0
+msc.lcd.density.scale=800
+# 2023-02-06 09:54:04.0
+msc.window_corner_config=1,1,0,0
+# 2023-02-06 09:54:04.0
+ro.build.magic_lite.enable=true
+# 2023-02-06 09:54:04.0
+ro.config.distributed_app_fwk=true
+# 2023-02-06 09:54:04.0
+ro.config.hicall=false
+# 2023-02-06 09:54:04.0
+ro.config.support_sdcard_crypt=false
+# 2023-02-06 09:54:04.0
+ro.feature.animation.style=simple
+# 2023-02-06 09:54:04.0
+ro.feature.calendar.map=false
+# 2023-02-06 09:54:04.0
+ro.feature.calendar.permanentcalendar=false
+# 2023-02-06 09:54:04.0
+ro.feature.contacts.favorite=false
+# 2023-02-06 09:54:04.0
+ro.feature.contacts.smartgroup=false
+# 2023-02-06 09:54:04.0
+ro.feature.dfr.appeye=false
+# 2023-02-06 09:54:04.0
+ro.feature.dfr.erecovery=false
+# 2023-02-06 09:54:04.0
+ro.feature.email.ai_translation=false
+# 2023-02-06 09:54:04.0
+ro.feature.email.group=false
+# 2023-02-06 09:54:04.0
+ro.feature.email.smime=false
+# 2023-02-06 09:54:04.0
+ro.feature.intelligence.level=Lite
+# 2023-02-06 09:54:04.0
+ro.feature.systemui.blur_wallpaper=false
+# 2023-02-06 09:54:04.0
+ro.feature.wms.singlemode=false
+# 2023-02-06 09:54:04.0
+ro.gallery.thumbnailLoading=true
+# 2023-02-06 09:54:04.0
+ro.iconnect.trustpair=false

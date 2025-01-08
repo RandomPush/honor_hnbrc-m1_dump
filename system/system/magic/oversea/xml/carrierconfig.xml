@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6b8e5bde632e5ae4ea643bf2eddd5a3f">
+  <dict>
+    <!--2023-02-06 09:54:04.0-->
+    <string key="config_ims_package_override_string">com.google.android.ims</string>
+    <!--2024-05-23 15:26:24.0-->
+    <bool key="use_only_dialed_sim_ecc_list_bool">true</bool>
+  </dict>
+</config>

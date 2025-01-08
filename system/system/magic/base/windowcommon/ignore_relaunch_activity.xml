@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ignore_rotate_relaunch_activity_list>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.xt.retouch.feed.impl.TemplateSearchActivity" package="醒图"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.bilibili.studio.module.material.ui.MaterialPreviewActivity" package="哔哩哔哩创作工具"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="tv.danmaku.bili.MainActivityV2" package="哔哩哔哩"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.mihoyo.hyperion.main.HyperionMainActivity" package="米游社"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.taobao.fleamarket.home.activity.InitActivity" package="闲鱼"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="tv.danmaku.bili.ui.webview.MWebActivity" package="哔哩哔哩"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.tencent.qrcode.QrScanActivity" package="王者营地"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.grab.payments.proxy.impl.processor.PaymentsProxyActivity" package="com.grabtaxi.passenger"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.gotokeep.keep.su.social.entry.activity.EntryDetailActivity" package="keep"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.gotokeep.keep.su.social.feedblack.activity.RecommendFeedBlackActivity" package="keep"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.booking.appindex.presentation.activity.SearchActivity" package="com.booking"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.truecaller.contacteditor.impl.ui.ContactEditorActivity" package="com.truecaller"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.truecaller.ui.WizardActivity" package="com.truecaller"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="com.Meteosolutions.Meteo3b.activity.ImageCropActivity" package="com.Meteosolutions.Meteo3b"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="net.csdn.csdnplus.activity.SplashActivity" package="net.csdn.csdnplus"/>
+ <ignorerelaunch tag="ignore_rotate_relaunch_tag" activity_name="refactor.business.me.activity.FZPersonHomeActivity" package="com.ishowedu.peiyin"/>
+</ignore_rotate_relaunch_activity_list>
+

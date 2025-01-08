@@ -1,0 +1,6 @@
+version=1.10.24.103
+type=CameraExtension
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=CX.GENC.1.10.24.103

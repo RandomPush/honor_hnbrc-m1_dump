@@ -1,0 +1,1151 @@
+[
+    {
+        "PACKAGENAME": "cn.wps.moffice_eng"
+    },
+    {
+        "PACKAGENAME": "com.alibaba.aliexpresshd"
+    },
+    {
+        "PACKAGENAME": "com.amazon.mshop.android.shopping"
+    },
+    {
+        "PACKAGENAME": "com.android.chrome"
+    },
+    {
+        "PACKAGENAME": "com.booking"
+    },
+    {
+        "PACKAGENAME": "com.dts.freefireth"
+    },
+    {
+        "PACKAGENAME": "com.facebook.katana"
+    },
+    {
+        "PACKAGENAME": "com.facebook.orca"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.docs"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.maps"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.photos"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.youtube.music"
+    },
+    {
+        "PACKAGENAME": "com.google.android.gm"
+    },
+    {
+        "PACKAGENAME": "com.google.android.googlequicksearchbox"
+    },
+    {
+        "PACKAGENAME": "com.google.android.youtube"
+    },
+    {
+        "PACKAGENAME": "com.grabtaxi.passenger"
+    },
+    {
+        "PACKAGENAME": "com.imo.android.imoim"
+    },
+    {
+        "PACKAGENAME": "com.instagram.android"
+    },
+    {
+        "PACKAGENAME": "com.kwai.kuaishou.video.live"
+    },
+    {
+        "PACKAGENAME": "com.lazada.android"
+    },
+    {
+        "PACKAGENAME": "com.lemon.lvoverseas"
+    },
+    {
+        "PACKAGENAME": "com.lenovo.anyshare.gps"
+    },
+    {
+        "PACKAGENAME": "com.lidl.eci.lidlplus"
+    },
+    {
+        "PACKAGENAME": "com.mercadolibre"
+    },
+    {
+        "PACKAGENAME": "com.netflix.mediaclient"
+    },
+    {
+        "PACKAGENAME": "com.pinterest"
+    },
+    {
+        "PACKAGENAME": "com.roblox.client"
+    },
+    {
+        "PACKAGENAME": "com.snapchat.android"
+    },
+    {
+        "PACKAGENAME": "com.spotify.music"
+    },
+    {
+        "PACKAGENAME": "com.tencent.ig"
+    },
+    {
+        "PACKAGENAME": "com.tencent.mm"
+    },
+    {
+        "PACKAGENAME": "com.truecaller"
+    },
+    {
+        "PACKAGENAME": "com.twitter.android"
+    },
+    {
+        "PACKAGENAME": "com.ubercab"
+    },
+    {
+        "PACKAGENAME": "com.viber.voip"
+    },
+    {
+        "PACKAGENAME": "com.vkontakte.android"
+    },
+    {
+        "PACKAGENAME": "com.waze"
+    },
+    {
+        "PACKAGENAME": "com.whatsapp"
+    },
+    {
+        "PACKAGENAME": "com.wildberries.ru"
+    },
+    {
+        "PACKAGENAME": "com.zhiliaoapp.musically"
+    },
+    {
+        "PACKAGENAME": "com.zzkko"
+    },
+    {
+        "PACKAGENAME": "org.telegram.messenger"
+    },
+    {
+        "PACKAGENAME": "sinet.startup.indriver"
+    },
+    {
+        "PACKAGENAME": "com.mem.macaolife"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.translate"
+    },
+    {
+        "PACKAGENAME": "eu.livesport.flashscore_com"
+    },
+    {
+        "PACKAGENAME": "az.kapitalbank.mbanking"
+    },
+    {
+        "PACKAGENAME": "com.mada.madapay"
+    },
+    {
+        "PACKAGENAME": "ro.profi.store"
+    },
+    {
+        "PACKAGENAME": "com.fullsix.android.labanquepostale.accountaccess"
+    },
+    {
+        "PACKAGENAME": "trendyol.com"
+    },
+    {
+        "PACKAGENAME": "com.kmb.app1933"
+    },
+    {
+        "PACKAGENAME": "pt.continente.continentetelemovel"
+    },
+    {
+        "PACKAGENAME": "com.fairprice.mcomapp"
+    },
+    {
+        "PACKAGENAME": "com.schibsted.iberica.jofogas"
+    },
+    {
+        "PACKAGENAME": "com.vodafone.selfservis"
+    },
+    {
+        "PACKAGENAME": "si.nkbm.bnk.android"
+    },
+    {
+        "PACKAGENAME": "de.wetteronline.wetterapp"
+    },
+    {
+        "PACKAGENAME": "com.pozitron.hepsiburada"
+    },
+    {
+        "PACKAGENAME": "com.ttech.android.onlineislem"
+    },
+    {
+        "PACKAGENAME": "org.hicham.salaat"
+    },
+    {
+        "PACKAGENAME": "cz.zasilkovna.app"
+    },
+    {
+        "PACKAGENAME": "net.zedge.android"
+    },
+    {
+        "PACKAGENAME": "com.orange.myorange.ojo"
+    },
+    {
+        "PACKAGENAME": "com.einnovation.temu"
+    },
+    {
+        "PACKAGENAME": "com.taxif.passenger"
+    },
+    {
+        "PACKAGENAME": "cr.fi.bncr.bnmovil.bncr"
+    },
+    {
+        "PACKAGENAME": "com.noon.buyerapp"
+    },
+    {
+        "PACKAGENAME": "com.dstvmobile.android"
+    },
+    {
+        "PACKAGENAME": "com.soundcloud.android"
+    },
+    {
+        "PACKAGENAME": "hu.mavszk.vonatinfo"
+    },
+    {
+        "PACKAGENAME": "com.yandex.yango"
+    },
+    {
+        "PACKAGENAME": "kw.gov.sahel"
+    },
+    {
+        "PACKAGENAME": "com.cloudflare.onedotonedotonedotone"
+    },
+    {
+        "PACKAGENAME": "com.asiacell.asiacellodp"
+    },
+    {
+        "PACKAGENAME": "com.bstar.intl"
+    },
+    {
+        "PACKAGENAME": "com.adcb.bank"
+    },
+    {
+        "PACKAGENAME": "com.videoeditorpro.android"
+    },
+    {
+        "PACKAGENAME": "sg.gov.hpb.healthy365"
+    },
+    {
+        "PACKAGENAME": "pl.allegro"
+    },
+    {
+        "PACKAGENAME": "de.payback.client.android"
+    },
+    {
+        "PACKAGENAME": "com.phonepe.app"
+    },
+    {
+        "PACKAGENAME": "com.tmob.aveaoim"
+    },
+    {
+        "PACKAGENAME": "org.aka.messenger"
+    },
+    {
+        "PACKAGENAME": "cz.seznam.email"
+    },
+    {
+        "PACKAGENAME": "my.gov.onegovappstore.mysejahtera"
+    },
+    {
+        "PACKAGENAME": "com.openintegra.android.dsksmart"
+    },
+    {
+        "PACKAGENAME": "com.ebay.kleinanzeigen"
+    },
+    {
+        "PACKAGENAME": "com.supportware.buienradar"
+    },
+    {
+        "PACKAGENAME": "com.zhiliaoapp.musically.go"
+    },
+    {
+        "PACKAGENAME": "com.digi.portal.mobdev.android"
+    },
+    {
+        "PACKAGENAME": "com.sirmamobile.prodavalnik"
+    },
+    {
+        "PACKAGENAME": "hu.ekreta.student"
+    },
+    {
+        "PACKAGENAME": "com.yalla.yallagames"
+    },
+    {
+        "PACKAGENAME": "com.b3g.cih.online"
+    },
+    {
+        "PACKAGENAME": "com.claro.pe.miclaro"
+    },
+    {
+        "PACKAGENAME": "hk.org.ha.hago"
+    },
+    {
+        "PACKAGENAME": "com.amazon.avod.thirdpartyclient"
+    },
+    {
+        "PACKAGENAME": "com.imo.android.imoimbeta"
+    },
+    {
+        "PACKAGENAME": "im.thebot.messenger"
+    },
+    {
+        "PACKAGENAME": "com.bocmacau.com"
+    },
+    {
+        "PACKAGENAME": "fr.leboncoin"
+    },
+    {
+        "PACKAGENAME": "co.infinum.nlb"
+    },
+    {
+        "PACKAGENAME": "com.haraj.app"
+    },
+    {
+        "PACKAGENAME": "com.bancomer.mbanking"
+    },
+    {
+        "PACKAGENAME": "fi.itella.posti.android"
+    },
+    {
+        "PACKAGENAME": "bg.vivacom.mobile"
+    },
+    {
+        "PACKAGENAME": "com.mcdonalds.gma.hongkong"
+    },
+    {
+        "PACKAGENAME": "rs.telenor.mymenu"
+    },
+    {
+        "PACKAGENAME": "uz.uzum.app"
+    },
+    {
+        "PACKAGENAME": "air.org.edupage"
+    },
+    {
+        "PACKAGENAME": "com.live.live4d"
+    },
+    {
+        "PACKAGENAME": "ro.btrl.pay"
+    },
+    {
+        "PACKAGENAME": "com.kasikorn.retail.mbanking.wap"
+    },
+    {
+        "PACKAGENAME": "plus.spar.si"
+    },
+    {
+        "PACKAGENAME": "com.etisalat"
+    },
+    {
+        "PACKAGENAME": "com.dbs.sg.posbmbanking"
+    },
+    {
+        "PACKAGENAME": "com.shopee.ph"
+    },
+    {
+        "PACKAGENAME": "com.whos.teamdevcallingme"
+    },
+    {
+        "PACKAGENAME": "com.azeplus2"
+    },
+    {
+        "PACKAGENAME": "it.subito"
+    },
+    {
+        "PACKAGENAME": "com.camerasideas.instashot"
+    },
+    {
+        "PACKAGENAME": "gogolook.callgogolook2"
+    },
+    {
+        "PACKAGENAME": "com.ais.mimo.eservice"
+    },
+    {
+        "PACKAGENAME": "hu.tesco.clubcard"
+    },
+    {
+        "PACKAGENAME": "com.bcp.bo.wallet"
+    },
+    {
+        "PACKAGENAME": "fi.supersaa"
+    },
+    {
+        "PACKAGENAME": "cgd.pt.caixadirectaparticulares"
+    },
+    {
+        "PACKAGENAME": "com.microsoft.office.outlook"
+    },
+    {
+        "PACKAGENAME": "com.google.android.calendar"
+    },
+    {
+        "PACKAGENAME": "fi.hsl.app"
+    },
+    {
+        "PACKAGENAME": "bg.abv.andro.emailapp"
+    },
+    {
+        "PACKAGENAME": "com.maybank2u.life"
+    },
+    {
+        "PACKAGENAME": "rs.maketv.oriontv"
+    },
+    {
+        "PACKAGENAME": "com.garena.game.kgth"
+    },
+    {
+        "PACKAGENAME": "uz.beeline.odp"
+    },
+    {
+        "PACKAGENAME": "com.kwai.video"
+    },
+    {
+        "PACKAGENAME": "qa.ooredoo.android"
+    },
+    {
+        "PACKAGENAME": "com.fast.free.unblock.secure.vpn"
+    },
+    {
+        "PACKAGENAME": "com.scopely.monopolygo"
+    },
+    {
+        "PACKAGENAME": "com.wataniya"
+    },
+    {
+        "PACKAGENAME": "sk.orange.android.orangego"
+    },
+    {
+        "PACKAGENAME": "com.jrzheng.supervpnfree"
+    },
+    {
+        "PACKAGENAME": "pl.pkobp.iko"
+    },
+    {
+        "PACKAGENAME": "ee.mtakso.client"
+    },
+    {
+        "PACKAGENAME": "com.psiphon3.subscription"
+    },
+    {
+        "PACKAGENAME": "com.ucare.we"
+    },
+    {
+        "PACKAGENAME": "sa.gov.nic.myid"
+    },
+    {
+        "PACKAGENAME": "org.yoki.android.buienalarm"
+    },
+    {
+        "PACKAGENAME": "de.dhl.paket"
+    },
+    {
+        "PACKAGENAME": "nl.ns.android.activity"
+    },
+    {
+        "PACKAGENAME": "com.otecel.mimovistar"
+    },
+    {
+        "PACKAGENAME": "cz.bakalari.mobile"
+    },
+    {
+        "PACKAGENAME": "mx.com.bancoazteca.bazdigitalmovil"
+    },
+    {
+        "PACKAGENAME": "com.octopuscards.nfc_reader"
+    },
+    {
+        "PACKAGENAME": "com.ducont.muscatbank"
+    },
+    {
+        "PACKAGENAME": "com.starfinanz.smob.android.sfinanzstatus"
+    },
+    {
+        "PACKAGENAME": "hu.spar.mobile"
+    },
+    {
+        "PACKAGENAME": "com.yle.webtv"
+    },
+    {
+        "PACKAGENAME": "com.mxtech.videoplayer.ad"
+    },
+    {
+        "PACKAGENAME": "eu.fiveminutes.mpc"
+    },
+    {
+        "PACKAGENAME": "ver3.ycntivi.off"
+    },
+    {
+        "PACKAGENAME": "asuk.com.android.app"
+    },
+    {
+        "PACKAGENAME": "com.macaupass.rechargeeasy"
+    },
+    {
+        "PACKAGENAME": "ro.mercador"
+    },
+    {
+        "PACKAGENAME": "com.fugo.wow"
+    },
+    {
+        "PACKAGENAME": "tr.gov.turkiye.edevlet.kapisi"
+    },
+    {
+        "PACKAGENAME": "com.king.candycrushsaga"
+    },
+    {
+        "PACKAGENAME": "posteitaliane.posteapp.apppostepay"
+    },
+    {
+        "PACKAGENAME": "com.facebook.lite"
+    },
+    {
+        "PACKAGENAME": "com.samirshagavatov.namazvaxti"
+    },
+    {
+        "PACKAGENAME": "com.virtecha.umniah"
+    },
+    {
+        "PACKAGENAME": "si.gov.zvem"
+    },
+    {
+        "PACKAGENAME": "com.intsig.camscanner"
+    },
+    {
+        "PACKAGENAME": "pl.jmpolska.clos0.mojabiedronka"
+    },
+    {
+        "PACKAGENAME": "de.web.mobile.android.mail"
+    },
+    {
+        "PACKAGENAME": "com.popularapp.periodcalendar"
+    },
+    {
+        "PACKAGENAME": "com.torg.torg"
+    },
+    {
+        "PACKAGENAME": "org.ctk.bancamovil"
+    },
+    {
+        "PACKAGENAME": "cz.seznam.sbrowser"
+    },
+    {
+        "PACKAGENAME": "net.veritran.becl.prod"
+    },
+    {
+        "PACKAGENAME": "com.opensooq.opensooq"
+    },
+    {
+        "PACKAGENAME": "com.egyptianbanks.instapay"
+    },
+    {
+        "PACKAGENAME": "com.taobao.taobao"
+    },
+    {
+        "PACKAGENAME": "com.ziraat.ziraatmobil"
+    },
+    {
+        "PACKAGENAME": "com.news.on"
+    },
+    {
+        "PACKAGENAME": "com.snaptube.premium"
+    },
+    {
+        "PACKAGENAME": "hu.khb"
+    },
+    {
+        "PACKAGENAME": "com.yandex.searchapp"
+    },
+    {
+        "PACKAGENAME": "kw.gov.paci.pacimobileid"
+    },
+    {
+        "PACKAGENAME": "com.clarocolombia.miclaro"
+    },
+    {
+        "PACKAGENAME": "com.ashwhale.sepush.eskom"
+    },
+    {
+        "PACKAGENAME": "com.boundless.jawaker"
+    },
+    {
+        "PACKAGENAME": "free.daily.tube.background"
+    },
+    {
+        "PACKAGENAME": "com.abnamro.nl.mobile.payments"
+    },
+    {
+        "PACKAGENAME": "com.hrvatskitelekom.m.mojt"
+    },
+    {
+        "PACKAGENAME": "com.barclays.android.barclaysmobilebanking"
+    },
+    {
+        "PACKAGENAME": "fi.ruokakesko.k_ruoka"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.tachyon"
+    },
+    {
+        "PACKAGENAME": "com.thecarousell.carousell"
+    },
+    {
+        "PACKAGENAME": "cz.mafra.jizdnirady"
+    },
+    {
+        "PACKAGENAME": "com.ea.gp.fifamobile"
+    },
+    {
+        "PACKAGENAME": "com.superking.parchisi.star"
+    },
+    {
+        "PACKAGENAME": "com.zainkw.zain"
+    },
+    {
+        "PACKAGENAME": "kz.kolesa"
+    },
+    {
+        "PACKAGENAME": "com.didiglobal.passenger"
+    },
+    {
+        "PACKAGENAME": "com.shopee.th"
+    },
+    {
+        "PACKAGENAME": "hu.ekreta.guardian"
+    },
+    {
+        "PACKAGENAME": "com.yahoo.mobile.client.android.mail"
+    },
+    {
+        "PACKAGENAME": "com.azure.authenticator"
+    },
+    {
+        "PACKAGENAME": "jp.naver.line.android"
+    },
+    {
+        "PACKAGENAME": "com.chinamobile"
+    },
+    {
+        "PACKAGENAME": "za.co.vodacom.android.app"
+    },
+    {
+        "PACKAGENAME": "iba.mobilbank"
+    },
+    {
+        "PACKAGENAME": "com.bgeneral"
+    },
+    {
+        "PACKAGENAME": "fr.doctolib.www"
+    },
+    {
+        "PACKAGENAME": "cl.wom.transformacion.appwommobile"
+    },
+    {
+        "PACKAGENAME": "com.microsoft.teams"
+    },
+    {
+        "PACKAGENAME": "com.google.android.videos"
+    },
+    {
+        "PACKAGENAME": "fi.iltasanomat"
+    },
+    {
+        "PACKAGENAME": "bg.telenor.mytelenor"
+    },
+    {
+        "PACKAGENAME": "com.mcdonalds.app.uk"
+    },
+    {
+        "PACKAGENAME": "rs.raiffeisen.mobile"
+    },
+    {
+        "PACKAGENAME": "com.globe.gcash.android"
+    },
+    {
+        "PACKAGENAME": "uz.kashapp.road24jarimalar"
+    },
+    {
+        "PACKAGENAME": "air.com.ssdsoftwaresolutions.clickuz"
+    },
+    {
+        "PACKAGENAME": "com.linkedin.android"
+    },
+    {
+        "PACKAGENAME": "qa.vodafone.myvodafone"
+    },
+    {
+        "PACKAGENAME": "com.fixeads.olxportugal"
+    },
+    {
+        "PACKAGENAME": "com.shazam.android"
+    },
+    {
+        "PACKAGENAME": "com.whatsapp2plus"
+    },
+    {
+        "PACKAGENAME": "sk.slsp.georgego"
+    },
+    {
+        "PACKAGENAME": "com.juvomobileinc.tigoshop.gt"
+    },
+    {
+        "PACKAGENAME": "pl.zabka.apb2c"
+    },
+    {
+        "PACKAGENAME": "com.entel.movil"
+    },
+    {
+        "PACKAGENAME": "eu.eleader.mobilebanking.nbk"
+    },
+    {
+        "PACKAGENAME": "com.revesoft.itelmobiledialer.dialer"
+    },
+    {
+        "PACKAGENAME": "com.undabot.android.njuskalo"
+    },
+    {
+        "PACKAGENAME": "com.infostud.android.pa"
+    },
+    {
+        "PACKAGENAME": "pkg.rop"
+    },
+    {
+        "PACKAGENAME": "de.hafas.android.db"
+    },
+    {
+        "PACKAGENAME": "om.ooredoo"
+    },
+    {
+        "PACKAGENAME": "com.pedidosya"
+    },
+    {
+        "PACKAGENAME": "free.vpn.unblock.proxy.turbovpn"
+    },
+    {
+        "PACKAGENAME": "com.adobe.reader"
+    },
+    {
+        "PACKAGENAME": "com.icemobile.albertheijn"
+    },
+    {
+        "PACKAGENAME": "hu.telekom.telekomapp"
+    },
+    {
+        "PACKAGENAME": "com.bcp.bank.bcp"
+    },
+    {
+        "PACKAGENAME": "fi.starsoft.wilma"
+    },
+    {
+        "PACKAGENAME": "capitec.acuity.mobile.prod"
+    },
+    {
+        "PACKAGENAME": "com.meteosolutions.meteo3b"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.walletnfcrel"
+    },
+    {
+        "PACKAGENAME": "fi.android.takealot"
+    },
+    {
+        "PACKAGENAME": "bcr.movil"
+    },
+    {
+        "PACKAGENAME": "com.masarat.salati"
+    },
+    {
+        "PACKAGENAME": "ro.vodafone.mcare.android"
+    },
+    {
+        "PACKAGENAME": "com.garanti.cepsubesi"
+    },
+    {
+        "PACKAGENAME": "us.zoom.videomeetings"
+    },
+    {
+        "PACKAGENAME": "com.kupujemprodajem.android"
+    },
+    {
+        "PACKAGENAME": "pt.sibs.android.mbway"
+    },
+    {
+        "PACKAGENAME": "com.falabella.falabellaapp"
+    },
+    {
+        "PACKAGENAME": "com.schibsted.iberica.tori"
+    },
+    {
+        "PACKAGENAME": "com.wallapop"
+    },
+    {
+        "PACKAGENAME": "sk.o2.mojeo2"
+    },
+    {
+        "PACKAGENAME": "pl.nask.mobywatel"
+    },
+    {
+        "PACKAGENAME": "duleaf.duapp.splash"
+    },
+    {
+        "PACKAGENAME": "com.prayertimes"
+    },
+    {
+        "PACKAGENAME": "com.tvb.mytvsuper"
+    },
+    {
+        "PACKAGENAME": "sa.gov.moi"
+    },
+    {
+        "PACKAGENAME": "org.telegram.plus"
+    },
+    {
+        "PACKAGENAME": "de.aboutyou.mobile.app"
+    },
+    {
+        "PACKAGENAME": "nl.marktplaats.android"
+    },
+    {
+        "PACKAGENAME": "com.orange.orangemoney_customer"
+    },
+    {
+        "PACKAGENAME": "com.tdcm.trueidapp"
+    },
+    {
+        "PACKAGENAME": "cz.albert.app"
+    },
+    {
+        "PACKAGENAME": "mo.gov.safp.portal"
+    },
+    {
+        "PACKAGENAME": "com.nwfb"
+    },
+    {
+        "PACKAGENAME": "com.ss.android.ugc.trill"
+    },
+    {
+        "PACKAGENAME": "hu.otpbank.mobile"
+    },
+    {
+        "PACKAGENAME": "kz.beeline.odp"
+    },
+    {
+        "PACKAGENAME": "com.mtr.mtrmobile"
+    },
+    {
+        "PACKAGENAME": "com.dbs.sg.dbsmbanking"
+    },
+    {
+        "PACKAGENAME": "com.shopee.my"
+    },
+    {
+        "PACKAGENAME": "hr.asseco.android.jimba.muci.bg"
+    },
+    {
+        "PACKAGENAME": "ir.ilmili.telegraph"
+    },
+    {
+        "PACKAGENAME": "com.callapp.contacts"
+    },
+    {
+        "PACKAGENAME": "sk.tesco.clubcard"
+    },
+    {
+        "PACKAGENAME": "com.kaufland.kaufland"
+    },
+    {
+        "PACKAGENAME": "posteitaliane.posteapp.appposteid"
+    },
+    {
+        "PACKAGENAME": "com.etisalat.etida"
+    },
+    {
+        "PACKAGENAME": "com.sahibinden"
+    },
+    {
+        "PACKAGENAME": "com.vipera.ts.starter.metrash2"
+    },
+    {
+        "PACKAGENAME": "sg.ndi.sp"
+    },
+    {
+        "PACKAGENAME": "com.inovel.app.yemeksepeti"
+    },
+    {
+        "PACKAGENAME": "pl.inpost.inmobile"
+    },
+    {
+        "PACKAGENAME": "de.stocard.stocard"
+    },
+    {
+        "PACKAGENAME": "com.todo1.mobile"
+    },
+    {
+        "PACKAGENAME": "org.androworks.meteor"
+    },
+    {
+        "PACKAGENAME": "cz.seznam.mapy"
+    },
+    {
+        "PACKAGENAME": "net.alkafeel.mcb"
+    },
+    {
+        "PACKAGENAME": "com.openrice.android"
+    },
+    {
+        "PACKAGENAME": "com.ebay.mobile"
+    },
+    {
+        "PACKAGENAME": "com.talabat"
+    },
+    {
+        "PACKAGENAME": "com.ziipin.softkeyboard.iraq"
+    },
+    {
+        "PACKAGENAME": "kz.tele2.app"
+    },
+    {
+        "PACKAGENAME": "com.nequi.mobileapp"
+    },
+    {
+        "PACKAGENAME": "com.discord"
+    },
+    {
+        "PACKAGENAME": "com.smg"
+    },
+    {
+        "PACKAGENAME": "hu.idokep.idokep"
+    },
+    {
+        "PACKAGENAME": "com.bancodeguayaquil"
+    },
+    {
+        "PACKAGENAME": "kw.gov.paci.kuwaitfinderandroid"
+    },
+    {
+        "PACKAGENAME": "com.clarocolombia.contenedor"
+    },
+    {
+        "PACKAGENAME": "hko.myobservatory_v1_0"
+    },
+    {
+        "PACKAGENAME": "com.artem.scotepio"
+    },
+    {
+        "PACKAGENAME": "com.imo.android.imoimhd"
+    },
+    {
+        "PACKAGENAME": "com.bol.shop"
+    },
+    {
+        "PACKAGENAME": "fr.vinted"
+    },
+    {
+        "PACKAGENAME": "com.abisoft.loadsheddingnotifier"
+    },
+    {
+        "PACKAGENAME": "com.mobile.legends"
+    },
+    {
+        "PACKAGENAME": "com.hk01.news_app"
+    },
+    {
+        "PACKAGENAME": "com.bancounion.unimovilplus"
+    },
+    {
+        "PACKAGENAME": "fi.op.android.opmobiili"
+    },
+    {
+        "PACKAGENAME": "buslogic.beogradplus"
+    },
+    {
+        "PACKAGENAME": "com.mcdonalds.mobileapp"
+    },
+    {
+        "PACKAGENAME": "rs.vipmobile.mojvip2"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.nbu.paisa.user"
+    },
+    {
+        "PACKAGENAME": "veikkaus.app"
+    },
+    {
+        "PACKAGENAME": "app.source.getcontact"
+    },
+    {
+        "PACKAGENAME": "com.lmr.lfm"
+    },
+    {
+        "PACKAGENAME": "ro.emag.android"
+    },
+    {
+        "PACKAGENAME": "com.free.vpn.super.hotspot.open"
+    },
+    {
+        "PACKAGENAME": "com.dywx.larkplayer"
+    },
+    {
+        "PACKAGENAME": "com.stc"
+    },
+    {
+        "PACKAGENAME": "com.yuurewards.app"
+    },
+    {
+        "PACKAGENAME": "kz.kkb.homebank"
+    },
+    {
+        "PACKAGENAME": "com.mydito"
+    },
+    {
+        "PACKAGENAME": "com.delhaize.maxi.loyalty"
+    },
+    {
+        "PACKAGENAME": "com.shopee.sg"
+    },
+    {
+        "PACKAGENAME": "hr.infinum.mojvip"
+    },
+    {
+        "PACKAGENAME": "com.xingin.xhs"
+    },
+    {
+        "PACKAGENAME": "com.azercell.ss.app"
+    },
+    {
+        "PACKAGENAME": "jp.konami.pesam"
+    },
+    {
+        "PACKAGENAME": "com.ccss.expedienteunico"
+    },
+    {
+        "PACKAGENAME": "gt.com.bi.bienlinea"
+    },
+    {
+        "PACKAGENAME": "com.alrajhiretailapp"
+    },
+    {
+        "PACKAGENAME": "com.igg.android.lordsmobile"
+    },
+    {
+        "PACKAGENAME": "hu.vodafone.apps.myvodafone"
+    },
+    {
+        "PACKAGENAME": "com.bcp.innovacxion.yapeapp"
+    },
+    {
+        "PACKAGENAME": "cl.android"
+    },
+    {
+        "PACKAGENAME": "com.microsoft.office.word"
+    },
+    {
+        "PACKAGENAME": "com.google.android.contacts"
+    },
+    {
+        "PACKAGENAME": "fi.iltalehti.iltalehti"
+    },
+    {
+        "PACKAGENAME": "bg.emag.android"
+    },
+    {
+        "PACKAGENAME": "com.mcdo.mcdonalds"
+    },
+    {
+        "PACKAGENAME": "rs.mts"
+    },
+    {
+        "PACKAGENAME": "com.global.foodpanda.android"
+    },
+    {
+        "PACKAGENAME": "uz.dida.payme"
+    },
+    {
+        "PACKAGENAME": "ae.uaepass.mainapp"
+    },
+    {
+        "PACKAGENAME": "com.linecorp.linemanth"
+    },
+    {
+        "PACKAGENAME": "qa.ooredoo.omm"
+    },
+    {
+        "PACKAGENAME": "com.fast.free.unblock.thunder.vpn"
+    },
+    {
+        "PACKAGENAME": "com.shabakaty.cinemana"
+    },
+    {
+        "PACKAGENAME": "com.whatsapp.w4b"
+    },
+    {
+        "PACKAGENAME": "sk.slovnaft.move"
+    },
+    {
+        "PACKAGENAME": "com.juvomobileinc.tigoshop.bo"
+    },
+    {
+        "PACKAGENAME": "pl.tablica"
+    },
+    {
+        "PACKAGENAME": "com.emeint.android.myservices"
+    },
+    {
+        "PACKAGENAME": "es.lacaixa.mobile.android.newwapicon"
+    },
+    {
+        "PACKAGENAME": "com.reddit.frontpage"
+    },
+    {
+        "PACKAGENAME": "com.ug.eon.android"
+    },
+    {
+        "PACKAGENAME": "sa.gov.nic.twkhayat"
+    },
+    {
+        "PACKAGENAME": "com.indexeducation.pronote"
+    },
+    {
+        "PACKAGENAME": "ph.com.globe.globeonesuperapp"
+    },
+    {
+        "PACKAGENAME": "de.gmx.mobile.android.mail"
+    },
+    {
+        "PACKAGENAME": "nl.tpp.mobile.android"
+    },
+    {
+        "PACKAGENAME": "com.tesco.grocery.view"
+    },
+    {
+        "PACKAGENAME": "cz.csas.georgego"
+    },
+    {
+        "PACKAGENAME": "my.com.maxis.hotlink.production"
+    },
+    {
+        "PACKAGENAME": "com.hihonor.tips"
+    },
+    {
+        "PACKAGENAME": "com.google.android.apps.kids.home"
+    },
+    {
+        "PACKAGENAME": "com.hihonor.health"
+    },
+    {
+        "PACKAGENAME": "com.android.vending"
+    },
+    {
+        "PACKAGENAME": "com.omantel"
+    }
+]

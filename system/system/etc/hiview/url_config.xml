@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?Declaration Don't modify the file manually,  its created automaticlly?>
+<UrlConfig>
+    <urlItem  type="https" region="China" used="configserver" name="DOMAIN_CHINA" url="configserver-drcn.platform.hihonorcloud.com" />
+    <urlItem  type="https" region="China" used="configserver" name="DOMAIN_CHINA_TEST" url="" />
+    <urlItem  type="https" region="China" used="pushtoken" name="POST_IP_PORT" url="https://ocean.ipd.hihonor.com/bidc/" />
+    <urlItem  type="https" region="China" used="configserver" name="COMMON_URL" url="https://configserver-drcn.platform.hihonorcloud.com/servicesupport/updateserver/data/" />
+    <urlItem  type="https" region="China" used="samplemanagement"  name="DOWNLOAD_URI_ROOT" url="" />
+    <urlItem  type="https" region="Global" used="configserver"  name="DOMAIN_SINGAPORE" url="configserver-dra.platform.hihonorcloud.com" />
+    <urlItem  type="https" region="Global" used="configserver"  name="DOMAIN_GERMANY" url="configserver-dre.platform.hihonorcloud.com" />
+</UrlConfig>

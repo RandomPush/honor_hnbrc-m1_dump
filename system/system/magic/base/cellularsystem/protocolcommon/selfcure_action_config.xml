@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recoveryConfig>
+    <config action="1"> <!-- 自愈动作 RECOVER_ACTION_SET_BLACK_CELL -->
+        <inhibitionTime>5</inhibitionTime> <!-- 惩罚时长 -->
+        <isRefer2DaoInfo>1</isRefer2DaoInfo> <!-- 是否参考历史信息 -->
+        <activeRecoverThres>85</activeRecoverThres> <!-- 自愈拦截成功率上限 -->
+        <inactiveRecoverThres>5</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        <interceptNumThres>5</interceptNumThres> <!-- 自愈拦截次数下限 -->
+        <badcellRsrpThres>-105</badcellRsrpThres> <!-- badcell信号rsrp门限 -->
+        <protectTime>1</protectTime> <!-- 自愈保护时长 -->
+        <exceptionConfig exception="201"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+            <inactiveRecoverThres>30</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+        <exceptionConfig exception="302"> <!-- 故障类型 EXCEPTION_TYPE_CALL_VOICE_QUALITY -->
+             <badcellRsrpThres>-145</badcellRsrpThres> <!-- badcell信号rsrp门限 -->
+            <inhibitionTime>30</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+        <exceptionConfig exception="401"> <!-- 故障类型 CELL_FENCE_ENTER -->
+            <inhibitionTime>540</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+    </config>
+    <config action="2"> <!-- 自愈动作 RECOVER_ACTION_ENABLE_SA -->
+        <isRefer2DaoInfo>1</isRefer2DaoInfo> <!-- 是否参考历史信息 -->
+        <activeRecoverThres>85</activeRecoverThres> <!-- 自愈拦截成功率上限 -->
+        <inactiveRecoverThres>5</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        <interceptNumThres>5</interceptNumThres> <!-- 自愈拦截次数下限 -->
+        <exceptionConfig exception="201"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+            <inactiveRecoverThres>30</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+    </config>
+    <config action="3"> <!-- 自愈动作 RECOVER_ACTION_DISABLE_SA -->
+        <inhibitionTime>5</inhibitionTime> <!-- 惩罚时长 -->
+        <isRefer2DaoInfo>1</isRefer2DaoInfo> <!-- 是否参考历史信息 -->
+        <activeRecoverThres>85</activeRecoverThres> <!-- 自愈拦截成功率上限 -->
+        <inactiveRecoverThres>5</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        <interceptNumThres>5</interceptNumThres> <!-- 自愈拦截次数下限 -->
+        <stillMovementProtectTime>5</stillMovementProtectTime> <!-- 微动静止状态自愈保护时长 -->
+        <notStillMovementProtectTime>2</notStillMovementProtectTime> <!-- 非微动静止状态自愈保护时长 -->
+        <exceptionConfig exception="101"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_PINGPONG -->
+            <inhibitionTime>3</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+        <exceptionConfig exception="102"> <!-- 故障类型 EXCEPTION_SCENE_NETWORK_SA_WEAK_TO_LTE -->
+            <inhibitionTime>2</inhibitionTime> <!-- 惩罚时长 -->
+            <inactiveRecoverThres>40</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+        <exceptionConfig exception="201"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+            <inactiveRecoverThres>30</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+        <exceptionConfig exception="202"> <!-- 故障类型 EXCEPTION_TYPE_DATA_ACTIVATE_FAIL -->
+            <inhibitionTime>120</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+        <exceptionConfig exception="203"> <!-- 故障类型 EXCEPTION_TYPE_DATA_KEEP_DSDA_MODE -->
+            <inhibitionTime>120</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+        <exceptionConfig exception="303"> <!-- 故障类型 EXCEPTION_TYPE_CALL_PROTECTION -->
+            <inhibitionTime>120</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+        <exceptionConfig exception="403"> <!-- 故障类型 HIGH_SPEED_FENCE_ENTER_4G_BETTER -->
+            <inhibitionTime>120</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+    </config>
+    <config action="5"> <!-- 自愈动作 RECOVER_ACTION_DISABLE_ENDC -->
+        <inhibitionTime>5</inhibitionTime> <!-- 惩罚时长 -->
+        <isRefer2DaoInfo>1</isRefer2DaoInfo> <!-- 是否参考历史信息 -->
+        <activeRecoverThres>85</activeRecoverThres> <!-- 自愈拦截成功率上限 -->
+        <inactiveRecoverThres>5</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        <interceptNumThres>5</interceptNumThres> <!-- 自愈拦截次数下限 -->
+        <endcLteRsrpThres>-110</endcLteRsrpThres> <!-- Endc信号rsrp门限 -->
+        <endcLteRsrqThres>-15</endcLteRsrqThres> <!-- Endc信号rsrq门限 -->
+        <protectTime>5</protectTime> <!-- 自愈保护时长 -->
+        <exceptionConfig exception="201"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+            <inactiveRecoverThres>30</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+        <exceptionConfig exception="30301"> <!-- 故障类型 EXCEPTION_TYPE_CALL_PROTECTION_START -->
+            <inhibitionTime>540</inhibitionTime> <!-- 惩罚时长 -->
+        </exceptionConfig>
+    </config>
+    <config action="8"> <!-- 自愈动作 RECOVER_ACTION_REREGISTER -->
+        <isRefer2DaoInfo>1</isRefer2DaoInfo> <!-- 是否参考历史信息 -->
+        <activeRecoverThres>85</activeRecoverThres> <!-- 自愈拦截成功率上限 -->
+        <inactiveRecoverThres>5</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        <interceptNumThres>5</interceptNumThres> <!-- 自愈拦截次数下限 -->
+        <protectTime>15</protectTime> <!-- 自愈保护时长 -->
+        <exceptionConfig exception="201"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+            <inactiveRecoverThres>30</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+    </config>
+    <config action="9"> <!-- 自愈动作 RECOVER_ACTION_RESTART_RADIO -->
+        <isRefer2DaoInfo>1</isRefer2DaoInfo> <!-- 是否参考历史信息 -->
+        <activeRecoverThres>85</activeRecoverThres> <!-- 自愈拦截成功率上限 -->
+        <inactiveRecoverThres>5</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        <interceptNumThres>5</interceptNumThres> <!-- 自愈拦截次数下限 -->
+        <radioRestartLteRsrpThres>-118</radioRestartLteRsrpThres> <!-- restartRadio信号rsrp门限 -->
+        <radioRestartNrRsrpThres>-115</radioRestartNrRsrpThres> <!-- restartRadio信号Nr rsrp门限 -->
+        <protectTime>30</protectTime> <!-- 自愈保护时长 -->
+        <exceptionConfig exception="201"> <!-- 故障类型 EXCEPTION_TYPE_DATA_PS_SLOW -->
+            <inactiveRecoverThres>30</inactiveRecoverThres> <!-- 自愈拦截成功率下限 -->
+        </exceptionConfig>
+    </config>
+</recoveryConfig>

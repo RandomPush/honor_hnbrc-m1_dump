@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.emergency">
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.incallui">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="com.hihonor.permission.EXT_DISPLAY_UI_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.intentresolver">
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.QUERY_CLONED_APPS"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.phone">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="com.hihonor.android.permission.GET_CHR_DATA"/>
+        <permission name="com.hihonor.permission.COMM_FORCE"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.READ_SKYTONE_TA"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.SET_SMSC_ADDRESS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.providers.blockednumber">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.calendar">
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.contacts">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.providers.telephony">
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.server.telecom">
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.settings">
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.CHANGE_APP_IDLE_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.KILL_ALL_BACKGROUND_PROCESSES"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.MANAGE_DEBUGGING"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MANAGE_USER_OEM_UNLOCK_STATE"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.MOVE_PACKAGE"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.USER_ACTIVITY"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.server.wifi.permission.HILINK_STATE_CHANGED"/>
+        <permission name="com.hihonor.hwSdCryptd.permission.RECV_HWSDCRYPTD_RESULT"/>
+        <permission name="com.hihonor.locksettings.permission.ACCESS_HWKEYGUARD_SECURE_STORAGE"/>
+        <permission name="com.hihonor.permission.HW_SET_APPLICATION_ASPECT_RATIO"/>
+        <permission name="com.hihonor.permission.MANAGE_FACERECOGNITION"/>
+        <permission name="com.hihonor.permission.WALLET_FACTORY_ACCESS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="com.hihonor.privacyspace.permission.PASSWORD_RESET"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.android.permission.SET_CANNOT_UNINSTALLED_PERMISSION"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.ALLOW_SLIPPERY_TOUCHES"/>
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.BIND_KEYGUARD_APPWIDGET"/>
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+        <permission name="android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.CONTROL_VPN"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOG_COMPAT_CHANGE"/>
+        <permission name="android.permission.MANAGE_DEBUGGING"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_COMPAT_CHANGE_CONFIG"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_SAFETY_CENTER_STATUS"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECEIVE_MEDIA_RESOURCE_USAGE"/>
+        <permission name="android.permission.SATELLITE_COMMUNICATION"/>
+        <permission name="android.permission.SET_WALLPAPER_DIM_AMOUNT"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.USE_RESERVED_DISK"/>
+        <permission name="android.permission.WATCH_APPOPS"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.bluetooth.permission.HONOR_BLUETOOTH_PERIPHERAL_PRIVILEGED"/>
+        <permission name="com.hihonor.hwSdCryptd.permission.RECV_HWSDCRYPTD_RESULT"/>
+        <permission name="com.hihonor.hwsdlock.permission.ACCESS_HWSDCARD_SECURE"/>
+        <permission name="com.hihonor.hwsdlock.permission.RECV_HWSDLOCK_STATE"/>
+        <permission name="com.hihonor.locksettings.permission.ACCESS_HWKEYGUARD_SECURE_STORAGE"/>
+        <permission name="com.hihonor.permission.ACCESS_DISPLAY_ENGINE"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.ADD_EXT_SYSTEM_WINDOW"/>
+        <permission name="com.hihonor.permission.ASYN_CAST_DISPLAY"/>
+        <permission name="com.hihonor.permission.CONTENT_SENSOR_PERMISSION"/>
+        <permission name="com.hihonor.permission.DEVICE_THP"/>
+        <permission name="com.hihonor.permission.EXT_DISPLAY_UI_PERMISSION"/>
+        <permission name="com.hihonor.permission.HW_SET_APPLICATION_ASPECT_RATIO"/>
+        <permission name="com.hihonor.permission.MANAGE_FACERECOGNITION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MANAGE_TRUSTSPACE"/>
+        <permission name="com.hihonor.permission.MANAGE_VOICERECOGNITION"/>
+        <permission name="com.hihonor.permission.PC_MANAGER_API"/>
+        <permission name="com.hihonor.permission.SET_WINDOW_MODE"/>
+        <permission name="com.hihonor.permission.WALLET_FACTORY_ACCESS"/>
+        <permission name="com.hihonor.permission.pc.BackgroundProjectionModeLayout"/>
+        <permission name="com.hihonor.swing.permission.GAZING_REGION_PERMISSION"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.HIRES_ICON_CHANGE_ACTION"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+        <permission name="hihonor.permission.RECEIVE_WIFI_PRO_STATE"/>
+    </privapp-permissions>
+
+    <!-- Additional permissions-->
+    <privapp-permissions package="com.android.wallpaper.livepicker">
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.documentsui">
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOG_COMPAT_CHANGE"/>
+        <permission name="android.permission.MODIFY_QUIET_MODE"/>
+        <permission name="android.permission.READ_COMPAT_CHANGE_CONFIG"/>
+        <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.networkstack">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.HnMultiScreenShot">
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.android.permission.SET_CANNOT_UNINSTALLED_PERMISSION"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.android.magicx.media.audioengine">
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="com.hihonor.multimedia.audioengine.permission.APP_BLUETOOTH_FB_FOR_ACTION"/>
+        <permission name="com.hihonor.multimedia.audioengine.permission.APP_KILLED_FOR_KIT_ACTION"/>
+        <permission name="com.hihonor.multimedia.audioengine.permission.APP_RECORDNAME_FOR_KIT_ACTION"/>
+        <permission name="com.hihonor.multimedia.audioengine.permission.AUDIO_RECORD_FEATURE"/>
+        <permission name="com.hihonor.permission.ACCESS_DISPLAY_ENGINE"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.android.pushagent">
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.android.thememanager">
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.android.totemweather">
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.appmarket">
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_TRUSTSPACE"/>
+        <permission name="com.hihonor.permission.MANAGE_USE_SECURITY"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.assistant">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.awareness">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.brain">
+        <permission name="android.permission.GLOBAL_SEARCH"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.calculator">
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.calendar">
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.collectcenter">
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.ADD_EXT_SYSTEM_WINDOW"/>
+        <permission name="com.hihonor.permission.CONTENT_SENSOR_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.SET_WINDOW_MODE"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.contacts">
+        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SATELLITE_COMMUNICATION"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="com.hihonor.permission.sec.MDM_PHONE_MANAGER"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.contactscamcard">
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.controlcenter">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MULTI_WINDOW_FOCUS_CHANGE_LISTENERS"/>
+        <permission name="com.hihonor.permission.SOFTNET"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.crossdeviceserviceshare">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.deskclock">
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.fingerprint.permission.FP_NAVIGATION"/>
+        <permission name="com.hihonor.permission.ADD_EXT_SYSTEM_WINDOW"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.detectrepair">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.dsdscardmanager">
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.QUERY_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.email">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.SMARTCARE"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="com.hihonor.permission.sec.MDM_DEVICE_MANAGER"/>
+        <permission name="com.hihonor.permission.sec.SDK_LAUNCHER"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.gameassistant">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.gameassistant.permission.WIRTE_GAME_LIST"/>
+        <permission name="com.hihonor.permission.ACCESS_DISPLAY_ENGINE"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.CONFIG_BRIGHTNESS"/>
+        <permission name="com.hihonor.permission.HONOR_LOCK_SYSTEM_ROTATION"/>
+        <permission name="com.hihonor.permission.SET_WINDOW_MODE"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.gamecenter">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.hncloud">
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.hnstartupguide">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MANAGE_TRUSTSPACE"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.hnvideoplayer">
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.id">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.PROVIDE_TRUST_AGENT"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.GET_LOCK_PASSWORD_CHANGED"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.lens">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.linktowindowsservice">
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="com.hihonor.permission.PC_MANAGER_API"/>
+        <permission name="deviceintegration.permission.MANAGE_CROSS_DEVICE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.magicvoice">
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.mediadatacenter">
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.mediaprocessor">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.mirror">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.motionservice">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.EASY_WAKE_UP"/>
+        <permission name="com.hihonor.permission.EXT_DISPLAY_UI_PERMISSION"/>
+        <permission name="com.hihonor.swing.permission.GAZING_REGION_PERMISSION"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.notepad">
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.CONTENT_SENSOR_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.numberidentity">
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.omacp">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.pcassistant">
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.TETHER_PRIVILEGED"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.ASSOCIATE_ASSISTANT_SET_WIFI_MODE"/>
+        <permission name="com.hihonor.permission.PC_MANAGER_API"/>
+        <permission name="com.hihonor.permission.SET_PCASSISTANT_RESULT"/>
+        <permission name="com.hihonor.permission.SOFTNET"/>
+        <permission name="com.hihonor.permission.USE_TRUSTCIRCLE_MANAGER"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.phoneservice">
+        <permission name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.MANAGE_DEBUGGING"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.popularapps">
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.screenrecorder">
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.search">
+        <permission name="android.permission.GLOBAL_SEARCH"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.searchservice">
+        <permission name="android.permission.ACCESS_MTP"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.systemappsupdater">
+        <permission name="android.permission.INSTALL_PACKAGE_UPDATES"/>
+        <permission name="android.permission.INSTALL_SELF_UPDATES"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.systemmanager">
+        <permission name="android.permission.ACCESS_MTP"/>
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.CLEAR_APP_CACHE"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.DELETE_CACHE_FILES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.battery.permission.SUPER_FAST_CHARGE_SWITCH"/>
+        <permission name="com.hihonor.batteryservice.permission.WIRELESS_TX_CHARGE_ERROR"/>
+        <permission name="com.hihonor.permission.COTA_APPS_NO_REBOOT"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED"/>
+        <permission name="com.hihonor.permission.MANAGE_SECURITYPROFILE"/>
+        <permission name="com.hihonor.permission.MANAGE_USE_SECURITY"/>
+        <permission name="com.hihonor.permission.SECURITY_DIAGNOSE"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="com.hihonor.permission.sec.MDM_DEVICE_MANAGER"/>
+        <permission name="com.hihonor.security.permission.MANAGE_THREAT_DETECTION"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+        <permission name="hihonor.permission.RECEIVE_SMS_INTERCEPTION"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.systemserver">
+        <permission name="android.permission.BIND_APPWIDGET"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
+        <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.SATELLITE_COMMUNICATION"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.WIFI_UPDATE_USABILITY_STATS_SCORE"/>
+        <permission name="com.hihonor.hiai.awareness.permission.NOTIFY_RESTART_SERVICE"/>
+        <permission name="com.hihonor.permission.ACCESS_AP_INFORMATION"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.COMM_FORCE"/>
+        <permission name="com.hihonor.permission.EXPAND_KEY_BEEP_CACHE"/>
+        <permission name="com.hihonor.permission.HW_SCREEN_OFF_FOR_POSITIVE"/>
+        <permission name="com.hihonor.permission.SAVE_DATA"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+        <permission name="hihonor.permission.RECEIVE_CLOUD_OTA_UPDATA"/>
+        <permission name="hihonor.permission.RECEIVE_WIFI_PRO_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.videoeditor">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION"/>
+        <permission name="com.hihonor.permission.MANAGE_FOLD_SCREEN"/>
+        <permission name="com.hihonor.permission.sec.ACCESS_UDID"/>
+        <permission name="hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.hihonor.wifieapsimplmn">
+        <permission name="android.permission.NETWORK_CARRIER_PROVISIONING"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+</permissions>

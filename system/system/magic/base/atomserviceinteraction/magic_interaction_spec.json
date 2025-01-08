@@ -1,0 +1,198 @@
+[
+  {
+    "device": "phone",
+    "show": [
+      {
+        "entrance": "AOD",
+        "form": [
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "lock_screen",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "launcher",
+        "form": [
+          {
+            "shape": "card",
+            "size": "auto",
+            "level": "L13,L14,L22,L23,L24,L31,L32,L33,L34,L44"
+          },
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L13,L14,L22,L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "negative_screen",
+        "form": [
+          {
+            "shape": "card",
+            "size": "auto",
+            "level": "L11,L12,L13,L14,L21,L22,L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "notification_center",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "global",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L24,L33,L34,L44"
+          },
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "standby",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L23,L24,L32,L33,L34,L44"
+          },
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      }
+    ],
+    "auditory": "",
+    "vibrate": "L24,L33,L34,L44"
+  },
+  {
+    "device": "tablet",
+    "show": [
+      {
+        "entrance": "lock_screen",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "launcher",
+        "form": [
+          {
+            "shape": "card",
+            "size": "auto",
+            "level": "L13,L14,L22,L23,L24,L31,L32,L33,L34,L44"
+          },
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L13,L14,L22,L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "negative_screen",
+        "form": [
+          {
+            "shape": "card",
+            "size": "auto",
+            "level": "L11,L12,L13,L14,L21,L22,L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "notification_center",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "global",
+        "form": [
+          {
+            "shape": "card",
+            "size": "4x1",
+            "level": "L24,L33,L34,L44"
+          },
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L23,L24,L32,L33,L34,L44"
+          }
+        ]
+      }
+    ],
+    "auditory": "",
+    "vibrate": "L24,L33,L34,L44"
+  },
+  {
+    "device": "watch",
+    "show": [
+      {
+        "entrance": "negative_screen",
+        "form": [
+          {
+            "shape": "card",
+            "size": "2x1",
+            "level": "L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "notification_center",
+        "form": [
+          {
+            "shape": "notification",
+            "size": "",
+            "level": "L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      },
+      {
+        "entrance": "global",
+        "form": [
+          {
+            "shape": "capsule",
+            "size": "",
+            "level": "L23,L24,L31,L32,L33,L34,L44"
+          }
+        ]
+      }
+    ],
+    "auditory": "",
+    "vibrate": ""
+  }
+]

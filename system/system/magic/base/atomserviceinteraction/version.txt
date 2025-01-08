@@ -1,0 +1,6 @@
+version=1.10.23.105
+type=AtomServiceInteraction
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=AI.GENC.1.10.23.105

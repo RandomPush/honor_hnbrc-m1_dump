@@ -1,0 +1,42 @@
+[
+  {
+    "RELATED_ITEMS": [
+	  {
+	   "PACKAGENAME": "com.example.handoffdemo",
+	   "APPNAME": "HandoffDemo"
+	  },
+	  {
+	   "PACKAGENAME": "com.example.handoffdemomirror",
+	   "APPNAME": "HandoffDemoMirror"
+	  }
+	]
+  },
+  {
+    "RELATED_ITEMS": [
+	  {
+	   "PACKAGENAME": "com.youku.phone",
+	   "APPNAME": "优酷"
+	  },
+	  {
+	   "PACKAGENAME": "com.cibn.tv",
+	   "APPNAME": "酷喵"
+	  },
+	  {
+	   "PACKAGENAME": "com.youku.multiscreentv",
+	   "APPNAME": "酷喵投屏"
+	  }
+	]
+  },
+  {
+    "RELATED_ITEMS": [
+	  {
+	   "PACKAGENAME": "air.tv.douyu.android",
+	   "APPNAME": "斗鱼"
+	  },
+	  {
+	   "PACKAGENAME": "com.douyu.xl.douyutv",
+	   "APPNAME": "斗鱼"
+	  }
+	]
+  }
+]

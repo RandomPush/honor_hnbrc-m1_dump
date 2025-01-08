@@ -1,0 +1,13 @@
+{
+	"type":"CalendarExt",
+	"subType":"generic",
+	"params":[
+		{
+			"name":"smart_scan_enable",
+			"type":"bool",
+			"value":"false"
+		}
+	],
+	"version":"1.10.23.106",
+	"compatibleversion":"1"
+}

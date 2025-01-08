@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hn_pc_white_apps>
+    <hn_support_pc_apps>
+        <hn_support_pc_app packageName="com.hihonor.filemanager"/>
+        <hn_support_pc_app packageName="com.android.browser"/>
+        <hn_support_pc_app packageName="com.android.chrome"/>
+        <hn_support_pc_app packageName="com.android.email"/>
+        <hn_support_pc_app packageName="com.hihonor.email"/>
+        <hn_support_pc_app packageName="cn.wps.moffice_eng"/>
+        <hn_support_pc_app packageName="com.android.calendar"/>
+        <hn_support_pc_app packageName="com.hihonor.calendar"/>
+        <hn_support_pc_app packageName="com.example.android.notepad"/>
+        <hn_support_pc_app packageName="com.hihonor.notepad"/>
+        <hn_support_pc_app packageName="com.android.gallery3d"/>
+        <hn_support_pc_app packageName="com.hihonor.photos"/>
+        <hn_support_pc_app packageName="com.hihonor.soundrecorder"/>
+        <hn_support_pc_app packageName="com.android.mediacenter"/>
+        <hn_support_pc_app packageName="com.android.calculator2"/>
+        <hn_support_pc_app packageName="com.hihonor.calculator"/>
+        <hn_support_pc_app packageName="com.android.contacts.activities.PeopleActivity"/>
+        <hn_support_pc_app packageName="com.hihonor.mms"/>
+        <hn_support_pc_app packageName="com.android.deskclock"/>
+        <hn_support_pc_app packageName="com.hihonor.deskclock"/>
+        <hn_support_pc_app packageName="com.android.incallui"/>
+        <hn_support_pc_app packageName="com.hihonor.betaclub"/>
+        <hn_support_pc_app packageName="com.hihonor.camera"/>
+        <hn_support_pc_app packageName="com.android.settings"/>
+        <hn_support_pc_app packageName="com.google.android.apps.photos"/>
+        <hn_support_pc_app packageName="com.google.android.youtube"/>
+        <hn_support_pc_app packageName="com.google.android.apps.docs"/>
+        <hn_support_pc_app packageName="com.google.android.gm"/>
+        <hn_support_pc_app packageName="com.google.android.music"/>
+        <hn_support_pc_app packageName="com.google.android.apps.maps"/>
+        <hn_support_pc_app packageName="com.google.android.apps.tachyon"/>
+        <hn_support_pc_app packageName="com.google.android.googlequicksearchbox"/>
+        <hn_support_pc_app packageName="com.google.android.apps.chromecast.app"/>
+        <hn_support_pc_app packageName="com.hihonor.hiviewtunnel"/>
+        <hn_support_pc_app packageName="com.hihonor.android.instantshare"/>
+        <hn_support_pc_app packageName="com.hihonor.desktop.explorer"/>
+        <hn_support_pc_app packageName="com.android.hwmirror"/>
+        <hn_support_pc_app packageName="com.hihonor.mirror"/>
+        <hn_support_pc_app packageName="com.hihonor.phoneservice"/>
+        <hn_support_pc_app packageName="com.hihonor.iconnect"/>
+        <hn_support_pc_app packageName="com.hihonor.stylus.floatmenu"/>
+        <hn_support_pc_app packageName="com.hihonor.associateassistant"/>
+        <hn_support_pc_app packageName="com.hihonor.dmsdp"/>
+        <hn_support_pc_app packageName="com.hihonor.pcassistant"/>
+    </hn_support_pc_apps>
+
+    <hn_support_pc_apps_wifi>
+        <hn_support_pc_app packageName="com.hihonor.filemanager"/>
+        <hn_support_pc_app packageName="com.android.browser"/>
+        <hn_support_pc_app packageName="com.android.chrome"/>
+        <hn_support_pc_app packageName="com.android.email"/>
+        <hn_support_pc_app packageName="com.hihonor.email"/>
+        <hn_support_pc_app packageName="cn.wps.moffice_eng"/>
+        <hn_support_pc_app packageName="com.android.calendar"/>
+        <hn_support_pc_app packageName="com.hihonor.calendar"/>
+        <hn_support_pc_app packageName="com.example.android.notepad"/>
+        <hn_support_pc_app packageName="com.hihonor.notepad"/>
+        <hn_support_pc_app packageName="com.android.gallery3d"/>
+        <hn_support_pc_app packageName="com.hihonor.photos"/>
+        <hn_support_pc_app packageName="com.android.mediacenter"/>
+        <hn_support_pc_app packageName="com.android.calculator2"/>
+        <hn_support_pc_app packageName="com.hihonor.calculator"/>
+        <hn_support_pc_app packageName="com.android.deskclock"/>
+        <hn_support_pc_app packageName="com.hihonor.deskclock"/>
+        <hn_support_pc_app packageName="com.hihonor.betaclub"/>
+        <hn_support_pc_app packageName="com.hihonor.camera"/>
+        <hn_support_pc_app packageName="com.android.settings"/>
+        <hn_support_pc_app packageName="com.hihonor.android.instantshare"/>
+        <hn_support_pc_app packageName="com.hihonor.desktop.explorer"/>
+        <hn_support_pc_app packageName="com.android.hwmirror"/>
+        <hn_support_pc_app packageName="com.hihonor.mirror"/>
+        <hn_support_pc_app packageName="com.hihonor.phoneservice"/>
+        <hn_support_pc_app packageName="com.hihonor.iconnect"/>
+        <hn_support_pc_app packageName="com.hihonor.stylus.floatmenu"/>
+        <hn_support_pc_app packageName="com.hihonor.associateassistant"/>
+        <hn_support_pc_app packageName="com.hihonor.dmsdp"/>
+        <hn_support_pc_app packageName="com.hihonor.pcassistant"/>
+    </hn_support_pc_apps_wifi>
+
+    <hn_special_window_policy_apps>
+        <hn_special_window_policy_app packageName="com.hexin.plat.android" type="1"/>
+        <hn_special_window_policy_app packageName="com.youku.phone" type="1"/>
+        <hn_special_window_policy_app packageName="com.sohu.sohuvideo" type="1"/>
+        <hn_special_window_policy_app packageName="com.baidu.video" type="1"/>
+        <hn_special_window_policy_app packageName="com.qiyi.video" type="1"/>
+        <hn_special_window_policy_app packageName="com.tencent.qqlive" type="1"/>
+
+        <hn_special_window_policy_app type="2" packageName="com.android.gallery3d"/>
+        <hn_special_window_policy_app type="2" packageName="com.hihonor.photos"/>
+        <hn_special_window_policy_app type="3" packageName="com.android.chrome"/>
+        <hn_special_window_policy_app type="3" packageName="com.android.contacts"/>
+        <hn_special_window_policy_app type="3" packageName="com.hihonor.contacts"/>
+        <hn_special_window_policy_app type="3" packageName="com.hihonor.mms"/>
+        <hn_special_window_policy_app type="3" packageName="com.hihonor.betaclub"/>
+        <hn_special_window_policy_app type="3" packageName="com.android.incallui"/>
+        <hn_special_window_policy_app type="3" packageName="bubei.tingshu"/>
+        <hn_special_window_policy_app type="3" packageName="com.shoujiduoduo.ringtone"/>
+        <hn_special_window_policy_app type="3" packageName="com.tencent.android.qqdownloader"/>
+        <hn_special_window_policy_app type="3" packageName="com.android.settings"/>
+        <hn_special_window_policy_app type="3" packageName="com.baidu.input_hihonor"/>
+        <hn_special_window_policy_app type="3" packageName="com.qihoo.browser"/>
+        <hn_special_window_policy_app type="3" packageName="com.netease.mail"/>
+        <hn_special_window_policy_app type="3" packageName="com.hihonor.android.internal.app"/>
+        <hn_special_window_policy_app type="3" packageName="tv.danmaku.bilibilihd"/>
+
+        <hn_special_window_policy_app type="4" packageName="com.tencent.mm"/>
+        <hn_special_window_policy_app type="4" packageName="com.tencent.mmt"/>
+        <hn_special_window_policy_app type="4" packageName="com.tencent.androidqqmail"/>
+        <hn_special_window_policy_app type="4" packageName="com.android.packageinstaller"/>
+        <hn_special_window_policy_app type="4" packageName="com.tudou.android"/>
+        <hn_special_window_policy_app type="4" packageName="com.tencent.mobileqq"/>
+        <hn_special_window_policy_app type="4" packageName="com.ushaqi.zhuishushenqi"/>
+        <hn_special_window_policy_app type="4" packageName="com.shuqi.controller"/>
+        <hn_special_window_policy_app type="4" packageName="com.baidu.tieba"/>
+        <hn_special_window_policy_app type="4" packageName="com.android.bankabc"/>
+        <hn_special_window_policy_app type="4" packageName="com.chinamworld.bocmbci"/>
+        <hn_special_window_policy_app type="4" packageName="com.ss.android.ugc.aweme"/>
+
+        <hn_special_window_policy_app type="6" packageName="com.hihonor.android.wfdft"/>
+        <hn_special_window_policy_app type="6" packageName="com.hihonor.contactscamcard"/>
+        <hn_special_window_policy_app type="6" packageName="com.hihonor.android.instantshare"/>
+        <hn_special_window_policy_app type="6" packageName="com.netease.zgz"/>
+        <hn_special_window_policy_app type="6" packageName="com.android.settings.bluetooth.BluetoothPairingDialog"/>
+        <hn_special_window_policy_app type="6" packageName="com.hihonor.screenrecorder"/>
+        <hn_special_window_policy_app type="6" packageName="com.hihonor.associateassistant"/>
+
+        <hn_special_window_policy_app type="7" packageName="com.tencent.tmgp.sgame"/>
+        <hn_special_window_policy_app type="7" packageName="com.netease.hyxd.hihonor"/>
+        <hn_special_window_policy_app type="7" packageName="com.citrix.Receiver"/>
+        <hn_special_window_policy_app type="7" packageName="com.hihonor.camera"/>
+    </hn_special_window_policy_apps>
+
+    <hn_un_support_pc_apps>
+        <hn_un_support_pc_app packageName="com.hihonor.android.launcher"/>
+        <hn_un_support_pc_app packageName="com.hihonor.globalwrite"/>
+    </hn_un_support_pc_apps>
+</hn_pc_white_apps>

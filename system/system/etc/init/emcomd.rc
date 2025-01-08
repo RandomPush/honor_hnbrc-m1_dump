@@ -1,0 +1,10 @@
+on property:msc.config.emcom=true && property:ro.build.characteristics=default
+    start emcomd
+
+service emcomd /system/bin/emcomd
+    class main
+    socket emcomd stream 0600 system system
+    user root
+    group root system vpn
+    seclabel u:r:emcomd:s0
+    disabled

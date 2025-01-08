@@ -1,0 +1,6 @@
+version=1.10.24.101
+type=LLM
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=LL.GENC.1.10.24.101

@@ -1,0 +1,10 @@
+{
+    "Comment": "ping these servers to check if the network is OK, only used in china",
+    "ChannelDetection": {"ServerName1":"connectivitycheck.platform.hihonorcloud.com",
+                         "ServerName2":"connectivitycheck-backup.platform.hihonorcloud.com"},
+    "AppTypeList":{"ShortVideo":["com.ss.android.ugc.live","com.smile.gifmaker","com.ss.android.ugc.aweme","com.tencent.karaoke"],
+                   "LiveVideo":["air.tv.douyu.android","com.duowan.kiwi"]
+              },
+    "KeyFlowType":{"video":["com.ss.android.ugc.aweme","com.tencent.qqlive","com.ss.android.article.news","com.qiyi.video","com.youku.phone","com.smile.gifmaker"],
+                     "pid":["com.tencent.mm"]}
+}

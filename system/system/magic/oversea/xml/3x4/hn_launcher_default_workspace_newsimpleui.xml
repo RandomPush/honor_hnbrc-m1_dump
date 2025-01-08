@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.hihonor.android.launcher">
+    <favorite launcher:op="clear" />
+    <!-- 桌面widget -->
+    <appwidget
+        launcher:packageName="com.hihonor.android.totemweather"
+        launcher:className="com.hihonor.android.totemweather.widget.aodwidget.AodWidgetWeatherProvider"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="3"
+        launcher:spanY="2"/>
+    <!--Honor store-->
+    <favorite
+        launcher:packageName="com.hihonor.hstore.global"
+        launcher:className="com.honor.global.splash.fragment.SplashActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!-- 日历 -->
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- 设置 -->
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.HWSettings"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- Play store-->
+    <favorite
+        launcher:packageName="com.android.vending"
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+     <!--Chrome Browser-->
+     <favorite
+        launcher:packageName="com.android.chrome"
+        launcher:className="com.google.android.apps.chrome.Main"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- 图库 -->
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.hihonor.gallery.app.GalleryMain"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!--手机管家-->
+    <favorite
+        launcher:packageName="com.hihonor.systemmanager"
+        launcher:className="com.hihonor.systemmanager.mainscreen.MainScreenActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!--时钟-->
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.AlarmsMainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!-- 计算器 -->
+    <favorite
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!--文件管理-->
+    <favorite
+        launcher:packageName="com.hihonor.filemanager"
+        launcher:className="com.hihonor.honorcloud.filemanager.FileManager"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <!-- notepad -->
+    <favorite
+        launcher:packageName="com.example.android.notepad"
+        launcher:className="com.example.android.notepad.NotePadActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1">
+        <!-- HONOR Community -->
+        <favorite
+            launcher:packageName="com.hihonor.community"
+            launcher:className="com.hihonor.community.forum.activity.MainActivity"/>
+        <!-- 玩机技巧 -->
+        <favorite
+            launcher:packageName="com.hihonor.tips"
+            launcher:className="com.hihonor.tips.launch.ui.SplashActivity"/>
+        <!--邮件-->
+        <favorite
+            launcher:packageName="com.android.email"
+            launcher:className="com.android.email.activity.Welcome"/>
+        <!--Contacts 联系人-->
+        <favorite
+            launcher:packageName="com.hihonor.contacts"
+            launcher:className="com.android.contacts.activities.PeopleActivity"/>
+        <!--Weather 天气-->
+        <favorite
+            launcher:packageName="com.hihonor.android.totemweather"
+            launcher:className="com.hihonor.android.totemweather.WeatherHome" />
+        <!--Sound Recorder 录音机-->
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.RecordListActivity" />
+        <!--FM Radio 收音机-->
+        <favorite
+            launcher:packageName="com.hihonor.android.FMRadio"
+            launcher:className="com.hihonor.android.FMRadio.FMRadioMainActivity" />
+        <!--Mirror 镜子-->
+        <favorite
+            launcher:packageName="com.android.hwmirror"
+            launcher:className="com.android.hwmirror.Mirror" />
+        <!--Smart  Controller 智能遥控-->
+        <favorite
+            launcher:packageName="com.hihonor.android.remotecontroller"
+            launcher:className="com.hihonor.android.remotecontroller.StartActivity" />
+        <!--Compass 指南针-->
+        <favorite
+            launcher:packageName="com.hihonor.compass"
+            launcher:className="com.hihonor.compass.MainActivity" />
+        <!--Phone Clone 手机克隆-->
+        <favorite
+            launcher:packageName="com.hihonor.android.clone"
+            launcher:className="com.hihonor.android.clone.activity.sender.ChooseRecevieSendActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity2" />
+    </folder>
+    <!-- Google -->
+    <folder
+        launcher:title="Google"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2">
+        <favorite
+            launcher:packageName="com.google.android.googlequicksearchbox"
+            launcher:className="com.google.android.googlequicksearchbox.SearchActivity"/>
+        <favorite
+            launcher:packageName="com.google.android.gm"
+            launcher:className="com.google.android.gm.ConversationListActivityGmail"/>
+        <favorite
+            launcher:packageName="com.google.android.apps.maps"
+            launcher:className="com.google.android.maps.MapsActivity"/>
+        <favorite
+            launcher:packageName="com.google.android.youtube"
+            launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.docs"
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.youtube.music"
+            launcher:className="com.google.android.apps.youtube.music.activities.MusicActivity" />
+        <favorite
+            launcher:packageName="com.google.android.videos"
+            launcher:className="com.google.android.youtube.videos.EntryPoint" />
+        <favorite
+            launcher:packageName="com.google.android.talk"
+            launcher:className="com.google.android.talk.SigningInActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.tachyon"
+            launcher:className="com.google.android.apps.tachyon.MainActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.photos"
+            launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.plus"
+            launcher:className="com.google.android.apps.plus.phone.HomeActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.books"
+            launcher:className="com.google.android.apps.books.app.BooksActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.magazines"
+            launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" />
+        <favorite
+            launcher:packageName="com.google.android.play.games"
+            launcher:className="com.google.android.gms.games.ui.destination.main.MainActivity" />
+    </folder>
+    <!-- Dock区图标 -->
+    <!-- 拨号 -->
+    <favorite
+        launcher:packageName="com.hihonor.contacts"
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- 信息 -->
+    <favorite
+        launcher:packageName="com.google.android.apps.messaging"
+        launcher:className="com.google.android.apps.messaging.ui.ConversationListActivity"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- 相机 -->
+    <favorite
+        launcher:packageName="com.hihonor.camera"
+        launcher:className="com.hihonor.camera"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+</favorites>

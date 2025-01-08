@@ -1,0 +1,20 @@
+service dlupserver /system/bin/dlupserver
+    user root
+    oneshot
+    disabled
+    seclabel u:r:dlupserver:s0
+
+service fcme /system/bin/fcme
+    user root
+    oneshot
+    disabled
+    seclabel u:r:fcme:s0
+
+on property:odm.sys.start_dlupserver=true
+    start dlupserver
+
+on property:odm.sys.stop_dlupserver=true
+    stop dlupserver
+
+on property:odm.sys.start_fcme=true && property:ro.runmode=normal
+    start fcme

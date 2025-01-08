@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<change>
+  <components>
+    <component old="com.hihonor.himovie/com.hihonor.himovie.ui.login.SplashScreenActivity" new="com.hihonor.himovie.overseas/com.hihonor.himovie.ui.login.SplashScreenActivity"/>
+  </components>
+</change>

@@ -1,0 +1,31 @@
+on property:msc.config.cast_mode=false
+    stop distributedfiledaemon
+
+on property:ro.build.characteristics=tablet
+    stop distributedfiledaemon
+
+on property:ro.build.characteristics=tv
+    stop distributedfiledaemon
+
+on property:sys.user.0.ce_available=true && property:init.svc.distributedfiledaemon=running
+    mkdir /data/misc_ce/0/mdfs
+    chown system system /data/misc_ce/0/mdfs
+    mkdir /mnt/mdfs
+    chmod 0000 /mnt/mdfs
+    write /sys/fs/fuse/pass_through_filter "mdfs"
+    start distributedfileservice
+
+service distributedfiledaemon /system/bin/distributedfiledaemon
+    class late_start
+    user root
+    group root system shell sdcard_rw readproc everybody
+    seclabel u:r:distributedfiledaemon:s0
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks /dev/blkio/foreground/tasks
+    onrestart restart distributedfileservice
+
+service distributedfileservice /system/bin/distributedfileservice -data=/data/misc_ce/0/mdfs -mount=/mnt/mdfs
+    disabled
+    user system
+    group system shell sdcard_rw readproc everybody
+    seclabel u:r:distributedfile:s0
+    oneshot

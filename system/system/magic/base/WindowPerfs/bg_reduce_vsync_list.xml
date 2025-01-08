@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bg_reduce_vsync_list>
+  <bgReduceVsync name="今日头条" package_name="com.ss.android.article.news"/>
+  <bgReduceVsync name="今日头条极速版" package_name="com.ss.android.article.lite"/>
+  <bgReduceVsync name="搜狐新闻" package_name="com.sohu.newsclient"/>
+  <bgReduceVsync name="腾讯新闻" package_name="com.tencent.news"/>
+  <bgReduceVsync name="网易新闻" package_name="com.netease.newsreader.activity"/>
+  <bgReduceVsync name="知乎" package_name="com.zhihu.android"/>
+  <bgReduceVsync name="抖音" package_name="com.ss.android.ugc.aweme"/>
+  <bgReduceVsync name="抖音极速版" package_name="com.ss.android.ugc.aweme.lite"/>
+  <bgReduceVsync name="快手" package_name="com.smile.gifmaker"/>
+  <bgReduceVsync name="快手极速版" package_name="com.kuaishou.nebula"/>
+  <bgReduceVsync name="西瓜视频" package_name="com.ss.android.article.video"/>
+  <bgReduceVsync name="斗鱼" package_name="air.tv.douyu.android"/>
+  <bgReduceVsync name="YY" package_name="com.duowan.mobile"/>
+  <bgReduceVsync name="皮皮虾" package_name="com.sup.android.superb"/>
+  <bgReduceVsync name="酷狗音乐" package_name="com.kugou.android"/>
+  <bgReduceVsync name="QQ音乐" package_name="com.tencent.qqmusic"/>
+  <bgReduceVsync name="番茄畅听" package_name="com.xs.fm"/>
+  <bgReduceVsync name="高德地图" package_name="com.autonavi.minimap"/>
+  <bgReduceVsync name="懂车帝" package_name="com.ss.android.auto"/>
+  <bgReduceVsync name="贝壳找房" package_name="com.lianjia.beike"/>
+  <bgReduceVsync name="唯品会" package_name="com.achievo.vipshop"/>
+  <bgReduceVsync name="澎湃新闻" package_name="com.wondertek.paper"/>
+  <bgReduceVsync name="悟空浏览器" package_name="com.cat.readall"/>
+  <bgReduceVsync name="UC浏览器" package_name="com.UCMobile"/>
+</bg_reduce_vsync_list>

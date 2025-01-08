@@ -1,0 +1,6 @@
+version=1.10.23.106
+type=CalendarExt
+subtype=generic
+compatibleVersion=1
+classify=1
+displayVersion=CN.GENC.1.10.23.106

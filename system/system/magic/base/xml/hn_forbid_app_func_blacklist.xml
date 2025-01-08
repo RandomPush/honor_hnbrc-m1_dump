@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app_blacklist>
+  <forbid_app packageName="com.hihonor.securityserver"/>
+  <forbid_app packageName="com.hihonor.id"/>
+  <forbid_app packageName="com.hihonor.powergenie"/>
+  <forbid_app packageName="com.hihonor.android.hnaps"/>
+</app_blacklist>

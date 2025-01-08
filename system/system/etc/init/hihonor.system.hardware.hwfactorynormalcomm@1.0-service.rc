@@ -1,0 +1,9 @@
+service hwfactorynormalcomm-1-0 /system/bin/hw/honor.system.hardware.hwfactorynormalcomm@1.0-service
+    interface honor.system.hardware.hwfactorynormalcomm@1.0::IHwFactoryNormalComm default
+    class hal
+    oneshot
+    disabled
+    capabilities SYS_MODULE WAKE_ALARM NET_ADMIN
+    user root
+    group shell system wifi dhcp inet net_raw net_admin media_rw radio root bluetooth camera everybody
+    seclabel u:r:hal_hwfactorynormalcomm_default:s0
