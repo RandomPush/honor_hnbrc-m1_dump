@@ -1,0 +1,29 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Honor
+ro.product.product.device=system_ext_mtk
+ro.product.product.manufacturer=unknown
+ro.product.product.model=magic
+ro.product.product.name=system_ext_mtk
+ro.product.build.date=Fri Nov 22 11:37:52 CST 2024
+ro.product.build.date.utc=1732246672
+ro.product.build.fingerprint=Honor/system_ext_mtk/system_ext_mtk:14/UP1A.231005.007/root11221137:user/release-keys
+ro.product.build.id=UP1A.231005.007
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=eng.root.20241122.114014
+ro.product.build.version.release=14
+ro.product.build.version.release_or_codename=14
+ro.product.build.version.sdk=34
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=34
+ro.product.ab_ota_partitions=product_h,system,system_ext,vbmeta_system
+ro.product.cpu.pagesize.max=4096
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+# end of file
