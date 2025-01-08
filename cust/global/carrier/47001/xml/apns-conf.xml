@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="GP-Internet"
+    mcc="470"
+    mnc="01"
+    apn="gpinternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="GP-MMS"
+    mcc="470"
+    mnc="01"
+    apn="gpmms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.128.1.2"
+    mmsport="8080"
+    mmsc="http://mms.gpsurf.net/servlets/mms"
+    type="mms"
+  />
+  <apn carrier="GP UT"
+    mcc="470"
+    mnc="01"
+    apn="XCAP"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="xcap"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

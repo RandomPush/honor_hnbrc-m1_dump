@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d12b9430158bcac97e1a66665f6f77e1">
+  <dict>
+    <!--2023-01-31 11:52:12.000-->
+    <bool key="compatible_apn_switch">true</bool>
+    <!--2023-01-31 11:52:12.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:52:12.000-->
+    <int key="num_match">8</int>
+    <!--2023-08-28 11:09:00.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:52:12.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2023-01-31 11:52:12.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:52:12.000-->
+    <string key="voicemail_carrier">Tele2</string>
+    <!--2023-01-31 11:52:12.000-->
+    <string key="voicemail_number">+385951000223</string>
+    <!--2023-01-31 11:52:12.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

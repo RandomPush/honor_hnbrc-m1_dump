@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="USCC_1"
+    mcc="311"
+    mnc="220"
+    apn="Proxya.uscc.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+    type="default,mms,supl,hipri"
+  />
+  <apn carrier="USCC_2"
+    mcc="311"
+    mnc="220"
+    apn="Proxyb.uscc.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mmsc2.uscc.net/mmsc/MMS"
+    type="default,mms,supl,hipri"
+  />
+</apns>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f330e042d6bc15f956489ed95791f483">
+  <dict>
+    <!--2023-01-31 11:39:54.000-->
+    <string key="SMSCAddress">+48790998250</string>
+    <!--2023-01-31 11:39:54.000-->
+    <int key="allow_mms_property_int">6</int>
+    <!--2023-11-20 14:19:49.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2023-01-31 11:39:54.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-01-31 11:39:54.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2023-10-27 16:24:33.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:LTE</string>
+    <!--2023-01-31 11:39:54.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2023-01-31 11:39:54.000-->
+    <bool key="hn_data_roam_option">true</bool>
+    <!--2023-01-31 11:39:54.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+</string>
+    <!--2023-10-23 15:54:58.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:39:54.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:39:54.000-->
+    <int key="num_match">9</int>
+    <!--2024-01-22 15:23:01.000-->
+    <string key="omacp_apn_protocol_type">IPV4V6:IPV4V6</string>
+    <!--2023-11-15 10:53:07.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:39:54.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:39:54.000-->
+    <int key="sms_to_mms_textthreshold">7</int>
+    <!--2023-01-31 11:39:54.000-->
+    <string key="voicemail_carrier">P4</string>
+    <!--2023-01-31 11:39:54.000-->
+    <string key="voicemail_number">+48790200200</string>
+    <!--2023-01-31 11:39:54.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

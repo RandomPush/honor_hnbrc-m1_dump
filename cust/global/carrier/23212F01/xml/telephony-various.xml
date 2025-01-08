@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="80ecbcd7cf8095644ae5f82a4a2a30e3">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23201</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ge org!</string>
+        <string key="plmn">Ge org!</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23203</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23205</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23207</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23210</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23211</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23213</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23217</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23219</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23214</string>
+        <string key="sim_mccmnc">23212</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

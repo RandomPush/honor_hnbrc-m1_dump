@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="SFR webphone"
+    mcc="208"
+    mnc="11"
+    apn="sl2sfr"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="SFR option modem"
+    mcc="208"
+    mnc="11"
+    apn="websfr"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="dun"
+  />
+  <apn carrier="MMS"
+    mcc="208"
+    mnc="11"
+    apn="mmssfr"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.151.0.1"
+    mmsport="8080"
+    mmsc="http://mms1"
+    type="mms"
+  />
+</apns>

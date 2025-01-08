@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="d2047ae366b2926a057cc5d4d3666fd3">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">24004</string>
+        <string key="sim_mccmnc">24008</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor SE</string>
+        <string key="plmn">Telenor SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24024</string>
+        <string key="sim_mccmnc">24008</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor SE</string>
+        <string key="plmn">Telenor SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24004</string>
+        <string key="sim_mccmnc">240080635</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Glocalnet</string>
+        <string key="plmn">Glocalnet</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24024</string>
+        <string key="sim_mccmnc">240080635</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Glocalnet</string>
+        <string key="plmn">Glocalnet</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24004</string>
+        <string key="sim_mccmnc">240080735</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Glocalnet</string>
+        <string key="plmn">Glocalnet</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24024</string>
+        <string key="sim_mccmnc">240080735</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Glocalnet</string>
+        <string key="plmn">Glocalnet</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

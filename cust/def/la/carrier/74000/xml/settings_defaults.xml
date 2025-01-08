@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:42:49.000-->
+  <string hn_sdn_prefix="+593,00593,0,+00593"/>
+  <!--2023-10-17 11:33:44.000-->
+  <string settings.global.forbid_clear_noti="true"/>
+</resources>

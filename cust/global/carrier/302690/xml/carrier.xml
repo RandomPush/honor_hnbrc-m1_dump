@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8f2f30a18b5faba5bf6134cac6293489">
+  <dict>
+    <!--2024-02-29 09:26:33.000-->
+    <bool key="enable_mvno_apn_filter">true</bool>
+    <!--2024-03-18 15:23:49.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

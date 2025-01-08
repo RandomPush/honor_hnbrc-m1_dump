@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="5dcfb8c4bc2a9ca9a9b104c4a184e53f">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">O2 Active</string>
+              <string key="url">http://wap.o2active.cz</string>
+            </dict>
+            <dict>
+              <string key="title">Hry</string>
+              <string key="url">http://wap.o2active.cz/hry/</string>
+            </dict>
+            <dict>
+              <string key="title">Video</string>
+              <string key="url">http://wap.o2active.cz/video/</string>
+            </dict>
+            <dict>
+              <string key="title">Mobilní TV</string>
+              <string key="url">http://wap.o2active.cz/mobilniTV/</string>
+            </dict>
+            <dict>
+              <string key="title">MMS obrázky</string>
+              <string key="url">http://wap.o2active.cz/obrazky/</string>
+            </dict>
+            <dict>
+              <string key="title">Pozadí na telefon</string>
+              <string key="url">http://wap.o2active.cz/pozadi/</string>
+            </dict>
+            <dict>
+              <string key="title">Vyzváněcí melodie</string>
+              <string key="url">http://wap.o2active.cz/zvoneni/</string>
+            </dict>
+            <dict>
+              <string key="title">Zábava</string>
+              <string key="url">http://wap.o2active.cz/zabava/</string>
+            </dict>
+            <dict>
+              <string key="title">Zpravodajství</string>
+              <string key="url">http://wap.o2active.cz/zpravy/</string>
+            </dict>
+            <dict>
+              <string key="title">Programy kin</string>
+              <string key="url">http://wap.o2active.cz/kino/</string>
+            </dict>
+            <dict>
+              <string key="title">Dopravní informace</string>
+              <string key="url">http://wap.o2active.cz/doprava/</string>
+            </dict>
+            <dict>
+              <string key="title">Jízdní řády</string>
+              <string key="url">http://wap.o2active.cz/jizdnirady/</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

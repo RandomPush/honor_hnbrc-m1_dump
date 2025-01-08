@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b5dfa256147e4cba4a61e2805b59ad68">
+  <dict>
+    <!--2023-01-31 11:43:10.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:43:10.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:43:10.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:43:10.000-->
+    <string key="voicemail_carrier">HOT Mobile</string>
+    <!--2023-01-31 11:43:10.000-->
+    <string key="voicemail_number">*151</string>
+    <!--2023-01-31 11:43:10.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="df7e213881aafd4c8b94b48858e796b8">
+  <dict>
+    <!--2023-01-31 11:40:14.000-->
+    <bool key="carrier_close_vowifi_airplane_bool">false</bool>
+    <!--2023-01-31 11:40:14.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:40:14.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:40:14.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2023-01-31 11:40:14.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:40:14.000-->
+    <int key="smsToMmsTextThreshold">4</int>
+  </dict>
+</config>

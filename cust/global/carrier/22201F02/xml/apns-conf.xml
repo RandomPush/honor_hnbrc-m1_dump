@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Kenamobile web" mcc="222" mnc="01" apn="web.kenamobile.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="Kenamobile MMS" mcc="222" mnc="01" apn="mms.kenamobile.it" user="" server="" password="" proxy="" port="" mmsproxy="10.248.1.12" mmsport="80" mmsc="http://mms.kenamobile.it/" type="mms" protocol="IP"/>
+</apns>

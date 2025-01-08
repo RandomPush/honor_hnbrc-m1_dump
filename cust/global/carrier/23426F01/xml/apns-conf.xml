@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Lycamobile"
+    mcc="234"
+    mnc="26"
+    apn="data.lycamobile.co.uk"
+    user="lmuk"
+    server=""
+    password="plus"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+</apns>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="2bb50e0041ad077c5c570f552a6a22cb">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">2degrees</string>
+              <string key="url">http://m.2degreesmobile.co.nz/</string>
+            </dict>
+            <dict>
+              <string key="title">Help</string>
+              <string key="url">http://r.2degreesmobile.co.nz/gethelp/</string>
+            </dict>
+            <dict>
+              <string key="title">Search</string>
+              <string key="url">http://r.2degreesmobile.co.nz/search/</string>
+            </dict>
+            <dict>
+              <string key="title">Shopping</string>
+              <string key="url">http://r.2degreesmobile.co.nz/shopping/</string>
+            </dict>
+            <dict>
+              <string key="title">News</string>
+              <string key="url">http://r.2degreesmobile.co.nz/news/</string>
+            </dict>
+            <dict>
+              <string key="title">Communities</string>
+              <string key="url">http://r.2degreesmobile.co.nz/communities</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

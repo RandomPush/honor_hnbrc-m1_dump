@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="98f2f59d05e9c2412ec7b1f47295304a">
+  <dict>
+    <!--2023-01-31 11:45:32.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:45:32.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-01-31 11:45:32.000-->
+    <bool key="hn_data_roam_option">true</bool>
+    <!--2023-01-31 11:45:32.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="voicemail_carrier">Cell C</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="voicemail_number">132</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

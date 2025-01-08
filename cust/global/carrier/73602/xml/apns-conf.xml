@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ENTEL 4G"
+    mcc="736"
+    mnc="02"
+    apn="4g.entel"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Wap Movil"
+    mcc="736"
+    mnc="02"
+    apn="wap.movil.com.bo"
+    user=""
+    server=""
+    password=""
+    proxy="172.27.7.10"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="supl"
+    authtype="3"
+  />
+  <apn carrier="ENTEL MMS"
+    mcc="736"
+    mnc="02"
+    apn="mms.movil.com.bo"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="172.27.7.10"
+    mmsport="8080"
+    mmsc="http://mms.movil.com.bo/servlets/mms"
+    type="mms"
+  />
+</apns>

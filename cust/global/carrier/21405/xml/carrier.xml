@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5037ad7fe226eba7453943499992c5fb">
+  <dict>
+    <!--2023-01-31 11:39:29.000-->
+    <int key="allow_mms_property_int">7</int>
+    <!--2023-01-31 11:39:29.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:39:29.000-->
+    <bool key="set_callbarring_without_password">true</bool>
+    <!--2023-09-26 15:18:50.000-->
+    <int key="vm_prioritymode">3</int>
+    <!--2023-01-31 11:39:29.000-->
+    <string key="voicemail_carrier">TME</string>
+    <!--2023-01-31 11:39:29.000-->
+    <string key="voicemail_number">22123</string>
+    <!--2023-01-31 11:39:29.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

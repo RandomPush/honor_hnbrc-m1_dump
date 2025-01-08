@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="MetroPCS Data"
+    mcc="310"
+    mnc="580"
+    apn="fast.metropcs.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl,hipri"
+  />
+  <apn carrier="MetroPCS Tethering"
+    mcc="310"
+    mnc="580"
+    apn="pcweb.metropcs.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="dun"
+  />
+  <apn carrier="MetroPCS MMS"
+    mcc="310"
+    mnc="580"
+    apn="fast.metropcs.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+    type="mms"
+  />
+</apns>

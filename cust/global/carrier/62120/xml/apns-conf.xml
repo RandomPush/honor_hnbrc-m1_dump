@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Airtel Internet"
+    mcc="621"
+    mnc="20"
+    apn="internet.ng.airtel.com"
+    user="internet"
+    server=""
+    password="internet"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Airtel WAP"
+    mcc="621"
+    mnc="20"
+    apn="wap.ng.airtel.com"
+    user="wap"
+    server=""
+    password="wap"
+    proxy="172.18.254.5"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Airtel MMS"
+    mcc="621"
+    mnc="20"
+    apn="mms.ng.zain.com"
+    user="mms"
+    server=""
+    password="mms"
+    proxy=""
+    port=""
+    mmsproxy="172.18.254.5"
+    mmsport="8080"
+    mmsc="http://172.23.1.12/mms/wapenc"
+    type="mms"
+  />
+</apns>

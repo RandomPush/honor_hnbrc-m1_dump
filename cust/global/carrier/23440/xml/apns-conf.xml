@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="spusu" mcc="234" mnc="40" apn="web" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="1" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

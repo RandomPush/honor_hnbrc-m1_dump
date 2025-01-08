@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ALGAR"
+    mcc="724"
+    mnc="32"
+    apn="algar.br"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="2"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+  />
+</apns>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e7db85dfcb17149c81116edf335014ae">
+  <dict>
+    <!--2023-11-20 14:19:49.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2023-09-26 10:30:38.000-->
+    <int key="carrier_ussd_ime_type_class_phone">0</int>
+    <!--2023-01-31 11:50:50.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:50:50.000-->
+    <string key="hn_networkname_normal">all,GPRS:G;EDGE:E;UMTS:3G;HSDPA:3G+;HSUPA:3G+;HSPA:3G+;HSPA+:H+;LTE:4G;CA:4G+</string>
+    <!--2023-01-31 11:50:50.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2023-01-31 11:50:50.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:50:50.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:50:50.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:50:50.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:50:50.000-->
+    <string key="voicemail_carrier">Orange</string>
+    <!--2023-01-31 11:50:50.000-->
+    <string key="voicemail_number">555</string>
+    <!--2023-01-31 11:50:50.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

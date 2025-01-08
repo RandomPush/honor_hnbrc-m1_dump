@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="8fd266e5af8862445bc17ded8fdf95e8">
+  <dict>
+    <dict key="portHostKey">
+      <string key="supl_port">7275</string>
+      <string key="supl_host">supl.attmex.mx</string>
+    </dict>
+  </dict>
+</config>

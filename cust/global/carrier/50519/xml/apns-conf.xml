@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="lyca internet"
+    mcc="505"
+    mnc="19"
+    apn="data.lycamobile.com.au"
+    user="lmau"
+    server=""
+    password="plus"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+</apns>

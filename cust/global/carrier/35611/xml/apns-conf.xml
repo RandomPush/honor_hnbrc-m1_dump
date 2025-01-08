@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="FLOW Prepaid Internet"
+    mcc="356"
+    mnc="11"
+    apn="ppinternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="FLOW Prepaid MMS"
+    mcc="356"
+    mnc="11"
+    apn="ppmms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="010.020.005.034"
+    mmsport="8799"
+    mmsc="http://mmsc"
+    type="mms"
+  />
+  <apn carrier="FLOW Postpaid Internet"
+    mcc="356"
+    mnc="11"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="FLOW Postpaid MMS"
+    mcc="356"
+    mnc="11"
+    apn="multimedia"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="010.020.005.034"
+    mmsport="8799"
+    mmsc="http://mmsc"
+    type="mms"
+  />
+</apns>

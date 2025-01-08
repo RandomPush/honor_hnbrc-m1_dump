@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Roshan"
+    mcc="412"
+    mnc="20"
+    apn="internet"
+    user="GPRS"
+    server=""
+    password="Roshan"
+    proxy="172.31.37.16"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="1"
+  />
+  <apn carrier="Roshan"
+    mcc="412"
+    mnc="20"
+    apn="mms"
+    user="GPRS"
+    server=""
+    password="Roshan"
+    proxy=""
+    port=""
+    mmsproxy="172.31.37.16"
+    mmsport="8080"
+    mmsc="http://mmsc.roshan.af"
+    type="mms"
+  />
+</apns>

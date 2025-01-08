@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet" mcc="405" mnc="55" apn="airtelgprs.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="405" mnc="55" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="2c708a4f5bc03151a3638aabc987247a">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Google</string>
+              <string key="url">http://www.google.be</string>
+            </dict>
+            <dict>
+              <string key="title">Proximus</string>
+              <string key="url">http://www.proximus.be</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

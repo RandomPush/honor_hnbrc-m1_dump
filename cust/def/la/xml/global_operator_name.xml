@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperatorName>
+    <search sim_mcc_mnc="" mcc_mnc_name="732111" network_state="all" display_name="TIGO"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="732103" network_state="all" display_name="TIGO"/>
+    <search opkey="33403F01,334030F01" mcc_mnc_name="33403,334030" network_state="4G" display_name="VIRGIN LTE"/>
+    <search opkey="33403F01,334030F01" mcc_mnc_name="33403,334030" network_state="all" display_name="VIRGIN"/>
+    <search sim_mcc_mnc="732187" mcc_mnc_name="732103,732111" network_state="all" display_name="ETB"/>
+    <search sim_mcc_mnc="73004,73009" mcc_mnc_name="73002,73003,73001,73010" network_state="all" display_name="WOM"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="708001" network_state="4G" display_name="Claro HND LTE"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="708001" network_state="all" display_name="Claro HND"/>
+    <search sim_mcc_mnc="33403,334030" mcc_mnc_name="334020" network_state="4G" display_name="TELCEL LTE"></search>
+    <search sim_mcc_mnc="33403,334030" mcc_mnc_name="334020" network_state="all" display_name="TELCEL"></search>
+</OperatorName>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="f2c67f8dbe7dd0cd38c60914c2884a58">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">732103</string>
+        <string key="sim_mccmnc">732187</string>
+        <string key="network_type">3</string>
+        <int key="rule">1</int>
+        <string key="spn">ETB 4G</string>
+        <string key="plmn">ETB 4G</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732111</string>
+        <string key="sim_mccmnc">732187</string>
+        <string key="network_type">3</string>
+        <int key="rule">1</int>
+        <string key="spn">ETB 4G</string>
+        <string key="plmn">ETB 4G</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732103</string>
+        <string key="sim_mccmnc">732187</string>
+        <string key="network_type">1</string>
+        <int key="rule">1</int>
+        <string key="spn">ETB</string>
+        <string key="plmn">ETB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732103</string>
+        <string key="sim_mccmnc">732187</string>
+        <string key="network_type">2</string>
+        <int key="rule">1</int>
+        <string key="spn">ETB</string>
+        <string key="plmn">ETB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732111</string>
+        <string key="sim_mccmnc">732187</string>
+        <string key="network_type">1</string>
+        <int key="rule">1</int>
+        <string key="spn">ETB</string>
+        <string key="plmn">ETB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732111</string>
+        <string key="sim_mccmnc">732187</string>
+        <string key="network_type">2</string>
+        <int key="rule">1</int>
+        <string key="spn">ETB</string>
+        <string key="plmn">ETB</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

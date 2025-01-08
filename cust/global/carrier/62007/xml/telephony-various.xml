@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="cf1d1dbd1ab51d9ca07b3f83789715a4">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">00000</string>
+        <string key="sim_mccmnc">62007</string>
+        <string key="network_type"></string>
+        <int key="rule">6</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+    </array>
+  </dict>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="T-2" mcc="293" mnc="64" apn="internet.t-2.net" user="" server="" password="" proxy="" port="" mmsproxy="172.20.18.137" mmsport="8080" mmsc="http://www.mms.t-2.net:8002" type="default,supl,mms" authtype="0"/>
+  <apn carrier="ims" mcc="293" mnc="64" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="HOS" mcc="293" mnc="64" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

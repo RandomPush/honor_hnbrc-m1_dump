@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="88d5b111ec36a2301c438a6df8c7dbc9">
+  <dict>
+    <!--2023-01-31 11:46:57.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:46:57.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+  </dict>
+</config>

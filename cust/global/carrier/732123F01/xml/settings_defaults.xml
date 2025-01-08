@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:43:05.000-->
+  <integer alert_duration="180000"/>
+  <!--2023-01-31 11:43:05.000-->
+  <string always_vibrate="true"/>
+  <!--2023-01-31 11:43:05.000-->
+  <string hide_full_volume_menu="true"/>
+  <!--2023-10-26 11:50:17.000-->
+  <string hn_weatherclock_myloc_show_first="false"/>
+  <!--2023-01-31 11:43:05.000-->
+  <string show_add_channel="false"/>
+  <!--2023-01-31 11:43:05.000-->
+  <string show_channel_settings="true"/>
+  <!--2023-01-31 11:43:05.000-->
+  <string use_full_volume="true"/>
+</resources>

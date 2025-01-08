@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="3c23dc9d6b8b2c1ff09fa617ef7e9e99">
+  <dict>
+    <!--2023-01-31 11:51:09.000-->
+    <bool key="carrier_support_cft_bool">true</bool>
+    <!--2023-01-31 11:51:09.000-->
+    <string key="dend_data_self_cure_strategy">169:60:3:0</string>
+    <!--2023-05-16 16:37:19.000-->
+    <bool key="hn_high_speed_rail_reject_cure">true</bool>
+    <!--2024-04-11 18:54:50.000-->
+    <bool key="hn_stk_calling_show_text">true</bool>
+    <!--2024-04-11 18:54:08.000-->
+    <bool key="hn_stk_screen_on_unlock">true</bool>
+    <!--2024-04-23 18:10:28.000-->
+    <bool key="hn_supported_display_nr_5ga">true</bool>
+    <!--2023-01-31 11:51:09.000-->
+    <int key="num_match">11</int>
+    <!--2023-01-31 11:51:09.000-->
+    <int key="plmn_esm_flag">0</int>
+  </dict>
+</config>

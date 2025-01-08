@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Robi-internet"
+    mcc="470"
+    mnc="02"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Robi-MMS"
+    mcc="470"
+    mnc="02"
+    apn="robiinternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="192.168.23.7"
+    mmsport="9201"
+    mmsc="http://192.168.23.4/was"
+    type="mms"
+  />
+  <apn carrier="UT XCAP"
+    mcc="470"
+    mnc="02"
+    apn="XCAP"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="xcap"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

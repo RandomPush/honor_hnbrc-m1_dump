@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apns  version="8">
+  <apn carrier="Internet" mcc="234" mnc="08" apn="internet.btonephone.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="MMS" mcc="234" mnc="08" apn="mms.btonephone.com" user="" server="" password="" proxy="" port="" mmsproxy="proxy.btonephone.com" mmsport="8080" mmsc="http://MMSC/" type="mms" authtype="1" protocol="IP"/>
+</apns>

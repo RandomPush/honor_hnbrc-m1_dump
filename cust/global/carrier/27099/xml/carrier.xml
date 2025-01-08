@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="57ce8294f4e6044eff05a7cf82806743">
+  <dict>
+    <!--2023-11-20 14:19:49.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="num_match">7</int>
+    <!--2023-09-01 16:05:25.000-->
+    <bool key="single_pdp_enabled">false</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="voicemail_carrier">Orange Lux</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="voicemail_number">661</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Etisalat Internet" mcc="413" mnc="03" apn="EBB" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Etisalat MMS" mcc="413" mnc="03" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="192.168.104.4" mmsport="9401" mmsc="http://mms.etisalat.lk:8085" type="mms"/>
+  <apn carrier="XCAP" mcc="413" mnc="03" apn="XCAP" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

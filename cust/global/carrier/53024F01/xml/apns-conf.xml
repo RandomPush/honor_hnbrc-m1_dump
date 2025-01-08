@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet" mcc="530" mnc="24" apn="warehouse" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MMS" mcc="530" mnc="24" apn="warehouse-mms" user="" server="" password="" proxy="" port="" mmsproxy="118.148.1.118" mmsport="8080" mmsc="http://mms.warehousemobile.co.nz:48090" type="mms"/>
+  <apn carrier="ims" mcc="530" mnc="24" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="VoWifi Xcap" mcc="530" mnc="24" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="2Degree XCAP" mcc="530" mnc="24" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

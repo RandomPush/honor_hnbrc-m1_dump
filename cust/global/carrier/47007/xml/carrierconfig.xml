@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="88012bfe50eedd48a974dbb8a4e5287c">
+  <dict>
+    <!--2023-01-31 11:47:09.000-->
+    <int key="callWaitingMode">7</int>
+    <!--2023-01-31 11:47:09.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-06-27 17:05:54.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:47:09.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:47:09.000-->
+    <bool key="preferToUseUT">false</bool>
+  </dict>
+</config>

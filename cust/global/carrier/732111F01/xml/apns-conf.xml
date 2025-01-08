@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="UFFMOVIL" mcc="732" mnc="111" apn="web.uffmovil.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="3" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="TIGO XCAP" mcc="732" mnc="111" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

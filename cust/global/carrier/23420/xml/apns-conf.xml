@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="3" mcc="234" mnc="20" apn="three.co.uk" user="" server="" password="" proxy="" port="" mmsproxy="mms.three.co.uk" mmsport="8799" mmsc="http://mms.um.three.co.uk:10021/mmsc" type="default,hipri,mms,supl" authtype="0" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="3 Hotspot" mcc="234" mnc="20" apn="3hotspot" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun,entitle" authtype="0" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="234" mnc="20" apn="IMS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV6" roaming_protocol="IPV6"/>
+</apns>

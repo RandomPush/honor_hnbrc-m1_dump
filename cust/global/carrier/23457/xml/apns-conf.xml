@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="mobile.sky" mcc="234" mnc="57" apn="mobile.sky" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="0" protocol="IP"/>
+  <apn carrier="mms.mobile.sky" mcc="234" mnc="57" apn="mms.mobile.sky" user="" server="" password="" proxy="" port="" mmsproxy="185.110.178.97" mmsport="9028" mmsc="http://185.110.178.96:38090/was" type="mms" authtype="0" protocol="IP"/>
+  <apn carrier="Sky vowifi mms" mcc="234" mnc="57" apn="wifi.mms.mobile.sky" user="" server="" password="" proxy="" port="" mmsproxy="185.110.178.97" mmsport="9028" mmsc="http://185.110.178.96:38090/was" type="vowifi_mms" authtype="0" bearer_bitmask="18" protocol="IP"/>
+  <apn carrier="SKY XCAP" mcc="234" mnc="57" apn="ut.mobile.sky" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

@@ -1,0 +1,14 @@
+<DisplayEngineConfig>
+	<id>1</id>
+	<updated>2022-10-28</updated>
+	<feature name="Histogram">
+	    <mode name="MODE_DEFAULT">
+		    <param name="Enable">1</param>
+		</mode>
+	</feature>
+	<feature name="BlackScreenCheck">
+		<mode name="MODE_DEFAULT">
+			<param name="Enable">1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

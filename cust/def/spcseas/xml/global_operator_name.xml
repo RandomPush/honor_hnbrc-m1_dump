@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperatorName>
+    <search sim_mcc_mnc="" mcc_mnc_name="51088" network_state="4G" display_name="BOLT! Super 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="51068" network_state="4G" display_name="BOLT! Super 4G"/>
+    <search sim_mcc_mnc="51505" mcc_mnc_name="51503" network_state="all" display_name="Sun"/>
+    <search sim_mcc_mnc="515034,515035,515036,515037,515038,515039" mcc_mnc_name="51503" network_state="all" display_name="SMART"/>
+    <search sim_mcc_mnc="52005" mcc_mnc_name="52005" network_state="all" display_name="dtac DTN"/>
+    <search sim_mcc_mnc="52018" mcc_mnc_name="52018" network_state="all" display_name="DTAC"/>
+    <search sim_mcc_mnc="52005" mcc_mnc_name="52047" network_state="all" display_name="dtac-T"/>
+    <search sim_mcc_mnc="52018" mcc_mnc_name="52047" network_state="all" display_name="dtac-T"/>
+    <search sim_mcc_mnc="52047" mcc_mnc_name="52047" network_state="all" display_name="dtac-T"/>
+    <search sim_mcc_mnc="52000,52004,52099" mcc_mnc_name="52099" network_state="2G" display_name="TRUE-H 2G"/>
+    <search sim_mcc_mnc="52000,52004,52099" mcc_mnc_name="52000" network_state="3G" display_name="TH 3G+"/>
+</OperatorName>

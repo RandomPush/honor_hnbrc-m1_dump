@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="eb3cf2142af727461cb83b7e0300bd86">
+  <dict>
+    <!--2024-07-22 17:00:40.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-12-06 09:59:03.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2024-07-22 17:00:40.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-07-29 17:05:02.000-->
+    <bool key="enabledMMS">false</bool>
+  </dict>
+</config>

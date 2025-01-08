@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="43d78a2c488f0c8bf58f323c32d67010">
+  <dict>
+    <!--2023-01-31 11:53:53.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2023-01-31 11:53:53.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:53:53.000-->
+    <string key="omacp_apn_add_supl_and_dun">21403</string>
+    <!--2023-01-31 11:53:53.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:53:53.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:53:53.000-->
+    <string key="virtualnet_operatorname">Happy</string>
+  </dict>
+</config>

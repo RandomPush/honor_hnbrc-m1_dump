@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="31b4b648607c16c78c33cc6380041807">
+  <dict>
+    <!--2023-01-31 11:55:11.000-->
+    <int key="hn_omacp_apn_policy">-1</int>
+    <!--2023-01-31 11:55:11.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:55:11.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:55:11.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:55:11.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2023-01-31 11:55:11.000-->
+    <string key="virtualnet_operatorname">telecable</string>
+    <!--2023-09-26 15:18:50.000-->
+    <int key="vm_prioritymode">3</int>
+    <!--2023-01-31 11:55:11.000-->
+    <string key="voicemail_carrier">TeleCable</string>
+    <!--2023-01-31 11:55:11.000-->
+    <string key="voicemail_number">333</string>
+    <!--2023-01-31 11:55:11.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

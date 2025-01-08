@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Cyfrowy Polsat INTERNET" mcc="260" mnc="12" apn="internet.cp" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" productScope="phoneOnly"/>
+  <apn carrier="Cyfrowy Polsat" mcc="260" mnc="12" apn="internet.cp" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" productScope="tabletOnly"/>
+</apns>

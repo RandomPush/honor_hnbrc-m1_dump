@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="MCI-GPRS" mcc="432" mnc="14" apn="mcinet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MCCI MMS" mcc="432" mnc="14" apn="MCI-GPRS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="38090" mmsc="http://192.168.193.134" type="mms"/>
+</apns>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ZW Econet"
+    mcc="648"
+    mnc="04"
+    apn="econet.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="ZW Econet MMS"
+    mcc="648"
+    mnc="04"
+    apn="econet.mms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="172.18.0.178"
+    mmsport="8080"
+    mmsc="http://172.24.105.180:8080"
+    type="mms"
+  />
+</apns>

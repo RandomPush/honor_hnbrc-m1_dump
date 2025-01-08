@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="284" mnc="05" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Yettel Internet" mcc="284" mnc="05" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="Yettel MMS" mcc="284" mnc="05" apn="mms" user="mms" server="" password="" proxy="" port="" mmsproxy="192.168.087.011" mmsport="8004" mmsc="http://mmsc" type="mms"/>
+  <apn carrier="XCAP" mcc="284" mnc="05" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="VoWifi Xcap" mcc="284" mnc="05" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

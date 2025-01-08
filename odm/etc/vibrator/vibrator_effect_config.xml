@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG>
+    <HW_HAPTIC>
+        <HAPTIC_EFFECT ID="00001">
+            <NAME>haptic.common.click</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00002">
+            <NAME>haptic.common.long_press</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00003">
+            <NAME>haptic.common.long_press1</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00004">
+            <NAME>haptic.common.long_press2</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00005">
+            <NAME>haptic.common.click_up</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00006">
+            <NAME>haptic.common.tick</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00007">
+            <NAME>haptic.common.double_click</NAME>
+            <VALUE>0,30,100,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00010">
+            <NAME>haptic.pattern.type1</NAME>
+            <VALUE>0,600,800,600</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00011">
+            <NAME>haptic.pattern.type2</NAME>
+            <VALUE>0,1500</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00012">
+            <NAME>haptic.pattern.type3</NAME>
+            <VALUE>0,200</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00013">
+            <NAME>haptic.pattern.type4</NAME>
+            <VALUE>0,200,500,200</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00014">
+            <NAME>haptic.pattern.type5</NAME>
+            <VALUE>0,200,530,80,530,80</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00015">
+            <NAME>haptic.pattern.type6</NAME>
+            <VALUE>0,100,200,100,200,100</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00016">
+            <NAME>haptic.pattern.type7</NAME>
+            <VALUE>0,60,200,60,200,60,200,60,200,60,200,60,200,60,200,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="00017">
+            <NAME>haptic.pattern.type8</NAME>
+            <VALUE>0,140,280,140,280,140,560,420,560,420,560,420,840,140,280,140,280,140</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="10000">
+            <NAME>haptic.null</NAME>
+            <VALUE>0,3</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="10007">
+            <NAME>haptic.camera.long_press</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13000">
+            <NAME>haptic.common.charging</NAME>
+            <VALUE>0,100</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13001">
+            <NAME>haptic.common.success</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13002">
+            <NAME>haptic.poweroff</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13003">
+            <NAME>haptic.common.fail_pattern1</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13004">
+            <NAME>haptic.common.fail_pattern2</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13011">
+            <NAME>haptic.common.upglide</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13012">
+            <NAME>haptic.common.notice</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13014">
+            <NAME>haptic.common.threshold</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13015">
+            <NAME>haptic.common.delete_long_press</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13016">
+            <NAME>haptic.mode.change</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13017">
+            <NAME>haptic.common.switch</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13018">
+            <NAME>haptic.common.button</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13020">
+            <NAME>haptic.common.long_press3</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13021">
+            <NAME>haptic.common.notice1</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13022">
+            <NAME>haptic.common.notice2</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="13023">
+            <NAME>haptic.dialler.click</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="100000">
+            <NAME>haptic.common.click_light</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="100001">
+            <NAME>haptic.common.click_medium</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="200000">
+            <NAME>haptic.common.long_press_context_menu</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="200004">
+            <NAME>haptic.common.long_press_notice_mode</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="210000">
+            <NAME>haptic.common.slide_pull_refresh</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="210001">
+            <NAME>haptic.common.slide_edge_gesture</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="220000">
+            <NAME>haptic.common.pinch</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="410001">
+            <NAME>haptic.common.success_medium</NAME>
+            <VALUE>0,42</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="410002">
+            <NAME>haptic.common.success_continue</NAME>
+            <VALUE>0,122</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+        <HAPTIC_EFFECT ID="420000">
+            <NAME>haptic.common.fail</NAME>
+            <VALUE>0,60</VALUE>
+            <SEQTYPE>1</SEQTYPE>
+            <TYPE>SINGLE</TYPE>
+            <VALIDITY>true</VALIDITY>
+        </HAPTIC_EFFECT>
+    </HW_HAPTIC>
+</CONFIG>

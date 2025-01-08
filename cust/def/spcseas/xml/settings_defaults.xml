@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2024-08-26 11:42:47.000-->
+  <string app_name_calculate_two_lines="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string app_name_two_lines="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string black_languages="*_EH,*_XK,tr_CY"/>
+  <!--2023-10-12 11:26:53.000-->
+  <string default_signature_enable="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string email_convertable="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer hn_default_support_call_barring="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer hn_eap_sim_always="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string hn_forward_popedom="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string hn_launcher_share_layout_config="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string hn_networkmode_preference="9,3,2,1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string hn_real_net_not_use_vn_ons="45403" reset="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string hn_show_lte_tile="false"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer hn_status_bar_operators="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string hn_theme_display_tw="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer isShowNetworkType="0"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer operator_name_separate="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string plmn="45502#45507#460003#46003#460011#46011,zh_Hans,中国电信;45502#45507#460003#46003#460011#46011,zh_Hant,中國電信;45502#45507#460003#46003#460011#46011,en_US,China Telecom;45502#45507#460003#46003#460011#46011,zh_CN,中国电信;45502#45507#460003#46003#460011#46011,zh_TW,中國電信;45502#45507#460003#46003#460011#46011,zh_HK,中國電信;460000#46000#460002#46002#460007#46007#460008#46008,zh_Hans,中国移动;460000#46000#460002#46002#460007#46007#460008#46008,zh_Hant,中國移動;460000#46000#460002#46002#460007#46007#460008#46008,en_US,China Mobile;460000#46000#460002#46002#460007#46007#460008#46008,zh_CN,中国移动;460000#46000#460002#46002#460007#46007#460008#46008,zh_TW,中國移動;460000#46000#460002#46002#460007#46007#460008#46008,zh_HK,中國移動;460001#46001,zh_Hans,中国联通;460001#46001,zh_Hant,中國聯通;460001#46001,en_US,China Unicom;460001#46001,zh_CN,中国联通;460001#46001,zh_TW,中國聯通;460001#46001,zh_HK,中國聯通;46692,zh_Hans,中华电信;46692,zh_Hant,中華電信;46692,en_US,Chunghwa;46692,en_GB,Chunghwa;46692,en_AU,Chunghwa;46692,zh_CN,中华电信;46692,zh_TW,中華電信;46692,zh_HK,中華電信;46601,zh_Hans,远传电信;46601,zh_Hant,遠傳電信;46601,en_US,Far EasTone;46601,en_GB,Far EasTone;46601,en_AU,Far EasTone;46601,zh_CN,远传电信;46601,zh_TW,遠傳電信;46601,zh_HK,遠傳電信;46689,zh_Hans,台湾之星;46689,zh_Hant,台灣之星;46689,en_US,T Star;46689,en_GB,T Star;46689,en_AU,T Star;46689,zh_CN,台湾之星;46689,zh_TW,台灣之星;46689,zh_HK,台灣之星;999999#99999,zh_Hans,未知网络;999999#99999,zh_Hant,未知網絡;999999#99999,en_US,Unknown Network;999999#99999,en_GB,Unknown Network;999999#99999,en_AU,Unknown Network;999999#99999,zh_CN,未知网络;999999#99999,zh_TW,未知網絡;999999#99999,zh_HK,未知網絡"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer power_saving_on="0"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string reg_plmn_custom="45412,45430;45413,45430;45431,45400;45412,45413;45416,45419,45429,45400,45410,45402,45418;45403,45404,45405,45414;45406,45415,45417;45501,45504;45503,45505;52018,52005;52003,52001;52000,52004,52099"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string reg_plmn_roam_custom="2:50506,50502;2:52001,52015;2:52003,52015;2:50503,50502;2:46605,46605;2:45431,45400;2:46605,46697;2:40554,40415;2:40554,40489;2:40431,40430;2:40490,40427;2:40490,40422;2:40498,40424;2:40493,40478;2:40495,40419;2:40402,40414;2:40496,40401;2:40496,40412;2:40404,40411;2:405848,40430;2:405852,40443;2:405852,40484;2:405799,40492;2:40570,40552;2:405849,40416;2:405845,40556;2:40487,40470;2:40444,40445;2:405847,40445;2:405853,40551;2:40446,40419;2:40413,40407;2:40486,40445;2:40566,40497;2:40460,40470;2:405751,40556;2:405755,40416;2:405754,40482;2:405756,40478;2:405752,40552;2:405750,405846"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string roamingBrokerSequenceList="P1,502153,52505|YES 4G,502152,52505|CTExcel,45431,46003|CTExcel,45431,45400" reset="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.global.auto_time="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.global.auto_time_zone="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.hn_customized_networkType_normal="all,GPRS:G;EDGE:E;UMTS:3G;HSDPA:H;HSUPA:H;HSPA:H;HSPA+:H+;LTE:4G;CA:4G+"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.hn_nlp_global="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.hn_not_modify_wifi="Singtel WIFI,Wireless@SGx"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.hn_opt_pre_contact="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.hn_rcm_cert="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.hn_show_network_icon="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.global.mobile_data="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string settings.global.nfc_ce_transevt="false"/>
+  <!--2023-11-21 20:56:51.000-->
+  <string settings.global.uneditable_apps_in_trafficmanager="com.trustonic.telecoms.standard.dpc,com.trustonic.telecoms.setup"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.global.wifi_on="1"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.global.wifi_sleep_policy="2"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.secure.stereo_landscape_portrait="0"/>
+  <!--2023-01-31 11:43:55.000-->
+  <integer settings.system.hn_omacp_apn_policy="2"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string should_write_sms_package="com.hihonor.hiassistantoversea,com.pushbullet.android,com.google.android.googlequicksearchbox"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string showSendMailfailToast="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string show_hol_with_region="2"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string specIccidRBSeqList="45400:8985231" reset="true"/>
+  <!--2023-01-31 11:43:55.000-->
+  <string wifi_off_default="false"/>
+</resources>

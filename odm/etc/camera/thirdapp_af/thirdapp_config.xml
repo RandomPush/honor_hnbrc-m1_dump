@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Config>
+    <thirdapp packageName="com.jingyao.easybike"></thirdapp>
+    <thirdapp packageName="com.sankuai.meituan"></thirdapp>
+    <thirdapp packageName="com.dianping.v1"></thirdapp>
+    <thirdapp packageName="com.xingin.xhs"></thirdapp>
+    <thirdapp packageName="com.meitu.meiyancamera"></thirdapp>
+</Config>

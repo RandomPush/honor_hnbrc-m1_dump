@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<VCMConfig>
+    <VCMEnableFlag                 value="1"/>
+    <reloadXML                     value="0"/>
+    <debugVCMLog                   value="0"/>
+    <Deviation                     value="5"/>
+    <AFdecisionMode                value="1"/>
+    <AFStablizeCountThreshold      value="0"/>
+    <VCMThresholdMode              value="1"/>
+    <VCMNegate                     value="1"/>
+    <AF_DAC                        value="39"/>
+
+    <!--- begin for VCMThreshold map, don't add other parm after --->
+    <VCMThreshold Zcode="0.0"      Threshold="258" ></VCMThreshold> <!---       0 degree --->
+</VCMConfig>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ba9e1fa249eb74b92d5f0ca0e3fdcd51">
+  <dict>
+    <!--2023-11-17 14:33:34.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:54.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:42:21.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-06-29 10:54:47.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+  </dict>
+</config>

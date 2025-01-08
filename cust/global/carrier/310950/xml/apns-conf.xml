@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ATT Nextgenphone" mcc="310" mnc="950" apn="nxtgenphone" user="" server="" password="" proxy="" port="" mmsproxy="proxy.mobile.att.net" mmsport="80" mmsc="http://mmsc.mobile.att.net" type="default,mms,supl,hipri,fota,xcap" authtype="0" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ATT Hotspot" mcc="310" mnc="950" apn="hotspot" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

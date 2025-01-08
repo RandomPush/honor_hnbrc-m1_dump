@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="mobile.bm" mcc="302" mnc="500" apn="mobile.bm" user="" server="" password="" proxy="" port="" mmsproxy="mmsproxy.mobile.bm" mmsport="80" mmsc="http://mms.mobile.bm" type="default,mms" protocol="IP" roaming_protocol="IP"/>
+</apns>

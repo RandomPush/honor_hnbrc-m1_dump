@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Lucky Mobile" mcc="302" mnc="610" apn="connect" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.luckymobile.ca/mms/wapenc" type="default,supl,mms,xcap" protocol="IPV4V6"/>
+</apns>

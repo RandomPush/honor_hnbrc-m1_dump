@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7a0d01e19c80f13f787464f75883a5a6">
+  <dict>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="hn_stk_auto_exit_only_selectitem">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="hn_stk_blank_dialog_title">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="hn_stk_calling_show_text">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="hn_stk_home_back">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="hn_stk_show_cancel_button">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:42:02.000-->
+    <bool key="stk_rsp_without_cfm">true</bool>
+  </dict>
+</config>

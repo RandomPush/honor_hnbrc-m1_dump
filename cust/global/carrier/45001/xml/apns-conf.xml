@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="NSN Internet"
+    mcc="450"
+    mnc="01"
+    apn="annam.dyn"
+    user="mms"
+    server=""
+    password="mms"
+    proxy=""
+    port=""
+    mmsproxy="10.200.60.15"
+    mmsport="3128"
+    mmsc="http://10.200.60.21:8088/mms"
+    type="default,supl,mms,xcap,ia"
+  />
+</apns>

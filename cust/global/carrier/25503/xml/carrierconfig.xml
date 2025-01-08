@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e03ee5a0de4a6d539ba77cd8cefca191">
+  <dict>
+    <!--2023-01-31 11:51:19.000-->
+    <int key="callWaitingMode">3</int>
+    <!--2023-01-31 11:51:19.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2024-08-22 11:14:30.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:51:19.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:51:19.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:51:19.000-->
+    <int key="smsToMmsTextThreshold">4</int>
+    <!--2023-01-31 11:51:19.000-->
+    <int key="utBearType">2</int>
+    <!--2023-01-31 11:51:19.000-->
+    <bool key="utBsfUsehttps">true</bool>
+    <!--2023-01-31 11:51:19.000-->
+    <bool key="utNafUseHttps">true</bool>
+    <!--2023-01-31 11:51:19.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

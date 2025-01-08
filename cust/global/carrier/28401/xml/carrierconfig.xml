@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="fb6e8c3a79eb7b40bc9417c96e9c1acb">
+  <dict>
+    <!--2023-01-31 11:50:24.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:50:24.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-01-25 16:53:48.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2024-04-16 11:23:23.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2024-04-16 11:23:23.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">3</int>
+    <!--2023-01-31 11:50:24.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2024-01-25 16:53:48.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00100010</string>
+    <!--2024-04-16 11:23:23.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:50:24.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:50:24.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:50:24.000-->
+    <int key="smsToMmsTextThreshold">2</int>
+    <!--2023-01-31 11:50:24.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:50:24.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:50:24.000-->
+    <int key="utOIRSourceMode">1</int>
+    <!--2023-01-31 11:50:24.000-->
+    <string key="utParamsCfg">0:1,8:1</string>
+    <!--2023-01-31 11:50:24.000-->
+    <int key="utUseApn">1</int>
+    <!--2024-01-25 16:53:48.000-->
+    <string key="wfc_format_wifi_string">%1$s Wifi Call</string>
+    <!--2024-01-25 16:53:48.000-->
+    <string key="wfc_spn_string">A1</string>
+  </dict>
+</config>

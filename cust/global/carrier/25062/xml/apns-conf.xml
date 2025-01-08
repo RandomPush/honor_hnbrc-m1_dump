@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apns  version="8">
+  <apn carrier="Tinkoff Mobile" mcc="250" mnc="62" apn="m.tinkoff" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,dun"/>
+</apns>

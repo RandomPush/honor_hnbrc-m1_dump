@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="cea7bcc074309b114ed9c606a7b5d876">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">20404</string>
+        <string key="sim_mccmnc">20408</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">20408</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">2040807500</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">2040807501</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">2040807502</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">2040807503</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">2040807504</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">204080751</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

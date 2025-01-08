@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0b310535f2255c746a175675c8d35b5d">
+  <dict>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="Ikev2DpdMaxFails">5</int>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="Ikev2NatRtcTimerMaxCnt">200</int>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="Ikev2NatRtcTimerSec">60</int>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="callWaitingMode">7</int>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">2</int>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="utUseApn">3</int>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="vowifiHplmnListItem">41302, epdg.epc.mnc002.mcc413.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:43:58.000-->
+    <bool key="vowifi_roaming_switch">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Ufone Internet (Prepaid)"
+    mcc="410"
+    mnc="03"
+    apn="ufone.pinternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Ufone Internet (Postpaid)"
+    mcc="410"
+    mnc="03"
+    apn="ufone.internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Ufone MMS (Prepaid)"
+    mcc="410"
+    mnc="03"
+    apn="ufone.pmms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="172.016.013.027"
+    mmsport="8080"
+    mmsc="http://www.ufonemms.com:80/"
+    type="mms"
+  />
+  <apn carrier="Ufone MMS (Postpaid)"
+    mcc="410"
+    mnc="03"
+    apn="ufone.mms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="172.016.013.027"
+    mmsport="8080"
+    mmsc="http://www.ufonemms.com:80/"
+    type="mms"
+  />
+</apns>

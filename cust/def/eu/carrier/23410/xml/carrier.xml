@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e91f02e708f85e739f1000431bd49ea3">
+  <dict>
+    <!--2023-01-31 11:42:11.000-->
+    <string key="hn_apn_authtype">1</string>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-09-26 15:17:54.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

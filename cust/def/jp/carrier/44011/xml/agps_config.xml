@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="f16358c5ddd09a48f6001206ffac4830">
+  <dict>
+    <dict key="portHostKey">
+      <string key="supl_port">7275</string>
+      <string key="supl_host">supl.rm-n.jp</string>
+    </dict>
+  </dict>
+</config>

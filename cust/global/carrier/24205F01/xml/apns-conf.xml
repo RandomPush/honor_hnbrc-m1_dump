@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="One Call" mcc="242" mnc="05" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="One Call" mcc="242" mnc="05" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="188.149.250.10" mmsport="80" mmsc="http://mms.nwn.no" type="mms"/>
+  <apn carrier="OneCall UT" mcc="242" mnc="05" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap"/>
+</apns>

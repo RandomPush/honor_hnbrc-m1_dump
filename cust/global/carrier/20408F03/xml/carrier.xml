@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d91842ec91f5bdfb371b04a87839d2ce">
+  <dict>
+    <!--2023-01-31 11:40:05.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:40:05.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:40:05.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:40:05.000-->
+    <string key="virtualnet_operatorname">UPC HU</string>
+  </dict>
+</config>

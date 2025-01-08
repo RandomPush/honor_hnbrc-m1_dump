@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Kyivstar Internet" mcc="255" mnc="03" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://kyivstar.net" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Kyivstar MMS" mcc="255" mnc="03" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="010.010.010.010" mmsport="8080" mmsc="http://mms.kyivstar.net" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Kyivstar XCAP APN" mcc="255" mnc="03" apn="XCAP" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="CLARO UY" mcc="748" mnc="10" apn="igprs.claro.com.uy" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="748" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+  <apn carrier="Xcap" mcc="748" mnc="10" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

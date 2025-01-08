@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet" mcc="232" mnc="03" apn="internet.t-mobile.at" user="T" server="" password="tm" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="HOS" mcc="232" mnc="03" apn="hos" user="t-mobile" server="" password="tm" proxy="" port="" mmsproxy="010.012.000.020" mmsport="80" mmsc="http://mmsc.t-mobile.at/servlets/mms" type="xcap,mms" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="232" mnc="03" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

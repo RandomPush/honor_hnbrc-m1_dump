@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuthConfig>
+  <Version>2</Version>
+  <AuthInfos>
+    <AuthInfo>
+      <Tag>EL049</Tag>
+      <Path>/cust/def/meafnaf/media/TRA.png</Path>
+      <Font>58</Font>
+      <PointX>260</PointX>
+      <PointY>353</PointY>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL034</Tag>
+      <Path>/cust/def/meafnaf/media/CST.png</Path>
+      <Font>52</Font>
+      <IsCenter>TRUE</IsCenter>
+      <PointY>420</PointY>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL019</Tag>
+      <Path>/cust/def/meafnaf/media/BIS.png</Path>
+      <Font>52</Font>
+      <IsBoldText>TRUE</IsBoldText>
+      <IsCenter>TRUE</IsCenter>
+      <PointY>752</PointY>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL044</Tag>
+      <Path>/cust/def/meafnaf/media/Model.png</Path>
+      <IsModel>TRUE</IsModel>
+      <IsCenter>TRUE</IsCenter>
+      <Font>52</Font>
+      <PointY>170</PointY>
+    </AuthInfo>
+  </AuthInfos>
+</AuthConfig>

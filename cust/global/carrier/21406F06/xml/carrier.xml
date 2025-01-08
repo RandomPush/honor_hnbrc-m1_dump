@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f2e73e9f4a573171fbdc2b6e75917f44">
+  <dict>
+    <!--2024-08-13 20:44:21.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2024-08-13 20:44:21.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:39:20.000-->
+    <string key="virtualnet_operatorname">LEBARA</string>
+  </dict>
+</config>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="18fe74db86eceafe8c9fb2180f19666c">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Digitel Web</string>
+              <string key="url">http://www.digitel.com.ve</string>
+            </dict>
+            <dict>
+              <string key="title">Facebook</string>
+              <string key="url">http://www.facebook.com</string>
+            </dict>
+            <dict>
+              <string key="title">Twitter</string>
+              <string key="url">http://twitter.com</string>
+            </dict>
+            <dict>
+              <string key="title">YouTube</string>
+              <string key="url">http://www.youtube.com</string>
+            </dict>
+            <dict>
+              <string key="title">Google</string>
+              <string key="url">http://www.google.com</string>
+            </dict>
+            <dict>
+              <string key="title">Hotmail</string>
+              <string key="url">http://live.com</string>
+            </dict>
+            <dict>
+              <string key="title">Yahoo</string>
+              <string key="url">http://www.yahoo.com</string>
+            </dict>
+            <dict>
+              <string key="title">apps 412</string>
+              <string key="url">http://gprs.digitel.com.ve</string>
+            </dict>
+            <dict>
+              <string key="title">Recomendamos</string>
+              <string key="url">http://gprs.digitel.com.ve/t412/recomendados.htm</string>
+            </dict>
+            <dict>
+              <string key="title">Imágenes</string>
+              <string key="url">http://gprs.digitel.com.ve/t412/lista_categorias.htm?todascat=7370&amp;pa=listacat</string>
+            </dict>
+            <dict>
+              <string key="title">Música y Video</string>
+              <string key="url">http://gprs.digitel.com.ve/t412/lista_categorias.htm?todascat=100162&amp;pa=listacat</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Quam_WEB"
+    mcc="722"
+    mnc="01"
+    apn="internet.movil"
+    user="internet"
+    server=""
+    password="internet"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="1"
+  />
+</apns>

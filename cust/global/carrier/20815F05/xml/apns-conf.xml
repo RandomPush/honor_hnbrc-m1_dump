@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Free Caraibes Guadeloupe" mcc="208" mnc="15" apn="free.gp" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.free.gp" type="default,dun,hipri,supl,mms" authtype="0" protocol="IP"/>
+</apns>

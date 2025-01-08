@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="dfa2e65e192f056fe721ff1bab7a2604">
+  <dict>
+    <!--2023-08-03 15:52:24.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-08-03 16:05:27.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-08-16 15:57:14.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2023-08-16 15:57:14.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">3</int>
+    <!--2023-08-03 15:52:24.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-08-03 16:05:27.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-08-16 15:57:14.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+    <!--2023-08-16 15:57:14.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2023-08-16 15:57:14.000-->
+    <string key="wfc_spn_string">TANGO</string>
+  </dict>
+</config>

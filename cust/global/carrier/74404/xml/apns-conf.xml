@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="WEB Tigo" mcc="744" mnc="04" apn="internet.tigo.py" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="0" protocol="IPV4V6"/>
+  <apn carrier="MMS Tigo" mcc="744" mnc="04" apn="mms.tigo.py" user="tigo" server="" password="tigo" proxy="" port="" mmsproxy="10.16.17.12" mmsport="8888" mmsc="http://mms" type="mms" authtype="1"/>
+  <apn carrier="IMS Tigo" mcc="744" mnc="04" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

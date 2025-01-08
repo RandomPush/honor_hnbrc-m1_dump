@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="etisalat" mcc="424" mnc="01" apn="etisalat.ae" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="etisalat mms" mcc="424" mnc="01" apn="etisalat.ae" user="" server="" password="" proxy="" port="" mmsproxy="10.12.0.30" mmsport="8080" mmsc="http://mms/servlets/mms" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

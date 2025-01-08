@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Kena Mobile Web" mcc="222" mnc="07" apn="web.kenamobile.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Kena Mobile MMS" mcc="222" mnc="07" apn="mms.kenamobile.it" user="" server="" password="" proxy="" port="" mmsproxy="10.248.1.12" mmsport="80" mmsc="http://mms.kenamobile.it/" type="mms" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="222" mnc="07" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Xcap" mcc="222" mnc="07" apn="xcap.kena.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Safaricom" mcc="639" mnc="02" apn="safaricom" user="saf" server="" password="data" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="0" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Safaricom MMS" mcc="639" mnc="02" apn="safaricom" user="saf" server="" password="data" proxy="" port="" mmsproxy="proxy.safaricom.com" mmsport="8080" mmsc="http://mms.gprs.safaricom.com" type="mms" authtype="0"/>
+  <apn carrier="ims" mcc="639" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+</apns>

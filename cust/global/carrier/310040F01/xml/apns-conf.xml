@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Mta"
+    mcc="310"
+    mnc="040"
+    apn="VZWINTERNET"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="209.4.229.85"
+    mmsport="6672"
+    mmsc="http://mmsc.mta.dataonair.net/"
+    type="default,mms,dun,supl"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

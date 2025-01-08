@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="ad1483c863d7740367125a88f4db0cb1">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <string key="bookmarks_folder_name">Marcadores del móvil</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">emoción</string>
+              <string key="url">http://wap.movistar.com/?bdp=fav</string>
+            </dict>
+            <dict>
+              <string key="title">Movistar.es</string>
+              <string key="url">http://www.movistar.es</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

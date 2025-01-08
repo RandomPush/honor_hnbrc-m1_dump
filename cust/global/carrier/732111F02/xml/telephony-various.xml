@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="406a92f52e250a911d3514e4f6a54b17">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">732103</string>
+        <string key="sim_mccmnc">732111254</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732111</string>
+        <string key="sim_mccmnc">732111</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732103</string>
+        <string key="sim_mccmnc">732111255</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

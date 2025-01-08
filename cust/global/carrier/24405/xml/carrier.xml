@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e199a5abd183c4aeddc831cd19553512">
+  <dict>
+    <!--2024-08-22 15:10:07.000-->
+    <int key="customized_nsa_5g_icon">2</int>
+    <!--2023-01-31 11:38:59.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:38:59.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:38:59.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+  </dict>
+</config>

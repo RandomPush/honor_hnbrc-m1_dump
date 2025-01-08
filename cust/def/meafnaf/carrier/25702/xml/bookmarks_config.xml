@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="58774a50ab4985584cfe6ba9fdef5b6d">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Яндекс</string>
+              <string key="url">http://www.yandex.ru/?clid=1875763</string>
+            </dict>
+            <dict>
+              <string key="title">Honor Consumer</string>
+              <string key="url">https://www.hihonor.com/by</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

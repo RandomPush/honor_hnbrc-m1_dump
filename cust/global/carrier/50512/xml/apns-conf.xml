@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="3Internet"
+    mcc="505"
+    mnc="12"
+    apn="3netaccess"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="3"
+    mcc="505"
+    mnc="12"
+    apn="3services"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.176.57.25"
+    mmsport="8799"
+    mmsc="http://mmsc.three.net.au:10021/mmsc"
+    type="default,supl,mms"
+  />
+</apns>

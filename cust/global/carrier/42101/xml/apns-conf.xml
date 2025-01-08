@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="SabaNet"
+    mcc="421"
+    mnc="01"
+    apn="sabanet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="SabaFon WAP"
+    mcc="421"
+    mnc="01"
+    apn="wap"
+    user="wap"
+    server=""
+    password="wap"
+    proxy="192.168.030.174"
+    port="80"
+    mmsproxy="192.168.97.1"
+    mmsport="3130"
+    mmsc="http://192.168.97.1/mmsc"
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="SabaFon Internet"
+    mcc="421"
+    mnc="01"
+    apn="internet"
+    user="internet"
+    server=""
+    password="internet"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="SabaFon MMS"
+    mcc="421"
+    mnc="01"
+    apn="mms"
+    user="wap"
+    server=""
+    password="wap"
+    proxy=""
+    port=""
+    mmsproxy="192.168.030.174"
+    mmsport="80"
+    mmsc="http://mms.sabafon.com"
+    type="mms"
+    authtype="3"
+  />
+</apns>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Nex Tech Wireless"
+    mcc="312"
+    mnc="420"
+    apn="internet.lte.ntwls.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.ntwls.net/nex-tech/mms.php"
+    type="default,supl,mms"
+    protocol="IPV4V6"
+  />
+</apns>

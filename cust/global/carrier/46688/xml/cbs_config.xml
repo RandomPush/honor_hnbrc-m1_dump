@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="78b49d878a60bb525fd7d84a0078399e">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings"/>
+    <array key="cmas_alert_extreme_channels_range_strings"/>
+    <array key="cmas_alerts_severe_range_strings"/>
+    <array key="cmas_amber_alerts_channels_range_strings"/>
+    <array key="required_monthly_test_range_strings"/>
+    <array key="exercise_alert_range_strings"/>
+    <array key="operator_defined_alert_range_strings"/>
+    <array key="etws_test_alerts_range_strings"/>
+    <array key="emergency_alerts_channels_range_strings"/>
+    <array key="public_safety_messages_channels_range_strings"/>
+    <array key="predefined_settings_range_strings">
+      <string>0x038F:type=info, emergency=true, title=all||警訊通知</string>
+      <string>0x0397:type=info, emergency=true, title=all||Alert Message</string>
+      <string>0x1112-0x1112:rat=gsm, emergency=true, title=all||國家級警報</string>
+      <string>0x111F-0x111F:rat=gsm, emergency=true, title=all||Presidential Alert</string>
+      <string>0x1113-0x111B:rat=gsm, emergency=true, title=all||緊急警報</string>
+      <string>0x1120-0x1128:rat=gsm, emergency=true, title=all||Emergency Alert</string>
+      <string>0x111C-0x111C:rat=gsm, emergency=true, title=all||每月測試用訊息</string>
+      <string>0x1129-0x1129:rat=gsm, emergency=true, title=all||Required Monthly Test</string>
+    </array>
+  </dict>
+</config>

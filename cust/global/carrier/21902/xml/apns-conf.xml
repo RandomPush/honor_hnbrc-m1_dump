@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Telemach Internet" mcc="219" mnc="02" apn="telemach.hr" user="" server="" password="" proxy="" port="" mmsproxy="86.32.5.243" mmsport="80" mmsc="http://mms.telemach.hr" type="default,supl,mms" authtype="0" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Telemach IMS" mcc="219" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Telemach Xcap" mcc="219" mnc="02" apn="HOS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

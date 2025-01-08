@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="KOODO SP" mcc="302" mnc="221" apn="sp.koodo.com" user="" server="" password="" proxy="" port="" mmsproxy="mmscproxy.mobility.ca" mmsport="8799" mmsc="http://aliasredirect.net/proxy/koodo/mmsc" type="default,mms,supl" authtype="0"/>
+  <apn carrier="Koodo Services" mcc="302" mnc="221" apn="services.koodo.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV6" roaming_protocol="IPV4V6"/>
+</apns>

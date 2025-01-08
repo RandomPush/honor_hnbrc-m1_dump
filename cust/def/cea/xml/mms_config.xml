@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mms_config>
+  <!--2023-01-31 11:41:20.000-->
+  <string name="MCCMNCListForBlankSMS"></string>
+  <!--2023-01-31 11:41:20.000-->
+  <bool name="enableSendingBlankSMS">false</bool>
+  <!--2023-01-31 11:41:20.000-->
+  <bool name="enableUseLocalTime">true</bool>
+  <!--2023-01-31 11:41:20.000-->
+  <bool name="showMMSReadReports">true</bool>
+  <!--2023-01-31 11:41:20.000-->
+  <int name="smsToMmsTextThreshold">5</int>
+</mms_config>

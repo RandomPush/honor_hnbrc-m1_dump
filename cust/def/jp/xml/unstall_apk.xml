@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>/product_h/region_comm/oversea/app/HnFMRadio.apk;/product_h/app/HnFMRadio.apk;/product_h/region_comm/oversea/app/SwiftKey.apk;/system/app/SwiftKey.apk;/system/app/SwiftKeyFactorySettings.apk;/product_h/region_comm/oversea/app/SwiftKeyFactorySettings.apk;/system/app/Messages.apk;/system/priv-app/CarrierService.apk;/preas/app/CarrierService.apk;/system/product/priv-app/CarrierService.apk;/preas/app/Messages.apk;/system/product/app/Messages.apk;</apk>
+  <restoreapk>/system/priv-app/Mms.apk;/system/app/HnRcsService.apk;/product_h/region_comm/oversea/app/HnRcsService.apk;/preas/app/LatinImeGoogle.apk;/system/product/app/LatinImeGoogle.apk;</restoreapk>
+</tag>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Wind Internet" mcc="202" mnc="10" apn="gint.b-online.gr" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="WIND MMS" mcc="202" mnc="10" apn="mnet.b-online.gr" user="" server="" password="" proxy="" port="" mmsproxy="192.168.200.11" mmsport="9401" mmsc="http://192.168.200.95/servlets/mms" type="mms"/>
+  <apn carrier="ims" mcc="202" mnc="10" apn="IMS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="WIND XCAP" mcc="202" mnc="10" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+</apns>

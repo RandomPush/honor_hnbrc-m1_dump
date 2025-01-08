@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6a792439515ade72777638dead57658f">
+  <dict>
+    <!--2023-01-31 11:52:59.000-->
+    <string key="voicemail_carrier">Bluegrass Wireless LLC</string>
+    <!--2023-01-31 11:52:59.000-->
+    <string key="voicemail_number">*86</string>
+    <!--2023-01-31 11:52:59.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

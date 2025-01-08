@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet MOBIUZ" mcc="434" mnc="07" apn="net.ums.uz" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MOBIUZ MMS" mcc="434" mnc="07" apn="mms.mts.uz" user="" server="" password="" proxy="" port="" mmsproxy="10.10.0.10" mmsport="8080" mmsc="http://mmsc/was" type="mms"/>
+  <apn carrier="IMS" mcc="434" mnc="07" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="XCAP" mcc="434" mnc="07" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

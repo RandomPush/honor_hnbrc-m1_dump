@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Lycamobile" mcc="232" mnc="08" apn="data.lycamobile.at" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1" mvno_type="spn" mvno_match_data="Lycamobile"/>
+</apns>

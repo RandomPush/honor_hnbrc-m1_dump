@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a8363ea78ed08d95398e04ab49a4d85a">
+  <dict>
+    <!--2023-01-31 11:55:45.000-->
+    <string key="SMSCAddress">+40722004000</string>
+    <!--2023-01-31 11:55:45.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:55:45.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-01-31 11:55:45.000-->
+    <string key="hn_networkname_normal">all,GSM:G</string>
+    <!--2023-01-31 11:55:45.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:55:45.000-->
+    <int key="num_match">9</int>
+    <!--2024-07-03 16:24:29.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:55:45.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:55:45.000-->
+    <string key="voicemail_carrier">Vodafone</string>
+    <!--2023-01-31 11:55:45.000-->
+    <string key="voicemail_number">+40722033334</string>
+    <!--2023-01-31 11:55:45.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>Police Helpline</name>
+    <phone>
+      <detail>15</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>Fire Brigade Helpline</name>
+    <phone>
+      <detail>16</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>Rescue Ambulance Helpline</name>
+    <phone>
+      <detail>1122</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>Edhi Ambulance Helpline</name>
+    <phone>
+      <detail>115</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>Counter Terrorism Helpline</name>
+    <phone>
+      <detail>1717</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>Motorway Police Helpline</name>
+    <phone>
+      <detail>130</detail>
+    </phone>
+  </contact>
+</datainitializor>

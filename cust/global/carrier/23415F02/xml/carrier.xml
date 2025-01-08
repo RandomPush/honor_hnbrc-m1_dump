@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a7d870521bc0be33b5523ee911dc9bf1">
+  <dict>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="SMSCAddress">+447785016005</string>
+    <!--2023-01-31 11:41:25.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="carrier_xcap_data_roaming_switch">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="compatible_apn_switch">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:41:25.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:41:25.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="show_vowifi_menu_by_omacp">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="ussd_regex">(^#153#1234|#132#(\d+)\*|#45#(\d+)\*$)</string>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="virtualnet_operatorname">TalkTalk</string>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="voicemail_carrier">TalkTalk</string>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="voicemail_number">121</string>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

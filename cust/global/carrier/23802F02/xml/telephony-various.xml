@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="a0561a3d558ef0ca7ddbace40e93b286">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">23802</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor DK</string>
+        <string key="plmn">Telenor DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2380225</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CBB</string>
+        <string key="plmn">CBB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23802</string>
+        <string key="sim_mccmnc">2380225</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CBB</string>
+        <string key="plmn">CBB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23802</string>
+        <string key="sim_mccmnc">2380227</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CBB</string>
+        <string key="plmn">CBB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2380227</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CBB</string>
+        <string key="plmn">CBB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23802</string>
+        <string key="sim_mccmnc">23802</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CBB</string>
+        <string key="plmn">CBB</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

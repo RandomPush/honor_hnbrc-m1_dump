@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="052f59ad379fef72e4860782856c80e0">
+  <dict>
+    <!--2024-03-13 18:15:04.000-->
+    <int key="hn_default_networkmode">12</int>
+    <!--2024-03-13 18:15:04.000-->
+    <bool key="hn_disable_2g_ability">true</bool>
+    <!--2024-03-13 18:15:04.000-->
+    <string key="hn_nwmode_pref_bymccmnc">12,9,3,2,1</string>
+    <!--2024-03-13 18:15:04.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">68,65,12,9,3,2,1</string>
+    <!--2023-02-13 14:35:50.000-->
+    <bool key="ims_conference_participants_be_consistent">true</bool>
+    <!--2023-01-31 11:49:02.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:49:02.000-->
+    <int key="plmn_esm_flag">1</int>
+  </dict>
+</config>

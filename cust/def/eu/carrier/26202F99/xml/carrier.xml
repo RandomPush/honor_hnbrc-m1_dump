@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="af5e88854408925eaaedce407327bb60">
+  <dict>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-09-26 15:17:54.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:42:14.000-->
+    <bool key="remove_apn_MVNO">true</bool>
+  </dict>
+</config>

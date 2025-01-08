@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Argentina:Personal :Datos"
+    mcc="722"
+    mnc="340"
+    apn="datos.personal.com"
+    user="gprs"
+    server=""
+    password="adgj"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="0"
+  />
+</apns>

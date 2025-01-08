@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f93955d8b7619503317d71a4e70a3d18">
+  <dict>
+    <!--2023-01-31 11:53:20.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <int key="callWaitingMode">3</int>
+    <!--2023-10-27 16:06:51.000-->
+    <bool key="carrier_allow_transfer_ims_call_bool">true</bool>
+    <!--2023-11-29 21:02:29.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-10-30 14:14:46.000-->
+    <bool key="carrier_volte_show_calltrans_bool">true</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00000000</string>
+    <!--2023-01-31 11:53:20.000-->
+    <bool key="enriched_call_switch">false</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <bool key="hide_nr_tile_flag">true</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-11-16 11:35:34.000-->
+    <bool key="set_ut_without_data_connection">true</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <int key="smsToMmsTextThreshold">5</int>
+    <!--2023-01-31 11:53:20.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+    <!--2023-01-31 11:53:20.000-->
+    <string key="utParamsCfg">0:1,5:1,6:1,7:1</string>
+    <!--2023-01-31 11:53:20.000-->
+    <int key="utUseApn">3</int>
+  </dict>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:40:40.000-->
+  <string always_vibrate="true"/>
+  <!--2023-01-31 11:40:40.000-->
+  <string amber_alert_enable="false"/>
+  <!--2023-01-31 11:40:40.000-->
+  <string cbs_show_confirm_dialog="true"/>
+  <!--2023-01-31 11:40:40.000-->
+  <string hide_extreme_settings="true"/>
+  <!--2023-01-31 11:40:40.000-->
+  <string hide_severe_settings="true"/>
+  <!--2023-01-31 11:40:40.000-->
+  <string use_full_volume_channel="4370,4383,4371,4372,4384,4385,4373,4374,4375,4376,4377,4378,4386,4387,4388,4389,4390,4391,4381,4394"/>
+</resources>

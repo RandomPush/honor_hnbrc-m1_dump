@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CaliConfig>
+    <Cali name="switch" value="1" ></Cali>
+    <Cali name="sensorType" value="BackWide" ></Cali>
+    <Cali name="captureAlgoType" value="0x0" ></Cali>
+    <Cali name="previewAlgoType" value="0x5" ></Cali>
+    <Cali name="width" value="2592" ></Cali>
+    <Cali name="height" value="1944" ></Cali>
+    <Cali name="fov" value="120" ></Cali>
+</CaliConfig>

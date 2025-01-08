@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="d592a0dede9d71c16e03ce13838a0466">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Default home page</string>
+              <string key="url">https://www.thefuse.co.za/</string>
+            </dict>
+            <dict>
+              <string key="title">Vodacom</string>
+              <string key="url">http://vodacom.mobi</string>
+            </dict>
+            <dict>
+              <string key="title">Music</string>
+              <string key="url">https://live.vodacom.co.za/za/vlive-za_page_music</string>
+            </dict>
+            <dict>
+              <string key="title">Games</string>
+              <string key="url">https://live.vodacom.co.za/za/vlive-za_page_games</string>
+            </dict>
+            <dict>
+              <string key="title">Chat</string>
+              <string key="url">https://live.vodacom.co.za/za/vlive-za_page_chat</string>
+            </dict>
+            <dict>
+              <string key="title">Video</string>
+              <string key="url">https://live.vodacom.co.za/za/vlive-za_page_video</string>
+            </dict>
+            <dict>
+              <string key="title">Kids</string>
+              <string key="url">https://live.vodacom.co.za/za/za/page/kids</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

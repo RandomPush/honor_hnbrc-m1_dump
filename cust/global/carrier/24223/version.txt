@@ -1,0 +1,4 @@
+version=8.0.0.82
+type=CARRIER
+subtype=24223
+compatibleVersion=1

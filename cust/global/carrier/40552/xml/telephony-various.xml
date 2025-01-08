@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="0cb05e21827eead4ae1c8cc3b89ccaf1">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">40402</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40403</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40410</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40416</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40431</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40440</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40445</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40449</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40470</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40490</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40492</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40493</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40494</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40495</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40496</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40497</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40498</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40551</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40552</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40553</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40554</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40555</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40556</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">40400</string>
+        <string key="sim_mccmnc">40552</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">airtel</string>
+        <string key="plmn">airtel</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

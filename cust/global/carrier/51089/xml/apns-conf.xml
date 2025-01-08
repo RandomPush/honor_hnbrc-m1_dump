@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="3DATA"
+    mcc="510"
+    mnc="89"
+    apn="3data"
+    user="3data"
+    server=""
+    password="3data"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="3 MMS"
+    mcc="510"
+    mnc="89"
+    apn="3mms"
+    user="3mms"
+    server=""
+    password="3mms"
+    proxy=""
+    port=""
+    mmsproxy="10.4.0.10"
+    mmsport="8080"
+    mmsc="http://mms.three.co.id"
+    type="mms"
+  />
+</apns>

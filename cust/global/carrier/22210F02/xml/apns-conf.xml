@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Acc.Internet da cellulare" mcc="222" mnc="10" apn="web.ho-mobile.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Tethering Internet" mcc="222" mnc="10" apn="internet.ho-mobile.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun"/>
+  <apn carrier="ims" mcc="222" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

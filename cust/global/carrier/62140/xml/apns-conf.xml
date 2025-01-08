@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims"
+    mcc="621"
+    mnc="40"
+    apn="ims"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="ims"
+    bearer_bitmask=""
+    protocol="IP"
+    roaming_protocol="IP"
+/>
+</apns>

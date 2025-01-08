@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="INTERNET CLARO"
+    mcc="370"
+    mnc="020"
+    apn="internet.ideasclaro.com.do"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    protocol="IPV4V6"
+  />
+</apns>

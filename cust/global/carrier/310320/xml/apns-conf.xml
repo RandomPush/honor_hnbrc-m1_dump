@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ISP"
+    mcc="310"
+    mnc="320"
+    apn="isp.cellularoneaz.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="MMS"
+    mcc="310"
+    mnc="320"
+    apn="wap.c1csky.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="209.4.229.94"
+    mmsport="9401"
+    mmsc="http://mmsc.c1neaz.csky.us:6672"
+    type="mms"
+  />
+</apns>

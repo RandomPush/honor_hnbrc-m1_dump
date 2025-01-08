@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="803277a393870628a52b18201cece21f">
+  <dict>
+    <!--2023-01-31 11:56:29.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:56:29.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:56:29.000-->
+    <string key="utBsfSrvAddr">bsf.ims.mnc060.mcc460.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:56:29.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:56:29.000-->
+    <string key="utNafSrvAddr">xcap.ims.mnc060.mcc460.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:56:29.000-->
+    <string key="vowifi_UT_APN">ims.com</string>
+    <!--2023-01-31 11:56:29.000-->
+    <bool key="vowifi_ut_switch">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0d1ec27925281083e41253cc3d438c83">
+  <dict>
+    <!--2024-09-06 18:12:11.000-->
+    <bool key="hn_hide_lte">true</bool>
+    <!--2024-01-09 12:18:09.000-->
+    <string key="hn_predefined_eap_sim">Vodacom.smallcell</string>
+    <!--2023-12-13 14:15:06.000-->
+    <bool key="pre_apn_NotDel">false</bool>
+    <!--2023-01-31 11:42:26.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:42:26.000-->
+    <bool key="remove_apn_MVNO">true</bool>
+  </dict>
+</config>

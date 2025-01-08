@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Virgin Media Mobile Internet"
+    mcc="234"
+    mnc="38"
+    apn="goto.virginmobile.uk"
+    user="user"
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl,mms,ia"
+    authtype="1"
+  />
+  <apn carrier="Virgin MMS"
+    mcc="234"
+    mnc="38"
+    apn="goto.virginmobile.uk"
+    user="user"
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="193.030.166.002"
+    mmsport="8080"
+    mmsc="http://mms.virginmobile.co.uk:8002"
+    type="mms"
+    authtype="0"
+  />
+</apns>

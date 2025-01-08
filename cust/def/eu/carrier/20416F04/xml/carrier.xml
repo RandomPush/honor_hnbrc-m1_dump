@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a60c36e694d323be0fe65dfc0298927a">
+  <dict>
+    <!--2023-01-31 11:43:09.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+  </dict>
+</config>

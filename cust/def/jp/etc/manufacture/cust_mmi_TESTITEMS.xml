@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MMITest >
+  <TEST_ITEM>
+    <TestItem MMI1="1" MMI2="0" MMIE="0" MMAS="0" MMIS="0" MM2S="0" MMIBB="0" AUTO_TEST="1" support="ALL" key="ro.mmi.fm_test" description="收音机测试" comments="日本市场升级版本不测试FM"/>
+  </TEST_ITEM>
+</MMITest>

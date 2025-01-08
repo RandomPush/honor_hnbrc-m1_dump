@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="LTE NET" mcc="440" mnc="72" apn="unod.au-net.ne.jp" user="685840734641020@uno.au-net.ne.jp" server="" password="KpyrR6BP" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="LTE NET for DATA" mcc="440" mnc="72" apn="au.au-net.ne.jp" user="user@au.au-net.ne.jp" server="" password="au" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2" protocol="IPV4V6" roaming_protocol="IP"/>
+</apns>

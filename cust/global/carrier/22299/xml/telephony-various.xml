@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="086730f655d5a9ad7d8a2367a8b4aab5">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">22299</string>
+        <string key="sim_mccmnc">22299</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">WINDTRE</string>
+        <string key="plmn">WINDTRE</string>
+      </dict>
+    </array>
+  </dict>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d2956c5b60bf29f5c7d1c6e578f7cb17">
+  <dict>
+    <!--2023-11-17 14:32:57.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:16.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-10-17 11:33:21.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2023-01-31 11:56:36.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2024-01-08 09:41:32.000-->
+    <bool key="hide_nr_tile_flag">false</bool>
+    <!--2023-01-31 11:56:36.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+    <!--2023-01-31 11:56:36.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+  </dict>
+</config>

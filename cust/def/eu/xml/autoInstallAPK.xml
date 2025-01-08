@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="6ca0f685b4d8b8931cdf731fb685f8a0">
+  <array key="apks">
+    <dict>
+      <array key="cardinfo">
+        <string>230</string>
+        <string>216</string>
+        <string>226</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.hihonor.userguide</string>
+      <string key="apkpath">/product_h/region_comm/oversea/app/HnUserGuide/HnUserGuide.apk</string>
+      <int key="schemetype">1</int>
+      <string key="systemflag">nosys</string>
+      <string key="uninstallflag">true</string>
+    </dict>
+  </array>
+</config>

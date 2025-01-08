@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="a7dcb7b9351e6b5279c96cabc042cef4">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Sunrise live</string>
+              <string key="url">http://live.sunrise.ch</string>
+            </dict>
+            <dict>
+              <string key="title">yallo</string>
+              <string key="url">http://mobile.yallo.ch/</string>
+            </dict>
+            <dict>
+              <string key="title">ALDI-mobile</string>
+              <string key="url">http://aldi-mobile.ch</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

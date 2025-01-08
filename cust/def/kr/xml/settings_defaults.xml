@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_auto_select_network_mcc="450"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_camera2_sound_muteable="false"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_carrier_default_networkmode="45006:11:9"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_carrier_nwmode_pref_bymccmnc="45006:11:9,3,2,1"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_customized_roaming_apn="45005:SKT LTE INTERNET:lte.sktelecom.com:1;45005:SKT LTE Roaming:lte-roaming.sktelecom.com:2;45005:SKT 3G INTERNET:web.sktelecom.com:1;45008:KT:lte.ktfwing.com:1;45008:KT Roaming:lte.ktfwing.com:2;45011:KCT LTE:lte.sktelecom.com:1;45011:KCT (Roaming):roaming.sktelecom.com:2"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_hide_call_merge="all"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_query_lwclash="5;5"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_show_cal_hol="ko,kr"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string hn_show_lte_tile="false"/>
+  <!--2023-01-31 11:42:27.000-->
+  <integer settings.global.hide_baidu_license="1"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string settings.global.hn_customized_networkType_normal="all,GPRS:G;EDGE:E;UMTS:3G;HSDPA:3G;HSUPA:3G;HSPA:3G;HSPA+:3G;HSPAP:3G;EHRPD:3G;DCHSPAP:3G;LTE:LTE;CA:LTE+"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string settings.global.hn_predefined_kt_plmnssid="45005;T wifi zone_secure:45006;U+zone,U+zone_5G,5G_U+zone:45008;ollehWiFi,olleh GiGA WiFi,KT WiFi,KT GiGA WiFi"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string settings.system.always_play_screenshot_sound="true"/>
+  <!--2023-01-31 11:42:27.000-->
+  <string wifi_notdel_notedit="ollehWiFi;olleh GiGA WiFi;KT WiFi;KT GiGA WiFi;T wifi zone_secure;U+zone;U+zone_5G;5G_U+zone"/>
+</resources>

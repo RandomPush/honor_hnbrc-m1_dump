@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:41:45.000-->
+  <string settings.global.forbidden_msa_switch="true"/>
+  <!--2023-01-31 11:41:45.000-->
+  <string settings.global.supl_es_pdn_switch="true"/>
+</resources>

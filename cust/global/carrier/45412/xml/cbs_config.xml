@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="3f27f0e8a514db4fcef7af17d6a4833c">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm,emergency=true,title=zh_Hant||極度緊急警示;zh_Hans||极度紧急警示;en||Extreme Emergency Alert</string>
+      <string>0x111F:rat=gsm,emergency=true,title=zh_Hant||極度緊急警示;zh_Hans||极度紧急警示;en||Extreme Emergency Alert</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings"/>
+    <array key="cmas_alerts_severe_range_strings"/>
+    <array key="cmas_amber_alerts_channels_range_strings"/>
+    <array key="required_monthly_test_range_strings">
+      <string>0x111C:rat=gsm,emergency=true,title=zh_Hant||測試訊息;zh_Hans||测试讯息;en||Test Message</string>
+      <string>0x1129:rat=gsm,emergency=true,title=zh_Hant||測試訊息;zh_Hans||测试讯息;en||Test Message</string>
+    </array>
+    <array key="emergency_alerts_channels_range_strings">
+      <string>0x1113-0x111A:rat=gsm,emergency=true,title=zh_Hant||緊急警示;zh_Hans||紧急警示;en||Emergency Alert</string>
+      <string>0x1120-0x1127:rat=gsm,emergency=true,title=zh_Hant||緊急警示;zh_Hans||紧急警示;en||Emergency Alert</string>
+    </array>
+  </dict>
+</config>

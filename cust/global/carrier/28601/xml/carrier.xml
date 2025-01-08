@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="feb888f9aa52735c85876d3613b0c43b">
+  <dict>
+    <!--2023-10-30 10:14:29.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:4.5G</string>
+    <!--2023-01-31 11:57:12.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:4.5G</string>
+    <!--2023-01-31 11:57:12.000-->
+    <string key="hn_networkname_normal">all,LTE:4.5G;CA:4.5G</string>
+    <!--2023-01-31 11:57:12.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:57:12.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:57:12.000-->
+    <int key="sms_coding_national">1</int>
+    <!--2023-01-31 11:57:12.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:57:12.000-->
+    <string key="voicemail_carrier">Turkcell</string>
+    <!--2023-01-31 11:57:12.000-->
+    <string key="voicemail_number">905327533111</string>
+    <!--2023-01-31 11:57:12.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

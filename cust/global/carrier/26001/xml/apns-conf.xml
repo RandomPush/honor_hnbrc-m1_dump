@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Plus" mcc="260" mnc="01" apn="plus" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" productScope="phoneOnly"/>
+  <apn carrier="Plus" mcc="260" mnc="01" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" productScope="tabletOnly"/>
+  <apn carrier="Plus MMS" mcc="260" mnc="01" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="212.2.96.16" mmsport="8080" mmsc="http://mms.plusgsm.pl:8002" type="mms"/>
+  <apn carrier="ims" mcc="260" mnc="01" apn="IMS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="VoWifi Xcap" mcc="260" mnc="01" apn="HOS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

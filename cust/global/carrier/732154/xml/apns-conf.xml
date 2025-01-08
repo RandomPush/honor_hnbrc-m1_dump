@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Virgin Internet Movil"
+    mcc="732"
+    mnc="154"
+    apn="web.vmc.net.co"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+</apns>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c010943a41741c72594e7eae431fdcd7">
+  <dict>
+    <!--2023-01-31 11:46:10.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:46:10.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:46:10.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:46:10.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:46:10.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2023-01-31 11:46:10.000-->
+    <string key="virtualnet_operatorname">Halebop</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="99f3ffc2770ff3600659af3c6754f5a1">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">21401</string>
+        <string key="sim_mccmnc">2140613</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">telecable</string>
+        <string key="plmn">telecable</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

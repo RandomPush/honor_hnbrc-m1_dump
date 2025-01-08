@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2a4bc62c3caca54a2532f006a56c290c">
+  <dict>
+    <!--2023-01-31 11:49:52.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-01-31 11:49:52.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2023-01-31 11:49:52.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:49:52.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:49:52.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:49:52.000-->
+    <int key="num_match_short">7</int>
+    <!--2023-01-31 11:49:52.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:49:52.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:49:52.000-->
+    <bool key="support_vn_ecc">true</bool>
+  </dict>
+</config>

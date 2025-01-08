@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Magticom internet" mcc="282" mnc="02" apn="3g.ge" user="" server="" password="" proxy="" port="" mmsproxy="81.95.160.16" mmsport="9401" mmsc="http://mms.magticom.ge" type="default,supl,mms"/>
+  <apn carrier="IMS" mcc="282" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

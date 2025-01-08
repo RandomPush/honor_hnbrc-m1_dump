@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="WEB 2"
+    mcc="310"
+    mnc="770"
+    apn="i2.iwireless.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="WEB 1"
+    mcc="310"
+    mnc="770"
+    apn="wap1.iwireless.com"
+    user=""
+    server=""
+    password=""
+    proxy="209.4.229.31"
+    port="9401"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Picture Messaging"
+    mcc="310"
+    mnc="770"
+    apn="wap1.iwireless.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="209.4.229.31"
+    mmsport="9401"
+    mmsc="http://mmsc.iwireless.dataonair.net:6672"
+    type="mms"
+  />
+</apns>

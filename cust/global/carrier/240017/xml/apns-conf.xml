@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Halebop Internet"
+    mcc="240"
+    mnc="017"
+    apn="halebop.telia.se"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="da9cc977d3f6d63e3983bdec6781033c">
+  <dict>
+    <!--2023-01-31 11:52:18.000-->
+    <string key="2nd_data_retry_config">max_retries=5,5000,5000,5000,5000,5000</string>
+    <!--2023-01-31 11:52:18.000-->
+    <string key="data_retry_config">max_retries=5,5000,10000,20000,40000,80000</string>
+    <!--2023-01-31 11:52:18.000-->
+    <string key="hn_networkname_normal">all,CA:4G</string>
+    <!--2023-01-31 11:52:18.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2024-03-28 20:26:04.000-->
+    <bool key="ims_conference_reported_participants_optimize">true</bool>
+    <!--2023-01-31 11:52:18.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:52:18.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:52:18.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:52:18.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:52:18.000-->
+    <string key="voicemail_carrier">Telstra</string>
+    <!--2023-01-31 11:52:18.000-->
+    <string key="voicemail_number">+61101</string>
+    <!--2023-01-31 11:52:18.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="20b667fa385a1e6d6f0d2b70bd96e845">
+  <dict>
+    <!--2023-01-31 11:56:26.000-->
+    <bool key="carrier_xcap_data_roaming_switch">true</bool>
+    <!--2024-05-14 16:27:32.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2023-04-23 10:23:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2023-04-23 10:23:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2023-01-31 11:56:26.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:56:26.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:56:26.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:56:26.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:56:26.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:56:26.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:56:26.000-->
+    <string key="virtualnet_operatorname">Ben NL</string>
+    <!--2023-01-31 11:56:26.000-->
+    <string key="voicemail_carrier">Ben NL</string>
+    <!--2023-01-31 11:56:26.000-->
+    <string key="voicemail_number">+31624001233</string>
+    <!--2023-01-31 11:56:26.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

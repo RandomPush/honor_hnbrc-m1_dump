@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>HONOR Customer Service</name>
+    <phone>
+      <detail>80074102</detail>
+    </phone>
+    <email>
+      <detail>om.support@honor.com</detail>
+    </email>
+    <company>Oman</company>
+  </contact>
+</datainitializor>

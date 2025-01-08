@@ -1,0 +1,106 @@
+on early-init
+    setprop persist.service.hdb.enable true
+
+on init
+    setprop persist.graphics.vulkan.disable false
+
+on early-boot
+
+on property:msc.servicehost.needstartprocess=true
+    start HwServiceHost
+
+service HwServiceHost /system/bin/HwServiceHost mtk6761 MRD
+    class main
+    user cameraserver
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system vendor_dsm sdcard_rw
+    # group u10_sdcard_rw u11_sdcard_rw u12_sdcard_rw u13_sdcard_rw u14_sdcard_rw
+    disabled
+
+on boot
+    setprop ro.connectivity.chiptype ${ro.boot.odm.conn.chiptype}
+    setprop ro.connectivity.sub_chiptype ${ro.boot.odm.conn.schiptype}
+    mkdir /data/misc/hwpush
+    chmod 0770 /data/misc/hwpush
+    chown system system /data/misc/hwpush
+    restorecon_recursive /data/misc/hwpush
+
+    mkdir /data/misc/hipush
+    chmod 0770 /data/misc/hipush
+    chown system system /data/misc/hipush
+    restorecon_recursive /data/misc/hipush
+
+    mkdir /data/misc/hwpki
+    chmod 770 /data/misc/hwpki
+    chown system system /data/misc/hwpki
+    restorecon_recursive /data/misc/hwpki
+
+    mkdir /data/misc/hnpki
+    chmod 770 /data/misc/hnpki
+    chown system system /data/misc/hnpki
+    restorecon_recursive /data/misc/hnpki
+
+    chown root system /dev/hw_bfm
+    chmod 0660 /dev/hw_bfm
+
+#teeos
+	mkdir /data/log/tee 0770 root system
+
+#bluetooth
+on property:bluetooth.btsnoop.file.create=true
+    mkdir /data/log/bt
+    chown bluetooth bluetooth /data/log/bt
+    chmod 775 /data/log/bt
+    setprop bluetooth.btsnoop.file.create false
+
+on property:msc.config.emcom=true && property:ro.build.characteristics=default
+    start emcomd
+
+on property:msc.config.emcom=true && property:ro.build.characteristics=tablet
+    start emcomd
+
+service emcomd /system/bin/emcomd
+    class main
+    socket emcomd stream 0600 system system
+    user root
+    group root system vpn
+    seclabel u:r:emcomd:s0
+    disabled
+
+on post-fs-data
+    mkdir /data/misc/hsm
+    chmod 0770 /data/misc/hsm
+    chown system system /data/misc/hsm
+    restorecon_recursive /data/misc/hsm
+
+    mkdir /data/cota 0775 system system encryption=None
+    chmod 0775 /data/cota
+    chown system system /data/cota
+    restorecon_recursive /data/cota
+
+    mkdir /data/cota/ecota
+    chmod 0755 /data/cota/ecota
+    chown root root /data/cota/ecota
+    restorecon_recursive /data/cota/ecota
+
+    mkdir /data/cota/cloud
+    chmod 0770 /data/cota/cloud
+    chown system system /data/cota/cloud
+    restorecon_recursive /data/cota/cloud
+
+    mkdir /data/log/reliability
+    chmod 0775 /data/log/reliability
+    chown root system /data/log/reliability
+    restorecon_recursive /data/log/reliability
+
+    mkdir /data/log/reliability/xcollie
+    chown system log /data/log/reliability/xcollie
+    chmod 2775 /data/log/reliability/xcollie
+    restorecon_recursive /data/log/reliability/xcollie
+
+    mkdir /data/misc/installer
+    chmod 2770 /data/misc/installer
+    chown system vendor_installer /data/misc/installer
+    restorecon_recursive /data/misc/installer
+
+on property:sys.boot_completed=1
+    write /proc/self/reclaim file

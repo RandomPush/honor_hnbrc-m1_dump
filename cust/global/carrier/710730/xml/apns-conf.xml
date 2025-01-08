@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="INTERNET CLARO" mcc="710" mnc="730" apn="internet.ideasclaro" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1"/>
+  <apn carrier="MMS CLARO" mcc="710" mnc="730" apn="mms.ideasclaro" user="" server="" password="" proxy="" port="" mmsproxy="10.6.32.2" mmsport="8080" mmsc="http://10.6.32.27/servlets/mms" type="mms" authtype="1"/>
+</apns>

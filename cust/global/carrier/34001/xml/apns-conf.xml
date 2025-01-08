@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Orange World" mcc="340" mnc="01" apn="orangeweb" user="orange" server="" password="orange" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,xcap" protocol="IPV6"/>
+  <apn carrier="ims" mcc="340" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Orange MMS" mcc="340" mnc="01" apn="orangewap" user="orange" server="" password="orange" proxy="" port="" mmsproxy="10.0.0.10" mmsport="8082" mmsc="http://193.251.160.246/servlets/mms" type="mms"/>
+  <apn carrier="VoWifi Xcap" mcc="340" mnc="01" apn="vowifiorange" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

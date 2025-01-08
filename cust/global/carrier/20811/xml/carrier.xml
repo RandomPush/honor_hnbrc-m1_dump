@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ce9060d2d2fafa6b34526d61e011b38f">
+  <dict>
+    <!--2023-01-31 11:51:33.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:51:33.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:51:33.000-->
+    <int key="sms_to_mms_textthreshold">7</int>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="voicemail_carrier">Femtocell</string>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="voicemail_number">123</string>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

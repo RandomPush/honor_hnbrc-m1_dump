@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="da42f5b22338f3173bfa2fa6e45991b9">
+  <dict>
+    <!--2023-01-31 11:42:12.000-->
+    <string key="hn_4g_custom_display_for_switch">4G:4G LTE</string>
+    <!--2023-01-31 11:42:12.000-->
+    <bool key="hn_hide_lte">false</bool>
+  </dict>
+</config>

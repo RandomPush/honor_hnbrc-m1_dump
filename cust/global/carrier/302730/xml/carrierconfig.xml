@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="dd6522e1dcfba27d961fdd500c3f2be5">
+  <dict>
+    <!--2023-11-17 14:33:16.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:36.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:39:17.000-->
+    <int key="maxImageHeight">1440</int>
+    <!--2023-01-31 11:39:17.000-->
+    <int key="maxImageWidth">1920</int>
+    <!--2023-01-31 11:39:17.000-->
+    <bool key="suppport_cnap_bool">true</bool>
+  </dict>
+</config>

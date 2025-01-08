@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="XCAP" mcc="456" mnc="08" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Metfone Internet" mcc="456" mnc="08" apn="metfone" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Metfone MMS" mcc="456" mnc="08" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="192.168.23.85" mmsport="8080" mmsc="http://192.168.24.10:38090" type="mms"/>
+  <apn carrier="IMS" mcc="456" mnc="08" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+</apns>

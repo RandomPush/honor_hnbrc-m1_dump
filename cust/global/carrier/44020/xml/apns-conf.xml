@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Softbank 4G シンプルスタイル" mcc="440" mnc="20" apn="plus.4g" user="plus" server="" password="4g" proxy="" port="" mmsproxy="andmms.plusacs.ne.jp" mmsport="8080" mmsc="http://mms-s" type="default,mms,supl,ia" authtype="2"/>
+  <apn carrier="softbank" mcc="440" mnc="20" apn="jpspir" user="sirobit" server="" password="amstkoi" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="1"/>
+  <apn carrier="Y!mobile APN" mcc="440" mnc="20" apn="plus.acs.jp.v6" user="ym" server="" password="ym" proxy="" port="" mmsproxy="andmms.plusacs.ne.jp" mmsport="8080" mmsc="http://mms-s" type="default,ia,mms,supl,hipri" authtype="2" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="LINEモバイル" mcc="440" mnc="20" apn="line.me" user="line@line" server="" password="line" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="mineo（ソフトバンクプラン）" mcc="440" mnc="20" apn="mineo-s.jp" user="mineo@k-opti.com" server="" password="mineo" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="2"/>
+</apns>

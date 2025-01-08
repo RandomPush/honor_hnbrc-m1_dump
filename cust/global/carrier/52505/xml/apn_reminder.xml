@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="163a1902ea7e59310de82317051bd8d6">
+  <dict>
+    <array key="apnReminder">
+      <dict>
+        <string key="remindType">imsiChange</string>
+        <string key="title">Choose your default APN:</string>
+        <string key="name">SH Data Postpaid</string>
+        <string key="apn">shwap</string>
+        <string key="displayName">StarHub (Postpaid)</string>
+        <string key="onsName"></string>
+        <string key="otherApns"></string>
+        <string key="vmNumber"></string>
+        <string key="vmTag">voicemail</string>
+      </dict>
+      <dict>
+        <string key="remindType">imsiChange</string>
+        <string key="title">Choose your default APN:</string>
+        <string key="name">SH Data Prepaid</string>
+        <string key="apn">shppd</string>
+        <string key="displayName">StarHub (Prepaid)</string>
+        <string key="onsName"></string>
+        <string key="otherApns"></string>
+        <string key="vmNumber"></string>
+        <string key="vmTag">voicemail</string>
+      </dict>
+    </array>
+  </dict>
+</config>

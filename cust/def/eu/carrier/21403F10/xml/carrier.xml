@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2a59b69f17a982d1a0a8ae3b9a4d07be">
+  <dict>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="hn_stk_auto_exit_only_selectitem">true</bool>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="hn_stk_blank_dialog_title">true</bool>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="hn_stk_calling_show_text">true</bool>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="hn_stk_home_back">true</bool>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="hn_stk_show_cancel_button">true</bool>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="stk_rsp_without_cfm">true</bool>
+  </dict>
+</config>

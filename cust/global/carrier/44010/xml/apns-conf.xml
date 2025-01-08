@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="spモード" mcc="440" mnc="10" apn="spmode.ne.jp" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="0" protocol="IPV4V6"/>
+  <apn carrier="OCNモバイルONE" mcc="440" mnc="10" apn="ocn.ne.jp" user="mobileid@ocn" server="" password="mobile" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2" protocol="IP"/>
+  <apn carrier="ocn" mcc="440" mnc="10" apn="lte.ocn.ne.jp" user="mobileid@ocn" server="" password="mobile" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2"/>
+  <apn carrier="nifty" mcc="440" mnc="10" apn="mda.nifty.com" user="mda@nifty" server="" password="nifty" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="2"/>
+  <apn carrier="nifty（3G）" mcc="440" mnc="10" apn="mdb.nifty.com" user="mdb@nifty" server="" password="nifty" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2"/>
+  <apn carrier="DMM mobile (vmobile.jp)" mcc="440" mnc="10" apn="vmobile.jp" user="dmm@dmm.com" server="" password="dmm" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="DMM mobile (dmm.com)" mcc="440" mnc="10" apn="dmm.com" user="dmm@dmm.com" server="" password="dmm" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="AEON MOBILE 1" mcc="440" mnc="10" apn="i-aeonmobile.com" user="user" server="" password="0000" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="AEON MOBILE 2" mcc="440" mnc="10" apn="n-aeonmobile.com" user="user@n-aeonmobile.com" server="" password="0000" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="LIBMO" mcc="440" mnc="10" apn="libmo.jp" user="user@libmo" server="" password="libmo" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="ANDmarket mobile" mcc="440" mnc="10" apn="mmtmobile.jp" user="ANDmarket@mxm" server="" password="andmarket" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="ヤマダニューモバイル「Dコース」" mcc="440" mnc="10" apn="dm.jplat.net" user="ynm@ynmobile.jp" server="" password="ynm" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="BIGLOBEモバイル　タイプD" mcc="440" mnc="10" apn="biglobe.jp" user="user" server="" password="0000" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="mopera U" mcc="440" mnc="10" apn="mopera.net" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia"/>
+  <apn carrier="IIJmio" mcc="440" mnc="10" apn="iijmio.jp" user="mio@iij" server="" password="iij" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="U-mobile" mcc="440" mnc="10" apn="umobile.jp" user="umobile@umobile.jp" server="" password="umobile" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="U-mobile" mcc="440" mnc="10" apn="dm.jplat.net" user="umobile@umobile.jp" server="" password="umobile" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="U-mobile" mcc="440" mnc="10" apn="umob.jp" user="umob" server="" password="umob" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="hi-ho" mcc="440" mnc="10" apn="vmobile.jp" user="lte@hi-ho" server="" password="hi-ho" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="楽天モバイル (rmobile.jp)" mcc="440" mnc="10" apn="rmobile.jp" user="rm" server="" password="0000" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="楽天モバイル (rmobile.co)" mcc="440" mnc="10" apn="rmobile.co" user="rm" server="" password="0000" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="楽天モバイル (a.rmobile.jp)" mcc="440" mnc="10" apn="a.rmobile.jp" user="rakuten@vdm" server="" password="0000" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="So-net" mcc="440" mnc="10" apn="so-net.jp" user="nuro" server="" password="nuro" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2"/>
+  <apn carrier="mineo (Dプラン)" mcc="440" mnc="10" apn="mineo-d.jp" user="mineo@k-opti.com" server="" password="mineo" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="2"/>
+  <apn carrier="LINEモバイル" mcc="440" mnc="10" apn="line.me" user="line@line" server="" password="line" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+  <apn carrier="LINEモバイル（ベーシック）" mcc="440" mnc="10" apn="linemobile.jp" user="line@line" server="" password="line" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3" protocol="IP"/>
+  <apn carrier="エキサイトモバイル" mcc="440" mnc="10" apn="vmobile.jp" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="3"/>
+</apns>

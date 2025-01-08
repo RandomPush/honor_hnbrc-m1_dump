@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="244" mnc="21" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Elisa internet" mcc="244" mnc="21" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Elisa MMS" mcc="244" mnc="21" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="213.161.41.57" mmsport="80" mmsc="http://mms.elisa.fi" type="mms"/>
+  <apn carrier="XCAP APN" mcc="244" mnc="21" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,33 @@
+# Display
+debug.sf.auto_latch_unsignaled=0
+debug.sf.latch_unsignaled=1
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.vendor.display.anim_pauseRender.config=1
+ro.vendor.display.client_use_unknown_dataspace=true
+ro.vendor.display.force_client_cache=true
+ro.vendor.display.local_anim.config=1
+ro.vendor.display.local_anim.parallel=1
+ro.vendor.display.multi.sched=1
+ro.vendor.display.pause_app_vsync.config=1
+ro.vendor.display.precompile_shader.config=2
+ro.vendor.display.precompile_skshader_config=1
+ro.vendor.display.reduce_gralloc_buffer=true
+ro.vendor.display.scale_down_gpu_compose=1
+ro.vendor.display.sf_cpupolicy=0
+ro.vendor.display.touch_vsync_opt=1
+ro.vendor.display.video_support_doze=true
+
+# Miscellaneous
+dalvik.vm.heapgrowthlimit=384m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=2m
+dalvik.vm.heapsize=512m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heaptargetutilization=0.75
+debug.dynamic.affinity.enable=true
+pm.dexopt.ab-ota.concurrency=1
+pm.dexopt.bg-dexopt.concurrency=1
+pm.dexopt.post-boot.concurrency=1
+ro.vendor.mtk_aod_support=1
+ro.vendor.radio.modem_cap=2EE2
+

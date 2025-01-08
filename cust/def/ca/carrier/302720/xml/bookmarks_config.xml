@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="c9050377714fbb6bf3290e8772d85a0f">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Rogers Home</string>
+              <string key="url">http://www.rogers.com/m/and_home</string>
+            </dict>
+            <dict>
+              <string key="title">Save on Roaming Rates</string>
+              <string key="url">http://www.rogers.com/m/roam</string>
+            </dict>
+            <dict>
+              <string key="title">Save on Long Distance Rates</string>
+              <string key="url">http://www.rogers.com/m/ld</string>
+            </dict>
+            <dict>
+              <string key="title">Sportsnet</string>
+              <string key="url">http://www.sportsnet.ca</string>
+            </dict>
+            <dict>
+              <string key="title">Macleans</string>
+              <string key="url">http://www.macleans.ca</string>
+            </dict>
+            <dict>
+              <string key="title">Canadian Business</string>
+              <string key="url">http://www.canadianbusiness.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

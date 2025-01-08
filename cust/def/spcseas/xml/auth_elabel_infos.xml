@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuthConfig>
+  <Version>2</Version>
+  <AuthInfos>
+    <AuthInfo>
+      <Tag>EL032</Tag>
+      <Path>/cust/def/spcseas/media/IMDA.png</Path>
+      <IsCenter>TRUE</IsCenter>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL015</Tag>
+      <Path>/cust/def/spcseas/media/RCM.png</Path>
+      <IsCenter>TRUE</IsCenter>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL028</Tag>
+      <Path>/cust/def/spcseas/media/NTC.png</Path>
+      <Font>45</Font>
+      <IsCenter>TRUE</IsCenter>
+      <PointX>320</PointX>
+      <PointY>490</PointY>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL030</Tag>
+      <Path>/cust/def/spcseas/media/SIRIM.png</Path>
+      <IsCenter>TRUE</IsCenter>
+    </AuthInfo>
+    <AuthInfo>
+      <Tag>EL048</Tag>
+      <Path>/cust/def/spcseas/media/NBTC.png</Path>
+      <IsCenter>TRUE</IsCenter>
+      <PointY>492</PointY>
+      <Font>60</Font>
+    </AuthInfo>
+  </AuthInfos>
+</AuthConfig>

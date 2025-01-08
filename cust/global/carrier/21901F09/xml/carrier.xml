@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="009a34d2c59244c029399029a23d0374">
+  <dict>
+    <!--2023-01-31 11:45:55.000-->
+    <string key="5g_to_4g_delay_timer">10,10</string>
+    <!--2023-01-31 11:45:55.000-->
+    <bool key="carrier_xcap_data_roaming_switch">true</bool>
+    <!--2024-05-14 16:27:32.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2023-01-31 11:45:55.000-->
+    <string key="hn_networkname_normal">all,CA:4G</string>
+    <!--2023-04-23 10:23:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2023-04-23 10:23:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2023-01-31 11:45:55.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:45:55.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:45:55.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:45:55.000-->
+    <string key="optimized_for_configD">32,72</string>
+    <!--2023-01-31 11:45:55.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:45:55.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:45:55.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:45:55.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:45:55.000-->
+    <bool key="vm_edit_not_to_sim_bool">true</bool>
+    <!--2023-01-31 11:45:55.000-->
+    <string key="voicemail_carrier">TM HR</string>
+    <!--2023-01-31 11:45:55.000-->
+    <string key="voicemail_number">+38598151100</string>
+    <!--2023-01-31 11:45:55.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="854d139e5800ccd08d5b0de3484cc675">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23801</string>
+        <string key="sim_mccmnc">23801381</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telmore</string>
+        <string key="plmn">Telmore</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23801</string>
+        <string key="sim_mccmnc">2380101</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC DK</string>
+        <string key="plmn">TDC DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24001</string>
+        <string key="sim_mccmnc">2380101</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telia SE|TDC DK</string>
+        <string key="plmn">Telia SE|TDC DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24005</string>
+        <string key="sim_mccmnc">2380101</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telia SE|TDC DK</string>
+        <string key="plmn">Telia SE|TDC DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24007</string>
+        <string key="sim_mccmnc">2380101</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Tele2|TDC DK</string>
+        <string key="plmn">Tele2|TDC DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24024</string>
+        <string key="sim_mccmnc">2380101</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Sweden Mobile|TDC DK</string>
+        <string key="plmn">Sweden Mobile|TDC DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24201</string>
+        <string key="sim_mccmnc">2380101</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor|TDC DK</string>
+        <string key="plmn">Telenor|TDC DK</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

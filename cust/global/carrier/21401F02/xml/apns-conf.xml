@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="214" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Internet móvil" mcc="214" mnc="01" apn="airtelwap.es" user="wap@wap" server="" password="wap125" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="0" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="INTERNET" mcc="214" mnc="01" apn="airtelnet.es" user="vodafone" server="" password="vodafone" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" authtype="0" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="ut.es" mcc="214" mnc="01" apn="ut.es" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="SOS" mcc="214" mnc="01" apn="EMERGENCY" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="emergency" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

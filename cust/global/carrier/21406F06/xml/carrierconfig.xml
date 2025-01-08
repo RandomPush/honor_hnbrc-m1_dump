@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e66c8d38760f2883925e64f43bb4c561">
+  <dict>
+    <!--2023-11-17 14:33:13.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:33.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:39:20.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-12-12 15:07:50.000-->
+    <string key="hide_violence_number_from_mcc">34-016,34-900018018,34-024,34-017,34-021,34-116111,34-028,34-116000,34-900202010,34-0116111</string>
+    <!--2023-01-31 11:39:20.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="TIM CONNECT" mcc="724" mnc="02" apn="timbrasil.br" user="tim" server="" password="tim" proxy="" port="" mmsproxy="189.40.191.96" mmsport="8080" mmsc="http://mms.tim.br/" type="default,supl,mms,xcap" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="TIM IMS" mcc="724" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+</apns>

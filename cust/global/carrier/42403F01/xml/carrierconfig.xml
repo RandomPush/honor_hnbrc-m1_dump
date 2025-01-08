@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="fbf9e5b8321b4aaba8aacfbd5897a137">
+  <dict>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="IPsecSaLifeTime">86400</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2CertReqEnable">0</int>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP768</string>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2DpdInterval">300</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2DpdMaxFails">3</int>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2NatKeepAliveTime">20</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2PcscfIpv4Address">16389</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2PcscfIpv6Address">16390</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2PeerIdType">65</int>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2SaLifeTime">86400</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="Ikev2SelfIdType">63</int>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:49:22.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:49:22.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:49:22.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="vowifiHplmnListItem">42403, epdg.epc.mnc003.mcc424.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:49:22.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:49:22.000-->
+    <string key="vowifi_UT_APN">xcap</string>
+    <!--2023-01-31 11:49:22.000-->
+    <bool key="vowifi_mms_switch">true</bool>
+    <!--2023-01-31 11:49:22.000-->
+    <bool key="vowifi_ut_switch">true</bool>
+  </dict>
+</config>

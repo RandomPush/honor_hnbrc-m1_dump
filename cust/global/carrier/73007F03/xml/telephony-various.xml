@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="1dc126a1e015f463cc006a913a6eb096">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">73002</string>
+        <string key="sim_mccmnc">73007</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">GTD Movil</string>
+        <string key="plmn">GTD Movil</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21407</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

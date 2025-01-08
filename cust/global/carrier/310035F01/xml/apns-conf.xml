@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Etex"
+    mcc="310"
+    mnc="035"
+    apn="VZWINTERNET"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mmsi.etex.mobi"
+    type="default,mms,dun,supl"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

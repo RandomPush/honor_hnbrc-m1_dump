@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="45413e3bbb3cc5a00fe6a5ef6ba8d222">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">52505</string>
+        <string key="sim_mccmnc">46605</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">StarHub</string>
+        <string key="plmn">StarHub</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

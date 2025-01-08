@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7fac43af0c76c4587e7898a60bf89fc5">
+  <dict>
+    <!--2023-10-27 16:23:55.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:LTE</string>
+    <!--2023-01-31 11:51:17.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G+</string>
+    <!--2023-01-31 11:51:17.000-->
+    <int key="max_message_size">1048576</int>
+    <!--2023-01-31 11:51:17.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:51:17.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-10-17 11:33:56.000-->
+    <bool key="save_ims_conf_participants">true</bool>
+    <!--2024-03-11 16:54:12.000-->
+    <bool key="send_sms_not_check_fdn_number">true</bool>
+    <!--2023-01-31 11:51:17.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:51:17.000-->
+    <int key="sms_to_mms_textthreshold">13</int>
+    <!--2023-01-31 11:51:17.000-->
+    <string key="voicemail_carrier">Telcel</string>
+    <!--2023-01-31 11:51:17.000-->
+    <string key="voicemail_number">*86</string>
+    <!--2023-01-31 11:51:17.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

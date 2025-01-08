@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="NET26" mcc="208" mnc="26" apn="net26" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="MMS26" mcc="208" mnc="26" apn="mms26" user="" server="" password="" proxy="" port="" mmsproxy="10.143.156.5" mmsport="8080" mmsc="http://mms26" type="mms" authtype="1" protocol="IP" roaming_protocol="IP"/>
+</apns>

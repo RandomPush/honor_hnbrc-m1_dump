@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="3e6d69ed5d21636087ab0b1f8c43d258">
+  <dict>
+    <!--2023-01-31 11:43:08.000-->
+    <string key="default_protocol">IPV4V6</string>
+    <!--2023-01-31 11:43:08.000-->
+    <bool key="hn_stk_name_read_from_custom_first">true</bool>
+    <!--2023-01-31 11:43:08.000-->
+    <string key="roaming_protocol">IPV4V6</string>
+  </dict>
+</config>

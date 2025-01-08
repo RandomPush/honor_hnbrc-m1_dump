@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Carolina West Wireless"
+    mcc="310"
+    mnc="130"
+    apn="home.cww.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.cwwmms.com/cww/mms.php"
+    type="default,supl,mms,fota"
+    protocol="IPV4V6"
+  />
+</apns>

@@ -1,0 +1,66 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+ro.product.odm.brand=HONOR
+ro.product.odm.device=HNBRC-M1
+ro.product.first_api_level=34
+ro.vendor.radio.modem_cap=2EE2
+ro.vendor.display.anim_pauseRender.config=1
+
+#dalvik vm configuration
+dalvik.vm.heapgrowthlimit=384m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=2m
+dalvik.vm.heapsize=512m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heaptargetutilization=0.75
+
+#aod configuration
+ro.vendor.mtk_aod_support=1
+ro.vendor.display.video_support_doze=true
+#animation sinking
+ro.vendor.display.local_anim.config=1
+ro.vendor.display.local_anim.parallel=1
+#enable PredictCompositionStrategy with layer ScaleDown
+ro.vendor.display.scale_down_gpu_compose=1
+#enable Camera preview interface contrast
+ro.vendor.display.client_use_unknown_dataspace=true
+#sf shader precompile
+ro.vendor.display.precompile_shader.config=2
+#honor app shader precompile
+ro.vendor.display.precompile_skshader_config=1
+#Xsync
+ro.vendor.display.touch_vsync_opt=1
+#don`t wait layer fence
+debug.sf.auto_latch_unsignaled=0
+debug.sf.latch_unsignaled=1
+#pauseVsync
+ro.vendor.display.pause_app_vsync.config=1
+#client_cache
+ro.vendor.display.force_client_cache=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+#game multi sched
+ro.vendor.display.multi.sched=1
+# close sf cpupolicy
+ro.vendor.display.sf_cpupolicy=0
+# reduce sf gralloc Buffer num
+ro.vendor.display.reduce_gralloc_buffer=true
+
+#DTS2024071911627 w00031346 begin
+#dexopt concurrency
+pm.dexopt.bg-dexopt.concurrency=1
+pm.dexopt.post-boot.concurrency=1
+pm.dexopt.ab-ota.concurrency=1
+#DTS2024071911627 w00031346 end
+#sf dynamic affinity
+debug.dynamic.affinity.enable=true

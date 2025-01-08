@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="telecable Internet"
+    mcc="214"
+    mnc="16"
+    apn="internet.telecable.es"
+    user="telecable"
+    server=""
+    password="telecable"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="telecable MMS"
+    mcc="214"
+    mnc="16"
+    apn="mms.telecable.es"
+    user="telecable"
+    server=""
+    password="telecable"
+    proxy=""
+    port=""
+    mmsproxy="212.89.0.84"
+    mmsport="8080"
+    mmsc="http://mms.telecable.es/mms/"
+    type="mms"
+    authtype="1"
+  />
+</apns>

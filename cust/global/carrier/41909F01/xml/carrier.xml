@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="44caf05392a250de29f1bf90c236e4eb">
+  <dict>
+    <!--2023-01-31 11:40:40.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:40:40.000-->
+    <string key="virtualnet_operatorname">Virgin Mobile</string>
+  </dict>
+</config>

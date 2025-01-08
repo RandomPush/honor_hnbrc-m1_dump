@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="729b84c1d9624fc8450ff370b995c96c">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">23820</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telia DK</string>
+        <string key="plmn">Telia DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382093</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">DLG Tele</string>
+        <string key="plmn">DLG Tele</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382089</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Mobilevalue</string>
+        <string key="plmn">Mobilevalue</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382090</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Firstcom</string>
+        <string key="plmn">Firstcom</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382091</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telogic</string>
+        <string key="plmn">Telogic</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382092</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CallMe Solo</string>
+        <string key="plmn">CallMe Solo</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382095</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CAN</string>
+        <string key="plmn">CAN</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382096</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Siminn DK</string>
+        <string key="plmn">Siminn DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382097</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Cirque</string>
+        <string key="plmn">Cirque</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2382098</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Billingcom</string>
+        <string key="plmn">Billingcom</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

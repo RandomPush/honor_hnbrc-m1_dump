@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Vodafone Net2" mcc="268" mnc="01" apn="net2.vodafone.pt" user="" server="" password="" proxy="" port="" mmsproxy="iproxy.vodafone.pt" mmsport="80" mmsc="http://mms.vodafone.pt/servlets/mms" type="default,supl,mms,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Vodafone Internet" mcc="268" mnc="01" apn="internet.vodafone.pt" user="vodafone" server="" password="vodafone" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="268" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

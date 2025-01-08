@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="037326b70406fb43f15950cfec0b234c">
+  <dict>
+    <!--2023-12-15 18:08:54.000-->
+    <bool key="enable_mvno_apn_filter">true</bool>
+    <!--2023-01-31 11:41:09.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2</string>
+    <!--2023-01-31 11:41:09.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:41:09.000-->
+    <bool key="single_pdp_enabled">true</bool>
+  </dict>
+</config>

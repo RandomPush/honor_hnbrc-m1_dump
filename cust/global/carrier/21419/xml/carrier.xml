@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="335f229391bbc96e4501b3eee3cffcb6">
+  <dict>
+    <!--2023-01-31 11:55:09.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2023-01-31 11:55:09.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:55:09.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:55:09.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:55:09.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:55:09.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:55:09.000-->
+    <string key="voicemail_carrier">KPN ES</string>
+    <!--2023-01-31 11:55:09.000-->
+    <string key="voicemail_number">1213</string>
+    <!--2023-01-31 11:55:09.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

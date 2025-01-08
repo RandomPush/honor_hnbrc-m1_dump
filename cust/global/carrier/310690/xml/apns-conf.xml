@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ADAT"
+    mcc="310"
+    mnc="690"
+    apn="biz.immix.com"
+    user=""
+    server=""
+    password=""
+    proxy="209.4.229.79"
+    port="9401"
+    mmsproxy="209.4.229.79"
+    mmsport="9401"
+    mmsc="http://mms.immix.csky.us:6672/"
+    type="default,mms"
+  />
+</apns>

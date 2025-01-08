@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="TelenorMobilsurf"
+    mcc="240"
+    mnc="09"
+    apn="services.telenor.se"
+    user=""
+    server=""
+    password=""
+    proxy="173.30.253.241"
+    port="8799"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

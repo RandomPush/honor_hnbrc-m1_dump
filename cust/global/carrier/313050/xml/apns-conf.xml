@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="rinawireless"
+    mcc="313"
+    mnc="050"
+    apn="rinainternet.rinawireless.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.rinawireless.com"
+    type="default,dun,supl,mms"
+    protocol="IPV4V6"
+  />
+</apns>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Cellular One Smartphone"
+    mcc="310"
+    mnc="570"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Cellular One MMS"
+    mcc="310"
+    mnc="570"
+    apn="clearsky"
+    user=""
+    server=""
+    password=""
+    proxy="209.4.229.229"
+    port="9201"
+    mmsproxy="209.4.229.229"
+    mmsport="9201"
+    mmsc="http://mmsc.mtpcs.csky.us:6672/"
+    type="mms"
+  />
+</apns>

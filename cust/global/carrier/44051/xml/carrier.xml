@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="24bbb7361ea7fc0ef47eb7f4afb8cb51">
+  <dict>
+    <!--2023-11-14 20:05:54.000-->
+    <bool key="enable_mvno_apn_filter">true</bool>
+    <!--2023-01-31 11:44:11.000-->
+    <bool key="hn_add_4g_only">true</bool>
+    <!--2023-01-31 11:44:11.000-->
+    <string key="hn_networkname_normal">all,CA:4G;LTE:4G</string>
+    <!--2023-01-31 11:44:11.000-->
+    <string key="hn_nr_onoff_mapping">67,11</string>
+    <!--2023-01-31 11:44:11.000-->
+    <int key="num_match">11</int>
+    <!--2023-01-31 11:44:11.000-->
+    <int key="num_match_short">10</int>
+    <!--2023-01-31 11:44:11.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:44:11.000-->
+    <string key="voicemail_carrier">KDDI</string>
+    <!--2023-01-31 11:44:11.000-->
+    <string key="voicemail_number">1417</string>
+    <!--2023-01-31 11:44:11.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

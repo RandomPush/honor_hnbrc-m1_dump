@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="MTN" mcc="620" mnc="01" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MTN-MMS" mcc="620" mnc="01" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="172.17.3.5" mmsport="8080" mmsc="http://172.17.3.7" type="mms"/>
+  <apn carrier="VoWifi Xcap" mcc="620" mnc="01" apn="ut" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

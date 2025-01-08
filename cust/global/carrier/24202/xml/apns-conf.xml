@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="242" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+  <apn carrier="Telia Internet" mcc="242" mnc="02" apn="telia" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Telia MMS" mcc="242" mnc="02" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="212.169.66.4" mmsport="8080" mmsc="http://mm/" type="mms"/>
+  <apn carrier="Telia UT" mcc="242" mnc="02" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap"/>
+</apns>

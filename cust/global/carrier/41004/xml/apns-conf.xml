@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Internet"
+    mcc="410"
+    mnc="04"
+    apn="zonginternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="MMS"
+    mcc="410"
+    mnc="04"
+    apn="zongmms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.81.6.33"
+    mmsport="8000"
+    mmsc="http://10.81.6.11:8080"
+    type="mms"
+  />
+</apns>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameters_config version="1">
+  <simcardtype iccid="8934">
+    <string language="es" country="ES"/>
+  </simcardtype>
+</parameters_config>

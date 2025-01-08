@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="525fc4b617cd090156bba358681bf5c8">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23430</string>
+        <string key="sim_mccmnc">23438</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Virgin</string>
+        <string key="plmn">Virgin</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23431</string>
+        <string key="sim_mccmnc">23438</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Virgin</string>
+        <string key="plmn">Virgin</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23432</string>
+        <string key="sim_mccmnc">23438</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Virgin</string>
+        <string key="plmn">Virgin</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23433</string>
+        <string key="sim_mccmnc">23438</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">virgin</string>
+        <string key="plmn">virgin</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23434</string>
+        <string key="sim_mccmnc">23438</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">virgin</string>
+        <string key="plmn">virgin</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23486</string>
+        <string key="sim_mccmnc">23438</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">virgin</string>
+        <string key="plmn">virgin</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

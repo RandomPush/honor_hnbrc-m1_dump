@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mms_config>
+  <!--2023-01-31 11:42:12.000-->
+  <bool name="defaultGroupMessage">true</bool>
+  <!--2023-01-31 11:42:12.000-->
+  <bool name="enableGroupMms">true</bool>
+  <!--2023-01-31 11:42:12.000-->
+  <bool name="enableShortPhoneNumberLink">true</bool>
+  <!--2023-01-31 11:42:12.000-->
+  <bool name="isChangeClassZeroMessageShow">true</bool>
+  <!--2023-01-31 11:42:12.000-->
+  <string name="prefPlaymode">slidesmoothshowactivity</string>
+  <!--2023-01-31 11:42:12.000-->
+  <bool name="showMMSReadReports">true</bool>
+</mms_config>

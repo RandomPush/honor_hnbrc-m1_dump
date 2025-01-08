@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers_product>
+  <provider id="gmail.com" label="gmail.com" domain="gmail.com">
+    <incoming uri="imap+ssl+://imap.gmail.com:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.gmail.com:465" username="$email"/>
+  </provider>
+  <provider id="yahoo" label="yahoo" domain="yahoo.com.au">
+    <incoming uri="imap+ssl+://imap.mail.yahoo.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.mail.yahoo.com:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+  </provider>
+  <provider id="yahoo.com" label="yahoo.com" domain="yahoo.com">
+    <incoming uri="imap+ssl+://imap.mail.yahoo.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.mail.yahoo.com:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+  </provider>
+  <provider id="live" label="Windows Live Hotmail Plus" domain="live.com">
+    <incoming uri="pop3+ssl+://pop3.live.com:995" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.live.com:587" username="$email"/>
+  </provider>
+  <provider id="hotmail" label="Windows Live Hotmail Plus" domain="hotmail.com">
+    <incoming uri="pop3+ssl+://pop3.live.com:995" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.live.com:587" username="$email"/>
+  </provider>
+  <provider id="msn" label="Windows Live Hotmail Plus" domain="msn.com">
+    <incoming uri="pop3+ssl+://pop3.live.com:995" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.live.com:587" username="$email"/>
+  </provider>
+</providers_product>

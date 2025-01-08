@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="c99cb0680467fd8976ad016171376892">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23433</string>
+        <string key="sim_mccmnc">23420</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">H3G</string>
+        <string key="plmn">H3G</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23434</string>
+        <string key="sim_mccmnc">23420</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">H3G</string>
+        <string key="plmn">H3G</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23486</string>
+        <string key="sim_mccmnc">23420</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">H3G</string>
+        <string key="plmn">H3G</string>
+      </dict>
+    </array>
+    <array key="set_mtu">
+      <dict>
+        <int key="mtu">1440</int>
+        <string key="ip">IPV4</string>
+      </dict>
+      <dict>
+        <int key="mtu">1440</int>
+        <string key="ip">IPV6</string>
+      </dict>
+      <dict>
+        <int key="mtu">1440</int>
+        <string key="ip">IPV4V6</string>
+      </dict>
+    </array>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

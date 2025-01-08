@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <unavailable-feature name="com.google.android.feature.DSE_CHOICE_SCREEN"/>
+  <privapp-permissions package="com.dti.bouyguestelecom">
+    <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+  </privapp-permissions>
+</permissions>

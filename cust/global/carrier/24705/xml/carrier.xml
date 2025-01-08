@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2eb8f169da1d46c588ec145cbd420561">
+  <dict>
+    <!--2023-01-31 11:41:18.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:41:18.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:41:18.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:41:18.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+  </dict>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c58359b67810ad430076bc3c762507bd">
+  <dict>
+    <!--2024-09-20 11:14:41.000-->
+    <string key="call_recording_mcclist">0:502,520,414,456,413,452</string>
+    <!--2024-03-13 16:57:22.000-->
+    <int key="carrier_ussd_ime_type_class_phone">0</int>
+    <!--2023-01-31 11:43:55.000-->
+    <bool key="hn_hide_lte">false</bool>
+  </dict>
+</config>

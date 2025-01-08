@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<names version="">
+  <name china="海阔天空" taiwan="海闊天空"/>
+  <name china="七彩琉璃" taiwan="七彩琉璃"/>
+  <name china="珊瑚海" taiwan="珊瑚海"/>
+  <name china="梦幻岛" taiwan="夢幻島"/>
+  <name china="瀛海" taiwan="瀛海"/>
+  <name china="华山 (动态)" taiwan="華山 (動態)"/>
+  <name china="尊享生活" taiwan="尊享生活"/>
+  <name china="银河 (动态)" taiwan="銀河 (動態)"/>
+  <name china="霓虹" taiwan="霓虹"/>
+  <name china="海之洲" taiwan="海之洲"/>
+  <name china="轨迹" taiwan="軌跡"/>
+  <name china="叠翠滩" taiwan="疊翠灘"/>
+  <name china="爱琴海" taiwan="愛琴海"/>
+  <name china="商务" taiwan="商務"/>
+  <name china="经典" taiwan="經典"/>
+  <name china="梦想" taiwan="夢想"/>
+  <name china="玉润" taiwan="玉潤"/>
+  <name china="奢华" taiwan="奢華"/>
+  <name china="粉色" taiwan="粉色"/>
+  <name china="金致（杂志解锁）" taiwan="黃金 (雜誌)"/>
+  <name china="黑曜石（杂志解锁）" taiwan="黑曜石 (雜誌)"/>
+  <name china="心动" taiwan="心動"/>
+  <name china="睿智" taiwan="睿智"/>
+  <name china="摩卡" taiwan="摩卡"/>
+  <name china="光谱" taiwan="頻譜"/>
+  <name china="默认（杂志解锁）" taiwan="默認 (雜誌)"/>
+  <name china="蓝调" taiwan="藍調"/>
+  <name china="金勋" taiwan="金勳"/>
+  <name china="宁静" taiwan="寧靜"/>
+  <name china="默认" taiwan="默認"/>
+  <name china="金勋(杂志解锁)" taiwan="金勳 (雜誌)"/>
+  <name china="黑标（杂志解锁）" taiwan="黑標 (雜誌)"/>
+  <name china="多彩(杂志解锁)" taiwan="多彩 (雜誌)"/>
+  <name china="金致" taiwan="黃金"/>
+  <name china="黑曜石" taiwan="黑曜石"/>
+  <name china="光谱(杂志解锁)" taiwan="頻譜 (雜誌)"/>
+  <name china="黑标" taiwan="黑標"/>
+  <name china="荣光" taiwan="榮光"/>
+  <name china="粉雅" taiwan="粉雅"/>
+  <name china="金銮" taiwan="金鑾"/>
+  <name china="纯净" taiwan="純淨"/>
+  <name china="静水" taiwan="靜水"/>
+  <name china="梦境" taiwan="夢境"/>
+  <name china="水蓝" taiwan="水藍"/>
+  <name china="现代" taiwan="現代"/>
+  <name china="古典" taiwan="古典"/>
+  <name china="雅金" taiwan="雅金"/>
+  <name china="格调" taiwan="格調"/>
+  <name china="彩色交响曲" taiwan="彩色交響曲"/>
+  <name china="桥" taiwan="橋"/>
+  <name china="峡谷" taiwan="峽谷"/>
+  <name china="异彩(杂志解锁)" taiwan="異彩(雜誌解鎖)"/>
+  <name china="异彩" taiwan="異彩"/>
+  <name china="灵涛" taiwan="靈濤"/>
+  <name china="灵动" taiwan="靈動"/>
+  <name china="舞台" taiwan="舞台"/>
+  <name china="绽放" taiwan="綻放"/>
+  <name china="精致" taiwan="精緻"/>
+  <name china="自然" taiwan="自然"/>
+  <name china="优雅" taiwan="優雅"/>
+  <name china="透色" taiwan="透色"/>
+  <name china="绿意" taiwan="綠意"/>
+  <name china="品味" taiwan="品味"/>
+  <name china="相遇" taiwan="相遇"/>
+  <name china="告白" taiwan="告白"/>
+  <name china="约会" taiwan="約會"/>
+  <name china="回声" taiwan="迴聲"/>
+  <name china="寰宇" taiwan="寰宇"/>
+  <name china="狂欢" taiwan="狂歡"/>
+  <name china="清流" taiwan="清流"/>
+  <name china="记忆碎片" taiwan="記憶碎片"/>
+  <name china="蓝色狂想曲" taiwan="藍色狂想曲"/>
+  <name china="月光奏鸣曲" taiwan="月光奏鳴曲"/>
+  <name china="金色交响曲" taiwan="金色交響曲"/>
+  <name china="白色圆舞曲" taiwan="白色圓舞曲"/>
+  <name china="几何" taiwan="幾何"/>
+  <name china="碧蓝" taiwan="碧藍"/>
+  <name china="朦胧" taiwan="朦朧"/>
+  <name china="花园" taiwan="花園"/>
+  <name china="丛林" taiwan="叢林"/>
+  <name china="新星" taiwan="新星"/>
+  <name china="星海" taiwan="星海"/>
+  <name china="半夏" taiwan="半夏"/>
+  <name china="假日" taiwan="假日"/>
+  <name china="星梦" taiwan="星夢"/>
+  <name china="繁花" taiwan="繁花"/>
+  <name china="灵感" taiwan="靈感"/>
+  <name china="闲趣" taiwan="閒趣"/>
+  <name china="层峦" taiwan="層巒"/>
+  <name china="壮阔" taiwan="壯闊"/>
+  <name china="石韵" taiwan="石韻"/>
+  <name china="霞光" taiwan="霞光"/>
+  <name china="时光" taiwan="時光"/>
+  <name china="未来" taiwan="未來"/>
+  <name china="繁花 (动态)" taiwan="繁花 (動態)"/>
+  <name china="花园 (动态)" taiwan="花園 (動態)"/>
+  <name china="层峦 (动态)" taiwan="層巒 (動態)"/>
+  <name china="石韵 (动态)" taiwan="石韻 (動態)"/>
+  <name china="几何空间" taiwan="幾何空間"/>
+  <name china="光环" taiwan="光環"/>
+  <name china="简约S" taiwan="簡約S"/>
+  <name china="彩虹波浪" taiwan="彩虹波浪"/>
+  <name china="太空漫步" taiwan="太空漫步"/>
+  <name china="流光" taiwan="流光"/>
+  <name china="温婉" taiwan="溫婉"/>
+  <name china="彼岸" taiwan="彼岸"/>
+  <name china="速度" taiwan="速度"/>
+  <name china="梦幻星空" taiwan="夢幻星空"/>
+  <name china="萤火森林 (动态)" taiwan="螢火森林 (動態)"/>
+  <name china="浪漫花火" taiwan="浪漫花火"/>
+  <name china="印象花园" taiwan="印象花園"/>
+  <name china="天空之境 (动态)" taiwan="天空之境 (動態)"/>
+  <name china="珍珠极光 (动态)" taiwan="珍珠極光 (動態)"/>
+  <name china="绚丽流沙 (动态)" taiwan="絢麗流沙 (動態)"/>
+  <name china="浪漫都市" taiwan="浪漫都市"/>
+  <name china="玫瑰春天 (动态)" taiwan="玫瑰春天 (動態)"/>
+  <name china="速度激情" taiwan="速度激情"/>
+  <name china="甜蜜青春" taiwan="甜蜜青春"/>
+  <name china="杏花" taiwan="杏花"/>
+  <name china="极光" taiwan="極光"/>
+  <name china="花样" taiwan="花樣"/>
+  <name china="金翎" taiwan="金翎"/>
+  <name china="阿凡达" taiwan="阿凡達"/>
+  <name china="花影" taiwan="花影"/>
+  <name china="远山" taiwan="遠山"/>
+  <name china="童话" taiwan="童話"/>
+  <name china="幻彩" taiwan="幻彩"/>
+  <name china="鎏光" taiwan="鎏光"/>
+  <name china="樱空" taiwan="櫻空"/>
+  <name china="甜蜜" taiwan="甜蜜"/>
+  <name china="晶粉" taiwan="晶粉"/>
+  <name china="蓝宝石" taiwan="藍寶石"/>
+  <name china="晶雕玉琢" taiwan="晶雕玉琢"/>
+  <name china="暗影弥香" taiwan="暗影瀰香"/>
+  <name china="缦纱轻舞" taiwan="縵紗輕舞"/>
+  <name china="优雅轻盈" taiwan="優雅輕盈"/>
+  <name china="荷塘夜色" taiwan="荷塘夜色"/>
+  <name china="粉色记忆" taiwan="粉色記憶"/>
+  <name china="迎风逐梦" taiwan="迎風逐夢"/>
+  <name china="微光倩影" taiwan="微光倩影"/>
+  <name china="蔚蓝海浪" taiwan="蔚藍海浪"/>
+  <name china="梦幻微光" taiwan="夢幻微光"/>
+  <name china="光舞" taiwan="光舞"/>
+  <name china="仙境" taiwan="仙境"/>
+  <name china="幻彩 (动态)" taiwan="幻彩 (動態)"/>
+  <name china="微光" taiwan="微光"/>
+  <name china="冰莹" taiwan="冰瑩"/>
+  <name china="云中之城" taiwan="雲中之城"/>
+  <name china="明星" taiwan="明星"/>
+  <name china="蜜语" taiwan="蜜語"/>
+  <name china="金色流沙" taiwan="金色流沙"/>
+  <name china="玫瑰春天" taiwan="玫瑰春天"/>
+  <name china="加勒比海滩" taiwan="加勒比海灘"/>
+  <name china="流金岁月" taiwan="流金歲月"/>
+  <name china="天空之境 (时光)" taiwan="天空之境 (時光)"/>
+  <name china="珠光炫彩" taiwan="珠光炫彩"/>
+  <name china="幻光云影" taiwan="幻光雲影"/>
+  <name china="悦动" taiwan="悅動"/>
+  <name china="海蓝之谜 (动态)" taiwan="海藍之謎 (動態)"/>
+  <name china="悦舞" taiwan="悅舞"/>
+  <name china="耀彩" taiwan="耀彩"/>
+  <name china="似水流年" taiwan="似水流年"/>
+  <name china="幻境" taiwan="幻境"/>
+  <name china="彩虹" taiwan="彩虹"/>
+  <name china="莹润" taiwan="瑩潤"/>
+  <name china="观海" taiwan="觀海"/>
+  <name china="轻盈" taiwan="輕盈"/>
+  <name china="风华" taiwan="風華"/>
+  <name china="寰宇星球" taiwan="寰宇星球"/>
+  <name china="品质" taiwan="品質"/>
+  <name china="宝蓝" taiwan="寶藍"/>
+  <name china="清新" taiwan="清新"/>
+  <name china="神秘" taiwan="神秘"/>
+  <name china="绚烂" taiwan="絢爛"/>
+  <name china="飘" taiwan="飄"/>
+  <name china="梦幻" taiwan="夢幻"/>
+  <name china="彩云峰" taiwan="彩雲峰"/>
+  <name china="烟波" taiwan="煙波"/>
+  <name china="轻柔" taiwan="輕柔"/>
+  <name china="色彩协奏曲" taiwan="色彩協奏曲"/>
+  <name china="幻彩极光（动态）" taiwan="幻彩極光 (動態)"/>
+  <name china="梦幻莱茵河（动态）" taiwan="夢幻萊茵河 (動態)"/>
+  <name china="蓝色多瑙河（动态）" taiwan="藍色多瑙河 (動態)"/>
+  <name china="MOSCHINO双问号标志" taiwan="MOSCHINO雙問號標誌"/>
+  <name china="MOSCHINO泰迪熊" taiwan="MOSCHINO泰迪熊"/>
+  <name china="霞霜" taiwan="霞霜"/>
+  <name china="极奢" taiwan="極奢"/>
+  <name china="筑梦师" taiwan="築夢師"/>
+  <name china="水天一色" taiwan="水天一色"/>
+  <name china="天湖" taiwan="天湖"/>
+  <name china="时尚几何" taiwan="時尚幾何"/>
+  <name china="霓裳羽衣" taiwan="霓裳羽衣"/>
+  <name china="玫瑰" taiwan="玫瑰"/>
+  <name china="清新韶光" taiwan="清新韶光"/>
+  <name china="大地之脉" taiwan="大地之脈"/>
+  <name china="纯净韵律" taiwan="純淨韻律"/>
+  <name china="极地冰川" taiwan="極地冰川"/>
+  <name china="金玉瑶池" taiwan="金玉瑤池"/>
+  <name china="珠光贝母" taiwan="珠光貝母"/>
+  <name china="苍茫大地" taiwan="蒼茫大地"/>
+  <name china="蔚蓝之空" taiwan="蔚藍之空"/>
+  <name china="凤歌鸾舞" taiwan="鳳歌鸞舞"/>
+  <name china="极光变奏曲" taiwan="極光變奏曲"/>
+  <name china="赤茶橘" taiwan="赤茶橘"/>
+  <name china="冬之韵" taiwan="冬之韻"/>
+  <name china="山水一色" taiwan="山水一色"/>
+  <name china="星空" taiwan="星空"/>
+  <name china="黄金时代" taiwan="黃金時代"/>
+  <name china="樱草金" taiwan="櫻草金"/>
+  <name china="蓝楹紫" taiwan="藍楹紫"/>
+  <name china="浅艾蓝" taiwan="淺艾藍"/>
+  <name china="印象霞光" taiwan="印象霞光"/>
+  <name china="蜜语微甜" taiwan="蜜語微甜"/>
+  <name china="郁金香" taiwan="鬱金香"/>
+  <name china="鸢尾" taiwan="鳶尾"/>
+  <name china="青春范儿" taiwan="青春範兒"/>
+  <name china="曼妙" taiwan="曼妙"/>
+  <name china="初生" taiwan="初生"/>
+  <name china="叠彩" taiwan="疊彩"/>
+  <name china="悠扬" taiwan="悠揚"/>
+  <name china="玉翠" taiwan="玉翠"/>
+  <name china="遇见" taiwan="遇見"/>
+  <name china="远黛" taiwan="遠黛"/>
+  <name china="远方" taiwan="遠方"/>
+  <name china="韵律" taiwan="韻律"/>
+  <name china="幻夜" taiwan="幻夜"/>
+  <name china="水漾" taiwan="水漾"/>
+  <name china="浪漫" taiwan="浪漫"/>
+  <name china="连绵" taiwan="連綿"/>
+  <name china="莲漪" taiwan="漣漪"/>
+  <name china="涟漪" taiwan="漣漪"/>
+  <name china="曼舞" taiwan="曼舞"/>
+  <name china="墨彩" taiwan="墨彩"/>
+  <name china="趣味" taiwan="趣味"/>
+  <name china="盛绽" taiwan="盛綻"/>
+  <name china="维纳斯" taiwan="維納斯"/>
+  <name china="潘多拉" taiwan="潘朵拉"/>
+  <name china="观沧海" taiwan="觀滄海"/>
+  <name china="欢乐颂" taiwan="歡樂頌"/>
+  <name china="盛绽如花" taiwan="盛綻如花"/>
+  <name china="极色萤海" taiwan="極色螢海"/>
+  <name china="踏浪舞者" taiwan="踏浪舞者"/>
+  <name china="寰宇 (动态)" taiwan="寰宇 (動態)"/>
+  <name china="探索（动态）" taiwan="探索（動態）"/>
+  <name china="满天星 (动态)" taiwan="滿天星 (動態)"/>
+  <name china="绮境森林" taiwan="綺境森林"/>
+  <name china="百变nova" taiwan="百變nova"/>
+  <name china="流彩" taiwan="流彩"/>
+  <name china="缪斯" taiwan="繆斯"/>
+  <name china="清晨" taiwan="清晨"/>
+  <name china="水墨" taiwan="水墨"/>
+  <name china="银河" taiwan="銀河"/>
+  <name china="春之声" taiwan="春之聲"/>
+  <name china="月夜黑" taiwan="月夜黑"/>
+  <name china="仲夏紫" taiwan="仲夏紫"/>
+  <name china="珊瑚橙" taiwan="珊瑚橙"/>
+  <name china="时光沙" taiwan="時光沙"/>
+  <name china="绮境绿" taiwan="綺境綠"/>
+  <name china="MOSCHINO壁纸（动态）" taiwan="MOSCHINO壁紙（動態）"/>
+  <name china="冰川霞光" taiwan="冰川霞光"/>
+  <name china="珊瑚橙 (动态)" taiwan="珊瑚橙 (動態)"/>
+  <name china="仲夏紫 (动态)" taiwan="仲夏紫 (動態)"/>
+  <name china="月夜黑 (动态)" taiwan="月夜黑 (動態)"/>
+  <name china="百变nova (动态)" taiwan="百變nova (動態)"/>
+  <name china="绮境森林 (动态)" taiwan="綺境森林 (動態)"/>
+  <name china="浅黛岚 (动态)" taiwan="淺黛嵐 (動態)"/>
+  <name china="日暮苍山" taiwan="日暮蒼山"/>
+  <name china="月沉星灿" taiwan="月沉星燦"/>
+  <name china="玉石花开" taiwan="玉石花開"/>
+  <name china="桃园归乡" taiwan="桃園歸鄉"/>
+  <name china="河流脉动" taiwan="河流脈動"/>
+  <name china="雄峰万里" taiwan="雄峰萬里"/>
+  <name china="大地彩绘" taiwan="大地彩繪"/>
+  <name china="春意蓝" taiwan="春意藍"/>
+  <name china="幻夜黑" taiwan="幻夜黑"/>
+  <name china="花错紫" taiwan="花錯紫"/>
+  <name china="光阴绿" taiwan="光陰綠"/>
+  <name china="乘风" taiwan="乘風"/>
+  <name china="涟漪10" taiwan="漣漪10"/>
+  <name china="樱锦 (动态)" taiwan="櫻錦 (動態)"/>
+  <name china="星空彩绘" taiwan="星空彩繪"/>
+  <name china="唯美绽放" taiwan="唯美綻放"/>
+  <name china="晶莹" taiwan="晶瑩"/>
+  <name china="向上" taiwan="向上"/>
+  <name china="舞动" taiwan="舞動"/>
+  <name china="碧海银沙" taiwan="碧海銀沙"/>
+  <name china="极地生灵" taiwan="極地生靈"/>
+  <name china="大地脉动" taiwan="大地脈動"/>
+  <name china="火凤凰" taiwan="火鳳凰"/>
+  <name china="长天一色" taiwan="長天一色"/>
+  <name china="碧海蓝天" taiwan="碧海藍天"/>
+  <name china="碧海清沙" taiwan="碧海清沙"/>
+  <name china="珊瑚之恋" taiwan="珊瑚之戀"/>
+  <name china="深海之恋" taiwan="深海之戀"/>
+  <name china="水晶之恋" taiwan="水晶之戀"/>
+  <name china="依画依梦" taiwan="依畫依夢"/>
+  <name china="幻境之恋" taiwan="幻境之戀"/>
+  <name china="迷幻星球" taiwan="迷幻星球"/>
+  <name china="水镜烟花" taiwan="水鏡煙花"/>
+  <name china="花舞青莲" taiwan="花舞青蓮"/>
+  <name china="曦光" taiwan="曦光"/>
+  <name china="天青黛" taiwan="天青黛"/>
+  <name china="秋水落霞" taiwan="秋水落霞"/>
+  <name china="蝶梦纷飞" taiwan="蝶夢紛飛"/>
+  <name china="湖映霞光" taiwan="湖映霞光"/>
+  <name china="云卷云舒" taiwan="雲卷雲舒"/>
+  <name china="波澜壮阔" taiwan="波瀾壯闊"/>
+  <name china="珠穆朗玛" taiwan="珠穆朗瑪"/>
+  <name china="尔雅" taiwan="爾雅"/>
+  <name china="流绸蓝裳" taiwan="流綢藍裳"/>
+  <name china="流绸绿裳" taiwan="流綢綠裳"/>
+  <name china="流绸紫裳" taiwan="流綢紫裳"/>
+  <name china="流绸银裳" taiwan="流綢銀裳"/>
+  <name china="迷幻几何 (动态)" taiwan="迷幻幾何 (動態)"/>
+  <name china="蜜语红 (动态)" taiwan="蜜語紅 (動態)"/>
+  <name china="7号色 (动态)" taiwan="7號色 (動態)"/>
+  <name china="品味经典" taiwan="品味經典"/>
+  <name china="星夜彩绘" taiwan="星夜彩繪"/>
+  <name china="喀纳斯" taiwan="喀納斯"/>
+  <name china="未来之翼" taiwan="未來之翼"/>
+  <name china="秋之胡杨" taiwan="秋之胡楊"/>
+  <name china="夏之胡杨" taiwan="夏之胡楊"/>
+</names>

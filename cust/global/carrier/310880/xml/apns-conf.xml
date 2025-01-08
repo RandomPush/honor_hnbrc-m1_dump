@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="DTCWAP"
+    mcc="310"
+    mnc="880"
+    apn="wapdtcw.com"
+    user=""
+    server=""
+    password=""
+    proxy="204.181.155.218"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="DTCMMS"
+    mcc="310"
+    mnc="880"
+    apn="mmsdtcw.com"
+    user=""
+    server=""
+    password=""
+    proxy="192.168.20.42"
+    port="80"
+    mmsproxy="192.168.20.42"
+    mmsport="80"
+    mmsc="http://mmsdtcw.com"
+    type="mms"
+  />
+</apns>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Consumer IoT" mcc="302" mnc="690" apn="inet.bell.ca.m2m" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.bell.ca/mms/wapenc" type="default,supl,mms,xcap" protocol="IPV4V6" roaming_protocol="IP"/>
+</apns>

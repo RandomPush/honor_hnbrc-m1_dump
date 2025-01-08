@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VFQ Mobile Internet" mcc="427" mnc="02" apn="web.vodafone.com.qa" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="VFQ MMS" mcc="427" mnc="02" apn="vodafone.com.qa" user="" server="" password="" proxy="" port="" mmsproxy="10.101.97.102" mmsport="80" mmsc="http://mms.vodafone.com.qa/mmsc" type="mms"/>
+  <apn carrier="VFQ XCAP" mcc="427" mnc="02" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

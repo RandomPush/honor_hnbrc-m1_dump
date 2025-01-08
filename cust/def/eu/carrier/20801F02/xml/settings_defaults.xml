@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:42:55.000-->
+  <integer hndefault_CheckIntervalt="15"/>
+  <!--2023-01-31 11:42:55.000-->
+  <string settings.global.hn_nfc_gsma="true"/>
+  <!--2023-01-31 11:42:55.000-->
+  <string settings.global.hn_wifidialog_skip="true"/>
+  <!--2023-01-31 11:42:55.000-->
+  <string settings.global.show_data_cost_tip_list="true"/>
+  <!--2023-01-31 11:42:55.000-->
+  <string settings.global.show_skip_wifi_dialog_list="true"/>
+</resources>

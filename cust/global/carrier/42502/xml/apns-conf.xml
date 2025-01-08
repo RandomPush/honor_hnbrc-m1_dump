@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="sphone" mcc="425" mnc="02" apn="sphone" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Cellcom MMS" mcc="425" mnc="02" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="172.31.29.38" mmsport="8080" mmsc="http://mms.cellcom.co.il" type="mms"/>
+  <apn carrier="xcap" mcc="425" mnc="02" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

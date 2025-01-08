@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a7e1ae35913b7d3c26ebb7b1bf053c5e">
+  <dict>
+    <!--2023-01-31 11:55:24.000-->
+    <bool key="enable_sending_blank_sms">true</bool>
+    <!--2023-01-31 11:55:24.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2023-01-31 11:55:24.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:55:24.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:55:24.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:55:24.000-->
+    <string key="voicemail_carrier">MTS</string>
+    <!--2023-01-31 11:55:24.000-->
+    <string key="voicemail_number">0860</string>
+    <!--2023-01-31 11:55:24.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

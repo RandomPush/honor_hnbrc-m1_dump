@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Data" mcc="530" mnc="05" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MMS" mcc="530" mnc="05" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="210.55.11.73" mmsport="80" mmsc="http://lsmmsc.xtra.co.nz" type="mms"/>
+  <apn carrier="XCAP" mcc="530" mnc="05" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

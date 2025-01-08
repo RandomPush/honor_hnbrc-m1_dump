@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f262e894e1c85a2046473ce5e144e3a8">
+  <dict>
+    <!--2024-02-18 15:07:46.000-->
+    <string key="hide_sepcial_apn_form_list">EMERGENCY</string>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">VodafoneWiFi</string>
+    <!--2023-01-31 11:42:19.000-->
+    <bool key="remove_apn_MVNO">true</bool>
+    <!--2023-01-31 11:42:19.000-->
+    <bool key="share_useradd_apn_opkey">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="3d135880c93475d99405110e6d009d7c">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <string key="bookmarks_folder_name">Vodafone</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Vodafone</string>
+              <string key="url">https://www.vodafone.com.au</string>
+            </dict>
+            <dict>
+              <string key="title">My Vodafone</string>
+              <string key="url">https://myvodafone.com.au</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

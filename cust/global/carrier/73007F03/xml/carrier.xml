@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0ba1372c9e7043f3b50ebf0f1074deb5">
+  <dict>
+    <!--2023-01-31 11:51:33.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:51:33.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:51:33.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="virtual_ecclist_withcard">+133,+112,+911</string>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="virtualnet_operatorname">Virgin</string>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="voicemail_carrier">Virgin SPA</string>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="voicemail_number">300</string>
+    <!--2023-01-31 11:51:33.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="239cba455d78258962e2f2b0e6cc7fce">
+  <dict>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="IPsecSaLifeTime">43200</int>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP4096,RCT_ALG_MODP3072,RCT_ALG_MODP2048,RCT_ALG_MODP1536,RCT_ALG_MODP1024,RCT_ALG_MODP768,RCT_ALG_MODP8192,RCT_ALG_MODP6144</string>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="Ikev2DpdInterval">600</int>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">43200</int>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">43200</int>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="Ikev2MaxRetryToSend">5</int>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <array key="carrier_metered_apn_types_strings">
+      <string>default</string>
+      <string>mms</string>
+      <string>dun</string>
+      <string>supl</string>
+      <string>internaldefault</string>
+      <string>bip0</string>
+      <string>bip1</string>
+      <string>bip2</string>
+      <string>bip3</string>
+      <string>bip4</string>
+      <string>bip5</string>
+      <string>bip6</string>
+    </array>
+    <!--2023-01-31 11:43:44.000-->
+    <array key="carrier_metered_roaming_apn_types_strings">
+      <string>default</string>
+      <string>mms</string>
+      <string>dun</string>
+      <string>supl</string>
+      <string>internaldefault</string>
+      <string>bip0</string>
+      <string>bip1</string>
+      <string>bip2</string>
+      <string>bip3</string>
+      <string>bip4</string>
+      <string>bip5</string>
+      <string>bip6</string>
+    </array>
+    <!--2023-11-17 14:33:44.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:33:05.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00000101</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="carrier_wb_hd_icon_flag">000101</string>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <array key="read_only_apn_types_string_array">
+      <string></string>
+    </array>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="utNafPort">8080</int>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="utOIRSourceMode">1</int>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="utParamsCfg">3:1,5:1,6:1,7:1,8:1,24:1</string>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="utUseApn">1</int>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="utXcapRootUri">mtasxdms</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="vowifiHplmnListItem">22201, epdg.epc.mnc001.mcc222.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="vowifi_roaming_switch">true</bool>
+  </dict>
+</config>

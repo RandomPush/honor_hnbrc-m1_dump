@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="d8f913508b896fa3dad8e42815d479c6">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Fido Home</string>
+              <string key="url">http://www.fido.ca/m/and_home</string>
+            </dict>
+            <dict>
+              <string key="title">Fido Hub</string>
+              <string key="url">http://www.fidohub.ca</string>
+            </dict>
+            <dict>
+              <string key="title">Save on Roaming Rates</string>
+              <string key="url">http://www.fido.ca/m/roam</string>
+            </dict>
+            <dict>
+              <string key="title">Save on Long Distance Rates</string>
+              <string key="url">http://www.fido.ca/m/ld</string>
+            </dict>
+            <dict>
+              <string key="title">Sportsnet</string>
+              <string key="url">http://www.sportsnet.ca</string>
+            </dict>
+            <dict>
+              <string key="title">Macleans</string>
+              <string key="url">http://www.macleans.ca</string>
+            </dict>
+            <dict>
+              <string key="title">Canadian Business</string>
+              <string key="url">http://www.canadianbusiness.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

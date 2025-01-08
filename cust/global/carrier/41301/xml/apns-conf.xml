@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Mobitel Data" mcc="413" mnc="01" apn="mobitel" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="mobitel MMS" mcc="413" mnc="01" apn="wapmms" user="" server="" password="" proxy="" port="" mmsproxy="192.168.50.163" mmsport="8080" mmsc="http://192.168.50.165" type="mms"/>
+  <apn carrier="xcap" mcc="413" mnc="01" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="413" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

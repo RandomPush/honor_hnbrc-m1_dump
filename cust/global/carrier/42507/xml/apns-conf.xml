@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet HOT mobile" mcc="425" mnc="07" apn="net.hotm" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="PC HOT mobile" mcc="425" mnc="07" apn="pc.hotm" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun"/>
+  <apn carrier="MMS HOT mobile" mcc="425" mnc="07" apn="mms.hotm" user="" server="" password="" proxy="" port="" mmsproxy="80.246.131.99" mmsport="80" mmsc="http://mms.hotmobile.co.il" type="mms"/>
+  <apn carrier="VOWIFI MMS HOT mobile" mcc="425" mnc="07" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="80.246.131.99" mmsport="80" mmsc="http://mms.hotmobile.co.il" type="vowifi_mms" protocol="IPV4V6"/>
+  <apn carrier="HOT mobile UT" mcc="425" mnc="07" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="VoWifi Xcap" mcc="425" mnc="07" apn="XCAP" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

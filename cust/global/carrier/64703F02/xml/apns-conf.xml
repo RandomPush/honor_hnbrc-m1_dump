@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Telco OI Re" mcc="647" mnc="03" apn="internet.telco.re" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.telco.re" type="default,dun,hipri,supl,mms" authtype="0" protocol="IP"/>
+</apns>

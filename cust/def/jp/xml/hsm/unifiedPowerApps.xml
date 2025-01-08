@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.kddi.familysmile.mvno">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="jp.softbank.mb.ichinaviclt">
+    <item name="isProtected">1</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.kddi.android.UtaPass">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="jp.softbank.mb.parentalcontrols">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="jp.netstar.familysmile">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.kddi.android.cmail">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.kddi.disasterapp">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.kddi.android.klop">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.kddi.cs.app001">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+</policy>

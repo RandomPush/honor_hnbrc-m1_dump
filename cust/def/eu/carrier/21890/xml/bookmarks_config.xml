@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="4a478b93341ac7687970ee65e90639aa">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Moj BH Telecom</string>
+              <string key="url">https://moj.bhtelecom.ba/</string>
+            </dict>
+            <dict>
+              <string key="title">BH Telecom</string>
+              <string key="url">https://bhtelecom.ba/</string>
+            </dict>
+            <dict>
+              <string key="title">MojaTV</string>
+              <string key="url">http://www.mojatv.ba/</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

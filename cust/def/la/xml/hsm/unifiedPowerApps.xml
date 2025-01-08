@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.payjoy.status.df">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.google.android.apps.devicelock">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.trustonic.telecoms.client.standard.dlc.playground">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.trustonic.telecoms.standard.dlc">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.payjoy.access">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.payjoy.status">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.promobitech.nuovo">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.google.android.devicelockcontroller">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+</policy>

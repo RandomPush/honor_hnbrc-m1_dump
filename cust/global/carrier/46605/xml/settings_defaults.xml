@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:55:30.000-->
+  <string display_channel_click_disabled="4370,4383"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string display_channel_default_off="4380,4393"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string hide_amber_settings="true"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string hide_extreme_settings="true"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string hide_severe_settings="true"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string show_add_channel="false"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string show_channel_settings="true"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string show_date_time_title="true"/>
+  <!--2023-01-31 11:55:30.000-->
+  <string tw_channel_name="true"/>
+</resources>

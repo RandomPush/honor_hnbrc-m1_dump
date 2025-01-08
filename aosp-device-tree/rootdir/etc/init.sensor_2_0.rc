@@ -1,0 +1,61 @@
+# MTK platform .rc configure
+on post-fs-data
+    # calibration
+    mkdir /data/vendor/sensor 0774 system system
+    # Sensor
+    chmod 0660 /dev/hf_manager
+    chown system system /dev/hf_manager
+    chown system system /dev/motionhub
+
+    # For vibrator
+    chown system system /dev/haptics
+    chown system system /sys/class/leds/vibrator/activate
+    chown system system /sys/class/leds/vibrator/duration
+    chown system system /sys/class/leds/vibrator/state
+    chown system system /sys/class/leds/vibrator/vibrator_calib
+    chown system system /sys/class/leds/vibrator/cali_val
+
+    chown system system /sys/class/sensors/acc_sensor/self_test
+    chown system system /sys/class/sensors/acc_sensor/self_test_timeout
+    chown system system /sys/class/sensors/acc_sensor/calibrate
+    chown system system /sys/class/sensors/acc_sensor/calibrate_timeout
+    chown system system /sys/class/sensors/acc_sensor/get_data
+    chown system system /sys/class/sensors/acc_sensor/set_data_type
+    chown system system /sys/class/sensors/acc_sensor/enable
+    chown system system /sys/class/sensors/acc_sensor/set_delay
+    chown system system /sys/class/sensors/gyro_sensor/self_test
+    chown system system /sys/class/sensors/gyro_sensor/self_test_timeout
+    chown system system /sys/class/sensors/gyro_sensor/calibrate
+    chown system system /sys/class/sensors/gyro_sensor/calibrate_timeout
+
+    chown system system /sys/class/sensors/mag_sensor/self_test
+    chown system system /sys/class/sensors/mag_sensor/self_test_timeout
+
+    chown system system /sys/class/sensors/als_sensor/calibrate
+    chown system system /sys/class/sensors/als_sensor/calibrate_timeout
+    chown system system /sys/class/sensors/als_sensor/always_on
+    chown system system /sys/class/sensors/als_sensor/als_ud_rgbl
+    chown system system /sys/class/sensors/als_sensor/als_ud_rgbl_block
+    chown system system /sys/class/sensors/als_sensor/als_break_cycle_bl
+    chown system system /sys/class/sensors/als_sensor/als_stop_noise_cal
+    chown system system /sys/class/sensors/als_sensor/als_calibrate_after_sale
+    chown system system /sys/class/sensors/als_sensor/als_calibrate_under_tp
+    chown system system /sys/class/sensors/als_sensor/set_als_under_tp_calidata
+    chown system system /sys/class/sensors/als_sensor/send_ud_cali_data
+    chown system system /sys/class/sensors/als_sensor/als_rawdata
+    chown system system /sys/class/sensors/als_sensor/als_power_mode
+    chown system system /sys/class/sensors/ps_sensor/calibrate
+    chown system system /sys/class/sensors/ps_sensor/calibrate_timeout
+    chown system system /sys/devices/platform/honor_sensor/acc_info
+    chmod 0660 /sys/devices/platform/honor_sensor/set_fingersense_enable
+    chmod 0660 /sys/devices/platform/honor_sensor/fingersense_req_data
+    chmod 0660 /sys/devices/platform/honor_sensor/fingersense_latch_data
+    chmod 0660 /sys/devices/platform/honor_sensor/fingersense_data_ready
+    chown system system /sys/devices/platform/honor_sensor/fingersense_data_ready
+    chown system system /sys/devices/platform/honor_sensor/fingersense_latch_data
+    chown system system /sys/devices/platform/honor_sensor/fingersense_req_data
+    chown system system /sys/devices/platform/honor_sensor/set_fingersense_enable
+    chmod 0750 /mnt/vendor/nvcfg/sensor
+    chmod 0640 /mnt/vendor/nvcfg/sensor/acc_cali.json
+    chmod 0640 /mnt/vendor/nvcfg/sensor/als_cali.json
+    chmod 0640 /sys/devices/platform/honor_sensor/fingersense_data_ready

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CONFIG>
+    <VIBRATOR TYPE="SimpleLed"
+              LED_DEV="/sys/class/leds/vibrator" >
+    </VIBRATOR>
+</CONFIG>

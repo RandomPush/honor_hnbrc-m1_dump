@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e5817041ed315bc0a28b1c6fdc082f6d">
+  <dict>
+    <!--2023-01-31 11:41:48.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-07-11 20:37:48.000-->
+    <bool key="carrier_volte_available_bool">true</bool>
+    <!--2023-01-31 11:41:48.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-01-31 11:41:48.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:41:48.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00000000</string>
+    <!--2023-01-31 11:41:48.000-->
+    <string key="carrier_vvm_package_name_string">com.tmobile.vvm.application</string>
+    <!--2023-01-31 11:41:48.000-->
+    <bool key="preferToUseUT">false</bool>
+    <!--2023-01-31 11:41:48.000-->
+    <string key="vvm_destination_number_string">122</string>
+    <!--2023-01-31 11:41:48.000-->
+    <array key="vvm_disabled_capabilities_string_array">
+      <string>AUTH=DIGEST-MD5</string>
+    </array>
+    <!--2023-01-31 11:41:48.000-->
+    <int key="vvm_port_number_int">1808</int>
+    <!--2023-01-31 11:41:48.000-->
+    <int key="vvm_ssl_port_number_int">993</int>
+    <!--2023-01-31 11:41:48.000-->
+    <string key="vvm_type_string">vvm_type_cvvm</string>
+  </dict>
+</config>

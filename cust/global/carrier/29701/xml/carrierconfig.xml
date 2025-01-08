@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0c989d73e3fead2ac492723d5fc8cf0f">
+  <dict>
+    <!--2023-06-27 16:31:00.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:56:54.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:56:54.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00000000</string>
+  </dict>
+</config>

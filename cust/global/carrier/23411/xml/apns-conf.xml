@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="O2 MOBILE WEB"
+    mcc="234"
+    mnc="11"
+    apn="mobile.o2.co.uk"
+    user="O2web"
+    server=""
+    password="O2web"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Sprint APN"
+    mcc="316"
+    mnc="010"
+    apn="cinet.spcs"
+    user="none"
+    server="*"
+    password="none"
+    proxy=""
+    port=""
+    mmsproxy="68.28.31.7"
+    mmsport="80"
+    mmsc="http://mms.sprintpcs.com"
+    type="default"
+  />
+</apns>

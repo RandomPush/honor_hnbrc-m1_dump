@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c2bd99f10633a0a373f1642877b564db">
+  <dict>
+    <!--2023-01-31 11:49:24.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:49:24.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-01-11 18:27:28.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-01-31 11:49:24.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:49:24.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:49:24.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:49:24.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:49:24.000-->
+    <bool key="utBsfAuthBeUsed">false</bool>
+    <!--2023-01-31 11:49:24.000-->
+    <bool key="utCSBeUsed">false</bool>
+    <!--2023-01-31 11:49:24.000-->
+    <int key="utOIRSourceMode">1</int>
+    <!--2023-01-31 11:49:24.000-->
+    <string key="utParamsCfg">21:1</string>
+  </dict>
+</config>

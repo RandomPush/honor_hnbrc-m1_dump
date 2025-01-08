@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="SMART LTE"
+    mcc="515"
+    mnc="038"
+    apn="SMARTLTE"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="SMART Internet"
+    mcc="515"
+    mnc="038"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="SmartBro"
+    mcc="515"
+    mnc="038"
+    apn="smartbro"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="SMART MMS"
+    mcc="515"
+    mnc="038"
+    apn="mms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.102.61.46"
+    mmsport="8080"
+    mmsc="http://10.102.61.238:8002"
+    type="mms"
+    authtype="3"
+  />
+</apns>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1cea71df35fa39ad97cf66307152505d">
+  <dict>
+    <!--2023-01-31 11:41:29.000-->
+    <string key="hn_4g_custom_display_for_switch">4G:4.5G</string>
+    <!--2023-01-31 11:41:29.000-->
+    <bool key="hn_hide_lte">false</bool>
+  </dict>
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers_product>
+  <provider id="Xtra" label="Xtra" domain="xtra.co.nz">
+    <incoming uri="pop3+ssl://pop3.xtra.co.nz:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl://send.xtra.co.nz:465" username="$email"/>
+  </provider>
+  <provider id="optusnet.com.au" label="optusnet.com.au" domain="optusnet.com.au">
+    <incoming uri="pop3://mail.optusnet.com.au:110" username="$email"/>
+    <outgoing uri="smtp://mail.optusnet.com.au:25" username="$email"/>
+  </provider>
+</providers_product>

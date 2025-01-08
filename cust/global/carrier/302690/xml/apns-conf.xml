@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Browser" mcc="302" mnc="690" apn="pda.bell.ca" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.bell.ca/mms/wapenc" type="default,mms,supl,dun,xcap" protocol="IPV4V6" mvno_type="gid" mvno_match_data="3E"/>
+</apns>

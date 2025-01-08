@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Mobinil Internet" mcc="602" mnc="01" apn="mobinilweb" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Mobinil MMS" mcc="602" mnc="01" apn="mobinilmms" user="" server="" password="" proxy="" port="" mmsproxy="62.241.155.45" mmsport="8080" mmsc="http://10.7.13.24:8002/" type="mms"/>
+  <apn carrier="ims" mcc="602" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

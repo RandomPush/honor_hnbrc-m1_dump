@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Midrivers"
+    mcc="310"
+    mnc="900"
+    apn="VZWINTERNET"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="209.4.229.27"
+    mmsport="9401"
+    mmsc="http://mmsc.midrivers.csky.us:6672/"
+    type="default,mms,dun,supl"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

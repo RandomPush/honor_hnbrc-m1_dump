@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e1d990746e33d9734913bd301d3a41a4">
+  <dict>
+    <!--2023-01-31 11:51:13.000-->
+    <string key="hn_networkname_domestic">all,EDGE:E;GSM:E;HSPA:4G;HSPA+:4G;DC-HSPA+:4G;LTE:LTE;CA:LTE+</string>
+    <!--2023-01-31 11:51:13.000-->
+    <string key="hn_networkname_roaming">all,EDGE:E;GSM:E;HSPA:3G;HSPA+:3G;DC-HSPA+:3G;LTE:LTE;CA:LTE+</string>
+    <!--2023-01-31 11:51:13.000-->
+    <int key="max_message_size">1048576</int>
+    <!--2023-01-31 11:51:13.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:51:13.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:51:13.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:51:13.000-->
+    <bool key="support_vn_ecc">true</bool>
+  </dict>
+</config>

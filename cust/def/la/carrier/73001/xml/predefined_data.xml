@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>Asistencia Total</name>
+    <phone>
+      <detail>*727</detail>
+      <type>Mobile</type>
+    </phone>
+  </contact>
+  <contact>
+    <name>Servicio al Cliente</name>
+    <phone>
+      <detail>103</detail>
+      <type>Mobile</type>
+    </phone>
+  </contact>
+  <contact>
+    <name>Recarga</name>
+    <phone>
+      <detail>301</detail>
+      <type>Mobile</type>
+    </phone>
+  </contact>
+  <contact>
+    <name>Zona EPCS</name>
+    <phone>
+      <detail>*110#</detail>
+      <type>Mobile</type>
+    </phone>
+  </contact>
+</datainitializor>

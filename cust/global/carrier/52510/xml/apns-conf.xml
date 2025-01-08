@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="TPG" mcc="525" mnc="10" apn="TPG" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MMS" mcc="525" mnc="10" apn="TPGMMS" user="" server="" password="" proxy="" port="" mmsproxy="10.184.80.200" mmsport="8080" mmsc="http://mms.tpgtelecom.com.sg" type="mms" protocol="IP"/>
+  <apn carrier="ims" mcc="525" mnc="10" apn="IMS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="UT XCAP" mcc="525" mnc="10" apn="HOS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

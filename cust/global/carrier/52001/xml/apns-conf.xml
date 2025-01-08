@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="AIS Internet" mcc="520" mnc="01" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="AIS MMS" mcc="520" mnc="01" apn="multimedia" user="" server="" password="" proxy="" port="" mmsproxy="203.170.229.34" mmsport="8080" mmsc="http://mms.mobilelife.co.th" type="mms" authtype="2"/>
+  <apn carrier="ims" mcc="520" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="AIS TH" mcc="520" mnc="01" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="f721e61285bbc718166a5928c3f2c83b">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">23802</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor DK</string>
+        <string key="plmn">Telenor DK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">2380280</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">BiBoB</string>
+        <string key="plmn">BiBoB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23802</string>
+        <string key="sim_mccmnc">2380280</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">BiBoB</string>
+        <string key="plmn">BiBoB</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23802</string>
+        <string key="sim_mccmnc">23802</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">BiBoB</string>
+        <string key="plmn">BiBoB</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="04fa627ba3159dd210d754689f193661">
+  <dict>
+    <!--2023-01-31 11:43:53.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:43:53.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:43:53.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-11-05 15:31:19.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:43:53.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:43:53.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:43:53.000-->
+    <int key="utBearType">2</int>
+    <!--2023-01-31 11:43:53.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:43:53.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:43:53.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

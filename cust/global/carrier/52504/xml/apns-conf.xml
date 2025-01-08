@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Sunsurf Mobile"
+    mcc="525"
+    mnc="04"
+    apn="sunsurf"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="M1 WAP"
+    mcc="525"
+    mnc="04"
+    apn="miworld"
+    user="65"
+    server=""
+    password="user123"
+    proxy="172.16.1.23"
+    port="8081"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+</apns>

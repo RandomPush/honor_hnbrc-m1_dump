@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d3452ca604c936ff1c4a4fd1547d0bb0">
+  <dict>
+    <!--2023-01-31 11:43:47.000-->
+    <bool key="hn_hide_lte">true</bool>
+    <!--2023-01-31 11:43:47.000-->
+    <string key="hn_replace_country_code">+61</string>
+    <!--2023-01-31 11:43:47.000-->
+    <int key="hn_simactive_time">60</int>
+    <!--2023-01-31 11:43:47.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:43:47.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

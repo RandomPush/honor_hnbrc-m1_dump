@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Beeline Internet"
+    mcc="436"
+    mnc="05"
+    apn="internet.beeline.tj"
+    user="beeline"
+    server=""
+    password="beeline"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="WAP_TJ"
+    mcc="436"
+    mnc="05"
+    apn="wap.beeline.tj"
+    user="beeline"
+    server=""
+    password="beeline"
+    proxy="172.028.253.069"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Beeline MMS"
+    mcc="436"
+    mnc="05"
+    apn="mms.beeline.tj"
+    user="beeline"
+    server=""
+    password="beeline"
+    proxy=""
+    port=""
+    mmsproxy="172.028.253.069"
+    mmsport="8080"
+    mmsc="http://172.028.252.211/mms/wapenc"
+    type="mms"
+  />
+</apns>

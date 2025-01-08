@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c4f4be760477514d73e264828660a4c3">
+  <dict>
+    <!--2024-08-29 10:04:37.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:44:31.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2024-08-29 10:04:37.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-08-29 10:04:37.000-->
+    <string key="carrier_vowifi_title">VoWifi Calling</string>
+    <!--2023-01-31 11:44:31.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:44:31.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:44:31.000-->
+    <string key="utBsfSrvAddr">bsf.mnc040.mcc293.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:44:31.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:44:31.000-->
+    <string key="utParamsCfg">0:1</string>
+    <!--2023-01-31 11:44:31.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

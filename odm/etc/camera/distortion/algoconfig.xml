@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?>
+<AlgoConfig>
+    <Algo name="UndistortAlgo" switcher="0" ></Algo>
+    <Algo name="AncUndistortAlgo" switcher="0" ></Algo>
+    <Algo name="ArcUndistortAlgo" switcher="1" ></Algo>
+</AlgoConfig>

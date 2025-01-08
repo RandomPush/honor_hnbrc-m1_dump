@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="cafbbfe58b2d38be693de8f75e364a6b">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">M1 Shop</string>
+              <string key="url">https://www.m1.com.sg</string>
+            </dict>
+            <dict>
+              <string key="title">Connecting Tones</string>
+              <string key="url">http://connectingtones.m1.com.sg</string>
+            </dict>
+            <dict>
+              <string key="title">Facebook</string>
+              <string key="url">https://www.facebook.com</string>
+            </dict>
+            <dict>
+              <string key="title">Channel NewsAsia</string>
+              <string key="url">http://www.channelnewsasia.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

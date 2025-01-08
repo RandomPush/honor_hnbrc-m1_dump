@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:41:58.000-->
+  <string always_vibrate="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string carrier_cbs_led="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <integer carrier_screen_off_time="30000"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string hide_amber_settings="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string hide_cmas_optout_dialog="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string hide_full_volume_menu="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string read_full_message_in_talkback="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string show_date_time_title="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string show_unclickable_presidential_menu="true"/>
+  <!--2023-01-31 11:41:58.000-->
+  <string use_full_volume="true"/>
+</resources>

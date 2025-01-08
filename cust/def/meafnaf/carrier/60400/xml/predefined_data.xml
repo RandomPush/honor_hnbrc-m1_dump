@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>HONOR Customer Service</name>
+    <phone>
+      <detail>0800092225</detail>
+    </phone>
+    <phone>
+      <detail>+212702081157</detail>
+      <type>WhatsApp</type>
+    </phone>
+    <email>
+      <detail>ma.support@honor.com</detail>
+    </email>
+    <company>Morocco</company>
+    <care>true</care>
+  </contact>
+</datainitializor>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="YouPhone 3G"
+    mcc="425"
+    mnc="14"
+    apn="data.youphone.co.il"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="YouPhone MMS"
+    mcc="425"
+    mnc="14"
+    apn="data.youphone.co.il"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="192.118.11.55"
+    mmsport="8080"
+    mmsc="http://192.168.220.15/servlets/mms"
+    type="mms"
+  />
+</apns>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="167dace716e9e8b1d4cb34dcb5e0168b">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">334030</string>
+        <string key="sim_mccmnc">33403</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">33403</string>
+        <string key="sim_mccmnc">33403</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">334020</string>
+        <string key="sim_mccmnc">33403</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21407</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">33403</string>
+        <string key="sim_mccmnc">33403</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">VIRGIN MOBILE</string>
+        <string key="plmn">VIRGIN MOBILE</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

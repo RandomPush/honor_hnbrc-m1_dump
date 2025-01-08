@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="2c95a983c4d8f57bcb540c20255844d9">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23203</string>
+        <string key="sim_mccmnc">23207</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">tele.ring</string>
+        <string key="plmn">tele.ring</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

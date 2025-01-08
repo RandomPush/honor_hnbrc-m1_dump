@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>Call 1234</name>
+    <phone>
+      <detail>1234</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>MessageBank</name>
+    <phone>
+      <detail>+61101</detail>
+    </phone>
+  </contact>
+  <contact>
+    <name>International MessageBank</name>
+    <phone>
+      <detail>#101#</detail>
+    </phone>
+  </contact>
+</datainitializor>

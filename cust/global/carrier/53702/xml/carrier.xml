@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e5e6186c589c6c265a93818b8391945f">
+  <dict>
+    <!--2023-01-31 11:49:05.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:49:05.000-->
+    <string key="voicemail_carrier">Telikom</string>
+    <!--2023-01-31 11:49:05.000-->
+    <string key="voicemail_number">1201</string>
+    <!--2023-01-31 11:49:05.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="epic internet" mcc="280" mnc="10" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="epic mms" mcc="280" mnc="10" apn="mms" user="mms" server="" password="mms" proxy="" port="" mmsproxy="172.24.97.1" mmsport="3130" mmsc="http://mms.epic.com.cy/mmsc" type="mms" protocol="IP" roaming_protocol="IP"/>
+</apns>

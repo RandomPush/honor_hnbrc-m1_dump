@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:43:33.000-->
+  <integer hn_status_bar_operators="1"/>
+  <!--2023-01-31 11:43:33.000-->
+  <string settings.global.hn_auto_hide_operatorname="true"/>
+</resources>

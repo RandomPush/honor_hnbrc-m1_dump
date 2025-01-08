@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="21302d830b38c26c6ac9057fbead8c79">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Planet Drei</string>
+              <string key="url">https://mobile.drei.at/redirect/bm_planet3</string>
+            </dict>
+            <dict>
+              <string key="title">Kundenzone</string>
+              <string key="url">https://mobile.drei.at/redirect/bm_kundenzone</string>
+            </dict>
+            <dict>
+              <string key="title">DreiTV</string>
+              <string key="url">https://www.drei.at/drei-tv</string>
+            </dict>
+            <dict>
+              <string key="title">Wetter</string>
+              <string key="url">https://www.drei.at/de/planet-drei/wetter/</string>
+            </dict>
+            <dict>
+              <string key="title">Drei Energie</string>
+              <string key="url">https://www.drei-energie.at?utm_source=browser&amp;utm_medium=android&amp;utm_campaign=bookmark</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

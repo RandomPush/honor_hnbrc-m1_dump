@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="63b0a549679c936d4eac64ef4cfa98ab">
+  <dict>
+    <!--2023-01-31 11:42:35.000-->
+    <string key="default_protocol">IPV4V6</string>
+    <!--2023-10-17 11:34:34.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-10-17 11:33:33.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:42:35.000-->
+    <bool key="ringtone_by_operator_brand">true</bool>
+    <!--2023-01-31 11:42:35.000-->
+    <string key="roaming_protocol">IPV4V6</string>
+  </dict>
+</config>

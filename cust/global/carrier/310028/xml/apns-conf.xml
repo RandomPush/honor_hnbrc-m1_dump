@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ALU Test-SIM Internet"
+    mcc="310"
+    mnc="028"
+    apn="VZWINTERNET"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,dun,supl"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

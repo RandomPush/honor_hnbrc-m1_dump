@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="81ab5c4d75c25e51e52f29a57e214728">
+  <dict>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">MTS Wireless:EAP_AKA</string>
+    <!--2023-01-31 11:43:30.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:43:30.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

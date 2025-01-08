@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cde8679c2ad17bd4a8f1bd20a7168db2">
+  <dict>
+    <!--2023-10-27 16:24:33.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:LTE</string>
+    <!--2023-01-31 11:44:16.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G+</string>
+    <!--2023-01-31 11:44:16.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:44:16.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:44:16.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:44:16.000-->
+    <int key="sms_to_mms_textthreshold">13</int>
+    <!--2023-01-31 11:44:16.000-->
+    <string key="ussd_regex">(^\*1$)</string>
+    <!--2023-01-31 11:44:16.000-->
+    <string key="voicemail_carrier">Claro</string>
+    <!--2023-01-31 11:44:16.000-->
+    <string key="voicemail_number">*80</string>
+    <!--2023-01-31 11:44:16.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

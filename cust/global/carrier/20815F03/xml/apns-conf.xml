@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Free Pro" mcc="208" mnc="15" apn="jn" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,dun,hipri,supl" authtype="0" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Free Pro MMS" mcc="208" mnc="15" apn="mmsjn" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.freepro.fr" type="mms" authtype="0" protocol="IPV4V6" roaming_protocol="IP"/>
+</apns>

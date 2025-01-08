@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="6878a2e9816be5c2d9e7e9f9fcec85a7">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">My Telstra Account</string>
+              <string key="url">https://www.my.telstra.com.au</string>
+            </dict>
+            <dict>
+              <string key="title">Telstra Top 10 Caller Tones</string>
+              <string key="url">http://waprd.telstra.com/redirect?target=music-w</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

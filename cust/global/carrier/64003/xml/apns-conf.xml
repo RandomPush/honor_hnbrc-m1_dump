@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Zantel"
+    mcc="640"
+    mnc="03"
+    apn="znet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="2"
+  />
+  <apn carrier="Zantel MMS"
+    mcc="640"
+    mnc="03"
+    apn="zmms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.10.9.30"
+    mmsport="8080"
+    mmsc="http://mms.zantel.com"
+    type="mms"
+  />
+</apns>

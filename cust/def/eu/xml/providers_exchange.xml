@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers_product >
+  <provider id="hotmail.fr" label="hotmail.fr" domain="hotmail.fr">
+    <incoming uri="eas+ssl+://m.hotmail.com:443" username="$email" field=""/>
+    <outgoing uri="eas+ssl+://m.hotmail.com:443" username="$email"/>
+  </provider>
+  <provider id="live.fr" label="live.fr" domain="live.fr">
+    <incoming uri="eas+ssl+://m.hotmail.com:443" username="$email" field=""/>
+    <outgoing uri="eas+ssl+://m.hotmail.com:443" username="$email"/>
+  </provider>
+  <provider id="outlook.fr" label="outlook.fr" domain="outlook.fr">
+    <incoming uri="eas+ssl+://m.hotmail.com:443" username="$email" field=""/>
+    <outgoing uri="eas+ssl+://m.hotmail.com:443" username="$email"/>
+  </provider>
+  <provider id="proximus.be" label="proximus.be" domain="proximus.be">
+    <incoming uri="eas+ssl+://webmail.appsuite.proximus.be:443" username="$email" field=""/>
+    <outgoing uri="eas+ssl+://webmail.appsuite.proximus.be:443" username="$email"/>
+  </provider>
+  <provider id="skynet.be" label="skynet.be" domain="skynet.be">
+    <incoming uri="eas+ssl+://webmail.appsuite.proximus.be:443" username="$email" field=""/>
+    <outgoing uri="eas+ssl+://webmail.appsuite.proximus.be:443" username="$email"/>
+  </provider>
+  <provider id="belgacom.net" label="belgacom.net" domain="belgacom.net">
+    <incoming uri="eas+ssl+://webmail.appsuite.proximus.be:443" username="$email" field=""/>
+    <outgoing uri="eas+ssl+://webmail.appsuite.proximus.be:443" username="$email"/>
+  </provider>
+</providers_product>

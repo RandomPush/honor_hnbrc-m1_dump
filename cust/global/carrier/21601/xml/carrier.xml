@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2ba1ffbfe7693f7477473360d927e410">
+  <dict>
+    <!--2023-01-31 11:56:54.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:56:54.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:56:54.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:56:54.000-->
+    <string key="voicemail_carrier">Yettel HU</string>
+    <!--2023-01-31 11:56:54.000-->
+    <string key="voicemail_number">170</string>
+    <!--2023-01-31 11:56:54.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

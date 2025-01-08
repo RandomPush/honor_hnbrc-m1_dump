@@ -1,0 +1,9 @@
+# Miscellaneous
+msc.os_camera.hide_aux_api1_camera_id=true
+ro.camera.aux.packagelist=com.hihonor.camera,com.hihonor.mmitest,org.codeaurora.snapcam,com.hihonor.ddtTest,com.hihonor.detectrepair,com.hihonor.runningtestii,com.hihonor.mmiautotest,com.hihonor.systemserver,com.hihonor.awareness,com.hihonor.powergenie,com.hihonor.securityserver,com.android.server.swing,com.xingin.xhs
+ro.vendor.mtklog_internal=1
+ro.virtual_ab.compression.enabled=true
+ro.virtual_ab.compression.xor.enabled=true
+ro.virtual_ab.io_uring.enabled=true
+ro.virtual_ab.userspace.snapshots.enabled=true
+

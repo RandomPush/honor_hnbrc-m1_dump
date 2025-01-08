@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ims"
+    mcc="460"
+    mnc="04"
+    apn="ims"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="ims"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+  <apn carrier="CMNET"
+    mcc="460"
+    mnc="04"
+    apn="cmnet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+  <apn carrier="中国移动彩信"
+    mcc="460"
+    mnc="04"
+    apn="cmwap"
+    user=""
+    server=""
+    password=""
+    proxy="10.0.0.172"
+    port="80"
+    mmsproxy="10.0.0.172"
+    mmsport="80"
+    mmsc="http://mmsc.monternet.com"
+    type="mms"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

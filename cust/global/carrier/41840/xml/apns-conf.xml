@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Korek Net" mcc="418" mnc="40" apn="net.korek.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MMS" mcc="418" mnc="40" apn="mms.korek.com" user="korek" server="" password="korek" proxy="" port="" mmsproxy="192.168.0.20" mmsport="8080" mmsc="http://192.168.0.20:7000" type="mms"/>
+</apns>

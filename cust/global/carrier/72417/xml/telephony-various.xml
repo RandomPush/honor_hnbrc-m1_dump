@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="9f3fd56be4e757d64603ecbff2b0e66f">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">72402</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72403</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72404</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72405</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72406</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72410</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72411</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72423</string>
+        <string key="sim_mccmnc">72417</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Correios</string>
+        <string key="plmn">Correios</string>
+      </dict>
+    </array>
+  </dict>
+</config>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="94b1fa3bbbf52d4a849c42a59142a4a6">
+  <dict>
+    <!--2023-01-31 11:54:47.000-->
+    <string key="5g_to_4g_delay_timer">10,10</string>
+    <!--2023-01-31 11:54:47.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:54:47.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:54:47.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:54:47.000-->
+    <string key="optimized_for_configD">32,72</string>
+    <!--2023-03-08 17:35:01.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:54:47.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:54:47.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:54:47.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:54:47.000-->
+    <bool key="vm_edit_not_to_sim_bool">true</bool>
+    <!--2023-01-31 11:54:47.000-->
+    <string key="voicemail_carrier">Cosmote</string>
+    <!--2023-01-31 11:54:47.000-->
+    <string key="voicemail_number">+40766177177</string>
+    <!--2023-01-31 11:54:47.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b0a336db9ab745286ee21ae4ee610075">
+  <dict>
+    <!--2023-01-31 11:45:36.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:45:36.000-->
+    <string key="voicemail_carrier">Tigo Tanzania</string>
+    <!--2023-01-31 11:45:36.000-->
+    <string key="voicemail_number">*0*</string>
+    <!--2023-01-31 11:45:36.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

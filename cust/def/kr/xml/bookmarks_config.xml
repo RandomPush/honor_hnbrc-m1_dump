@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="4b32ee242f9f3c0e3769750357f9e7cf">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Naver</string>
+              <string key="url">https://m.naver.com</string>
+            </dict>
+            <dict>
+              <string key="title">Daum</string>
+              <string key="url">https://m.daum.net</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

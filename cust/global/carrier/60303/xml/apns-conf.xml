@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ooredooweb"
+    mcc="603"
+    mnc="03"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="2"
+  />
+  <apn carrier="nedjmamms"
+    mcc="603"
+    mnc="03"
+    apn="nedjmamms"
+    user="mms"
+    server=""
+    password="mms"
+    proxy=""
+    port=""
+    mmsproxy="192.168.52.3"
+    mmsport="3128"
+    mmsc="http://10.10.111.1"
+    type="mms"
+    authtype="2"
+  />
+</apns>

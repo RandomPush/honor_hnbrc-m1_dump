@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Telenor MNE internet"
+    mcc="220"
+    mnc="02"
+    apn="internet"
+    user="gprs"
+    server=""
+    password="gprs"
+    proxy="192.168.246.5"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launcher_config>
+    <string name="config_CustWidgetOrder">0:com.android.calendar;1:com.android.email;2:com.google.android.gm;3:com.google.android.gm:shortcut;4:com.google.android.music;5:com.android.mediacenter;6:com.google.android.music:shortcut</string>
+</launcher_config>

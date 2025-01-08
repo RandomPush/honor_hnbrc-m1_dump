@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="746d4e6c8d7988a9bc7fa2f40fed4ceb">
+  <dict>
+    <!--2023-07-10 10:33:13.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-11-05 15:39:02.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2023-07-10 10:33:13.000-->
+    <string key="carrier_volte_hd_icon_flag">00000010</string>
+    <!--2024-11-05 15:39:02.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-11-05 15:39:02.000-->
+    <string key="carrier_vowifi_title">Wi-Fi Calling</string>
+    <!--2024-11-05 15:39:02.000-->
+    <bool key="hn_hide_pop_for_mcc">true</bool>
+    <!--2024-11-05 15:39:02.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4b56f8448521fa2b778a9005f4c7cf9f">
+  <dict>
+    <!--2023-11-20 14:19:49.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2023-01-31 11:54:08.000-->
+    <string key="hn_networkname_normal">all,GPRS:G;EDGE:E;UMTS:3G;HSDPA:3G+;HSUPA:3G+;HSPA:3G+;HSPA+:H+;LTE:4G;CA:4G+</string>
+    <!--2024-11-12 16:27:34.000-->
+    <int key="hn_show_volte_switch_special_cust">1</int>
+    <!--2023-01-31 11:54:08.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2023-01-31 11:54:08.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:54:08.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:54:08.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:54:08.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:54:08.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:54:08.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:54:08.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:54:08.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2023-01-31 11:54:08.000-->
+    <string key="virtualnet_operatorname">Orange</string>
+    <!--2023-01-31 11:54:08.000-->
+    <string key="voicemail_carrier">Orange</string>
+    <!--2023-01-31 11:54:08.000-->
+    <string key="voicemail_number">242</string>
+    <!--2023-01-31 11:54:08.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

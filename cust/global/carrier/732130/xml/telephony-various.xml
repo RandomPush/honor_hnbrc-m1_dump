@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="0154e8b9f79ab712ba161036899de802">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">732103</string>
+        <string key="sim_mccmnc">732130</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Avantel 4G LTE</string>
+        <string key="plmn">Avantel 4G LTE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732111</string>
+        <string key="sim_mccmnc">732130</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Avantel 4G LTE</string>
+        <string key="plmn">Avantel 4G LTE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732123</string>
+        <string key="sim_mccmnc">732130</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Avantel 4G LTE</string>
+        <string key="plmn">Avantel 4G LTE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">732101</string>
+        <string key="sim_mccmnc">732130</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Avantel 4G LTE</string>
+        <string key="plmn">Avantel 4G LTE</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

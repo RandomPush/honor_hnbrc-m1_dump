@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperatorName>
+    <search sim_mcc_mnc="" mcc_mnc_name="405854" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405854" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405855" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405855" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405856" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405856" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405872" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405872" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405857" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405857" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405858" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405858" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405859" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405859" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405860" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405860" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405861" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405861" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405862" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405862" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405873" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405873" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405863" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405863" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405864" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405864" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405874" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405874" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405865" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405865" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405866" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405866" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405867" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405867" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405868" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405868" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405869" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405869" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405871" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405871" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405870" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405870" network_state="4G" display_name="Jio 4G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405840" network_state="5G" display_name="Jio True5G"/>
+    <search sim_mcc_mnc="" mcc_mnc_name="405840" network_state="4G" display_name="Jio 4G"/>
+</OperatorName>

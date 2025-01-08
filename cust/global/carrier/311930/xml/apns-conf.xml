@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Syringa Wireless"
+    mcc="311"
+    mnc="930"
+    apn="internet.syringawireless.com"
+    user=""
+    server="*"
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport="80"
+    mmsc="http://mms.rinawireless.com"
+    type="default,internet,admin,fota,dun,mms"
+    protocol="IPV4V6"
+  />
+</apns>

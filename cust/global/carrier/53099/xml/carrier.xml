@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="04548cc37c5cee8c0806bcc134ffc1bf">
+  <dict>
+    <!--2023-01-31 11:44:09.000-->
+    <bool key="compatible_apn_switch">true</bool>
+    <!--2023-01-31 11:44:09.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:44:09.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:44:09.000-->
+    <int key="num_match_short">8</int>
+    <!--2023-01-31 11:44:09.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:44:09.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:44:09.000-->
+    <string key="voicemail_carrier">Spark</string>
+    <!--2023-01-31 11:44:09.000-->
+    <string key="voicemail_number">+6483083210</string>
+    <!--2023-01-31 11:44:09.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

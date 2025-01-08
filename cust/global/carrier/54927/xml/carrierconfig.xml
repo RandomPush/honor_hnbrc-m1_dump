@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f96cf19414c516b8b3167e161fe7e751">
+  <dict>
+    <!--2023-11-17 14:32:52.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:08.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:51:25.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+  </dict>
+</config>

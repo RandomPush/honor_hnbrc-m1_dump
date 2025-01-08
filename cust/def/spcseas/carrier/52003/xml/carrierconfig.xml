@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="217e250b94a0d66f77708f67d2582a1c">
+  <dict>
+    <!--2023-12-13 15:47:29.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-01-31 11:43:35.000-->
+    <bool key="carrier_mmicode_unescapehtml_bool">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="884656e04f4f6d72ae6794d042f9d6ce">
+  <dict>
+    <!--2023-10-26 20:04:46.000-->
+    <bool key="clir_config_enable">true</bool>
+    <!--2023-01-31 11:42:00.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-01-31 11:42:00.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2023-10-27 16:24:33.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:LTE</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="hn_cust_long_vmNum">+50660005001</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+;MiMo:LTE+;CAMiMo:LTE+</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9,2,1</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,2,1</string>
+    <!--2023-01-31 11:42:00.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:42:00.000-->
+    <int key="num_match">8</int>
+    <!--2024-04-25 14:30:36.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:42:00.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:42:00.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-08-23 16:02:28.000-->
+    <string key="voicemail_carrier">LIBERTY_cr</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="voicemail_number">*1690</string>
+    <!--2023-01-31 11:42:00.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

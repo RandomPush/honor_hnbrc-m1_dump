@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1b3856b1600ea598d0bae504afe7ee58">
+  <dict>
+    <!--2023-01-31 11:42:52.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2023-01-31 11:42:52.000-->
+    <string key="hn_4g_custom_display_for_switch">4G:LTE</string>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">Telekom_SIM:EAP_AKA</string>
+    <!--2023-01-31 11:42:52.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:42:52.000-->
+    <int key="set_new_apn_port">8080</int>
+  </dict>
+</config>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="02673920e156734615d770848ee010ae">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">302610</string>
+        <string key="sim_mccmnc">302510</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Videotron PRTNR2</string>
+        <string key="plmn">Videotron PRTNR2</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">302220</string>
+        <string key="sim_mccmnc">302510</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Videotron PRTNR2</string>
+        <string key="plmn">Videotron PRTNR2</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">302510</string>
+        <string key="sim_mccmnc">302510</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">302500</string>
+        <string key="sim_mccmnc">302510</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">302520</string>
+        <string key="sim_mccmnc">302510</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

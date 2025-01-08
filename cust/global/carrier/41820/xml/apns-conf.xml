@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Zain Internet" mcc="418" mnc="20" apn="Internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Zain MMS" mcc="418" mnc="20" apn="MMS" user="mms" server="" password="mms" proxy="" port="" mmsproxy="172.29.11.12" mmsport="8080" mmsc="http://mms:8002/mms" type="mms" authtype="1" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Zain IMS" mcc="418" mnc="20" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Zain Xcap" mcc="418" mnc="20" apn="HOS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

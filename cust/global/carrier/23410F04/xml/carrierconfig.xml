@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="96951f95d3cd7ffa4ed1a22a010c42be">
+  <dict>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="ContentTypeMode">0</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="EspEncAlg">RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="IPsecSaLifeTime">43200</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="Ikev2DpdInterval">2000</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_DES3_CBC, RCT_ALG_AES128_CBC, RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_AES_XCBC</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">43200</int>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">43200</int>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="Ikev2PcscfIpv4Address">20</int>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="Ikev2PcscfIpv6Address">21</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_AES_XCBC</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="Ikev2SaLifeTime">43200</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="ImsStateFollowVoiceDomain">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="cardTypePreferToUseUT">20,30,40,50,41,42,-1</string>
+    <!--2024-07-03 11:29:54.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-07-03 11:29:54.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">3</int>
+    <!--2023-11-17 14:33:13.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2024-07-03 11:29:54.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00100000</string>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="carrier_vowifi_title">Wifi Calling</string>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="hangUpWhenLostNet">false</bool>
+    <!--2024-07-26 18:13:31.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+    <!--2024-04-25 14:35:19.000-->
+    <int key="maxMessageSize">307200</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="missedCallTips">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="missedCallTipsDelay">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="missedCallTipsDelayTimer">128000</int>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="missedCallTipsRingTimer">12000</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="setDefaultNoReplyTimer">-1</int>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="smsToMmsTextThreshold">10</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="ssTypeForbidFallbackCS">12</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utBsfUsehttps">false</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utCSBeUsed">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="utGbaType">0</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utKsnafUseBase64">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="utNafPort">80</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="utNafSrvAddr">xcap.ims.mnc010.mcc234.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utNafUseHttps">false</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="utOIRSourceMode">1</int>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="utParamsCfg">0:1,1:1,6:1,8:1</string>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="utRetryInterval">5000,5000</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="utUseApn">3</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utUseNodeSelector">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utUseTmpi">false</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="utUseXcapNamespace">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="vowifiHplmnListItem">23410, epdg.epc.mnc010.mcc234.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:54:16.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="vowifi_UT_APN">mobile.o2.co.uk</string>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="vowifi_mms_switch">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+    <!--2023-01-31 11:54:16.000-->
+    <bool key="vowifi_ut_switch">false</bool>
+    <!--2024-07-03 11:29:54.000-->
+    <string key="wfc_format_wifi_string">%1$s WiFiCall</string>
+    <!--2023-01-31 11:54:16.000-->
+    <array key="wfc_operator_error_codes_string_array">
+      <string>REG09|0</string>
+    </array>
+    <!--2023-01-31 11:54:16.000-->
+    <string key="wfc_spn_string">O2</string>
+  </dict>
+</config>

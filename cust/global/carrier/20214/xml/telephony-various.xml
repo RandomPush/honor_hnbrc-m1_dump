@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="3faf5aedb9d942f63cad1a6051c191df">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">20209</string>
+        <string key="sim_mccmnc">20214</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">cyta GR</string>
+        <string key="plmn">cyta GR</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20214</string>
+        <string key="sim_mccmnc">20214</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">cyta GR</string>
+        <string key="plmn">cyta GR</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20205</string>
+        <string key="sim_mccmnc">20214</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">cyta GR</string>
+        <string key="plmn">cyta GR</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

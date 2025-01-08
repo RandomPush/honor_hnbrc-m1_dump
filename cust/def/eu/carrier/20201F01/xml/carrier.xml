@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e83e0e8f7ca9e2a88bbc79becd4f28d5">
+  <dict>
+    <!--2023-01-31 11:43:41.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">COSMOTEWiFiAuto:EAP_AKA</string>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:43:41.000-->
+    <int key="set_new_apn_port">8080</int>
+  </dict>
+</config>

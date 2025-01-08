@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-02-27 17:11:36.000-->
+  <string cust_qs_tile_rules="full#add:amVowifi_1,amVowifi2_2@lite#add:amVowifi_1,amVowifi2_2"/>
+  <!--2023-01-31 11:41:25.000-->
+  <integer hndefault_CheckIntervalt="15"/>
+  <!--2023-01-31 11:41:25.000-->
+  <string settings.global.hn_nfc_gsma="true"/>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a7e06b066ae90f938287e2e6ee2aa82f">
+  <dict>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">BELL_WIFI;5099251212</string>
+    <!--2023-01-31 11:42:53.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:42:53.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

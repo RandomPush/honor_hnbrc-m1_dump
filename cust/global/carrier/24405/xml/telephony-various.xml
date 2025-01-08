@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="fd47460eabeab895d6e084a18c5d6554">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">24421</string>
+        <string key="sim_mccmnc">24405</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Elisa</string>
+        <string key="plmn">Saunalahti</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

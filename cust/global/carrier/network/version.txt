@@ -1,0 +1,4 @@
+version=8.0.0.97
+type=CARRIER
+subtype=NETWORK
+compatibleVersion=1

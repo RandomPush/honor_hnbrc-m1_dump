@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c5bde1ea56c559896d097b8b7756a3cd">
+  <dict>
+    <!--2023-01-31 11:41:45.000-->
+    <string key="hide_sepcial_apn_form_list">kddi.lcs,uad5gntrg.au-net.ne.jp,au5gtrg.au-net.ne.jp</string>
+    <!--2023-01-31 11:41:45.000-->
+    <string key="hn_replace_country_code">+81</string>
+  </dict>
+</config>

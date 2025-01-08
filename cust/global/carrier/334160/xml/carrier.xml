@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1f9dcafa4e30188dc9636db2f80ff952">
+  <dict>
+    <!--2023-01-31 11:50:47.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-10-27 18:52:56.000-->
+    <string key="hide_sepcial_apn_form_list">supl.attmex.mx</string>
+    <!--2023-10-27 16:23:55.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:LTE</string>
+    <!--2023-01-31 11:50:47.000-->
+    <string key="hn_cust_long_vmNum">+525535396245</string>
+    <!--2023-01-31 11:50:47.000-->
+    <bool key="hn_data_roam_option">true</bool>
+    <!--2023-01-31 11:50:47.000-->
+    <string key="hn_networkname_normal">all,HSDPA:H;HSUPA:H;HSPA:H;HSPA+:H+;LTE:4G;CA:4G+;MiMo:4G+;CAMiMo:4G+;256QAM:4G+</string>
+    <!--2023-01-31 11:50:47.000-->
+    <bool key="hn_support_long_vmNum">true</bool>
+    <!--2023-01-31 11:50:47.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:50:47.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:50:47.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:50:47.000-->
+    <bool key="save_ims_conf_participants">true</bool>
+    <!--2023-01-31 11:50:47.000-->
+    <int key="sms_to_mms_textthreshold">6</int>
+    <!--2023-01-31 11:50:47.000-->
+    <string key="ussd_regex">(^\#9|\*228$)</string>
+    <!--2023-01-31 11:50:47.000-->
+    <string key="voicemail_carrier">IUSACELL</string>
+    <!--2023-01-31 11:50:47.000-->
+    <string key="voicemail_number">*86</string>
+    <!--2023-01-31 11:50:47.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

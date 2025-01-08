@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="O2 Pay Monthly" mcc="234" mnc="10" apn="mobile.o2.co.uk" user="o2" server="" password="p" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mmsc.mms.o2.co.uk:8002" type="default,mms" authtype="1" protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="234" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="VoWifi Xcap" mcc="234" mnc="10" apn="mobile.o2.co.uk" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+</apns>

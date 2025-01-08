@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="ae87cb9a0a69d5e7441ba470f89c7e53">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">00000</string>
+        <string key="sim_mccmnc">40401</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Vi India</string>
+        <string key="plmn">Vi India</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="postfone" mcc="272" mnc="01" apn="isp.postfone.ie" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="1" protocol="IP"/>
+  <apn carrier="postfone mms" mcc="272" mnc="01" apn="mms.postfone.ie" user="" server="" password="" proxy="" port="" mmsproxy="010.192.015.133" mmsport="80" mmsc="http://mms.postfone.ie" type="mms" authtype="1" protocol="IP"/>
+  <apn carrier="ims" mcc="272" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="xcap" mcc="272" mnc="01" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="82d3ce1305c063ebfa9350b122c18191">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">50212</string>
+        <string key="sim_mccmnc">50218</string>
+        <string key="network_type">1</string>
+        <int key="rule">1</int>
+        <string key="spn">U Mobile</string>
+        <string key="plmn">U Mobile</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">50212</string>
+        <string key="sim_mccmnc">50218</string>
+        <string key="network_type">2</string>
+        <int key="rule">1</int>
+        <string key="spn">U Mobile</string>
+        <string key="plmn">U Mobile</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">50212</string>
+        <string key="sim_mccmnc">50218</string>
+        <string key="network_type">3</string>
+        <int key="rule">1</int>
+        <string key="spn">MY MAXIS</string>
+        <string key="plmn">MY MAXIS</string>
+      </dict>
+    </array>
+  </dict>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.hihonor.android.launcher">
+   <favorite
+        launcher:packageName="com.google.android.apps.walletnfcrel"
+        launcher:className="com.google.android.apps.wallet.GooglePayActivity"
+        launcher:include="OTA"/>
+</favorites>

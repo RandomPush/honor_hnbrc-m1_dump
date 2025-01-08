@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="EE"
+    mcc="234"
+    mnc="31"
+    apn="everywhere"
+    user="eesecure"
+    server=""
+    password="secure"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl,ia"
+    authtype="1"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+  />
+  <apn carrier="EE zone"
+    mcc="234"
+    mnc="31"
+    apn="eezone"
+    user="eesecure"
+    server=""
+    password="secure"
+    proxy=""
+    port=""
+    mmsproxy="149.254.201.135"
+    mmsport="8080"
+    mmsc="http://mms/"
+    type="mms"
+    authtype="1"
+  />
+</apns>

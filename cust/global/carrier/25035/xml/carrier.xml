@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2dfb8ededd04e01b0d4770aa38322623">
+  <dict>
+    <!--2023-01-31 11:43:57.000-->
+    <bool key="enable_sending_blank_sms">true</bool>
+    <!--2023-01-31 11:43:57.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2023-01-31 11:43:57.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:43:57.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:43:57.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:43:57.000-->
+    <string key="voicemail_carrier">MOTIV</string>
+    <!--2023-01-31 11:43:57.000-->
+    <string key="voicemail_number">+79028710280</string>
+    <!--2023-01-31 11:43:57.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

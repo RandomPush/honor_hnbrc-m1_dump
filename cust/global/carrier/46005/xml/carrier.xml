@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="14df20ee8188486fc4f21823d2133805">
+  <dict>
+    <!--2023-01-31 11:45:20.000-->
+    <string key="dend_data_self_cure_strategy">169:60:3:0</string>
+    <!--2024-04-23 18:10:28.000-->
+    <bool key="hn_supported_display_nr_5ga">true</bool>
+  </dict>
+</config>

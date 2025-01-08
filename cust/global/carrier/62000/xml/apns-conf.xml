@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Glo"
+    mcc="620"
+    mnc="00"
+    apn="glowap"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl,fota,dun"
+    authtype="0"
+  />
+</apns>

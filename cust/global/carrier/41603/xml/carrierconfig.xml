@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b87d09fb28492d8ba20ea1f9f842d9b5">
+  <dict>
+    <!--2023-01-31 11:43:36.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:43:36.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:43:36.000-->
+    <string key="carrier_volte_hd_icon_flag">00101010</string>
+    <!--2023-01-31 11:43:36.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:43:36.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:43:36.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:43:36.000-->
+    <string key="utBsfSrvAddr">bsf.ims.mnc03.mcc416.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:43:36.000-->
+    <bool key="utBsfUsehttps">true</bool>
+    <!--2023-01-31 11:43:36.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:43:36.000-->
+    <bool key="utNafUseHttps">true</bool>
+    <!--2023-01-31 11:43:36.000-->
+    <int key="utUseApn">1</int>
+    <!--2023-01-31 11:43:36.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+  </dict>
+</config>

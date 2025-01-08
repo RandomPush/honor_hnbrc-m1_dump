@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Free Re" mcc="647" mnc="03" apn="free.re" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.free.re" type="default,supl,mms,dun,hipri" authtype="0" protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="d4eb3326c37c51fb14d72cc3c1160d02">
+  <dict>
+    <dict key="portHostKey">
+      <string key="supl_port">7275</string>
+      <string key="supl_host">location2.kddi.ne.jp</string>
+    </dict>
+  </dict>
+</config>

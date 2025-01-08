@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Proximus Web" mcc="206" mnc="01" apn="internet.proximus.be" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="1" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Proximus MMS" mcc="206" mnc="01" apn="event.proximus.be" user="mms" server="" password="mms" proxy="" port="" mmsproxy="010.055.014.075" mmsport="8080" mmsc="http://mmsc.proximus.be/mms" type="mms" authtype="1" protocol="IP" roaming_protocol="IP"/>
+</apns>

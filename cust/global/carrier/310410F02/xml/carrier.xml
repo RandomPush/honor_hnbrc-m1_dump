@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="84cf023931643e04c715b328367504fc">
+  <dict>
+    <!--2023-01-31 11:55:28.000-->
+    <bool key="carrier_xcap_data_roaming_switch">true</bool>
+    <!--2023-01-31 11:55:28.000-->
+    <string key="hn_networkname_normal">all,GPRS:G;EDGE:E;UMTS:4G;HSDPA:4G;HSUPA:4G;HSPA:4G;HSPA+:4G;LTE:4G LTE;CA:4G LTE</string>
+    <!--2023-01-31 11:55:28.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:55:28.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:55:28.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:55:28.000-->
+    <string key="virtual_ecclist_withcard">+911,+112</string>
+    <!--2023-01-31 11:55:28.000-->
+    <string key="virtualnet_operatorname">AT&amp;T</string>
+  </dict>
+</config>

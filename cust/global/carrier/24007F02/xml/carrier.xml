@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="aa63c82ade7d7a57abd5100fc043aeb6">
+  <dict>
+    <!--2023-01-31 11:41:14.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:41:14.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:41:14.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2023-01-31 11:41:14.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:41:14.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:41:14.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2023-01-31 11:41:14.000-->
+    <string key="virtualnet_operatorname">Tele2 NL</string>
+    <!--2023-01-31 11:41:14.000-->
+    <string key="voicemail_carrier">Tele2 NL</string>
+    <!--2023-01-31 11:41:14.000-->
+    <string key="voicemail_number">+31640192940</string>
+    <!--2023-01-31 11:41:14.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Viettel GPRS" mcc="452" mnc="04" apn="v-internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Viettel MMS" mcc="452" mnc="04" apn="v-mms" user="" server="" password="" proxy="" port="" mmsproxy="192.168.233.10" mmsport="8080" mmsc="http://mms.viettelmobile.com.vn/mms/wapenc" type="mms"/>
+  <apn carrier="xcap" mcc="452" mnc="04" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="452" mnc="04" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="341cb246a883df05c93368e3b0acbcf3">
+  <dict>
+    <!--2023-01-31 11:54:01.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:54:01.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4.5G;MiMo:4.5G;CAMiMo:4.5G</string>
+    <!--2023-01-31 11:54:01.000-->
+    <bool key="mo_num_update">true</bool>
+    <!--2023-01-31 11:54:01.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:54:01.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:54:01.000-->
+    <string key="voicemail_carrier">VIVO</string>
+    <!--2023-01-31 11:54:01.000-->
+    <string key="voicemail_number">*555</string>
+    <!--2023-01-31 11:54:01.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

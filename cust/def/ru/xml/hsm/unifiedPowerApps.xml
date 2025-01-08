@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="ru.yandex.searchplugin">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+</policy>

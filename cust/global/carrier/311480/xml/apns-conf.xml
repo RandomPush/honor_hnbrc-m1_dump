@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Verizon Internet" mcc="311" mnc="480" apn="VZWINTERNET" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,dun" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Verizon Internet" mcc="311" mnc="480" apn="VZWINTERNET" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,dun,supl" protocol="IPV4V6" roaming_protocol="IP" mvno_type="gid" mvno_match_data="BAE0000000000000"/>
+  <apn carrier="Verizon CBS" mcc="311" mnc="480" apn="VZWAPP" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.vtext.com/servlets/mms" type="cbs,mms" protocol="IPV4V6" roaming_protocol="IP" mvno_type="gid" mvno_match_data="BAE0000000000000"/>
+</apns>

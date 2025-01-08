@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="709f4e192c3b2ecfc540c9eac7d73a4a">
+  <dict>
+    <!--2024-03-29 09:43:08.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2024-04-01 18:03:09.000-->
+    <string key="hn_networkname_normal">all,GSM:2G;HSDPA:H;HSUPA:H;HSPA:3G+;HSPA+:3G+</string>
+    <!--2023-01-31 11:41:23.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:41:23.000-->
+    <bool key="save_ims_conf_participants">true</bool>
+    <!--2023-01-31 11:41:23.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+  </dict>
+</config>

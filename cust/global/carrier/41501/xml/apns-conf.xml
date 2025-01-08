@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Alfa Internet" mcc="415" mnc="01" apn="ALFA" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="Alfa WAP" mcc="415" mnc="01" apn="wap.mic1.com.lb" user="mic1" server="" password="mic1" proxy="192.168.023.050" port="80" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="Alfa MMS" mcc="415" mnc="01" apn="mms.mic1.com.lb" user="mic1" server="" password="mic1" proxy="" port="" mmsproxy="192.168.023.051" mmsport="9201" mmsc="http://mms.mic1.com.lb" type="mms" authtype="3"/>
+  <apn carrier="UT XCAP" mcc="415" mnc="01" apn="HOS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

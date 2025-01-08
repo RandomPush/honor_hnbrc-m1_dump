@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Porto Conecta"
+    mcc="724"
+    mnc="54"
+    apn="portoconecta.br"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    protocol="IP"
+    roaming_protocol="IP"
+  />
+</apns>

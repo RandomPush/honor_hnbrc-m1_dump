@@ -1,0 +1,86 @@
+# 2023-01-31 11:42:43.000
+drm.service.enabled=true
+# 2023-01-31 11:42:43.000
+msc.assistant.vendor=yandex
+# 2023-01-31 11:42:43.000
+msc.camera.def_beauty_level=0
+# 2023-01-31 11:42:43.000
+msc.camera.videotrack_in_multicamera=true
+# 2023-01-31 11:42:43.000
+msc.config.always_allow_mms=6
+# 2023-01-31 11:42:43.000
+msc.config.delay_detach_time=5
+# 2023-01-31 11:42:43.000
+msc.config.is_pre_post_pay=true
+# 2023-01-31 11:42:43.000
+msc.config.nfc_on=true
+# 2023-01-31 11:42:43.000
+msc.config.opta=10
+# 2023-01-31 11:42:43.000
+msc.config.optb=643
+# 2023-01-31 11:42:43.000
+msc.config.power_voice_key=false
+# 2023-01-31 11:42:43.000
+msc.cust.drm.fl_only=false
+# 2023-01-31 11:42:43.000
+msc.cust.oma_drm=true
+# 2023-01-31 11:42:43.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:42:43.000
+msc.power.fdtimer_screenOff=4000
+# 2023-01-31 11:42:43.000
+msc.power.fdtimer_screenOn=10000
+# 2023-01-31 11:42:43.000
+msc.setupwizard.network_required=true
+# 2023-01-31 11:42:43.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:42:43.000
+ro.camera.front_ai_default=off
+# 2023-01-31 11:42:43.000
+ro.camera.master_ai_default=off
+# 2023-01-31 11:42:43.000
+ro.config.CphsOnsEnabled=false
+# 2023-01-31 11:42:43.000
+ro.config.argesture_enable=1
+# 2023-01-31 11:42:43.000
+ro.config.attach_apn_enabled=true
+# 2023-01-31 11:42:43.000
+ro.config.bundle_opta_mnc=185
+# 2023-01-31 11:42:43.000
+ro.config.bundle_optb_mnc=347
+# 2023-01-31 11:42:43.000
+ro.config.bundle_optx_mnc=2
+# 2023-01-31 11:42:43.000
+ro.config.custom_short_codes=true
+# 2023-01-31 11:42:43.000
+ro.config.delay_updatename=true
+# 2023-01-31 11:42:43.000
+ro.config.device_time_for_mms=true
+# 2023-01-31 11:42:43.000
+ro.config.dualimsi.disableap=true
+# 2023-01-31 11:42:43.000
+ro.config.force_auto_plmn=20815
+# 2023-01-31 11:42:43.000
+ro.config.keyguard_unusedata=false
+# 2023-01-31 11:42:43.000
+ro.config.music_region=normal
+# 2023-01-31 11:42:43.000
+ro.config.only_google_pai_show=true
+# 2023-01-31 11:42:43.000
+ro.config.show_data_act_all_apn=true
+# 2023-01-31 11:42:43.000
+ro.config.ussd_linkify=true
+# 2023-01-31 11:42:43.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:42:43.000
+ro.odm.gsm.fastdormancy.mode=1
+# 2023-01-31 11:42:43.000
+ro.odm.gsm.fd.screen=3
+# 2023-01-31 11:42:43.000
+ro.odm.gsm.fd.time_scroff=4000
+# 2023-01-31 11:42:43.000
+ro.product.CustCVersion=C10
+# 2023-01-31 11:42:43.000
+ro.product.locale=ru-RU
+# 2023-01-31 11:42:43.000
+ro.vendor.config.camera.region=oz

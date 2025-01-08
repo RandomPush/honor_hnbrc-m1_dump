@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="423beeda5ce514d0485908ec02d0ad50">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">20408</string>
+        <string key="sim_mccmnc">20412</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telfort</string>
+        <string key="plmn">Telfort</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

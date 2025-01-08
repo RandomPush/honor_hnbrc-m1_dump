@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="ee82a68fed331353fa3063a2284572ce">
+  <dict>
+    <array key="stk_config_icon_name">
+      <dict>
+        <string key="language">en</string>
+        <string key="stk_name">Mi Sim</string>
+      </dict>
+      <dict>
+        <string key="language">es</string>
+        <string key="stk_name">Mi Sim</string>
+      </dict>
+    </array>
+  </dict>
+</config>

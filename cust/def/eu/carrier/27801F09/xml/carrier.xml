@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c8bf889dbb819d425361bf4d01a612b1">
+  <dict>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">VodafoneWiFi</string>
+    <!--2023-01-31 11:41:27.000-->
+    <bool key="remove_apn_MVNO">true</bool>
+  </dict>
+</config>

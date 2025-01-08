@@ -1,0 +1,12 @@
+service nfccrpserver /system_ext/bin/nfc_crp_service
+    user nfc
+    group system nfc
+    disabled
+    oneshot
+    seclabel u:r:nfccrpserver:s0
+
+on property:nfc.server.start=1
+    start nfccrpserver
+
+on property:nfc.server.start=0
+    stop nfccrpserver

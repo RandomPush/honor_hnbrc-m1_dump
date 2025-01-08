@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="ca8a53d34395f7c0a35ac4df64d0354e">
+  <dict>
+    <dict key="portHostKey">
+      <string key="supl_port">7275</string>
+      <string key="supl_host">h-slp.mnc017.mcc716.pub.3gppnetwork.org</string>
+    </dict>
+  </dict>
+</config>

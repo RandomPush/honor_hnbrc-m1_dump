@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="WebAPN" mcc="232" mnc="12" apn="webapn.at" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3" protocol="IPV4V6"/>
+</apns>

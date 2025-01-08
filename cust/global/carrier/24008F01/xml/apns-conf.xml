@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Glocalnet" mcc="240" mnc="08" apn="services.glocalnet.se" user="" server="" password="" proxy="172.030.253.241" port="8799" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="2"/>
+  <apn carrier="Glocalnet MMS" mcc="240" mnc="08" apn="services.glocalnet.se" user="" server="" password="" proxy="172.030.253.241" port="8799" mmsproxy="" mmsport="" mmsc="http://mms" type="mms" authtype="2"/>
+  <apn carrier="ims" mcc="240" mnc="08" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="xcap" mcc="240" mnc="08" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="IoT" mcc="334" mnc="070" apn="ott.iot.attmex.mx" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,dun" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

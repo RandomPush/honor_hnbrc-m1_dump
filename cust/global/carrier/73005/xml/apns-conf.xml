@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Movil"
+    mcc="730"
+    mnc="05"
+    apn="movil.vtr.com"
+    user="vtrmovil"
+    server=""
+    password="vtrmovil"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="2"
+  />
+  <apn carrier="MMS"
+    mcc="730"
+    mnc="05"
+    apn="mms.vtr.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="192.168.94.210"
+    mmsport="9028"
+    mmsc="http://192.168.94.162:19090/was"
+    type="mms"
+  />
+</apns>

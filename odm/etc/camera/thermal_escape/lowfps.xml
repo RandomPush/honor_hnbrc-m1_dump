@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Config>
+    <thirdapp>
+        <activename>30115</activename>
+        <highFps>15</highFps>
+        <lowFps>10</lowFps>
+    </thirdapp>
+    <thirdapp>
+        <activename>30110</activename>
+        <highFps>15</highFps>
+        <lowFps>10</lowFps>
+    </thirdapp>
+</Config>

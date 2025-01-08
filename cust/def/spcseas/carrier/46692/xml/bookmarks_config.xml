@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="5a2c9b86d65c674fc0ef14be5c876aff">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">emome</string>
+              <string key="url">https://m.emome.net</string>
+            </dict>
+            <dict>
+              <string key="title">Google</string>
+              <string key="url">http://www.google.com</string>
+            </dict>
+            <dict>
+              <string key="title">Yahoo</string>
+              <string key="url">http://tw.yahoo.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Orange Internet" mcc="206" mnc="10" apn="mworld.be" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Orange MMS" mcc="206" mnc="10" apn="mms.be" user="" server="" password="" proxy="" port="" mmsproxy="212.65.63.143" mmsport="8080" mmsc="http://mmsc.mobistar.be" type="mms"/>
+  <apn carrier="ims" mcc="206" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

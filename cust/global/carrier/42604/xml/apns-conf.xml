@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VIVA" mcc="426" mnc="04" apn="viva.bh" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="internet" authtype="2"/>
+  <apn carrier="ims" mcc="426" mnc="04" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="VIVA Internet BH" mcc="426" mnc="04" apn="viva.bh" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="stcMMS" mcc="426" mnc="04" apn="stcwap.bh" user="" server="" password="" proxy="" port="" mmsproxy="172.18.142.36" mmsport="8080" mmsc="http://mms.stc.com.bh:38090" type="mms" authtype="1"/>
+</apns>

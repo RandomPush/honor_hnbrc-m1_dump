@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="netgprs.com"
+    mcc="208"
+    mnc="22"
+    apn="netgprs.com"
+    user="tsl"
+    server=""
+    password="tsl"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

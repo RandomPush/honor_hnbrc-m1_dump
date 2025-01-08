@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:53:24.000-->
+  <integer alert_duration="10000"/>
+  <!--2023-01-31 11:53:24.000-->
+  <integer default_language_speech_state="2"/>
+  <!--2023-01-31 11:53:24.000-->
+  <string duplicate_compare_body="true"/>
+  <!--2023-01-31 11:53:24.000-->
+  <string show_date_time_title="true"/>
+  <!--2023-01-31 11:53:24.000-->
+  <string use_full_volume="true"/>
+</resources>

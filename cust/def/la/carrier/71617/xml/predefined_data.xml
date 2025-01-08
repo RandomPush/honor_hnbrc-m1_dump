@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>Entel Whatsapp</name>
+    <phone>
+      <detail>981002000</detail>
+      <type>Mobile</type>
+    </phone>
+  </contact>
+</datainitializor>

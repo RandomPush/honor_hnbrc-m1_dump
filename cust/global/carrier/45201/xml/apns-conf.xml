@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Mobifone GPRS" mcc="452" mnc="01" apn="m-wap" user="mms" server="" password="mms" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Mobifone MMS" mcc="452" mnc="01" apn="m-i090" user="mms" server="" password="mms" proxy="" port="" mmsproxy="203.162.21.114" mmsport="3130" mmsc="http://203.162.21.114/mmsc" type="mms"/>
+  <apn carrier="ims" mcc="452" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="xcap" mcc="452" mnc="01" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

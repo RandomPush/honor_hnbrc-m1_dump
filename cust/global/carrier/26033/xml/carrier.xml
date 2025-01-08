@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d2057100e2cfc66cea7e0183e9b6e693">
+  <dict>
+    <!--2023-01-31 11:42:21.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:LTE</string>
+    <!--2023-01-31 11:42:21.000-->
+    <string key="hn_networkname_normal">all,LTE:LTE;CA:LTE+</string>
+  </dict>
+</config>

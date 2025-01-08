@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="5dc63572810754a3a17b0bcbae62131b">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">22601</string>
+        <string key="sim_mccmnc">22605</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">DiGi Mobil</string>
+        <string key="plmn">DiGi Mobil</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

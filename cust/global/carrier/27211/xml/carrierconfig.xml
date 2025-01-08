@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8507b5d41c244dfa8963751fece109d4">
+  <dict>
+    <!--2024-01-06 09:40:48.000-->
+    <bool key="carrier_default_data_roaming_enabled_bool">true</bool>
+    <!--2023-11-17 14:33:12.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:31.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+  </dict>
+</config>

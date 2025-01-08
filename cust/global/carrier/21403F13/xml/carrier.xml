@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c0e49d7a71c008a647ca87a7c5e287e4">
+  <dict>
+    <!--2023-01-31 11:41:35.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2023-01-31 11:41:35.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:41:35.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:41:35.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:41:35.000-->
+    <string key="virtualnet_operatorname">YOU Mobile</string>
+  </dict>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e05ee6af40b1bca8e9b6c0593d55f993">
+  <dict>
+    <!--2023-01-31 11:43:14.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2024-08-21 15:06:02.000-->
+    <bool key="ims_conference_reported_participants_optimize">true</bool>
+    <!--2023-01-31 11:43:14.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:43:14.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:43:14.000-->
+    <bool key="single_pdp_enabled">true</bool>
+    <!--2023-01-31 11:43:14.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+  </dict>
+</config>

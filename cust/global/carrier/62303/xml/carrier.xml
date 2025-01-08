@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="289623160082e99ca87bc7b1ab0e1a7f">
+  <dict>
+    <!--2023-01-31 11:41:54.000-->
+    <string key="voicemail_carrier">Orange</string>
+    <!--2023-01-31 11:41:54.000-->
+    <string key="voicemail_number">888</string>
+    <!--2023-01-31 11:41:54.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

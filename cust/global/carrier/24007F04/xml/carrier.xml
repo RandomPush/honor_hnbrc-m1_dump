@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="285077b112ac73278cd3b82f2ad26eac">
+  <dict>
+    <!--2023-01-31 11:57:09.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2023-01-31 11:57:09.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:57:09.000-->
+    <string key="virtualnet_operatorname">Sberbank</string>
+  </dict>
+</config>

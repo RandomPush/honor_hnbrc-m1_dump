@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="91ab1f6d20a3c947b9ae8ae79413dd9c">
+  <dict>
+    <!--2023-01-31 11:42:49.000-->
+    <int key="default_always_allow_mms_by_mccmnc">0</int>
+    <!--2023-01-31 11:42:49.000-->
+    <bool key="hn_stk_display_without_setupmenu">true</bool>
+  </dict>
+</config>

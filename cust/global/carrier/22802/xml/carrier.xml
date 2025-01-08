@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="9f4532f7c843cebf20ca30c1e8d00170">
+  <dict>
+    <!--2023-01-31 11:42:26.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:42:26.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:42:26.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:42:26.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:42:26.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:42:26.000-->
+    <string key="voicemail_carrier">Sunrise</string>
+    <!--2023-01-31 11:42:26.000-->
+    <string key="voicemail_number">+41763333333</string>
+    <!--2023-01-31 11:42:26.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

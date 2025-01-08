@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cb328cbacd97c5f4e4ecd69a9e1bb9e3">
+  <dict>
+    <!--2024-09-06 18:12:11.000-->
+    <bool key="hn_hide_lte">true</bool>
+    <!--2023-12-13 14:15:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-10-12 11:27:36.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

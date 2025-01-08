@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.dti.bouyguestelecom">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.ironsource.appcloud.oobe.hutchison">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.wizway.nfcagent">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.mobileiron">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="fr.bouyguestelecom.agent.companion">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.vodafone.vodafone360updates">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="fr.bouyguestelecom.ecm.android">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="al.myvodafone.android">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.zentity.vodafone">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.appseleration.android.selfcare">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="es.vodafone.mobile.mivodafone">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.myvodafoneapp">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.myvodafone.android">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="hu.vodafone.apps.myvodafone">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.VodafoneIreland.MyVodafone">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="it.vodafone.my190">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.vodafone.android">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.vodafone.mCare">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="ro.vodafone.mcare.android">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="za.co.vodacom.android.app">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.vodafone.smhs">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.vodafone.selfservis">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="be.belgacom.hello">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="fr.bouyguestelecom.vvmandroid">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.altice.android.myapps">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.orange.vvm">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.vodafone.vsosband">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">1</item>
+    <item name="autoAwakedBy">1</item>
+    <item name="background">0</item>
+  </package>
+  <package name="net.soti.mobicontrol.androidwork">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="net.soti.mobicontrol.enterprise.honor">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="de.hdd.telematik.pilot1000">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.tikle.turkcellGollerCepte">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.sfr.android.sfrjeux">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.orange.aura.oobe">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.aura.oobe.deutsche">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.dti.telefonica">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+</policy>

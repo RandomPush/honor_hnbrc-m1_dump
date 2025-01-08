@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="3e095d4f33ab175cbaa329cb8556b5b4">
+  <dict>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">Vodafone NL Wifi:EAP_AKA</string>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-09-26 15:17:54.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:43:46.000-->
+    <bool key="remove_apn_MVNO">true</bool>
+  </dict>
+</config>

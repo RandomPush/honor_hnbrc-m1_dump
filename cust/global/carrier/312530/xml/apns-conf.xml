@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="SPR Internet" mcc="312" mnc="530" apn="x.ispsn" user="" server="" password="" proxy="" port="" mmsproxy="oap7.sprintpcs.com" mmsport="80" mmsc="https://mms.sprintpcs.com" type="default, mms" bearer_bitmask="13|14" protocol="IPV4V6" mvno_type="gid" mvno_match_data="000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+  <apn carrier="SPR Roaming Internet" mcc="312" mnc="530" apn="cinet.spcs" user="" server="" password="" proxy="" port="" mmsproxy="oap7.sprintpcs.com" mmsport="80" mmsc="https://mms.sprintpcs.com" type="default, dun, fota, mms" bearer_bitmask="1|2|3|9|10|11|15|16" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+  <apn carrier="Sprint CDMA" mcc="312" mnc="530" apn="cdma" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="https://mms.sprintpcs.com" type="default,dun,fota,mms,bip,cbs,supl" bearer_bitmask="4|5|6|7|8|12" protocol="IP" roaming_protocol="IP" mvno_type="gid" mvno_match_data="000001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+</apns>

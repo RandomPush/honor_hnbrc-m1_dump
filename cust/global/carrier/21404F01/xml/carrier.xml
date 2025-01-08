@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="fd2aefa1222614ed09d7f649198b9672">
+  <dict>
+    <!--2023-01-31 11:48:52.000-->
+    <string key="SMSCAddress">+34622996111</string>
+    <!--2023-01-31 11:48:52.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:48:52.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:48:52.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:48:52.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:48:52.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:48:52.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2023-01-31 11:48:52.000-->
+    <string key="virtualnet_operatorname">Lycamobile</string>
+    <!--2023-01-31 11:48:52.000-->
+    <string key="voicemail_carrier">Lycamobile</string>
+    <!--2023-01-31 11:48:52.000-->
+    <string key="voicemail_number">121</string>
+    <!--2023-01-31 11:48:52.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

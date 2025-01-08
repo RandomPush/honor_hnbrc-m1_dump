@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ad2006a582e5c28ebf57ec4837d08a50">
+  <dict>
+    <!--2023-06-30 16:41:28.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-03-05 14:33:56.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2024-03-05 14:33:56.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">3</int>
+    <!--2023-06-30 16:41:28.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2024-03-05 14:33:56.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-03-05 14:33:56.000-->
+    <string key="carrier_vowifi_title">Wifi Calling</string>
+    <!--2024-03-05 14:33:56.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:43:46.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2024-03-05 14:33:56.000-->
+    <string key="wfc_format_wifi_string">%1$s VoWiFi</string>
+    <!--2024-03-05 14:33:56.000-->
+    <string key="wfc_spn_string">Proximus</string>
+  </dict>
+</config>

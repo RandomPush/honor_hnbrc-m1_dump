@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Idea_Internet"
+    mcc="405"
+    mnc="847"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="IDEA GPRS"
+    mcc="405"
+    mnc="847"
+    apn="imis"
+    user=""
+    server=""
+    password=""
+    proxy="10.4.42.15"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

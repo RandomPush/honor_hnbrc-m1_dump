@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="68f0b087b3f4d2dda0a1e76cd7d77b6d">
+  <dict>
+    <!--2023-01-31 11:52:29.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:52:29.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:52:29.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:52:29.000-->
+    <string key="voicemail_carrier">AmazoniaC</string>
+    <!--2023-01-31 11:52:29.000-->
+    <string key="voicemail_number">*100</string>
+    <!--2023-01-31 11:52:29.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

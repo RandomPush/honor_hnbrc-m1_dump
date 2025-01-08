@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="9865ef19c61ff7c0f35edf3efbca57a3">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23430</string>
+        <string key="sim_mccmnc">23408</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">BT OnePhone UK</string>
+        <string key="plmn">BT OnePhone UK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23433</string>
+        <string key="sim_mccmnc">23408</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">BT OnePhone UK</string>
+        <string key="plmn">BT OnePhone UK</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23408</string>
+        <string key="sim_mccmnc">23408</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">BT OnePhone</string>
+        <string key="plmn">BT OnePhone</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

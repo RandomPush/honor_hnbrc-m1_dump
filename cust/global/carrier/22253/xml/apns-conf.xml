@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="WEB CoopVoce" mcc="222" mnc="53" apn="internet.coopvoce.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,dun" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="MMS CoopVoce" mcc="222" mnc="53" apn="message.coopvoce.it" user="" server="" password="" proxy="" port="" mmsproxy="213.230.130.89" mmsport="80" mmsc="http://mms.coop.it/servlets/mms" type="mms" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="222" mnc="53" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Xcap" mcc="222" mnc="53" apn="xcap.coopvoce.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

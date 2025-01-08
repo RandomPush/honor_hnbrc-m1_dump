@@ -1,0 +1,60 @@
+# 2023-01-31 11:42:12.000
+gsm.sigcust.gsm=5,false,-109,-105,-98,-91,-85
+# 2023-01-31 11:42:12.000
+gsm.sigcust.lte=5,false,-124,-117,-109,-104,-94
+# 2023-01-31 11:42:12.000
+gsm.sigcust.umts=5,false,-120,-108,-102,-96,-88
+# 2023-01-31 11:42:12.000
+msc.config.mmi_code=0,00,*0,*1,*2,*3,*4,*5,*6,*7,*8,*9,#0,#1,#2,#3,#4,#5,#6,#7,#8,#9
+# 2023-01-31 11:42:12.000
+msc.config.mmi_ignore_list=*272#911
+# 2023-01-31 11:42:12.000
+msc.config.opta=567
+# 2023-01-31 11:42:12.000
+msc.config.optb=840
+# 2023-01-31 11:42:12.000
+msc.config.power_voice_key=false
+# 2023-01-31 11:42:12.000
+msc.config.sim_activation=true
+# 2023-01-31 11:42:12.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:42:12.000
+msc.power.fdtimer_screenOff=3000
+# 2023-01-31 11:42:12.000
+msc.power.fdtimer_screenOn=-1
+# 2023-01-31 11:42:12.000
+mscw.net.tcp.buffersize.hspa=460800,460800,734003,16777,100663,301990
+# 2023-01-31 11:42:12.000
+mscw.net.tcp.buffersize.lte=2560000,4194304,8388608,262144,524288,1048576
+# 2023-01-31 11:42:12.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:42:12.000
+ro.config.att.tone=true
+# 2023-01-31 11:42:12.000
+ro.config.bundle_opta_mnc=239
+# 2023-01-31 11:42:12.000
+ro.config.bundle_optb_mnc=362
+# 2023-01-31 11:42:12.000
+ro.config.bundle_optx_mnc=55
+# 2023-01-31 11:42:12.000
+ro.config.csp_enable=true
+# 2023-01-31 11:42:12.000
+ro.config.delay_setapn=true
+# 2023-01-31 11:42:12.000
+ro.config.keyguard_unusedata=true
+# 2023-01-31 11:42:12.000
+ro.config.music_region=lowfreq
+# 2023-01-31 11:42:12.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:42:12.000
+ro.config.voice_cfg=normal
+# 2023-01-31 11:42:12.000
+ro.odm.gsm.fastdormancy.mode=3
+# 2023-01-31 11:42:12.000
+ro.odm.gsm.fd.screen=2
+# 2023-01-31 11:42:12.000
+ro.odm.gsm.fd.time_scroff=3000
+# 2023-01-31 11:42:12.000
+ro.product.CustCVersion=C567
+# 2023-01-31 11:42:12.000
+ro.vendor.config.camera.region=bm

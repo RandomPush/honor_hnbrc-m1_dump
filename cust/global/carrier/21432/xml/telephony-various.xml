@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="4926a69c8c0f6ceee893da3cf2145b26">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21432</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">tuenti</string>
+        <string key="plmn">tuenti</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

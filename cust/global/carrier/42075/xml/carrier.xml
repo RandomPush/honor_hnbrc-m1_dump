@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="52e75f34e90a13cc5455f38b4c74aaaf">
+  <dict>
+    <!--2023-01-31 11:55:16.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:55:16.000-->
+    <int key="num_match_short">9</int>
+    <!--2023-01-31 11:55:16.000-->
+    <string key="optimized_for_configD">32,72</string>
+  </dict>
+</config>

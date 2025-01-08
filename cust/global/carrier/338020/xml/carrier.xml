@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="38f533e2236139b529a3f08344552925">
+  <dict>
+    <!--2023-01-31 11:39:15.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:39:15.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:39:15.000-->
+    <string key="voicemail_carrier">Caricel</string>
+    <!--2023-01-31 11:39:15.000-->
+    <string key="voicemail_number">123</string>
+    <!--2023-01-31 11:39:15.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

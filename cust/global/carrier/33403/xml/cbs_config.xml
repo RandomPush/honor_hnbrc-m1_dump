@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="e26cecbe33e2dd9930e4d4ba3c44c46b">
+  <dict>
+    <array key="predefined_settings_range_strings">
+      <string>0x32:rat=gsm, emergency=false, title=all||Promociones Movistar</string>
+      <string>0x397:rat=gsm, emergency=true</string>
+    </array>
+  </dict>
+</config>

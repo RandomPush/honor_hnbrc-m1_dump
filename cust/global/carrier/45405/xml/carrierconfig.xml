@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="759b27403c7b57d70875f43bb84261a7">
+  <dict>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <int key="carrier_default_wfc_ims_mode_int">2</int>
+    <!--2023-01-31 11:41:31.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">2</int>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="carrier_need_check_location_bool">true</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="carrier_need_check_wifi_bool">false</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2023-01-31 11:41:31.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:41:31.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:41:31.000-->
+    <string key="carrier_vowifi_title">VoWiFi</string>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="remind_close_vowifi_when_close_location">true</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="show_vowifi_register_style">true</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="vowifi_pref_domestic">true</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="vowifi_pref_roaming">true</bool>
+    <!--2023-01-31 11:41:31.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2023-01-31 11:41:31.000-->
+    <bool key="wfc_is_show_air_plane">true</bool>
+  </dict>
+</config>

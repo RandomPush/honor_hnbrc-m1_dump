@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="8feecc168534f64b1d2768e8d9b8035d">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23420</string>
+        <string key="sim_mccmnc">27202</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">3 UK</string>
+        <string key="plmn">3 UK</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

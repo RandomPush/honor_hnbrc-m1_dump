@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Movistar INTERNET"
+    mcc="734"
+    mnc="04"
+    apn="internet.movistar.ve"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    protocol="IPV4V6"
+  />
+  <apn carrier="Movistar MMS"
+    mcc="734"
+    mnc="04"
+    apn="mms.movistar.ve"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="200.35.64.73"
+    mmsport="9001"
+    mmsc="http://mms.movistar.com.ve:8088/mms"
+    type="mms"
+    protocol="IPV4V6"
+  />
+</apns>

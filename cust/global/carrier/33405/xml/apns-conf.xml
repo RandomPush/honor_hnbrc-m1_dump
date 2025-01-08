@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="334" mnc="05" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Internet" mcc="334" mnc="05" apn="web.attmex.mx" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Location" mcc="334" mnc="05" apn="supl.attmex.mx" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="supl" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Modem" mcc="334" mnc="05" apn="modem.attmex.mx" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="MMS" mcc="334" mnc="05" apn="mms.attmex.mx" user="" server="" password="" proxy="" port="" mmsproxy="129.192.129.104" mmsport="8080" mmsc="http://mms.att.com.mx" type="mms" protocol="IP"/>
+</apns>

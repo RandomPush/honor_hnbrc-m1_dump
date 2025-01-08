@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet" mcc="297" mnc="02" apn="tmcg-4g" user="38267" server="" password="38267" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="HOS" mcc="297" mnc="02" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="297" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

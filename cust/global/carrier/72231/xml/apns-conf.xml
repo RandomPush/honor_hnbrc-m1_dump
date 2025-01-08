@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Claro AR"
+    mcc="722"
+    mnc="31"
+    apn="igprs.claro.com.ar"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.claro.com.ar"
+    type="default,supl,mms"
+  />
+</apns>

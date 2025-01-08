@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="ee67edcf4863e82b23ef10e0638efdab">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">21403</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">26803</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">NOS P</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">26806</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">P MEO</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">26801</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">vodafone P</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20810</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">F SFR</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20820</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">F-Bouygues Telecom</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20801</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">Orange F</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20815</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">F Free</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20811</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">F-SFR Femto</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">20823</string>
+        <string key="sim_mccmnc">21404</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">Yoigo</string>
+        <string key="plmn">F Virgin</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21407</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

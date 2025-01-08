@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Golan Telecom 3G"
+    mcc="425"
+    mnc="08"
+    apn="internet.golantelecom.net.il"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,dun"
+  />
+  <apn carrier="Golan Telecom MMS"
+    mcc="425"
+    mnc="08"
+    apn="mms.golantelecom.net.il"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.224.228.81"
+    mmsport="80"
+    mmsc="http://mmsc.golantelecom.co.il"
+    type="mms"
+  />
+</apns>

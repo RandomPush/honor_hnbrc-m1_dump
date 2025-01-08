@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VOO Internet" mcc="206" mnc="08" apn="internet.voo.be" user="" server="http://www.voo.be" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1"/>
+</apns>

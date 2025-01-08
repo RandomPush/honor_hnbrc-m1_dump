@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Internet"
+    mcc="404"
+    mnc="21"
+    apn="www"
+    user="919016794040"
+    server=""
+    password="mmsc"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="WAP"
+    mcc="404"
+    mnc="21"
+    apn="mizone"
+    user="919821099800"
+    server=""
+    password="mmsc"
+    proxy="10.0.0.10"
+    port="9401"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="MMS"
+    mcc="404"
+    mnc="21"
+    apn="mizone"
+    user="919821099800"
+    server=""
+    password="mmsc"
+    proxy=""
+    port=""
+    mmsproxy="10.0.0.10"
+    mmsport="9401"
+    mmsc="http://mms.loopmobile.in:8080"
+    type="mms"
+  />
+</apns>

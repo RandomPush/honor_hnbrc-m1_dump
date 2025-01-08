@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Lebara" mcc="238" mnc="02" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Lebara MMS" mcc="238" mnc="02" apn="mms.lebara.dk" user="" server="" password="" proxy="" port="" mmsproxy="212.88.64.8" mmsport="8080" mmsc="http://mms.telenor.dk" type="mms"/>
+  <apn carrier="ims" mcc="238" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="hos" mcc="238" mnc="02" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="VoWifi Xcap" mcc="238" mnc="02" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IP" roaming_protocol="IP"/>
+</apns>

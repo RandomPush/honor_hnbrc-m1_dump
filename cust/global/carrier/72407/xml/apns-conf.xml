@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="SCTL GPRS"
+    mcc="724"
+    mnc="07"
+    apn="sercomtel.com.br"
+    user="sercomtel"
+    server=""
+    password="sercomtel"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

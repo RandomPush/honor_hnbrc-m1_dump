@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="135d15212fd55fa8d4746fcdcee1b28e">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Internet Móvil</string>
+              <string key="url">http://wap.entelpcs.cl</string>
+            </dict>
+            <dict>
+              <string key="title">Sucursal Virtual</string>
+              <string key="url">http://m.entelpcs.cl</string>
+            </dict>
+            <dict>
+              <string key="title">Música</string>
+              <string key="url">http://portalwap.vas.entelpcs.cl/portalwap/musica.htm</string>
+            </dict>
+            <dict>
+              <string key="title">Juegos</string>
+              <string key="url">http://portalwap.vas.entelpcs.cl/portalwap/juegos.htm</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

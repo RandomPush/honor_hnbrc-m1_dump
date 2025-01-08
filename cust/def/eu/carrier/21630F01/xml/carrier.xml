@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d3c1fd33c399f5b493c86109f9fb5c29">
+  <dict>
+    <!--2023-01-31 11:43:58.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2023-01-31 11:43:58.000-->
+    <int key="set_new_apn_port">8080</int>
+  </dict>
+</config>

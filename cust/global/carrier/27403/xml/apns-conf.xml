@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Vodafone Internet"
+    mcc="274"
+    mnc="03"
+    apn="gprs.is"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl,fota,dun"
+    authtype="0"
+  />
+</apns>

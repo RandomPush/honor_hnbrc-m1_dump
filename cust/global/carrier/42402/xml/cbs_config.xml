@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="e232f7527ab9123e8af90bddd6cc3b40">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112-0x1112:rat=gsm, emergency=true, title=all||تحذير طارئ وطني</string>
+      <string>0x111F-0x111F:rat=gsm, emergency=true, title=all||National Emergency Alert</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113-0x1114:rat=gsm, emergency=true, title=all||تحذير طارئ</string>
+      <string>0x1120-0x1121:rat=gsm, emergency=true, title=all||Emergency Alert</string>
+    </array>
+    <array key="cmas_alerts_severe_range_strings">
+      <string>0x1115-0x111A:rat=gsm, emergency=true, title=all||تحذير طارئ</string>
+      <string>0x1122-0x1127:rat=gsm, emergency=true, title=all||Emergency Alert</string>
+    </array>
+    <array key="cmas_amber_alerts_channels_range_strings">
+      <string>0x111B-0x111B:rat=gsm, emergency=true, title=all||رسالة تحذيرية</string>
+      <string>0x1128-0x1128:rat=gsm, emergency=true, title=all||Warning Alert</string>
+    </array>
+    <array key="required_monthly_test_range_strings">
+      <string>0x111C-0x111C:rat=gsm, type=sms, emergency=true, hidemessage=true, title=all||رسالة تجريبية</string>
+      <string>0x1129-0x1129:rat=gsm, type=sms, emergency=true, hidemessage=true, title=all||Test Alert</string>
+    </array>
+    <array key="exercise_alert_range_strings"/>
+    <array key="additional_cbs_channels_strings">
+      <string>0x111D-0x111D:rat=gsm, emergency=true, title=all||تمرين</string>
+      <string>0x112A-0x112A:rat=gsm, emergency=true, title=all||Exercise</string>
+    </array>
+    <array key="public_safety_messages_channels_range_strings">
+      <string>0x112C-0x112C:rat=gsm, type=sms, emergency=true, title=all||تحذير: السلامة العامة</string>
+      <string>0x112D-0x112D:rat=gsm, type=sms, emergency=true, title=all||Public Safety Alert</string>
+    </array>
+  </dict>
+</config>

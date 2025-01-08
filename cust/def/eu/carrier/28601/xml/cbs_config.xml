@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="33c1f5ccb9580d33165cc3650e100bf8">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113-0x111A:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_alerts_severe_range_strings"/>
+    <array key="cmas_amber_alerts_channels_range_strings">
+      <string>0x111B:rat=gsm, emergency=true</string>
+    </array>
+    <array key="required_monthly_test_range_strings"/>
+    <array key="exercise_alert_range_strings"/>
+    <array key="operator_defined_alert_range_strings">
+      <string>0x111C-0x111E:rat=gsm, emergency=true</string>
+    </array>
+  </dict>
+</config>

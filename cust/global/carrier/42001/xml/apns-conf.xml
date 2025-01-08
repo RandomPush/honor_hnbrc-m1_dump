@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="STC Internet" mcc="420" mnc="01" apn="jawalnet.com.sa" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="STC mms" mcc="420" mnc="01" apn="mms.net.sa" user="" server="" password="" proxy="" port="" mmsproxy="10.1.1.1" mmsport="8080" mmsc="http://mms.net.sa:8002" type="mms" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"/>
+  <apn carrier="ims" mcc="420" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

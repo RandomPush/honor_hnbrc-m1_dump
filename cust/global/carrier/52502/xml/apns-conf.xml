@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="IDEAS" mcc="525" mnc="02" apn="e-ideas" user="65IDEAS" server="" password="65IDEAS" proxy="" port="" mmsproxy="165.21.42.84" mmsport="8080" mmsc="http://mms.singtel.com:10021/mmsc" type="default,supl,mms" authtype="1" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="525" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Singtel SG" mcc="525" mnc="02" apn="stm-ut" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV6" roaming_protocol="IPV4V6"/>
+</apns>

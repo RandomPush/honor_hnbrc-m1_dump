@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Orange" mcc="617" mnc="01" apn="orange" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Orange GPRS/EDGE" mcc="617" mnc="01" apn="orangeworld" user="" server="" password="" proxy="10.20.3.9" port="8080" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Orange internet" mcc="617" mnc="01" apn="orange" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Orange MMS" mcc="617" mnc="01" apn="orangemms" user="mmsc" server="" password="mmsc" proxy="" port="" mmsproxy="10.2.1.20" mmsport="8080" mmsc="http://10.2.1.20:8514" type="mms"/>
+  <apn carrier="ims" mcc="617" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+</apns>

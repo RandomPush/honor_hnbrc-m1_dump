@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="04cd3202e79993c587ad8c0c3d22d471">
+  <dict>
+    <!--2023-01-31 11:50:45.000-->
+    <bool key="carrier_popup_disable">true</bool>
+    <!--2023-01-31 11:50:45.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:50:45.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:50:45.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:50:45.000-->
+    <string key="voicemail_carrier">GTD</string>
+    <!--2023-01-31 11:50:45.000-->
+    <string key="voicemail_number">100</string>
+    <!--2023-01-31 11:50:45.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

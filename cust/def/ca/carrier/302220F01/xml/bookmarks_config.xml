@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="0ffa5a233580dd1ba8dab109fb598ad1">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">TELUS Web</string>
+              <string key="url">http://www.telusmobility.com</string>
+            </dict>
+            <dict>
+              <string key="title">TELUS</string>
+              <string key="url">http://www.telus.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

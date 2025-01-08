@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="reddi" mcc="452" mnc="09" apn="m9-reddi" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

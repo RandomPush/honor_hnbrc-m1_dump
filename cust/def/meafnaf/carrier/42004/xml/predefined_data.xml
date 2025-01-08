@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>HONOR Customer Service</name>
+    <phone>
+      <detail>8008440443</detail>
+    </phone>
+    <phone>
+      <detail>+966533685588</detail>
+      <type>WhatsApp</type>
+    </phone>
+    <email>
+      <detail>sa.support@honor.com</detail>
+    </email>
+    <company>Saudi Arabia</company>
+    <care>true</care>
+  </contact>
+</datainitializor>

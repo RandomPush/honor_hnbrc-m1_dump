@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="28a236e91706f0b4a2314a98537cedc9">
+  <dict>
+    <!--2023-01-31 11:42:33.000-->
+    <string key="hn_replace_country_code">+61</string>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:42:33.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

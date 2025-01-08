@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Euskaltel Internet" mcc="214" mnc="03" apn="internet.euskaltel.mobi" user="CLIENTE" server="" password="EUSKALTEL" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1"/>
+  <apn carrier="Euskaltel MMS" mcc="214" mnc="03" apn="euskaltelmms.euskaltel.mobi" user="MMS" server="" password="EUSKALTEL" proxy="" port="" mmsproxy="172.16.18.74" mmsport="8080" mmsc="http://mms.euskaltel.mobi" type="mms" authtype="1"/>
+  <apn carrier="VoWifi Xcap" mcc="214" mnc="03" apn="vowifiorange" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

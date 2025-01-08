@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Haiti:Digicel:Internet"
+    mcc="372"
+    mnc="02"
+    apn="wap.digicelha.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="1"
+  />
+</apns>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="internet" mcc="262" mnc="23" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="MMS" mcc="262" mnc="23" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="2a00:0fbc:2200:c999:0109:1f87:2:1" mmsport="80" mmsc="http://mms.1und1-mobilfunk.de/" type="mms" protocol="IPV6" roaming_protocol="IPV6"/>
+  <apn carrier="XCAP" mcc="262" mnc="23" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="262" mnc="23" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

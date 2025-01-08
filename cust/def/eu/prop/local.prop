@@ -1,0 +1,118 @@
+# 2023-01-31 11:42:04.000
+drm.service.enabled=true
+# 2023-01-31 11:42:04.000
+msc.camera.def_beauty_level=0
+# 2023-01-31 11:42:04.000
+msc.camera.default_back_mode=com.hihonor.camera2.mode.photo.PhotoMode
+# 2023-01-31 11:42:04.000
+msc.camera.support_gesture_capture=false
+# 2023-01-31 11:42:04.000
+msc.config.BH_defaultlanguage=true
+# 2023-01-31 11:42:04.000
+msc.config.allow_rs_mms=true
+# 2023-01-31 11:42:04.000
+msc.config.always_allow_mms=6
+# 2023-01-31 11:42:04.000
+msc.config.delay_detach_time=5
+# 2023-01-31 11:42:04.000
+msc.config.ecc_with_sim_card=true
+# 2023-01-31 11:42:04.000
+msc.config.is_pre_post_pay=true
+# 2023-01-31 11:42:04.000
+msc.config.nfc_def_route=2
+# 2023-01-31 11:42:04.000
+msc.config.nfc_on=true
+# 2023-01-31 11:42:04.000
+msc.config.omacp=1
+# 2023-01-31 11:42:04.000
+msc.config.opta=432
+# 2023-01-31 11:42:04.000
+msc.config.optb=999
+# 2023-01-31 11:42:04.000
+msc.config.rcs_vendor=true
+# 2023-01-31 11:42:04.000
+msc.config.region=eu
+# 2023-01-31 11:42:04.000
+msc.config.show_no_sim=false
+# 2023-01-31 11:42:04.000
+msc.config.support_vm_ecc=true
+# 2023-01-31 11:42:04.000
+msc.cust.drm.fl_only=false
+# 2023-01-31 11:42:04.000
+msc.cust.oma=true
+# 2023-01-31 11:42:04.000
+msc.cust.oma_drm=true
+# 2023-01-31 11:42:04.000
+msc.feature_nsa_nodata_release_scg=true
+# 2023-01-31 11:42:04.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:42:04.000
+msc.power.fdtimer_screenOff=4000
+# 2023-01-31 11:42:04.000
+msc.power.fdtimer_screenOn=10000
+# 2023-01-31 11:42:04.000
+msc.suw.skip_deviceProtect_dlg=true
+# 2023-01-31 11:42:04.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:42:04.000
+ro.camera.front_ai_default=off
+# 2023-01-31 11:42:04.000
+ro.camera.master_ai_default=off
+# 2023-01-31 11:42:04.000
+ro.config.CphsOnsEnabled=false
+# 2023-01-31 11:42:04.000
+ro.config.amr_wb_show_hd=true
+# 2023-01-31 11:42:04.000
+ro.config.amr_wb_show_hd_volte=true
+# 2023-01-31 11:42:04.000
+ro.config.attach_apn_enabled=true
+# 2023-01-31 11:42:04.000
+ro.config.auto_hide_operatorname=true
+# 2023-01-31 11:42:04.000
+ro.config.bundle_opta_mnc=223
+# 2023-01-31 11:42:04.000
+ro.config.bundle_optb_mnc=365
+# 2023-01-31 11:42:04.000
+ro.config.bundle_optx_mnc=125
+# 2023-01-31 11:42:04.000
+ro.config.ce_authenticate=1
+# 2023-01-31 11:42:04.000
+ro.config.custom_short_codes=true
+# 2023-01-31 11:42:04.000
+ro.config.delay_updatename=true
+# 2023-01-31 11:42:04.000
+ro.config.device_time_for_mms=true
+# 2023-01-31 11:42:04.000
+ro.config.dualimsi.disableap=true
+# 2023-01-31 11:42:04.000
+ro.config.force_auto_plmn=20815
+# 2023-01-31 11:42:04.000
+ro.config.keyguard_unusedata=false
+# 2023-01-31 11:42:04.000
+ro.config.music_region=balance
+# 2023-01-31 11:42:04.000
+ro.config.readiccid_switch=true
+# 2023-06-13 16:01:58.000
+ro.config.show_data_act_all_apn=false
+# 2023-01-31 11:42:04.000
+ro.config.support_ca=false
+# 2023-01-31 11:42:04.000
+ro.config.use_google_smartlock=true
+# 2023-01-31 11:42:04.000
+ro.config.ussd_linkify=true
+# 2023-01-31 11:42:04.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:42:04.000
+ro.odm.gsm.fastdormancy.mode=1
+# 2023-01-31 11:42:04.000
+ro.odm.gsm.fd.screen=3
+# 2023-01-31 11:42:04.000
+ro.odm.rp_ack_tpdu_plmn=20820,20801
+# 2023-01-31 11:42:04.000
+ro.product.CustCVersion=C432
+# 2023-01-31 11:42:04.000
+ro.product.locale=en-GB
+# 2023-01-31 11:42:04.000
+ro.vendor.config.camera.region=oz
+# 2023-01-31 11:42:04.000
+vendor.msc.radio.temperature_close_nr=1

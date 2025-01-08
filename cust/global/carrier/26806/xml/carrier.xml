@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d6c76f997db399df9d978c70afe98a9e">
+  <dict>
+    <!--2024-01-31 14:27:11.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2024-04-01 18:03:09.000-->
+    <string key="hn_networkname_normal">all,HSDPA:H;GSM:2G;DCS:2G</string>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:50:13.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="sms_coding_national">3</int>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="voicemail_carrier">TMN</string>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="voicemail_number">+351962000000</string>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

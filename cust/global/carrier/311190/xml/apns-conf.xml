@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Cell One Wap"
+    mcc="311"
+    mnc="190"
+    apn="wap.cellular1.net"
+    user=""
+    server=""
+    password=""
+    proxy="10.10.0.97"
+    port="9201"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Cell One MMS"
+    mcc="311"
+    mnc="190"
+    apn="mms.cellular1.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.10.0.97"
+    mmsport="9201"
+    mmsc="http://mms.cellular1.net/ecit/mms.php"
+    type="mms"
+  />
+</apns>

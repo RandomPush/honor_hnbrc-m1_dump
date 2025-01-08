@@ -1,0 +1,64 @@
+# 2024-09-20 11:19:11.000
+msc.callrecord.play_tone=1
+# 2023-01-31 11:43:55.000
+msc.config.TW_emergencyNum=true
+# 2023-01-31 11:43:55.000
+msc.config.nfc_def_route=2
+# 2023-01-31 11:43:55.000
+msc.config.not_modify_wifi=Singtel WIFI,Wireless@SGx
+# 2023-01-31 11:43:55.000
+msc.config.omacp=1
+# 2023-01-31 11:43:55.000
+msc.config.opta=636
+# 2023-01-31 11:43:55.000
+msc.config.optb=999
+# 2023-01-31 11:43:55.000
+msc.config.region=spcseas
+# 2023-01-31 11:43:55.000
+msc.config.show_no_sim=false
+# 2023-01-31 11:43:55.000
+msc.config.support_vm_ecc=true
+# 2023-10-30 16:23:40.000
+msc.phone.mcc_list_show_ussd_on_call=454
+# 2023-01-31 11:43:55.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:43:55.000
+msc.power.fdtimer_screenOff=4000
+# 2023-01-31 11:43:55.000
+msc.power.fdtimer_screenOn=10000
+# 2023-01-31 11:43:55.000
+msc.pp.ds_fail=111
+# 2023-01-31 11:43:55.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:43:55.000
+ro.config.CphsOnsEnabled=false
+# 2023-01-31 11:43:55.000
+ro.config.bundle_opta_mnc=247
+# 2023-01-31 11:43:55.000
+ro.config.bundle_optb_mnc=365
+# 2023-01-31 11:43:55.000
+ro.config.bundle_optx_mnc=61
+# 2023-01-31 11:43:55.000
+ro.config.delay_updatename=true
+# 2023-01-31 11:43:55.000
+ro.config.keyguard_unusedata=false
+# 2023-01-31 11:43:55.000
+ro.config.music_region=normal
+# 2023-01-31 11:43:55.000
+ro.config.ride_mode=true
+# 2023-01-31 11:43:55.000
+ro.config.use_google_smartlock=true
+# 2023-01-31 11:43:55.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:43:55.000
+ro.config.voice_cfg=force
+# 2023-01-31 11:43:55.000
+ro.odm.gsm.fastdormancy.mode=1
+# 2023-01-31 11:43:55.000
+ro.product.CustCVersion=C636
+# 2023-01-31 11:43:55.000
+ro.product.locale=en-GB
+# 2023-01-31 11:43:55.000
+ro.sysui.plmn.cust=rcm
+# 2023-01-31 11:43:55.000
+ro.vendor.config.camera.region=ntdny

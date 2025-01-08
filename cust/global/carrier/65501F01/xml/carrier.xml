@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1ee2ecb88b0b17e877b48f7c8bd1445d">
+  <dict>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="SMSCAddress">+27829129</string>
+    <!--2023-01-31 11:47:48.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:47:48.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2023-01-31 11:47:48.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:47:48.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:47:48.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="virtualnet_operatorname">Vodacom SA</string>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="voicemail_carrier">Vodacom</string>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="voicemail_number">132</string>
+    <!--2023-01-31 11:47:48.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Gamma Data"
+    mcc="234"
+    mnc="39"
+    apn="gamma.co.uk"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="164.39.236.69"
+    mmsport="80"
+    mmsc="http://mms.gamma.co.uk/servlets/mms"
+    type="default,mms"
+    protocol="IP"
+    roaming_protocol="IP"
+  />
+</apns>

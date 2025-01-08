@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b2a7edde498a8e7f8d0cf079c1acdcbb">
+  <dict>
+    <!--2023-01-31 11:43:33.000-->
+    <bool key="hn_ussd_message_sound">true</bool>
+  </dict>
+</config>

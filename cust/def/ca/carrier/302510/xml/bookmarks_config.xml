@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="80b4a27eda43a750782eca4a82ef2537">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Portail Vidéotron</string>
+              <string key="url">http://m.videotron.com</string>
+            </dict>
+            <dict>
+              <string key="title">Journal de Montréal</string>
+              <string key="url">http://m.journaldemontreal.com</string>
+            </dict>
+            <dict>
+              <string key="title">Journal de Québec</string>
+              <string key="url">http://m.journaldequebec.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

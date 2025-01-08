@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="04c94b03cba9ecfcccf8a90986e4744d">
+  <dict>
+    <!--2023-01-31 11:53:53.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:53:53.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:53:53.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:53:53.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2023-01-31 11:53:53.000-->
+    <string key="virtualnet_operatorname">Operador</string>
+  </dict>
+</config>

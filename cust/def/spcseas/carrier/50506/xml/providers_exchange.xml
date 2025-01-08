@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers_product>
+  <provider id="techmahindra" label="techmahindra" domain="techmahindra.com">
+    <incoming uri="eas+ssl://mail1.techmahindra.com:443" username="$user" field="techmahindra"/>
+    <outgoing uri="eas+ssl://mail1.techmahindra.com:443" username="$user"/>
+  </provider>
+</providers_product>

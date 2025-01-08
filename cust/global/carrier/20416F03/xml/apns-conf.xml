@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Ben internet"
+    mcc="204"
+    mnc="16"
+    apn="internet.ben"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+  />
+  <apn carrier="Ben MMS"
+    mcc="204"
+    mnc="16"
+    apn="mms.ben"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="010.010.010.011"
+    mmsport="8080"
+    mmsc="http://benmms"
+    type="mms"
+    authtype="1"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+  />
+</apns>

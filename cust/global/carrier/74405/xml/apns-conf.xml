@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Personal Internet" mcc="744" mnc="05" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Personal MMS" mcc="744" mnc="05" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="172.16.192.7" mmsport="8080" mmsc="http://mms" type="mms" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Personal IMS" mcc="744" mnc="05" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Personal UT" mcc="744" mnc="05" apn="ut" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IP"/>
+</apns>

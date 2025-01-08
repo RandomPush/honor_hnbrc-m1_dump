@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="LTE - Test Internet"
+    mcc="310"
+    mnc="332"
+    apn="usccinternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,dun,supl,ia"
+    protocol="IPV4V6"
+  />
+</apns>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Eastlink MMS" mcc="302" mnc="270" apn="mms.mobi.eastlink.ca" user="" server="" password="" proxy="" port="" mmsproxy="10.232.12.49" mmsport="8080" mmsc="http://mmss.mobi.eastlink.ca" type="mms" mvno_type="gid" mvno_match_data="B6"/>
+  <apn carrier="Eastlink Internet" mcc="302" mnc="270" apn="wisp.mobi.eastlink.ca" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" mvno_type="gid" mvno_match_data="B6"/>
+</apns>

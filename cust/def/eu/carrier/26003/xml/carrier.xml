@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="50ec0d7c775c3db2295551a7da1ff89a">
+  <dict>
+    <!--2023-01-31 11:41:25.000-->
+    <string key="hn_4g_custom_display_for_switch">4G:LTE</string>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="hn_callforward_networkname">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="hn_not_show_impu">true</bool>
+    <!--2023-09-26 15:17:40.000-->
+    <bool key="hn_stk_blank_dialog_title">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="hn_stk_calling_show_text">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="hn_stk_home_back">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="hn_stk_show_cancel_button">true</bool>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-09-26 15:17:54.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:41:25.000-->
+    <bool key="stk_rsp_without_cfm">true</bool>
+  </dict>
+</config>

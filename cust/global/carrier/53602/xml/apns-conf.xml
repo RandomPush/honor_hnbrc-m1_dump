@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Digicel Pacific"
+    mcc="536"
+    mnc="02"
+    apn="web.digicelpacific.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="2"
+  />
+  <apn carrier="Digicel Pacific MMS"
+    mcc="536"
+    mnc="02"
+    apn="wap.digicelpacific.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.150.122.12"
+    mmsport="8080"
+    mmsc="http://mms.digicelpacific.com:8990"
+    type="mms"
+  />
+</apns>

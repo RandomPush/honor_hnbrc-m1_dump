@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Bakcell Internet" mcc="400" mnc="02" apn="internet.bakcell.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Bakcell MMS" mcc="400" mnc="02" apn="mms.bakcell.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="8080" mmsc="mmsc.bakcell.com" type="mms"/>
+  <apn carrier="Bakcell IMS" mcc="400" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Bakcell XCAP" mcc="400" mnc="02" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

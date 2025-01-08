@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="021dbf33a64154015af01749f29abb1a">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">23866</string>
+        <string key="sim_mccmnc">23802</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor DK</string>
+        <string key="plmn">Telenor DK</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

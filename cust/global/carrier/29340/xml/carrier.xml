@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cd64965b1937d78c5f04f1c0bdfb86a7">
+  <dict>
+    <!--2023-01-31 11:44:31.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2023-01-31 11:44:31.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:44:31.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:44:31.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:44:31.000-->
+    <bool key="support_vn_ecc">true</bool>
+  </dict>
+</config>

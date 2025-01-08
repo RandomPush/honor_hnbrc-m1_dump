@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="71b5b31b42ad936fc4ddd57bce1edd3d">
+  <dict>
+    <!--2023-01-31 11:41:38.000-->
+    <string key="default_protocol">IPV4V6</string>
+    <!--2023-01-31 11:41:38.000-->
+    <string key="hn_4g_custom_display_for_switch">4G:LTE</string>
+    <!--2023-01-31 11:41:38.000-->
+    <string key="roaming_protocol">IPV4V6</string>
+  </dict>
+</config>

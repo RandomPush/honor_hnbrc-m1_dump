@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="1O1O" mcc="454" mnc="00" apn="mobile" user="" server="" password="" proxy="" port="" mmsproxy="192.168.59.51" mmsport="8080" mmsc="http://192.168.58.171:8002" type="default,mms,hipri" authtype="3"/>
+  <apn carrier="1O1O IMS" mcc="454" mnc="00" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

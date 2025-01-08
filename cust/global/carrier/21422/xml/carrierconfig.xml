@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f61c71507ae7a7bac867ea6e7a4ec5c5">
+  <dict>
+    <!--2023-01-31 11:56:53.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:56:53.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:56:53.000-->
+    <string key="carrier_volte_hd_icon_flag">00100010</string>
+    <!--2023-01-31 11:56:53.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:56:53.000-->
+    <string key="carrier_vowifi_title">Wifi Calling</string>
+    <!--2023-12-12 15:07:50.000-->
+    <string key="hide_violence_number_from_mcc">34-016,34-900018018,34-024,34-017,34-021,34-116111,34-028,34-116000,34-900202010,34-0116111</string>
+    <!--2023-01-31 11:56:53.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+    <!--2023-01-31 11:56:53.000-->
+    <string key="wfc_format_wifi_string">%1$s VoWiFi</string>
+    <!--2023-01-31 11:56:53.000-->
+    <string key="wfc_spn_string">DIGI</string>
+  </dict>
+</config>

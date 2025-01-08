@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers_product >
+  <provider id="@Nauta" label="@Nauta" domain="nauta.cu">
+    <incoming uri="pop3://pop.nauta.cu:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtp.nauta.cu:25" username="$email"/>
+    <incoming uri="imap://imap.nauta.cu:143" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://smtp.nauta.cu:25" username="$email"/>
+  </provider>
+</providers_product>

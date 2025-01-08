@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Tele2 internet" mcc="246" mnc="03" apn="internet.tele2.lt" user="wap" server="" password="wap" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Tele2 MMS" mcc="246" mnc="03" apn="internet.tele2.lt" user="" server="" password="" proxy="" port="" mmsproxy="193.012.040.029" mmsport="8080" mmsc="http://mmsc.tele2.lt" type="mms"/>
+  <apn carrier="xcap" mcc="246" mnc="03" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="246" mnc="03" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

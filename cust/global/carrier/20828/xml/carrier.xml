@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0c9391b5d13779964d783117fcc19c10">
+  <dict>
+    <!--2023-01-31 11:42:15.000-->
+    <string key="voicemail_carrier">AIRMOB</string>
+    <!--2023-01-31 11:42:15.000-->
+    <string key="voicemail_number">777</string>
+    <!--2023-01-31 11:42:15.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="MediaTek" feature="运营商的 VoLTE 业务所需要的认证应用软件。" package="com.mediatek.ims" label="com.mediatek.ims">
+	</packageInfo>
+	<packageInfo author="MediaTek" package="com.mediatek.telephony" feature="同步数据业务开关状态、漫游状态，屏幕亮灭状态给底层modem。" label="com.mediatek.telephony">
+	</packageInfo>
+	<packageInfo author="谷歌" feature="随卡适配，配置 VoLTE、RCS、VoWiFi 等功能的参数。" package="com.android.carrierconfig" label="com.android.carrierconfig">
+	</packageInfo>
+	<packageInfo package="com.android.internal.systemui.navbar.threebutton" feature="谷歌三键导航资源" author="谷歌" label="com.android.internal.systemui.navbar.threebutton">
+	</packageInfo>
+	<packageInfo package="com.hihonor.securityserver" feature="安全特性的公共进程服务" author="荣耀终端有限公司" label="com.hihonor.securityserver">
+	</packageInfo>
+	<packageInfo package="com.mediatek.location.lppe.main" feature="提供系统AGPS相关服务。" author="联发科" label="com.mediatek.location.lppe.main">
+	</packageInfo>
+</packageList>

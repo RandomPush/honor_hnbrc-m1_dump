@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="0f67a9173dfa2c69cccf505d880a0aae">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">26207</string>
+        <string key="sim_mccmnc">26207520</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">LIDL MOBILE</string>
+        <string key="plmn">LIDL MOBILE</string>
+      </dict>
+    </array>
+  </dict>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f5686fac029a638d5d1ff713125cbccd">
+  <dict>
+    <!--2023-01-31 11:43:29.000-->
+    <string key="dend_data_self_cure_strategy">169:60:3:0</string>
+    <!--2024-04-23 18:10:28.000-->
+    <bool key="hn_supported_display_nr_5ga">true</bool>
+    <!--2023-01-31 11:43:29.000-->
+    <int key="num_match">11</int>
+    <!--2023-01-31 11:43:29.000-->
+    <int key="plmn_esm_flag">1</int>
+  </dict>
+</config>

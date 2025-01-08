@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Media" mcc="302" mnc="500" apn="media.ng" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MMS" mcc="302" mnc="500" apn="media.ng" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://media.videotron.com/" type="mms"/>
+  <apn carrier="Videotron Canada" mcc="302" mnc="500" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://media.videotron.com/" type="xcap,mms,vowifi_mms" protocol="IPV4V6"/>
+</apns>

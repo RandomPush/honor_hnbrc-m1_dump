@@ -1,0 +1,44 @@
+# 2023-01-31 11:42:16.000
+drm.service.enabled=false
+# 2024-07-18 16:53:33.000
+msc.callrecord.play_tone=1
+# 2023-01-31 11:42:16.000
+msc.config.opta=675
+# 2023-01-31 11:42:16.000
+msc.config.optb=356
+# 2023-01-31 11:42:16.000
+msc.cust.oma=false
+# 2023-01-31 11:42:16.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:42:16.000
+msc.power.fdtimer_screenOff=4000
+# 2023-01-31 11:42:16.000
+msc.power.fdtimer_screenOn=5000
+# 2023-01-31 11:42:16.000
+msc.power_manage.active_sos_times=3
+# 2023-01-31 11:42:16.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:42:16.000
+ro.config.bundle_opta_mnc=256
+# 2023-01-31 11:42:16.000
+ro.config.bundle_optb_mnc=322
+# 2023-01-31 11:42:16.000
+ro.config.bundle_optx_mnc=1
+# 2023-01-31 11:42:16.000
+ro.config.music_region=loudness
+# 2023-01-31 11:42:16.000
+ro.config.quick_pay=true
+# 2023-01-31 11:42:16.000
+ro.odm.gsm.fastdormancy.mode=3
+# 2023-01-31 11:42:16.000
+ro.odm.gsm.fd.delaytime=5000
+# 2023-01-31 11:42:16.000
+ro.odm.gsm.fd.screen=3
+# 2023-01-31 11:42:16.000
+ro.odm.gsm.fd.time_scroff=4000
+# 2023-01-31 11:42:16.000
+ro.product.CustCVersion=C675
+# 2023-01-31 11:42:16.000
+ro.product.locale=en-IN
+# 2023-01-31 11:42:16.000
+ro.vendor.config.camera.region=ntdny

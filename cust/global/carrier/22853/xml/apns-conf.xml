@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="upcnet"
+    mcc="228"
+    mnc="53"
+    apn="Internet.ch.upcmobile.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="upcmms"
+    mcc="228"
+    mnc="53"
+    apn="mms.ch.upcmobile.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="62.179.127.18"
+    mmsport="8080"
+    mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+    type="mms"
+  />
+</apns>

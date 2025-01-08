@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="POST Internet" mcc="270" mnc="01" apn="web.pt.lu" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="POST MMS" mcc="270" mnc="01" apn="mms.pt.lu" user="mms" server="" password="mms" proxy="" port="" mmsproxy="194.154.192.88" mmsport="8080" mmsc="http://mmsc.pt.lu" type="mms"/>
+  <apn carrier="VoWifi Xcap" mcc="270" mnc="01" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="hos" mcc="270" mnc="01" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV6"/>
+</apns>

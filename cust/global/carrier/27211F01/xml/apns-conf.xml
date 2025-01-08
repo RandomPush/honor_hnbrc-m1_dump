@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="48 Internet and MMS" mcc="272" mnc="11" apn="48months.liffeytelecom.com" user="User" server="" password="" proxy="" port="" mmsproxy="10.1.11.19" mmsport="8080" mmsc="http://mmc1/servlets/mms" type="default,supl,mms" authtype="0"/>
+</apns>

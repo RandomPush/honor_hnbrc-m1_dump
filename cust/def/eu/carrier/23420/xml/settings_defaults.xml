@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:43:32.000-->
+  <integer hndefault_CheckIntervalt="15"/>
+  <!--2023-01-31 11:43:32.000-->
+  <string settings.global.cust_chrome_home_page="true"/>
+  <!--2023-01-31 11:43:32.000-->
+  <string settings.global.hn_nfcpay_screenoff_disable="true"/>
+  <!--2023-01-31 11:43:32.000-->
+  <string settings.global.network_auto_phone="true"/>
+</resources>

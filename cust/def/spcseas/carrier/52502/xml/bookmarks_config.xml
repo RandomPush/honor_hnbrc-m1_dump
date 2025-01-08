@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="4bd21c61d0eb4c2b7b8effe0f13a1a04">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Singtel Apps</string>
+              <string key="url">http://www.singtel.com/apps</string>
+            </dict>
+            <dict>
+              <string key="title">Music Store</string>
+              <string key="url">http://www.musicstore.sg</string>
+            </dict>
+            <dict>
+              <string key="title">Mobile Device Help</string>
+              <string key="url">http://devicehelp.singtel.com/</string>
+            </dict>
+            <dict>
+              <string key="title">My Portal</string>
+              <string key="url">http://myportal.singtel.com</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

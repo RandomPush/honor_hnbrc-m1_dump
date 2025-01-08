@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orange_mno_list>
+  <mno>
+    <orange_identifier mccmnc="23408" gid="-1" spn="-1" imsi="1" mvnomask_begin="288" mvnomask_end="0" allow_emergency_numbers_in_call_log="0"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="23430" gid="-1" spn="-1" imsi="1" mvnomask_begin="288" mvnomask_end="0" allow_emergency_numbers_in_call_log="0"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="23433" gid="-1" spn="-1" imsi="1" mvnomask_begin="288" mvnomask_end="0" allow_emergency_numbers_in_call_log="0"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="20801" gid="-1" spn="-1" imsi="1" mvnomask_begin="288" mvnomask_end="0" allow_emergency_numbers_in_call_log="0"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="20802" gid="-1" spn="-1" imsi="1" mvnomask_begin="288" mvnomask_end="0" allow_emergency_numbers_in_call_log="0"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="34001" gid="-1" spn="-1" imsi="1" mvnomask_begin="288" mvnomask_end="0" allow_emergency_numbers_in_call_log="0"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="26003" gid="-1" spn="Orange" imsi="0" mvnomask_begin="" mvnomask_end="" allow_emergency_numbers_in_call_log="1"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="22610" gid="-1" spn="Orange" imsi="0" mvnomask_begin="" mvnomask_end="" allow_emergency_numbers_in_call_log="1"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="23101" gid="-1" spn="Orange" imsi="0" mvnomask_begin="" mvnomask_end="" allow_emergency_numbers_in_call_log="1"/>
+  </mno>
+  <mno>
+    <orange_identifier mccmnc="21403" gid="-1" spn="Orange" imsi="0" mvnomask_begin="" mvnomask_end="" allow_emergency_numbers_in_call_log="1"/>
+  </mno>
+</orange_mno_list>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>HONOR Customer Service</name>
+    <phone>
+      <detail>0807777715</detail>
+    </phone>
+    <phone>
+      <detail>+27839885663</detail>
+      <type>WhatsApp</type>
+    </phone>
+    <email>
+      <detail>za.support@honor.com</detail>
+    </email>
+    <company>South Africa</company>
+  </contact>
+  <contact>
+    <name>TOBi</name>
+    <phone>
+      <detail>0820098624</detail>
+    </phone>
+    <company>South Africa</company>
+  </contact>
+</datainitializor>

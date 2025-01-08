@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers_product>
+  <provider id="Telepacmail" label="Telepacmail" domain="mail.telepac.pt">
+    <incoming uri="imap://imap.telepac.pt:143" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://smtp.telepac.pt:25" username="$email"/>
+  </provider>
+  <provider id="wanadoo.co.uk" label="wanadoo.co.uk" domain="wanadoo.co.uk">
+    <incoming uri="pop3://pop.wanadoo.co.uk:110" username="$email"/>
+    <outgoing uri="smtp://smtp.wanadoo.co.uk:25" username="$email"/>
+  </provider>
+  <provider id="hotmail.com" label="hotmail.com" domain="live.com">
+    <incoming uri="pop3+ssl+://pop3.live.com:995" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.live.com:587" username="$email"/>
+  </provider>
+  <provider id="yahoo.co.uk" label="yahoo.co.uk" domain="yahoo.co.uk">
+    <incoming uri="pop3+ssl+://pop.mail.yahoo.co.uk:995" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.co.uk:465" username="$email"/>
+  </provider>
+  <provider id="gmail.com" label="gmail.com" domain="gmail.com">
+    <incoming uri="imap+ssl+://imap.gmail.com:993" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.gmail.com:587" username="$email"/>
+  </provider>
+  <provider id="btinternet.com" label="btinternet.com" domain="btinternet.com">
+    <incoming uri="pop3://mail.btinternet.com:110" username="$email"/>
+    <outgoing uri="smtp://mail.btinternet.com:25" username="$email"/>
+  </provider>
+  <provider id="ntlworld.com" label="ntlworld.com" domain="ntlworld.com">
+    <incoming uri="pop3://pop.ntlworld.com:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtp.ntlworld.com:25" username="$email"/>
+    <incoming uri="imap+ssl+://imap.virginmedia.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.virginmedia.com:465" username="$email"/>
+  </provider>
+  <provider id="blueyonder.co.uk" label="blueyonder.co.uk" domain="blueyonder.co.uk">
+    <incoming uri="pop3://pop3.blueyonder.co.uk:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtp.blueyonder.co.uk:25" username="$email"/>
+    <incoming uri="imap+ssl+://imap.virginmedia.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.virginmedia.com:465" username="$email"/>
+  </provider>
+  <provider id="virgin.net" label="virgin.net" domain="virgin.net">
+    <incoming uri="pop3://pop.virgin.net:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtp.virgin.net:25" username="$email"/>
+    <incoming uri="imap+ssl+://imap.virginmedia.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.virginmedia.com:465" username="$email"/>
+  </provider>
+  <provider id="tiscali.co.uk" label="tiscali.co.uk" domain="tiscali.co.uk">
+    <incoming uri="pop3://pop.tiscali.co.uk:110" username="$email"/>
+    <outgoing uri="smtp://smtp.tiscali.co.uk:25" username="$email"/>
+  </provider>
+  <provider id="tesco.net" label="tesco.net" domain="tesco.net">
+    <incoming uri="pop3://mail.tesco.net:110" username="$email"/>
+    <outgoing uri="smtp://mail.tesco.net:25" username="$email"/>
+  </provider>
+  <provider id="hotmail.co.uk" label="hotmail.co.uk" domain="hotmail.co.uk">
+    <incoming uri="pop3+ssl+://pop3.live.com:995" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.live.com:587" username="$email"/>
+  </provider>
+  <provider id="o2.co.uk" label="o2.co.uk" domain="o2.co.uk">
+    <incoming uri="pop3://mail.o2.co.uk:110" username="$email"/>
+    <outgoing uri="smtp://smtp.o2.co.uk:25" username="$email"/>
+  </provider>
+  <provider id="Bluewin" label="Bluewin" domain="bluewin.ch">
+    <incoming uri="imap+ssl+://imaps.bluewin.ch:993" username="$user" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtpauths.bluewin.ch:465" username="$user"/>
+    <incoming uri="pop3://pop.bluewin.ch:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtpauth.bluewin.ch:587" username="$email"/>
+  </provider>
+  <provider id="GMX.ch" label="GMX.ch" domain="gmx.ch">
+    <incoming uri="imap+ssl+trustallcerts://imap.gmx.net:993" username="$user" field="IMAP"/>
+    <outgoing uri="smtp+tls+trustallcerts://mail.gmx.net:587" username="$user"/>
+  </provider>
+  <provider id="Freesurf" label="Freesurf" domain="freesurf.ch">
+    <incoming uri="pop3://pop.freesurf.ch:110" username="$email"/>
+    <outgoing uri="smtp://mail.freesurf.ch:25" username="$email"/>
+  </provider>
+  <provider id="Hispeed" label="Hispeed" domain="hispeed.ch">
+    <incoming uri="pop3://pop.hispeed.ch:110" username="$email"/>
+    <outgoing uri="smtp://smtp.hispeed.ch:25" username="$email"/>
+  </provider>
+  <provider id="Vodafone Mail" label="Vodafone Mail" domain="vodafone.pt">
+    <incoming uri="pop3://pop.vodafone.pt:110" username="$email"/>
+    <outgoing uri="smtp://smtp.vodafone.pt:25" username="$email"/>
+  </provider>
+  <provider id="Sapo" label="Sapo" domain="sapo.pt">
+    <incoming uri="imap://imap.sapo.pt:143" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://smtp.sapo.pt:25" username="$email"/>
+    <incoming uri="pop3://pop.sapo.pt:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtp.sapo.pt:25" username="$email"/>
+  </provider>
+  <provider id="Clix" label="Clix" domain="clix.pt">
+    <incoming uri="pop3://pop.clix.pt:110" username="$email"/>
+    <outgoing uri="smtp://mail.clix.pt:25" username="$email"/>
+  </provider>
+  <provider id="Netcabo" label="Netcabo" domain="netcabo.pt">
+    <incoming uri="pop3://pop.netcabo.pt:110" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp.netcabo.pt:25" username="$email"/>
+  </provider>
+  <provider id="Netvisao" label="Netvisao" domain="netvisao.pt">
+    <incoming uri="imap://imap.netvisao.pt:143" username="$email"/>
+    <outgoing uri="smtp://mail.netvisao.pt:25" username="$email"/>
+  </provider>
+  <provider id="Telepac" label="Telepac" domain="telepac.pt">
+    <incoming uri="imap://imap.telepac.pt:143" username="$email"/>
+    <outgoing uri="smtp://smtp.telepac.pt:25" username="$email"/>
+  </provider>
+  <provider id="Novis" label="Novis" domain="net.novis.pt">
+    <incoming uri="imap://imap.novis.pt:143" username="$email"/>
+    <outgoing uri="smtp://smtp.novis.pt:25" username="$email"/>
+  </provider>
+  <provider id="AR Mail" label="AR Mail" domain="armail.pt">
+    <incoming uri="imap://mail.artelecom.pt:143" username="$email"/>
+    <outgoing uri="smtp://smtp.artelecom.pt:25" username="$email"/>
+  </provider>
+  <provider id="IOL" label="IOL" domain="iol.pt">
+    <incoming uri="imap://imap.iol.pt:143" username="$email"/>
+    <outgoing uri="smtp://smtp.iol.pt:25" username="$email"/>
+  </provider>
+  <provider id="Portugal Mail" label="Portugal Mail" domain="portugalmail.pt">
+    <incoming uri="pop3://pop.portugalmail.pt:110" username="$email"/>
+    <outgoing uri="smtp://smtp.portugalmail.pt:25" username="$email"/>
+  </provider>
+  <provider id="Email.it" label="Email.it" domain="email.it">
+    <incoming uri="imap+ssl+://imapmail.email.it:143" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.email.it:587" username="$email"/>
+  </provider>
+  <provider id="Tiscali.it" label="Tiscali.it" domain="tiscali.it">
+    <incoming uri="pop3://pop.tiscali.it:110" username="$email"/>
+    <outgoing uri="smtp://smtp.net.vodafone.it:25" username="$email"/>
+  </provider>
+  <provider id="orange" label="orange" domain="orange.es">
+    <incoming uri="pop3://pop.orange.es:110" username="$email"/>
+    <outgoing uri="smtp://smtp.orange.es:25" username="$email"/>
+  </provider>
+  <provider id="web.de" label="web.de" domain="web.de">
+    <incoming uri="pop3+ssl+://pop3.web.de:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://smtp.web.de:587" username="$email"/>
+    <incoming uri="imap+ssl+://imap.web.de:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.web.de:587" username="$email"/>
+  </provider>
+  <provider id="GMX" label="GMX" domain="gmx.net">
+    <incoming uri="pop3+ssl+://pop.gmx.net:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://mail.gmx.net:587" username="$email"/>
+    <incoming uri="imap+ssl+://imap.gmx.net:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://mail.gmx.net:587" username="$email"/>
+  </provider>
+  <provider id="abv.bg" label="abv.bg" domain="abv.bg">
+    <incoming uri="pop3+ssl+trustallcerts://pop3.abv.bg:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+trustallcerts://smtp.abv.bg:465" username="$email"/>
+  </provider>
+  <provider id="Yandex" label="Yandex" domain="yandex.ru">
+    <incoming uri="imap+ssl+://imap.yandex.ru:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.yandex.ru:465" username="$email"/>
+  </provider>
+  <provider id="Rambler" label="Rambler" domain="rambler.ru">
+    <incoming uri="imap+ssl+://imap.rambler.ru:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.rambler.ru:465" username="$email"/>
+  </provider>
+  <provider id="MailRu" label="MailRu" domain="mail.ru">
+    <incoming uri="imap+ssl+://imap.mail.ru:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.ru:465" username="$email"/>
+  </provider>
+  <provider id="yahoo.fr" label="yahoo.fr" domain="yahoo.fr">
+    <incoming uri="imap+ssl+://imap.mail.yahoo.com:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+  </provider>
+  <provider id="bbox.fr" label="bbox.fr" domain="bbox.fr" login="false">
+    <incoming uri="imap://imap.bbox.fr:143" username="$user"/>
+    <outgoing uri="smtp://smtp.bbox.fr:25" username="$user"/>
+  </provider>
+  <provider id="hotmail.fr" label="hotmail.fr" domain="hotmail.fr">
+    <incoming uri="imap+ssl+://imap-mail.outlook.com:993" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp-mail.outlook.com:587" username="$email"/>
+  </provider>
+  <provider id="live.fr" label="live.fr" domain="live.fr">
+    <incoming uri="imap+ssl+://imap-mail.outlook.com:993" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp-mail.outlook.com:587" username="$email"/>
+  </provider>
+  <provider id="outlook.fr" label="outlook.fr" domain="outlook.fr">
+    <incoming uri="imap+ssl+://imap-mail.outlook.com:993" username="$email"/>
+    <outgoing uri="smtp+tls+://smtp-mail.outlook.com:587" username="$email"/>
+  </provider>
+  <provider id="neuf.fr" label="neuf.fr" domain="neuf.fr">
+    <incoming uri="imap+ssl+://imap.sfr.fr:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.sfr.fr:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+  </provider>
+  <provider id="free.fr" label="free.fr" domain="free.fr">
+    <incoming uri="pop3://pop.free.fr:110" username="$user"/>
+    <outgoing uri="smtp://smtp.free.fr:25" username="$user"/>
+  </provider>
+  <provider id="numericable.fr" label="numericable.fr" domain="numericable.fr" login="false">
+    <incoming uri="pop3://pop.numericable.fr:110" username="$user"/>
+    <outgoing uri="smtp://smtp.numericable.fr:25" username="$user"/>
+  </provider>
+  <provider id="noos.fr" label="noos.fr" domain="noos.fr" login="false">
+    <incoming uri="pop3://pop.noos.fr:110" username="$user"/>
+    <outgoing uri="smtp://smtp.noos.fr:25" username="$user"/>
+  </provider>
+  <provider id="aliceadsl.fr" label="aliceadsl.fr" domain="aliceadsl.fr" login="false">
+    <incoming uri="pop3://pop.aliceadsl.fr:110" username="$email"/>
+    <outgoing uri="smtp://smtp.aliceadsl.fr:25" username="$email"/>
+  </provider>
+  <provider id="aol.com" label="aol.com" domain="aol.com" login="false">
+    <incoming uri="imap://imap.fr.aol.com:993" username="$email"/>
+    <outgoing uri="smtp://smtp.neuf.fr:465" username="$email"/>
+  </provider>
+  <provider id="club-internet.fr" label="club-internet.fr" domain="club-internet.fr">
+    <incoming uri="imap+ssl+://imap.sfr.fr:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.sfr.fr:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+  </provider>
+  <provider id="dbmail.com" label="dbmail.com" domain="dbmail.com">
+    <incoming uri="pop3://pop.dbmail.com:110" username="$email"/>
+    <outgoing uri="smtp://smtpauth.dbmail.com:25" username="$email"/>
+  </provider>
+  <provider id="laposte.net" label="laposte.net" domain="laposte.net">
+    <incoming uri="imap+ssl+://imap.laposte.net:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp.laposte.net:465" username="$email"/>
+  </provider>
+  <provider id="orange.fr" label="orange.fr" domain="orange.fr">
+    <incoming uri="pop3://pop.orange.fr:110" username="$email"/>
+    <outgoing uri="smtp://smtp.orange.fr:25" username="$email"/>
+  </provider>
+  <provider id="tiscali.fr" label="tiscali.fr" domain="tiscali.fr" login="false">
+    <incoming uri="pop3://pop.tiscali.fr:110" username="$user"/>
+    <outgoing uri="smtp://smtp.tiscali.fr:25" username="$user"/>
+  </provider>
+  <provider id="wanadoo.fr" label="wanadoo.fr" domain="wanadoo.fr">
+    <incoming uri="imap+ssl+://imap.orange.fr:993" username="$user"/>
+    <outgoing uri="smtp+ssl+://smtp.orange.fr:465" username="$user"/>
+  </provider>
+  <provider id="sfr.fr" label="sfr.fr" domain="sfr.fr">
+    <incoming uri="imap+ssl+://imap.sfr.fr:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.sfr.fr:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+  </provider>
+  <provider id="proximus.be" label="proximus.be" domain="proximus.be">
+    <incoming uri="imap+ssl+://imap.proximus.be:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://relay.proximus.be:587" username="$email"/>
+  </provider>
+  <provider id="gmx.at" label="gmx.at" domain="gmx.at">
+    <incoming uri="imap+ssl+://imap.gmx.net:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://mail.gmx.net:587" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.gmx.net:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://mail.gmx.net:587" username="$email"/>
+  </provider>
+  <provider id="skynet.be" label="skynet.be" domain="skynet.be">
+    <incoming uri="imap+ssl+://imap.proximus.be:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://relay.proximus.be:587" username="$email"/>
+  </provider>
+  <provider id="kidcity.be" label="kidcity.be" domain="kidcity.be">
+    <incoming uri="imap+ssl+://imap.proximus.be:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://relay.proximus.be:587" username="$email"/>
+  </provider>
+  <provider id="belgacom.net" label="belgacom.net" domain="belgacom.net">
+    <incoming uri="imap+ssl+://imap.proximus.be:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://relay.proximus.be:587" username="$email"/>
+  </provider>
+  <provider id="sunrise.ch" label="sunrise.ch" domain="sunrise.ch">
+    <incoming uri="imap+ssl+://imap.sunrise.ch:993" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp2.sunrise.ch:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.sunrise.ch:995" username="$email"/>
+    <outgoing uri="smtp+ssl+://smtp2.sunrise.ch:465" username="$email"/>
+  </provider>
+  <provider id="cegetel.net" label="cegetel.net" domain="cegetel.net">
+    <incoming uri="imap+ssl+://imap.sfr.fr:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.sfr.fr:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.sfr.fr:465" username="$email"/>
+  </provider>
+  <provider id="alice.it" label="alice.it" domain="alice.it">
+    <incoming uri="imap://in.alice.it:143" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://out.alice.it:587" username="$email"/>
+  </provider>
+  <provider id="yahoo.com" label="yahoo.com" domain="yahoo.com">
+    <incoming uri="imap+ssl+://imap.mail.yahoo.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.mail.yahoo.com:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+  </provider>
+  <provider id="casema.nl" label="casema.nl" domain="casema.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="chello.nl" label="chello.nl" domain="chello.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="hahah.nl" label="hahah.nl" domain="hahah.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="home.nl" label="home.nl" domain="home.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="multiweb.nl" label="multiweb.nl" domain="multiweb.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="quicknet.nl" label="quicknet.nl" domain="quicknet.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="razcall.com" label="razcall.com" domain="razcall.com">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="razcall.nl" label="razcall.nl" domain="razcall.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="upcmail.nl" label="upcmail.nl" domain="upcmail.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="zeggis.com" label="zeggis.com" domain="zeggis.com">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="zeggis.nl" label="zeggis.nl" domain="zeggis.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="ziggo.nl" label="ziggo.nl" domain="ziggo.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="ziggomail.com" label="ziggomail.com" domain="ziggomail.com">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="zinders.nl" label="zinders.nl" domain="zinders.nl">
+    <incoming uri="imap+ssl+://imap.ziggo.nl:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp.ziggo.nl:587" username="$email"/>
+  </provider>
+  <provider id="virginmedia.com" label="virginmedia.com" domain="virginmedia.com">
+    <incoming uri="imap+ssl+://imap.virginmedia.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.virginmedia.com:465" username="$email"/>
+  </provider>
+  <provider id="Vodafone E-Mail" label="vodafone.de" domain="vodafone.de">
+    <incoming uri="imap+ssl+://imap.vodafone.de:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.vodafone.de:465" username="$email"/>
+    <incoming uri="pop3+ssl+://pop.vodafone.de:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://smtp.vodafone.de:465" username="$email"/>
+  </provider>
+  <provider id="Yahoo! Mail" label="Yahoo! Mail" domain="correo.yahoo.es">
+    <incoming uri="imap+ssl+://imap.mail.yahoo.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+  </provider>
+  <provider id="aol.co.uk" label="aol.co.uk" domain="aim.com">
+    <incoming uri="imap+ssl+://imap.aim.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.aim.com:465" username="$email"/>
+  </provider>
+  <provider id="sky.com" label="sky.com" domain="tools.sky.com">
+    <incoming uri="imap://imap.tools.sky.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://smtp.tools.sky.com:465" username="$email"/>
+  </provider>
+  <provider id="vodafone.ie" label="vodafone.ie" domain="vodafone.ie">
+    <incoming uri="pop3://pop.vodafone.ie:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://mail.vodafone.ie:25" username="$email"/>
+  </provider>
+  <provider id="Vodafone.it" label="Vodafone.it" domain="vodafone.it">
+    <incoming uri="imap+ssl+://imap.vodafone.it:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.vodafone.it:465" username="$email"/>
+  </provider>
+  <provider id="Yahoo.it" label="Yahoo.it" domain="Yahoo.it">
+    <incoming uri="imap+ssl+://imap.mail.yahoo.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://smtp.mail.yahoo.com:465" username="$email"/>
+  </provider>
+  <provider id="Vodafone Mail" label="Vodafone Mail" domain="vodamail.hu">
+    <incoming uri="pop3://mail.vodamail.hu:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp://mail.vodamail.hu:587" username="$email"/>
+  </provider>
+  <provider id="Vodamail" label="Vodamail" domain="vodamail.co.za">
+    <incoming uri="pop3://pop3.vodamail.co.za:110" username="$email" field="POP3"/>
+    <outgoing uri="smtp://smtp.vodacom.co.za:25" username="$email"/>
+    <incoming uri="imap://imap4.vodamail.co.za:143" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://smtp.vodacom.co.za:25" username="$email"/>
+  </provider>
+  <provider id="hotmail.com" label="hotmail.com" domain="hotmail.com">
+    <incoming uri="pop3+ssl+://pop3.live.com:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://smtp.live.com:587" username="$email"/>
+    <incoming uri="imap+ssl+://imap-mail.outlook.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://smtp-mail.outlook.com:587" username="$email"/>
+  </provider>
+  <provider id="telia.com" label="telia.com" domain="telia.com">
+    <incoming uri="imap+ssl+://mailin.telia.com:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://mailout.telia.com:465" username="$email"/>
+  </provider>
+  <provider id="t-online.de" label="t-online.de" domain="t-online.de">
+    <incoming uri="imap+ssl+://secureimap.t-online.de:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+ssl+://securesmtp.t-online.de:465" username="$email"/>
+    <incoming uri="pop3+ssl+://securepop.t-online.de:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+ssl+://securesmtp.t-online.de:465" username="$email"/>
+  </provider>
+  <provider id="Mail.ee" label="mail.ee" domain="mail.ee">
+    <incoming uri="imap+ssl+://mail.ee:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://mail.ee:587" username="$email"/>
+    <incoming uri="pop3+ssl+://mail.ee:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://mail.ee:587" username="$email"/>
+  </provider>
+  <provider id="Inbox.lv" label="inbox.lv" domain="inbox.lv">
+    <incoming uri="imap+ssl+://mail.inbox.lv:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://mail.inbox.lv:587" username="$email"/>
+    <incoming uri="pop3+ssl+://mail.inbox.lv:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://mail.inbox.lv:587" username="$email"/>
+  </provider>
+  <provider id="Inbox.eu" label="inbox.eu" domain="inbox.eu">
+    <incoming uri="imap+ssl+://mail.inbox.eu:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://mail.inbox.eu:587" username="$email"/>
+    <incoming uri="pop3+ssl+://mail.inbox.eu:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://mail.inbox.eu:587" username="$email"/>
+  </provider>
+  <provider id="Inbox.lt" label="inbox.lt" domain="inbox.lt">
+    <incoming uri="imap+ssl+://mail.inbox.lt:993" username="$email" field="IMAP"/>
+    <outgoing uri="smtp+tls+://mail.inbox.lt:587" username="$email"/>
+    <incoming uri="pop3+ssl+://mail.inbox.lt:995" username="$email" field="POP3"/>
+    <outgoing uri="smtp+tls+://mail.inbox.lt:587" username="$email"/>
+  </provider>
+</providers_product>

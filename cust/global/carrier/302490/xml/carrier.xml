@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="590086ceade70bb1430d69098bc96ba5">
+  <dict>
+    <!--2023-01-31 11:38:57.000-->
+    <string key="hn_networkname_normal">all,HSDPA:H;HSUPA:H;HSPA:H;HSPA+:H+;LTE:LTE;CA:LTE+</string>
+    <!--2023-01-31 11:38:57.000-->
+    <int key="max_message_size">1048576</int>
+    <!--2023-01-31 11:38:57.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:38:57.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:38:57.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:38:57.000-->
+    <int key="sms_to_mms_textthreshold">7</int>
+  </dict>
+</config>

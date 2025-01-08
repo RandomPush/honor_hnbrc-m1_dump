@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="8d9e9a5aa873175514272196aa97d201">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">24005</string>
+        <string key="sim_mccmnc">24001</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telia</string>
+        <string key="plmn">Telia</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24005</string>
+        <string key="sim_mccmnc">24001704</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Halebop</string>
+        <string key="plmn">Halebop</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24005</string>
+        <string key="sim_mccmnc">24001714</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Halebop</string>
+        <string key="plmn">Halebop</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VIVA Internet KW" mcc="419" mnc="04" apn="viva" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="VIVA MMS KW" mcc="419" mnc="04" apn="vivamms" user="" server="" password="" proxy="" port="" mmsproxy="172.16.128.228" mmsport="8080" mmsc="http://172.16.128.80:38090/was" type="mms" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="419" mnc="04" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="XCAP" mcc="419" mnc="04" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IP" roaming_protocol="IP"/>
+</apns>

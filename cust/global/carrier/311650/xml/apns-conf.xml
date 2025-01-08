@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="United Wireless"
+    mcc="311"
+    mnc="650"
+    apn="unitedwireless"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.unitedwireless.com"
+    type="default,supl,mms"
+    protocol="IPV4V6"
+  />
+</apns>

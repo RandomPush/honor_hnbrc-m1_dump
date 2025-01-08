@@ -1,0 +1,28 @@
+# 2023-01-31 11:42:27.000
+msc.config.cbs_del_msg=0D
+# 2023-01-31 11:42:27.000
+msc.config.opta=794
+# 2023-01-31 11:42:27.000
+msc.config.optb=410
+# 2023-01-31 11:42:27.000
+persist.sys.timezone=Asia/Seoul
+# 2023-01-31 11:42:27.000
+ro.config.bundle_opta_mnc=271
+# 2023-01-31 11:42:27.000
+ro.config.bundle_optb_mnc=330
+# 2023-01-31 11:42:27.000
+ro.config.bundle_optx_mnc=5
+# 2023-01-31 11:42:27.000
+ro.config.cbs_del_2B=true
+# 2023-01-31 11:42:27.000
+ro.config.ce_authenticate=1
+# 2023-01-31 11:42:27.000
+ro.config.music_region=normal
+# 2023-01-31 11:42:27.000
+ro.config.wifi_use_euc-kr=true
+# 2023-01-31 11:42:27.000
+ro.product.CustCVersion=C794
+# 2023-01-31 11:42:27.000
+ro.product.locale=ko-KR
+# 2023-01-31 11:42:27.000
+ro.vendor.config.camera.region=rh

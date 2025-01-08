@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="df5c36f149df5b3f7d9c028092537117">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21407</string>
+        <string key="network_type"></string>
+        <int key="rule">3</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">21407</string>
+        <string key="sim_mccmnc">21418</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">ONO</string>
+        <string key="plmn">ONO</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">71606</string>
+        <string key="sim_mccmnc">71606</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">722010</string>
+        <string key="sim_mccmnc">722010</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">73001</string>
+        <string key="sim_mccmnc">73002</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">73003</string>
+        <string key="sim_mccmnc">73002</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">73009</string>
+        <string key="sim_mccmnc">73002</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">####</string>
+        <string key="plmn">####</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">74002</string>
+        <string key="sim_mccmnc">74000</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CNT</string>
+        <string key="plmn">CNT</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

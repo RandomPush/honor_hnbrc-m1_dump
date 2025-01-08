@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="TelemigC GPRS"
+    mcc="724"
+    mnc="19"
+    apn="gprs.telemigcelular.com.br"
+    user="celular"
+    server=""
+    password="celular"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

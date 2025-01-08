@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="78f71c543fbcf993c3130a78af0df607">
+  <dict>
+    <!--2023-01-31 11:42:07.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-01-31 11:42:07.000-->
+    <bool key="hn_data_roam_option">true</bool>
+    <!--2023-01-31 11:42:07.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:42:07.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:42:07.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:42:07.000-->
+    <string key="voicemail_carrier">Tesco</string>
+    <!--2023-01-31 11:42:07.000-->
+    <string key="voicemail_number">171</string>
+    <!--2023-01-31 11:42:07.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

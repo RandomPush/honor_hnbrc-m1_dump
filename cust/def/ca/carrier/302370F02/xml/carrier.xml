@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="fd9ff4efb6d7fcf003c39243b20be29a">
+  <dict>
+    <!--2023-01-31 11:42:22.000-->
+    <string key="hide_sepcial_apn_form_list">netsvcs</string>
+    <!--2023-01-31 11:42:22.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:42:22.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

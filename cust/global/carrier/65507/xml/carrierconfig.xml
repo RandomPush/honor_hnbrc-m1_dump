@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="55c941fe5aedc80d4ffe8d2287468137">
+  <dict>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:45:32.000-->
+    <int key="IPsecSaLifeTime">7200</int>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:45:32.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">7200</int>
+    <!--2023-01-31 11:45:32.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">7200</int>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:45:32.000-->
+    <int key="Ikev2SaLifeTime">7200</int>
+    <!--2024-01-06 09:40:48.000-->
+    <bool key="carrier_default_data_roaming_enabled_bool">true</bool>
+    <!--2024-04-16 11:22:57.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-04-16 11:23:12.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2024-04-16 11:23:12.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">3</int>
+    <!--2023-01-31 11:45:32.000-->
+    <bool key="carrier_show_vowifi_rssi_tips">true</bool>
+    <!--2024-04-16 11:22:57.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101001</string>
+    <!--2024-04-16 11:23:12.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:45:32.000-->
+    <bool key="preferToUseUT">false</bool>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="vowifiHplmnListItem">65507, epdg.epc.mnc007.mcc655.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:45:32.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="vowifiRssiThreshold">-60,-78,-6,-7</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="vowifiWifiChip24GConf">-78,-71,3,1</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="vowifiWifiChip5GConf">-78,-71,3,1</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="wfc_format_wifi_string">%1$s Wi-Fi</string>
+    <!--2023-01-31 11:45:32.000-->
+    <string key="wfc_spn_string">Cell C</string>
+  </dict>
+</config>

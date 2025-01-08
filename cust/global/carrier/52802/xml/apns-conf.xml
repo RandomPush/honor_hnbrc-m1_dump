@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="B-Mobile Internet"
+    mcc="528"
+    mnc="02"
+    apn="bmobilewap"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="B-Mobile MMS"
+    mcc="528"
+    mnc="02"
+    apn="bmobilemms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="129.009.010.020"
+    mmsport="6500"
+    mmsc="http://mms.bmobile.com.bn/was"
+    type="mms"
+  />
+</apns>

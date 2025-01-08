@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8fbfb7894a63f77edc2567d58db0032d">
+  <dict>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:43:44.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="ussd_regex">(^\#9|\*228$)</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="virtualnet_operatorname">KENA MOBILE R</string>
+  </dict>
+</config>

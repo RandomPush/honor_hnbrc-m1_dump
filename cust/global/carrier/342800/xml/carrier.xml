@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d11316d75a574ff12f7667461697a6ad">
+  <dict>
+    <!--2023-01-31 11:52:48.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:52:48.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:52:48.000-->
+    <string key="voicemail_carrier">Ozone</string>
+    <!--2023-01-31 11:52:48.000-->
+    <string key="voicemail_number">*123</string>
+    <!--2023-01-31 11:52:48.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

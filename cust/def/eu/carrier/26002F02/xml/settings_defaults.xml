@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-06-29 15:48:31.000-->
+  <string cust_qs_tile_rules="full#add:amVowifi_1,amVowifi2_2@lite#add:amVowifi_1,amVowifi2_2"/>
+  <!--2023-01-31 11:43:53.000-->
+  <integer hndefault_CheckIntervalt="-1"/>
+  <!--2023-01-31 11:43:53.000-->
+  <string settings.global.hn_wifidialog_skip="true"/>
+  <!--2023-01-31 11:43:53.000-->
+  <string settings.global.show_data_cost_tip_list="true"/>
+  <!--2023-01-31 11:43:53.000-->
+  <string settings.global.show_skip_wifi_dialog_list="true"/>
+</resources>

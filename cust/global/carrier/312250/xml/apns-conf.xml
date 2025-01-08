@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="T-Mobile US LTE" mcc="312" mnc="250" apn="fast.t-mobile.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc" type="default,supl,mms,xcap" protocol="IPV6" mvno_type="gid" mvno_match_data="544D"/>
+  <apn carrier="T-Mobile Tethering" mcc="312" mnc="250" apn="pcweb.tmobile.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" protocol="IPV6" mvno_type="gid" mvno_match_data="544D"/>
+</apns>

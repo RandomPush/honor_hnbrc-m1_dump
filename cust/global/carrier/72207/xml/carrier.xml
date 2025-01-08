@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="227914836708ba278bdddae4761d7226">
+  <dict>
+    <!--2023-10-26 20:04:46.000-->
+    <bool key="clir_config_enable">true</bool>
+    <!--2023-01-31 11:44:57.000-->
+    <bool key="delay_detach_switch">true</bool>
+    <!--2023-01-31 11:44:57.000-->
+    <bool key="hide_network_mode_pref_5G">true</bool>
+    <!--2023-01-31 11:44:57.000-->
+    <string key="hn_cust_long_vmNum">+5491151440555</string>
+    <!--2023-01-31 11:44:57.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4G+;MiMo:4G+;CAMiMo:4G+</string>
+    <!--2023-01-31 11:44:57.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9,3,2</string>
+    <!--2023-01-31 11:44:57.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2023-01-31 11:44:57.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:44:57.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:44:57.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:44:57.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:44:57.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:44:57.000-->
+    <string key="voicemail_carrier">Movistar</string>
+    <!--2023-01-31 11:44:57.000-->
+    <string key="voicemail_number">555</string>
+    <!--2023-01-31 11:44:57.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

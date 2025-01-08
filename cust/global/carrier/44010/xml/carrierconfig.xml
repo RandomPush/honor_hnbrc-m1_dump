@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5835b39fa271acbcb190babd0532e149">
+  <dict>
+    <!--2023-01-31 11:47:47.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-06-13 20:50:22.000-->
+    <bool key="carrier_volte_available_bool">true</bool>
+    <!--2023-01-31 11:47:47.000-->
+    <string key="carrier_volte_hd_icon_flag">01010101</string>
+    <!--2023-01-31 11:47:47.000-->
+    <bool key="preferToUseUT">false</bool>
+    <!--2023-01-31 11:47:47.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+  </dict>
+</config>

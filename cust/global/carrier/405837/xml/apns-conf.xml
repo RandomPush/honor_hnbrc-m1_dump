@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Videocon Internet"
+    mcc="405"
+    mnc="837"
+    apn="vinternet.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Videocon WAP"
+    mcc="405"
+    mnc="837"
+    apn="vgprs.com"
+    user=""
+    server=""
+    password=""
+    proxy="10.202.5.145"
+    port="8799"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Videocon MMS"
+    mcc="405"
+    mnc="837"
+    apn="vgprs.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.202.5.145"
+    mmsport="8799"
+    mmsc="http://10.202.4.119:10021/mmsc/"
+    type="mms"
+  />
+</apns>

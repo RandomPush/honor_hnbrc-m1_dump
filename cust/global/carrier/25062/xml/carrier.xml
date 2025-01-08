@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="29255ae3f1208c2d58f77c1db09dcee5">
+  <dict>
+    <!--2023-01-31 11:49:42.000-->
+    <bool key="compatible_apn_switch">true</bool>
+    <!--2023-01-31 11:49:42.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2023-11-02 21:07:36.000-->
+    <bool key="single_pdp_enabled">false</bool>
+  </dict>
+</config>

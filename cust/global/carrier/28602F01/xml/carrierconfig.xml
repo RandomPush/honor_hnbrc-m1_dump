@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c2fe012061d9466fb436c5729651e760">
+  <dict>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="IPsecSaLifeTime">604800</int>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="Ikev2PcscfIpv4Address">20</int>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="Ikev2PcscfIpv6Address">21</int>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="Ikev2SaLifeTime">604800</int>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="callWaitingMode">7</int>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="carrier_cs_show_calltrans_bool">false</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="carrier_hide_network_mode_bool">true</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="enriched_call_switch">false</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="smsToMmsTextThreshold">10</int>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+    <!--2023-01-31 11:45:06.000-->
+    <string key="vowifiHplmnListItem">28602, epdg.epc.mnc002.mcc286.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:45:06.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="vowifi_mmsut_roaming_switch">true</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+    <!--2023-01-31 11:45:06.000-->
+    <bool key="vowifi_roaming_switch">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Mobile Daten" mcc="295" mnc="05" apn="mobilkom.li" user="gprs@a1plus.at" server="" password="mobilkom" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="3"/>
+</apns>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apnOpkeyNodes version="1">
+  <apnOpkeyNode numeric="44002">
+      <apnOpkeyInfo carrier="地域BWA インターネット" apn="APN9" user="hce" opkey="44002"/>
+  </apnOpkeyNode>
+  <apnOpkeyNode numeric="44010">
+      <apnOpkeyInfo carrier="IIJmio" apn="iijmio.jp" user="mio@iij" opkey="44010F01"/>
+      <apnOpkeyInfo carrier="U-mobile" apn="umobile.jp" user="umobile@umobile.jp" opkey="44010F02"/>
+      <apnOpkeyInfo carrier="U-mobile PREMIUM" apn="umob.jp" user="umob" opkey="44010F03"/>
+      <apnOpkeyInfo carrier="hi-ho" apn="vmobile.jp" user="lte@hi-ho" opkey="44010F04"/>
+      <apnOpkeyInfo carrier="So-net" apn="so-net.jp" user="nuro" opkey="44010F05"/>
+      <apnOpkeyInfo carrier="nifty" apn="mda.nifty.com" user="mda@nifty" opkey="44010F06"/>
+      <apnOpkeyInfo carrier="OCN モバイル ONE (LTE)" apn="lte-d.ocn.ne.jp" user="mobileid@ocn" opkey="44010F07"/>
+      <apnOpkeyInfo carrier="mopera U" apn="mopera.net" user="" opkey="44010F08"/>
+      <apnOpkeyInfo carrier="楽天モバイル(rmobile.jp)" apn="rmobile.jp" user="rm" opkey="44010F09"/>
+      <apnOpkeyInfo carrier="楽天モバイル (rmobile.co)" apn="rmobile.co" user="rm" opkey="44010F10"/>
+      <apnOpkeyInfo carrier="DMM mobile (dmm.com)" apn="dmm.com" user="dmm@dmm.com" opkey="44010F11"/>
+      <apnOpkeyInfo carrier="DMM mobile (vmobile.jp)" apn="vmobile.jp" user="dmm@dmm.com" opkey="44010F12"/>
+      <apnOpkeyInfo carrier="BIGLOBE LTE・3G" apn="biglobe.jp" user="user" opkey="44010F13"/>
+      <apnOpkeyInfo carrier="mineo (Dプラン)" apn="mineo-d.jp" user="mineo@k-opti.com" opkey="44010F14"/>
+      <apnOpkeyInfo carrier="AEON MOBILE １" apn="i-aeonmobile.com" user="user" opkey="44010F15"/>
+      <apnOpkeyInfo carrier="AEON MOBILE ２" apn="n-aeonmobile.com" user="user@n-aeonmobile.com" opkey="44010F16"/>
+      <apnOpkeyInfo carrier="LINEモバイル" apn="line.me" user="line@line" opkey="44010F17"/>
+      <apnOpkeyInfo carrier="エキサイトモバイル" apn="vmobile.jp" user="" opkey="44010F18"/>
+      <apnOpkeyInfo carrier="ASAHI NET" apn="lte.mobac.net" user="d@w.asahinet.jp" opkey="44010F19"/>
+      <apnOpkeyInfo carrier="LIBMO" apn="libmo.jp" user="user@libmo" opkey="44010F20"/>
+      <apnOpkeyInfo carrier="ANDmarket mobile" apn="mmtmobile.jp" user="ANDmarket@mxm" opkey="44010F21"/>
+      <apnOpkeyInfo carrier="ヤマダニューモバイル「Dコース」" apn="dm.jplat.net" user="ynm@ynmobile.jp" opkey="44010F22"/>
+      <apnOpkeyInfo carrier="BIGLOBEモバイル　タイプD" apn="biglobe.jp" user="user" opkey="44010F23"/>
+      <apnOpkeyInfo carrier="linksmate" apn="linksmate.jp" user="user" opkey="44010F24"/>
+      <apnOpkeyInfo carrier="spmode" apn="spmode.ne.jp" user="" opkey="44010F25"/>
+      <apnOpkeyInfo carrier="LINEモバイル（ベーシック）" apn="linemobile.jp" user="line@line" opkey="44010F26"/>
+  </apnOpkeyNode>
+  <apnOpkeyNode numeric="44020">
+      <apnOpkeyInfo carrier="Softbank 4G シンプルスタイル" apn="plus.4g" user="plus" opkey="44020"/>
+      <apnOpkeyInfo carrier="Y!mobile APN" apn="plus.acs.jp" user="ym" opkey="44020F01"/>
+  </apnOpkeyNode>
+  <apnOpkeyNode numeric="44050">
+      <apnOpkeyInfo carrier="mineo(au プラン)" apn="mineo.jp" user="mineo@k-opti.com" opkey="44050F01"/>
+  </apnOpkeyNode>
+  <apnOpkeyNode numeric="44051">
+      <apnOpkeyInfo carrier="IIJmio" apn="iijmio.jp" user="mio@iij" opkey="44051F01"/>
+      <apnOpkeyInfo carrier="mineo(au プラン)" apn="mineo.jp" user="mineo@k-opti.com" opkey="44051F02"/>
+      <apnOpkeyInfo carrier="UQ mobile" apn="uqmobile.jp" user="uq@uqmobile.jp" opkey="44051F03"/>
+      <apnOpkeyInfo carrier="BIGLOBEモバイル　タイプA" apn="biglobe.jp" user="user" opkey="44051F04"/>
+      <apnOpkeyInfo carrier="AEON MOBILE 3" apn="i-aeonmobile.com" user="user" opkey="44051F05"/>
+      <apnOpkeyInfo carrier="楽天モバイル (a.rmobile.jp)" apn="a.rmobile.jp" user="rakuten@vdm" opkey="44051F06"/>
+  </apnOpkeyNode>
+  <apnOpkeyNode numeric="44011">
+      <apnOpkeyInfo carrier="楽天(rakuten.jp)" apn="rakuten.jp" user="" opkey="44011"/>
+  </apnOpkeyNode>
+  <apnOpkeyNode numeric="44003">
+      <apnOpkeyInfo carrier="iijmio" apn="iijmio.jp" user="mio@iij" opkey="44003F01"/>
+      <apnOpkeyInfo carrier="iijmobile" apn="iijmobile.biz" user="mobile@iij" opkey="44003F02"/>
+      <apnOpkeyInfo carrier="vmobile" apn="vmobile.jp" user="" opkey="44003F03"/>
+  </apnOpkeyNode>
+</apnOpkeyNodes>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Blue Wireless"
+    mcc="312"
+    mnc="570"
+    apn="Blue Hotspot"
+    user="%M@dun.bluehandset.com"
+    server="*"
+    password="wirelessblue"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport="8514"
+    mmsc="http://mms.blueunlimited.com"
+    type="default,dun,mms"
+    protocol="IPV4V6"
+  />
+</apns>

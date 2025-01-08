@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="8d4051a1b4aaba5468653056d17a7c81">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <string key="bookmarks_folder_name">O2 Bookmarks</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">O2 Shop</string>
+              <string key="url">http://www.o2.co.uk/shop</string>
+            </dict>
+            <dict>
+              <string key="title">My O2</string>
+              <string key="url">http://www.o2.co.uk/apps/my-o2</string>
+            </dict>
+            <dict>
+              <string key="title">Priority</string>
+              <string key="url">https://priority.o2.co.uk</string>
+            </dict>
+            <dict>
+              <string key="title">O2 Gurus</string>
+              <string key="url">http://www.o2.co.uk/help/guru</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

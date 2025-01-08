@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d2d692d98b8b0d93782fbf8be1f0936c">
+  <dict>
+    <!--2023-01-31 11:44:59.000-->
+    <string key="SMSCAddress">+393492000200</string>
+    <!--2023-01-31 11:44:59.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-01-31 11:44:59.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:44:59.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:44:59.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2023-01-31 11:44:59.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:44:59.000-->
+    <string key="virtual_ecclist_withcard">+112,+911,+118</string>
+    <!--2023-01-31 11:44:59.000-->
+    <string key="virtualnet_operatorname">Daily Telecom</string>
+  </dict>
+</config>

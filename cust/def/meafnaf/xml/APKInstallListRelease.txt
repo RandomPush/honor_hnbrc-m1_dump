@@ -1,0 +1,2 @@
+/cust/app/PayJoyAccess/PayJoyAccess.apk,priv
+/cust/app/PrayerAssistant/PrayerAssistant.apk,priv

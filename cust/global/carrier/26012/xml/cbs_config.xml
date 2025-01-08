@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="affb639f5267fab65ed3b42ed1e3ca43">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string></string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string></string>
+    </array>
+    <array key="cmas_alerts_severe_range_strings">
+      <string></string>
+    </array>
+    <array key="cmas_amber_alerts_channels_range_strings">
+      <string></string>
+    </array>
+    <array key="required_monthly_test_range_strings">
+      <string></string>
+    </array>
+    <array key="exercise_alert_range_strings">
+      <string></string>
+    </array>
+    <array key="operator_defined_alert_range_strings">
+      <string></string>
+    </array>
+    <array key="etws_alerts_range_strings">
+      <string></string>
+    </array>
+    <array key="etws_test_alerts_range_strings">
+      <string></string>
+    </array>
+    <array key="additional_cbs_channels_strings">
+      <string></string>
+    </array>
+    <array key="emergency_alerts_channels_range_strings">
+      <string></string>
+    </array>
+    <array key="public_safety_messages_channels_range_strings">
+      <string></string>
+    </array>
+  </dict>
+</config>

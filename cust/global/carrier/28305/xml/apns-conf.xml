@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VivaCell-MTS Internet" mcc="283" mnc="05" apn="inet.vivacell.am" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="VivaCell-MTS MMS" mcc="283" mnc="05" apn="mms.vivacell.am" user="" server="" password="" proxy="" port="" mmsproxy="83.217.226.72" mmsport="8080" mmsc="http://mms.vivacell.am/mmsc" type="mms"/>
+  <apn carrier="hos" mcc="283" mnc="05" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="283" mnc="05" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+</apns>

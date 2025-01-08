@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="261c6d449c640ea483bff07be97da234">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">20404</string>
+        <string key="sim_mccmnc">20404</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">hollandsnieuwe</string>
+        <string key="plmn">Hollandsnieuwe</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

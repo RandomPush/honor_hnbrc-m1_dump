@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b9688f868e313c9e35b20529f3e501a3">
+  <dict>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2024-08-22 15:10:07.000-->
+    <int key="customized_nsa_5g_icon">2</int>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,1</string>
+    <!--2023-01-31 11:50:13.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:50:13.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:50:13.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="voicemail_carrier">Yoigo</string>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="voicemail_number">+34633633633</string>
+    <!--2023-01-31 11:50:13.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

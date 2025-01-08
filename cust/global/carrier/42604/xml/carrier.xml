@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="50ea78e16b8165bc3771c18247cf8f1a">
+  <dict>
+    <!--2023-01-31 11:44:42.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:44:42.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+  </dict>
+</config>

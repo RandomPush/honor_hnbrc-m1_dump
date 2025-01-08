@@ -1,0 +1,17 @@
+<manifest version="1.0" type="device">
+    <!-- secure element -->
+    <hal format="hidl" override="true">
+       <name>android.hardware.secure_element</name>
+       <transport>hwbinder</transport>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.honor.hardware.hyperhold</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IPersistingData</name>
+            <instance>hyperhold_hal</instance>
+        </interface>
+    </hal>
+</manifest>
+

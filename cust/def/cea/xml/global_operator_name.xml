@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<OperatorName>
+    <!-- SW_GLOBAL_EUROPE_065 begin -->
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Adding 4G Entry Begins -->
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23430" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23430" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23430" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23431" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23431" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23431" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23432" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23432" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23432" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23433" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23433" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23433" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23434" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23434" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23434" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23486" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23486" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23430" gid="" mcc_mnc_name="23486" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23430" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23430" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23430" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23431" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23431" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23431" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23432" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23432" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23432" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23433" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23433" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23433" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23434" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23434" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23434" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23486" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23486" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23431" gid="" mcc_mnc_name="23486" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23430" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23430" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23430" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23431" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23431" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23431" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23432" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23432" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23432" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23433" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23433" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23433" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23434" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23434" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23434" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23486" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23486" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23432" gid="" mcc_mnc_name="23486" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23430" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23430" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23430" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23431" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23431" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23431" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23432" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23432" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23432" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23433" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23433" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23433" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23434" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23434" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23434" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23486" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23486" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" mcc_mnc_name="23486" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23430" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23430" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23430" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23431" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23431" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23431" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23432" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23432" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23432" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23433" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23433" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23433" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23434" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23434" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23434" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23486" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23486" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23434" gid="" mcc_mnc_name="23486" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23430" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23430" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23430" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23431" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23431" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23431" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23432" network_state="2G" display_name="EE 2G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23432" network_state="3G" display_name="EE 3G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23432" network_state="4G" display_name="EE 4G"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23433" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23433" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23433" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23434" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23434" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23434" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23486" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23486" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23486" gid="" mcc_mnc_name="23486" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23430" network_state="2G" display_name="Virgin 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23430" network_state="3G" display_name="Virgin 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23430" network_state="4G" display_name="Virgin 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23431" network_state="2G" display_name="Virgin 2G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23431" network_state="3G" display_name="Virgin 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23431" network_state="4G" display_name="Virgin 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23432" network_state="2G" display_name="Virgin 2G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23432" network_state="3G" display_name="Virgin 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23432" network_state="4G" display_name="Virgin 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23433" network_state="2G" display_name="virgin 2G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23433" network_state="3G" display_name="virgin 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23433" network_state="4G" display_name="virgin 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23434" network_state="2G" display_name="virgin 2G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23434" network_state="3G" display_name="virgin 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23434" network_state="4G" display_name="virgin 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23486" network_state="2G" display_name="virgin 2G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23486" network_state="3G" display_name="virgin 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0x28" mcc_mnc_name="23486" network_state="4G" display_name="virgin 4G"></search>
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Adding 4G Entry Ends -->
+    <!-- AR0008VFQ3 chenxiaojuan/00221674 20170210 Begins-->
+    <search sim_mcc_mnc="23430" gid="0xB3" mcc_mnc_name="23430" network_state="4G" display_name="BT 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0xB3" mcc_mnc_name="23430" network_state="3G" display_name="BT 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0xB3" mcc_mnc_name="23430" network_state="2G" display_name="BT 2G"></search>
+    <search sim_mcc_mnc="23430" gid="0xC3" mcc_mnc_name="23430" network_state="4G" display_name="BT 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0xC3" mcc_mnc_name="23430" network_state="3G" display_name="BT 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0xC3" mcc_mnc_name="23430" network_state="2G" display_name="BT 2G"></search>
+    <!-- DTS2017060201698 20170612 begin -->
+    <search sim_mcc_mnc="23430" gid="0xB2" mcc_mnc_name="23430" network_state="4G" display_name="BT OnePhone 4G"></search>
+    <search sim_mcc_mnc="23430" gid="0xB2" mcc_mnc_name="23430" network_state="3G" display_name="BT OnePhone 3G"></search>
+    <search sim_mcc_mnc="23430" gid="0xB2" mcc_mnc_name="23430" network_state="2G" display_name="BT OnePhone 2G"></search>
+    <search sim_mcc_mnc="23408" gid="0xB2" mcc_mnc_name="23430" network_state="4G" display_name="BT OnePhone 4G"></search>
+    <search sim_mcc_mnc="23408" gid="0xB2" mcc_mnc_name="23430" network_state="3G" display_name="BT OnePhone 3G"></search>
+    <search sim_mcc_mnc="23408" gid="0xB2" mcc_mnc_name="23430" network_state="2G" display_name="BT OnePhone 2G"></search>
+    <!-- DTS2017060201698 20170612 end -->
+    <!-- AR0008VFQ3 chenxiaojuan/00221674 20170210 end-->
+    <!-- Europe-Common-V5.0-Added-37 Karthik/K84017893 20150305 Begins-->
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23430" network_state="2G" display_name="ASDA 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23430" network_state="3G" display_name="ASDA 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23430" network_state="4G" display_name="ASDA 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23431" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23431" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23431" network_state="4G" display_name="ASDA 4G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23432" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23432" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23432" network_state="4G" display_name="ASDA 4G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23433" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23433" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23433" network_state="4G" display_name="ASDA 4G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23434" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23434" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23434" network_state="4G" display_name="ASDA 4G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23486" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23486" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" apn_name="ASDA Mobile" gid="" mcc_mnc_name="23486" network_state="4G" display_name="ASDA 4G"></search>
+    <!-- Europe-Common-V5.0-Added-37 Karthik/K84017893 20150305 end-->
+    <!-- AR0003TICU fengweiwei/wx214937 20160531 delete -->
+    <search sim_mcc_mnc="26207" gid="" imsi_start="26207500" mcc_mnc_name="26207" network_state="2G" display_name="o2 - de 2G"></search>
+    <search sim_mcc_mnc="26207" gid="" imsi_start="26207500" mcc_mnc_name="26207" network_state="3G" display_name="o2 - de 3G"></search>
+    <search sim_mcc_mnc="26207" gid="" imsi_start="26207500" mcc_mnc_name="26207" network_state="4G" display_name="o2 - de 4G"></search>
+    <search sim_mcc_mnc="26207" gid="" imsi_start="26207515" mcc_mnc_name="26207" network_state="2G" display_name="o2 - de 2G"></search>
+    <search sim_mcc_mnc="26207" gid="" imsi_start="26207515" mcc_mnc_name="26207" network_state="3G" display_name="o2 - de 3G"></search>
+    <search sim_mcc_mnc="26207" gid="" imsi_start="26207515" mcc_mnc_name="26207" network_state="4G" display_name="o2 - de 4G"></search>
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Adding 4G Entry Begins -->
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23430" network_state="2G" display_name="LifeMobile 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23430" network_state="3G" display_name="LifeMobile 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23430" network_state="4G" display_name="LifeMobile 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23431" network_state="2G" display_name="LifeMobile 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23431" network_state="3G" display_name="LifeMobile 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23431" network_state="4G" display_name="LifeMobile 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23432" network_state="2G" display_name="LifeMobile 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23432" network_state="3G" display_name="LifeMobile 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23432" network_state="4G" display_name="LifeMobile 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23433" network_state="2G" display_name="LifeMobile 2G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23433" network_state="3G" display_name="LifeMobile 3G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23433" network_state="4G" display_name="LifeMobile 4G(Home)"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23434" network_state="2G" display_name="LifeMobile 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23434" network_state="3G" display_name="LifeMobile 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23434" network_state="4G" display_name="LifeMobile 4G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23486" network_state="2G" display_name="LifeMobile 2G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23486" network_state="3G" display_name="LifeMobile 3G"></search>
+    <search sim_mcc_mnc="23433" gid="" imsi_start="" pre_apn="tslpaygnet" mcc_mnc_name="23486" network_state="4G" display_name="LifeMobile 4G"></search>
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Adding 4G Entry Ends -->
+    <!-- AR00049CVF shifalong/wx277905 20160420  delete the search network list of 214 -->
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140612" mcc_mnc_name="21401" network_state="4G" display_name="Mobil R 4G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140612" mcc_mnc_name="21401" network_state="3G" display_name="Mobil R 3G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140612" mcc_mnc_name="21401" network_state="2G" display_name="Mobil R 2G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140613" mcc_mnc_name="21401" network_state="4G" display_name="telecable 4G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140613" mcc_mnc_name="21401" network_state="3G" display_name="telecable 3G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140613" mcc_mnc_name="21401" network_state="2G" display_name="telecable 2G"></search>
+    <!-- AR00040B1S shifalong/wx277905 20160307 begin -->
+    <!-- delete 2140606 -->
+    <!-- AR00040B1S shifalong/wx277905 20160307 end -->
+    <!-- AR0002GJOA begin -->
+    <search sim_mcc_mnc="21419" gid="" imsi_start="" mcc_mnc_name="21403" network_state="4G" display_name="simyo 4G"></search>
+    <search sim_mcc_mnc="21419" gid="" imsi_start="" mcc_mnc_name="21403" network_state="3G" display_name="simyo 3G"></search>
+    <search sim_mcc_mnc="21419" gid="" imsi_start="" mcc_mnc_name="21403" network_state="2G" display_name="simyo 2G"></search>
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Updating network name Begins -->
+    <!-- DTS2016042108124 fengweiwei/wx214937 20160121 delete -->
+    <search sim_mcc_mnc="21405" gid="" imsi_start="" mcc_mnc_name="21407" network_state="4G" display_name="tuenti 4G"></search>
+    <search sim_mcc_mnc="21405" gid="" imsi_start="" mcc_mnc_name="21407" network_state="3G" display_name="tuenti 3G"></search>
+    <search sim_mcc_mnc="21405" gid="" imsi_start="" mcc_mnc_name="21407" network_state="2G" display_name="tuenti 2G"></search>
+    <search sim_mcc_mnc="21418" gid="" imsi_start="" mcc_mnc_name="21407" network_state="4G" display_name="ONO 4G"></search>
+    <search sim_mcc_mnc="21418" gid="" imsi_start="" mcc_mnc_name="21407" network_state="3G" display_name="ONO 3G"></search>
+    <search sim_mcc_mnc="21418" gid="" imsi_start="" mcc_mnc_name="21407" network_state="2G" display_name="ONO 2G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26803" network_state="4G" display_name="NOS P 4G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26803" network_state="3G" display_name="NOS P 3G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26803" network_state="2G" display_name="NOS P 2G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26806" network_state="4G" display_name="P MEO 4G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26806" network_state="3G" display_name="P MEO 3G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26806" network_state="2G" display_name="P MEO 2G"></search>
+    <!-- AR0002GJOA end -->
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Updating network name Ends -->
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26801" network_state="4G" display_name="vodafone P 4G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26801" network_state="3G" display_name="vodafone P 3G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="26801" network_state="2G" display_name="vodafone P 2G"></search>
+    <search sim_mcc_mnc="22801" gid="" mcc_mnc_name="22801" network_state="4G" display_name="Swisscom 4G"></search>
+    <search sim_mcc_mnc="22801" gid="" mcc_mnc_name="22801" network_state="3G" display_name="Swisscom 3G"></search>
+    <search sim_mcc_mnc="22801" gid="" mcc_mnc_name="22801" network_state="2G" display_name="Swisscom 2G"></search>
+    <search sim_mcc_mnc="42507" gid="" mcc_mnc_name="42503" network_state="4G" display_name="HOT mobile 4G"></search>
+    <search sim_mcc_mnc="42507" gid="" mcc_mnc_name="42503" network_state="3G" display_name="HOT mobile 3G"></search>
+    <search sim_mcc_mnc="42507" gid="" mcc_mnc_name="42503" network_state="2G" display_name="HOT mobile 2G"></search>
+    <search sim_mcc_mnc="23415" gid="0xC1" mcc_mnc_name="23415" network_state="4G" display_name="Talk Mobile 4G"></search>
+    <search sim_mcc_mnc="23415" gid="0xC1" mcc_mnc_name="23415" network_state="3G" display_name="Talk Mobile 3G"></search>
+    <search sim_mcc_mnc="23415" gid="0xC1" mcc_mnc_name="23415" network_state="2G" display_name="Talk Mobile 2G"></search>
+    <search sim_mcc_mnc="20815" gid="" mcc_mnc_name="20815" network_state="4G" display_name="Free 4G"></search>
+    <search sim_mcc_mnc="20815" gid="" mcc_mnc_name="20815" network_state="3G" display_name="Free 3G"></search>
+    <search sim_mcc_mnc="20815" gid="" mcc_mnc_name="20815" network_state="2G" display_name="Free 2G"></search>
+    <!-- SW_GLOBAL_EUROPE_065 end -->
+    <!-- Europe-Common-V5.0-Added-48 begin -->
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="2G" display_name="MASMovil 2G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="3G" display_name="MASMovil 3G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="4G" display_name="MASMovil 4G"></search>
+    <!-- DTS2016031103684 wangqi wx205225 20160315 begin -->
+    <search sim_mcc_mnc="21403" spn="Ibercom" mcc_mnc_name="21403" network_state="2G" display_name="Ibercom 2G"></search>
+    <search sim_mcc_mnc="21403" spn="Ibercom" mcc_mnc_name="21403" network_state="3G" display_name="Ibercom 3G"></search>
+    <search sim_mcc_mnc="21403" spn="Ibercom" mcc_mnc_name="21403" network_state="4G" display_name="Ibercom 4G"></search>
+    <search sim_mcc_mnc="21403" spn="JAZZTEL" mcc_mnc_name="21403" network_state="2G" display_name="JAZZTEL 2G"></search>
+    <search sim_mcc_mnc="21403" spn="JAZZTEL" mcc_mnc_name="21403" network_state="3G" display_name="JAZZTEL 3G"></search>
+    <search sim_mcc_mnc="21403" spn="JAZZTEL" mcc_mnc_name="21403" network_state="4G" display_name="JAZZTEL 4G"></search>
+    <!-- DTS2016031103684 wangqi wx205225 20160315 end -->
+    <search sim_mcc_mnc="21403" spn="Happy" mcc_mnc_name="21403" network_state="2G" display_name="Happy 2G"></search>
+    <search sim_mcc_mnc="21403" spn="Happy" mcc_mnc_name="21403" network_state="3G" display_name="Happy 3G"></search>
+    <search sim_mcc_mnc="21403" spn="Happy" mcc_mnc_name="21403" network_state="4G" display_name="Happy 4G"></search>
+    <search sim_mcc_mnc="21403" spn="CABLE movil" mcc_mnc_name="21403" network_state="2G" display_name="CABLE movil 2G"></search>
+    <search sim_mcc_mnc="21403" spn="CABLE movil" mcc_mnc_name="21403" network_state="3G" display_name="CABLE movil 3G"></search>
+    <search sim_mcc_mnc="21403" spn="CABLE movil" mcc_mnc_name="21403" network_state="4G" display_name="CABLE movil 4G"></search>
+    <!-- Europe-Common-V5.0-Added-48 end -->
+    <!-- Europe-Common-V5.0-Added-5 begin -->
+    <search sim_mcc_mnc="23415" apn_name="TalkTalk WAP" mcc_mnc_name="23415" network_state="2G" display_name="TalkTalk 2G"></search>
+    <search sim_mcc_mnc="23415" apn_name="TalkTalk WAP" mcc_mnc_name="23415" network_state="3G" display_name="TalkTalk 3G"></search>
+    <search sim_mcc_mnc="23415" apn_name="TalkTalk WAP" mcc_mnc_name="23415" network_state="4G" display_name="TalkTalk 4G"></search>
+    <search sim_mcc_mnc="23415" apn_name="Sainsbury's PAYG" mcc_mnc_name="23415" network_state="2G" display_name="Sainsbury's 2G"></search>
+    <search sim_mcc_mnc="23415" apn_name="Sainsbury's PAYG" mcc_mnc_name="23415" network_state="3G" display_name="Sainsbury's 3G"></search>
+    <search sim_mcc_mnc="23415" apn_name="Sainsbury's PAYG" mcc_mnc_name="23415" network_state="4G" display_name="Sainsbury's 4G"></search>
+    <!-- Europe-Common-V5.0-Added-5 end -->
+    <!-- Europe-Common-V5.0-Added-9 begin -->
+    <search sim_mcc_mnc="21432" mcc_mnc_name="21407" network_state="2G" display_name="tuenti 2G"></search>
+    <search sim_mcc_mnc="21432" mcc_mnc_name="21407" network_state="3G" display_name="tuenti 3G"></search>
+    <search sim_mcc_mnc="21432" mcc_mnc_name="21407" network_state="4G" display_name="tuenti 4G"></search>
+    <!-- DTS2017111605193 Amit Kawadkar/awx373216 20171116 delete EI Telecom requirement begin -->
+    <!-- <search sim_mcc_mnc="20826" spn="EI Telecom" mcc_mnc_name="20810" network_state="2G" display_name="EI Telecom 2G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" spn="EI Telecom" mcc_mnc_name="20810" network_state="3G" display_name="EI Telecom 3G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" spn="EI Telecom" mcc_mnc_name="20810" network_state="4G" display_name="EI Telecom 4G"></search> -->
+    <!-- DTS2017111605193 Amit Kawadkar/awx373216 20171116 delete EI Telecom requirement end -->
+    <!-- AR000AE37G 20180409 delete p4pl requirement begin -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26001" network_state="2G" display_name="PLAY (Plus) 2G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26001" network_state="3G" display_name="PLAY (Plus) 3G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26001" network_state="4G" display_name="PLAY (Plus) LTE"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26002" network_state="2G" display_name="PLAY (T-Mobile) 2G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26002" network_state="3G" display_name="PLAY (T-Mobile) 3G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26002" network_state="4G" display_name="PLAY (T-Mobile) LTE"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26003" network_state="2G" display_name="PLAY (Orange) 2G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26003" network_state="3G" display_name="PLAY (Orange) 3G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" mcc_mnc_name="26003" network_state="4G" display_name="PLAY (Orange) LTE"></search> -->
+    <!-- Europe-Common-V5.0-Added-9 o84015623 20150508 begin -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26001" network_state="2G" display_name="PLAY (Plus) 2G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26001" network_state="3G" display_name="PLAY (Plus) 3G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26001" network_state="4G" display_name="PLAY (Plus) LTE"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26002" network_state="2G" display_name="PLAY (T-Mobile) 2G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26002" network_state="3G" display_name="PLAY (T-Mobile) 3G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26002" network_state="4G" display_name="PLAY (T-Mobile) LTE"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26003" network_state="2G" display_name="PLAY (Orange) 2G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26003" network_state="3G" display_name="PLAY (Orange) 3G"></search> -->
+    <!-- <search sim_mcc_mnc="26006" spn="PLAY" mcc_mnc_name="26003" network_state="4G" display_name="PLAY (Orange) LTE"></search> -->
+    <!-- Europe-Common-V5.0-Added-9 o84015623 20150508 end -->
+    <!-- AR000AE37G 20180409 delete p4pl requirement end -->
+    <!-- DTS2015040800765 begin-->
+    <search sim_mcc_mnc="20415" spn="" mcc_mnc_name="20404" network_state="2G" display_name="Ziggo 2G" />
+    <search sim_mcc_mnc="20415" spn="" mcc_mnc_name="20404" network_state="3G" display_name="Ziggo 3G" />
+    <search sim_mcc_mnc="20415" spn="" mcc_mnc_name="20404" network_state="4G" display_name="Ziggo 4G" />
+    <!-- DTS2015040800765 end-->
+    <!-- DTS2015031608219 begin-->
+    <search sim_mcc_mnc="20418" gid="" mcc_mnc_name="20404" network_state="2G" display_name="Ziggo 2G" />
+    <search sim_mcc_mnc="20418" gid="" mcc_mnc_name="20404" network_state="3G" display_name="Ziggo 3G" />
+    <search sim_mcc_mnc="20418" gid="" mcc_mnc_name="20404" network_state="4G" display_name="Ziggo 4G" />
+    <!-- DTS2015031608219 end-->
+    <!-- DTS2015040307802 end -->
+    <!-- Europe-Common-V5.0-Added-9 end -->
+    <!--DP Europe-Common-V5.0-Added-28 begin-->
+    <!--For vodafone UK-->
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="pp.vodafone.co.uk" mcc_mnc_name="23415" network_state="2G" display_name="vodafone UK 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="pp.vodafone.co.uk" mcc_mnc_name="23415" network_state="3G" display_name="vodafone UK 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="pp.vodafone.co.uk" mcc_mnc_name="23415" network_state="4G" display_name="vodafone UK 4G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="wap.vodafone.co.uk" mcc_mnc_name="23415" network_state="2G" display_name="vodafone UK 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="wap.vodafone.co.uk" mcc_mnc_name="23415" network_state="3G" display_name="vodafone UK 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="wap.vodafone.co.uk" mcc_mnc_name="23415" network_state="4G" display_name="vodafone UK 4G"></search>
+    <!--For TalkTalk-->
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="mobile.talktalk.co.uk" mcc_mnc_name="23415" network_state="2G" display_name="TalkTalk 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="mobile.talktalk.co.uk" mcc_mnc_name="23415" network_state="3G" display_name="TalkTalk 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="mobile.talktalk.co.uk" mcc_mnc_name="23415" network_state="4G" display_name="TalkTalk 4G"></search>
+    <!--For BT Mobile-->
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="btmobile.bt.com" mcc_mnc_name="23415" network_state="2G" display_name="BT 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="btmobile.bt.com" mcc_mnc_name="23415" network_state="3G" display_name="BT 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="btmobile.bt.com" mcc_mnc_name="23415" network_state="4G" display_name="BT 4G"></search>
+    <!--For Sainsbury's-->
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="payg.mobilebysainsburys.co.uk" mcc_mnc_name="23415" network_state="2G" display_name="Sainsbury's 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="payg.mobilebysainsburys.co.uk" mcc_mnc_name="23415" network_state="3G" display_name="Sainsbury's 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="payg.mobilebysainsburys.co.uk" mcc_mnc_name="23415" network_state="4G" display_name="Sainsbury's 4G"></search>
+    <!--For Talk Mobile-->
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="payg.talkmobile.co.uk" mcc_mnc_name="23415" network_state="2G" display_name="Talkmobile 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="payg.talkmobile.co.uk" mcc_mnc_name="23415" network_state="3G" display_name="Talkmobile 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="payg.talkmobile.co.uk" mcc_mnc_name="23415" network_state="4G" display_name="Talkmobile 4G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="talkmobile.co.uk" mcc_mnc_name="23415" network_state="2G" display_name="Talkmobile 2G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="talkmobile.co.uk" mcc_mnc_name="23415" network_state="3G" display_name="Talkmobile 3G"></search>
+    <search sim_mcc_mnc="23415" gid="" imsi_start="" pre_apn="talkmobile.co.uk" mcc_mnc_name="23415" network_state="4G" display_name="Talkmobile 4G"></search>
+    <!--DP Europe-Common-V5.0-Added-28 end-->
+    <!--DP Europe-Common-V5.0-Added-37 begin-->
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23430" network_state="2G" display_name="ASDA 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23430" network_state="3G" display_name="ASDA 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23430" network_state="4G" display_name="ASDA 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23431" network_state="2G" display_name="ASDA 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23431" network_state="3G" display_name="ASDA 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23431" network_state="4G" display_name="ASDA 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23432" network_state="2G" display_name="ASDA 2G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23432" network_state="3G" display_name="ASDA 3G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23433" network_state="4G" display_name="ASDA 4G(Home)"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23433" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23433" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23433" network_state="4G" display_name="ASDA 4G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23434" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23434" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23434" network_state="4G" display_name="ASDA 4G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23486" network_state="2G" display_name="ASDA 2G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23486" network_state="3G" display_name="ASDA 3G"></search>
+    <search sim_mcc_mnc="23430" pre_apn_name="ASDA Mobile" apn_name="ASDA Mobile" mcc_mnc_name="23486" network_state="4G" display_name="ASDA 4G"></search>
+    <!--DP Europe-Common-V5.0-Added-37 end-->
+    <!-- Europe-Common-V5.0-Added-39 DTS2015022702563 f84019026 20150302 begin-->
+    <search sim_mcc_mnc="20415" gid="" mcc_mnc_name="20418" network_state="4G" display_name="Ziggo 4G"></search>
+    <search sim_mcc_mnc="20415" gid="" mcc_mnc_name="20418" network_state="3G" display_name="Ziggo 3G"></search>
+    <search sim_mcc_mnc="20415" gid="" mcc_mnc_name="20418" network_state="2G" display_name="Ziggo 2G"></search>
+    <search sim_mcc_mnc="20418" gid="" mcc_mnc_name="20418" network_state="4G" display_name="Ziggo 4G"></search>
+    <search sim_mcc_mnc="20418" gid="" mcc_mnc_name="20418" network_state="3G" display_name="Ziggo 3G"></search>
+    <search sim_mcc_mnc="20418" gid="" mcc_mnc_name="20418" network_state="2G" display_name="Ziggo 2G"></search>
+    <search sim_mcc_mnc="20601" gid="" mcc_mnc_name="20418" network_state="4G" display_name="Ziggo 4G"></search>
+    <search sim_mcc_mnc="20601" gid="" mcc_mnc_name="20418" network_state="3G" display_name="Ziggo 3G"></search>
+    <search sim_mcc_mnc="20601" gid="" mcc_mnc_name="20418" network_state="2G" display_name="Ziggo 2G"></search>
+    <search sim_mcc_mnc="20404" gid="" mcc_mnc_name="20418" network_state="4G" display_name="Ziggo 4G"></search>
+    <search sim_mcc_mnc="20404" gid="" mcc_mnc_name="20418" network_state="3G" display_name="Ziggo 3G"></search>
+    <search sim_mcc_mnc="20404" gid="" mcc_mnc_name="20418" network_state="2G" display_name="Ziggo 2G"></search>
+    <search sim_mcc_mnc="20408" gid="" mcc_mnc_name="20418" network_state="4G" display_name="Ziggo 4G"></search>
+    <search sim_mcc_mnc="20408" gid="" mcc_mnc_name="20418" network_state="3G" display_name="Ziggo 3G"></search>
+    <search sim_mcc_mnc="20408" gid="" mcc_mnc_name="20418" network_state="2G" display_name="Ziggo 2G"></search>
+    <!-- Europe-Common-V5.0-Added-39 DTS2015022702563 f84019026 20150302 end-->
+    <!-- DTS2015033007292  begin-->
+    <search sim_mcc_mnc="21403" spn="RACC" mcc_mnc_name="21403" network_state="2G" display_name="RACC 2G"></search>
+    <search sim_mcc_mnc="21403" spn="RACC" mcc_mnc_name="21403" network_state="3G" display_name="RACC 3G"></search>
+    <search sim_mcc_mnc="21403" spn="RACC" mcc_mnc_name="21403" network_state="4G" display_name="RACC 4G"></search>
+    <!-- DTS2015033007292  end-->
+    <!-- DTS2015033007281  begin-->
+    <search sim_mcc_mnc="21403" spn="EUSKALTEL" mcc_mnc_name="21403" network_state="2G" display_name="EUSKALTEL 2G"></search>
+    <search sim_mcc_mnc="21403" spn="EUSKALTEL" mcc_mnc_name="21403" network_state="3G" display_name="EUSKALTEL 3G"></search>
+    <search sim_mcc_mnc="21403" spn="EUSKALTEL" mcc_mnc_name="21403" network_state="4G" display_name="EUSKALTEL 4G"></search>
+    <!-- DTS2015033007281  end-->
+    <!-- DTS2015033109529  begin-->
+    <search sim_mcc_mnc="20801" spn="C le mobile" mcc_mnc_name="20801" network_state="2G" display_name="C le mobile 2G"></search>
+    <search sim_mcc_mnc="20801" spn="C le mobile" mcc_mnc_name="20801" network_state="3G" display_name="C le mobile 3G"></search>
+    <search sim_mcc_mnc="20801" spn="C le mobile" mcc_mnc_name="20801" network_state="4G" display_name="C le mobile 4G"></search>
+    <search sim_mcc_mnc="20810" spn="C le mobile" mcc_mnc_name="20810" network_state="2G" display_name="C le mobile 2G"></search>
+    <search sim_mcc_mnc="20810" spn="C le mobile" mcc_mnc_name="20810" network_state="3G" display_name="C le mobile 3G"></search>
+    <search sim_mcc_mnc="20810" spn="C le mobile" mcc_mnc_name="20810" network_state="4G" display_name="C le mobile 4G"></search>
+    <search sim_mcc_mnc="20810" spn="C le mobile" mcc_mnc_name="20801" network_state="2G" display_name="C le mobile 2G"></search>
+    <search sim_mcc_mnc="20810" spn="C le mobile" mcc_mnc_name="20801" network_state="3G" display_name="C le mobile 3G"></search>
+    <search sim_mcc_mnc="20810" spn="C le mobile" mcc_mnc_name="20801" network_state="4G" display_name="C le mobile 4G"></search>
+    <!-- DTS2015033109529  end-->
+    <!--DTS2015040308081 begin-->
+    <search sim_mcc_mnc="20801" spn="C le mobile" mcc_mnc_name="20810" network_state="2G" display_name="C le mobile 2G"></search>
+    <search sim_mcc_mnc="20801" spn="C le mobile" mcc_mnc_name="20810" network_state="3G" display_name="C le mobile 3G"></search>
+    <search sim_mcc_mnc="20801" spn="C le mobile" mcc_mnc_name="20810" network_state="4G" display_name="C le mobile 4G"></search>
+    <!-- DTS2015040308081 end -->
+
+    <!-- DTS2015040106739  begin-->
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20402" network_state="4G" display_name="Tele2 NL 4G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20402" network_state="3G" display_name="Tele2 NL 3G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20402" network_state="2G" display_name="Tele2 NL 2G"></search>
+    <!--DTS2016042208697 fengweiwei/wx214937 20160505 begin-->
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20416" network_state="4G" display_name="T-Mobile NL 4G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20416" network_state="3G" display_name="T-Mobile NL 3G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20416" network_state="2G" display_name="T-Mobile NL 2G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20420" network_state="4G" display_name="T-Mobile NL 4G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20420" network_state="3G" display_name="T-Mobile NL 3G"></search>
+    <search sim_mcc_mnc="20420" gid="" mcc_mnc_name="20420" network_state="2G" display_name="T-Mobile NL 2G"></search>
+    <!--DTS2016042208697 fengweiwei/wx214937 20160505 end-->
+    <!-- DTS2015040106739  end-->
+    <!--DTS2015040301269 zhangfang/zWX207092 20150409 begin-->
+    <search sim_mcc_mnc="20823" gid="" mcc_mnc_name="20810" network_state="2G" display_name="Virgin 2G"></search>
+    <search sim_mcc_mnc="20823" gid="" mcc_mnc_name="20810" network_state="3G" display_name="Virgin 3G"></search>
+    <search sim_mcc_mnc="20823" gid="" mcc_mnc_name="20810" network_state="4G" display_name="Virgin 4G"></search>
+    <!--DTS2015040301269 zhangfang/zWX207092 20150409 end-->
+	<!-- DTS2015040308083 shifalong/swx277905 20150416 begin-->
+    <!-- DTS2017111605193 Amit Kawadkar/awx373216 20171116 delete EI Telecom requirement begin -->
+    <!-- <search sim_mcc_mnc="20826" gid="" mcc_mnc_name="20810" network_state="4G" display_name="EI Telecom 4G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" gid="" mcc_mnc_name="20810" network_state="3G" display_name="EI Telecom 3G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" gid="" mcc_mnc_name="20810" network_state="2G" display_name="EI Telecom 2G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" gid="" mcc_mnc_name="20801" network_state="4G" display_name="EI Telecom 4G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" gid="" mcc_mnc_name="20801" network_state="3G" display_name="EI Telecom 3G"></search> -->
+    <!-- <search sim_mcc_mnc="20826" gid="" mcc_mnc_name="20801" network_state="2G" display_name="EI Telecom 2G"></search> -->
+    <!-- DTS2017111605193 Amit Kawadkar/awx373216 20171116 delete EI Telecom requirement end -->
+	<!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_065 Ends -->
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_076 Begins -->
+    <!-- DTS2016030405656 wangqi wx205225 20160322 delete -->
+    <!-- DTS2015050704198 Karthik/K84017893 SW_GLOBAL_EUROPE_076 Ends -->
+    <!-- DTS2015040308083 shifalong/swx277905 20150416 end-->
+    <!-- Europe-Common-V5.0-Added-57/DTS2015050704198 o84015623 20150506 begin-->
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="20820" network_state="4G" display_name="F-Bouygues Telecom 4G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="20820" network_state="3G" display_name="F-Bouygues Telecom 3G"></search>
+    <search sim_mcc_mnc="21404" gid="" mcc_mnc_name="20820" network_state="2G" display_name="F-Bouygues Telecom 2G"></search>
+    <!-- Europe-Common-V5.0-Added-57/DTS2015050704198 o84015623 20150506 end-->
+    <!-- Europe-Common-V5.0-Added-56/DTS2015050704198 o84015623 20150506 begin-->
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140352" mcc_mnc_name="21403" network_state="4G" display_name="Carrefour 4G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140352" mcc_mnc_name="21403" network_state="3G" display_name="Carrefour 3G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140352" mcc_mnc_name="21403" network_state="2G" display_name="Carrefour 2G"></search>
+    <!-- Europe-Common-V5.0-Added-56/DTS2015050704198 o84015623 20150506 end-->
+    <!-- Europe-Common-V5.0-Added-55/DTS2015050704198 o84015623 20150506 begin-->
+    <search sim_mcc_mnc="24421" gid="" mcc_mnc_name="24405" network_state="4G" display_name="Saunalahti 4G"></search>
+    <search sim_mcc_mnc="24421" gid="" mcc_mnc_name="24405" network_state="3G" display_name="Saunalahti 3G"></search>
+    <search sim_mcc_mnc="24421" gid="" mcc_mnc_name="24405" network_state="2G" display_name="Saunalahti 2G"></search>
+    <!-- Europe-Common-V5.0-Added-55/DTS2015050704198 o84015623 20150506 end-->
+    <!-- Europe-Common-V5.0-Added-78 -->
+    <search sim_mcc_mnc="20801" gid="" spn="NRJ Mobile" mcc_mnc_name="20801" network_state="2G" display_name="NRJ Mobile 2G"></search>
+    <search sim_mcc_mnc="20801" gid="" spn="NRJ Mobile" mcc_mnc_name="20801" network_state="3G" display_name="NRJ Mobile 3G"></search>
+    <search sim_mcc_mnc="20801" gid="" spn="NRJ Mobile" mcc_mnc_name="20801" network_state="4G" display_name="NRJ Mobile 4G"></search>
+    <search sim_mcc_mnc="20810" gid="" spn="NRJ Mobile" mcc_mnc_name="20810" network_state="2G" display_name="NRJ Mobile 2G"></search>
+    <search sim_mcc_mnc="20810" gid="" spn="NRJ Mobile" mcc_mnc_name="20810" network_state="3G" display_name="NRJ Mobile 3G"></search>
+    <search sim_mcc_mnc="20810" gid="" spn="NRJ Mobile" mcc_mnc_name="20810" network_state="4G" display_name="NRJ Mobile 4G"></search>
+    <search sim_mcc_mnc="20801" gid="" spn="NRJ Mobile" mcc_mnc_name="20810" network_state="2G" display_name="NRJ Mobile 2G"></search>
+    <search sim_mcc_mnc="20801" gid="" spn="NRJ Mobile" mcc_mnc_name="20810" network_state="3G" display_name="NRJ Mobile 3G"></search>
+    <search sim_mcc_mnc="20801" gid="" spn="NRJ Mobile" mcc_mnc_name="20810" network_state="4G" display_name="NRJ Mobile 4G"></search>
+    <search sim_mcc_mnc="20810" gid="" spn="NRJ Mobile" mcc_mnc_name="20801" network_state="2G" display_name="NRJ Mobile 2G"></search>
+    <search sim_mcc_mnc="20810" gid="" spn="NRJ Mobile" mcc_mnc_name="20801" network_state="3G" display_name="NRJ Mobile 3G"></search>
+    <search sim_mcc_mnc="20810" gid="" spn="NRJ Mobile" mcc_mnc_name="20801" network_state="4G" display_name="NRJ Mobile 4G"></search>
+    <!-- Europe-Common-V5.0-Added-78 -->
+    <!-- Europe-Common-V5.0-Added-79 -->
+    <search sim_mcc_mnc="21405" gid="" spn="Pepephone" mcc_mnc_name="21407" network_state="2G" display_name="Pepephone 2G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="Pepephone" mcc_mnc_name="21407" network_state="3G" display_name="Pepephone 3G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="Pepephone" mcc_mnc_name="21407" network_state="4G" display_name="Pepephone 4G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="pepephone" mcc_mnc_name="21407" network_state="2G" display_name="Pepephone 2G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="pepephone" mcc_mnc_name="21407" network_state="3G" display_name="Pepephone 3G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="pepephone" mcc_mnc_name="21407" network_state="4G" display_name="Pepephone 4G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140602" mcc_mnc_name="21401" network_state="2G" display_name="Pepephone 2G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140602" mcc_mnc_name="21401" network_state="3G" display_name="Pepephone 3G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140602" mcc_mnc_name="21401" network_state="4G" display_name="Pepephone 4G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="ONO" mcc_mnc_name="21401" network_state="2G" display_name="ONO 2G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="ONO" mcc_mnc_name="21401" network_state="3G" display_name="ONO 3G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="ONO" mcc_mnc_name="21401" network_state="4G" display_name="ONO 4G"></search>
+    <!-- Europe-Common-V5.0-Added-79 -->
+    <!-- Europe-Common-V5.0-Added-82 begin -->
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140358" mcc_mnc_name="21403" network_state="2G" display_name="simyo 2G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140358" mcc_mnc_name="21403" network_state="3G" display_name="simyo 3G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140358" mcc_mnc_name="21403" network_state="4G" display_name="simyo 4G"></search>
+    <!-- Europe-Common-V5.0-Added-82 end -->
+    <!-- AR0002GJOA begin -->
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23430" network_state="2G" display_name="Virgin 2G(Home)"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23430" network_state="3G" display_name="Virgin 3G(Home)"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23430" network_state="4G" display_name="Virgin 4G(Home)"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23431" network_state="2G" display_name="Virgin 2G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23431" network_state="3G" display_name="Virgin 3G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23431" network_state="4G" display_name="Virgin 4G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23432" network_state="2G" display_name="Virgin 2G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23432" network_state="3G" display_name="Virgin 3G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23432" network_state="4G" display_name="Virgin 4G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23433" network_state="2G" display_name="virgin 2G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23433" network_state="3G" display_name="virgin 3G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23433" network_state="4G" display_name="virgin 4G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23434" network_state="2G" display_name="virgin 2G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23434" network_state="3G" display_name="virgin 3G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23434" network_state="4G" display_name="virgin 4G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23486" network_state="2G" display_name="virgin 2G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23486" network_state="3G" display_name="virgin 3G"></search>
+    <search sim_mcc_mnc="23438" gid="0x28" mcc_mnc_name="23486" network_state="4G" display_name="virgin 4G"></search>
+    <!-- DTS2015121404215 shifalong/wx277905 20160113 begin -->
+    <search sim_mcc_mnc="22853" gid="" mcc_mnc_name="22803" network_state="2G" display_name="upc ch 2G" />
+    <search sim_mcc_mnc="22853" gid="" mcc_mnc_name="22803" network_state="3G" display_name="upc ch 3G" />
+    <search sim_mcc_mnc="22853" gid="" mcc_mnc_name="22803" network_state="4G" display_name="upc ch 4G" />
+    <!-- DTS2015121404215 shifalong/wx277905 20160113 end -->
+    <!--DTS2015112804377  xiazhiqiao WX320883 20151202 begin-->
+    <search sim_mcc_mnc="22853" gid="" mcc_mnc_name="22853" network_state="2G" display_name="upc ch 2G" />
+    <search sim_mcc_mnc="22853" gid="" mcc_mnc_name="22853" network_state="3G" display_name="upc ch 3G" />
+    <search sim_mcc_mnc="22853" gid="" mcc_mnc_name="22853" network_state="4G" display_name="upc ch 4G" />
+    <!-- DTS2015112804377 xiazhiqiao WX320883 20151202 end-->
+    <search sim_mcc_mnc="21403" spn="ibercom" mcc_mnc_name="21403" network_state="2G" display_name="Ibercom 2G"></search>
+    <search sim_mcc_mnc="21403" spn="ibercom" mcc_mnc_name="21403" network_state="3G" display_name="Ibercom 3G"></search>
+    <search sim_mcc_mnc="21403" spn="ibercom" mcc_mnc_name="21403" network_state="4G" display_name="Ibercom 4G"></search>
+    <!-- AR0003FJ3T shifalong/wx277905 20160302 begin -->
+    <search sim_mcc_mnc="21403" spn="MASMovil" mcc_mnc_name="21403" network_state="2G" display_name="MASMovil 2G"></search>
+    <search sim_mcc_mnc="21403" spn="MASMovil" mcc_mnc_name="21403" network_state="3G" display_name="MASMovil 3G"></search>
+    <search sim_mcc_mnc="21403" spn="MASMovil" mcc_mnc_name="21403" network_state="4G" display_name="MASMovil 4G"></search>
+    <!-- AR0003TICU fengweiwei/wx214937 20160531 begin -->
+    <search sim_mcc_mnc="21403" spn="masmovil" mcc_mnc_name="21403" network_state="2G" display_name="MASMovil 2G"></search>
+    <search sim_mcc_mnc="21403" spn="masmovil" mcc_mnc_name="21403" network_state="3G" display_name="MASMovil 3G"></search>
+    <search sim_mcc_mnc="21403" spn="masmovil" mcc_mnc_name="21403" network_state="4G" display_name="MASMovil 4G"></search>
+    <!-- AR0003TICU fengweiwei/wx214937 20160531 end -->
+    <!-- AR0003FJ3T shifalong/wx277905 20160302 end -->
+    <search sim_mcc_mnc="21405" gid="" spn="tuenti" mcc_mnc_name="21407" network_state="2G" display_name="tuenti 2G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="tuenti" mcc_mnc_name="21407" network_state="3G" display_name="tuenti 3G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="tuenti" mcc_mnc_name="21407" network_state="4G" display_name="tuenti 4G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="Tuenti" mcc_mnc_name="21407" network_state="2G" display_name="tuenti 2G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="Tuenti" mcc_mnc_name="21407" network_state="3G" display_name="tuenti 3G"></search>
+    <search sim_mcc_mnc="21405" gid="" spn="Tuenti" mcc_mnc_name="21407" network_state="4G" display_name="tuenti 4G"></search>
+    <!-- AR0002GJOA end -->
+    <!-- AR00037O6D DTS2015060804461 meishuangwen/wx230765 begin -->
+    <search sim_mcc_mnc="21405" spn="tuenti" mcc_mnc_name="21405" network_state="2G" display_name="tuenti 2G"></search>
+    <search sim_mcc_mnc="21405" spn="tuenti" mcc_mnc_name="21405" network_state="3G" display_name="tuenti 3G"></search>
+    <search sim_mcc_mnc="21405" spn="tuenti" mcc_mnc_name="21405" network_state="4G" display_name="tuenti 4G"></search>
+    <search sim_mcc_mnc="21405" spn="Tuenti" mcc_mnc_name="21405" network_state="2G" display_name="tuenti 2G"></search>
+    <search sim_mcc_mnc="21405" spn="Tuenti" mcc_mnc_name="21405" network_state="3G" display_name="tuenti 3G"></search>
+    <search sim_mcc_mnc="21405" spn="Tuenti" mcc_mnc_name="21405" network_state="4G" display_name="tuenti 4G"></search>
+    <search sim_mcc_mnc="21405" spn="pepephone" mcc_mnc_name="21405" network_state="2G" display_name="pepephone 2G"></search>
+    <search sim_mcc_mnc="21405" spn="pepephone" mcc_mnc_name="21405" network_state="3G" display_name="pepephone 3G"></search>
+    <search sim_mcc_mnc="21405" spn="pepephone" mcc_mnc_name="21405" network_state="4G" display_name="pepephone 4G"></search>
+    <search sim_mcc_mnc="21405" spn="Pepephone" mcc_mnc_name="21405" network_state="2G" display_name="pepephone 2G"></search>
+    <search sim_mcc_mnc="21405" spn="Pepephone" mcc_mnc_name="21405" network_state="3G" display_name="pepephone 3G"></search>
+    <search sim_mcc_mnc="21405" spn="Pepephone" mcc_mnc_name="21405" network_state="4G" display_name="pepephone 4G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140602" mcc_mnc_name="21406" network_state="4G" display_name="Pepephone 4G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140602" mcc_mnc_name="21406" network_state="3G" display_name="Pepephone 3G"></search>
+    <search sim_mcc_mnc="21406" gid="" imsi_start="2140602" mcc_mnc_name="21406" network_state="2G" display_name="Pepephone 2G"></search>
+    <!-- AR00037O6D DTS2015060804461 meishuangwen/wx230765 end -->
+    <!-- AR00037O6D houzhenzhen/wx277908 20151029 begin -->
+    <search sim_mcc_mnc="26001" gid="" mcc_mnc_name="26001" network_state="2G" display_name="Plus 2G"></search>
+    <search sim_mcc_mnc="26001" gid="" mcc_mnc_name="26001" network_state="3G" display_name="Plus 3G"></search>
+    <search sim_mcc_mnc="26001" gid="" mcc_mnc_name="26001" network_state="4G" display_name="Plus LTE"></search>
+    <!-- AR00037O6D houzhenzhen/wx277908 20151029 end -->
+    <!-- AR00037O55 shifalong/wx277905 20151027 begin -->
+    <search sim_mcc_mnc="22603" gid="" mcc_mnc_name="22603" network_state="2G" display_name="TELEKOM.RO 2G"></search>
+    <search sim_mcc_mnc="22603" gid="" mcc_mnc_name="22603" network_state="3G" display_name="TELEKOM.RO 3G"></search>
+    <search sim_mcc_mnc="22603" gid="" mcc_mnc_name="22603" network_state="4G" display_name="TELEKOM.RO 4G"></search>
+    <search sim_mcc_mnc="22606" gid="" mcc_mnc_name="22606" network_state="2G" display_name="TELEKOM.RO 2G"></search>
+    <search sim_mcc_mnc="22606" gid="" mcc_mnc_name="22606" network_state="3G" display_name="TELEKOM.RO 3G"></search>
+    <search sim_mcc_mnc="22606" gid="" mcc_mnc_name="22606" network_state="4G" display_name="TELEKOM.RO 4G"></search>
+    <!-- AR00037O55 shifalong/wx277905 20151027 end -->
+    <!-- AR00037O69 shifalong/wx277905 20151027 begin -->
+    <search sim_mcc_mnc="22005" gid="" mcc_mnc_name="22001" network_state="2G" display_name="Telenor 2G"></search>
+    <search sim_mcc_mnc="22005" gid="" mcc_mnc_name="22001" network_state="3G" display_name="Telenor 3G"></search>
+    <search sim_mcc_mnc="22005" gid="" mcc_mnc_name="22001" network_state="4G" display_name="Telenor 4G"></search>
+    <!-- AR00037O69 shifalong/wx277905 20151027 end -->
+    <!-- AR00039EM2 houzhenzhen/wx277908 20151109 begin -->
+    <search sim_mcc_mnc="23806" gid="" imsi_start="23806009" mcc_mnc_name="23806" network_state="2G" display_name="Oister DK 2G"></search>
+    <search sim_mcc_mnc="23806" gid="" imsi_start="23806009" mcc_mnc_name="23806" network_state="3G" display_name="Oister DK 3G"></search>
+    <search sim_mcc_mnc="23806" gid="" imsi_start="23806009" mcc_mnc_name="23806" network_state="4G" display_name="Oister DK 4G"></search>
+    <!-- AR00039EM2 houzhenzhen/wx277908 20151109 end -->
+    <!-- DTS2015111202909 fengweiwei/wx214937 20151114 begin -->
+    <!-- AR0003FJ52 shifalong/wx277905 20160304 begin -->
+    <!-- The operator name for 23203 3G changed,delete the config -->
+    <!-- AR0003FJ52 shifalong/wx277905 20160304 end -->
+    <!-- DTS2015111202909 fengweiwei/wx214937 20151114 end -->
+    <!-- DTS2015111203601 fengweiwei/wx214937 20151116 begin -->
+    <search sim_mcc_mnc="20408" gid="" mcc_mnc_name="20404" network_state="2G" display_name="Ziggo 2G"></search>
+    <search sim_mcc_mnc="20408" gid="" mcc_mnc_name="20404" network_state="3G" display_name="Ziggo 3G"></search>
+    <search sim_mcc_mnc="20408" gid="" mcc_mnc_name="20404" network_state="4G" display_name="Ziggo 4G"></search>
+    <!-- DTS2015111203601 fengweiwei/wx214937 20151116 end -->
+    <!-- DTS2015121100944 hesen/wx218260 20151215 begin -->
+    <!-- AR000A11EI Dileep/WX513026 20171222 begin -->
+    <!-- <search sim_mcc_mnc="26207" gid="" mcc_mnc_name="26203" network_state="2G" display_name="E-Plus 2G"></search>  -->
+    <!-- <search sim_mcc_mnc="26207" gid="" mcc_mnc_name="26203" network_state="3G" display_name="E-Plus 3G"></search>  -->
+    <!-- <search sim_mcc_mnc="26207" gid="" mcc_mnc_name="26203" network_state="4G" display_name="E-Plus 4G"></search>  -->
+    <!-- <search sim_mcc_mnc="26208" gid="" mcc_mnc_name="26203" network_state="2G" display_name="E-Plus 2G"></search>  -->
+    <!-- <search sim_mcc_mnc="26208" gid="" mcc_mnc_name="26203" network_state="3G" display_name="E-Plus 3G"></search>  -->
+    <!-- <search sim_mcc_mnc="26208" gid="" mcc_mnc_name="26203" network_state="4G" display_name="E-Plus 4G"></search>  -->
+    <!-- AR000A11EI Dileep/WX513026 20171222 end -->
+    <!-- DTS2015121100944 hesen/wx218260 20151215 end -->
+    <!-- DTS2016031506851  xiazhiqiao wx320883 20160323 begin -->
+    <search sim_mcc_mnc="21406" gid="" spn="Lowi" mcc_mnc_name="21401" network_state="2G" display_name="Lowi 2G"></search>
+    <search sim_mcc_mnc="21406" gid="" spn="Lowi" mcc_mnc_name="21401" network_state="3G" display_name="Lowi 3G"></search>
+    <search sim_mcc_mnc="21406" gid="" spn="Lowi" mcc_mnc_name="21401" network_state="4G" display_name="Lowi 4G"></search>
+    <search sim_mcc_mnc="21406" gid="" spn="Eroski Movil" mcc_mnc_name="21401" network_state="2G" display_name="Eroski Movil 2G"></search>
+    <search sim_mcc_mnc="21406" gid="" spn="Eroski Movil" mcc_mnc_name="21401" network_state="3G" display_name="Eroski Movil 3G"></search>
+    <search sim_mcc_mnc="21406" gid="" spn="Eroski Movil" mcc_mnc_name="21401" network_state="4G" display_name="Eroski Movil 4G"></search>
+    <!-- DTS2016031506851  xiazhiqiao wx320883 20160323 end -->
+    <!-- DTS2016040108781 fengweiwei/wx214937 20160509 begin -->
+    <search sim_mcc_mnc="21403" gid="" imsi_start="21403508" mcc_mnc_name="21403" network_state="2G" display_name="Mobil R 2G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="21403508" mcc_mnc_name="21403" network_state="3G" display_name="Mobil R 3G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="21403508" mcc_mnc_name="21403" network_state="4G" display_name="Mobil R 4G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="21403509" mcc_mnc_name="21403" network_state="2G" display_name="Mobil R 2G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="21403509" mcc_mnc_name="21403" network_state="3G" display_name="Mobil R 3G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="21403509" mcc_mnc_name="21403" network_state="4G" display_name="Mobil R 4G"></search>
+    <!-- DTS2016040108781 fengweiwei/wx214937 20160509 end -->
+    <!-- AR0004BTVJ fengweiwei/wx214937 20160511 begin -->
+    <search sim_mcc_mnc="26203" gid="" mcc_mnc_name="26207" network_state="2G" display_name="o2 - de 2G"></search>
+    <search sim_mcc_mnc="26203" gid="" mcc_mnc_name="26207" network_state="3G" display_name="o2 - de 3G"></search>
+    <search sim_mcc_mnc="26203" gid="" mcc_mnc_name="26207" network_state="4G" display_name="o2 - de 4G"></search>
+    <!-- AR0004BTVJ fengweiwei/wx214937 20160511 end -->
+    <!-- DTS2016061504299 fengweiwei/wx214937 20160629 begin -->
+    <search sim_mcc_mnc="28603" gid="" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28604" gid="" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28601" gid="" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28602" gid="" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28603" gid="" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28604" gid="" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28601" gid="" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28602" gid="" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28603" gid="" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28604" gid="" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28601" gid="" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28602" gid="" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28603" gid="" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="28604" gid="" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="28601" gid="" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="28602" gid="" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <!-- DTS2016061504299 fengweiwei/wx214937 20160629 end -->
+    <!-- AR0004J003 xinglei/wx368928 20160802 begin -->
+    <search sim_mcc_mnc="23210" mcc_mnc_name="23203" network_state="2G" display_name="3-AT 2G"></search>
+    <search sim_mcc_mnc="23210" mcc_mnc_name="23203" network_state="3G" display_name="3-AT 3G"></search>
+    <search sim_mcc_mnc="23210" mcc_mnc_name="23203" network_state="4G" display_name="3-AT 4G"></search>
+    <search sim_mcc_mnc="23205" mcc_mnc_name="23203" network_state="2G" display_name="3-AT 2G"></search>
+    <search sim_mcc_mnc="23205" mcc_mnc_name="23203" network_state="3G" display_name="3-AT 3G"></search>
+    <search sim_mcc_mnc="23205" mcc_mnc_name="23203" network_state="4G" display_name="3-AT 4G"></search>
+    <!-- AR0004J003 xinglei/wx368928 20160802 end -->
+    <!-- DTS2016100808367 wangmei/wwx288505 20161017 begin -->
+    <search sim_mcc_mnc="" gid="" mcc_mnc_name="21803" network_state="2G" display_name="Eronet 2G" />
+    <search sim_mcc_mnc="" gid="" mcc_mnc_name="21803" network_state="3G" display_name="Eronet 3G" />
+    <search sim_mcc_mnc="" gid="" mcc_mnc_name="21803" network_state="4G" display_name="Eronet 4G" />
+    <!-- DTS2016100808367 wangmei/wwx288505 20161017 end -->
+</OperatorName>

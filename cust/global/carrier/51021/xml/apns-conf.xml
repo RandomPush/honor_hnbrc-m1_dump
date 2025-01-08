@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="INDOSAT" mcc="510" mnc="21" apn="indosatgprs" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="IndosatMMS" mcc="510" mnc="21" apn="indosatmms" user="indosat" server="" password="indosat" proxy="" port="" mmsproxy="10.19.19.19" mmsport="8080" mmsc="http://mmsc.indosat.com" type="mms"/>
+  <apn carrier="xcap" mcc="510" mnc="21" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

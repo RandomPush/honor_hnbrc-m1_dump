@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="MOTIV internet" mcc="250" mnc="35" apn="inet.ycc.ru" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="MOTIV mms" mcc="250" mnc="35" apn="mms.ycc.ru" user="" server="" password="" proxy="172.16.2.10" port="8080" mmsproxy="" mmsport="" mmsc="http://mms.ycc.ru" type="mms" authtype="1"/>
+  <apn carrier="Motiv XCAP APN" mcc="250" mnc="35" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

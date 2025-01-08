@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<FlashDuty>
+    <DutyLevelA idex="1"   lvStart="0"     lvEnd="3000"    duty="31"></DutyLevelA>
+    <DutyLevelA idex="2"   lvStart="3001"  lvEnd="4000"    duty="26"></DutyLevelA>
+    <DutyLevelA idex="3"   lvStart="4001"  lvEnd="6000"    duty="24"></DutyLevelA>
+    <DutyLevelA idex="4"   lvStart="6001"  lvEnd="8000"    duty="22"></DutyLevelA>
+    <DutyLevelA idex="5"   lvStart="8001"  lvEnd="11000"   duty="20"></DutyLevelA>
+    <DutyLevelA idex="6"   lvStart="11001" lvEnd="14000"   duty="18"></DutyLevelA>
+    <DutyLevelA idex="7"   lvStart="14001" lvEnd="18000"   duty="15"></DutyLevelA>
+    <DutyLevelA idex="8"   lvStart="18001" lvEnd="22000"   duty="12"></DutyLevelA>
+    <DutyLevelA idex="9"   lvStart="22001" lvEnd="25000"   duty="10"></DutyLevelA>
+    <DutyLevelA idex="10"  lvStart="25001" lvEnd="30000"   duty="8"></DutyLevelA>
+    <DutyLevelA idex="11"  lvStart="30000" lvEnd="40000"   duty="6"></DutyLevelA>
+    <DutyLevelA idex="12"  lvStart="40001" lvEnd="1380000" duty="5"></DutyLevelA>
+</FlashDuty>

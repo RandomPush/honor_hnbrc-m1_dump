@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Q Internet" mcc="202" mnc="09" apn="myq" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Q MMS" mcc="202" mnc="09" apn="q-mms.myq.gr" user="" server="" password="" proxy="" port="" mmsproxy="192.168.80.134" mmsport="8080" mmsc="http://mms.myq.gr" type="mms"/>
+  <apn carrier="ims" mcc="202" mnc="09" apn="IMS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="WIND XCAP" mcc="202" mnc="09" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP" roaming_protocol="IP"/>
+</apns>

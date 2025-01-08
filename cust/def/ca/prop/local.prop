@@ -1,0 +1,38 @@
+# 2023-01-31 11:41:32.000
+msc.config.not_show_act=true
+# 2023-01-31 11:41:32.000
+msc.config.opta=578
+# 2023-01-31 11:41:32.000
+msc.config.optb=124
+# 2023-01-31 11:41:32.000
+msc.config.power_voice_key=false
+# 2023-01-31 11:41:32.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:41:32.000
+ro.config.bundle_opta_mnc=241
+# 2023-01-31 11:41:32.000
+ro.config.bundle_optb_mnc=304
+# 2023-01-31 11:41:32.000
+ro.config.bundle_optx_mnc=24
+# 2023-01-31 11:41:32.000
+ro.config.calendar_cancel=true
+# 2023-01-31 11:41:32.000
+ro.config.ce_authenticate=1
+# 2023-01-31 11:41:32.000
+ro.config.keyguard_unusedata=false
+# 2023-01-31 11:41:32.000
+ro.config.music_region=lowfreq
+# 2023-01-31 11:41:32.000
+ro.config.sup_lte_high_speed=false
+# 2023-01-31 11:41:32.000
+ro.config.support_ca=false
+# 2023-01-31 11:41:32.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:41:32.000
+ro.config.voice_cfg=normal
+# 2023-01-31 11:41:32.000
+ro.product.CustCVersion=C578
+# 2023-01-31 11:41:32.000
+ro.product.locale=en-CA
+# 2023-01-31 11:41:32.000
+ro.vendor.config.camera.region=bm

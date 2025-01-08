@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet" mcc="230" mnc="03" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="MMS" mcc="230" mnc="03" apn="mms" user="mms" server="" password="mms" proxy="" port="" mmsproxy="10.11.10.111" mmsport="80" mmsc="http://mms" type="mms" authtype="1" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="230" mnc="03" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="hos" mcc="230" mnc="03" apn="hos" user="" server="" password="" proxy="xcap.ims.mnc003.mcc230.pub.3gppnetwork.org" port="80" mmsproxy="" mmsport="" mmsc="" type="xcap" authtype="2" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

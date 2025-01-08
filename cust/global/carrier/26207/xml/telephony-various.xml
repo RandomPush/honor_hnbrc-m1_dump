@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="81a608fee03aa409ae7d5812bd07400d">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">26207</string>
+        <string key="sim_mccmnc">26207520</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">LIDL MOBILE</string>
+        <string key="plmn">LIDL MOBILE</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

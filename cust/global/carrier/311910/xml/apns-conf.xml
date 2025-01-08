@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Mobile Nation"
+    mcc="311"
+    mnc="910"
+    apn="mymn4g.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.mymn3g.net"
+    type="default,dun,supl,mms,fota,ims"
+    protocol="IPV4V6"
+  />
+</apns>

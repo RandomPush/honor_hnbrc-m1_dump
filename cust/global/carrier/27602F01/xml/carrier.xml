@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="fd7df971a251ad7694ef29829a4e81b3">
+  <dict>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="SMSCAddress">+35569200200</string>
+    <!--2023-01-31 11:53:27.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="hn_networkname_normal">all,GSM:G</string>
+    <!--2023-01-31 11:53:27.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="virtual_ecclist_withcard">+112,+999</string>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="virtualnet_operatorname">Vodafone AL</string>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="voicemail_carrier">Vodafone</string>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="voicemail_number">135</string>
+    <!--2023-01-31 11:53:27.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

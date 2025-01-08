@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="NRJWEB" mcc="208" mnc="01" apn="ofnew.fr" user="orange" server="" password="orange" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1"/>
+  <apn carrier="NRJ MMS" mcc="208" mnc="01" apn="orange.acte" user="orange" server="" password="orange" proxy="" port="" mmsproxy="192.168.010.200" mmsport="8080" mmsc="http://mms.orange.fr" type="mms" authtype="1"/>
+</apns>

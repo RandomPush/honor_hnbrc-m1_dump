@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="ac062d83d67756212cf33af0a3a71346">
+  <dict>
+    <array key="predefined_settings_range_strings">
+      <string>0x1052:rat=gsm, emergency=false</string>
+      <string>0x32:rat=gsm, emergency=false</string>
+    </array>
+  </dict>
+</config>

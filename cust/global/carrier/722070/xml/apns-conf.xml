@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Movistar WAP"
+    mcc="722"
+    mnc="070"
+    apn="wap.gprs.unifon.com.ar"
+    user="wap"
+    server=""
+    password="wap"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+    protocol="IPV4V6"
+  />
+</apns>

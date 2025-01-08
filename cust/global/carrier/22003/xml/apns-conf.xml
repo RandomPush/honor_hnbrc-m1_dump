@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="internet" mcc="220" mnc="03" apn="gprswap" user="mts" server="" password="064" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="mms" mcc="220" mnc="03" apn="mms" user="mts" server="" password="064" proxy="" port="" mmsproxy="172.17.85.131" mmsport="8080" mmsc="http://mms.mts064.telekom.rs/mms/wapenc" type="mms" protocol="IPV4V6"/>
+  <apn carrier="XCAP/HOS" mcc="220" mnc="03" apn="hos" user="" server="" password="" proxy="xcap.ims.mnc003.mcc220.pub.3gppnetwork.org" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="220" mnc="03" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6"/>
+</apns>

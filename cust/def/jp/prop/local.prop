@@ -1,0 +1,62 @@
+# 2023-01-31 11:41:16.000
+msc.cbs.suport_cust_etws=true
+# 2023-01-31 11:41:16.000
+msc.config.allow_rs_mms=false
+# 2023-01-31 11:41:16.000
+msc.config.capture_sound=false
+# 2023-01-31 11:41:16.000
+msc.config.gmap_enabled=true
+# 2023-01-31 11:41:16.000
+msc.config.opta=635
+# 2023-01-31 11:41:16.000
+msc.config.optb=392
+# 2023-01-31 11:41:16.000
+msc.config.screen_recording_sound=true
+# 2023-01-31 11:41:16.000
+persist.sys.timezone=Asia/Tokyo
+# 2023-01-31 11:41:16.000
+persist.telephony.mpdn=false
+# 2023-01-31 11:41:16.000
+ro.camera.cos_face_changing=false
+# 2023-01-31 11:41:16.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:41:16.000
+ro.config.attach_apn_enabled=true
+# 2023-01-31 11:41:16.000
+ro.config.bundle_opta_mnc=246
+# 2023-01-31 11:41:16.000
+ro.config.bundle_optb_mnc=328
+# 2023-01-31 11:41:16.000
+ro.config.bundle_optx_mnc=4
+# 2023-01-31 11:41:16.000
+ro.config.delay_updatename=true
+# 2023-01-31 11:41:16.000
+ro.config.disable_5G_bridge=true
+# 2023-01-31 11:41:16.000
+ro.config.emergency_apn_handle=true
+# 2023-01-31 11:41:16.000
+ro.config.fix_bootsound=0
+# 2023-01-31 11:41:16.000
+ro.config.fm.disable=true
+# 2023-01-31 11:41:16.000
+ro.config.forbidden_msa_switch=true
+# 2023-01-31 11:41:16.000
+ro.config.jp_vcard=true
+# 2023-01-31 11:41:16.000
+ro.config.keyguard_unusedata=false
+# 2023-01-31 11:41:16.000
+ro.config.music_region=fidelity
+# 2023-01-31 11:41:16.000
+ro.config.pbapnotconvertnum=true
+# 2023-01-31 11:41:16.000
+ro.config.supl_es_pdn_switch=true
+# 2023-01-31 11:41:16.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:41:16.000
+ro.odm.config.rep_cell_list=true
+# 2023-01-31 11:41:16.000
+ro.product.CustCVersion=C635
+# 2023-01-31 11:41:16.000
+ro.product.locale=ja-JP
+# 2023-01-31 11:41:16.000
+ro.vendor.config.camera.region=rh

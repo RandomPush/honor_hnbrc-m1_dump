@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f3d75bc52cebe593927a5cddcffdcd15">
+  <dict>
+    <!--2023-01-31 11:57:14.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2023-01-31 11:57:14.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:57:14.000-->
+    <int key="sms_7bit_enabled">1</int>
+  </dict>
+</config>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WifiConfigStoreData >
+  <int name="Version" value="1"/>
+  <PasspointConfigData>
+    <ProviderList>
+      <Provider>
+        <long name="ProviderID" value="1"/>
+        <Configuration>
+          <HomeSP>
+            <string name="FQDN">attwifi.com</string>
+            <string name="FriendlyName">AT&amp;T Wi-Fi Passpoint</string>
+          </HomeSP>
+          <Credential>
+            <string name="Realm">wlan.mnc410.mcc310.3gppnetwork.org</string>
+            <SimCredential>
+              <string name="IMSI">310410*</string>
+              <int name="EAPType" value="23"/>
+            </SimCredential>
+          </Credential>
+        </Configuration>
+      </Provider>
+    </ProviderList>
+  </PasspointConfigData>
+</WifiConfigStoreData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="TATA DOCOMO Internet"
+    mcc="405"
+    mnc="025"
+    apn="Tata.Docomo.Internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="TATA DOCOMO Dive"
+    mcc="405"
+    mnc="025"
+    apn="Tata.Docomo.Dive.In"
+    user=""
+    server=""
+    password=""
+    proxy="10.124.94.7"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Tata Docomo MMS"
+    mcc="405"
+    mnc="025"
+    apn="Tata.Docomo.MMS"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.124.26.94"
+    mmsport="8799"
+    mmsc="http://mmsc/"
+    type="mms"
+  />
+</apns>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apns  version="8">
+  <apn carrier="Virgin Media IE" mcc="272" mnc="15" apn="Internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+</apns>

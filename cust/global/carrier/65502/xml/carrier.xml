@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="58cb8ca064109d4473eeb0c4302ac53a">
+  <dict>
+    <!--2023-01-31 11:52:25.000-->
+    <bool key="cbs_del_2b_switch">true</bool>
+    <!--2024-07-15 08:57:56.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2024-07-15 08:57:56.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2023-01-31 11:52:25.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:52:25.000-->
+    <bool key="pre_plmn_reg_vowifi">true</bool>
+    <!--2023-01-31 11:52:25.000-->
+    <string key="voicemail_carrier">Telkom</string>
+    <!--2023-01-31 11:52:25.000-->
+    <string key="voicemail_number">132</string>
+    <!--2023-01-31 11:52:25.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

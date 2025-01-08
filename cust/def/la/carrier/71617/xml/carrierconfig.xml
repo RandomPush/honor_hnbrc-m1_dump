@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="fa202db9cbab9c2cae6176abfafeb0f7">
+  <dict>
+    <!--2023-10-26 17:36:28.000-->
+    <string key="gps.lpp_profile">0</string>
+    <!--2023-10-26 17:36:28.000-->
+    <string key="gps.supl_ver">0x20000</string>
+  </dict>
+</config>

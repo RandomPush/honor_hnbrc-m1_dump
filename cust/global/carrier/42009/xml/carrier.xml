@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4d1fa27bec24bf03fb41cf94fb5d2bbe">
+  <dict>
+    <!--2023-01-31 11:48:43.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:48:43.000-->
+    <int key="num_match_short">9</int>
+    <!--2023-01-31 11:48:43.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:48:43.000-->
+    <bool key="pre_plmn_reg_vowifi">true</bool>
+    <!--2023-01-31 11:48:43.000-->
+    <string key="voicemail_carrier">salam mobile</string>
+    <!--2023-01-31 11:48:43.000-->
+    <string key="voicemail_number">1700</string>
+    <!--2023-01-31 11:48:43.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

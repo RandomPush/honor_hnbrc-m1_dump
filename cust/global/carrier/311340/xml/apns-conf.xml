@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Illinois Valley Cellular"
+    mcc="311"
+    mnc="340"
+    apn="ivc.mymobiletxt.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.ivcel.com/ivc/mms.php"
+    type="default,dun,supl,mms,fota,ims"
+    protocol="IPV4V6"
+  />
+</apns>

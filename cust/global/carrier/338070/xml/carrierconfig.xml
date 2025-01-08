@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="73b8fc9c1e2f33c85389ff81043c0d2d">
+  <dict>
+    <!--2023-10-24 17:27:05.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-11-17 14:33:22.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:42.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:56:02.000-->
+    <int key="smsToMmsTextThreshold">12</int>
+  </dict>
+</config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Movistar INTERNET" mcc="732" mnc="123" apn="internet.movistar.com.co" user="movistar" server="" password="movistar" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1" protocol="IPV4V6"/>
+  <apn carrier="tgsglobal" mcc="732" mnc="123" apn="tgsglobal" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="imsi" mvno_match_data="73212320"/>
+  <apn carrier="tgsglobal" mcc="732" mnc="123" apn="tgsglobal" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="imsi" mvno_match_data="732123210"/>
+  <apn carrier="tgsglobal" mcc="732" mnc="123" apn="tgsglobal" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="imsi" mvno_match_data="732123211"/>
+  <apn carrier="tgsglobal" mcc="732" mnc="123" apn="tgsglobal" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="imsi" mvno_match_data="732123212"/>
+  <apn carrier="Movistar MMS" mcc="732" mnc="123" apn="mms.movistar.com.co" user="movistar" server="" password="movistar" proxy="" port="" mmsproxy="192.168.222.7" mmsport="9001" mmsc="http://mms.movistar.com.co" type="mms" authtype="1" protocol="IPV4V6"/>
+  <apn carrier="ims" mcc="732" mnc="123" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Xcap" mcc="732" mnc="123" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

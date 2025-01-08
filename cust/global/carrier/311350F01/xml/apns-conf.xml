@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Nemont"
+    mcc="311"
+    mnc="350"
+    apn="VZWINTERNET"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms.nemont.mobi/mms/"
+    type="default,mms,dun,supl"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

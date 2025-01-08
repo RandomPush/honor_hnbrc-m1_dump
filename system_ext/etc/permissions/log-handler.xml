@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library
+        name="log-handler"
+        file="/system_ext/framework/log-handler.jar"/>
+</permissions>

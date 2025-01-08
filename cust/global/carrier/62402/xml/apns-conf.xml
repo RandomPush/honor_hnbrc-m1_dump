@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="OrangeCM WAP"
+    mcc="624"
+    mnc="02"
+    apn="orangecmgprs"
+    user="orange"
+    server=""
+    password="orange"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Orange CM MMS"
+    mcc="624"
+    mnc="02"
+    apn="orangecmgprs"
+    user="orange"
+    server=""
+    password="orange"
+    proxy=""
+    port=""
+    mmsproxy="192.168.122.101"
+    mmsport="8080"
+    mmsc="http://mms.orange.cm"
+    type="mms"
+  />
+</apns>

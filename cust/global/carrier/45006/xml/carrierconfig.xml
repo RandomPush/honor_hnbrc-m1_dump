@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d9b3fb9ac95cca382a5a939cea4cfe23">
+  <dict>
+    <!--2023-01-31 11:55:41.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-06-13 20:50:22.000-->
+    <bool key="carrier_volte_available_bool">true</bool>
+    <!--2023-01-31 11:55:41.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:55:41.000-->
+    <int key="maxMessageSize">1048576</int>
+    <!--2023-01-31 11:55:41.000-->
+    <int key="smsToMmsTextThreshold">1</int>
+    <!--2023-01-31 11:55:41.000-->
+    <bool key="volte_lowbattery_endcall">true</bool>
+  </dict>
+</config>

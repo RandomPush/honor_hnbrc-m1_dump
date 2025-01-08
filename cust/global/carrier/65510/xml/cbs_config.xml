@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="934f0f52c39c74aae70e759039c0823c">
+  <dict>
+    <array key="predefined_settings_range_strings">
+      <string>0x32:rat=gsm, emergency=true, type=info, title=all||Cell Broadcast</string>
+    </array>
+  </dict>
+</config>

@@ -1,0 +1,9 @@
+<DisplayEngineConfig>
+	<id>24</id>
+	<updated>2023-01-01</updated>
+	<feature name="HISTBSD">
+		<mode name="MODE_DEFAULT">
+			<param name="enable">1</param>
+		</mode>
+	</feature>
+</DisplayEngineConfig>

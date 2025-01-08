@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="79263763c0a83a624ba62dfb9f8be9b9">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">20404</string>
+        <string key="sim_mccmnc">20415</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Ziggo</string>
+        <string key="plmn">Ziggo</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

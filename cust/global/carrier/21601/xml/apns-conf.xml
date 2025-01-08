@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Yettel Online" mcc="216" mnc="01" apn="online" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV6" roaming_protocol="IP"/>
+  <apn carrier="MMS" mcc="216" mnc="01" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="84.225.255.1" mmsport="8080" mmsc="http://mmsc.yettel.hu/" type="mms"/>
+  <apn carrier="ims" mcc="216" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+</apns>

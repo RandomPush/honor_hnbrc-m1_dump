@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Virgin Internet" mcc="505" mnc="02" apn="yesinternet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia"/>
+  <apn carrier="Virgin MMS" mcc="505" mnc="02" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="61.88.190.10" mmsport="8070" mmsc="http://mmsc.optus.com.au:8002/" type="mms"/>
+  <apn carrier="ims" mcc="505" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+  <apn carrier="VoWifi VOLTE UT" mcc="505" mnc="02" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

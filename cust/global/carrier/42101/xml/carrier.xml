@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="53be83b634c8e6669ef7cd0345a81eb3">
+  <dict>
+    <!--2023-01-31 11:39:06.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:39:06.000-->
+    <string key="voicemail_carrier">SabaFon</string>
+    <!--2023-01-31 11:39:06.000-->
+    <string key="voicemail_number">707</string>
+    <!--2023-01-31 11:39:06.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

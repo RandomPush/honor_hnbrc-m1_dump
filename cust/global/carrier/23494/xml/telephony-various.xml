@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="13a1e7808afadf2fa6c201e128904aa1">
+  <dict>
+    <array key="set_mtu">
+      <dict>
+        <int key="mtu">1440</int>
+        <string key="ip">IPV4</string>
+      </dict>
+      <dict>
+        <int key="mtu">1440</int>
+        <string key="ip">IPV6</string>
+      </dict>
+      <dict>
+        <int key="mtu">1440</int>
+        <string key="ip">IPV4V6</string>
+      </dict>
+    </array>
+  </dict>
+</config>

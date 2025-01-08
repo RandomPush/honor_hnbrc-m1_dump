@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="42055d96e2ce51dbf2262a64ffccb278">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <string key="bookmarks_language">es_PE</string>
+          <string key="bookmarks_folder_name">BITEL</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Portal por defecto</string>
+              <string key="url">https://bitel.com.pe</string>
+            </dict>
+            <dict>
+              <string key="title">Gana Bitel</string>
+              <string key="url">https://bitel.com.pe/gana-bitel</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel Series+</string>
+              <string key="url">https://bitel.com.pe/bitel-series</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel Noticias</string>
+              <string key="url">https://bitel.com.pe/bitel-noticias</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel Deportes Evolution</string>
+              <string key="url">https://bitel.com.pe/bitel-deportes</string>
+            </dict>
+            <dict>
+              <string key="title">Tonos de espera</string>
+              <string key="url">http://www.tonos.bitel.com.pe/</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel SMS</string>
+              <string key="url">https://bitel.com.pe/bitel-sms</string>
+            </dict>
+            <dict>
+              <string key="title">Otros Servicios</string>
+              <string key="url">https://bitel.com.pe/sites/default/files/2020-06/ServiciosVASDirectorioJunio.pdf</string>
+            </dict>
+          </array>
+        </dict>
+        <dict>
+          <string key="bookmarks_language">default</string>
+          <string key="bookmarks_folder_name">BITEL</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Default Portal</string>
+              <string key="url">https://bitel.com.pe</string>
+            </dict>
+            <dict>
+              <string key="title">Gain with Bitel</string>
+              <string key="url">https://bitel.com.pe/gana-bitel</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel Series+</string>
+              <string key="url">https://bitel.com.pe/bitel-series</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel News</string>
+              <string key="url">https://bitel.com.pe/bitel-noticias</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel Evolution Sports</string>
+              <string key="url">https://bitel.com.pe/bitel-deportes</string>
+            </dict>
+            <dict>
+              <string key="title">Waiting tones</string>
+              <string key="url">http://www.tonos.bitel.com.pe/</string>
+            </dict>
+            <dict>
+              <string key="title">Bitel SMS</string>
+              <string key="url">https://bitel.com.pe/bitel-sms</string>
+            </dict>
+            <dict>
+              <string key="title">Other Services</string>
+              <string key="url">https://bitel.com.pe/sites/default/files/2020-06/ServiciosVASDirectorioJunio.pdf</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:41:14.000-->
+  <integer hn_default_support_call_barring="0"/>
+  <!--2023-01-31 11:41:14.000-->
+  <string settings.global.usa_emergency_call="true"/>
+</resources>

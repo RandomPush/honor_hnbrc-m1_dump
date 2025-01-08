@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Uninor Internet"
+    mcc="405"
+    mnc="821"
+    apn="uninor"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Uninor WAP"
+    mcc="405"
+    mnc="821"
+    apn="uninor"
+    user=""
+    server=""
+    password=""
+    proxy="10.58.10.58"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Uninor MMS"
+    mcc="405"
+    mnc="821"
+    apn="uninor"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.58.10.59"
+    mmsport="8080"
+    mmsc="http://10.58.2.120/"
+    type="mms"
+  />
+</apns>

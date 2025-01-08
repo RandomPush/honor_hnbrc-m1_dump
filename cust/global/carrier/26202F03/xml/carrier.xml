@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="3fcbcfc6e97590f0e7ba08cd55ff0121">
+  <dict>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="SMSCAddress">+491722270333</string>
+    <!--2023-01-31 11:56:14.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-01-31 11:56:14.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:56:14.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="optimized_for_configD">32,72</string>
+    <!--2023-01-31 11:56:14.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:56:14.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:56:14.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:56:14.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="virtualnet_operatorname">Otelo</string>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="voicemail_carrier">otelo</string>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="voicemail_number">5500</string>
+    <!--2023-01-31 11:56:14.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

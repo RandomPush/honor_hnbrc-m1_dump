@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="ac9dfd985f7c1f9e6630fbfcb44c69f8">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Homepage</string>
+              <string key="url">http://mobilebrowser.bwanet.ca/hpr/</string>
+            </dict>
+            <dict>
+              <string key="title">My Account</string>
+              <string key="url">http://myaccount.virginmobile.ca/mobile</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

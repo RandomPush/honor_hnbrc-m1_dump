@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7c3d7bca7b33424b91a9d01bb0a1666d">
+  <dict>
+    <!--2023-01-31 11:52:58.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:52:58.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:52:58.000-->
+    <int key="carrier_default_wfc_ims_mode_int">2</int>
+    <!--2023-01-31 11:52:58.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">2</int>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_incall_cust_vowifi_type">VOWIFI_DL</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_statusbar_vowifi_type">VOWIFI_DL</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_volte_hd_icon_flag">00101010</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_vowifi_calllog_icon_type">VOWIFI_DL</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_vowifi_dialer_icon_type">VOWIFI_DL</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="carrier_vowifi_title">Llamadas Wi-Fi</string>
+    <!--2023-01-31 11:52:58.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:52:58.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:52:58.000-->
+    <int key="utBearType">2</int>
+    <!--2023-01-31 11:52:58.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="utBsfSrvAddr">bsf.ims.mnc002.mcc740.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:52:58.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:52:58.000-->
+    <int key="utUseApn">1</int>
+    <!--2023-01-31 11:52:58.000-->
+    <bool key="vowifi_pref_domestic">true</bool>
+    <!--2023-01-31 11:52:58.000-->
+    <bool key="vowifi_pref_roaming">true</bool>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2023-01-31 11:52:58.000-->
+    <string key="wfc_spn_string">CNT VoWiFi</string>
+  </dict>
+</config>

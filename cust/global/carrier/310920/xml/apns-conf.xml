@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="James Valley Cellular"
+    mcc="310"
+    mnc="920"
+    apn="mobile.jvw.lte"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://m.iot1.com/jamesvalley/mms.php"
+    type="default,supl,mms,fota,ims"
+    protocol="IPV4V6"
+  />
+</apns>

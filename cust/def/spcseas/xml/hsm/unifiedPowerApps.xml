@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.trustonic.telecoms.standard.dpc">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+  <package name="com.trustonic.telecoms.setup">
+    <item name="isProtected">0</item>
+    <item name="isShow">0</item>
+  </package>
+</policy>

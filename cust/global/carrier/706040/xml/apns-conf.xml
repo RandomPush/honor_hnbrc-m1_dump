@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Movistar INTERNET"
+    mcc="706"
+    mnc="040"
+    apn="internet.movistar.sv"
+    user="movistarsv"
+    server=""
+    password="movistarsv"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+    protocol="IPV4V6"
+  />
+</apns>

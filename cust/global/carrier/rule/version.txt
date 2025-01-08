@@ -1,0 +1,4 @@
+version=8.0.0.117
+type=CARRIER
+subtype=RULE
+compatibleVersion=1

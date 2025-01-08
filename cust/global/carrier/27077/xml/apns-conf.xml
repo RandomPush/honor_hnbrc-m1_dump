@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Tango Internet" mcc="270" mnc="77" apn="internet" user="tango" server="" password="tango" proxy="" port="" mmsproxy="212.66.75.3" mmsport="8080" mmsc="http://mms.tango.lu" type="default,supl,mms" authtype="0" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Tango MMS" mcc="270" mnc="77" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="212.66.75.3" mmsport="8080" mmsc="http://mms.tango.lu" type="mms" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="Tango IMS" mcc="270" mnc="77" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Tango XCAP" mcc="270" mnc="77" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IP"/>
+</apns>

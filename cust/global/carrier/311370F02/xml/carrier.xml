@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="aed2c8a805a24b434aba028430922d43">
+  <dict>
+    <!--2023-01-31 11:56:30.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:56:30.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:56:30.000-->
+    <string key="virtual_ecclist_withcard">+911,+*911,+#911</string>
+    <!--2023-01-31 11:56:30.000-->
+    <string key="virtualnet_operatorname">GCI</string>
+  </dict>
+</config>

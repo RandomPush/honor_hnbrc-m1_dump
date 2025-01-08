@@ -1,0 +1,4 @@
+# Miscellaneous
+ro.product.ab_ota_partitions=product_h,system,system_ext,vbmeta_system
+ro.product.cpu.pagesize.max=4096
+

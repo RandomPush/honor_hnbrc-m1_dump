@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="405a6077965f1b287ab67b499a2f8cdc">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">match生活網</string>
+              <string key="url">http://m.match.net.tw</string>
+            </dict>
+            <dict>
+              <string key="title">matchApps</string>
+              <string key="url">http://m.matchapps.net</string>
+            </dict>
+            <dict>
+              <string key="title">myBook書城</string>
+              <string key="url">http://m.mybook.match.net.tw/TWMStoreFrontWeb/welcome.mvc</string>
+            </dict>
+            <dict>
+              <string key="title">myPlay1我是傳奇</string>
+              <string key="url">http://c.appsdt.com/click/phoenix/d27a93f8-af06-470b-a8be-6e1fdc4f339f</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

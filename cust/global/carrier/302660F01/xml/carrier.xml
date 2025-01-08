@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c7f8b318fcf511ae4296d89db8b7a921">
+  <dict>
+    <!--2023-01-31 11:52:54.000-->
+    <string key="hn_networkname_normal">all,HSDPA:H;HSUPA:H;HSPA:H;HSPA+:H+;LTE:LTE;CA:LTE+</string>
+    <!--2023-01-31 11:52:54.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:52:54.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:52:54.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:52:54.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:52:54.000-->
+    <string key="virtual_ecclist_withcard">+911,+112</string>
+    <!--2023-01-31 11:52:54.000-->
+    <string key="virtualnet_operatorname">MTS</string>
+  </dict>
+</config>

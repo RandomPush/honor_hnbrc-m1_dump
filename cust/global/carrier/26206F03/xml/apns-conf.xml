@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Telekom Internet" mcc="262" mnc="06" apn="internet.v6.telekom" user="telekom" server="" password="telekom" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="HOS" mcc="262" mnc="06" apn="hos" user="telekom" server="" password="telekom" proxy="" port="" mmsproxy="mmsproxy.telekom.de" mmsport="8008" mmsc="http://mms.t-mobile.de/servlets/mms" type="mms,xcap" authtype="1" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="ims" mcc="262" mnc="06" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

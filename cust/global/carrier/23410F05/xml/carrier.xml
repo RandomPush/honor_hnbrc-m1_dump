@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f9e85ade1e30937ce387fab45ac9ed44">
+  <dict>
+    <!--2023-01-31 11:53:02.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2023-01-31 11:53:02.000-->
+    <bool key="carrier_set_callforward_disable">true</bool>
+    <!--2023-01-31 11:53:02.000-->
+    <bool key="hn_2g_only_cust_display">true</bool>
+    <!--2023-01-31 11:53:02.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:53:02.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:53:02.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:53:02.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:53:02.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:53:02.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+    <!--2023-01-31 11:53:02.000-->
+    <string key="virtualnet_operatorname">Giffgaff</string>
+    <!--2023-01-31 11:53:02.000-->
+    <string key="voicemail_carrier">Giffgaff</string>
+    <!--2024-08-01 16:10:16.000-->
+    <string key="voicemail_number">443</string>
+    <!--2023-01-31 11:53:02.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="MTN IMS" mcc="655" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="MTN Data" mcc="655" mnc="10" apn="myMTN" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="MTN MMS" mcc="655" mnc="10" apn="myMTN" user="" server="" password="" proxy="" port="" mmsproxy="196.11.240.241" mmsport="8080" mmsc="http://mms.mtn.co.za/mms/wapenc" type="mms"/>
+  <apn carrier="MTN XCAP" mcc="655" mnc="10" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"/>
+  <apn carrier="MTN SOS" mcc="655" mnc="10" apn="sos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="emergency" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"/>
+</apns>

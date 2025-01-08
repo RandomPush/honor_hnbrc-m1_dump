@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VTB Mobile" mcc="250" mnc="26" apn="vtb" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,xcap" authtype="0"/>
+</apns>

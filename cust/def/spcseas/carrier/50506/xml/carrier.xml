@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7e3ea8c5f16d5316f1e995281f57de84">
+  <dict>
+    <!--2023-01-31 11:43:09.000-->
+    <bool key="hn_hide_lte">true</bool>
+    <!--2023-01-31 11:43:09.000-->
+    <string key="hn_replace_country_code">+61</string>
+    <!--2023-01-31 11:43:09.000-->
+    <int key="hn_simactive_time">60</int>
+  </dict>
+</config>

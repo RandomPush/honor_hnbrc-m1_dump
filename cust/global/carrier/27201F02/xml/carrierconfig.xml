@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="deb0527b007d3635db1a2563530b3452">
+  <dict>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="EspEncAlg">RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="Ikev2PcscfIpv4Address">16384</int>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="Ikev2PcscfIpv6Address">16386</int>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256</string>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="carrier_default_wfc_ims_mode_int">1</int>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="carrier_statusbar_vowifi_type">DIAL_WIFI</string>
+    <!--2023-11-17 14:33:13.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:32.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00100000</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="carrier_vowifi_tips_flag">0100</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="carrier_vowifi_tips_title">Vodafone WiFi Calling</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="carrier_vowifi_title">Wi-Fi Calling</string>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="hide_nr_tile_flag">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="smsToMmsTextThreshold">5</int>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="utBsfPort">443</int>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="utBsfUsehttps">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="utNafPort">443</int>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="utNafUseHttps">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="utParamsCfg">0:1,12:2</string>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="utUseApn">1</int>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="vowifiHplmnListItem">27201, epdg.epc.mnc001.mcc272.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:42:39.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="vowifiRssiThreshold">-66,-79,-6,-7</string>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="vowifiWifiChip24GConf">-79,-72,3,1</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="vowifiWifiChip5GConf">-79,-72,3,1</string>
+    <!--2023-01-31 11:42:39.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="wfc_is_show_air_plane">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="wfc_is_show_emergency_only">true</bool>
+    <!--2023-01-31 11:42:39.000-->
+    <bool key="wfc_is_show_no_service">true</bool>
+  </dict>
+</config>

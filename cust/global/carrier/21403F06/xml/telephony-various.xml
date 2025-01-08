@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="677a73662f8fd92b74e1629a512105c1">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">21403</string>
+        <string key="sim_mccmnc">2140352</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Carrefour</string>
+        <string key="plmn">Carrefour</string>
+      </dict>
+    </array>
+  </dict>
+</config>

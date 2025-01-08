@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Viva Edge"
+    mcc="370"
+    mnc="04"
+    apn="edge.viva.net.do"
+    user="viva"
+    server=""
+    password="viva"
+    proxy="192.168.16.10"
+    port="9401"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Viva MMS"
+    mcc="370"
+    mnc="04"
+    apn="mms.viva.net.do"
+    user="viva"
+    server=""
+    password="viva"
+    proxy=""
+    port=""
+    mmsproxy="192.168.16.10"
+    mmsport="9401"
+    mmsc="http://10.200.16.4/mms/wapenc"
+    type="mms"
+  />
+</apns>

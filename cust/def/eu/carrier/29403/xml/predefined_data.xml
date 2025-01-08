@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>A1 Contact Center</name>
+    <phone>
+      <detail>+389771234</detail>
+      <type>Mobile</type>
+    </phone>
+  </contact>
+</datainitializor>

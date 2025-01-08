@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.orange.vvm">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.vodafone.vodafone360updates">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="fr.bouyguestelecom.agent.companion">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="al.myvodafone.android">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.zentity.vodafone">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="es.vodafone.mobile.mivodafone">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.myvodafoneapp">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.myvodafone.android">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="hu.vodafone.apps.myvodafone">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.VodafoneIreland.MyVodafone">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="it.vodafone.my190">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.vodafone.android">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.vodafone.mCare">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="ro.vodafone.mcare.android">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.appseleration.android.selfcare">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.altice.android.myapps">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.sfr.android.sfrjeux">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.orange.update">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+  <package name="com.ironsource.appcloud.oobe.hutchison">
+    <item name="isProtected">0</item>
+    <item name="isShow">1</item>
+  </package>
+</policy>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet"
+    mcc="302"
+    mnc="72"
+    apn="movil.vtr.com"
+    user="vtrmovil"
+    server=""
+    password="vtrmovil"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Bam"
+    mcc="302"
+    mnc="72"
+    apn="bam.vtr.com"
+    user="vtr"
+    server=""
+    password="vtr"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+</apns>

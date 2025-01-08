@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="LTE INTERNET"
+    mcc="311"
+    mnc="583"
+    apn="usccinternet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+    type="default,dun,supl,mms,fota"
+    protocol="IPV4V6"
+  />
+</apns>

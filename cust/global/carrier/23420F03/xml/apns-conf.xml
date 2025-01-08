@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Superdrug"
+    mcc="234"
+    mnc="20"
+    apn="superdrug.net"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="mms.three.co.uk"
+    mmsport="8799"
+    mmsc="http://mms.um.three.co.uk:10021/mmsc"
+    type="default,mms,supl,ia"
+  />
+  <apn carrier="ims"
+    mcc="234"
+    mnc="20"
+    apn="IMS"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="ims"
+    protocol="IPV6"
+    roaming_protocol="IPV6"
+  />
+</apns>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="abe5511304b8ce88d2c552a23191a3d0">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm, emergency=true, title=en||NL-Alert 1</string>
+      <string>0x111F:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113:rat=gsm, emergency=true, title=en||NL-Alert</string>
+      <string>0x1114:rat=gsm, emergency=true, title=en||NL-Alert 3</string>
+      <string>0x1120-0x1121:rat=gsm, emergency=true</string>
+    </array>
+  </dict>
+</config>

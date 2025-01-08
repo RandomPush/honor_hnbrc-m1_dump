@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Mosiac WAP"
+    mcc="311"
+    mnc="500"
+    apn="WAP"
+    user=""
+    server=""
+    password=""
+    proxy="209.4.229.46"
+    port="9201"
+    mmsproxy="209.4.229.46"
+    mmsport="9201"
+    mmsc="http://mmsc.ctc.csky.us:6672/"
+    type=""
+  />
+  <apn carrier="24/7"
+    mcc="311"
+    mnc="500"
+    apn="wap"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="209.4.229.46"
+    mmsport="9201"
+    mmsc="http://mmsc.ctc.csky.us:6672/"
+    type="default,mms"
+  />
+  <apn carrier="Norvado"
+    mcc="311"
+    mnc="500"
+    apn="WAP"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="209.4.229.46"
+    mmsport="9201"
+    mmsc="http://mmsc.ctc.csky.us:6672/"
+    type="default,mms"
+  />
+</apns>

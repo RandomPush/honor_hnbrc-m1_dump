@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="GCI WEB"
+    mcc="311"
+    mnc="370"
+    apn="web.gci"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="GCI MMS"
+    mcc="311"
+    mnc="370"
+    apn="mms.gci"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="24.237.158.34"
+    mmsport="9201"
+    mmsc="http://mmsc.gci.csky.us:6672"
+    type="mms"
+  />
+</apns>

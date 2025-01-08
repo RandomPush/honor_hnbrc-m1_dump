@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Beeline Internet" mcc="401" mnc="01" apn="internet.beeline.kz" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Beeline WAP_KZ" mcc="401" mnc="01" apn="wap.beeline.kz" user="@wap.beeline" server="" password="beeline" proxy="172.027.006.093" port="8080" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Beeline MMS" mcc="401" mnc="01" apn="mms.beeline.kz" user="@mms.beeline" server="" password="beeline" proxy="" port="" mmsproxy="172.027.006.093" mmsport="8080" mmsc="http://mms.beeline.kz/mms/wapenc" type="mms"/>
+  <apn carrier="ims" mcc="401" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

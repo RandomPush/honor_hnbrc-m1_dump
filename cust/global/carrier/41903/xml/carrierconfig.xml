@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6de75f8aac82736b54b569157fd931fb">
+  <dict>
+    <!--2023-01-31 11:46:00.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:46:00.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:46:00.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:46:00.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:46:00.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-01-30 14:42:11.000-->
+    <bool key="mtk_carrier_wfc_get_location_always">true</bool>
+    <!--2023-01-31 11:46:00.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:46:00.000-->
+    <string key="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+    <!--2023-01-31 11:46:00.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+  </dict>
+</config>

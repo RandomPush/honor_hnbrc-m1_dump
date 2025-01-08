@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WifiConfigStoreData>
+  <int name="Version" value="1"/>
+  <PasspointConfigData>
+    <ProviderList>
+      <Provider>
+        <long name="ProviderID" value="1"/>
+        <Configuration>
+          <HomeSP>
+            <string name="FQDN">attmexwifi.com</string>
+            <string name="FriendlyName">AT&amp;T MX Wi-Fi</string>
+          </HomeSP>
+          <Credential>
+            <string name="Realm">wlan.mnc050.mcc334.3gppnetwork.org</string>
+            <SimCredential>
+              <string name="IMSI">334050;1915</string>
+              <int name="EAPType" value="23"/>
+            </SimCredential>
+          </Credential>
+        </Configuration>
+      </Provider>
+    </ProviderList>
+  </PasspointConfigData>
+</WifiConfigStoreData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="cc6f7bd02577fe962b9e58f87577f338">
+  <dict>
+    <!--2023-01-31 11:52:27.000-->
+    <string key="hn_networkname_domestic">all,EDGE:E;GSM:E;HSPA:4G;HSPA+:4G;DC-HSPA+:4G;LTE:LTE;CA:LTE+</string>
+    <!--2023-01-31 11:52:27.000-->
+    <string key="hn_networkname_roaming">all,EDGE:E;GSM:E;HSPA:3G;HSPA+:3G;DC-HSPA+:3G;LTE:LTE;CA:LTE+</string>
+    <!--2023-01-31 11:52:27.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:52:27.000-->
+    <int key="plmn_esm_flag">1</int>
+  </dict>
+</config>

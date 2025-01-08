@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2d97c2f277d2f9629cb7f51da18e6630">
+  <dict>
+    <!--2024-08-13 20:44:21.000-->
+    <bool key="hn_remove_2g_only">true</bool>
+    <!--2024-08-13 20:44:21.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:55:48.000-->
+    <string key="virtualnet_operatorname">HITS</string>
+  </dict>
+</config>

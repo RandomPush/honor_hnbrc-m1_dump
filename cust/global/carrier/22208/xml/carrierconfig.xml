@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="5cb74025b47fc7a6349717d4f32f944a">
+  <dict>
+    <!--2024-04-25 14:14:52.000-->
+    <bool key="carrier_close_vowifi_airplane_bool">true</bool>
+    <!--2024-05-27 09:49:54.000-->
+    <int key="carrier_default_wfc_ims_mode_int">1</int>
+    <!--2023-02-17 11:03:52.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2024-03-22 11:19:53.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00100000</string>
+    <!--2024-05-27 09:49:54.000-->
+    <bool key="hn_hide_pop_for_mcc">true</bool>
+    <!--2024-03-22 11:19:53.000-->
+    <string key="wfc_format_wifi_string">%1$s Wi-Fi</string>
+  </dict>
+</config>

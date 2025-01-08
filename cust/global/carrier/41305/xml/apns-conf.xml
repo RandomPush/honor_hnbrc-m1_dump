@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="AIRTEL XCAP APN" mcc="413" mnc="05" apn="XCAP" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+  <apn carrier="airtellive" mcc="413" mnc="05" apn="airtellive" user="" server="" password="" proxy="" port="" mmsproxy="10.200.252.57" mmsport="8080" mmsc="http://mmscvip/" type="default,mms" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0efbce688f1bc2c810cea2fb556d06a8">
+  <dict>
+    <!--2024-07-17 16:02:23.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-03-28 20:01:52.000-->
+    <bool key="carrier_force_volte_switch_on_bool">true</bool>
+    <!--2023-03-28 20:08:19.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-01-31 11:39:26.000-->
+    <string key="carrier_networkmode_gstyle">true</string>
+    <!--2023-03-28 20:01:11.000-->
+    <bool key="carrier_volte_available_bool">true</bool>
+    <!--2024-07-17 16:02:23.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-03-28 20:05:11.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:39:26.000-->
+    <bool key="ignore_data_enabled_changed_for_video_calls">true</bool>
+    <!--2023-01-31 11:39:26.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+  </dict>
+</config>

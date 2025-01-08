@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="3a8413d6882e93949d4b76ee0ac81254">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm, emergency=true</string>
+      <string>0x111F:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113-0x1114:rat=gsm, emergency=true</string>
+      <string>0x1120-0x1121:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_alerts_severe_range_strings">
+      <string>0x1115-0x111A:rat=gsm, emergency=true</string>
+      <string>0x1122-0x1127:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_amber_alerts_channels_range_strings">
+      <string>0x111B:rat=gsm, emergency=true</string>
+      <string>0x1128:rat=gsm, emergency=true</string>
+    </array>
+    <array key="operator_defined_alert_range_strings">
+      <string>0x111C-0x111E:rat=gsm, emergency=true</string>
+      <string>0x1129-0x112B:rat=gsm, emergency=true</string>
+    </array>
+    <array key="additional_cbs_channels_strings">
+      <string>0x397-0x39A:rat=gsm, emergency=false</string>
+      <string>0x112C-0x112F:rat=gsm, emergency=true</string>
+    </array>
+  </dict>
+</config>

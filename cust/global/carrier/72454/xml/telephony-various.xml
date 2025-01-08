@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="ad989410acff00d5308657caa870d930">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">72402</string>
+        <string key="sim_mccmnc">72454</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Porto Seguro</string>
+        <string key="plmn">Porto Seguro</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72403</string>
+        <string key="sim_mccmnc">72454</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Porto Seguro</string>
+        <string key="plmn">Porto Seguro</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">72404</string>
+        <string key="sim_mccmnc">72454</string>
+        <string key="network_type"></string>
+        <int key="rule">2</int>
+        <string key="spn">Porto Seguro</string>
+        <string key="plmn">Porto Seguro</string>
+      </dict>
+    </array>
+  </dict>
+</config>

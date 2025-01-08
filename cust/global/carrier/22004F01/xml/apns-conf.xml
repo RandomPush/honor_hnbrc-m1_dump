@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Telekom Internet"
+    mcc="220"
+    mnc="04"
+    apn="tmcg-4g"
+    user="38267"
+    server=""
+    password="38267"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="1"
+  />
+  <apn carrier="Telekom MMS"
+    mcc="220"
+    mnc="04"
+    apn="mms"
+    user="38267"
+    server=""
+    password="38267"
+    proxy=""
+    port=""
+    mmsproxy="010.000.005.019"
+    mmsport="8080"
+    mmsc="http://192.168.180.100/servlets/mms"
+    type="mms"
+    authtype="1"
+  />
+</apns>

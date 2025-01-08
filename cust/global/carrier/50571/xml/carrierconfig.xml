@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="844e69e2dbd5d1add1030456b94933d4">
+  <dict>
+    <!--2023-11-17 14:33:08.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:32:28.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:56:25.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:56:25.000-->
+    <int key="maxMessageSize">614400</int>
+    <!--2023-01-31 11:56:25.000-->
+    <array key="read_only_apn_types_string_array">
+      <string></string>
+    </array>
+    <!--2023-01-31 11:56:25.000-->
+    <bool key="useCustomUserAgent">true</bool>
+  </dict>
+</config>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Iliad Int" mcc="208" mnc="15" apn="iliad" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.iliad.it" type="default,supl,mms,dun" authtype="0"/>
+</apns>

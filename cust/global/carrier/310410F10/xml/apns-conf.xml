@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="reseller" mcc="310" mnc="410" apn="reseller" user="" server="" password="" proxy="" port="" mmsproxy="proxy.mobile.att.net" mmsport="80" mmsc="http://mmsc.mobile.att.net" type="default,supl,mms,agps,fota" authtype="0"/>
+</apns>

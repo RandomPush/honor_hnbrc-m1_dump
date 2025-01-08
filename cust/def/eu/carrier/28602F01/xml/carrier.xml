@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b284a09df7823e5a3ee62bdf8979c767">
+  <dict>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="hide_sepcial_apn_form_list">tapn</string>
+    <!--2023-01-31 11:43:44.000-->
+    <string key="hn_4g_custom_display_for_switch">4G:4.5G</string>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="hn_hide_lte">false</bool>
+    <!--2024-01-09 12:16:39.000-->
+    <string key="hn_predefined_eap_sim">VodafoneWiFi</string>
+    <!--2023-01-31 11:43:44.000-->
+    <bool key="remove_apn_MVNO">true</bool>
+  </dict>
+</config>

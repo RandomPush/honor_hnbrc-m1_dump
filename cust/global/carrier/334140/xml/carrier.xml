@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="70d1f5c4afacbe28daa60791f245c706">
+  <dict>
+    <!--2023-01-31 11:46:58.000-->
+    <bool key="data_roaming_switch">false</bool>
+    <!--2023-01-31 11:46:58.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-10-17 11:33:56.000-->
+    <bool key="save_ims_conf_participants">true</bool>
+  </dict>
+</config>

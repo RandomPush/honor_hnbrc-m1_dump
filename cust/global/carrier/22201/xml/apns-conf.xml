@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="222" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="WAP TIM" mcc="222" mnc="01" apn="wap.tim.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" authtype="0" productScope="phoneOnly"/>
+  <apn carrier="TIM Web" mcc="222" mnc="01" apn="ibox.tim.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,dun" authtype="1" productScope="tabletOnly"/>
+  <apn carrier="iTIM" mcc="222" mnc="01" apn="unico.tim.it" user="" server="" password="" proxy="" port="" mmsproxy="213.230.130.89" mmsport="80" mmsc="http://mms.tim.it/servlets/mms" type="mms" authtype="0"/>
+  <apn carrier="TIM UT" mcc="222" mnc="01" apn="xcap.tim.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

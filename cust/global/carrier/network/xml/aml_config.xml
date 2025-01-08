@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="1.0">
+    <mccmncList>
+        <item mccmnc="46060" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Lithuania - North east Europe -->
+        <item mccmnc="24601" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24603" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24602" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- United Kingdom - West Europe -->
+        <item mccmnc="23420" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23594" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23476" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23430" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23408" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23410" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23426" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23433" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23434" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23415" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23457" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23431" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23432" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23438" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Finland - North east Europe -->
+        <item mccmnc="24412" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24413" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24405" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24421" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24491" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Austria - North east Europe -->
+        <item mccmnc="23203" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23201" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23212" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23210" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23205" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23217" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23211" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23207" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Denmark - North east Europe -->
+        <item mccmnc="23801" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23802" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23806" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="23820" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Slovenia - North east Europe -->
+        <item mccmnc="29341" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="29370" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Sweden - West Europe -->
+        <item mccmnc="24002" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24007" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24001" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="24008" opkey_black_list="" support_intl_roaming="false"/>
+        <!-- Croatia - North east Europe -->
+        <item mccmnc="21901" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="21902" opkey_black_list="" support_intl_roaming="false"/>
+        <item mccmnc="21910" opkey_black_list="" support_intl_roaming="false"/>
+    </mccmncList>
+    <mcclist mcc="460">
+        <string key="aml_number_list">112</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">112</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="246">
+        <string key="aml_number_list">112,101,011,102,022</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">112</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="234">
+        <string key="aml_number_list">112,999,911</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">999</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="235">
+        <string key="aml_number_list">112,999,911</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">999</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="244">
+        <string key="aml_number_list">112</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">112</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="232">
+        <string key="aml_number_list">144,141,140,122,128</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">4366466000144</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="240">
+        <string key="aml_number_list">112</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">0737494778</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="238">
+        <string key="aml_number_list">112</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">91155555</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="293">
+        <string key="aml_number_list">112,911</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">112</string>
+        </array>
+    </mcclist>
+    <mcclist mcc="219">
+        <string key="aml_number_list">112,192,193,194,195,1987</string>
+        <string key="aml_msg_category">regular</string>
+        <int key="aml_msg_version">1</int>
+        <int key="network_location_time_out">20</int>
+        <int key="location_mini_time">5</int>
+        <array key="regular">
+            <string key="dest_short_number">112</string>
+        </array>
+    </mcclist>
+</config>

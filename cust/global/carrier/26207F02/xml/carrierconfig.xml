@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a6a609d4f7334fa09d3f67d18137d6fd">
+  <dict>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA2_256</string>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="EspEncAlg">RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="IPsecSaLifeTime">86400</int>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="Ikev2DpdInterval">900</int>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">86400</int>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">86400</int>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="Ikev2MaxRetryToSend">5</int>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="Ikev2SaLifeTime">86400</int>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="carrier_default_wfc_ims_mode_int">2</int>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00000000</string>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="setDefaultNoReplyTimer">-1</int>
+    <!--2023-11-16 11:35:34.000-->
+    <bool key="set_ut_without_data_connection">true</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="ssTypeUseCsOnly">15,16,18</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="utOIRSourceMode">1</int>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="utParamsCfg">0:1,8:1,9:2</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="utUseApn">3</int>
+    <!--2023-01-31 11:43:49.000-->
+    <string key="vowifiHplmnListItem">26207, epdg.epc.mnc007.mcc262.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:43:49.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="vowifi_pref_domestic">true</bool>
+    <!--2023-01-31 11:43:49.000-->
+    <bool key="vowifi_pref_roaming">true</bool>
+  </dict>
+</config>

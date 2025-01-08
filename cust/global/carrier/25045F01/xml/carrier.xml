@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="649fc3d54c5ffb9495fefd5ec4ce18b4">
+  <dict>
+    <!--2023-01-31 11:39:26.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2023-01-31 11:39:26.000-->
+    <int key="show_call_barring_menu">0</int>
+    <!--2023-01-31 11:39:26.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+    <!--2023-01-31 11:39:26.000-->
+    <string key="virtualnet_operatorname">GPB Mobile</string>
+  </dict>
+</config>

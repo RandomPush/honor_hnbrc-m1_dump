@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ffab7f322217fb8fd6a4ca048af91e7d">
+  <dict>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192,RCT_ALG_MODP768</string>
+    <!--2023-01-31 11:53:46.000-->
+    <int key="Ikev2DpdInterval">60</int>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:53:46.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:53:46.000-->
+    <bool key="preferToUseUT">false</bool>
+    <!--2023-01-31 11:53:46.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+    <!--2023-01-31 11:53:46.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="vowifiHplmnListItem">22605, epdg.epc.mnc005.mcc226.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:53:46.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="vowifiRssiThreshold">-60,-70,-6,-7</string>
+    <!--2023-01-31 11:53:46.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:53:46.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="vowifiWifiChip24GConf">-70,-63,3,1</string>
+    <!--2023-01-31 11:53:46.000-->
+    <string key="vowifiWifiChip5GConf">-70,-63,3,1</string>
+    <!--2023-01-31 11:53:46.000-->
+    <bool key="vowifi_roaming_switch">true</bool>
+  </dict>
+</config>

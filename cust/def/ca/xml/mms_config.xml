@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mms_config>
+  <!--2023-01-31 11:41:32.000-->
+  <int name="defaultAlwaysAllowMms">2</int>
+  <!--2023-01-31 11:41:32.000-->
+  <int name="defaultAutoRetrievalMms">1</int>
+  <!--2023-01-31 11:41:32.000-->
+  <bool name="enableShortPhoneNumberLink">true</bool>
+  <!--2023-01-31 11:41:32.000-->
+  <bool name="enableShowSmscNotEdit">true</bool>
+  <!--2023-01-31 11:41:32.000-->
+  <int name="mmsExpiryKey">-1</int>
+  <!--2023-01-31 11:41:32.000-->
+  <string name="prefPlaymode">slidesmoothshowactivity</string>
+</mms_config>

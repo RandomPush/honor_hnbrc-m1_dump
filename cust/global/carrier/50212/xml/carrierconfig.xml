@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="21372292626278cf5fa534f3e95b8e9c">
+  <dict>
+    <!--2023-01-31 11:53:36.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:53:36.000-->
+    <int key="callWaitingMode">3</int>
+    <!--2023-01-31 11:53:36.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:53:36.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">true</bool>
+    <!--2024-01-11 18:27:28.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-01-31 11:53:36.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:53:36.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:53:36.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:53:36.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2024-03-20 15:17:08.000-->
+    <bool key="set_ut_without_data_connection">true</bool>
+    <!--2023-01-31 11:53:36.000-->
+    <int key="utBsfPort">8091</int>
+    <!--2023-01-31 11:53:36.000-->
+    <string key="utBsfSrvAddr">bsf.ims.mnc012.mcc502.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:53:36.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:53:36.000-->
+    <int key="utNafPort">8090</int>
+    <!--2023-01-31 11:53:36.000-->
+    <string key="utParamsCfg">8:1</string>
+    <!--2023-01-31 11:53:36.000-->
+    <int key="utUseApn">1</int>
+    <!--2023-01-31 11:53:36.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+  </dict>
+</config>

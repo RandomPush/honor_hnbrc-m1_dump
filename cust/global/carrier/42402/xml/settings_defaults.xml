@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:50:14.000-->
+  <string always_show_test_item="true"/>
+  <!--2023-01-31 11:50:14.000-->
+  <string disable_extreme_settings="true"/>
+  <!--2023-01-31 11:50:14.000-->
+  <string disable_severe_settings="true"/>
+  <!--2023-01-31 11:50:14.000-->
+  <string hide_full_volume_menu="true"/>
+  <!--2023-01-31 11:50:14.000-->
+  <string show_channel_settings="true"/>
+  <!--2023-01-31 11:50:14.000-->
+  <string show_unclickable_presidential_menu="true"/>
+  <!--2023-01-31 11:50:14.000-->
+  <string use_full_volume="true"/>
+</resources>

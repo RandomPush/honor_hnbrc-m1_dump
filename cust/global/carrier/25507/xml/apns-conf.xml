@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="3g"
+    mcc="255"
+    mnc="07"
+    apn="3g.utel.ua"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.212.3.148"
+    mmsport="8080"
+    mmsc="http://10.212.1.4/mms/wapenc"
+    type="default,supl,mms"
+  />
+</apns>

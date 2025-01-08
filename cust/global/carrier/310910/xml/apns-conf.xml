@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="WOW_WAP"
+    mcc="310"
+    mnc="910"
+    apn="wap.firstcellular.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.101.1.5"
+    mmsport="3128"
+    mmsc="mms.firstcellular.net/mmsc"
+    type="default,supl,mms"
+  />
+</apns>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="ims" mcc="222" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Accesso a Internet da cellulare" mcc="222" mnc="10" apn="mobile.vodafone.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="Tethering Internet" mcc="222" mnc="10" apn="web.omnitel.it" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+  <apn carrier="MMS Vodafone" mcc="222" mnc="10" apn="mms.vodafone.it" user="" server="" password="" proxy="" port="" mmsproxy="10.128.224.10" mmsport="80" mmsc="http://mms.vodafone.it/servlets/mms" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

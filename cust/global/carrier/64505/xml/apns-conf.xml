@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Vodafone Zambia"
+    mcc="645"
+    mnc="05"
+    apn="ims"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="ims"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+  <apn carrier="Vodafone Zambia"
+    mcc="645"
+    mnc="05"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+  />
+</apns>

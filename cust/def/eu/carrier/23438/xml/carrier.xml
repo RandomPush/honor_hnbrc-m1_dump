@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="294a7e0c2ae58102e8e7cd6f40d1da26">
+  <dict>
+    <!--2023-01-31 11:43:59.000-->
+    <int key="default_always_allow_mms_by_mccmnc">2</int>
+    <!--2023-09-26 15:18:06.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-09-26 15:17:54.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

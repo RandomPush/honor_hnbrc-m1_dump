@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d56fbb92c8dfc8f20b038d35ec4555ba">
+  <dict>
+    <!--2023-01-31 11:54:58.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:54:58.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2024-08-15 18:00:04.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:54:58.000-->
+    <string key="voicemail_carrier">Orange EG</string>
+    <!--2023-01-31 11:54:58.000-->
+    <string key="voicemail_number">777</string>
+    <!--2023-01-31 11:54:58.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

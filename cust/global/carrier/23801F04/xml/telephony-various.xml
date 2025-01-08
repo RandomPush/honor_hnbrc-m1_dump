@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="7ca4c191c785b17d6179595cfbb8a1f0">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">24010</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC SE</string>
+        <string key="plmn">TDC SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24005</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC SE</string>
+        <string key="plmn">TDC SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24007</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC SE</string>
+        <string key="plmn">TDC SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24024</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC SE</string>
+        <string key="plmn">TDC SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">23801</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC DK|TDC SE</string>
+        <string key="plmn">TDC DK|TDC SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24201</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telenor|TDC SE</string>
+        <string key="plmn">Telenor|TDC SE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24001</string>
+        <string key="sim_mccmnc">2380172</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">TDC SE</string>
+        <string key="plmn">TDC SE</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

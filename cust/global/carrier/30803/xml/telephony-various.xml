@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="de3f7a6596b73d05bbe60968274830e4">
+  <dict>
+    <array key="plmn_spn"/>
+    <array key="set_mtu">
+      <dict>
+        <int key="mtu">1300</int>
+        <string key="ip">IPV4</string>
+      </dict>
+      <dict>
+        <int key="mtu">1300</int>
+        <string key="ip">IPV6</string>
+      </dict>
+      <dict>
+        <int key="mtu">1300</int>
+        <string key="ip">IPV4V6</string>
+      </dict>
+    </array>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

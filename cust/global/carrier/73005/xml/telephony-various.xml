@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="c7344846347585bfc7b19ebe3b8441d8">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">73002</string>
+        <string key="sim_mccmnc">73005</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">vtr</string>
+        <string key="plmn">vtr</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>Customer Care Toll Free Number</name>
+    <phone>
+      <detail>1800 309 8970</detail>
+      <type>Mobile</type>
+    </phone>
+    <email>
+      <detail>customersupport@psavglobaltech.com</detail>
+    </email>
+    <address>
+      <detail>India</detail>
+      <type>Work</type>
+    </address>
+  </contact>
+</datainitializor>

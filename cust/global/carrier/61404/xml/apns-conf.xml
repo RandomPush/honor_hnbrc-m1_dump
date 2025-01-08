@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ORANGE GPRS"
+    mcc="614"
+    mnc="04"
+    apn="orange.ne"
+    user=""
+    server=""
+    password=""
+    proxy="10.10.10.36"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="ORANGE WAP"
+    mcc="614"
+    mnc="04"
+    apn="orange"
+    user="orange"
+    server=""
+    password="orange"
+    proxy="10.10.10.36"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="ORANGE MMS"
+    mcc="614"
+    mnc="04"
+    apn="orange.mms"
+    user="orange"
+    server=""
+    password="orange"
+    proxy=""
+    port=""
+    mmsproxy="10.10.10.36"
+    mmsport="8080"
+    mmsc="http://10.10.10.35:38090/was"
+    type="mms"
+  />
+</apns>

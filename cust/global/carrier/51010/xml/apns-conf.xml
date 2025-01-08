@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="TELKOMSEL" mcc="510" mnc="10" apn="internet" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Telkomsel MMS" mcc="510" mnc="10" apn="mms" user="wap" server="" password="wap123" proxy="" port="" mmsproxy="10.1.89.150" mmsport="8000" mmsc="http://mms.telkomsel.com" type="mms"/>
+  <apn carrier="Telkomsel XCAP APN" mcc="510" mnc="10" apn="xcap" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IP"/>
+</apns>

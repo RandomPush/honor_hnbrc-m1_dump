@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="7034ac38cef31d39458157d31493d5ac">
+  <dict>
+    <!--2023-01-31 11:49:23.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:49:23.000-->
+    <bool key="carrier_force_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:49:23.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-03-28 20:01:11.000-->
+    <bool key="carrier_volte_available_bool">true</bool>
+    <!--2023-01-31 11:49:23.000-->
+    <string key="carrier_volte_hd_icon_flag">01010101</string>
+    <!--2023-01-31 11:49:23.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-03-28 20:03:18.000-->
+    <bool key="carrier_vt_available_bool">true</bool>
+    <!--2023-01-31 11:49:23.000-->
+    <bool key="switch_nr_available_bool">true</bool>
+  </dict>
+</config>

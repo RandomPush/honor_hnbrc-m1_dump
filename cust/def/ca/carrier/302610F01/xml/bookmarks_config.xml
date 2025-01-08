@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="1e119e614843560b3e89c8f9a2af688a">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Homepage</string>
+              <string key="url">http://mobilebrowser.bwanet.ca/hpr/</string>
+            </dict>
+            <dict>
+              <string key="title">MyBell</string>
+              <string key="url">http://Mybell.bell.ca/mobile</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

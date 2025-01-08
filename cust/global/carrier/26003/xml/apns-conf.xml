@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Orange Internet" mcc="260" mnc="03" apn="internetipv6" user="internet" server="" password="internet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,ia" protocol="IPV6" roaming_protocol="IP"/>
+  <apn carrier="MMS Orange" mcc="260" mnc="03" apn="mms" user="mms" server="" password="mms" proxy="" port="" mmsproxy="192.168.6.104" mmsport="8080" mmsc="http://mms.orange.pl" type="mms" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"/>
+  <apn carrier="ims" mcc="260" mnc="03" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+  <apn carrier="xcap" mcc="260" mnc="03" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

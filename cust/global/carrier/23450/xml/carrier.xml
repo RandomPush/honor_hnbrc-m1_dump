@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="05546f8dea6d9e1e66291ee9818050dc">
+  <dict>
+    <!--2023-01-31 11:42:16.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2023-01-31 11:42:16.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:42:16.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:42:16.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:42:16.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:42:16.000-->
+    <string key="voicemail_carrier">JT</string>
+    <!--2023-01-31 11:42:16.000-->
+    <string key="voicemail_number">+441534555555</string>
+    <!--2023-01-31 11:42:16.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

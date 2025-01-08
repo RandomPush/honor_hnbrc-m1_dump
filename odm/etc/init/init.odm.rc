@@ -1,0 +1,71 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+on early-boot
+
+on boot
+    # support origin power off alarm
+    setprop ro.support_ori_poweroffalarm true
+    setprop ro.support_wkalm_as_pwoffalm false
+
+    setprop persist.radio.multisim.config dsds
+    setprop persist.vendor.radio.msimmode dsds
+    setprop persist.vendor.radio.multisimslot 2
+    setprop ro.vendor.mtk_protocol1_rat_config N/Lf/Lt/W/G
+
+on post-fs-data
+    # Enable check debug switch in MC
+    setprop vendor.debug.switch.check true
+
+on property:ro.odm.build.version.incremental=*
+    setprop ro.odm.build.fingerprint ${ro.product.odm.brand}/${ro.product.odm.name}/${ro.product.odm.device}_${ro.boot.product.hardware.sku}:${ro.build.version.release}/${ro.product.odm.brand}${ro.boot.product.hardware.sku}/${ro.odm.build.version.incremental}:${ro.vendor.build.type}/${ro.vendor.build.tags}
+
+#for BRC-N03 SIM
+on property:ro.boot.product.hardware.sku=BRC-N03
+    setprop persist.radio.multisim.config ss
+    setprop persist.vendor.radio.msimmode ss
+    setprop persist.vendor.radio.multisimslot 1
+
+on property:sys.boot_completed=1
+    write /proc/self/reclaim file
+    exec - system system -- /system/bin/flags_health_check CLEAR_COUNT
+
+#for BRC-N03 nfc
+on property:ro.boot.product.hardware.sku=BRC-N03
+    service vendor.nfc_hal_service.snxxx /vendor/bin/hw/android.hardware.nfc@1.2-service.snxxx
+        class hal
+        user nfc
+        group nfc system
+        disabled
+
+# hyperhold
+service hyperhold-hw-1-0 /vendor/bin/hw/vendor.honor.hardware.hyperhold@1.0-service
+    override
+    interface vendor.honor.hardware.hyperhold@1.0::IPersistingData hyperhold_hal
+    oneshot
+    disabled
+    class hal
+    user root
+    group system
+
+#for BRC-N23 nfc
+on property:ro.boot.product.hardware.sku=BRC-N23
+    service vendor.nfc_hal_service.snxxx /vendor/bin/hw/android.hardware.nfc@1.2-service.snxxx
+        class hal
+        user nfc
+        group nfc system
+        disabled
+
+#for BRC-N21 nfc
+on property:ro.boot.product.hardware.sku=BRC-N21
+    symlink /odm/hn_odm/BRC-N21 /mnt/hn_odm
+    start mtk_secure_element_hal_service

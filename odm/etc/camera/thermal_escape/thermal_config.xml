@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <enable>1</enable>
+
+    <algo name="Beauty">
+        <highLevel>4</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="wechatBeauty">
+        <highLevel>6</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="PreviewFps">
+        <highLevel>1</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="VideoFps">
+        <highLevel>1</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="3rdFps">
+        <highLevel>1</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="AuxFlicker">
+        <highLevel>1</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="BokehPriview">
+        <highLevel>4</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="SHAlgoSceneDetect">
+        <highLevel>5</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="SHAlgoBokehCapture">
+        <highLevel>4</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="SHAlgoBeautyCapture">
+        <highLevel>4</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="SHAlgoBeautyPreview">
+        <highLevel>4</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+    <algo name="VideoEIS">
+        <highLevel>3</highLevel>
+        <lowLevel>1</lowLevel>
+    </algo>
+</Config>

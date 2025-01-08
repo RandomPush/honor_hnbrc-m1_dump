@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:45:36.000-->
+  <string cbs_vibrate_channel="4370,4383"/>
+  <!--2023-01-31 11:45:36.000-->
+  <string hide_amber_settings="true"/>
+  <!--2023-01-31 11:45:36.000-->
+  <string hide_extreme_settings="true"/>
+  <!--2023-01-31 11:45:36.000-->
+  <string hide_severe_settings="true"/>
+  <!--2023-01-31 11:45:36.000-->
+  <string settings.global.hn_nlp_vowifi="true"/>
+  <!--2023-01-31 11:45:36.000-->
+  <string use_full_volume_channel="4370,4383"/>
+</resources>

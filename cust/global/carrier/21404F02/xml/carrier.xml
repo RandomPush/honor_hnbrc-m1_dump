@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="083e033a475ad7b14066e4878914cf7d">
+  <dict>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2023-01-31 11:45:57.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,1</string>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:45:57.000-->
+    <string key="virtualnet_operatorname">EUSKALTEL</string>
+    <!--2023-01-31 11:45:57.000-->
+    <string key="voicemail_carrier">EUSKALTEL</string>
+    <!--2023-01-31 11:45:57.000-->
+    <string key="voicemail_number">+34633633633</string>
+    <!--2023-01-31 11:45:57.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

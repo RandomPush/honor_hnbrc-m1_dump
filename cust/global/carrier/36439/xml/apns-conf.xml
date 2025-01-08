@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="BTC INTERNET"
+    mcc="364"
+    mnc="39"
+    apn="internet.btcbahamas.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="MMS"
+    mcc="364"
+    mnc="39"
+    apn="mms1.btcbahamas.com"
+    user="btc"
+    server=""
+    password="btc"
+    proxy=""
+    port=""
+    mmsproxy="172.16.30.23"
+    mmsport="8080"
+    mmsc="http://mmsc/"
+    type="mms"
+    authtype="1"
+  />
+</apns>

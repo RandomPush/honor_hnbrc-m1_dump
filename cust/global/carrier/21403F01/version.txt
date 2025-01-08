@@ -1,0 +1,4 @@
+version=8.0.0.88
+type=CARRIER
+subtype=21403F01
+compatibleVersion=1

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Internet"
+    mcc="250"
+    mnc="27"
+    apn="Internet.letai.ru"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="MMS"
+    mcc="250"
+    mnc="27"
+    apn="mms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="mmsc"
+    mmsport="8080"
+    mmsc="https://mmsc:8002"
+    type="mms"
+    protocol="IP"
+  />
+</apns>

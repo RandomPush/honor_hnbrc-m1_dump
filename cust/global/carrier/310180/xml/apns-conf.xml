@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="WCW_INTERNET"
+    mcc="310"
+    mnc="180"
+    apn="internet.wcc.net"
+    user="MDN"
+    server=""
+    password="mmsc"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="0"
+  />
+  <apn carrier="WCW_MMS"
+    mcc="310"
+    mnc="180"
+    apn="mms.wcc.net"
+    user="MDN"
+    server=""
+    password="mmsc"
+    proxy="209.55.70.246"
+    port="80"
+    mmsproxy="209.55.70.246"
+    mmsport=""
+    mmsc="http://mms.wcc.net"
+    type="mms"
+    authtype="3"
+  />
+</apns>

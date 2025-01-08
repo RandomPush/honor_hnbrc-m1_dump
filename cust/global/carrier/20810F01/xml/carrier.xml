@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1a46b8decf051376e2b77534c6d20bc6">
+  <dict>
+    <!--2024-03-29 09:43:08.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2024-04-01 18:03:09.000-->
+    <string key="hn_networkname_normal">all,GSM:2G;HSDPA:H;HSUPA:H;HSPA:3G+;HSPA+:3G+</string>
+    <!--2023-01-31 11:56:38.000-->
+    <int key="max_message_size">614400</int>
+    <!--2023-01-31 11:56:38.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:56:38.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:56:38.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:56:38.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2024-08-12 19:52:18.000-->
+    <string key="virtual_ecclist_withcard">+112,2+15,1+17,4+18,8+196</string>
+  </dict>
+</config>

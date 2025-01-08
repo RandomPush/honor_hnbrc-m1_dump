@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2023-01-31 11:42:54.000-->
+  <string email_signature_cust_string="Sent from my #mk"/>
+  <!--2023-01-31 11:42:54.000-->
+  <string email_signature_with_productname="true"/>
+  <!--2023-01-31 11:42:54.000-->
+  <integer hndefault_CheckIntervalt="-1"/>
+</resources>

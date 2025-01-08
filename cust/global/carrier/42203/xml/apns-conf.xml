@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="ooredoo"
+    mcc="422"
+    mnc="03"
+    apn="ooredoo"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="ooredoo"
+    mcc="422"
+    mnc="03"
+    apn="isp.ooredoo.com.om"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="ooredoo 4G"
+    mcc="422"
+    mnc="03"
+    apn="ooredoo"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="ooredoo MMS"
+    mcc="422"
+    mnc="03"
+    apn="mms.ooredoo.com.om"
+    user="test"
+    server=""
+    password="test"
+    proxy=""
+    port=""
+    mmsproxy="10.128.240.19"
+    mmsport="8080"
+    mmsc="http://10.128.240.16/servlets/mms"
+    type="mms"
+  />
+</apns>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Vodafone Internet"
+    mcc="274"
+    mnc="02"
+    apn="gprs.is"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="0"
+  />
+  <apn carrier="Vodafone Live"
+    mcc="274"
+    mnc="02"
+    apn="live.gprs.is"
+    user=""
+    server=""
+    password=""
+    proxy="10.22.0.22"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="0"
+  />
+  <apn carrier="Vodafone MMS"
+    mcc="274"
+    mnc="02"
+    apn="mms.gprs.is"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.22.0.10"
+    mmsport="8080"
+    mmsc="http://mmsc.vodafone.is"
+    type="mms"
+    authtype="0"
+  />
+</apns>

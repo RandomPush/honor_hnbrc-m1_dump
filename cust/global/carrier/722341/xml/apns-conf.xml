@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Personal Datos"
+    mcc="722"
+    mnc="341"
+    apn="datos.personal.com"
+    user="datos"
+    server=""
+    password="datos"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="Personal MMS"
+    mcc="722"
+    mnc="341"
+    apn="mms"
+    user="mms"
+    server=""
+    password="mms"
+    proxy=""
+    port=""
+    mmsproxy="172.25.7.31"
+    mmsport="8080"
+    mmsc="http://mms.personal.com"
+    type="mms"
+    authtype="0"
+  />
+</apns>

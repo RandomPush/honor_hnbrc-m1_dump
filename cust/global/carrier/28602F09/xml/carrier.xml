@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="b634b3d125f9228b86f1c6468bd4ac9e">
+  <dict>
+    <!--2023-01-31 11:50:05.000-->
+    <bool key="disable_sms_deliver_toast">true</bool>
+    <!--2023-10-30 10:14:29.000-->
+    <string key="hn_4g_custom_display_for_networklist">4G:4.5G</string>
+    <!--2023-01-31 11:50:05.000-->
+    <string key="hn_4g_custom_display_for_networkmode">4G:4.5G</string>
+    <!--2023-01-31 11:50:05.000-->
+    <string key="hn_networkname_normal">all,LTE:4.5G;CA:4.5G</string>
+    <!--2023-01-31 11:50:05.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:50:05.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:50:05.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:50:05.000-->
+    <int key="sms_coding_national">1</int>
+    <!--2023-01-31 11:50:05.000-->
+    <int key="sms_to_mms_textthreshold">11</int>
+    <!--2023-01-31 11:50:05.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:50:05.000-->
+    <string key="voicemail_carrier">Vodafone</string>
+    <!--2023-01-31 11:50:05.000-->
+    <string key="voicemail_number">+905427542000</string>
+    <!--2023-01-31 11:50:05.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

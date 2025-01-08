@@ -1,0 +1,762 @@
+#line 1 "device/mediatek/sepolicy/base/private/property_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+ro.audio.usb.period_us u:object_r:exported_default_prop:s0 exact int
+
+persist.adb.nonblocking_ffs u:object_r:exported_default_prop:s0 exact int
+
+persist.vendor.mtklog u:object_r:system_mtk_persist_mtklog_prop:s0
+vendor.mtklog         u:object_r:system_mtk_debug_mtklog_prop:s0
+vendor.netlog         u:object_r:system_mtk_debug_netlog_prop:s0
+
+persist.vendor.mdl   u:object_r:system_mtk_persist_mdlog_prop:s0
+vendor.mdl           u:object_r:system_mtk_mdl_prop:s0
+vendor.mdlogger      u:object_r:system_mtk_debug_mdlogger_prop:s0
+vendor.pullmdlog     u:object_r:system_mtk_mdl_pulllog_prop:s0
+vendor.starting.mode u:object_r:system_mtk_mdl_start_prop:s0
+
+vendor.debug.bq.dump u:object_r:system_mtk_debug_bq_dump_prop:s0
+
+persist.vendor.bootanim. u:object_r:system_mtk_bootani_prop:s0
+
+dalvik.vm.background-dex2oat-threads u:object_r:system_mtk_dalvik_prop:s0
+dalvik.vm.background-dex2oat-cpu-set u:object_r:system_mtk_dalvik_prop:s0
+
+# mobile log property
+vendor.MB. u:object_r:system_mtk_mobile_log_prop:s0
+
+persist.vendor.radio.bgdata.disabled u:object_r:system_mtk_bgdata_disabled_prop:s0
+
+persist.vendor.radio.gprs.attach.type u:object_r:system_mtk_gprs_attach_type_prop:s0
+
+persist.vendor.mtk_rcs_single_reg_support u:object_r:system_mtk_rcs_single_reg_support_prop:s0
+
+vendor.ril.test.poweroffmd u:object_r:system_mtk_power_off_md_prop:s0
+vendor.ril.testmode        u:object_r:system_mtk_power_off_md_prop:s0
+
+# sim config property
+vendor.gsm.sim.operator.default-name u:object_r:system_mtk_sim_system_prop:s0
+
+vendor.connsysfw u:object_r:system_mtk_connsysfw_prop:s0
+
+vendor.bthcisnoop u:object_r:system_mtk_vendor_bluetooth_prop:s0
+
+# xcap rawurl config
+persist.vendor.mtk.xcap.rawurl u:object_r:system_mtk_persist_xcap_rawurl_prop:s0
+
+ctl.emdlogger1 u:object_r:system_mtk_ctl_emdlogger1_prop:s0
+ctl.emdlogger2 u:object_r:system_mtk_ctl_emdlogger2_prop:s0
+ctl.emdlogger3 u:object_r:system_mtk_ctl_emdlogger3_prop:s0
+ctl.mdlogger   u:object_r:system_mtk_ctl_mdlogger_prop:s0
+
+init.svc.emdlogger1 u:object_r:system_mtk_init_svc_emdlogger1_prop:s0
+
+# mtk audio log and dump property
+vendor.aaudio.pcm             u:object_r:system_mtk_audio_prop:s0
+vendor.af.    u:object_r:system_mtk_audio_prop:s0
+
+# mtk display driver log property
+vendor.debug.sf.log_repaint      u:object_r:system_mtk_sf_debug_prop:s0
+vendor.debug.sf.log_transaction  u:object_r:system_mtk_sf_debug_prop:s0
+vendor.debug.sf.restart          u:object_r:system_mtk_sf_debug_prop:s0
+vendor.debug.sf.skip_ext_texture u:object_r:system_mtk_sf_config_prop:s0
+vendor.sf.hwc_repaint_fmt        u:object_r:system_mtk_sf_config_prop:s0
+
+ctl.atcid-daemon-u                    u:object_r:system_mtk_ctl_atcid_daemon_u_prop:s0
+persist.vendor.radio.port_index       u:object_r:system_mtk_atci_sys_prop:s0
+persist.vendor.service.atci.autostart u:object_r:system_mtk_atci_sys_prop:s0
+persist.vendor.service.atci.usermode  u:object_r:system_mtk_atci_sys_prop:s0
+vendor.ril.atci.flightmode            u:object_r:system_mtk_atci_sys_prop:s0
+
+vendor.ril.capctrl_loaded             u:object_r:system_mtk_capctrl_sys_prop:s0
+
+persist.vendor.sys.aal. u:object_r:system_mtk_aal_prop:s0
+
+vendor.moms.permission.control.policy.set u:object_r:system_mtk_permission_control_prop:s0
+
+persist.vendor.ter u:object_r:system_mtk_terservice_prop:s0
+vendor.ter.service u:object_r:system_mtk_terservice_prop:s0
+
+ro.vendor.mtk_cta_set u:object_r:system_mtk_cta_set_prop:s0
+
+ro.product.current_rsc_path u:object_r:system_mtk_rsc_sys_prop:s0
+ro.sys_ext.current_rsc_path u:object_r:system_mtk_rsc_sys_prop:s0
+ro.sys.current_rsc_path     u:object_r:system_mtk_rsc_sys_prop:s0
+
+# Restrict access to starting/stopping campostalgo
+ctl.restart$camerapostalgo u:object_r:system_mtk_ctl_campostalgo_prop:s0
+ctl.start$camerapostalgo   u:object_r:system_mtk_ctl_campostalgo_prop:s0
+ctl.stop$camerapostalgo    u:object_r:system_mtk_ctl_campostalgo_prop:s0
+
+persist.vendor.radio.telecom.vibrate u:object_r:system_mtk_telecom_vibrate_prop:s0
+
+ro.vendor.graphiclowlatency.version u:object_r:system_mtk_graphics_sf_gll_ro_prop:s0
+vendor.debug.bq.                    u:object_r:system_mtk_debug_bq_prop:s0
+vendor.debug.sf.                    u:object_r:system_mtk_debug_sf_prop:s0
+
+# CT SelfRegister property
+persist.vendor.radio.selfreg u:object_r:system_mtk_selfreg_prop:s0
+
+# USB tethering property for auto test
+persist.vendor.net.tethering u:object_r:system_mtk_usb_tethering_prop:s0
+
+persist.vendor.entitlement_enabled u:object_r:system_mtk_wfc_entitlement_prop:s0
+persist.vendor.entitlement.dbg.    u:object_r:system_mtk_wfc_entitlement_prop:s0
+persist.vendor.entitlement.sesurl  u:object_r:system_mtk_wfc_entitlement_prop:s0
+persist.vendor.net.wo.epdg_fqdn    u:object_r:system_mtk_wfc_entitlement_prop:s0
+
+persist.vendor.apptoken.required u:object_r:system_mtk_apptoken_required_prop:s0
+persist.vendor.mtk_wfc_opt_in    u:object_r:system_mtk_wfc_opt_in_prop:s0
+persist.vendor.opt-in.url        u:object_r:system_mtk_opt_in_url_prop:s0
+
+# SBE property define
+vendor.boostfwk.                u:object_r:system_mtk_boostfwk_version_prop:s0
+
+# common data releated property
+persist.vendor.radio.default.data.selected u:object_r:system_mtk_common_data_prop:s0
+persist.vendor.radio.mobile.mtu            u:object_r:system_mtk_common_data_prop:s0
+vendor.radio.dsda.state                    u:object_r:system_mtk_common_data_prop:s0
+
+# carrier express (cxp)
+persist.vendor.mtk_usp         u:object_r:system_mtk_usp_srv_prop:s0
+persist.vendor.operator.optr_1 u:object_r:system_mtk_usp_srv_prop:s0
+persist.vendor.operator.seg_1  u:object_r:system_mtk_usp_srv_prop:s0
+persist.vendor.operator.spec_1 u:object_r:system_mtk_usp_srv_prop:s0
+
+persist.vendor.previous_slot   u:object_r:system_mtk_update_prop:s0
+persist.vendor.update_finished u:object_r:system_mtk_update_prop:s0
+
+vendor.media.wfd.             u:object_r:system_mtk_media_wfd_prop:s0
+vendor.media.wfd.portrait     u:object_r:system_mtk_media_wfd_prop:s0
+vendor.media.wfd.video-format u:object_r:system_mtk_media_wfd_prop:s0
+
+vendor.gsm.disable.sim.dialog u:object_r:system_mtk_vsim_sys_prop:s0
+
+# supplementary service property
+persist.vendor.radio.cfu.change.      u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.radio.cfu.iccid.       u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.radio.cfu.mode         u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.radio.cfu_over_ims     u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.radio.cfu.querytype    u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.radio.cfu.sync_for_ota u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.radio.cfu.timeslot.    u:object_r:system_mtk_supp_serv_prop:s0
+persist.vendor.suppserv.              u:object_r:system_mtk_supp_serv_prop:s0
+vendor.gsm.radio.ss.imsdereg          u:object_r:system_mtk_supp_serv_prop:s0
+vendor.gsm.radio.ss.sc                u:object_r:system_mtk_supp_serv_prop:s0
+vendor.suppserv.                      u:object_r:system_mtk_supp_serv_prop:s0
+
+persist.vendor.bluetooth. u:object_r:system_mtk_bluetooth_prop:s0
+vendor.bluetooth.         u:object_r:system_mtk_bluetooth_prop:s0
+
+# a2dp over mhdt
+vendor.bluetooth.a2dp_over_mhdt.supported u:object_r:system_mtk_a2dp_over_mhdt_prop:s0
+
+# leaudio offload
+persist.bluetooth.leaudio_offload.disabled u:object_r:bluetooth_leaudio_offload_prop:s0 exact bool
+ro.bluetooth.leaudio_offload.supported     u:object_r:bluetooth_leaudio_offload_prop:s0 exact bool
+
+# tel log property
+persist.vendor.log.tel_dbg u:object_r:system_mtk_em_tel_log_prop:s0
+
+# ims property
+vendor.ril.imsconfig.force.notify   u:object_r:system_mtk_imsconfig_prop:s0
+persist.vendor.dbg.vonr_ui_ovr      u:object_r:system_mtk_dbg_ims_prop:s0
+persist.vendor.dbg.vodata_avail_ovr u:object_r:system_mtk_dbg_ims_prop:s0
+
+# mtk duraspeed property
+persist.vendor.sys.vm.drop_caches u:object_r:system_mtk_duraspeed_drop_caches_prop:s0
+
+ro.vendor.mtk_system_update_support u:object_r:system_mtk_update_support_prop:s0
+
+# AMS dynamic enable log property
+persist.vendor.sys.activitylog u:object_r:system_mtk_amslog_prop:s0
+
+# AMS-aal dynamic enable property
+persist.vendor.sys.mtk_app_aal_support u:object_r:system_mtk_amsaal_prop:s0
+
+# MTK CDMA Less property
+persist.vendor.vzw_device_type u:object_r:system_mtk_persist_vendor_vzw_device_type_prop:s0
+
+persist.vendor.mtk_rtt_support u:object_r:system_mtk_rtt_prop:s0
+
+persist.vendor.ctm_slot_flag u:object_r:system_mtk_ctmslot_prop:s0
+
+persist.vendor.mtk_uce_support u:object_r:system_mtk_uce_support_prop:s0
+
+persist.vendor.mtk_clientapi_support u:object_r:system_mtk_clientapi_support_prop:s0
+
+vendor.cdma.icc.operator.mcc u:object_r:system_mtk_cdma_prop:s0
+
+# ECBM property
+vendor.ril.cdma.inecmmode_by_slot u:object_r:system_mtk_cdma_ecm_prop:s0
+
+persist.vendor.mtk_rcs_support u:object_r:system_mtk_rcs_support_prop:s0
+
+# MTK World Phone property
+persist.vendor.radio.wm_selectmode u:object_r:system_mtk_world_phone_prop:s0
+persist.vendor.radio.wm_fddtimer   u:object_r:system_mtk_world_phone_prop:s0
+
+# MTK Capability Switch property
+persist.vendor.radio.new.sim.slot     u:object_r:system_mtk_capability_switch_prop:s0
+persist.vendor.radio.sim.status       u:object_r:system_mtk_capability_switch_prop:s0
+persist.vendor.radio.simswitchstate   u:object_r:system_mtk_capability_switch_prop:s0
+persist.vendor.radio.unlock.roaming   u:object_r:system_mtk_capability_switch_prop:s0
+persist.vendor.radio.unlock           u:object_r:system_mtk_capability_switch_prop:s0
+persist.vendor.radio.waitimsi.roaming u:object_r:system_mtk_capability_switch_prop:s0
+persist.vendor.radio.wait.imsi        u:object_r:system_mtk_capability_switch_prop:s0
+vendor.ril.imsi.status.               u:object_r:system_mtk_capability_switch_prop:s0
+
+persist.vendor.subsidylock                     u:object_r:system_mtk_subsidylock_prop:s0
+persist.vendor.subsidylock.connectivity_status u:object_r:system_mtk_subsidylock_connect_prop:s0
+
+persist.vendor.mtk_acs_support u:object_r:system_mtk_acs_support_prop:s0
+persist.vendor.mtk_acs_url     u:object_r:system_mtk_acs_url_prop:s0
+persist.vendor.mtk_acs_version u:object_r:system_mtk_acs_version_prop:s0
+
+
+# Modem Monitor property
+persist.vendor.mdmmonitor u:object_r:config_prop:s0
+
+init.svc.mtk_pkm_service u:object_r:system_mtk_pkm_init_prop:s0
+
+# MDM init control property
+init.svc.md_monitor u:object_r:system_mtk_init_svc_md_monitor_prop:s0
+
+# netflix HD property
+ro.netflix.bsp_rev u:object_r:netflix_bsp_rev_prop:s0
+
+service.ctm.slot_flag u:object_r:system_mtk_ctm_prop:s0
+
+vendor.sf.gll.avgl2p   u:object_r:system_mtk_graphics_sf_gll_prop:s0
+vendor.sf.gll.istarget u:object_r:system_mtk_graphics_sf_gll_prop:s0
+vendor.sf.gll.q2l      u:object_r:system_mtk_graphics_sf_gll_prop:s0
+
+ro.vendor.mtk_gwsd_support u:object_r:system_mtk_gwsd_prop:s0
+
+ro.vendor.vodata_support u:object_r:system_mtk_vodata_prop:s0
+
+persist.system.powerhal. u:object_r:system_mtk_powerhal_prop:s0
+
+# fastdormancy property
+persist.vendor.fd.on.charge         u:object_r:system_mtk_fd_prop:s0
+persist.vendor.fd.screen.off.only   u:object_r:system_mtk_fd_prop:s0
+
+ro.mediatek.version.branch       u:object_r:build_prop:s0
+ro.mediatek.version.build.branch u:object_r:build_prop:s0
+ro.mediatek.version.release      u:object_r:build_prop:s0
+
+# msync3 property define
+vendor.msync3.                   u:object_r:system_mtk_msync3_prop:s0
+
+# HBT property
+ro.vendor.mtk.app32_boost_support        u:object_r:system_mtk_app32_boost_prop:s0
+ro.vendor.mtk.app32_boost_preload        u:object_r:system_mtk_app32_boost_prop:s0
+ro.vendor.mtk.app32_boost_system_preload u:object_r:system_mtk_app32_boost_prop:s0
+ro.vendor.mtk.hbt_binfmt_misc_support    u:object_r:system_mtk_app32_boost_prop:s0
+ro.vendor.mtk.hbt_binfmt_misc_preload    u:object_r:system_mtk_app32_boost_prop:s0
+vendor.mtk.app32_boost_config            u:object_r:system_mtk_app32_boost_prop:s0
+ro.vendor.mtk.hbt_dyn_type               u:object_r:system_mtk_app32_boost_prop:s0
+persist.vendor.mtk.hbt_dyn_type          u:object_r:system_mtk_app32_boost_prop:s0
+ro.vendor.mtk.hbt_allow32                u:object_r:system_mtk_app32_boost_prop:s0
+
+#=============mtk pl_lnk property====================
+persist.vendor.mtk.pl_lnk        u:object_r:system_mtk_persist_pllnk_prop:s0
+vendor.mtk.boot0_linka           u:object_r:system_mtk_persist_pllnk_prop:s0
+vendor.mtk.boot0_linkb           u:object_r:system_mtk_persist_pllnk_prop:s0
+vendor.mtk.boot0_linkc           u:object_r:system_mtk_persist_pllnk_prop:s0
+vendor.mtk.boot1_linka           u:object_r:system_mtk_persist_pllnk_prop:s0
+vendor.mtk.boot1_linkb           u:object_r:system_mtk_persist_pllnk_prop:s0
+vendor.mtk.boot1_linkc           u:object_r:system_mtk_persist_pllnk_prop:s0
+
+# DMC control property
+ro.vendor.system.mtk_dmc_support  u:object_r:system_mtk_dmc_prop:s0
+ro.vendor.system.mtk_mapi_support u:object_r:system_mtk_dmc_prop:s0
+ro.vendor.system.mtk_mdmi_support u:object_r:system_mtk_dmc_prop:s0
+
+ro.mtk.ims.data.feature_support u:object_r:system_mtk_persist_ims_data_prop:s0
+
+# Memtag property
+ro.arm64.memtag.bootctl_supported u:object_r:system_mtk_memtag_prop:s0
+
+# KPOC debug property
+debug.mediatek.kpoc. u:object_r:system_mtk_kpoc_prop:s0
+
+# video framework debug log property
+vendor.media.playback.debug          u:object_r:system_video_framework_debug_log_prop:s0
+vendor.media.c2.frameworks           u:object_r:system_video_framework_debug_log_prop:s0
+vendor.debug.stagefright             u:object_r:system_video_framework_debug_log_prop:s0
+vendor.media.wfd.debug.              u:object_r:system_video_framework_debug_log_prop:s0
+vendor.video.framework.              u:object_r:system_video_framework_prop:s0
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "device/mediatek/sepolicy/debug/private/property_contexts"
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+init.svc.aee_aedv       u:object_r:system_mtk_init_svc_aee_aedv_prop:s0
+persist.vendor.mtk.aee. u:object_r:system_mtk_persist_mtk_aee_prop:s0
+persist.vendor.aee.     u:object_r:system_mtk_persist_aee_prop:s0
+ro.vendor.aee.basic     u:object_r:system_mtk_aee_basic_prop:s0
+vendor.debug.mtk.aee.   u:object_r:system_mtk_debug_mtk_aee_prop:s0
+
+persist.vendor.video.ss_dbg u:object_r:system_mtk_dbg_video_ss_prop:s0
+
+# android log much detect
+persist.vendor.logmuch u:object_r:system_mtk_logmuch_prop:s0
+
+
+vendor.mbrain.battery u:object_r:system_mtk_mbrain_prop:s0
+
+#charge pstore
+persist.vendor.pstore.model u:object_r:system_mtk_pstore_prop:s0
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "device/mediatek/sepolicy/third_party/private/property_contexts"
+
+init.svc.zygote_hbt u:object_r:init_service_status_prop:s0 exact string
+
+hbt. u:object_r:system_mtk_hbt_prop:s0
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "vendor/honor/common/sepolicy/base/system_ext/private/property_contexts"
+# add for hwouc to set patch version
+mscw.hnouc.            u:object_r:hnouc_prop:s0
+instantshare.sending   u:object_r:instantshare_prop:s0
+persist.deep.theme      u:object_r:thememanager_deep_prop:s0
+
+persist.hw.power.shutdown       u:object_r:bootanim_prop:s0
+persist.dbg.volte_avail_ovr u:object_r:ims_debug_prop:s0
+
+persist.hiview.logblacklist   u:object_r:log_tag_prop:s0
+
+xcollie.s.              u:object_r:xcollie_prop:s0
+
+vold.cryptsd.state       u:object_r:vold_prop:s0
+vold.cryptsd_progress       u:object_r:vold_prop:s0
+vold.cryptsd.keystate       u:object_r:vold_prop:s0
+
+sys.tpm_start   u:object_r:tpm_start_prop:s0
+
+#for recovery
+recovery.hw_resize_userdata_flg     u:object_r:recovery_prop:s0
+factory_reset.stop_srv              u:object_r:recovery_prop:s0
+factory.recovery.prepare            u:object_r:recovery_prop:s0
+modem_update                        u:object_r:recovery_prop:s0
+ro.modem_update                     u:object_r:recovery_prop:s0
+odm.sys.remove_dm                   u:object_r:recovery_prop:s0
+odm.sys.make_update_dir             u:object_r:recovery_make_update_dir_prop:s0
+
+dev.fty_rst_firstboot                    u:object_r:fac_reboot_flag_prop:s0
+persist.cust_service.done           u:object_r:cust_prop:s0
+update.auth.prop.pass               u:object_r:auth_pass_prop:s0
+#for sar
+reduce.sar.imsi.mnc		u:object_r:radio_prop:s0
+
+#for hwnff
+hwnff.server.start		u:object_r:log_tag_prop:s0
+
+cota.update.opkey.version.enable  u:object_r:cota_prop:s0
+cota.update.update_status_report u:object_r:cota_prop:s0
+cota.live_update.handle_version_img u:object_r:cota_prop:s0
+cota.live_update.set_cust_policy_dirs u:object_r:cota_prop:s0
+cota.live_update.cota_vendor_country u:object_r:cota_prop:s0
+
+persist.sys.hiview.debug        u:object_r:hiviewdebug_prop:s0
+persist.sys.usb.kidsmode        u:object_r:usb_control_prop:s0 exact string
+
+ctl.xlogctl_service     u:object_r:dftlogcat_prop:s0
+ctl.xlogcat_service     u:object_r:dftlogcat_prop:s0
+ctl.xlogview_service        u:object_r:dftlogcat_prop:s0
+ctl.chargelogcat        u:object_r:dftlogcat_prop:s0
+ctl.kmsglogcat          u:object_r:dftlogcat_prop:s0
+ctl.applogcat           u:object_r:dftlogcat_prop:s0
+ctl.sleeplogcat         u:object_r:dftlogcat_prop:s0
+ctl.rillogcat           u:object_r:dftlogcat_prop:s0
+ctl.kmsgcat_cp          u:object_r:dftlogcat_prop:s0
+ctl.isplogcat           u:object_r:dftlogcat_prop:s0
+ctl.inputlogcat         u:object_r:dftlogcat_prop:s0
+dumptool.               u:object_r:dftlogcat_prop:s0
+ctl.faclog_service      u:object_r:dftlogcat_prop:s0
+
+persist.sys.smart_power     u:object_r:powergenie_prop:s0
+hw.flash.disabled.by.low_temp   u:object_r:powergenie_prop:s0
+sys.thermal.camera_esc_level   u:object_r:powergenie_prop:s0
+sys.thermal.media_esc_level   u:object_r:powergenie_prop:s0
+
+odm.drm.stop  u:object_r:system_prop:s0
+persist.odm.restart.mediadrm  u:object_r:system_prop:s0
+persist.mdm.animation  u:object_r:animation_prop:s0
+
+runtime.mmitest.isrunning u:object_r:mmi_prop:s0
+
+runtime.nfc.test u:object_r:mmi_prop:s0
+
+# for init
+mscw.hnouc.cota.prop.liveupdate u:object_r:cota_liveupdate_prop:s0
+mscw.hnouc.update.distribute.init u:object_r:cota_liveupdate_prop:s0
+
+
+# for init
+mscw.auto_install.liveupdate u:object_r:auto_install_liveupdate_prop:s0
+
+# for goldeneye
+goldeneye.	u:object_r:goldeneye_prop:s0
+
+#gnss
+vendor.gps_daemon_reload u:object_r:system_prop:s0
+ro.odm.config.gnss_adapt_card u:object_r:system_prop:s0
+
+#cameraserver
+config.camera.color_encode u:object_r:camera_color_encode_prop:s0
+
+# for AGP Service
+agp.version u:object_r:agp_version_prop:s0
+magic_agp_ic_adaptive_fps_show_enable      u:object_r:magic_agp_ic_adaptive_fps_show_enable_prop:s0
+magic.config.support_low_framerate     u:object_r:agp_support_low_framerate_prop:s0
+sys.view.promotion.switch   u:object_r:agp_view_promotion_enable_prop:s0
+
+# nfc
+ro.product.cuptsm    u:object_r:product_cuptsm_prop:s0
+ro.config.nfc_nxp_active u:object_r:config_nfc_nxp_active_prop:s0
+ro.vendor.connectivity.chiptype u:object_r:vendor_connectivity_prop:s0
+
+#for Opsl LL
+persist.config.lower_buffer_num_enable u:object_r:audio_prop:s0
+persist.config.pcm_data_size u:object_r:audio_prop:s0
+
+#for app scene detecting
+bt.scene.app_type u:object_r:audio_prop:s0
+
+persist.mygote.escape.enable  u:object_r:mygote_prop:s0
+persist.mygote.disable  u:object_r:mygote_prop:s0
+persist.mygote.ss.disable  u:object_r:mygote_prop:s0
+
+#for watch
+persist.odm.pairied.completed  u:object_r:pairied_prop:s0
+
+# for apex
+apexd.hep.install.status u:object_r:apexd_prop:s0 exact enum starting ready
+
+#for hilog.debug
+hilog.flowctrl.               u:object_r:log_tag_prop:s0
+persist.lastusertype          u:object_r:log_tag_prop:s0
+
+#for nearby
+persist.sys.nearby.uuid u:object_r:nearby_uuid_prop:s0 exact string
+msc.nearby.inited      u:object_r:nearby_prop:s0 exact string
+
+#for one-time permission
+msc.permission.support_onetime_allow u:object_r:one_time_permission_prop:s0
+
+#for set cust
+odm.set_cust_info u:object_r:cust_prop:s0
+
+#for set cust commercial_preload
+odm.set_cust_commercial_preload u:object_r:cust_prop:s0
+
+#for delete actual_preload_list
+odm.delete_actual_preload_list u:object_r:cota_prop:s0
+
+#for set region cust
+odm.set_region_cust_info u:object_r:cust_prop:s0
+
+#for set cota info vc
+odm.set_cota_info_vc u:object_r:cota_prop:s0
+
+#for update custom cota vc
+cota.update.update_custom_cota_vc.enable  u:object_r:cota_prop:s0
+
+#for symlink data cust
+cota.update.symlink_data_cust.enable  u:object_r:cota_prop:s0
+# each prop in whitelist should belong to one owner, and list the owner in comment
+# vendor-init-readable
+
+
+# vendor-init-settable
+
+
+# vendor-init-readable|vendor-init-actionable
+
+
+# vendor-init-settable|vendor-init-actionable
+
+
+# public-readable
+ro.magic.systemversion u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.system_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.confg.hw_systemversion u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.hl.product_base_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.hl.product_cust_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.hl.product_preload_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.hl.product_base_version.real u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.hl.product_cust_version.real u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.hl.product_preload_version.real u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.preas_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.preavs_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.prets_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.pretvs_version u:object_r:honor_version_public_read_prop:s0 exact string
+msc.product.CotaVersion u:object_r:honor_version_public_read_prop:s0 exact string
+msc.dg.img u:object_r:honor_version_public_read_prop:s0 exact string
+msc.dg.img.resume u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.product_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.cust_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.comp.version_version u:object_r:honor_version_public_read_prop:s0 exact string
+ro.magic.userdataversion u:object_r:honor_version_public_read_prop:s0 exact string
+ro.magic.recoveryversion u:object_r:honor_version_public_read_prop:s0 exact string
+msc.sys.hota.is_hninit_exists u:object_r:honor_version_public_read_prop:s0 exact string
+msc.sys.hota.is_hninit_cust_exists u:object_r:honor_version_public_read_prop:s0 exact string
+msc.sys.hota.is_hninit_preload_exists u:object_r:honor_version_public_read_prop:s0 exact string
+ro.magic.base_userdataversion u:object_r:honor_version_public_read_prop:s0 exact string
+ro.magic.version_userdataversion u:object_r:honor_version_public_read_prop:s0 exact string
+ro.magic.preload_userdataversion u:object_r:honor_version_public_read_prop:s0 exact string
+ro.runmode u:object_r:honor_runmode_public_read_prop:s0 exact string
+ro.image u:object_r:honor_boottype_public_read_prop:s0 exact string
+ro.boot.oemmode u:object_r:honor_oemmode_public_read_prop:s0 exact string
+ro.userlock u:object_r:honor_userlock_public_read_prop:s0 exact string
+ro.build.hide u:object_r:honor_build_hide_prop:s0 exact string
+ro.build.hide.matchers u:object_r:honor_build_hide_prop:s0 exact string
+ro.build.hide.replacements u:object_r:honor_build_hide_prop:s0 exact string
+ro.build.hide.settings u:object_r:honor_build_hide_prop:s0 exact string
+ro.fastboot.unlock u:object_r:honor_fastboot_unlock_prop:s0 exact string
+ro.mspes.config u:object_r:honor_config_mspes_prop:s0 exact string
+ro.config.marketing_name u:object_r:honor_marketing_name_prop:s0 exact string
+msc.config.use_security_patch u:object_r:honor_version_public_read_prop:s0 exact string
+ro.build.ver.physical u:object_r:honor_version_public_read_prop:s0 exact string
+ro.efusestate u:object_r:honor_efuse_state_prop:s0 exact string
+ro.build.magic_api_level u:object_r:honor_version_public_read_prop:s0 exact string
+
+# build props
+ro.honor.build.display.id u:object_r:honor_version_public_read_prop:s0 exact string
+ro.honor.build.fingerprint u:object_r:honor_version_public_read_prop:s0 exact string
+ro.honor.build.host u:object_r:honor_version_public_read_prop:s0 exact string
+ro.honor.build.version.incremental u:object_r:honor_version_public_read_prop:s0 exact string
+ro.honor.build.version.security_patch u:object_r:honor_version_public_read_prop:s0 exact string
+ro.honor.build.date.utc u:object_r:honor_version_public_read_prop:s0 exact string
+
+# vendor-init-settable|public-readable
+ro.magic.odmversion u:object_r:vendor_default_prop:s0 exact string
+ro.magic.fastbootversion u:object_r:vendor_default_prop:s0 exact string
+ro.magic.bootversion u:object_r:vendor_default_prop:s0 exact string
+ro.comp.chipset_version u:object_r:vendor_default_prop:s0 exact string
+ro.config.fast_switch_simslot u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.data_retry_enabled u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.full_network_support u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.dsds_mode u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.gcf u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.volte_on u:object_r:radio_rild_public_prop:s0 exact string
+ro.lte.poorstd u:object_r:radio_rild_public_prop:s0 exact string
+ro.radio.vsim_support u:object_r:radio_rild_public_prop:s0 exact string
+ro.wcdma.poorstd u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.deprecated_cdma_supported u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.support_wcdma_modem1 u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.ismcoex u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.gsm_nonsupport u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.sglte u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.att.csg u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.extend_apdu u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.globalEcc u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.dsdspowerup u:object_r:radio_rild_public_prop:s0 exact string
+ro.quick_broadcast_cardstatus u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.is_sup_cnap u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.updateCA_bycell u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.delay_attach_enabled u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.allow_pdp_auth u:object_r:radio_rild_public_prop:s0 exact string
+persist.telephony.mpdn u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.wps_enabled u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.power u:object_r:radio_rild_public_prop:s0 exact string
+ro.radio.vsim_dsds_version u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.clearcode_pdp u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.4.5gplus u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.laaplus u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.fake_ecc_list u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.ipv4.mtu u:object_r:radio_rild_public_prop:s0 exact string
+ro.config.ipv6.mtu u:object_r:radio_rild_public_prop:s0 exact string
+cdma.dormancy.mode u:object_r:radio_rild_public_prop:s0 exact string
+cdma.dormancy.screen u:object_r:radio_rild_public_prop:s0 exact string
+cdma.dormancy.delaytime u:object_r:radio_rild_public_prop:s0 exact string
+cdma.dormancy.time_scroff u:object_r:radio_rild_public_prop:s0 exact string
+gsm.fastdormancy.mode u:object_r:radio_rild_public_prop:s0 exact string
+gsm.fastdormancy.delaytime u:object_r:radio_rild_public_prop:s0 exact string
+gsm.fastdormancy.screen u:object_r:radio_rild_public_prop:s0 exact string
+gsm.fastdormancy.time_scroff u:object_r:radio_rild_public_prop:s0 exact string
+ro.odm.ca_product_version u:object_r:radio_rild_public_prop:s0 exact string
+ro.odm.radio.nvcfg_normalization u:object_r:radio_rild_public_prop:s0 exact string
+ro.product.imeisv u:object_r:radio_rild_public_prop:s0 exact string
+ro.odm.disable_m1_gw_ps_attach u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.ecclist_nocard u:object_r:radio_rild_public_prop:s0 exact string
+msc.config.ecclist_withcard u:object_r:radio_rild_public_prop:s0 exact string
+ro.patchversion u:object_r:radio_rild_public_prop:s0 exact string
+ro.comp.real.hl.product_base_version u:object_r:radio_rild_public_prop:s0 exact string
+ro.comp.real.hl.product_cust_version u:object_r:radio_rild_public_prop:s0 exact string
+ro.comp.real.hl.product_preload_version u:object_r:radio_rild_public_prop:s0 exact string
+
+#Cust common property
+msc.config.opta u:object_r:hw_cust_common_prop:s0 exact int
+msc.config.optb u:object_r:hw_cust_common_prop:s0 exact int
+msc.config.cota u:object_r:hw_cust_common_prop:s0 exact string
+msc.sys.vendor u:object_r:hw_cust_common_prop:s0 exact string
+msc.sys.country u:object_r:hw_cust_common_prop:s0 exact string
+ro.product.locale.language u:object_r:hw_cust_common_prop:s0 exact string
+ro.product.locale.region u:object_r:hw_cust_common_prop:s0 exact string
+ro.product.CustCVersion u:object_r:hw_cust_common_prop:s0 exact string
+ro.magic.cversion u:object_r:hw_cust_common_prop:s0 exact string
+ro.product.CustDVersion u:object_r:hw_cust_common_prop:s0 exact string
+msc.sys.oemName u:object_r:hw_cust_common_prop:s0 exact string
+ro.build.version.magic u:object_r:hw_cust_common_prop:s0 exact string
+ro.product.CotaVersion u:object_r:hw_cust_common_prop:s0 exact string
+
+#audio public propertys
+ro.config.ce_authenticate     u:object_r:honor_audio_public_read_prop:s0 exact string
+ro.config.vol_steps           u:object_r:honor_audio_public_read_prop:s0 exact int
+ro.config.music_region        u:object_r:honor_audio_public_read_prop:s0 exact string
+ro.config.voice_cfg           u:object_r:honor_audio_public_read_prop:s0 exact string
+ro.dts.licensepath            u:object_r:honor_dtsdecoder_public_read_prop:s0 exact string
+
+# vendor-init-actionable|public-readable
+persist.sys.msc.debug.on           u:object_r:dft_syshwdebug_prop:s0 exact int
+ro.logsystem.usertype                 u:object_r:dft_logsystemtype_prop:s0 exact int
+
+#whitelisted-public-props
+ro.odm.config.higeo_fusion_ver     u:object_r:higeo_fusion_ver_public_read_prop:s0
+ro.odm.config.higeo_map_matching   u:object_r:higeo_map_matching_public_read_prop:s0
+ro.odm.config.higeo_nw_pos_db      u:object_r:higeo_nw_pos_db_public_read_prop:s0
+ro.odm.config.higeo_pdrsupport     u:object_r:higeo_pdrsupport_public_read_prop:s0
+
+#recovery
+odm.androidboot.start_services         u:object_r:recovery_public_prop:s0
+odm.recovery.start_all_srv             u:object_r:recovery_public_prop:s0
+odm.factory.recovery.succssful_flg     u:object_r:recovery_public_prop:s0
+odm.recovery.start_logcat              u:object_r:recovery_public_prop:s0
+odm.recovery.start_logcat_ovs          u:object_r:recovery_public_prop:s0
+ro.enter_erecovery                     u:object_r:enter_erecovery_prop:s0
+ro.enter_erecovery_damaged_userdata    u:object_r:enter_erecovery_prop:s0
+
+# wifi
+ro.tether.denied            u:object_r:tether_denied_prop:s0
+msc.config.abs_enable     u:object_r:config_hw_abs_enable_prop:s0
+persist.sys.msc.wifiminidump.on        u:object_r:log_tag_prop:s0
+
+# vendor-init-settable |  vendor-init-readable permissions
+#facerecognize zengzhenyu 00416126  Begin
+ro.odm.config.face_recognition         u:object_r:faceid_prop:s0 exact bool
+#facerecognize zengzhenyu 00416126  End
+
+
+#hwdebug
+persist.log.remotedebug        u:object_r:log_tag_prop:s0
+#for touch move
+persist.msc.touch_vsync_opt u:object_r:honor_perf_persist_public_read_prop:s0
+persist.msc.touch_move_opt u:object_r:honor_perf_persist_public_read_prop:s0
+persist.msc.touchevent_opt u:object_r:honor_perf_persist_public_read_prop:s0
+
+#for drm wifidisplay
+odm.wfd_drm_enable u:object_r:wfd_drm_prop:s0  exact bool
+
+#for bluetooth
+ro.vendor.connectivity.sub_chiptype u:object_r:vendor_bt_chiptype_prop:s0
+
+#replace the sensitive word
+msc.config.   u:object_r:config_prop:s0
+mscw.         u:object_r:system_prop:s0
+msc.sys.      u:object_r:system_prop:s0
+
+ro.support_ori_poweroffalarm u:object_r:honor_poweroffalarm_public_read_prop:s0 exact string
+ro.support_wkalm_as_pwoffalm u:object_r:honor_wkalm_as_pwoffalm_public_set_prop:s0 exact string
+
+# SR #7881 Oversea CloneApp l00013044
+external_storage.cross_user.enabled u:object_r:external_storage_cross_user_enabled:s0
+
+odm.recovery.start_svice                   u:object_r:recovery_public_prop:s0
+odm.recovery.load_finish                   u:object_r:recovery_public_prop:s0
+
+libc.debug.gwp.program u:object_r:libc_debug_prop:s0 exact string
+
+#for DFT
+oba.debug_on               u:object_r:oba_prop:s0
+
+sys.hiview.first.boottime u:object_r:hiview_first_boot_time_prop:s0 exact string
+# AR000FUMH5 m00022118 20220149
+cache_key.get_pc_cast_mode               u:object_r:binder_cache_system_server_prop:s0
+cache_key.get_virtual_display_id         u:object_r:binder_cache_system_server_prop:s0
+
+# DTS2023052574712 w00013756 20230530
+cache_key.static_user_props              u:object_r:binder_cache_system_server_prop:s0
+# DTS2023090691588 w00013756 20230909
+cache_key.user_properties                u:object_r:binder_cache_system_server_prop:s0
+
+htee.version            u:object_r:htee_version_prop:s0
+htee.basic            u:object_r:htee_basic_prop:s0
+
+magic_agp_multiwindow_perf_optimize_enable  u:object_r:agp_multiwindow_perf_optimize_prop:s0
+
+sf.anim.flag u:object_r:sf_anim_flag_prop:s0
+
+#for secflash
+secflash.state            u:object_r:secflash_state_prop:s0
+
+odm.sys.start_fcme     u:object_r:fac_service_prop:s0
+sys.rf_test.service    u:object_r:fac_service_prop:s0
+sys.set_timeoffset     u:object_r:honor_set_timeoffset_prop:s0
+
+#for log control pass when dex2oat
+persist.log.control       u:object_r:logcontrol_prop:s0
+
+#for trace service
+persist.hiview.performance.traceservice u:object_r:system_prop:s0
+
+#for camera servicehost
+servicehost.  u:object_r:sys_servicehost_prop:s0
+
+#for antitheft
+antitheft.init        u:object_r:antitheft_init_prop:s0
+
+#for diagkit
+persist.sys.diag.enhance        u:object_r:diagkit_enhance_prop:s0
+
+#for tp_pen
+tp.pen_supported       u:object_r:tp_pen_supported_prop:s0
+
+#for satellite
+sys.sat.smsc_address u:object_r:sys_sat_smsc_address_prop:s0
+
+#nee to close feedback voltage adjust
+persist.fb.bypass.need u:object_r:sys_fb_bypass_need:s0
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+
+#line 1 "vendor/honor/common/sepolicy/mtk/private/property_contexts"
+sys.usb.ffs_hdb.      u:object_r:ffs_control_prop:s0
+#sys.adb.authpass u:object_r:authpass_prop:s0
+itouch.predict_opt    u:object_r:itouch_prop:s0
+ro.itouch.trace_enabled                    u:object_r:itouch_trace_enable_prop:s0
+uifirst_listview_optimization_enable       u:object_r:uifirst_listview_prop:s0
+systemui_fastview_fast_response_enable     u:object_r:systemui_fastview_prop:s0
+settings_fastview_fast_response_enable     u:object_r:settings_fastview_prop:s0
+launcher_smartslider_optimization_enable   u:object_r:launcher_smartslider_prop:s0
+magic_perf_all_prop                    u:object_r:magic_perf_prop:s0
+agp_prefetch_view_enable                   u:object_r:agp_prefetch_view_prop:s0
+sys.itouch.config.trace_scenes             u:object_r:trace_input_scenes_prop:s0
+msc.agp.screen_default_freq                u:object_r:hw_screen_default_freq_prop:s0
+persist.agp.slide_model_parms              u:object_r:high_freq_slide_model_prop:s0
+magic_agp_screen_brighten_animation       u:object_r:agp_screen_brighten_animation_prop:s0
+magic_agp_charging_animation_3d_enable    u:object_r:agp_charging_animation_3d_prop:s0
+magic_agp_window_blur_effect_enable       u:object_r:agp_window_blur_effect_prop:s0
+magic_agp_window_blur_sched_enable        u:object_r:agp_window_blur_sched_prop:s0
+sf.hwui.viewBlurBackground                u:object_r:hwagp_view_blur_background_prop:s0
+magic_graphic_features_switch               u:object_r:agp_graphic_features_switch:s0
+ro.vendor.tui.service                      u:object_r:tee_tui_prop:s0
+
+persist.sys.standard_freq_slide_enable     u:object_r:standard_freq_slide_model_prop:s0
+hwagp_view_round_corner_type               u:object_r:hwagp_view_round_corner_type_prop:s0
+hwagp_view_round_corner_g2_param_a         u:object_r:hwagp_view_round_corner_g2_param_a_prop:s0
+hwagp_view_round_corner_g2_param_b         u:object_r:hwagp_view_round_corner_g2_param_b_prop:s0
+
+ro.honor.config.perfgenius                u:object_r:hw_perfgenius_prop:s0
+
+# for uniperf
+sys.cpu.uniperf.ready    u:object_r:uniperf_ready_prop:s0
+
+#line 1 "out/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/gen/newline"
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f049a6519caeda883761e10142ce9098">
+  <dict>
+    <!--2023-01-31 11:40:54.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:40:54.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:40:54.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:40:54.000-->
+    <string key="voicemail_carrier">Vianova</string>
+    <!--2023-01-31 11:40:54.000-->
+    <string key="voicemail_number">+393783003000</string>
+    <!--2023-01-31 11:40:54.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

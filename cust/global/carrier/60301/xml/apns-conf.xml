@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Mobilis internet1"
+    mcc="603"
+    mnc="01"
+    apn="internet"
+    user="internet"
+    server=""
+    password="internet"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="Mobilis internet2"
+    mcc="603"
+    mnc="01"
+    apn="3ginternet"
+    user="3ginternet"
+    server=""
+    password="3ginternet"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="Mobilis.wap"
+    mcc="603"
+    mnc="01"
+    apn="wap"
+    user="wap"
+    server=""
+    password="wap"
+    proxy="10.70.2.34"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="Mobilis mms"
+    mcc="603"
+    mnc="01"
+    apn="mms"
+    user="mms"
+    server=""
+    password="mms"
+    proxy=""
+    port=""
+    mmsproxy="10.70.2.34"
+    mmsport="8080"
+    mmsc="http://10.70.2.169:8080/servlets/mms"
+    type="mms"
+    authtype="3"
+  />
+</apns>

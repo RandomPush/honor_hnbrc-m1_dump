@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f1b3094fb59091290f2081f6abe7cc85">
+  <dict>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-11-17 14:33:45.000-->
+    <string key="carrier_volte_hd_icon_flag">00000000</string>
+    <!--2023-11-17 14:33:07.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-04-28 17:44:19.000-->
+    <string key="hide_violence_number_from_mcc">34-016,34-900018018,34-024,34-017,34-021,34-116111</string>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="utBearType">2</int>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="utBsfPort">80</int>
+    <!--2023-01-31 11:45:57.000-->
+    <string key="utBsfSrvAddr">bsf.ims.mnc004.mcc214.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:45:57.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:45:57.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

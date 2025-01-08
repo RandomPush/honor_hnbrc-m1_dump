@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4153db4e58972a639e8073b644b7463d">
+  <dict>
+    <!--2023-01-31 11:47:59.000-->
+    <int key="allow_mms_property_int">4</int>
+    <!--2023-01-31 11:47:59.000-->
+    <int key="key_signal_strength_level_rule">1</int>
+    <!--2023-01-31 11:47:59.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:47:59.000-->
+    <string key="omacp_apn_add_supl_and_dun">21403</string>
+    <!--2023-01-31 11:47:59.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:47:59.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:47:59.000-->
+    <string key="virtualnet_operatorname">MASMOVIL</string>
+  </dict>
+</config>

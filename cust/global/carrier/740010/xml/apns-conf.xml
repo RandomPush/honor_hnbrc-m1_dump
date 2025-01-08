@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Internet Claro"
+    mcc="740"
+    mnc="010"
+    apn="internet.claro.com.ec"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="MMS Claro"
+    mcc="740"
+    mnc="010"
+    apn="mms.claro.com.ec"
+    user="portamms"
+    server=""
+    password="portamms2003"
+    proxy=""
+    port=""
+    mmsproxy="216.250.208.94"
+    mmsport="8799"
+    mmsc="http://iesmms.porta.com.ec"
+    type="mms"
+    authtype="3"
+  />
+</apns>

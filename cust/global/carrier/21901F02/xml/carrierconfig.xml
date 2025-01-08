@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8082da11814afc248b8bfc99c6d2f151">
+  <dict>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="Ikev2NatRtcTimerMaxCnt">200</int>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="Ikev2NatRtcTimerSec">60</int>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="carrier_build_version_bool">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="carrier_default_wfc_ims_mode_int">1</int>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">1</int>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="carrier_volte_hd_icon_flag">00100000</string>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="carrier_volte_show_switch_bool">false</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="carrier_vowifi_hd_icon_flag">00100000</string>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="carrier_vowifi_title">WiFi poziv</string>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-02-10 14:49:13.000-->
+    <bool key="display_hd_audio_property_bool">false</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="mmi_002_004_none_csfb_bool">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="setDefaultNoReplyTimer">-1</int>
+    <!--2023-11-16 11:35:34.000-->
+    <bool key="set_ut_without_data_connection">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="smsToMmsTextThreshold">-1</int>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="use_403_for_local_cw">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="utOIRSourceMode">1</int>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="utParamsCfg">0:1,17:1,19:1</string>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="utPreferOption">1</int>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="utUseApn">1</int>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="utUseMultiCF">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="vowifiHplmnListItem">21901, epdg.epc.mnc001.mcc219.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="vowifiSupportFirmwareKA">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="vowifi_UT_APN">hos</string>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="vowifi_mms_switch">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <int key="vowifi_mmsut_pdn_type">3</int>
+    <!--2023-01-31 11:45:24.000-->
+    <bool key="vowifi_ut_switch">true</bool>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="wfc_format_wifi_string">%1$s WiFi</string>
+    <!--2023-01-31 11:45:24.000-->
+    <string key="wfc_spn_string">bonbon</string>
+  </dict>
+</config>

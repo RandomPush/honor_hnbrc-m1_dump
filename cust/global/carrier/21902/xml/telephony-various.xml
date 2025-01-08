@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="7b6fcc115eaa0ee9b6165d5d62957c37">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">21901</string>
+        <string key="sim_mccmnc">21902</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Telemach</string>
+        <string key="plmn">Telemach</string>
+      </dict>
+    </array>
+    <array key="set_mtu"/>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+  </dict>
+</config>

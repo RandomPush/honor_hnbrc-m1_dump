@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="1999086c02d771434bef610c928eac65">
+  <dict>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_AES_CMAC</string>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096</string>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_AES_CMAC</string>
+    <!--2023-01-31 11:57:11.000-->
+    <int key="Ikev2PcscfIpv4Address">20</int>
+    <!--2023-01-31 11:57:11.000-->
+    <int key="Ikev2PcscfIpv6Address">21</int>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_AES_CMAC</string>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-12-06 09:59:03.000-->
+    <bool key="carrier_hide_clir_bool">true</bool>
+    <!--2023-11-09 20:22:42.000-->
+    <bool key="carrier_show_second_calllog_icon">true</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-02-06 20:35:10.000-->
+    <string key="carrierconfig_enhanced_video_feature">000100010000</string>
+    <!--2023-07-29 17:05:02.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="ignore_data_enabled_changed_for_video_calls">true</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="preferToUseUT">false</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="support_video_conference_call_bool">true</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <string key="vowifiHplmnListItem">40567, epdg.epc.mnc067.mcc405.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:57:11.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:57:11.000-->
+    <bool key="vowifi_roaming_switch">true</bool>
+  </dict>
+</config>

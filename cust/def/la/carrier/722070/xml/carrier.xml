@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="35f70bca0996d4c42d7b96901c395b6d">
+  <dict>
+    <!--2023-01-31 11:42:01.000-->
+    <string key="default_protocol">IPV4V6</string>
+    <!--2023-01-31 11:42:01.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2023-01-31 11:42:01.000-->
+    <bool key="pre_apn_unable">true</bool>
+    <!--2023-01-31 11:42:01.000-->
+    <string key="roaming_protocol">IPV4V6</string>
+  </dict>
+</config>

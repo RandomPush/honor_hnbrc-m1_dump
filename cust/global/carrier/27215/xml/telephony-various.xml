@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="c4bbaf95485943871ac417bbfd504f33">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">27202</string>
+        <string key="sim_mccmnc">27215</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Virgin Media IE</string>
+        <string key="plmn">Virgin Media IE</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">27205</string>
+        <string key="sim_mccmnc">27215</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Virgin Media IE</string>
+        <string key="plmn">Virgin Media IE</string>
+      </dict>
+    </array>
+    <array key="plmn_abbrev"/>
+    <array key="net_sim_ue_pri"/>
+    <array key="set_mtu"/>
+  </dict>
+</config>

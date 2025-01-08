@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="pepper" mcc="234" mnc="50" apn="pepper" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="0"/>
+  <apn carrier="mms" mcc="234" mnc="50" apn="mms" user="mms" server="" password="mms" proxy="" port="" mmsproxy="212.9.19.199" mmsport="3130" mmsc="http://mms.surfmail.com/" type="mms" authtype="3"/>
+</apns>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Chatr Internet"
+    mcc="302"
+    mnc="720"
+    apn="chatrweb.apn"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="mmsproxy.chatrwireless.com"
+    mmsport="80"
+    mmsc="http://mms.chatrwireless.com"
+    type="default,supl,mms"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+  />
+  <apn carrier="Chatr Tethering"
+    mcc="302"
+    mnc="720"
+    apn="chatrisp.apn"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="dun"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+  />
+</apns>

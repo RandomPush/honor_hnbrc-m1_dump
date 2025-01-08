@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet" mcc="704" mnc="03" apn="internet.ideasclaro" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="3" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

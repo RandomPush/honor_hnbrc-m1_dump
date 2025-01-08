@@ -1,0 +1,363 @@
+<manifest version="4.0" type="device" target-level="6">
+    <hal format="hidl">
+        <name>android.hardware.audio</name>
+        <transport>hwbinder</transport>
+        <fqname>@7.0::IDevicesFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.audio.effect</name>
+        <transport>hwbinder</transport>
+        <fqname>@7.0::IEffectsFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::IBiometricsFingerprint/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.bluetooth</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IBluetoothHci/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.bluetooth.audio</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::IBluetoothAudioProvidersFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.boot</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IBootControl/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.gatekeeper</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IGatekeeper/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.graphics.allocator</name>
+        <transport>hwbinder</transport>
+        <fqname>@4.0::IAllocator/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.graphics.composer</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.1::IComposer/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.graphics.mapper</name>
+        <transport arch="32+64">passthrough</transport>
+        <fqname>@4.0::IMapper/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.media.omx</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOmx/default</fqname>
+        <fqname>@1.0::IOmxStore/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IRadio/em1</fqname>
+        <fqname>@1.2::IRadio/em2</fqname>
+        <fqname>@1.2::IRadio/imsAospSlot1</fqname>
+        <fqname>@1.2::IRadio/imsAospSlot2</fqname>
+        <fqname>@1.2::IRadio/se1</fqname>
+        <fqname>@1.2::IRadio/se2</fqname>
+        <fqname>@1.2::IRadio/slot1</fqname>
+        <fqname>@1.2::IRadio/slot2</fqname>
+        <fqname>@1.2::ISap/slot1</fqname>
+        <fqname>@1.2::ISap/slot2</fqname>
+        <fqname>@1.6::IRadio/em1</fqname>
+        <fqname>@1.6::IRadio/em2</fqname>
+        <fqname>@1.6::IRadio/imsAospSlot1</fqname>
+        <fqname>@1.6::IRadio/imsAospSlot2</fqname>
+        <fqname>@1.6::IRadio/se1</fqname>
+        <fqname>@1.6::IRadio/se2</fqname>
+        <fqname>@1.6::IRadio/slot1</fqname>
+        <fqname>@1.6::IRadio/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.radio.config</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.3::IRadioConfig/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.renderscript</name>
+        <transport arch="32+64">passthrough</transport>
+        <fqname>@1.0::IDevice/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::ISecureElement/SIM1</fqname>
+        <fqname>@1.2::ISecureElement/SIM2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.sensors</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::ISensors/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.sensors</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ISensors/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.soundtrigger</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.3::ISoundTriggerHw/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.tetheroffload.config</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IOffloadConfig/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.tetheroffload.control</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IOffloadControl/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.thermal</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IThermal/default</fqname>
+        <fqname>@2.0::IThermal/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.activity_recognition</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IActivityRecognition/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.2::IExtBiometricsFingerprint/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.biometrics.hwfacerecognize</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IBiometricsFaceRecognize/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.camera.camResource</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.8::IHwCameraResourceService/honor.cameraresource.service</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.camera.cameraassistant</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ICameraAssistant/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.camera.cfgsvr</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.3::IHwCamCfgSvr/honor.camera.cfgsvr</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hnradio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IRadio/slot1</fqname>
+        <fqname>@1.0::IRadio/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.honorantitheft</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHonorAntiTheft/honorantitheft</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.honorsigntool</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ISignTool/honorsigntool</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hwdisplay</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.3::IDisplay/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hwdisplay.displayengine</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IDisplayEngineWrapper/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hwfs</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHwfs/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hwhiview</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHwHiviewInterface/hwhiview_hal</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hwstp</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHwStp/hwstp</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.hwupdate</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHwUpdate/hwupdate_hal</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.iawareperf</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IUniPerf/uniperf</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.iawareperfpolicy</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IPerfPolicy/perfpolicy</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.kds</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IKds/kds</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.libteec</name>
+        <transport>hwbinder</transport>
+        <fqname>@3.0::ILibteecGlobal/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.light</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::ILight/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.motion</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IMotion/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.power</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHWPower/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.radio_radar</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IRadioRadar/slot1</fqname>
+        <fqname>@1.0::IRadioRadar/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.sensors</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::ISensors/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.honor.hardware.tp</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::ITouchscreen/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.aee</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IAee/AEE</fqname>
+        <fqname>@1.1::IAee/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.apmonitor</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IApmService/apm_hidl_service</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.bluetooth.audio</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.2::IBluetoothAudioProvidersFactory/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.camera.atms</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IATMs/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.camera.bgservice</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IBGService/internal/0</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.camera.isphal</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IISPModule/internal/0</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.composer_ext</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IComposerExt/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.dmc</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IDmcService/dmc_hidl_service</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.fm</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IFmRadio/fm_hidl_service</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mmagent</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IMMAgent/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mms</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.6::IMms/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mtkpower</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IMtkPerf/default</fqname>
+        <fqname>@1.2::IMtkPower/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mtkradioex</name>
+        <transport>hwbinder</transport>
+        <fqname>@3.0::IMtkRadioEx/imsSlot1</fqname>
+        <fqname>@3.0::IMtkRadioEx/imsSlot2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkAssist1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkAssist2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkCap1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkCap2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkEm1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkEm2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkRcs1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkRcs2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkRsu1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkRsu2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkSe1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkSe2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkSlot1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkSlot2</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkSmartRatSwitch1</fqname>
+        <fqname>@3.0::IMtkRadioEx/mtkSmartRatSwitch2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.netdagent</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INetdagent/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.nvram</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::INvram/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.nwk_opt</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INwkOpt/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.pq</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.15::IPictureQuality/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.videotelephony</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IVideoTelephony/default</fqname>
+    </hal>
+</manifest>

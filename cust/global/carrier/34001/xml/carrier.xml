@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="810860a116b238f4ad9241f751dce3bc">
+  <dict>
+    <!--2023-11-20 14:19:49.000-->
+    <bool key="carrier_show_dual_icon">true</bool>
+    <!--2023-01-31 11:44:05.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:44:05.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+  </dict>
+</config>

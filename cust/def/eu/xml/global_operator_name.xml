@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<OperatorName>
+    <search opkey="22299" mcc_mnc_name="22299" network_state="all" display_name="WINDTRE"></search>
+    <search sim_mcc_mnc="23430,23431,23432" mcc_mnc_name="23430,23431,23432" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23430,23431,23432" mcc_mnc_name="23430,23431,23432" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23430,23431,23432" mcc_mnc_name="23430,23431,23432" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23430,23431,23432" mcc_mnc_name="23430,23431,23432" network_state="5G" display_name="EE 5G(Home)"></search>
+    <search sim_mcc_mnc="23430,23431,23432" mcc_mnc_name="23433,23434,23486" network_state="all" display_name="EE"></search>
+    <search sim_mcc_mnc="23433,23434,23486" mcc_mnc_name="23430,23431,23432" network_state="all" display_name="EE"></search>
+    <search sim_mcc_mnc="23433,23434,23486" mcc_mnc_name="23433,23434,23486" network_state="2G" display_name="EE 2G(Home)"></search>
+    <search sim_mcc_mnc="23433,23434,23486" mcc_mnc_name="23433,23434,23486" network_state="3G" display_name="EE 3G(Home)"></search>
+    <search sim_mcc_mnc="23433,23434,23486" mcc_mnc_name="23433,23434,23486" network_state="4G" display_name="EE 4G(Home)"></search>
+    <search sim_mcc_mnc="23433,23434,23486" mcc_mnc_name="23433,23434,23486" network_state="5G" display_name="EE 5G(Home)"></search>
+    <search opkey="23430F02" mcc_mnc_name="23430" network_state="all" display_name="BT OnePhone UK"></search>
+    <search sim_mcc_mnc="23408" mcc_mnc_name="23430" network_state="all" display_name="BT OnePhone UK"></search>
+    <search opkey="26207F01,26207F03" mcc_mnc_name="26207" network_state="all" display_name="o2 - de"></search>
+    <search opkey="21406F01" mcc_mnc_name="21401" network_state="all" display_name="Mobil R"></search>
+    <search opkey="21406F02" mcc_mnc_name="21401" network_state="all" display_name="telecable"></search>
+    <search sim_mcc_mnc="21419" mcc_mnc_name="21403" network_state="all" display_name="simyo"></search>
+    <!--<search sim_mcc_mnc="21405" mcc_mnc_name="21407" network_state="all" display_name="tuenti"></search>-->
+    <search sim_mcc_mnc="21418" mcc_mnc_name="21407" network_state="all" display_name="ONO"></search>
+    <search sim_mcc_mnc="21404" mcc_mnc_name="26803" network_state="all" display_name="NOS P"></search>
+    <search sim_mcc_mnc="21404" mcc_mnc_name="26806" network_state="all" display_name="P MEO"></search>
+    <search sim_mcc_mnc="21404" mcc_mnc_name="26801" network_state="all" display_name="vodafone P"></search>
+    <search sim_mcc_mnc="22801" mcc_mnc_name="22801" network_state="all" display_name="Swisscom"></search>
+    <search opkey="23415F03" mcc_mnc_name="23415" network_state="all" display_name="Talk Mobile"></search>
+    <search sim_mcc_mnc="20815" mcc_mnc_name="20815" network_state="all" display_name="Free"></search>
+    <!--<search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="2G" display_name="MASMovil 2G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="3G" display_name="MASMovil 3G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="4G" display_name="MASMovil 4G"></search>
+    <search sim_mcc_mnc="21403" gid="" imsi_start="2140354" mcc_mnc_name="21403" network_state="5G" display_name="MASMovil 5G"></search>-->
+    <search opkey="21403F06" mcc_mnc_name="21403" network_state="all" display_name="Ibercom"></search>
+    <search opkey="21403F10" mcc_mnc_name="21403" network_state="all" display_name="JAZZTEL"></search>
+    <search opkey="21403F07" mcc_mnc_name="21403" network_state="all" display_name="Happy"></search>
+    <search opkey="21403F08" mcc_mnc_name="21403" network_state="all" display_name="CABLE movil"></search>
+    <search sim_mcc_mnc="21432" mcc_mnc_name="21407" network_state="all" display_name="tuenti"></search>
+    <search sim_mcc_mnc="20415,20418" mcc_mnc_name="20404" network_state="all" display_name="Ziggo" />
+    <search sim_mcc_mnc="20415,20418,20601,20404,20408" mcc_mnc_name="20418" network_state="all" display_name="Ziggo"></search>
+    <search opkey="21403F03" mcc_mnc_name="21403" network_state="all" display_name="RACC"></search>
+    <search opkey="21403F02" mcc_mnc_name="21403" network_state="all" display_name="EUSKALTEL"></search>
+    <search sim_mcc_mnc="20420" mcc_mnc_name="20402" network_state="all" display_name="Tele2 NL"></search>
+    <search sim_mcc_mnc="20420" mcc_mnc_name="20416" network_state="all" display_name="T-Mobile NL"></search>
+    <search sim_mcc_mnc="20420" mcc_mnc_name="20420" network_state="all" display_name="T-Mobile NL"></search>
+    <search sim_mcc_mnc="20823" mcc_mnc_name="20810" network_state="all" display_name="Virgin"></search>
+    <search opkey="21403F04" mcc_mnc_name="21403" network_state="all" display_name="Carrefour"></search>
+    <search sim_mcc_mnc="24421" mcc_mnc_name="24405" network_state="all" display_name="Saunalahti"></search>
+    <search opkey="21405F02" mcc_mnc_name="21407" network_state="all" display_name="Pepephone"></search>
+    <search opkey="21406F03" mcc_mnc_name="21401" network_state="all" display_name="Pepephone"></search>
+    <search opkey="21405F03" mcc_mnc_name="21401" network_state="all" display_name="ONO"></search>
+    <search opkey="21403F09" mcc_mnc_name="21403" network_state="all" display_name="simyo"></search>
+    <search sim_mcc_mnc="22853" mcc_mnc_name="22801" network_state="all" display_name="upc ch" />
+    <search sim_mcc_mnc="22853" mcc_mnc_name="22853" network_state="all" display_name="upc ch" />
+    <search opkey="21405F01" mcc_mnc_name="21407" network_state="all" display_name="tuenti"></search>
+    <search opkey="21405F01" mcc_mnc_name="21405" network_state="all" display_name="tuenti"></search>
+    <search opkey="21405F02" mcc_mnc_name="21405" network_state="all" display_name="pepephone"></search>
+    <search opkey="21406F03" mcc_mnc_name="21406" network_state="all" display_name="Pepephone"></search>
+    <search sim_mcc_mnc="22603" mcc_mnc_name="22603" network_state="all" display_name="TELEKOM.RO"></search>
+    <search sim_mcc_mnc="22606" mcc_mnc_name="22606" network_state="all" display_name="TELEKOM.RO"></search>
+    <search sim_mcc_mnc="22005" mcc_mnc_name="22001" network_state="all" display_name="Telenor"></search>
+    <search opkey="23806F01" mcc_mnc_name="23806" network_state="all" display_name="Oister DK"></search>
+    <search opkey="20408F01" mcc_mnc_name="20404" network_state="all" display_name="Ziggo"></search>
+    <search opkey="21406F04" mcc_mnc_name="21401" network_state="all" display_name="Lowi"></search>
+    <search opkey="21406F05" mcc_mnc_name="21401" network_state="all" display_name="Eroski Movil"></search>
+    <search opkey="21403F16" mcc_mnc_name="21403" network_state="all" display_name="Mobil R"></search>
+    <search sim_mcc_mnc="26203" mcc_mnc_name="26207" network_state="all" display_name="o2 - de"></search>
+    <search sim_mcc_mnc="28603" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28604" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28601" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28602" mcc_mnc_name="28603" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28603" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28604" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28601" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28602" mcc_mnc_name="28604" network_state="4G" display_name="Turk Telekom 4.5G" />
+    <search sim_mcc_mnc="28603" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28604" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28601" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28602" mcc_mnc_name="28601" network_state="4G" display_name="TURKCELL 4.5G" />
+    <search sim_mcc_mnc="28603" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="28604" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="28601" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="28602" mcc_mnc_name="28602" network_state="4G" display_name="VODAFONE TR 4.5G" />
+    <search sim_mcc_mnc="23210,23205" mcc_mnc_name="23203" network_state="all" display_name="3-AT"></search>
+    <search sim_mcc_mnc="" mcc_mnc_name="21803" network_state="all" display_name="Eronet" />
+    <search sim_mcc_mnc="21404" mcc_mnc_name="20820" network_state="all" display_name="F-Bouygues Telecom"></search>
+    <search sim_mcc_mnc="28401" mcc_mnc_name="28401" network_state="all" display_name="A1 BG"></search>
+    <search opkey="23410F03" mcc_mnc_name="23410" network_state="all" display_name="Tesco"></search>
+    <search opkey="23430F02" mcc_mnc_name="23433" network_state="all" display_name="BT OnePhone UK"></search>
+    <search sim_mcc_mnc="23408" mcc_mnc_name="23433" network_state="all" display_name="BT OnePhone UK"></search>
+    <!--<search sim_mcc_mnc="21404" spn="MASMOVIL" mcc_mnc_name="21404" network_state="5G" display_name="MASMOVIL 5G"></search>
+    <search sim_mcc_mnc="21404" spn="MASMOVIL" mcc_mnc_name="21404" network_state="4G" display_name="MASMOVIL 4G"></search>
+    <search sim_mcc_mnc="21404" spn="MASMOVIL" mcc_mnc_name="21404" network_state="3G" display_name="MASMOVIL 3G"></search>
+    <search sim_mcc_mnc="21404" spn="MASMOVIL" mcc_mnc_name="21404" network_state="2G" display_name="MASMOVIL 2G"></search>-->
+    <search opkey="21403F05" mcc_mnc_name="21403" network_state="all" display_name="MASMOVIL"></search>
+    <search opkey="21403F11" mcc_mnc_name="21403" network_state="all" display_name="MovilDIA"></search>
+    <search opkey="21403F12" mcc_mnc_name="21403" network_state="all" display_name="LlamaYA"></search>
+    <search opkey="21403F13" mcc_mnc_name="21403" network_state="all" display_name="YOU Mobile"></search>
+    <search opkey="21403F14" mcc_mnc_name="21403" network_state="all" display_name="LCR"></search>
+    <search opkey="21403F15" mcc_mnc_name="21403" network_state="all" display_name="IOS"></search>
+    <search opkey="23430F03" mcc_mnc_name="23430" network_state="all" display_name="BT"></search>
+    <search opkey="21405F04" mcc_mnc_name="21407" network_state="all" display_name="telecable"></search>
+    <search sim_mcc_mnc="21403" mcc_mnc_name="21403" network_state="all" display_name="Orange"></search>
+    <search sim_mcc_mnc="26006,26098" mcc_mnc_name="26098" network_state="4G" display_name="Play Test LTE"></search>
+    <search sim_mcc_mnc="26006,26098" mcc_mnc_name="26098" network_state="all" display_name="Play Test"></search>
+    <search opkey="21403F18" mcc_mnc_name="21403" network_state="all" display_name="Virgin telco"></search>
+    <search opkey="23430F02" mcc_mnc_name="23408" network_state="all" display_name="BT OnePhone"></search>
+    <search opkey="23408" mcc_mnc_name="23408" network_state="all" display_name="BT OnePhone"></search>
+</OperatorName>

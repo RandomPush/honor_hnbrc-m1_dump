@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Free Caraibes Martinique Guyanne" mcc="340" mnc="04" apn="free.mq" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.free.mq" type="default,dun,hipri,supl,mms" authtype="0" protocol="IPV4V6"/>
+</apns>

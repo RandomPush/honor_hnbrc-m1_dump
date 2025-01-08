@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="25d4bdbf17354773a5ae157ed5da7122">
+  <dict>
+    <!--2023-01-31 11:54:58.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2024-09-13 09:28:46.000-->
+    <bool key="carrier_close_vowifi_airplane_bool">true</bool>
+    <!--2023-01-31 11:54:58.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-03-27 11:37:25.000-->
+    <string key="carrier_volte_hd_icon_flag">01010101</string>
+    <!--2024-09-13 09:28:46.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:54:58.000-->
+    <int key="utBsfPort">80</int>
+    <!--2024-09-13 09:28:46.000-->
+    <bool key="vowifi_pref_roaming">true</bool>
+  </dict>
+</config>

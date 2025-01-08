@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="06c79eb6e73236384a9d3bb6993d1467">
+  <dict>
+    <!--2023-01-31 11:48:39.000-->
+    <int key="num_match">7</int>
+    <!--2023-01-31 11:48:39.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2023-01-31 11:48:39.000-->
+    <string key="voicemail_carrier">Vox</string>
+    <!--2023-01-31 11:48:39.000-->
+    <string key="voicemail_number">*222</string>
+    <!--2023-01-31 11:48:39.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

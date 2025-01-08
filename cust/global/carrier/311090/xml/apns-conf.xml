@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="LL WAP GPRS"
+    mcc="311"
+    mnc="090"
+    apn="wap.longlines"
+    user="user1@wap.longlines"
+    server=""
+    password="user1"
+    proxy="66.172.210.195"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+    authtype="1"
+  />
+  <apn carrier="LL MMS GPRS"
+    mcc="311"
+    mnc="090"
+    apn="mms.longlines"
+    user="user1@mms.longlines"
+    server=""
+    password="user1"
+    proxy=""
+    port=""
+    mmsproxy="66.172.210.195"
+    mmsport="8080"
+    mmsc="http://mms.longlines.com/mms"
+    type="mms"
+    authtype="1"
+  />
+</apns>

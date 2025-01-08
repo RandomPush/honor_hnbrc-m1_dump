@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c8d99b2f2a1abfda5577ee3d1db8ce14">
+  <dict>
+    <!--2023-01-31 11:43:37.000-->
+    <bool key="hn_stk_calling_show_text">true</bool>
+    <!--2023-01-31 11:43:37.000-->
+    <bool key="hn_stk_home_back">true</bool>
+    <!--2023-01-31 11:43:37.000-->
+    <bool key="hn_stk_screen_on_unlock">true</bool>
+    <!--2023-01-31 11:43:37.000-->
+    <bool key="hn_stk_show_cancel_button">true</bool>
+    <!--2023-01-31 11:43:37.000-->
+    <bool key="stk_rsp_without_cfm">true</bool>
+  </dict>
+</config>

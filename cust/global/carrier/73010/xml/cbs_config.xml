@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="368d65f683a3371f9e70dd7a833baded">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm, emergency=true, title=es||Alerta de Emergencia</string>
+      <string>0x111F:rat=gsm, emergency=true</string>
+    </array>
+    <array key="required_monthly_test_range_strings">
+      <string>0x111C:rat=gsm, type=info, emergency=true, title=es||Mensaje de Prueba</string>
+      <string>0x207:rat=gsm, type=info, emergency=true, title=es||Mensaje de Prueba</string>
+      <string>0x1129:rat=gsm, emergency=true</string>
+    </array>
+    <array key="exercise_alert_range_strings">
+      <string>0x111D:rat=gsm, type=info, emergency=true, title=es||Mensaje de Prueba</string>
+      <string>0x112A:rat=gsm, emergency=true</string>
+    </array>
+    <array key="additional_cbs_channels_strings"/>
+    <array key="public_safety_messages_channels_range_strings"/>
+    <array key="predefined_settings_range_strings">
+      <string>0x397:rat=gsm, emergency=true, title=es||Alerta de Emergencia</string>
+      <string>0x399:rat=gsm, emergency=true, title=es||Alerta de Emergencia</string>
+    </array>
+  </dict>
+</config>

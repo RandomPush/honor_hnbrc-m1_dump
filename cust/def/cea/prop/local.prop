@@ -1,0 +1,66 @@
+# 2023-01-31 11:41:20.000
+drm.service.enabled=true
+# 2023-01-31 11:41:20.000
+msc.config.always_allow_mms=6
+# 2023-01-31 11:41:20.000
+msc.config.delay_detach_time=5
+# 2023-01-31 11:41:20.000
+msc.config.is_pre_post_pay=true
+# 2023-01-31 11:41:20.000
+msc.config.nfc_on=true
+# 2023-01-31 11:41:20.000
+msc.config.omacp=1
+# 2023-01-31 11:41:20.000
+msc.config.opta=461
+# 2023-01-31 11:41:20.000
+msc.config.optb=999
+# 2023-01-31 11:41:20.000
+msc.config.region=cea
+# 2023-01-31 11:41:20.000
+msc.cust.drm.fl_only=false
+# 2023-01-31 11:41:20.000
+msc.cust.oma_drm=true
+# 2023-01-31 11:41:20.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:41:20.000
+msc.power.fdtimer_screenOff=4000
+# 2023-01-31 11:41:20.000
+ro.camera.cos_ttpic_supported=false
+# 2023-01-31 11:41:20.000
+ro.config.CphsOnsEnabled=false
+# 2023-01-31 11:41:20.000
+ro.config.attach_apn_enabled=true
+# 2023-01-31 11:41:20.000
+ro.config.bundle_opta_mnc=228
+# 2023-01-31 11:41:20.000
+ro.config.bundle_optb_mnc=365
+# 2023-01-31 11:41:20.000
+ro.config.bundle_optx_mnc=129
+# 2023-01-31 11:41:20.000
+ro.config.custom_short_codes=true
+# 2023-01-31 11:41:20.000
+ro.config.delay_updatename=true
+# 2023-01-31 11:41:20.000
+ro.config.device_time_for_mms=true
+# 2023-01-31 11:41:20.000
+ro.config.dualimsi.disableap=true
+# 2023-01-31 11:41:20.000
+ro.config.force_auto_plmn=20815
+# 2023-01-31 11:41:20.000
+ro.config.music_region=normal
+# 2023-01-31 11:41:20.000
+ro.config.show_data_act_all_apn=true
+# 2023-01-31 11:41:20.000
+ro.config.ussd_linkify=true
+# 2023-01-31 11:41:20.000
+ro.config.vm_prioritymode=2
+# 2023-01-31 11:41:20.000
+ro.odm.gsm.fastdormancy.mode=1
+# 2023-01-31 11:41:20.000
+ro.odm.gsm.fd.screen=3
+# 2023-01-31 11:41:20.000
+ro.product.CustCVersion=C461
+# 2023-01-31 11:41:20.000
+ro.product.locale=en-GB
+# 2023-01-31 11:41:20.000
+ro.vendor.config.camera.region=oz

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="fd5471023cda3362c7f4b53373e78d63">
+  <dict>
+    <array key="additional_cbs_channels_strings">
+      <string>0x32:rat=gsm, emergency=false</string>
+    </array>
+  </dict>
+</config>

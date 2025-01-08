@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="7aec54e6de28f4d0ec3f0353c8d903f5">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <string key="bookmarks_folder_name">Bouygues Télécom</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Actualités</string>
+              <string key="url">http://portail.bouyguestelecom.fr/actu/</string>
+            </dict>
+            <dict>
+              <string key="title">Jeux</string>
+              <string key="url">http://portail.bouyguestelecom.fr/jeux/</string>
+            </dict>
+            <dict>
+              <string key="title">Sonneries et fonds d’écran</string>
+              <string key="url">http://portail.bouyguestelecom.fr/perso/</string>
+            </dict>
+            <dict>
+              <string key="title">Programme TV</string>
+              <string key="url">http://portail.bouyguestelecom.fr/tv/</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

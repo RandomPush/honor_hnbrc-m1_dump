@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="2764469bb8014db2052cfadf49cbb91b">
+  <dict>
+    <array key="apnReminder">
+      <dict>
+        <string key="remindType">imsiChange</string>
+        <string key="title">Choose your default APN:</string>
+        <string key="name">Singtel (Postpaid)</string>
+        <string key="apn">e-ideas</string>
+        <string key="displayName">Singtel (Postpaid)</string>
+        <string key="onsName"></string>
+        <string key="otherApns"></string>
+        <string key="vmNumber">1389</string>
+        <string key="vmTag">voicemail</string>
+      </dict>
+      <dict>
+        <string key="remindType">imsiChange</string>
+        <string key="title">Choose your default APN:</string>
+        <string key="name">Singtel (Prepaid)</string>
+        <string key="apn">hicard</string>
+        <string key="displayName">Singtel (Prepaid)</string>
+        <string key="onsName"></string>
+        <string key="otherApns"></string>
+        <string key="vmNumber">1389</string>
+        <string key="vmTag">voicemail</string>
+      </dict>
+    </array>
+  </dict>
+</config>

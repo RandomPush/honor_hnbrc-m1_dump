@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="INTERNET IAM"
+    mcc="604"
+    mnc="01"
+    apn="www.iamgprs1.ma"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="MobileZone"
+    mcc="604"
+    mnc="01"
+    apn="wap.iamgprs.ma"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="MMS IAM"
+    mcc="604"
+    mnc="01"
+    apn="Mmsiam"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.16.35.50"
+    mmsport="8080"
+    mmsc="http://mms:8002/"
+    type="mms"
+    authtype="1"
+  />
+</apns>

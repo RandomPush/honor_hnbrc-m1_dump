@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Telenet Internet" mcc="206" mnc="01" apn="telenetwap.be" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Telenet MMS" mcc="206" mnc="01" apn="mms.be" user="" server="" password="" proxy="" port="" mmsproxy="195.130.149.100" mmsport="80" mmsc="http://mmsc.telenet.be" type="mms"/>
+  <apn carrier="Telenet IMS" mcc="206" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="Telenet XCAP" mcc="206" mnc="01" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IP"/>
+</apns>

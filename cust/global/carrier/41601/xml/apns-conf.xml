@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Zain JO Internet" mcc="416" mnc="01" apn="zain" user="zain" server="" password="zain" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="Zain MMS" mcc="416" mnc="01" apn="zain" user="" server="" password="" proxy="" port="" mmsproxy="192.168.55.10" mmsport="80" mmsc="http://mms.jo.zain.com" type="mms" authtype="1"/>
+  <apn carrier="ims" mcc="416" mnc="01" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

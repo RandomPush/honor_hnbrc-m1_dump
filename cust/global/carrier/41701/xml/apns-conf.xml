@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Syriatel GPRS"
+    mcc="417"
+    mnc="01"
+    apn="net.syriatel.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="3"
+  />
+  <apn carrier="Syriatel MMS"
+    mcc="417"
+    mnc="01"
+    apn="mms.syriatel.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="172.20.5.6"
+    mmsport="80"
+    mmsc="http://mymms.syriatel.com/"
+    type="mms"
+    authtype="3"
+  />
+</apns>

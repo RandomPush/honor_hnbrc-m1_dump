@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e023834282abc0f765945d7e3fb9f14e">
+  <dict>
+    <!--2023-01-31 11:40:36.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:40:36.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:40:36.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:40:36.000-->
+    <string key="virtualnet_operatorname">TDC NO</string>
+    <!--2023-01-31 11:40:36.000-->
+    <string key="voicemail_carrier">TDC</string>
+    <!--2023-01-31 11:40:36.000-->
+    <string key="voicemail_number">004794505050</string>
+    <!--2023-01-31 11:40:36.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

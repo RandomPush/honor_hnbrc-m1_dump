@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="orange net" mcc="416" mnc="77" apn="net.orange.jo" user="net" server="" password="net" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="1"/>
+  <apn carrier="orange mms" mcc="416" mnc="77" apn="mms.orange.jo" user="mmc" server="http://172.16.1.96/servlets/mms" password="mmc" proxy="" port="" mmsproxy="172.16.1.2" mmsport="8080" mmsc="http://172.16.1.96/servlets/mms" type="mms" authtype="3"/>
+  <apn carrier="ims" mcc="416" mnc="77" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

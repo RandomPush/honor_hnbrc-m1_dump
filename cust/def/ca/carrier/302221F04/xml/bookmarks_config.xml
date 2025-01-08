@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="6de864de5d34c7f76a93960f4510c54d">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Support Community</string>
+              <string key="url">https://community.publicmobile.ca</string>
+            </dict>
+            <dict>
+              <string key="title">Self Serve</string>
+              <string key="url">https://selfserve.publicmobile.ca</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

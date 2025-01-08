@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Mega-GPRS"
+    mcc="437"
+    mnc="05"
+    apn="internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="WAP-mega"
+    mcc="437"
+    mnc="05"
+    apn="wap"
+    user=""
+    server=""
+    password=""
+    proxy="10.230.3.18"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="MMS-mega"
+    mcc="437"
+    mnc="05"
+    apn="mms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.230.3.18"
+    mmsport="8080"
+    mmsc="http://10.230.3.19:8002"
+    type="mms"
+  />
+</apns>

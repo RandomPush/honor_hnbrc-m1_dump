@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="eir DATA" mcc="272" mnc="03" apn="data.myeirmobile.ie" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" protocol="IPV4V6" roaming_protocol="IP"/>
+  <apn carrier="eir MMS" mcc="272" mnc="03" apn="mms.myeirmobile.ie" user="" server="" password="" proxy="" port="" mmsproxy="010.085.085.085" mmsport="8799" mmsc="http://mms.mymeteor.ie" type="mms"/>
+  <apn carrier="ims" mcc="272" mnc="03" apn="IMS" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV6" roaming_protocol="IPV6"/>
+</apns>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c147284a0bd393c9f4cfad2e7fb17fa6">
+  <dict>
+    <!--2023-01-31 11:43:26.000-->
+    <bool key="set_callbarring_without_password">true</bool>
+    <!--2023-01-31 11:43:26.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+  </dict>
+</config>

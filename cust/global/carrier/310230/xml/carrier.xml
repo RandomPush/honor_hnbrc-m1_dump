@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f616bfad916a26fb903cbc90ad10446c">
+  <dict>
+    <!--2023-01-31 11:54:25.000-->
+    <string key="hn_networkname_normal">all,GPRS:G;EDGE:E;UMTS:4G;HSDPA:4G;HSUPA:4G;HSPA:4G;HSPA+:4G;LTE:4G LTE;CA:4G LTE</string>
+    <!--2023-01-31 11:54:25.000-->
+    <int key="max_message_size">1048576</int>
+    <!--2023-01-31 11:54:25.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:54:25.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2023-01-31 11:54:25.000-->
+    <string key="voicemail_carrier">TMO</string>
+    <!--2023-01-31 11:54:25.000-->
+    <string key="voicemail_number">123</string>
+    <!--2023-01-31 11:54:25.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

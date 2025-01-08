@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="789b36683dc2c80a64da2ed9e99995ff">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">70401</string>
+        <string key="sim_mccmnc">704030</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CLARO</string>
+        <string key="plmn">CLARO</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">70403</string>
+        <string key="sim_mccmnc">704030</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CLARO</string>
+        <string key="plmn">CLARO</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">704030</string>
+        <string key="sim_mccmnc">704030</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">CLARO</string>
+        <string key="plmn">CLARO</string>
+      </dict>
+    </array>
+  </dict>
+</config>

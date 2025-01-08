@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="def73d5a6c051b5806221269c41a51ae">
+  <dict>
+    <array key="plmn_spn">
+      <dict>
+        <string key="network_mccmnc">24005</string>
+        <string key="sim_mccmnc">24007</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Tele2</string>
+        <string key="plmn">Tele2</string>
+      </dict>
+      <dict>
+        <string key="network_mccmnc">24024</string>
+        <string key="sim_mccmnc">24007</string>
+        <string key="network_type"></string>
+        <int key="rule">1</int>
+        <string key="spn">Tele2</string>
+        <string key="plmn">Tele2</string>
+      </dict>
+    </array>
+  </dict>
+</config>

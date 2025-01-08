@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="RSO WEB" mcc="208" mnc="01" apn="ofnew.fr" user="orange" server="" password="orange" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default" authtype="1" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="RSO MMS" mcc="208" mnc="01" apn="orange.acte" user="orange" server="" password="orange" proxy="" port="" mmsproxy="192.168.010.200" mmsport="8080" mmsc="http://mms.orange.fr" type="mms" authtype="1" protocol="IP" roaming_protocol="IP"/>
+  <apn carrier="VoWifi Xcap" mcc="208" mnc="01" apn="vowifiorange" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" bearer_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

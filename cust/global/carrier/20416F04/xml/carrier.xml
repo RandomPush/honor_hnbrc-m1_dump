@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="76fcca4b3a4a22463dd6eed641f2e5bf">
+  <dict>
+    <!--2024-05-14 16:27:32.000-->
+    <string key="hide_sepcial_apn_form_list">hos</string>
+    <!--2023-04-23 10:23:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc">9</string>
+    <!--2023-04-23 10:23:15.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9</string>
+    <!--2023-01-31 11:47:44.000-->
+    <bool key="hn_remove_3g_only">true</bool>
+    <!--2023-01-31 11:47:44.000-->
+    <int key="num_match">9</int>
+    <!--2023-01-31 11:47:44.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:47:44.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:47:44.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2023-11-02 21:07:36.000-->
+    <string key="virtualnet_operatorname">Odido</string>
+    <!--2023-01-31 11:47:44.000-->
+    <string key="voicemail_carrier">Tele2 NL</string>
+    <!--2023-01-31 11:47:44.000-->
+    <string key="voicemail_number">+31640192939</string>
+    <!--2023-01-31 11:47:44.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

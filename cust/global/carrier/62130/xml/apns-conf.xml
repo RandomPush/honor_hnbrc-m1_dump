@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="MTN WEB" mcc="621" mnc="30" apn="Web.gprs.mtnnigeria.net" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl"/>
+  <apn carrier="MTN MMS" mcc="621" mnc="30" apn="web.gprs.mtnnigeria.net" user="web" server="" password="web" proxy="" port="" mmsproxy="10.199.212.2" mmsport="8080" mmsc="http://10.199.212.8/servlets/mms" type="mms" authtype="3"/>
+  <apn carrier="MTN XCAP APN" mcc="621" mnc="30" apn="XCAP" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

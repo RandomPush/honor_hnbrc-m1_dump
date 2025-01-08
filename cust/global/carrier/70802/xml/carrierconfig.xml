@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="47e629a1bc89961447e178476f840063">
+  <dict>
+    <!--2024-02-21 10:01:00.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2024-02-21 10:01:00.000-->
+    <bool key="carrier_show_second_calllog_icon">true</bool>
+    <!--2024-02-21 10:01:00.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-10-17 11:33:04.000-->
+    <bool key="set_ut_without_data_connection">true</bool>
+  </dict>
+</config>

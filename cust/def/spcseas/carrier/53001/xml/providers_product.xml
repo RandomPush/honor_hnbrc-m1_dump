@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<providers_product>
+  <provider id="Vodafone Mail" label="Vodafone Mail" domain="vodafone.net.nz">
+    <incoming uri="imap://imap.vodafone.net.nz:143" username="$email" field="IMAP"/>
+    <outgoing uri="smtp://smtp2.vodafone.net.nz:25" username="$email"/>
+  </provider>
+</providers_product>

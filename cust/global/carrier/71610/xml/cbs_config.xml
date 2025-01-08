@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="6a484331a798578a831ecc081901d413">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm, emergency=true, title=es||Alerta de Emergencia</string>
+      <string>0x111F:rat=gsm, emergency=true, title=es||Alerta de Emergencia</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113-0x1114:rat=gsm, emergency=true</string>
+      <string>0x1120-0x1121:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_alerts_severe_range_strings">
+      <string>0x1115-0x111A:rat=gsm, emergency=true</string>
+      <string>0x1122-0x1127:rat=gsm, emergency=true</string>
+    </array>
+    <array key="cmas_amber_alerts_channels_range_strings">
+      <string>0x111B:rat=gsm, emergency=true</string>
+      <string>0x1128:rat=gsm, emergency=true</string>
+    </array>
+    <array key="required_monthly_test_range_strings"/>
+    <array key="exercise_alert_range_strings"/>
+    <array key="operator_defined_alert_range_strings"/>
+    <array key="etws_test_alerts_range_strings"/>
+    <array key="additional_cbs_channels_strings">
+      <string>0x111C:rat=gsm, emergency=true, title=es||Alerta de Emergencia – mensaje de Prueba</string>
+      <string>0x111D:rat=gsm, emergency=true, title=es||Alerta de Emergencia – mensaje de Ejercicio / Simulacro</string>
+      <string>0x111E:rat=gsm, emergency=true, title=es||Mensaje Informativo</string>
+      <string>0x112C-0x112F:rat=gsm, emergency=true, title=es||Alerta de Emergencia</string>
+    </array>
+    <array key="public_safety_messages_channels_range_strings"/>
+    <array key="predefined_settings_range_strings">
+      <string>0x32:rat=gsm, emergency=false</string>
+    </array>
+  </dict>
+</config>

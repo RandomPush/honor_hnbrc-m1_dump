@@ -1,0 +1,26 @@
+# 2023-01-31 11:43:33.000
+msc.camera.def_beauty_level=0
+# 2023-01-31 11:43:33.000
+msc.camera.support_gesture_capture=false
+# 2023-01-31 11:43:33.000
+msc.config.nfc_def_route=2
+# 2023-01-31 11:43:33.000
+msc.config.opta=431
+# 2023-01-31 11:43:33.000
+msc.config.optb=999
+# 2023-01-31 11:43:33.000
+msc.power.fast_dormancy=true
+# 2023-01-31 11:43:33.000
+ro.config.bundle_opta_mnc=222
+# 2023-01-31 11:43:33.000
+ro.config.bundle_optb_mnc=365
+# 2023-01-31 11:43:33.000
+ro.config.bundle_optx_mnc=168
+# 2023-01-31 11:43:33.000
+ro.odm.gsm.fastdormancy.mode=1
+# 2023-01-31 11:43:33.000
+ro.odm.gsm.fd.screen=3
+# 2023-01-31 11:43:33.000
+ro.product.CustCVersion=C431
+# 2023-01-31 11:43:33.000
+ro.vendor.config.camera.region=oz

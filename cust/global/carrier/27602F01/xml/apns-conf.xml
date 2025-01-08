@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="VFAL Internet" mcc="276" mnc="02" apn="vodafoneweb" user="web" server="" password="web" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl,dun"/>
+  <apn carrier="VFAL MMS" mcc="276" mnc="02" apn="vfalmms" user="mms" server="" password="mms" proxy="" port="" mmsproxy="10.0.9.2" mmsport="8080" mmsc="http://mmsc.vodafone.al" type="mms"/>
+  <apn carrier="hos" mcc="276" mnc="02" apn="hos" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV4V6"/>
+</apns>

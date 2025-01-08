@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="10d4d039595c0382aaa3cf8f1c083185">
+  <dict>
+    <!--2023-01-31 11:43:13.000-->
+    <int key="max_message_size">307200</int>
+    <!--2023-01-31 11:43:13.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:43:13.000-->
+    <int key="num_match_short">7</int>
+    <!--2023-01-31 11:43:13.000-->
+    <bool key="show_volte_switch_in_nsa">true</bool>
+    <!--2023-01-31 11:43:13.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2023-01-31 11:43:13.000-->
+    <string key="voicemail_carrier">A1</string>
+    <!--2023-01-31 11:43:13.000-->
+    <string key="voicemail_number">66477</string>
+    <!--2023-01-31 11:43:13.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

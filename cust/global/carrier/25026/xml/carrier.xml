@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="caa6fe8a59ec6715cec4644298be8a3d">
+  <dict>
+    <!--2023-01-31 11:54:03.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2,1</string>
+    <!--2023-01-31 11:54:03.000-->
+    <int key="show_call_barring_menu">0</int>
+  </dict>
+</config>

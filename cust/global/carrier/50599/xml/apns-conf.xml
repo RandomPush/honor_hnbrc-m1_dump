@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Vodafone Live!"
+    mcc="505"
+    mnc="99"
+    apn="live.vodafone.com"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.202.2.60"
+    mmsport="8080"
+    mmsc="http://pxt.vodafone.net.au/pxtsend"
+    type="default,supl,mms"
+  />
+</apns>

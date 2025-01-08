@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="TELUS SP" mcc="302" mnc="220" apn="sp.telus.com" user="" server="" password="" proxy="" port="" mmsproxy="mmscproxy.mobility.ca" mmsport="8799" mmsc="http://aliasredirect.net/proxy/mmsc" type="default,mms,supl" authtype="0"/>
+  <apn carrier="TELUS ISP" mcc="302" mnc="220" apn="isp.telus.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="dun" authtype="0"/>
+  <apn carrier="Telus Vowifi Mms" mcc="302" mnc="220" apn="services.telus.com" user="" server="" password="" proxy="" port="" mmsproxy="mmscproxy.mobility.ca" mmsport="8799" mmsc="http://aliasredirect.net/proxy/mmsc" type="vowifi_mms" bearer_bitmask="18" protocol="IPV6" roaming_protocol="IP"/>
+  <apn carrier="TELUS Services" mcc="302" mnc="220" apn="services.telus.com" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="xcap" protocol="IPV6" roaming_protocol="IPV4V6"/>
+</apns>

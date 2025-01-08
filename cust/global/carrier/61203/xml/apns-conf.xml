@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="0WEB"
+    mcc="612"
+    mnc="03"
+    apn="orangeciweb"
+    user="web"
+    server=""
+    password="web"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="0WORLD"
+    mcc="612"
+    mnc="03"
+    apn="orangeciwap"
+    user="wap"
+    server=""
+    password="wap"
+    proxy="172.20.4.33"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+  <apn carrier="0mms"
+    mcc="612"
+    mnc="03"
+    apn="orangecimms"
+    user="mms"
+    server=""
+    password="mms"
+    proxy="172.20.4.33"
+    port="8080"
+    mmsproxy="172.20.4.33"
+    mmsport="8080"
+    mmsc="http://172.20.6.1/servlets/mms"
+    type="mms"
+    authtype="1"
+  />
+</apns>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Ncell" mcc="429" mnc="02" apn="web" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" authtype="0"/>
+  <apn carrier="Ncell MMS" mcc="429" mnc="02" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="010.068.001.149" mmsport="8080" mmsc="http://010.068.001.149" type="mms" authtype="0"/>
+  <apn carrier="ims" mcc="429" mnc="02" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

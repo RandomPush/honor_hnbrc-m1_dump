@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datainitializor>
+  <contact>
+    <name>Контакт центр</name>
+    <phone>
+      <detail>88007001677</detail>
+    </phone>
+    <readonly>true</readonly>
+  </contact>
+</datainitializor>

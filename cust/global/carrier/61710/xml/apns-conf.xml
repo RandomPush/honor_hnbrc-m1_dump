@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Emtel" mcc="617" mnc="10" apn="web" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="Emtel wap" mcc="617" mnc="10" apn="wap" user="" server="" password="" proxy="192.168.0.214" port="8080" mmsproxy="" mmsport="" mmsc="" type="default"/>
+  <apn carrier="Emtel MMS" mcc="617" mnc="10" apn="mms" user="" server="" password="" proxy="" port="" mmsproxy="192.168.0.7" mmsport="8514" mmsc="http://mms" type="mms"/>
+  <apn carrier="Emtel IMS" mcc="617" mnc="10" apn="ims" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsc="" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6"/>
+</apns>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e0e328c30c78b8bff579c0eb0bab0fbb">
+  <dict>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="IPsecSaLifeTime">3600</int>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2DpdInterval">300</int>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2DpdMaxFails">3</int>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">3600</int>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">3600</int>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2PcscfIpv4Address">20</int>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2PcscfIpv6Address">21</int>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="Ikev2SaLifeTime">3600</int>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="carrier_default_wfc_ims_roaming_mode_int">2</int>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="ims_video_ring">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="utBsfPort">443</int>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="utBsfUsehttps">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="utNafPort">443</int>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="utNafUseHttps">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="vowifiHplmnListItem">52005, epdg.epc.mnc005.mcc520.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:43:40.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <bool key="vowifi_roaming_switch">false</bool>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="wfc_format_wifi_string">%1$s Wi-Fi</string>
+    <!--2023-01-31 11:43:40.000-->
+    <string key="wfc_spn_string">dtac</string>
+  </dict>
+</config>

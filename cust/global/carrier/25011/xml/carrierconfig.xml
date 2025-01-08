@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0039be34f4b6db9266a803767f2dfecb">
+  <dict>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="auto_retry_failed_wifi_emergency_call">true</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="carrier_need_check_location_bool">true</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="carrier_need_check_wifi_bool">false</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:46:55.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:46:55.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="remind_close_vowifi_when_close_location">true</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="show_vowifi_register_style">true</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <int key="smsToMmsTextThreshold">4</int>
+    <!--2023-01-31 11:46:55.000-->
+    <bool key="vowifi_pref_wifi_cell">true</bool>
+    <!--2023-01-31 11:46:55.000-->
+    <string key="wfc_format_wifi_string">%1$s</string>
+    <!--2023-01-31 11:46:55.000-->
+    <string key="wfc_spn_string">YOTA</string>
+  </dict>
+</config>

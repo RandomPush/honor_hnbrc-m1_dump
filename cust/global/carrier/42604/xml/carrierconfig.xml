@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c80282d5c7f54d9cfecb91d4e4beed9f">
+  <dict>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="EspEncAlg">RCT_ALG_DES3_CBC</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:44:42.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:44:42.000-->
+    <int key="carrier_default_wfc_ims_mode_int">3</int>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="carrier_vowifi_title">Wi-Fi Calling</string>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="carrier_wfc_supports_cellular_preferred_bool">true</bool>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="vowifiHplmnListItem">42604, epdg.epc.mnc004.mcc426.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:44:42.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:44:42.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="wfc_format_wifi_string">%1$s WiFi Calling</string>
+    <!--2023-01-31 11:44:42.000-->
+    <string key="wfc_spn_string">STC</string>
+  </dict>
+</config>

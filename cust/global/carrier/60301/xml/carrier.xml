@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2d75e945989efec5dc6b0963ee7ac5c8">
+  <dict>
+    <!--2023-01-31 11:40:59.000-->
+    <int key="num_match">8</int>
+    <!--2023-01-31 11:40:59.000-->
+    <string key="voicemail_carrier">ATM MOBILIS</string>
+    <!--2023-01-31 11:40:59.000-->
+    <string key="voicemail_number">123</string>
+    <!--2023-01-31 11:40:59.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="1c5db07199ed0966c5b41ec11161627a">
+  <dict>
+    <dict key="bookmarks_folders">
+      <array key="bookmarks_folders_language">
+        <dict>
+          <string key="bookmarks_folder_name">Entel</string>
+          <array key="bookmarks">
+            <dict>
+              <string key="title">Google</string>
+              <string key="url">http://www.google.com</string>
+            </dict>
+            <dict>
+              <string key="title">El Comercio</string>
+              <string key="url">http://www.elcomercio.pe</string>
+            </dict>
+            <dict>
+              <string key="title">El Comercio Movil</string>
+              <string key="url">http://m.elcomercio.pe</string>
+            </dict>
+            <dict>
+              <string key="title">Banco de Credito</string>
+              <string key="url">http://www.viabcp.com</string>
+            </dict>
+            <dict>
+              <string key="title">Peru.com</string>
+              <string key="url">http://www.peru.com</string>
+            </dict>
+            <dict>
+              <string key="title">Hotmail</string>
+              <string key="url">http://www.outlook.com</string>
+            </dict>
+            <dict>
+              <string key="title">Yahoo!</string>
+              <string key="url">http://www.yahoo.com</string>
+            </dict>
+            <dict>
+              <string key="title">Gmail</string>
+              <string key="url">http://www.gmail.com</string>
+            </dict>
+            <dict>
+              <string key="title">Facebook</string>
+              <string key="url">http://www.facebook.com</string>
+            </dict>
+            <dict>
+              <string key="title">Twitter</string>
+              <string key="url">http://www.twitter.com</string>
+            </dict>
+            <dict>
+              <string key="title">Wikipedia</string>
+              <string key="url">http://www.wikipedia.org</string>
+            </dict>
+            <dict>
+              <string key="title">YouTube</string>
+              <string key="url">http://www.youtube.com</string>
+            </dict>
+            <dict>
+              <string key="title">YouTube Movil</string>
+              <string key="url">http://m.youtube.com</string>
+            </dict>
+            <dict>
+              <string key="title">RPP</string>
+              <string key="url">http://www.rpp.com.pe</string>
+            </dict>
+            <dict>
+              <string key="title">Paginas Amarillas</string>
+              <string key="url">http://www.paginasamarillas.com.pe</string>
+            </dict>
+            <dict>
+              <string key="title">My Space</string>
+              <string key="url">http://www.myspace.com/</string>
+            </dict>
+            <dict>
+              <string key="title">eBay</string>
+              <string key="url">http://www.ebay.com/</string>
+            </dict>
+            <dict>
+              <string key="title">CNN</string>
+              <string key="url">http://www.cnn.com/</string>
+            </dict>
+            <dict>
+              <string key="title">NY Times</string>
+              <string key="url">http://www.nytimes.com/</string>
+            </dict>
+            <dict>
+              <string key="title">Amazon</string>
+              <string key="url">http://www.amazon.com/</string>
+            </dict>
+            <dict>
+              <string key="title">Weather Channel</string>
+              <string key="url">http://www.weather.com/</string>
+            </dict>
+            <dict>
+              <string key="title">BBC</string>
+              <string key="url">http://www.bbc.co.uk/</string>
+            </dict>
+            <dict>
+              <string key="title">Atencion al Cliente entel</string>
+              <string key="url">http://www.entel.pe/personas/contacto/</string>
+            </dict>
+          </array>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</config>

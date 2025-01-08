@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CONFIG_PARA>
+    <platformType value = "cpu"/>
+    <bigCoreList value = "6 7"/>
+    <roiRect value = "126 516 46 434"/>
+    <stableFrameCount value = "7"/>
+    <fovLimit value = "160 320"/>
+    <unlockThreshold_cn value = "0.9"/>
+    <unlockThreshold_aboard value = "0.9"/>
+    <livenessThreshold value = "0.96"/>
+    <eysStateThreshold value = "7.0"/>
+    <logLevel value = "2"/>
+    <defaultFaceRect value = "0 400 80 400"/>
+    <isChildMode value = "0"/>
+    <maskUnlockSupported value = "0"/>
+    <maskUnlockUX value = "0" />
+    <teeUpgradeFeature value = "1" />
+</CONFIG_PARA>

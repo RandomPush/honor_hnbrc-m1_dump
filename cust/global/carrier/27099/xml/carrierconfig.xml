@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="2a59d999a986543f7cb2254fbe9885be">
+  <dict>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="IPsecSaLifeTime">28800</int>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1536,RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP2048</string>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2DpdInterval">120</int>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">28800</int>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">7200</int>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2MaxRetryToSend">5</int>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2PcscfIpv4Address">20</int>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2PcscfIpv6Address">21</int>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="Ikev2SaLifeTime">7200</int>
+    <!--2023-06-08 09:52:39.000-->
+    <bool key="carrier_allow_transfer_ims_call_bool">true</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <bool key="carrier_default_wfc_ims_enabled_bool">false</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_evs_icon_flag">000010</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_incall_cust_vowifi_type">DIAL_WIFI</string>
+    <!--2023-01-31 11:40:35.000-->
+    <bool key="carrier_pop_wfc_bool">true</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_statusbar_vowifi_type">DIAL_WIFI</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:40:35.000-->
+    <bool key="carrier_volte_show_calltrans_bool">true</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_vowifi_calllog_icon_type">DIAL_WIFI</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_vowifi_dialer_icon_type">DIAL_WIFI</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2024-03-15 11:05:14.000-->
+    <string key="carrier_wb_hd_icon_flag">000010</string>
+    <!--2023-02-06 19:47:20.000-->
+    <bool key="com.google.android.dialer.display_wifi_calling_button_bool">true</bool>
+    <!--2023-02-06 19:47:20.000-->
+    <bool key="display_call_type_icon_bool">true</bool>
+    <!--2023-02-06 19:47:20.000-->
+    <string key="display_wifi_icon_type_string">vowifi</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="is_show_vowifi_tile_flag">true</string>
+    <!--2023-01-31 11:40:35.000-->
+    <bool key="preferToUseUT">false</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="utPreferOption">1</int>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="vowifiHplmnListItem">27099, epdg.epc.mnc099.mcc270.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:40:35.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:40:35.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="wfc_format_wifi_string">%1$s Wi-Fi</string>
+    <!--2023-01-31 11:40:35.000-->
+    <string key="wfc_spn_string">Orange</string>
+  </dict>
+</config>

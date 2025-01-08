@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="71d69f76bd54adbd2c4997e84e15a01a">
+  <dict>
+    <!--2023-01-31 11:44:19.000-->
+    <bool key="data_roaming_switch">true</bool>
+    <!--2023-01-31 11:44:19.000-->
+    <string key="hn_networkname_normal">all,LTE:4G;CA:4G;MiMo:4G;CAMiMo:4G</string>
+    <!--2023-01-31 11:44:19.000-->
+    <int key="num_match">10</int>
+    <!--2023-01-31 11:44:19.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2023-01-31 11:44:19.000-->
+    <string key="voicemail_carrier">Avantel</string>
+    <!--2023-01-31 11:44:19.000-->
+    <string key="voicemail_number">3508888888</string>
+    <!--2023-01-31 11:44:19.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

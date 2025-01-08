@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="4f35d6d785d3c85febb46a030833bcf9">
+  <dict>
+    <!--2023-01-31 11:41:13.000-->
+    <string key="default_protocol">IPV4V6</string>
+    <!--2023-01-31 11:41:13.000-->
+    <string key="roaming_protocol">IPV4V6</string>
+  </dict>
+</config>

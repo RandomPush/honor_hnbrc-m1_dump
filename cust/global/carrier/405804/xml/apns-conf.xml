@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="Aircel-GPRS"
+    mcc="405"
+    mnc="804"
+    apn="aircelgprs"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Aircel Pocket Internet"
+    mcc="405"
+    mnc="804"
+    apn="aircelwap"
+    user=""
+    server=""
+    password=""
+    proxy="172.17.83.69"
+    port="8080"
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default"
+  />
+  <apn carrier="Aircel MMS"
+    mcc="405"
+    mnc="804"
+    apn="aircelmms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="172.17.83.69"
+    mmsport="8080"
+    mmsc="http://10.50.1.166/servlets/mms"
+    type="mms"
+  />
+</apns>

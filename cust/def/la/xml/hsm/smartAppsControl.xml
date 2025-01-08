@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+  <package name="com.dti.millicom">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.iu.entel.preload">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.dti.attmx">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.celltick.lockscreen">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.telcel.contenedor">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.claroColombia.contenedor">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.payjoy.status.df">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.trustonic.telecoms.client.standard.dlc.playground">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.trustonic.telecoms.standard.dlc">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.google.android.apps.devicelock">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.dti.amx">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.payjoy.status">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="pe.com.claro.sva.clarostore.presentation">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="pe.com.claro.sva.etrack.presentation">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="pe.com.claro.sva.esales">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="pe.com.claro.sva.esecurity.presentation">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.dti.telefonica">
+    <item name="isShow">0</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.promobitech.nuovo">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+  <package name="com.google.android.devicelockcontroller">
+    <item name="isShow">1</item>
+    <item name="operation">2</item>
+    <item name="autoStart">0</item>
+    <item name="autoAwakedBy">0</item>
+    <item name="background">0</item>
+  </package>
+</policy>

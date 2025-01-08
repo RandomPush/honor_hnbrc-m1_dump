@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前版本号：Global_parameters V3.664
+SE13_version 20180416
+type=GLOBAL
+subtype=generic
+compatibleVersion=1目前包含 217个国家和地区，1334套运营商参数。 -->
+<apns version="8">
+  <apn carrier="DST Internet"
+    mcc="528"
+    mnc="11"
+    apn="dst.internet"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+  />
+  <apn carrier="DST MMS"
+    mcc="528"
+    mnc="11"
+    apn="dst.mms"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy="10.100.6.101"
+    mmsport="3130"
+    mmsc="http://mms.dst.com.bn/mmsc"
+    type="mms"
+  />
+</apns>

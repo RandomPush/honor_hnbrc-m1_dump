@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config hashvalue="544d1cc3259577c3afad7fdd7693ad6c">
+  <dict>
+    <array key="additional_cbs_channels_strings">
+      <string>0x112C-0x112F:rat=gsm, emergency=true, title=all||EMERGENCY ALERT / ALERTE D’URGENCE</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113-0x1114:rat=gsm, emergency=true, title=all||EMERGENCY ALERT / ALERTE D’URGENCE</string>
+      <string>0x1120-0x1121:rat=gsm, emergency=true, title=all||EMERGENCY ALERT / ALERTE D’URGENCE</string>
+    </array>
+  </dict>
+</config>

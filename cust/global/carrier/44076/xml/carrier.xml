@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="756580db4a914becb77dac00f55b720a">
+  <dict>
+    <!--2023-01-31 11:51:29.000-->
+    <string key="hn_nwmode_pref_bymccmnc_5G">65,9,3,2</string>
+    <!--2023-01-31 11:51:29.000-->
+    <int key="plmn_esm_flag">0</int>
+    <!--2023-01-31 11:51:29.000-->
+    <bool key="single_pdp_enabled">true</bool>
+  </dict>
+</config>

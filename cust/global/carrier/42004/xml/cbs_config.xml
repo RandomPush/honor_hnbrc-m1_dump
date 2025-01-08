@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="171003e85486a76cf839dc6d14dd4650">
+  <dict>
+    <array key="cmas_presidential_alerts_channels_range_strings">
+      <string>0x1112:rat=gsm, emergency=true, title=all||الرسائل التحذيرية الوطنية</string>
+      <string>0x111F:rat=gsm, emergency=true, title=all||National Warning Alerts</string>
+    </array>
+    <array key="cmas_alert_extreme_channels_range_strings">
+      <string>0x1113-0x1114:rat=gsm, emergency=true, title=all||الرسائل التحذيرية الطارئة جداً</string>
+      <string>0x1120-0x1121:rat=gsm, emergency=true, title=all||Extreme Emergency Warning Alerts</string>
+    </array>
+    <array key="cmas_alerts_severe_range_strings">
+      <string>0x1115-0x111A:rat=gsm, emergency=true, title=all||الرسائل التحذيرية الطارئة</string>
+      <string>0x1122-0x1127:rat=gsm, emergency=true, title=all||Emergency Warning Alerts</string>
+    </array>
+    <array key="cmas_amber_alerts_channels_range_strings">
+      <string>0x111B:rat=gsm, emergency=true, title=all||الرسائل التحذيرية</string>
+      <string>0x1128:rat=gsm, emergency=true, title=all||Alerts</string>
+    </array>
+    <array key="required_monthly_test_range_strings">
+      <string>0x111C:rat=gsm, emergency=true, title=all||الرسائل التجريبية</string>
+      <string>0x1129:rat=gsm, emergency=true, title=all||Testing Alerts</string>
+    </array>
+    <array key="exercise_alert_range_strings"/>
+    <array key="emergency_alerts_channels_range_strings">
+      <string>0x111D:rat=gsm, emergency=true, title=all||تمارين</string>
+      <string>0x112A:rat=gsm, emergency=true, title=all||Exercises</string>
+    </array>
+  </dict>
+</config>

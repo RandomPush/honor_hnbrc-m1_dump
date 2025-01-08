@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="mobiledata"
+    mcc="208"
+    mnc="22"
+    apn="mobiledata"
+    user=""
+    server=""
+    password=""
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc="http://mms"
+    type="default,supl,mms"
+  />
+</apns>

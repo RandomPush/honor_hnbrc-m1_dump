@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="61a9b99bd8b5dceb397b46e90946dc1f">
+  <dict>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="EspEncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="IPsecSaLifeTime">28800</int>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2DpdInterval">600</int>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2DpdMaxFails">3</int>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2IPsecSaRekeyTimeSec">28800</int>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2IkeSaRekeyTimerSec">28800</int>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2IntervalToSend">4</int>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2MaxRetryToSend">3</int>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="Ikev2SaLifeTime">28800</int>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="carrier_vowifi_hd_icon_flag">10101010</string>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="vowifiEpdgFindDesignedNetwork">true</bool>
+    <!--2023-01-31 11:46:30.000-->
+    <string key="vowifiHplmnListItem">71401, epdg.epc.mnc001.mcc714.pub.3gppnetwork.org</string>
+    <!--2023-01-31 11:46:30.000-->
+    <int key="vowifiRoamingConfig">0</int>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="vowifiStaticRoaming">true</bool>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="vowifiStaticUnroaming">true</bool>
+    <!--2023-01-31 11:46:30.000-->
+    <bool key="vowifi_roaming_switch">true</bool>
+  </dict>
+</config>

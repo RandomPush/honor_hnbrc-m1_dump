@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apns version="8">
+  <apn carrier="Internet"
+    mcc="214"
+    mnc="08"
+    apn="internet.euskaltel.mobi"
+    user="CLIENTE"
+    server=""
+    password="EUSKALTEL"
+    proxy=""
+    port=""
+    mmsproxy=""
+    mmsport=""
+    mmsc=""
+    type="default,supl"
+    authtype="1"
+  />
+</apns>
